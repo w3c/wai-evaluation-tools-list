@@ -1,0 +1,148 @@
+[
+  {
+    "id": "type",
+    "name": "Type",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "grad",
+        "name": "Graduate program"
+      },
+      {
+        "id": "undergraduate",
+        "name": "Undergraduate program"
+      },
+      {
+        "id": "training",
+        "name": "Training program"
+      },
+      {
+        "id": "certification",
+        "name": "Professional certification"
+      },
+      {
+        "id": "other_type",
+        "name": "Other"
+      }                        
+    ]
+  },
+  {
+    "id": "audience",
+    "name": "Audience",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "developer",
+        "name": "Developer"
+      },
+      {
+        "id": "designer",
+        "name": "Designer"
+      },
+      {
+        "id": "content_author",
+        "name": "Content author"
+      },
+      {
+        "id": "manager",
+        "name": "Manager"
+      },
+      {
+        "id": "tester",
+        "name": "Tester"
+      },
+      {
+        "id": "other_audience",
+        "name": "Other"
+      }
+    ]
+  },
+  {
+    "id": "level",
+    "name": "Level",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "basic",
+        "name": "Basic"
+      },
+      {
+        "id": "intermediate",
+        "name": "Intermediate"
+      },
+      {
+        "id": "advanced",
+        "name": "Advanced"
+      }
+    ]
+  },
+  {
+    "id": "format",
+    "name": "Format",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "online",
+        "name": "Online"
+      },
+      {
+        "id": "face-to-face",
+        "name": "Face-to-face"
+      },
+      {
+        "id": "hybrid",
+        "name": "Hybrid"
+      }
+    ]
+  },
+  {
+    "id": "learning",
+    "name": "Learning",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "guided",
+        "name": "Guided"
+      },
+      {
+        "id": "non-guided",
+        "name": "Non-guided"
+      },
+      {
+        "id": "synchronous",
+        "name": "Synchronous"
+      },
+      {
+        "id": "asynchronous",
+        "name": "Asynchronous"
+      }
+    ]
+  },
+  {
+    "id": "cost",
+    "name": "Cost",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "free",
+        "name": "Free"
+      },
+      {
+        "id": "free_certificates_for_purchase",
+        "name": "Free with certificates for purchase"
+      },
+      {
+        "id": "free_limited_time",
+        "name": "Free for limited content or duration"
+      },
+      {
+        "id": "free_or_reduced_for_some",
+        "name": "Free or reduced fee for some"
+      },
+      {
+        "id": "paid",
+        "name": "Paid"
+      }
+    ]
+  }
+]

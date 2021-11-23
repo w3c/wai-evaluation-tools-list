@@ -1,0 +1,55 @@
+[
+    {
+        "id": "wcag-conformance",
+        "name": "All content meets <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">Web Content Accessibility Guidelines (WCAG) Overview</a> - Level A, AA, or AAA"
+    },
+    {
+        "id": "presentation-accessible-all",
+        "name": "All content meets relevant good practice in <a href=\"https://www.w3.org/WAI/teach-advocate/accessible-presentations/\">How to Make Your Presentations Accessible to All</a>"
+    },
+    {
+        "id": "audio-video-good-practices",
+        "name": "Audio and video content meets the good practice in <a href=\"https://www.w3.org/WAI/media/av/av-content/\">Audio Content and Video Content</a>"
+    },
+    {
+        "id": "visual-info-description",
+        "name": "<a href=\"https://www.w3.org/WAI/media/av/description/\">Description of visual information</a> - integrated description, audio description, or text description"
+    },
+    {
+        "id": "captions-live-captions",
+        "name": "<a href=\"https://www.w3.org/WAI/media/av/captions/\">Captions</a> (also called intralingual subtitles), live captions (also called real-time or CART)"
+    },
+    {
+        "id": "transcripts",
+        "name": "<a href=\"https://www.w3.org/WAI/media/av/transcripts/\">Transcripts</a> - basic transcripts, descriptive transcripts, interactive transcripts"
+    },
+    {
+        "id": "sign-language-interpretation",
+        "name": "<a href=\"https://www.w3.org/WAI/media/av/sign-languages/\">Sign language</a> interpretation - International Sign, or other language"
+    },
+    {
+        "id": "media-player-accessibility",
+        "name": "<a href=\"https://www.w3.org/WAI/media/av/player/\">Media player accessibility</a>"
+    },
+    {
+        "id": "accessible-venue",
+        "name": "Accessible venue"
+    },
+    {
+        "id": "pre-check-available",
+        "name": "Pre-session technology check available"
+    },
+    {
+        "id": "material-available-before-sessions",
+        "name": "Materials all available before sessions"
+    },
+    {
+        "id": "accessible_venue",
+        "name": "Teaching resources available in relevant alternative formats (e.g., large print documents, tactile graphics, braille translations and printing, etc.)"
+    }, 
+    {
+        "id": "z_other",
+        "name": "Other"
+    }
+]
+

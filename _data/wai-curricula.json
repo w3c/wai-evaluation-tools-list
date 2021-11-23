@@ -1,0 +1,76 @@
+[
+    {
+        "id": "foundations_modules",
+        "name": "Foundations Modules",
+        "link": "https://www.w3.org/WAI/curricula/foundation-modules/",
+        "modules": [
+            {
+                "id": "foundations_modules1",
+                "name": "Module 1: What is accessibility",
+                "link": "https://www.w3.org/WAI/curricula/foundation-modules/what-is-web-accessibility/"
+            },
+            {
+                "id": "foundations_modules2",
+                "name": "Module 2: People and Digital Technology",
+                "link": "https://www.w3.org/WAI/curricula/foundation-modules/people-and-digital-technology/"
+            },
+            {
+                "id": "foundations_modules3",
+                "name": "Module 3: Business Case and Benefits",
+                "link": "https://www.w3.org/WAI/curricula/foundation-modules/business-case-and-benefits/"
+            },
+            {
+                "id": "foundations_modules4",
+                "name": "Module 4: Principles, Standards, and Checks",
+                "link": "https://www.w3.org/WAI/curricula/foundation-modules/principles-standards-and-checks/"
+            },
+            {
+                "id": "foundations_modules5",
+                "name": "Module 5: Getting Started with Accessibility",
+                "link": "https://www.w3.org/WAI/curricula/foundation-modules/getting-started-with-accessibility/"
+            }
+        ]
+    },
+    {
+        "id": "developer_modules",
+        "name": "Developer Modules",
+        "link": "https://www.w3.org/WAI/curricula/developer-modules/",
+        "modules": [
+            {
+                "id": "developer_modules1",
+                "name": "Module 1: Page Structure",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/page-structure/"
+            },
+            {
+                "id": "developer_modules2",
+                "name": "Module 2: Menus",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/menus/"
+            },
+            {
+                "id": "developer_modules3",
+                "name": "Module 3: Images",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/images/"
+            },
+            {
+                "id": "developer_modules4",
+                "name": "Module 4: Tables",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/tables/"
+            },
+            {
+                "id": "developer_modules5",
+                "name": "Module 5: Forms",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/forms/"
+            },
+            {
+                "id": "developer_modules6",
+                "name": "Module 6: Custom Widgets",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/custom-widgets/"
+            },
+            {
+                "id": "developer_modules7",
+                "name": "Module 7: Rich Applications",
+                "link": "https://www.w3.org/WAI/curricula/developer-modules/rich-applications/"
+            }
+        ]
+    }
+]
