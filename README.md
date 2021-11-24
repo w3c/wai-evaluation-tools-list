@@ -1,6 +1,8 @@
 # List of Evaluation Tools
 
-## Development Details 
+## Development
+
+The current work is on [this PR](https://github.com/w3c/wai-evaluation-tools-list/pull/1 )
 
 See [interative lists repo](https://github.com/w3c/wai-interactive-lists).
 
@@ -11,4 +13,3 @@ See [interative lists repo](https://github.com/w3c/wai-interactive-lists).
 The [master branch deploy](https://master--wai-evaluation-tools-list.netlify.app/list-of-evaluation-tools/)
 
 Pull Requests Have Netlify links to see CD 'preview' deploys
-
