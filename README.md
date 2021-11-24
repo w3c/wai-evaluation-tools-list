@@ -2,9 +2,9 @@
 
 ## Development
 
-The current work is on [this PR](https://github.com/w3c/wai-evaluation-tools-list/pull/1) which provides a link ot the preview deploy on Netlify.
+The current work is on [this PR](https://github.com/w3c/wai-evaluation-tools-list/pull/1) which provides a link to the `develop` branch preview deploy on Netlify.
 
-See [interative lists repo](https://github.com/w3c/wai-interactive-lists).
+See [interative lists repo](https://github.com/w3c/wai-interactive-lists) for more details on config and build.
 
 ## Continuous Deployment
 
