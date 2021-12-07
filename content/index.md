@@ -2,9 +2,9 @@
 # NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "List of Evaluation Tools"
-title_html: "List of Evaluation Tools" 
-nav_title: "List of Ealuation Tools"
+title: "Web Accessibility Evaluation Tools List"
+title_html: "Web Accessibility Evaluation Tools List" 
+nav_title: "Web Accessibility Evaluation Tools List"
 doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -42,8 +42,8 @@ footer: >
 {% include css/styles.css %}
 </style>
 <div class="header-sup">
-    <p>This List of Courses provides information about courses, training, and certification on web accessibility from different providers. It is meant to help you make informed decisions to choose a resource. The page allows you to filter submissions to find ones that match your specific interest and need. If you wish to provide information about a course, training, or certification on web accessibility, please use the following button to add or update information about your resource.</p>
-    {% include_cached button.html type="link" label="Submit a course, training, or certification" class="more" href="submit-an-offer" %}
+    <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
+    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}
     <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
     </em></p>
 </div>
@@ -121,7 +121,7 @@ footer: >
     
 </div>
 <div class="button-submit-end">
-    {% include_cached button.html type="link" label="Submit a course, training, or certification" class="more" href="submit-an-offer" %}  
+    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
 </div>
 
 <script>
