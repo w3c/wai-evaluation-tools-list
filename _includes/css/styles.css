@@ -203,8 +203,12 @@ details>div{
   padding-left: 16px;
 }
 
+#improvepage {
+  grid-column: 2 / 8;
+}
+
 #disclaimer {
-  border: 1px solid var(--line-grey);
+  grid-column: 2 / 8;
 }
 
 #disclaimer h2 {

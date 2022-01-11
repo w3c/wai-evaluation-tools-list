@@ -1,126 +1,111 @@
 [
   {
-    "id": "type",
-    "name": "Type",
+    "id": "purpose",
+    "name": "Purpose",
     "type": "checkbox",
     "options": [
       {
-        "id": "grad",
-        "name": "Graduate program"
+        "id": "automatic",
+        "name": "Automatically test accessibility"
       },
       {
-        "id": "undergraduate",
-        "name": "Undergraduate program"
+        "id": "manual",
+        "name": "Support manual testing"
       },
       {
-        "id": "training",
-        "name": "Training program"
+        "id": "simulate",
+        "name": "Simulate user experience"
+      }                      
+    ]
+  },
+  {
+    "id": "product",
+    "name": "Product to evaluate",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "website",
+        "name": "Website"
       },
       {
-        "id": "certification",
-        "name": "Professional certification"
+        "id": "application",
+        "name": "Application"
       },
       {
-        "id": "other_type",
+        "id": "document",
+        "name": "Document"
+      },
+      {
+        "id": "sourcecode",
+        "name": "Source code"
+      },
+      {
+        "id": "otherProduct",
         "name": "Other"
-      }                        
+      }                       
     ]
   },
   {
-    "id": "audience",
-    "name": "Audience",
+    "id": "mediatype",
+    "name": "Media type",
     "type": "checkbox",
     "options": [
       {
-        "id": "developer",
-        "name": "Developer"
+        "id": "text",
+        "name": "Text"
       },
       {
-        "id": "designer",
-        "name": "Designer"
+        "id": "videoAnimations",
+        "name": "Video / Animations"
       },
       {
-        "id": "content_author",
-        "name": "Content author"
+        "id": "images",
+        "name": "Images"
       },
       {
-        "id": "manager",
-        "name": "Manager"
-      },
-      {
-        "id": "tester",
-        "name": "Tester"
-      },
-      {
-        "id": "other_audience",
-        "name": "Other"
-      }
+        "id": "audio",
+        "name": "Audio"
+      }                      
     ]
   },
   {
-    "id": "level",
-    "name": "Level",
+    "id": "typeoftool",
+    "name": "Type of tool",
     "type": "checkbox",
     "options": [
       {
-        "id": "basic",
-        "name": "Basic"
+        "id": "extension",
+        "name": "Browser extension"
       },
       {
-        "id": "intermediate",
-        "name": "Intermediate"
+        "id": "desktop",
+        "name": "Desktop application"
       },
       {
-        "id": "advanced",
-        "name": "Advanced"
-      }
+        "id": "mobile",
+        "name": "Mobile application"
+      },
+      {
+        "id": "web",
+        "name": "Web application"
+      },
+      {
+        "id": "serverside",
+        "name": "Server-side integration"
+      },
+      {
+        "id": "programming",
+        "name": "Programming tool plugin"
+      },
+      {
+        "id": "authoring",
+        "name": "Authoring tool plugin"
+      }                       
     ]
   },
   {
-    "id": "format",
-    "name": "Format",
-    "type": "checkbox",
-    "options": [
-      {
-        "id": "online",
-        "name": "Online"
-      },
-      {
-        "id": "face-to-face",
-        "name": "Face-to-face"
-      },
-      {
-        "id": "hybrid",
-        "name": "Hybrid"
-      }
-    ]
-  },
-  {
-    "id": "learning",
-    "name": "Learning",
-    "type": "checkbox",
-    "options": [
-      {
-        "id": "guided",
-        "name": "Guided"
-      },
-      {
-        "id": "non-guided",
-        "name": "Non-guided"
-      },
-      {
-        "id": "synchronous",
-        "name": "Synchronous"
-      },
-      {
-        "id": "asynchronous",
-        "name": "Asynchronous"
-      }
-    ]
-  },
-  {
-    "id": "cost",
-    "name": "Cost",
+    "id": "paidorfree",
+    "name": "Paid or free",
     "type": "checkbox",
     "options": [
       {
@@ -128,21 +113,195 @@
         "name": "Free"
       },
       {
-        "id": "free_certificates_for_purchase",
-        "name": "Free with certificates for purchase"
+        "id": "limited",
+        "name": "Limited free functionality"
       },
       {
-        "id": "free_limited_time",
-        "name": "Free for limited content or duration"
+        "id": "timetrial",
+        "name": "Time-limited trial"
       },
       {
-        "id": "free_or_reduced_for_some",
-        "name": "Free or reduced fee for some"
+        "id": "subscription",
+        "name": "Subscription"
       },
       {
-        "id": "paid",
-        "name": "Paid"
-      }
+        "id": "purchase",
+        "name": "One-time purchase"
+      }                       
     ]
-  }
+  },
+  {
+    "id": "scope",
+    "name": "Scope",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "element",
+        "name": "Single element"
+      },
+      {
+        "id": "page",
+        "name": "Single page"
+      },
+      {
+        "id": "entire",
+        "name": "Entire website/app"
+      },
+      {
+        "id": "restricted",
+        "name": "Restricted or password protected pages"
+      }                       
+    ]
+  },
+  {
+    "id": "guidelines",
+    "name": "Guidelines",
+    "type": "checkbox",
+    "options": [
+                                 
+    ]
+  },
+  {
+    "id": "fileformat",
+    "name": "File format",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "msdocuments",
+        "name": "Microsoft Office documents"
+      },
+      {
+        "id": "odf",
+        "name": "Open Documents Format (ODF)"
+      },
+      {
+        "id": "pdf",
+        "name": "PDF"
+      },
+      {
+        "id": "html",
+        "name": "HTML"
+      },
+      {
+        "id": "xhtml",
+        "name": "XHTML"
+      },
+      {
+        "id": "css",
+        "name": "CSS"
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI ARIA"
+      },
+      {
+        "id": "smil",
+        "name": "SMIL"
+      },
+      {
+        "id": "markdown",
+        "name": "Markdown"
+      }                       
+    ]
+  },
+  {
+    "id": "accessible",
+    "name": "Tool is accessible",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "yes",
+        "name": "Yes"
+      },
+      {
+        "id": "no",
+        "name": "No"
+      }                       
+    ]
+  },
+  {
+    "id": "operatingsystem",
+    "name": "Operating system",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "android",
+        "name": "Android"
+      },
+      {
+        "id": "ios",
+        "name": "iOS"
+      },
+      {
+        "id": "windows",
+        "name": "Windows"
+      },
+      {
+        "id": "macos",
+        "name": "MacOS"
+      },
+      {
+        "id": "linux",
+        "name": "Linus"
+      },
+      {
+        "id": "otheros",
+        "name": "Other"
+      }                       
+    ]
+  },
+  {
+    "id": "browser",
+    "name": "Browser",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "chrome",
+        "name": "Chrome"
+      },
+      {
+        "id": "safari",
+        "name": "Safari"
+      },
+      {
+        "id": "edge",
+        "name": "Edge"
+      },
+      {
+        "id": "firefox",
+        "name": "Firefox"
+      },
+      {
+        "id": "opera",
+        "name": "Opera"
+      },
+      {
+        "id": "otherbrowser",
+        "name": "Other"
+      }                       
+    ]
+  },
+  {
+    "id": "metrics",
+    "name": "Metrics",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "colorcontrast",
+        "name": "Color contrast"
+      },
+      {
+        "id": "textalternatives",
+        "name": "Text alternatives"
+      },
+      {
+        "id": "labels",
+        "name": "Labels"
+      },
+      {
+        "id": "pagestructure",
+        "name": "Page structure"
+      }                       
+    ]
+  }   
 ]

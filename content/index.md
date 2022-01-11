@@ -2,9 +2,9 @@
 # NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "Web Accessibility Evaluation Tools List"
-title_html: "Web Accessibility Evaluation Tools List" 
-nav_title: "Web Accessibility Evaluation Tools List"
+title: "Tools for web evaluation"
+title_html: "Tools for web evaluation" 
+nav_title: "Tools for web evaluation"
 doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -43,9 +43,12 @@ footer: >
 </style>
 <div class="header-sup">
     <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
-    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}
     <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
     </em></p>
+    {% include box.html type="start" class="simple" %}
+        <h3>Need help finding the right tool for you?</h3>
+        {% include_cached button.html type="link" label="Help me choose" class="more" %}  
+    {% include box.html type="end" %}
 </div>
 <div id="app">
     <div id="left-col" class="offers-filters">
@@ -67,40 +70,22 @@ footer: >
             {% endfor %}
             {% assign langAvailable = site.data.offers | map: "language" | uniq %}
             <fieldset id="language-filter">
-                <legend>Language</legend>
-                <div class="filter-options field">
-                    <select name="language" id="language">
-                        <option value="">--Select an option--</option>
-                        {% for language in langAvailable %}
-                        <option value="{{ language }}">{{ site.data.lang[language].name }} ({{
-                            site.data.lang[language].nativeName}})</option>
-                        {% endfor %}
-                    </select>
-                </div>
-            </fieldset>
-            {% assign countriesAvailable = site.data.offers | map: "country" | uniq %}
-            <fieldset id="contry-filter">
-                <legend>Country</legend>
-                <div class="filter-options field">
-                    <select name="country" id="country">
-                        <option value="">--Select an option--</option>
-                        {% for country in countriesAvailable %}
-                        <option value="{{ country }}">{{ site.data.countries[country].name }} ({{
-                            site.data.countries[country].nativeName}})</option>
-                        {% endfor %}
-                    </select>
-                </div>
+                <legend>Language</legend>  
+                    {% for language in langAvailable %}
+                        <div class="filter-options field">
+                            <input type="checkbox" id="filter-{{ option.id }}" name="language">
+                            <label for="filter-{{ language }}">{{ site.data.lang[language].name }} ({{
+                                site.data.lang[language].nativeName}})</label>
+                        </div>
+                    {% endfor %}
             </fieldset>
         </form>
         {% include_cached button.html label="Clear filters" class="clear-button"%}
-        <div id="disclaimer">
-            <h2>Important Disclaimer</h2>
-            <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of resources in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
-            <p>Courses descriptions, search criteria, and other information in this database are provider-submitted. W3C does not verify the accuracy of the information.</p>
-            <p>The list is not a review of courses, nor a complete or definitive list of all courses. The information can change at any time.</p>
-        </div>
     </div>
     <div id="offers-list">
+        <div class="field">
+            <input type="search" id="search" placeholder="Search tools">
+        </div>
         <span id="status">
             <p id="total-offers">Showing {{ site.data.offers | size }} results</p>
         </span>
@@ -120,10 +105,28 @@ footer: >
     </div>
     
 </div>
-<div class="button-submit-end">
-    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
+<div id="improvepage">
+    {% include box.html type="start" title="Help improve this page" %}
+        <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore</p>
+        <div class="button-group">
+            {% include_cached button.html type="link" label="Add tool" class="more" href="submit-an-offer" %}
+            {% include_cached button.html type="link" label="Update tool info" class="more" %}
+            {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
+        </div>
+    {% include box.html type="end" %}
 </div>
+<div id="disclaimer">
+    {% include box.html type="start" title="Important Disclaimer" %}
+        <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of resources in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
+        <p>Courses descriptions, search criteria, and other information in this database are provider-submitted. W3C does not verify the accuracy of the information.</p>
+        <p>The list is not a review of courses, nor a complete or definitive list of all courses. The information can change at any time.</p>
+    {% include box.html type="end" %}
+</div>
+<!-- <div class="button-submit-end">
+    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
+</div> -->
 
 <script>
+{% include js/importtools.js %}
 {% include js/offers.js %}
 </script>
