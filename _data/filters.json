@@ -2,6 +2,7 @@
   {
     "id": "purpose",
     "name": "Purpose",
+    "info": "true",
     "type": "checkbox",
     "options": [
       {
@@ -99,7 +100,8 @@
       },
       {
         "id": "authoring",
-        "name": "Authoring tool plugin"
+        "name": "Authoring tool plugin",
+        "info": "true"
       }                       
     ]
   },
@@ -156,6 +158,7 @@
   {
     "id": "guidelines",
     "name": "Guidelines",
+    "info": "true",
     "type": "checkbox",
     "options": [
                                  

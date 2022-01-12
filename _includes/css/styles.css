@@ -5,8 +5,27 @@
 }
 
 .header-sup {
+  display: grid;
+  grid-gap: 5em;
   grid-column: 1 / 8;
   margin-bottom: 48px;
+}
+
+.header-left {
+  grid-column: 1 / 5;
+}
+
+.header-right {
+  grid-column: 5 / 5;
+}
+
+.header-right .box {
+  margin: 0;
+  padding: 2em;
+}
+
+.header-right a {
+  padding: 1em;
 }
 
 .button-submit-end{
@@ -16,7 +35,7 @@
 
 @media ( min-width: 72em) {
   .header-sup {
-    grid-column: 2 / 9;
+    grid-column: 2 / 10;
   }
 }
 
@@ -26,7 +45,7 @@ main>header {
 
 @media ( min-width: 72em) {
   main>header {
-    grid-column: 2 / 9;
+    grid-column: 2 / 10;
   }
 }
 
@@ -37,14 +56,6 @@ main>header {
 .header-sup p:first-child {
   margin-top: 0;
   font-size: 125%;
-}
-
-.header-sup .button{
-  margin-bottom: 2em;
-}
-
-.button {
-  margin-top: 2em;
 }
 
 #app {
@@ -204,11 +215,12 @@ details>div{
 }
 
 #improvepage {
-  grid-column: 2 / 8;
+  grid-column: 4 / 10;
+  margin-top: 5em;
 }
 
 #disclaimer {
-  grid-column: 2 / 8;
+  grid-column: 4 / 10;
 }
 
 #disclaimer h2 {
@@ -251,7 +263,7 @@ details>div{
 */
 
 #helpimprove {
-  grid-column: 2 / 10;
+  grid-column: 4 / 10;
 }
 
 @media (min-width: 60em) {
@@ -264,4 +276,37 @@ details>div{
   grid-area: content;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.offers-list-header {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.offers-list-header .field {
+  grid-column: 1 / 5;
+  margin: 0;
+  align-self: center;
+}
+
+.offers-list-header #status {
+  grid-column: 5 / 8;
+  align-self: center;
+}
+
+.offers-list-header #status h4 {
+  margin: 0;
+}
+
+.offers-list-header .sort-by {
+  grid-column: 8 / 8;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.offers-list-header .sort-by h4 {
+  float: left;
+  margin: 0;
+  margin-right: 0.5em
 }

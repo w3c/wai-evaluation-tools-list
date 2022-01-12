@@ -42,13 +42,18 @@ footer: >
 {% include css/styles.css %}
 </style>
 <div class="header-sup">
-    <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
-    <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
-    </em></p>
-    {% include box.html type="start" class="simple" %}
-        <h3>Need help finding the right tool for you?</h3>
-        {% include_cached button.html type="link" label="Help me choose" class="more" %}  
-    {% include box.html type="end" %}
+    <div class="header-left">
+        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
+        <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
+        <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
+        </em></p>
+    </div>
+    <div class="header-right">
+        {% include box.html type="start" class="simple" %}
+            <h3>Need help finding the right tool for you?</h3>
+            {% include_cached button.html type="link" label="Help me choose" class="more" %}  
+        {% include box.html type="end" %}
+    </div>
 </div>
 <div id="app">
     <div id="left-col" class="offers-filters">
@@ -56,48 +61,56 @@ footer: >
             <h2>Filters</h2>
             {% for filter in site.data.filters %}
             <fieldset id="{{ filter.id }}">
-                <legend class="label">{{ filter.name }}</legend>
-<!--                {% if filter.name == "Format" %}
-                    {% include resource-link.html label="Show info" href="#"%}
-                {% endif %} -->
+                <legend class="label">{{ filter.name }}
+                    {% if filter.info %}
+                        {% include_cached icon.html name="default" %}
+                    {% endif %}
+                </legend>
                 {% for option in filter.options %}
                 <div class="filter-options field">
                     <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
-                    <label for="filter-{{ option.id }}">{{ option.name }}</label>
+                    <label for="filter-{{ option.id }}">{{ option.name }}
+                        {% if option.info %}
+                            {% include_cached icon.html name="default" %}
+                        {% endif %}
+                    </label>
                 </div>
                 {% endfor %}
             </fieldset>
             {% endfor %}
-            {% assign langAvailable = site.data.offers | map: "language" | uniq %}
             <fieldset id="language-filter">
                 <legend>Language</legend>  
-                    {% for language in langAvailable %}
-                        <div class="filter-options field">
-                            <input type="checkbox" id="filter-{{ option.id }}" name="language">
-                            <label for="filter-{{ language }}">{{ site.data.lang[language].name }} ({{
-                                site.data.lang[language].nativeName}})</label>
-                        </div>
+                    {% for language in site.data.lang %}
+                        {% if language.last.active %}
+                            <div class="filter-options field">
+                                <input type="checkbox" id="filter-{{ language.first }}" name="{{  language.first  }}">
+                                <label for="filter-{{ language.first }}">{{ language.last.name }} ({{
+                                    language.last.nativeName}})</label>
+                            </div>
+                        {% endif %}
                     {% endfor %}
             </fieldset>
         </form>
         {% include_cached button.html label="Clear filters" class="clear-button"%}
     </div>
     <div id="offers-list">
-        <div class="field">
-            <input type="search" id="search" placeholder="Search tools">
+        <div class="offers-list-header">
+            <div class="field">
+                <input type="search" id="search" placeholder="Search tools">
+            </div>
+            <span id="status">
+                <h4 id="total-offers">{{ site.data.offers | size }} tools</h4>
+            </span>
+            <div class="field" class="sort-by">
+                <h4><label for="select">Sort by</label></h4>
+                <select id="select" class="field">
+                    <option selected="selected">Alphabetically (A to Z)</option>
+                    <option>Most recently updated</option>
+                </select>
+            </div>        
+            <!-- {% include excol.html type="all" %} -->
+            <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
-        <span id="status">
-            <p id="total-offers">Showing {{ site.data.offers | size }} results</p>
-        </span>
-        <div class="field" class="sort-by">
-            <label for="select">Sort by</label>
-            <select id="select">
-                <option selected="selected">Alphabetically (A to Z)</option>
-                <option>Most recently updated</option>
-            </select>
-        </div>        
-        {% include excol.html type="all" %}
-        {% include_cached button.html label="Clear filters" class="clear-button"%}
         {% assign offers = site.data.offers | sort: 'name' %}
         {% for offer in offers %}
             {% include offer.liquid %}
