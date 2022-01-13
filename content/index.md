@@ -78,9 +78,10 @@ footer: >
                 {% endfor %}
             </fieldset>
             {% endfor %}
+            {% assign langAvailable = site.data.offers | map: "language" | uniq %}
             <fieldset id="language-filter">
                 <legend>Language</legend>  
-                    {% for language in site.data.lang %}
+                    <!-- {% for language in site.data.lang %}
                         {% if language.last.active %}
                             <div class="filter-options field">
                                 <input type="checkbox" id="filter-{{ language.first }}" name="{{  language.first  }}">
@@ -88,6 +89,13 @@ footer: >
                                     language.last.nativeName}})</label>
                             </div>
                         {% endif %}
+                    {% endfor %} -->
+                    {% for language in langAvailable %}
+                        <div class="filter-options field">
+                            <input type="checkbox" id="filter-{{ option.id }}" name="language">
+                            <label for="filter-{{ language }}">{{ site.data.lang[language].name }} ({{
+                                site.data.lang[language].nativeName}})</label>
+                        </div>
                     {% endfor %}
             </fieldset>
         </form>
