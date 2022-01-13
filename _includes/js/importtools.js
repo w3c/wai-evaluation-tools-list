@@ -1,6 +1,4 @@
-const test = JSON.parse('{{ site.data.offers | jsonify}}');
-
-const tools = [];
-
-console.log("Here I am!");
+const importJson = String.raw`{{ site.data.tools | jsonify }}`;
+importJson.replace("\\","\\\\");
+const tools = JSON.parse(importJson);
 console.log(tools);

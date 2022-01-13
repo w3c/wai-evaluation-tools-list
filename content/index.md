@@ -41,6 +41,10 @@ footer: >
 <style> 
 {% include css/styles.css %}
 </style>
+<script>
+{% include js/importtools.js %}
+{% include js/offers.js %}
+</script>
 <div class="header-sup">
     <div class="header-left">
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
@@ -107,7 +111,7 @@ footer: >
                 <input type="search" id="search" placeholder="Search tools">
             </div>
             <span id="status">
-                <h4 id="total-offers">{{ site.data.offers | size }} tools</h4>
+                <h4 id="total-offers">{{ site.data.tools | size }} tools</h4>
             </span>
             <div class="field" class="sort-by">
                 <h4><label for="select">Sort by</label></h4>
@@ -119,9 +123,9 @@ footer: >
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
-        {% assign offers = site.data.offers | sort: 'name' %}
-        {% for offer in offers %}
-            {% include offer.liquid %}
+        {% assign tools = site.data.tools %}
+        {% for tool in tools %}
+            {% include tool.liquid %}
         {% endfor %}      
     </div>
     
@@ -146,8 +150,3 @@ footer: >
 <!-- <div class="button-submit-end">
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
 </div> -->
-
-<script>
-{% include js/importtools.js %}
-{% include js/offers.js %}
-</script>
