@@ -135,10 +135,8 @@ footer: >
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
-        {% assign tools = site.data.tools %}
-        {% for tool in tools %}
-            {% include tool.liquid %}
-        {% endfor %}      
+
+        {% include tools.liquid data=site.data.tools sort_key="title" %}
     </div>
     
 </div>
