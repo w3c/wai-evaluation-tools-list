@@ -225,6 +225,7 @@
   {
     "id": "operatingsystem",
     "name": "Operating system",
+    "collapsed": "true",
     "type": "checkbox",
     "options": [
       {
@@ -256,6 +257,7 @@
   {
     "id": "browser",
     "name": "Browser",
+    "collapsed": "true",
     "type": "checkbox",
     "options": [
       {
@@ -287,6 +289,7 @@
   {
     "id": "metrics",
     "name": "Metrics",
+    "collapsed": "true",
     "type": "checkbox",
     "options": [
       {

@@ -310,3 +310,11 @@ details>div{
   margin: 0;
   margin-right: 0.5em
 }
+
+legend {
+  color: var(--wai-green);
+}
+
+.collapsed {
+  display: none;
+}

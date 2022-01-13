@@ -65,21 +65,33 @@ footer: >
             <h2>Filters</h2>
             {% for filter in site.data.filters %}
             <fieldset id="{{ filter.id }}">
-                <legend class="label">{{ filter.name }}
-                    {% if filter.info %}
-                        {% include_cached icon.html name="default" %}
-                    {% endif %}
-                </legend>
-                {% for option in filter.options %}
-                <div class="filter-options field">
-                    <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
-                    <label for="filter-{{ option.id }}">{{ option.name }}
-                        {% if option.info %}
+                {% if filter.collapsed %}
+                    <legend class="label">{{ filter.name }}
+                        {% if filter.info %}
                             {% include_cached icon.html name="default" %}
                         {% endif %}
-                    </label>
-                </div>
+                        {% include_cached icon.html name="chevron-down" %}
+                    </legend>
+                    <div class="options collapsed">
+                {% else %}
+                    <legend class="label">{{ filter.name }}
+                        {% if filter.info %}
+                            {% include_cached icon.html name="default" %}
+                        {% endif %}
+                    </legend>
+                    <div class="options">
+                {% endif %}
+                    {% for option in filter.options %}
+                    <div class="filter-options field">
+                        <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
+                        <label for="filter-{{ option.id }}">{{ option.name }}
+                            {% if option.info %}
+                                {% include_cached icon.html name="default" %}
+                            {% endif %}
+                        </label>
+                    </div>
                 {% endfor %}
+                </div>
             </fieldset>
             {% endfor %}
             {% assign langAvailable = site.data.offers | map: "language" | uniq %}
