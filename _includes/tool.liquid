@@ -3,13 +3,13 @@
     {% assign toolsData = toolsData | push: tool[1] %}
 {% endfor %}
 
-{% assign toolsDataSorted = toolsData | sort: "include.sort_key" %}
+{% assign toolsDataSorted = toolsData | sort: include.sort_key %}
 {% for tool in toolsDataSorted %}
 {% capture tool_title %}<a href="{{ tool.location }}">{{ tool.title }}</a> by {{ tool.creator }}{% endcapture %}
-{% capture tool_section_identifier %}aside_{{ tool.first }}{% endcapture %}
-{% capture tool_details_id %}details_{{tool.first}}{% endcapture %}
+{% capture tool_section_identifier %}aside_{{ tool.title }}{% endcapture %}
+{% capture tool_details_id %}{{tool.title}}{% endcapture %}
 
-{% include box.html type="start" title=tool_title id=tool.details_id %}
+{% include box.html type="start" title=tool_title id=tool_details_id %}
 {{ tool.description }}
 {% include excol.html type="start" id=tool_details_id %}
 #### Details

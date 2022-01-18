@@ -106,7 +106,7 @@
     ]
   },
   {
-    "id": "paidorfree",
+    "id": "license",
     "name": "Paid or free",
     "type": "checkbox",
     "options": [
@@ -159,13 +159,14 @@
     "id": "guidelines",
     "name": "Guidelines",
     "info": "true",
+    "showmore": "3",
     "type": "checkbox",
     "options": [
                                  
     ]
   },
   {
-    "id": "fileformat",
+    "id": "technology",
     "name": "File format",
     "type": "checkbox",
     "options": [

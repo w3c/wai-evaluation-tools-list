@@ -41,10 +41,6 @@ footer: >
 <style> 
 {% include css/styles.css %}
 </style>
-<script>
-{% include js/importtools.js %}
-{% include js/offers.js %}
-</script>
 <div class="header-sup">
     <div class="header-left">
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
@@ -64,23 +60,13 @@ footer: >
         <form data-filter-form action="...">
             <h2>Filters</h2>
             {% for filter in site.data.filters %}
-            <fieldset id="{{ filter.id }}">
-                {% if filter.collapsed %}
-                    <legend class="label">{{ filter.name }}
-                        {% if filter.info %}
-                            {% include_cached icon.html name="default" %}
-                        {% endif %}
-                        {% include_cached icon.html name="chevron-down" %}
-                    </legend>
-                    <div class="options collapsed">
-                {% else %}
-                    <legend class="label">{{ filter.name }}
-                        {% if filter.info %}
-                            {% include_cached icon.html name="default" %}
-                        {% endif %}
-                    </legend>
+            <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
+                <legend class="label">{{ filter.name }}
+                    {% if filter.info %}
+                        {% include_cached icon.html name="default" %}
+                    {% endif %}
+                </legend>
                     <div class="options">
-                {% endif %}
                     {% for option in filter.options %}
                     <div class="filter-options field">
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
@@ -95,17 +81,9 @@ footer: >
             </fieldset>
             {% endfor %}
             {% assign langAvailable = site.data.offers | map: "language" | uniq %}
-            <fieldset id="language-filter">
-                <legend>Language</legend>  
-                    <!-- {% for language in site.data.lang %}
-                        {% if language.last.active %}
-                            <div class="filter-options field">
-                                <input type="checkbox" id="filter-{{ language.first }}" name="{{  language.first  }}">
-                                <label for="filter-{{ language.first }}">{{ language.last.name }} ({{
-                                    language.last.nativeName}})</label>
-                            </div>
-                        {% endif %}
-                    {% endfor %} -->
+            <fieldset id="language-filter" collapsed="true">
+                <legend class='collapsible'>Language </legend>  
+                    <div class="options collapsible">
                     {% for language in langAvailable %}
                         <div class="filter-options field">
                             <input type="checkbox" id="filter-{{ option.id }}" name="language">
@@ -113,6 +91,7 @@ footer: >
                                 site.data.lang[language].nativeName}})</label>
                         </div>
                     {% endfor %}
+                    </div>
             </fieldset>
         </form>
         {% include_cached button.html label="Clear filters" class="clear-button"%}
@@ -135,8 +114,8 @@ footer: >
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
-
-        {% include tools.liquid data=site.data.tools sort_key="title" %}
+        <h4 id="found-offers"></h4>
+        {% include tool.liquid data=site.data.tools sort_key="title" %}
     </div>
     
 </div>
@@ -160,3 +139,7 @@ footer: >
 <!-- <div class="button-submit-end">
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
 </div> -->
+<script>
+{% include js/importtools.js %}
+{% include js/offers.js %}
+</script>

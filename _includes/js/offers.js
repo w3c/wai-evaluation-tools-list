@@ -1,10 +1,15 @@
 const filterForm = document.querySelector('[data-filter-form]');
-const jsonOffers = JSON.parse('{{ site.data.offers | jsonify}}');
+
+const importJson = String.raw`{{ site.data.tools | jsonify }}`;
+importJson.replace("\\","\\\\");
+const tools = JSON.parse(importJson);
+console.log(tools);
+
+const jsonOffers = tools;
 const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
 const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
 
-console.log(jsonOffers);
 var offersList = document.getElementById('offers-list');
 
 document.querySelectorAll('.button-clear-button').forEach(item => {
@@ -12,13 +17,17 @@ document.querySelectorAll('.button-clear-button').forEach(item => {
   item.addEventListener('click', e => { clearFilters() });
 })
 
+document.querySelectorAll('fieldset').forEach(item => {
+  if(item.getAttribute("collapsed") == "true"){
+    makeCollapsible(item);
+  }
+})
+
 if (filterForm) {
 
   filterForm.addEventListener('change', el => {
     filterJson(filterForm);
   });
-
-
 
   function filterJson(form) {
 
@@ -60,16 +69,18 @@ if (filterForm) {
 
     // by attribute
     filtersOn.forEach(filter => {
-      newResults.push(jsonOffers.filter((x) => filter.filterValues.some(r => x[filter.filterId].includes(r))));
+      newResults.push(Object.values(jsonOffers).filter((x) => filter.filterValues.some(r => x[filter.filterId].includes(r))));
     })
 
     // if no filter, show all offers
+    console.log(newResults);
     if (newResults.length === 0)
       newResults = jsonOffers;
     // intersection between results [offers]
     else
       newResults = newResults.reduce((a, c) => a.filter(i => c.includes(i)));
 
+    console.log(newResults);
     //rebuild document
     rebuildList(newResults, filtersOn);
 
@@ -80,7 +91,8 @@ if (filterForm) {
   function rebuildList(newResults, filtersOn) {
 
     const articles = offersList.querySelectorAll('aside');
-    var totalOffers = document.getElementById("total-offers");
+    var totalOffersCounter = document.getElementById("total-offers");
+    var totalOffers = document.getElementById("found-offers");
 
     var listFiltersOnString = document.createElement('dl');
 
@@ -103,29 +115,39 @@ if (filterForm) {
 
 
     articles.forEach(el => {
-      if (!newResults.find(o => o.id === el.id))
+      if (!Object.values(newResults).find(o => o.title === el.id))
         el.hidden = true;
       else
         el.hidden = false;
     })
 
-    if (filtersOn.length === 0) {
-      totalOffers.innerText = "Showing " + newResults.length + " offers";
-      hideClearButton(true);
-    }
-    else if (newResults.length > 0) {
-      if (newResults.length === 1)
-        totalOffers.innerText = "Showing " + newResults.length + " offer matching the following criteria: ";
-      else
-        totalOffers.innerText = "Showing " + newResults.length + " offers matching the following criteria: ";
-      totalOffers.appendChild(listFiltersOnString);
-      hideClearButton(false);
-    }
-    else {
+    // if (filtersOn.length === 0) {
+    //   totalOffers.innerText = "Showing " + newResults.length + " offers";
+    //   hideClearButton(true);
+    // }
+    // else if (newResults.length > 0) {
+    //   if (newResults.length === 1)
+    //     totalOffers.innerText = "Showing " + newResults.length + " offer matching the following criteria: ";
+    //   else
+    //     totalOffers.innerText = "Showing " + newResults.length + " offers matching the following criteria: ";
+    //   totalOffers.appendChild(listFiltersOnString);
+    //   hideClearButton(false);
+    // }
+    // else {
+    //   totalOffers.innerText = "Sorry, but no offers match the following criteria: ";
+    //   totalOffers.appendChild(listFiltersOnString);
+    //   hideClearButton(false);
+    // }
+    if (Object.values(newResults).length === 0) {
       totalOffers.innerText = "Sorry, but no offers match the following criteria: ";
       totalOffers.appendChild(listFiltersOnString);
       hideClearButton(false);
+    }else{
+      totalOffers.innerText = "";
+      hideClearButton(true);
     }
+    console.log(newResults);
+    totalOffersCounter.innerText = Object.values(newResults).length + " tools";
   }
 
 
@@ -165,24 +187,44 @@ if (filterForm) {
 
 }
 
-const divSelectLang = document.getElementById("divSelectLang");
-const fieldLang = document.getElementsByClassName("field-language")[0];
-document.getElementsByClassName("button-new-lang")[0].addEventListener('click', e => { addNewField(divSelectLang,fieldLang)});
+// const divSelectLang = document.getElementById("divSelectLang");
+// const fieldLang = document.getElementsByClassName("field-language")[0];
+// document.getElementsByClassName("button-new-lang")[0].addEventListener('click', e => { addNewField(divSelectLang,fieldLang)});
 
-const divSelectCountry = document.getElementById("divSelectCountry");
-const fieldCountry = document.getElementsByClassName("field-country")[0];
-document.getElementsByClassName("button-new-country")[0].addEventListener('click', e => { addNewField(divSelectCountry,fieldCountry)});
+// const divSelectCountry = document.getElementById("divSelectCountry");
+// const fieldCountry = document.getElementsByClassName("field-country")[0];
+// document.getElementsByClassName("button-new-country")[0].addEventListener('click', e => { addNewField(divSelectCountry,fieldCountry)});
 
-const divInputPrerequisite = document.getElementById("divInputPrerequisite");
-const fieldPrequisite = document.getElementsByClassName("field-prerequisite")[0];
-document.getElementsByClassName("button-new-prerequisite")[0].addEventListener('click', e => { addNewField(divInputPrerequisite,fieldPrequisite)});
+// const divInputPrerequisite = document.getElementById("divInputPrerequisite");
+// const fieldPrequisite = document.getElementsByClassName("field-prerequisite")[0];
+// document.getElementsByClassName("button-new-prerequisite")[0].addEventListener('click', e => { addNewField(divInputPrerequisite,fieldPrequisite)});
 
-const divInputTopic = document.getElementById("divInputTopic");
-const fieldTopic = document.getElementsByClassName("field-topic")[0];
-document.getElementsByClassName("button-new-topic")[0].addEventListener('click', e => { addNewField(divInputTopic,fieldTopic)});
-
-
+// const divInputTopic = document.getElementById("divInputTopic");
+// const fieldTopic = document.getElementsByClassName("field-topic")[0];
+// document.getElementsByClassName("button-new-topic")[0].addEventListener('click', e => { addNewField(divInputTopic,fieldTopic)});
 
 function addNewField(divToAppend, fieldToAppend){
   divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
+}
+
+function makeCollapsible(item){
+  var label = item.querySelector('legend');
+  label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+  label.addEventListener('click', e => { toggleCollapsed(item) });
+  label.classList.add("collapsible");
+  item.querySelector('.options').classList.add("collapsed");
+}
+
+function toggleCollapsed(item){
+  var label = item.querySelector('legend');
+  var options = item.querySelector('.options');
+  if(options.classList.contains("collapsed")){
+    label.querySelector('svg').remove();
+    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+    options.classList.remove("collapsed");
+  }else{
+    label.querySelector('svg').remove();
+    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    options.classList.add("collapsed");
+  }
 }

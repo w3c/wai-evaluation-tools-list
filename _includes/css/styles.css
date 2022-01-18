@@ -315,6 +315,22 @@ legend {
   color: var(--wai-green);
 }
 
+.icon-default {
+  color: var(--wai-green);
+}
+
 .collapsed {
   display: none;
+}
+
+.collapsible:hover {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
 }
