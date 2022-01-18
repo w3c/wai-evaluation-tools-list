@@ -18,7 +18,7 @@ document.querySelectorAll('.button-clear-button').forEach(item => {
 })
 
 document.querySelectorAll('fieldset').forEach(item => {
-  if(item.getAttribute("collapsed") == "true"){
+  if(item.getAttribute("collapsed")){
     makeCollapsible(item);
   }
 })
@@ -209,21 +209,25 @@ function addNewField(divToAppend, fieldToAppend){
 
 function makeCollapsible(item){
   var label = item.querySelector('legend');
-  label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-  label.addEventListener('click', e => { toggleCollapsed(item) });
   label.classList.add("collapsible");
-  item.querySelector('.options').classList.add("collapsed");
+  if(item.getAttribute("collapsed") == "true"){
+    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    item.querySelector('.options').classList.add("collapsed");
+  }else{
+    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+  }
+  label.addEventListener('click', e => { toggleCollapsed(item) });
 }
 
 function toggleCollapsed(item){
   var label = item.querySelector('legend');
   var options = item.querySelector('.options');
   if(options.classList.contains("collapsed")){
-    label.querySelector('svg').remove();
+    label.querySelector('.icon-chevron-down').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
     options.classList.remove("collapsed");
   }else{
-    label.querySelector('svg').remove();
+    label.querySelector('.icon-chevron-up').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     options.classList.add("collapsed");
   }

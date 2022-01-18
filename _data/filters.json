@@ -3,6 +3,7 @@
     "id": "purpose",
     "name": "Purpose",
     "info": "true",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -22,6 +23,7 @@
   {
     "id": "product",
     "name": "Product to evaluate",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -49,6 +51,7 @@
   {
     "id": "mediatype",
     "name": "Media type",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -72,6 +75,7 @@
   {
     "id": "typeoftool",
     "name": "Type of tool",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -108,6 +112,7 @@
   {
     "id": "license",
     "name": "Paid or free",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -135,6 +140,7 @@
   {
     "id": "scope",
     "name": "Scope",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -159,6 +165,7 @@
     "id": "guidelines",
     "name": "Guidelines",
     "info": "true",
+    "collapsed": "false",
     "showmore": "3",
     "type": "checkbox",
     "options": [
@@ -168,6 +175,7 @@
   {
     "id": "technology",
     "name": "File format",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
@@ -211,6 +219,7 @@
   {
     "id": "accessible",
     "name": "Tool is accessible",
+    "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
