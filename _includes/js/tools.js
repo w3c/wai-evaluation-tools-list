@@ -4,15 +4,13 @@ const searchForm = document.querySelector('#search');
 
 const importJson = String.raw`{{ site.data.tools | jsonify }}`;
 importJson.replace("\\","\\\\");
-const tools = JSON.parse(importJson);
-console.log(tools);
 
-const jsonOffers = tools;
+const jsonTools = JSON.parse(importJson);
 const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
 const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
 
-var offersList = document.getElementById('offers-list');
+var toolsList = document.getElementById('tools-list');
 
 document.querySelectorAll('.button-clear-button').forEach(item => {
   item.hidden = true;
@@ -79,7 +77,7 @@ if (filterForm && sortForm && search) {
 
     // by attribute
     filtersOn.forEach(filter => {
-      newResults.push(Object.values(jsonOffers).filter((x) => filter.filterValues.some(
+      newResults.push(Object.values(jsonTools).filter((x) => filter.filterValues.some(
         function(r) {
           if(x[filter.filterId] !== undefined){
             return x[filter.filterId].includes(r);
@@ -90,10 +88,10 @@ if (filterForm && sortForm && search) {
       ));
     })
 
-    // if no filter, show all offers
+    // if no filter, show all tools
     if (newResults.length === 0)
-      newResults = jsonOffers;
-    // intersection between results [offers]
+      newResults = jsonTools;
+    // intersection between results [tools]
     else
       newResults = newResults.reduce((a, c) => a.filter(i => c.includes(i)));
 
@@ -112,15 +110,15 @@ if (filterForm && sortForm && search) {
     //rebuild document
     rebuildList(searchedResults, filtersOn);
 
-    // callDebug(jsonFilters, jsonOffers, filtersOn, newResults, offersList);
+    // callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList);
 
   }
 
   function rebuildList(newResults, filtersOn) {
 
-    const articles = offersList.querySelectorAll('aside');
-    var totalOffersCounter = document.getElementById("total-offers");
-    var totalOffers = document.getElementById("found-offers");
+    const articles = toolsList.querySelectorAll('aside');
+    var totalToolsCounter = document.getElementById("total-tools");
+    var totalTools = document.getElementById("found-tools");
 
     var listFiltersOnString = document.createElement('dl');
 
@@ -159,36 +157,40 @@ if (filterForm && sortForm && search) {
     })
 
     // if (filtersOn.length === 0) {
-    //   totalOffers.innerText = "Showing " + newResults.length + " offers";
+    //   totalTools.innerText = "Showing " + newResults.length + " tools";
     //   hideClearButton(true);
     // }
     // else if (newResults.length > 0) {
     //   if (newResults.length === 1)
-    //     totalOffers.innerText = "Showing " + newResults.length + " offer matching the following criteria: ";
+    //     totalTools.innerText = "Showing " + newResults.length + " tool matching the following criteria: ";
     //   else
-    //     totalOffers.innerText = "Showing " + newResults.length + " offers matching the following criteria: ";
-    //   totalOffers.appendChild(listFiltersOnString);
+    //     totalTools.innerText = "Showing " + newResults.length + " tools matching the following criteria: ";
+    //   totalTools.appendChild(listFiltersOnString);
     //   hideClearButton(false);
     // }
     // else {
-    //   totalOffers.innerText = "Sorry, but no offers match the following criteria: ";
-    //   totalOffers.appendChild(listFiltersOnString);
+    //   totalTools.innerText = "Sorry, but no tools match the following criteria: ";
+    //   totalTools.appendChild(listFiltersOnString);
     //   hideClearButton(false);
     // }
 
     if (Object.values(newResults).length === 0) {
-      totalOffers.innerText = "Sorry, but no offers match the following criteria: ";
-      totalOffers.appendChild(listFiltersOnString);
+      totalTools.innerText = "Sorry, but no tools match the following criteria: ";
+      totalTools.appendChild(listFiltersOnString);
       var searchTerm = searchForm.value;
       if(searchTerm.length > 0){
-        totalOffers.innerHTML += "Searchterm: \"" + searchTerm + "\"";
+        totalTools.innerHTML += "Searchterm: \"" + searchTerm + "\"";
       }
       hideClearButton(false);
     }else{
-      totalOffers.innerText = "";
+      totalTools.innerText = "";
       hideClearButton(true);
     }
-    totalOffersCounter.innerText = Object.values(newResults).length + " tools";
+    if(Object.values(newResults).length === 1){
+      totalToolsCounter.innerText = Object.values(newResults).length + " tool";
+    }else{
+      totalToolsCounter.innerText = Object.values(newResults).length + " tools";
+    }
     console.log(newResults);
   }
 
@@ -212,23 +214,23 @@ if (filterForm && sortForm && search) {
 
 
   function clearFilters() {
-    rebuildList(jsonOffers, []);
+    rebuildList(jsonTools, []);
     filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
     filterForm.querySelectorAll("select").forEach(el => el.selectedIndex = 0);
   }
 
 
-  function callDebug(jsonFilters, jsonOffers, filtersOn, newResults, offersList) {
+  function callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList) {
     console.log("Filters:");
     console.log(jsonFilters);
-    console.log("Offers:");
-    console.log(jsonOffers);
+    console.log("Tools:");
+    console.log(jsonTools);
     console.log("Filters On:");
     console.log(filtersOn);
     console.log("Results:");
     console.log(newResults);
-    console.log("offersList");
-    console.log(offersList);
+    console.log("toolsList");
+    console.log(toolsList);
   }
 
   function clean(obj) {

@@ -70,24 +70,24 @@ main>header {
   font-size: 100%;
 }
 
-.offers-filters {
+.tools-filters {
   padding-right: 2em;
 }
 
 @media (min-width: 60em) {
-  .offers-filters {
+  .tools-filters {
     grid-column: 1 / 4;
     border-right: 1px solid #ccc;
   }
 }
 
 @media (min-width: 72em) {
-  .offers-filters {
+  .tools-filters {
     grid-column: 2 / 4;
   }
 }
 
-.offers-filters input {
+.tools-filters input {
   margin-right: .5em;
 }
 
@@ -134,14 +134,14 @@ main>header {
   display: inline !important;
 }
 
-#offers-list {
+#tools-list {
   padding-top: 2em;
   margin-top: 2em;
   border-top: 1px solid #ccc;
 }
 
 @media (min-width: 60em) {
-  #offers-list {
+  #tools-list {
     grid-column: 4 / span 7;
     padding-top: 0;
     margin-top: 0;
@@ -150,12 +150,12 @@ main>header {
 }
 
 @media (min-width: 72em) {
-  #offers-list {
+  #tools-list {
     grid-column: 4 / span 6;
   }
 }
 
-#offers-list dd {
+#tools-list dd {
   margin: 0 0 1em 0;
 }
 
@@ -163,7 +163,7 @@ details dt::after {
   content: ":";
 }
 
-#offers-list dt {
+#tools-list dt {
   float: left;
   margin: 0 0.5em 0 0;
 }
@@ -206,7 +206,7 @@ details>div{
 }
 */
 
-#offers-list details>div {
+#tools-list details>div {
   border-top: solid 1px var(--line-grey);
   margin-left: -48px;
   margin-right: -16px;
@@ -248,7 +248,7 @@ details>div{
 }
 
 /*
-.submit-a-offer {
+.submit-a-tool {
   grid-column: 8 / 10;
   align-self: start;
   justify-self: end;
@@ -256,7 +256,7 @@ details>div{
 }
 
 @media ( min-width: 72em) {
-  .submit-a-offer {
+  .submit-a-tool {
     grid-column: 7 / 9;
   }
 }
@@ -278,34 +278,34 @@ details>div{
   padding-bottom: 16px;
 }
 
-.offers-list-header {
+.tools-list-header {
   display: grid;
   grid-gap: 1em;
 }
 
-.offers-list-header .field {
+.tools-list-header .field {
   grid-column: 1 / 5;
   margin: 0;
   align-self: center;
 }
 
-.offers-list-header #status {
+.tools-list-header #status {
   grid-column: 5 / 8;
   align-self: center;
 }
 
-.offers-list-header #status h4 {
+.tools-list-header #status h4 {
   margin: 0;
 }
 
-.offers-list-header .sort-by {
+.tools-list-header .sort-by {
   grid-column: 8 / 8;
   align-self: center;
   display: flex;
   align-items: center;
 }
 
-.offers-list-header .sort-by h4 {
+.tools-list-header .sort-by h4 {
   float: left;
   margin: 0;
   margin-right: 0.5em

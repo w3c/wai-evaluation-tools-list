@@ -56,7 +56,7 @@ footer: >
     </div>
 </div>
 <div id="app">
-    <div id="left-col" class="offers-filters">
+    <div id="left-col" class="tools-filters">
         <form data-filter-form action="...">
             <h2>Filters</h2>
             {% for filter in site.data.filters %}
@@ -80,15 +80,15 @@ footer: >
                 </div>
             </fieldset>
             {% endfor %}
-            {% assign langAvailable = site.data.offers | map: "language" | uniq %}
+            {% assign langAvailable = site.data.lang %}
             <fieldset id="language-filter" collapsed="true">
                 <legend class='collapsible'>Language </legend>  
                     <div class="options collapsible">
                     {% for language in langAvailable %}
                         <div class="filter-options field">
-                            <input type="checkbox" id="filter-{{ option.id }}" name="language">
-                            <label for="filter-{{ language }}">{{ site.data.lang[language].name }} ({{
-                                site.data.lang[language].nativeName}})</label>
+                            <input type="checkbox" id="lang-filter-{{ language.first }}" name="language">
+                            <label for="lang-filter-{{ language.first }}">{{ language.last.name }} ({{
+                                language.last.nativeName}})</label>
                         </div>
                     {% endfor %}
                     </div>
@@ -96,13 +96,13 @@ footer: >
         </form>
         {% include_cached button.html label="Clear filters" class="clear-button"%}
     </div>
-    <div id="offers-list">
-        <div class="offers-list-header">
+    <div id="tools-list">
+        <div class="tools-list-header">
             <div class="field">
                 <input type="search" id="search" placeholder="Search tools">
             </div>
             <span id="status">
-                <h4 id="total-offers">{{ site.data.tools | size }} tools</h4>
+                <h4 id="total-tools">{{ site.data.tools | size }} tools</h4>
             </span>
             <div class="field" class="sort-by">
                 <h4><label for="select">Sort by</label></h4>
@@ -119,7 +119,7 @@ footer: >
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
-        <h4 id="found-offers"></h4>
+        <h4 id="found-tools"></h4>
         <div class="tools-list">
             {% assign defaultSort = site.data.sorting.first.sortkey %}
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
@@ -131,7 +131,7 @@ footer: >
     {% include box.html type="start" title="Help improve this page" %}
         <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore</p>
         <div class="button-group">
-            {% include_cached button.html type="link" label="Add tool" class="more" href="submit-an-offer" %}
+            {% include_cached button.html type="link" label="Add tool" class="more" href="submit-a-tool" %}
             {% include_cached button.html type="link" label="Update tool info" class="more" %}
             {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
         </div>
@@ -139,15 +139,14 @@ footer: >
 </div>
 <div id="disclaimer">
     {% include box.html type="start" title="Important Disclaimer" %}
-        <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of resources in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
-        <p>Courses descriptions, search criteria, and other information in this database are provider-submitted. W3C does not verify the accuracy of the information.</p>
-        <p>The list is not a review of courses, nor a complete or definitive list of all courses. The information can change at any time.</p>
+        <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
+        <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
+        <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
     {% include box.html type="end" %}
 </div>
 <!-- <div class="button-submit-end">
-    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-an-offer" %}  
+    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->
 <script>
-{% include js/importtools.js %}
-{% include js/offers.js %}
+{% include js/tools.js %}
 </script>
