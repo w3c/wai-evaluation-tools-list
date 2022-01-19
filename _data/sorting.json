@@ -1,0 +1,26 @@
+[
+  {
+    "id": "alphabeticallyaz",
+    "name": "Alphabetically (A to Z)",
+    "selected": "true",
+    "sortkey": "title"
+  },
+  {
+    "id": "alphabeticallyza",
+    "name": "Alphabetically (Z to A)",
+    "selected": "false",
+    "sortkey": "title"
+  },
+  {
+    "id": "recentlyupdated",
+    "name": "Most recently updated",
+    "selected": "false",
+    "sortkey": "updated"
+  },
+  {
+    "id": "recentlyadded",
+    "name": "Most recently added",
+    "selected": "false",
+    "sortkey": "title"
+  }
+]

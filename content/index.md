@@ -107,15 +107,23 @@ footer: >
             <div class="field" class="sort-by">
                 <h4><label for="select">Sort by</label></h4>
                 <select id="select" class="field">
-                    <option selected="selected">Alphabetically (A to Z)</option>
-                    <option>Most recently updated</option>
+                    {% for sort in site.data.sorting %}
+                        {% if sort.selected == "true" %}
+                            <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
+                        {% else %}
+                            <option value="{{ sort.id }}">{{ sort.name }}</option>
+                        {% endif %}
+                    {% endfor %}
                 </select>
             </div>        
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
         <h4 id="found-offers"></h4>
-        {% include tool.liquid data=site.data.tools sort_key="title" %}
+        <div class="tools-list">
+            {% assign defaultSort = site.data.sorting.first.sortkey %}
+            {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
+        </div>
     </div>
     
 </div>

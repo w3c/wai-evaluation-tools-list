@@ -1,4 +1,6 @@
 const filterForm = document.querySelector('[data-filter-form]');
+const sortForm = document.querySelector('.sort-by');
+const searchForm = document.querySelector('#search');
 
 const importJson = String.raw`{{ site.data.tools | jsonify }}`;
 importJson.replace("\\","\\\\");
@@ -23,9 +25,17 @@ document.querySelectorAll('fieldset').forEach(item => {
   }
 })
 
-if (filterForm) {
+if (filterForm && sortForm && search) {
 
   filterForm.addEventListener('change', el => {
+    filterJson(filterForm);
+  });
+
+  sortForm.querySelector('select').addEventListener('change', el => {
+    filterJson(filterForm);
+  });
+
+  searchForm.addEventListener('keyup', el => {
     filterJson(filterForm);
   });
 
@@ -69,11 +79,18 @@ if (filterForm) {
 
     // by attribute
     filtersOn.forEach(filter => {
-      newResults.push(Object.values(jsonOffers).filter((x) => filter.filterValues.some(r => x[filter.filterId].includes(r))));
+      newResults.push(Object.values(jsonOffers).filter((x) => filter.filterValues.some(
+        function(r) {
+          if(x[filter.filterId] !== undefined){
+            return x[filter.filterId].includes(r);
+          }else{
+            return false;
+          }
+        })
+      ));
     })
 
     // if no filter, show all offers
-    console.log(newResults);
     if (newResults.length === 0)
       newResults = jsonOffers;
     // intersection between results [offers]
@@ -81,8 +98,19 @@ if (filterForm) {
       newResults = newResults.reduce((a, c) => a.filter(i => c.includes(i)));
 
     console.log(newResults);
+    //Filter on search term
+    var searchTerm = searchForm.value;
+    console.log(searchTerm);
+    var searchedResults = [];
+    Object.values(newResults).forEach(o => {
+      if(o.title.toLowerCase().includes(searchTerm.toLowerCase())){
+        searchedResults.push(o);
+      }
+    })
+    console.log(searchedResults);
+
     //rebuild document
-    rebuildList(newResults, filtersOn);
+    rebuildList(searchedResults, filtersOn);
 
     // callDebug(jsonFilters, jsonOffers, filtersOn, newResults, offersList);
 
@@ -113,8 +141,17 @@ if (filterForm) {
       listFiltersOnString.appendChild(attValues);
     });
 
+    //Sort items
+    var list = document.querySelector('.tools-list');
+    var sortedArticles = Array.from(articles);
+    sortedArticles.sort(sortList);
+    list.innerHTML = "";
+    
+    for (i = 0; i < sortedArticles.length; ++i) {
+      list.appendChild(sortedArticles[i]);
+    }
 
-    articles.forEach(el => {
+    sortedArticles.forEach(el => {
       if (!Object.values(newResults).find(o => o.title === el.id))
         el.hidden = true;
       else
@@ -138,18 +175,36 @@ if (filterForm) {
     //   totalOffers.appendChild(listFiltersOnString);
     //   hideClearButton(false);
     // }
+
     if (Object.values(newResults).length === 0) {
       totalOffers.innerText = "Sorry, but no offers match the following criteria: ";
       totalOffers.appendChild(listFiltersOnString);
+      var searchTerm = searchForm.value;
+      if(searchTerm.length > 0){
+        totalOffers.innerHTML += "Searchterm: \"" + searchTerm + "\"";
+      }
       hideClearButton(false);
     }else{
       totalOffers.innerText = "";
       hideClearButton(true);
     }
-    console.log(newResults);
     totalOffersCounter.innerText = Object.values(newResults).length + " tools";
+    console.log(newResults);
   }
 
+  function sortList(a, b) {
+    var selectedSort = document.querySelector('.sort-by').querySelector('select').value;
+    if(selectedSort == "alphabeticallyaz"){
+      return a.id.localeCompare(b.id);
+    }else if(selectedSort == "alphabeticallyza"){
+      return b.id.localeCompare(a.id);
+    }else if(selectedSort == "recentlyupdated"){
+      return false;
+    }else if(selectedSort == "recentlyadded"){
+      return false;
+    }
+    return false;
+  }
 
   function hideClearButton(isHidden) {
     document.querySelectorAll('.button-clear-button').forEach(item => { item.hidden = isHidden });
