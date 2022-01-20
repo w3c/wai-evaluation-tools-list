@@ -37,65 +37,55 @@ if (filterForm && sortForm && search) {
     filterJson(filterForm);
   });
 
-  function filterJson(form) {
+  //Add pre-counters to filters
+  showFilterCounters(filterForm);
 
+  function showFilterCounters(form){
+    var filtersOnInit = [];
+    console.log(filtersOnInit);
+    form.querySelectorAll('fieldset').forEach(att => {
+      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
+        filtersOnInit = getActiveFiltersList(form);
+        var attValues = [];
+        attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+        filterName = att.querySelectorAll('legend')[0].innerText;
+        if(filtersOnInit.length != 0){
+          filtersOnInit.forEach(f => {
+            if(f.filterId === att.id){
+              var test1 = filterNewResultsList(filtersOnInit);
+              filtersOnInit = [];
+              var test2 = filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+              var test3 = filterNewResultsList(filtersOnInit);
+              console.log(test1);
+              console.log(test3);
+              // f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+            }else{
+              filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+            }
+          })
+        }else{
+          filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+        }
+
+        var counterResults = filterNewResultsList(filtersOnInit);
+        att.querySelector("label[for='" + filter.id + "']").querySelector(".filterPreCounter").innerText = "(" + Object.values(counterResults).length + ")";
+      })
+    });
+  }
+
+  function filterJson(form) {
     //form = document.querySelector('[data-filter-form]');
 
     // selecting filters on
-    var attValues = [];
-    var filtersOn = [];
-
-    // for each attribute group
-    form.querySelectorAll('fieldset').forEach(att => {
-
-      // [att, [checked values]]
-      attValues = [];
-      filterName = att.querySelectorAll('legend')[0].innerText;
-
-      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
-        if (filter.checked) {
-          attValues.push(att.querySelector("label[for='" + filter.id + "']").innerText);
-        }
-      })
-
-      if (attValues.length > 0)
-        filtersOn.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
-
-      att.querySelectorAll('select').forEach(filter => {
-        attValues = [];
-
-        if (filter.value != "") {
-          attValues.push(filter.value)
-          filtersOn.push({ filterId: filter.id, filterName: filterName, filterValues: attValues });
-        }
-      });
-
-    });
+    var filtersOn = getActiveFiltersList(form);
+    console.log(filtersOn);
 
     // filtering results
     var newResults = [];
 
-    // by attribute
-    filtersOn.forEach(filter => {
-      newResults.push(Object.values(jsonTools).filter((x) => filter.filterValues.some(
-        function(r) {
-          if(x[filter.filterId] !== undefined){
-            return x[filter.filterId].includes(r);
-          }else{
-            return false;
-          }
-        })
-      ));
-    })
-
-    // if no filter, show all tools
-    if (newResults.length === 0)
-      newResults = jsonTools;
-    // intersection between results [tools]
-    else
-      newResults = newResults.reduce((a, c) => a.filter(i => c.includes(i)));
-
+    newResults = filterNewResultsList(filtersOn);
     console.log(newResults);
+
     //Filter on search term
     var searchTerm = searchForm.value;
     console.log(searchTerm);
@@ -111,7 +101,66 @@ if (filterForm && sortForm && search) {
     rebuildList(searchedResults, filtersOn);
 
     // callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList);
+  }
 
+  function getActiveFiltersList(form) {
+    var activeFiltersList = [];
+    var attValues = [];
+
+    // for each attribute group
+    form.querySelectorAll('fieldset').forEach(att => {
+
+      attValues = [];
+      filterName = att.querySelectorAll('legend')[0].innerText;
+
+      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
+        if (filter.checked) {
+          attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+        }
+      })
+
+      if (attValues.length > 0){
+        activeFiltersList.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+      }
+
+      att.querySelectorAll('select').forEach(filter => {
+        attValues = [];
+        if (filter.value != "") {
+          attValues.push(filter.value)
+          activeFiltersList.push({ filterId: filter.id, filterName: filterName, filterValues: attValues });
+        }
+
+      });
+
+    });
+
+    return activeFiltersList;
+  }
+
+  function filterNewResultsList(filtersOnList) {
+    var newResultsList = [];
+
+    // by attribute
+    filtersOnList.forEach(filter => {
+      newResultsList.push(Object.values(jsonTools).filter((x) => filter.filterValues.some(
+        function(r) {
+          if(x[filter.filterId] !== undefined){
+            return x[filter.filterId].includes(r);
+          }else{
+            return false;
+          }
+        })
+      ));
+    })
+
+    // if no filter, show all tools
+    if (newResultsList.length === 0)
+      newResultsList = jsonTools;
+    // intersection between results [tools]
+    else
+      newResultsList = newResultsList.reduce((a, c) => a.filter(i => c.includes(i)));
+
+    return newResultsList;
   }
 
   function rebuildList(newResults, filtersOn) {
@@ -192,6 +241,7 @@ if (filterForm && sortForm && search) {
       totalToolsCounter.innerText = Object.values(newResults).length + " tools";
     }
     console.log(newResults);
+    showFilterCounters(filterForm);
   }
 
   function sortList(a, b) {

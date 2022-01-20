@@ -70,7 +70,7 @@ footer: >
                     {% for option in filter.options %}
                     <div class="filter-options field">
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
-                        <label for="filter-{{ option.id }}">{{ option.name }}
+                        <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
                                 {% include_cached icon.html name="default" %}
                             {% endif %}
@@ -87,8 +87,8 @@ footer: >
                     {% for language in langAvailable %}
                         <div class="filter-options field">
                             <input type="checkbox" id="lang-filter-{{ language.first }}" name="language">
-                            <label for="lang-filter-{{ language.first }}">{{ language.last.name }} ({{
-                                language.last.nativeName}})</label>
+                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span>({{
+                                language.last.nativeName}}) <span class="filterPreCounter"></span></label>
                         </div>
                     {% endfor %}
                     </div>

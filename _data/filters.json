@@ -73,7 +73,7 @@
     ]
   },
   {
-    "id": "typeoftool",
+    "id": "type",
     "name": "Type of tool",
     "collapsed": "false",
     "type": "checkbox",

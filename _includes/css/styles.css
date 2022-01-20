@@ -315,6 +315,10 @@ legend {
   color: var(--wai-green);
 }
 
+svg {
+  color: var(--wai-green);
+}
+
 .icon-default {
   color: var(--wai-green);
 }
@@ -333,4 +337,9 @@ input[type="checkbox"]:hover {
 
 select:hover {
   cursor: pointer;
+}
+
+.filterPreCounter {
+  color: #585858;
+  margin-left: 0.2em;
 }
