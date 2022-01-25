@@ -343,3 +343,85 @@ select:hover {
   color: #585858;
   margin-left: 0.2em;
 }
+
+.subheader {
+  color: black;
+  font-weight: normal;
+  display: flex;
+}
+
+.leftColHeader {
+  margin: 0;
+  flex: 50%;
+}
+
+.rightColHeader {
+  margin: 0;
+  flex: 50%;
+}
+
+.box-i {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-i h4 {
+  flex: 100%;
+  margin-bottom: 0;
+}
+
+.box-i ul {
+  margin-top: 0;
+}
+
+.leftCol {
+  flex: 50%;
+}
+
+.rightCol {
+  flex: 50%;
+}
+
+details {
+  width: 100%;
+  padding: 0;
+  position:relative;
+  padding-top: 0.5rem;
+}
+
+details h4 {
+  margin-top: 0 !important;
+}
+
+#tools-list details>div {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+  border: none;
+}
+
+summary {
+  width: 50%;
+  float: right;
+  margin-left: 0 !important;
+  padding-bottom: 0.5rem;
+}
+
+details[open] {
+  margin-bottom: 50px !important;
+}
+
+details[open] summary{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -50px;
+  right: 0%;
+  width: 50%;
+}
+
+
+
+

@@ -6,67 +6,77 @@
 {% assign toolsDataSorted = toolsData | sort: include.sort_key %}
 {% for tool in toolsDataSorted %}
 {% capture tool_title %}<a href="{{ tool.location }}" target="_blank">{{ tool.title }}
-{% include_cached icon.html name="external-link" %}</a> by {{ tool.creator }}
-Last updated: {{ tool.update}}.
+{% include_cached icon.html name="external-link" %}</a> 
+<div class="subheader">
+<p class="leftColHeader">by {{ tool.creator }}</p>
+<p class="rightColHeader">Last updated: {{ tool.update }}.</p>
+</div>
 {% endcapture %}
 
 {% capture tool_section_identifier %}aside_{{ tool.title }}{% endcapture %}
 {% capture tool_details_id %}{{tool.title}}{% endcapture %}
 
 {% include box.html type="start" title=tool_title id=tool_details_id %}
-
 <h4>Features</h4>
-<ul>
-{% for assist in tool.assists %}
-  <li>{{ assist }}</li>
-{% endfor %}
-</ul> 
-<h4>Guidelines</h4> 
-{{ tools.guidelines }}
-
-<div>
-	{% include_cached icon.html name="default" %}Evaluate:
-</div>
-<div>
-	{% include_cached icon.html name="code" %}
-	{% for type in tool.type %}
-	  {{ type }},
+<div class="leftCol">
+	<ul>
+	{% for assist in tool.assists %}
+	  <li>{{ assist }}</li>
 	{% endfor %}
+	</ul> 
 </div>
-<div>
-	{% include_cached icon.html name="default" %}
-	{% for license in tool.license %}
-	  {{ license }},
-	{% endfor %}
+<div class="rightCol">
+	<div>
+		{% include_cached icon.html name="default" %}Evaluate:
+	</div>
+	<div>
+		{% include_cached icon.html name="code" %}
+		{% for type in tool.type %}
+		  {{ type }},
+		{% endfor %}
+	</div>
+	<div>
+		{% include_cached icon.html name="default" %}
+		{% for license in tool.license %}
+		  {{ license }},
+		{% endfor %}
+	</div>
 </div>
 
 {% include excol.html type="start" id=tool_details_id %}
 #### Details
 {% include excol.html type="middle"%}
 
-<div>
-	{% include_cached icon.html name="desktop" %}
-	{% for browser in tool.browsers %}
-	  {{ browser }},
-	{% endfor %}
+<div class="leftCol">
+	<h4>Guidelines</h4> 
+	{{ tools.guidelines }}
 </div>
-<div>
-{% include_cached icon.html name="default" %}Operating Systems:
-</div>
-<div>
-	{% include_cached icon.html name="default" %}Scope:
-	{% for automated in tool.automated %}
-	  {{ automated }},
-	{% endfor %}
-</div>
-<div>
-	{% include_cached icon.html name="translations" %}
-	{% for language in tool.language %}
-	  {{ language }},
-	{% endfor %}
-</div>
-<div>
-{% include_cached icon.html name="check-circle" %}Accessible?{{ tools.accessible }}
+
+<div class="rightCol">
+	<div>
+		{% include_cached icon.html name="desktop" %}
+		{% for browser in tool.browsers %}
+		  {{ browser }},
+		{% endfor %}
+	</div>
+	<div>
+	{% include_cached icon.html name="default" %}Operating Systems:
+	</div>
+	<div>
+		{% include_cached icon.html name="default" %}Scope:
+		{% for automated in tool.automated %}
+		  {{ automated }},
+		{% endfor %}
+	</div>
+	<div>
+		{% include_cached icon.html name="translations" %}
+		{% for language in tool.language %}
+		  {{ language }},
+		{% endfor %}
+	</div>
+	<div>
+	{% include_cached icon.html name="check-circle" %}Accessible?{{ tools.accessible }}
+	</div>
 </div>
 
 {% include excol.html type="end" %}

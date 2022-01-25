@@ -41,34 +41,45 @@ if (filterForm && sortForm && search) {
   showFilterCounters(filterForm);
 
   function showFilterCounters(form){
-    var filtersOnInit = [];
-    console.log(filtersOnInit);
+    var counterFiltersOn = getActiveFiltersList(form);
+    console.log(counterFiltersOn);
+    var counterResults = filterNewResultsList(counterFiltersOn);
+    console.log(counterResults);
+    var projectedCounterFiltersOn = counterFiltersOn;
     form.querySelectorAll('fieldset').forEach(att => {
       att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
-        filtersOnInit = getActiveFiltersList(form);
+        projectedCounterFiltersOn = getActiveFiltersList(form);
         var attValues = [];
         attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
         filterName = att.querySelectorAll('legend')[0].innerText;
-        if(filtersOnInit.length != 0){
-          filtersOnInit.forEach(f => {
-            if(f.filterId === att.id){
-              var test1 = filterNewResultsList(filtersOnInit);
-              filtersOnInit = [];
-              var test2 = filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
-              var test3 = filterNewResultsList(filtersOnInit);
-              console.log(test1);
-              console.log(test3);
-              // f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
-            }else{
-              filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+        var newFilter = false;
+        projectedCounterFiltersOn.forEach(f => {
+          if(f.filterId === att.id){
+            if(!f.filterValues.includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
+              f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
             }
-          })
-        }else{
-          filtersOnInit.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+            newFilter = true;
+          }
+        })
+        if(newFilter === false){
+          projectedCounterFiltersOn.push({ filterId: att.id, filterName: filterName, filterValues: attValues }); 
         }
-
-        var counterResults = filterNewResultsList(filtersOnInit);
-        att.querySelector("label[for='" + filter.id + "']").querySelector(".filterPreCounter").innerText = "(" + Object.values(counterResults).length + ")";
+        var projectedCounterResults = filterNewResultsList(projectedCounterFiltersOn);
+        var counter = 0;
+        if(Object.values(projectedCounterResults).length >= Object.values(counterResults).length){
+          if(filter.checked){
+            Object.values(projectedCounterResults).forEach(r => {
+              if(r[att.id].includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
+                counter++;
+              }
+            })
+          }else{
+            counter = Object.values(projectedCounterResults).length - Object.values(counterResults).length;
+          }
+        }else if(Object.values(projectedCounterResults).length < Object.values(counterResults).length){
+          counter = Object.values(projectedCounterResults).length;
+        }
+        att.querySelector("label[for='" + filter.id + "']").querySelector(".filterPreCounter").innerText = "(" + counter + ")";
       })
     });
   }
@@ -191,7 +202,10 @@ if (filterForm && sortForm && search) {
     //Sort items
     var list = document.querySelector('.tools-list');
     var sortedArticles = Array.from(articles);
-    sortedArticles.sort(sortList);
+    newResults.sort(sortList);
+    sortedArticles.sort(function(a, b){  
+      return newResults.findIndex(x => x.title === a.id) - newResults.findIndex(x => x.title === b.id);
+    });
     list.innerHTML = "";
     
     for (i = 0; i < sortedArticles.length; ++i) {
@@ -247,13 +261,13 @@ if (filterForm && sortForm && search) {
   function sortList(a, b) {
     var selectedSort = document.querySelector('.sort-by').querySelector('select').value;
     if(selectedSort == "alphabeticallyaz"){
-      return a.id.localeCompare(b.id);
+      return a.title.localeCompare(b.title);
     }else if(selectedSort == "alphabeticallyza"){
-      return b.id.localeCompare(a.id);
+      return b.title.localeCompare(a.title);
     }else if(selectedSort == "recentlyupdated"){
-      return false;
+      return new Date(b.update) - new Date(a.update);
     }else if(selectedSort == "recentlyadded"){
-      return false;
+      return new Date(b.release) - new Date(a.release);
     }
     return false;
   }
