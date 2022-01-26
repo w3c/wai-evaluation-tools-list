@@ -360,18 +360,24 @@ select:hover {
   flex: 50%;
 }
 
-.box-i {
+.tools-list .box-i {
   display: flex;
   flex-wrap: wrap;
 }
 
-.box-i h4 {
+.tools-list .box-i h4 {
   flex: 100%;
   margin-bottom: 0;
 }
 
-.box-i ul {
+.tools-list .box-i ul {
   margin-top: 0;
+}
+
+.tools-list .box-i svg {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+  flex-shrink: 0;
 }
 
 .leftCol {
@@ -380,6 +386,15 @@ select:hover {
 
 .rightCol {
   flex: 50%;
+}
+
+.colRow {
+  display: flex;
+  margin-bottom: 0.25rem
+}
+
+.colRow p {
+  margin: 0;
 }
 
 details {
@@ -420,6 +435,96 @@ details[open] summary{
   margin-bottom: -50px;
   right: 0%;
   width: 50%;
+}
+
+.tag {
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 0.25rem;
+  margin-right: 0.25rem;
+  float: left;
+  font-size: 10px;
+}
+
+.filterTag {
+  display: flex;
+  align-items: center;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 0.25rem;
+  margin-right: 0.25rem;
+  float: left;
+  font-size: 10px;
+}
+
+.filterTag svg {
+  width: 15px;
+  height: 15px;
+  margin-left: 0.25rem;
+}
+
+.filterTag a {
+  display: flex;
+}
+
+.filterTag a {
+  cursor: pointer;
+}
+
+#activeFilters {
+  /*margin-bottom: 1rem;*/
+}
+
+.clearButton {
+  width: 100%;
+  display: flex;
+}
+
+.hiddenInPagination {
+  display: none;
+}
+
+.paginationBlock {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.paginationBlock svg {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.paginationBlock a {
+  text-decoration: underline;
+}
+
+.paginationBlock a:hover {
+  cursor: pointer;
+}
+
+#btn_prev {
+  display: flex;
+  align-items: center;
+}
+
+#pageCount {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#btn_next {
+  display: flex;
+  align-items: center;
+}
+
+b {
+  margin-right: 0.25rem;
 }
 
 

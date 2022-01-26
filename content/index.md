@@ -59,6 +59,7 @@ footer: >
     <div id="left-col" class="tools-filters">
         <form data-filter-form action="...">
             <h2>Filters</h2>
+            <div id="activeFilters"></div>
             {% for filter in site.data.filters %}
             <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
                 <legend class="label">{{ filter.name }}
@@ -94,7 +95,6 @@ footer: >
                     </div>
             </fieldset>
         </form>
-        {% include_cached button.html label="Clear filters" class="clear-button"%}
     </div>
     <div id="tools-list">
         <div class="tools-list-header">

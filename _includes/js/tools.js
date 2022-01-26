@@ -12,6 +12,12 @@ const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
 
+var activeFiltersBlock = document.getElementById('activeFilters');
+
+//Pagination settings
+var currentPage = 1;
+var toolsPerPage = 8;
+
 document.querySelectorAll('.button-clear-button').forEach(item => {
   item.hidden = true;
   item.addEventListener('click', e => { clearFilters() });
@@ -39,6 +45,10 @@ if (filterForm && sortForm && search) {
 
   //Add pre-counters to filters
   showFilterCounters(filterForm);
+
+  //Add pagination after showing tools
+  var initialArticles = Array.from(toolsList.querySelectorAll('aside'));
+  addPagination(initialArticles)
 
   function showFilterCounters(form){
     var counterFiltersOn = getActiveFiltersList(form);
@@ -206,6 +216,11 @@ if (filterForm && sortForm && search) {
     sortedArticles.sort(function(a, b){  
       return newResults.findIndex(x => x.title === a.id) - newResults.findIndex(x => x.title === b.id);
     });
+    //Reset list and pagination
+    sortedArticles.forEach(a => {
+      a.classList.remove("hiddenInPagination");
+    })
+    currentPage = 1;
     list.innerHTML = "";
     
     for (i = 0; i < sortedArticles.length; ++i) {
@@ -213,36 +228,23 @@ if (filterForm && sortForm && search) {
     }
 
     sortedArticles.forEach(el => {
-      if (!Object.values(newResults).find(o => o.title === el.id))
+      if (!Object.values(newResults).find(o => o.title === el.id)){
         el.hidden = true;
-      else
+        el.classList.add("inactive");
+      }
+      else{
         el.hidden = false;
+        el.classList.remove("inactive");
+      }
     })
-
-    // if (filtersOn.length === 0) {
-    //   totalTools.innerText = "Showing " + newResults.length + " tools";
-    //   hideClearButton(true);
-    // }
-    // else if (newResults.length > 0) {
-    //   if (newResults.length === 1)
-    //     totalTools.innerText = "Showing " + newResults.length + " tool matching the following criteria: ";
-    //   else
-    //     totalTools.innerText = "Showing " + newResults.length + " tools matching the following criteria: ";
-    //   totalTools.appendChild(listFiltersOnString);
-    //   hideClearButton(false);
-    // }
-    // else {
-    //   totalTools.innerText = "Sorry, but no tools match the following criteria: ";
-    //   totalTools.appendChild(listFiltersOnString);
-    //   hideClearButton(false);
-    // }
+    addPagination(sortedArticles);
 
     if (Object.values(newResults).length === 0) {
       totalTools.innerText = "Sorry, but no tools match the following criteria: ";
       totalTools.appendChild(listFiltersOnString);
       var searchTerm = searchForm.value;
       if(searchTerm.length > 0){
-        totalTools.innerHTML += "Searchterm: \"" + searchTerm + "\"";
+        totalTools.innerText += "Searchterm: \"" + searchTerm + "\"";
       }
       hideClearButton(false);
     }else{
@@ -254,8 +256,109 @@ if (filterForm && sortForm && search) {
     }else{
       totalToolsCounter.innerText = Object.values(newResults).length + " tools";
     }
+
     console.log(newResults);
+    updateActiveFilters();
     showFilterCounters(filterForm);
+  }
+
+  function addPagination(sortedArticles) {
+    console.log("hahaha");
+    console.log(sortedArticles);
+    var list = document.querySelector('.tools-list');
+    var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
+    console.log(activeToolsCount)
+    console.log(toolsPerPage);
+    if(activeToolsCount > toolsPerPage){
+      console.log("test hier");
+      list.innerHTML += '<div class="paginationBlock">' 
+      +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
+      +'<span id="pageCount"></span>'
+      +'<div id="btn_next"><a onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
+      +'</div>';
+      changePage(currentPage, activeToolsCount);
+    }
+  }
+
+  function previousPage(activeToolsCount) {
+    if (currentPage > 1) {
+        currentPage--;
+        changePage(currentPage, activeToolsCount);
+    }
+  }
+
+  function nextPage(activeToolsCount) {
+    if (currentPage < numPages(activeToolsCount)) {
+        currentPage++;
+        changePage(currentPage, activeToolsCount);
+    }
+  }
+
+  function numPages(activeToolsCount) {
+    return Math.ceil(activeToolsCount / toolsPerPage);
+  }
+
+  function changePage(page, activeToolsCount) {
+    console.log("hhewr");
+    var btn_next = document.getElementById("btn_next");
+    var btn_prev = document.getElementById("btn_prev");
+    var list = document.querySelector('.tools-list');
+    var page_span = document.getElementById("pageCount");
+ 
+    // Validate page
+    if (page < 1) page = 1;
+    if (page > numPages(activeToolsCount)) page = numPages(activeToolsCount);
+    const articles = toolsList.querySelectorAll('aside');
+    var sortedArticles = Array.from(articles);
+    var activeArticles = sortedArticles.filter((article) => !article.classList.contains("inactive"));
+
+    activeArticles.forEach(a => {
+      a.classList.add("hiddenInPagination");
+    })
+
+    for (var i = (page-1) * toolsPerPage; i < (page * toolsPerPage); i++) {
+      if(activeArticles[i] != undefined){
+        activeArticles[i].classList.remove("hiddenInPagination");
+      }
+    }
+    page_span.innerHTML = "Page " + page + " of " + numPages(activeToolsCount);
+
+    if (page == 1) {
+        btn_prev.style.visibility = "hidden";
+    } else {
+        btn_prev.style.visibility = "visible";
+    }
+    if (page == numPages(activeToolsCount)) {
+        btn_next.style.visibility = "hidden";
+    } else {
+        btn_next.style.visibility = "visible";
+    }
+  }
+
+  function updateActiveFilters() {
+    var filtersOn = getActiveFiltersList(filterForm);
+    activeFiltersBlock.innerHTML = "";
+    filtersOn.forEach(filterGroup => {
+      filterGroup.filterValues.forEach(filter => {
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+filter+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
+      })
+    })
+    if(filtersOn.length > 0){
+      activeFiltersBlock.innerHTML += '<div class="clearButton">{% include_cached button.html label="Clear filters" class="clear-button"%}</div>';
+    }
+  }
+
+  function removeFilter(filterTitle) {
+    console.log(filterTitle);
+    var form = filterForm;
+    form.querySelectorAll('fieldset').forEach(att => {
+      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
+        if (att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText == filterTitle) {
+          filter.checked = false;
+        }
+      })
+    });
+    filterJson(filterForm);
   }
 
   function sortList(a, b) {

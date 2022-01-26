@@ -26,20 +26,20 @@
 	</ul> 
 </div>
 <div class="rightCol">
-	<div>
-		{% include_cached icon.html name="default" %}Evaluate:
+	<div class="colRow">
+		{% include_cached icon.html name="default" %}<p><b>Evaluate:</b></p>
 	</div>
-	<div>
+	<div class="colRow">
 		{% include_cached icon.html name="code" %}
-		{% for type in tool.type %}
-		  {{ type }},
-		{% endfor %}
+		<p>{% for type in tool.type %}
+		  {{ type }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
-	<div>
+	<div class="colRow">
 		{% include_cached icon.html name="default" %}
-		{% for license in tool.license %}
-		  {{ license }},
-		{% endfor %}
+		<p>{% for license in tool.license %}
+		  {{ license }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
 </div>
 
@@ -49,33 +49,35 @@
 
 <div class="leftCol">
 	<h4>Guidelines</h4> 
-	{{ tools.guidelines }}
+	{% for guideline in tool.guideline %}
+	  <div class="tag">{{ guideline }}</div>
+	{% endfor %}
 </div>
 
 <div class="rightCol">
-	<div>
+	<div class="colRow">
 		{% include_cached icon.html name="desktop" %}
-		{% for browser in tool.browsers %}
-		  {{ browser }},
-		{% endfor %}
+		<p>{% for browser in tool.browsers %}
+		  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
-	<div>
+	<div class="colRow">
 	{% include_cached icon.html name="default" %}Operating Systems:
 	</div>
-	<div>
-		{% include_cached icon.html name="default" %}Scope:
-		{% for automated in tool.automated %}
-		  {{ automated }},
-		{% endfor %}
+	<div class="colRow">
+		{% include_cached icon.html name="default" %}<b>Scope:</b>
+		<p>{% for automated in tool.automated %}
+		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
-	<div>
+	<div class="colRow">
 		{% include_cached icon.html name="translations" %}
-		{% for language in tool.language %}
-		  {{ language }},
-		{% endfor %}
+		<p>{% for language in tool.language %}
+		  {{ language }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
-	<div>
-	{% include_cached icon.html name="check-circle" %}Accessible?{{ tools.accessible }}
+	<div class="colRow">
+	{% include_cached icon.html name="check-circle" %}<p>Accessible?{{ tools.accessible }}</p>
 	</div>
 </div>
 
