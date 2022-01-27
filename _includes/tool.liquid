@@ -48,10 +48,15 @@
 {% include excol.html type="middle"%}
 
 <div class="leftCol">
-	<h4>Guidelines</h4> 
+	{% if tool.guideline | size > 0 %}<h4>Guidelines</h4>{% endif %}
 	{% for guideline in tool.guideline %}
 	  <div class="tag">{{ guideline }}</div>
 	{% endfor %}
+	<div class="subBox">
+		<p>Is the information provided for this tool incorrect or outdated?</p>
+		<a>Update information</a>
+		<a>Report tool</a>
+	</div>
 </div>
 
 <div class="rightCol">

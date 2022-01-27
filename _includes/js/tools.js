@@ -18,11 +18,6 @@ var activeFiltersBlock = document.getElementById('activeFilters');
 var currentPage = 1;
 var toolsPerPage = 8;
 
-document.querySelectorAll('.button-clear-button').forEach(item => {
-  item.hidden = true;
-  item.addEventListener('click', e => { clearFilters() });
-})
-
 document.querySelectorAll('fieldset').forEach(item => {
   if(item.getAttribute("collapsed")){
     makeCollapsible(item);
@@ -44,17 +39,15 @@ if (filterForm && sortForm && search) {
   });
 
   //Add pre-counters to filters
-  showFilterCounters(filterForm);
+  showFilterCounters(filterForm, true);
 
   //Add pagination after showing tools
   var initialArticles = Array.from(toolsList.querySelectorAll('aside'));
   addPagination(initialArticles)
 
-  function showFilterCounters(form){
+  function showFilterCounters(form, init){
     var counterFiltersOn = getActiveFiltersList(form);
-    console.log(counterFiltersOn);
     var counterResults = filterNewResultsList(counterFiltersOn);
-    console.log(counterResults);
     var projectedCounterFiltersOn = counterFiltersOn;
     form.querySelectorAll('fieldset').forEach(att => {
       att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
@@ -65,22 +58,36 @@ if (filterForm && sortForm && search) {
         var newFilter = false;
         projectedCounterFiltersOn.forEach(f => {
           if(f.filterId === att.id){
-            if(!f.filterValues.includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
-              f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+            if(att.id === "language"){
+              if(f.filterValues.some(function(v){ return v.indexOf(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)<0 })){
+                f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+                newFilter = true;
+              }
+            }else{
+              if(!f.filterValues.includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
+                f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+              }
+              newFilter = true;
             }
-            newFilter = true;
           }
         })
         if(newFilter === false){
           projectedCounterFiltersOn.push({ filterId: att.id, filterName: filterName, filterValues: attValues }); 
         }
+
         var projectedCounterResults = filterNewResultsList(projectedCounterFiltersOn);
         var counter = 0;
         if(Object.values(projectedCounterResults).length >= Object.values(counterResults).length){
           if(filter.checked){
             Object.values(projectedCounterResults).forEach(r => {
-              if(r[att.id].includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
-                counter++;
+              if(att.id === "language"){
+                if(r[att.id].some(function(v){ return v.indexOf(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)>=0 })){
+                  counter++;
+                }
+              }else{
+                if(r[att.id].includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
+                  counter++;
+                }
               }
             })
           }else{
@@ -90,6 +97,13 @@ if (filterForm && sortForm && search) {
           counter = Object.values(projectedCounterResults).length;
         }
         att.querySelector("label[for='" + filter.id + "']").querySelector(".filterPreCounter").innerText = "(" + counter + ")";
+        if(init == true){
+          if(att.id === "language" && counter === 0 && !filter.checked){
+            att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = true;
+          }else{
+            att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = false;
+          }
+        }
       })
     });
   }
@@ -160,13 +174,17 @@ if (filterForm && sortForm && search) {
 
   function filterNewResultsList(filtersOnList) {
     var newResultsList = [];
-
+    // console.log(filtersOnList);
     // by attribute
     filtersOnList.forEach(filter => {
       newResultsList.push(Object.values(jsonTools).filter((x) => filter.filterValues.some(
         function(r) {
           if(x[filter.filterId] !== undefined){
-            return x[filter.filterId].includes(r);
+            if(filter.filterId === "language"){
+              return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
+            }else{
+              return x[filter.filterId].includes(r);
+            }
           }else{
             return false;
           }
@@ -200,9 +218,10 @@ if (filterForm && sortForm && search) {
 
       var attValues = document.createElement('dd');
 
-      if (f.filterId == 'language')
-        attValues.innerText = jsonLang[f.filterValues[0]].name + " (" + jsonLang[f.filterValues[0]].nativeName + ")";
-      else if (f.filterId == 'country')
+      // if (f.filterId == 'language')
+        // attValues.innerText = jsonLang[f.filterValues[0]].name + " (" + jsonLang[f.filterValues[0]].nativeName + ")";
+      // else 
+      if (f.filterId == 'country')
         attValues.innerText = jsonCountry[f.filterValues[0]].name + " (" + jsonCountry[f.filterValues[0]].nativeName + ")";
       else
         attValues.innerText = f.filterValues.join(', ');
@@ -259,18 +278,16 @@ if (filterForm && sortForm && search) {
 
     console.log(newResults);
     updateActiveFilters();
-    showFilterCounters(filterForm);
+    showFilterCounters(filterForm, false);
   }
 
   function addPagination(sortedArticles) {
-    console.log("hahaha");
-    console.log(sortedArticles);
+    // console.log(sortedArticles);
     var list = document.querySelector('.tools-list');
     var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
     console.log(activeToolsCount)
     console.log(toolsPerPage);
     if(activeToolsCount > toolsPerPage){
-      console.log("test hier");
       list.innerHTML += '<div class="paginationBlock">' 
       +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
       +'<span id="pageCount"></span>'
@@ -299,7 +316,6 @@ if (filterForm && sortForm && search) {
   }
 
   function changePage(page, activeToolsCount) {
-    console.log("hhewr");
     var btn_next = document.getElementById("btn_next");
     var btn_prev = document.getElementById("btn_prev");
     var list = document.querySelector('.tools-list');
@@ -344,8 +360,12 @@ if (filterForm && sortForm && search) {
       })
     })
     if(filtersOn.length > 0){
-      activeFiltersBlock.innerHTML += '<div class="clearButton">{% include_cached button.html label="Clear filters" class="clear-button"%}</div>';
+      activeFiltersBlock.innerHTML += '<div class="clearButton">{% include_cached button.html label="Clear filters" class="clear-button" %}</div>';
     }
+
+    document.querySelectorAll('.button-clear-button').forEach(item => {
+      item.addEventListener('click', e => { clearFilters(e) });
+    })
   }
 
   function removeFilter(filterTitle) {
@@ -358,7 +378,7 @@ if (filterForm && sortForm && search) {
         }
       })
     });
-    filterJson(filterForm);
+    filterJson(form);
   }
 
   function sortList(a, b) {
@@ -380,10 +400,11 @@ if (filterForm && sortForm && search) {
   }
 
 
-  function clearFilters() {
-    rebuildList(jsonTools, []);
+  function clearFilters(e) {
+    e.preventDefault();
     filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
     filterForm.querySelectorAll("select").forEach(el => el.selectedIndex = 0);
+    filterJson(filterForm);
   }
 
 
@@ -409,50 +430,35 @@ if (filterForm && sortForm && search) {
     return obj
   }
 
-}
-
-// const divSelectLang = document.getElementById("divSelectLang");
-// const fieldLang = document.getElementsByClassName("field-language")[0];
-// document.getElementsByClassName("button-new-lang")[0].addEventListener('click', e => { addNewField(divSelectLang,fieldLang)});
-
-// const divSelectCountry = document.getElementById("divSelectCountry");
-// const fieldCountry = document.getElementsByClassName("field-country")[0];
-// document.getElementsByClassName("button-new-country")[0].addEventListener('click', e => { addNewField(divSelectCountry,fieldCountry)});
-
-// const divInputPrerequisite = document.getElementById("divInputPrerequisite");
-// const fieldPrequisite = document.getElementsByClassName("field-prerequisite")[0];
-// document.getElementsByClassName("button-new-prerequisite")[0].addEventListener('click', e => { addNewField(divInputPrerequisite,fieldPrequisite)});
-
-// const divInputTopic = document.getElementById("divInputTopic");
-// const fieldTopic = document.getElementsByClassName("field-topic")[0];
-// document.getElementsByClassName("button-new-topic")[0].addEventListener('click', e => { addNewField(divInputTopic,fieldTopic)});
-
-function addNewField(divToAppend, fieldToAppend){
-  divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
-}
-
-function makeCollapsible(item){
-  var label = item.querySelector('legend');
-  label.classList.add("collapsible");
-  if(item.getAttribute("collapsed") == "true"){
-    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-    item.querySelector('.options').classList.add("collapsed");
-  }else{
-    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+  function addNewField(divToAppend, fieldToAppend){
+    divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
   }
-  label.addEventListener('click', e => { toggleCollapsed(item) });
+
+  function makeCollapsible(item){
+    var label = item.querySelector('legend');
+    label.classList.add("collapsible");
+    if(item.getAttribute("collapsed") == "true"){
+      label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+      item.querySelector('.options').classList.add("collapsed");
+    }else{
+      label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+    }
+    label.addEventListener('click', e => { toggleCollapsed(item) });
+  }
+
+  function toggleCollapsed(item){
+    var label = item.querySelector('legend');
+    var options = item.querySelector('.options');
+    if(options.classList.contains("collapsed")){
+      label.querySelector('.icon-chevron-down').remove();
+      label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+      options.classList.remove("collapsed");
+    }else{
+      label.querySelector('.icon-chevron-up').remove();
+      label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+      options.classList.add("collapsed");
+    }
+  }
+
 }
 
-function toggleCollapsed(item){
-  var label = item.querySelector('legend');
-  var options = item.querySelector('.options');
-  if(options.classList.contains("collapsed")){
-    label.querySelector('.icon-chevron-down').remove();
-    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
-    options.classList.remove("collapsed");
-  }else{
-    label.querySelector('.icon-chevron-up').remove();
-    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-    options.classList.add("collapsed");
-  }
-}

@@ -82,13 +82,13 @@ footer: >
             </fieldset>
             {% endfor %}
             {% assign langAvailable = site.data.lang %}
-            <fieldset id="language-filter" collapsed="true">
+            <fieldset id="language" collapsed="true">
                 <legend class='collapsible'>Language </legend>  
                     <div class="options collapsible">
                     {% for language in langAvailable %}
                         <div class="filter-options field">
                             <input type="checkbox" id="lang-filter-{{ language.first }}" name="language">
-                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span>({{
+                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span> ({{
                                 language.last.nativeName}}) <span class="filterPreCounter"></span></label>
                         </div>
                     {% endfor %}
@@ -129,7 +129,7 @@ footer: >
 </div>
 <div id="improvepage">
     {% include box.html type="start" title="Help improve this page" %}
-        <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore</p>
+        <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore.</p>
         <div class="button-group">
             {% include_cached button.html type="link" label="Add tool" class="more" href="submit-a-tool" %}
             {% include_cached button.html type="link" label="Update tool info" class="more" %}

@@ -367,11 +367,15 @@ select:hover {
 
 .tools-list .box-i h4 {
   flex: 100%;
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
 }
 
 .tools-list .box-i ul {
   margin-top: 0;
+}
+
+.tools-list .box-i li {
+  margin-bottom: 0;
 }
 
 .tools-list .box-i svg {
@@ -526,6 +530,28 @@ details[open] summary{
 b {
   margin-right: 0.25rem;
 }
+
+.subBox {
+  background: var(--footer-grey);
+  margin-right: 3rem;
+  padding: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.subBox p {
+  margin: 0;
+}
+
+.subBox a {
+  text-decoration: underline;
+  display: block;
+}
+
+.subBox a:hover {
+  cursor: pointer;
+}
+
 
 
 
