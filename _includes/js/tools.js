@@ -285,8 +285,6 @@ if (filterForm && sortForm && search) {
     // console.log(sortedArticles);
     var list = document.querySelector('.tools-list');
     var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
-    console.log(activeToolsCount)
-    console.log(toolsPerPage);
     if(activeToolsCount > toolsPerPage){
       list.innerHTML += '<div class="paginationBlock">' 
       +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
@@ -430,35 +428,50 @@ if (filterForm && sortForm && search) {
     return obj
   }
 
-  function addNewField(divToAppend, fieldToAppend){
-    divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
-  }
-
-  function makeCollapsible(item){
-    var label = item.querySelector('legend');
-    label.classList.add("collapsible");
-    if(item.getAttribute("collapsed") == "true"){
-      label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-      item.querySelector('.options').classList.add("collapsed");
-    }else{
-      label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
-    }
-    label.addEventListener('click', e => { toggleCollapsed(item) });
-  }
-
-  function toggleCollapsed(item){
-    var label = item.querySelector('legend');
-    var options = item.querySelector('.options');
-    if(options.classList.contains("collapsed")){
-      label.querySelector('.icon-chevron-down').remove();
-      label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
-      options.classList.remove("collapsed");
-    }else{
-      label.querySelector('.icon-chevron-up').remove();
-      label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-      options.classList.add("collapsed");
-    }
-  }
-
 }
 
+// const divSelectLang = document.getElementById("divSelectLang");
+// const fieldLang = document.getElementsByClassName("field-language")[0];
+// document.getElementsByClassName("button-new-lang")[0].addEventListener('click', e => { addNewField(divSelectLang,fieldLang)});
+
+// const divSelectCountry = document.getElementById("divSelectCountry");
+// const fieldCountry = document.getElementsByClassName("field-country")[0];
+// document.getElementsByClassName("button-new-country")[0].addEventListener('click', e => { addNewField(divSelectCountry,fieldCountry)});
+
+// const divInputPrerequisite = document.getElementById("divInputPrerequisite");
+// const fieldPrequisite = document.getElementsByClassName("field-prerequisite")[0];
+// document.getElementsByClassName("button-new-prerequisite")[0].addEventListener('click', e => { addNewField(divInputPrerequisite,fieldPrequisite)});
+
+// const divInputTopic = document.getElementById("divInputTopic");
+// const fieldTopic = document.getElementsByClassName("field-topic")[0];
+// document.getElementsByClassName("button-new-topic")[0].addEventListener('click', e => { addNewField(divInputTopic,fieldTopic)});
+
+function addNewField(divToAppend, fieldToAppend){
+  divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
+}
+
+function makeCollapsible(item){
+  var label = item.querySelector('legend');
+  label.classList.add("collapsible");
+  if(item.getAttribute("collapsed") == "true"){
+    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    item.querySelector('.options').classList.add("collapsed");
+  }else{
+    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+  }
+  label.addEventListener('click', e => { toggleCollapsed(item) });
+}
+
+function toggleCollapsed(item){
+  var label = item.querySelector('legend');
+  var options = item.querySelector('.options');
+  if(options.classList.contains("collapsed")){
+    label.querySelector('.icon-chevron-down').remove();
+    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+    options.classList.remove("collapsed");
+  }else{
+    label.querySelector('.icon-chevron-up').remove();
+    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    options.classList.add("collapsed");
+  }
+}
