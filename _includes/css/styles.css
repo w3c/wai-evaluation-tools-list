@@ -128,6 +128,12 @@ main>header {
 
 .filter-options {
   margin: 0;
+  display: flex;
+}
+
+.filter-options input[type=checkbox] {
+  align-self: flex-start;
+  margin-top: 0.3rem;
 }
 
 #left-col .field label {
@@ -303,6 +309,7 @@ details>div{
   align-self: center;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .tools-list-header .sort-by h4 {
@@ -374,10 +381,6 @@ select:hover {
   margin-top: 0;
 }
 
-.tools-list .box-i li {
-  margin-bottom: 0;
-}
-
 .tools-list .box-i svg {
   margin-right: 0.5rem;
   margin-top: 0.25rem;
@@ -412,6 +415,11 @@ details h4 {
   margin-top: 0 !important;
 }
 
+summary h4 {
+  margin-top: 0 !important;
+  text-align: center;
+}
+
 #tools-list details>div {
   flex-wrap: wrap;
   display: flex;
@@ -422,13 +430,6 @@ details h4 {
   border: none;
 }
 
-summary {
-  width: 50%;
-  float: right;
-  margin-left: 0 !important;
-  padding-bottom: 0.5rem;
-}
-
 details[open] {
   margin-bottom: 50px !important;
 }
@@ -437,8 +438,8 @@ details[open] summary{
   position: absolute;
   bottom: 0;
   margin-bottom: -50px;
-  right: 0%;
-  width: 50%;
+  left: 0;
+  right: 0;
 }
 
 .tag {
@@ -449,7 +450,7 @@ details[open] summary{
   margin-bottom: 0.25rem;
   margin-right: 0.25rem;
   float: left;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .filterTag {
@@ -462,7 +463,7 @@ details[open] summary{
   margin-bottom: 0.25rem;
   margin-right: 0.25rem;
   float: left;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .filterTag svg {
@@ -486,6 +487,14 @@ details[open] summary{
 .clearButton {
   width: 100%;
   display: flex;
+}
+
+.clearButton a {
+  text-decoration: underline;
+}
+
+.clearButton a:hover {
+  cursor: pointer;
 }
 
 .hiddenInPagination {
@@ -550,6 +559,109 @@ b {
 
 .subBox a:hover {
   cursor: pointer;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.4); /* IE */
+  -moz-transform: scale(1.4); /* FF */
+  -webkit-transform: scale(1.4); /* Safari and Chrome */
+  -o-transform: scale(1.4); /* Opera */
+  transform: scale(1.4);
+}
+
+#help-me-choose-overlay  {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.overlay-content {
+  width: 50em;
+  height: 40em;
+  text-align: center;
+  background-color: white;
+  padding: 1rem 5rem;
+  background: #FFFFFF;
+  border: 1px solid #D7D7D7;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.overlay-content a:hover {
+  cursor: pointer;
+}
+
+.helper-options {
+  margin: 0;
+  display: flex;
+  border-bottom: 1px solid #D9D9D9;
+  margin-top: 0.5rem;
+}
+
+.helper-options input[type=checkbox] {
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+}
+
+.helper-option {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.helper-option label {
+  font-size: 18px;
+}
+
+.helper-option p {
+  margin: 0;
+}
+
+.helper-header {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.helper-header a {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.helper-header a svg {
+  height: 40px;
+  width: 40px;
+}
+
+.helper-footer {
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  padding-left: inherit;
+  padding-right: inherit;
+  left: 0;
+  right: 0;
+}
+
+#backToList svg {
+  margin-right: 0.5rem;
+}
+
+#skipHelperStep svg {
+  margin-left: 0.5rem;
 }
 
 

@@ -27,7 +27,7 @@
 </div>
 <div class="rightCol">
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}<p><b>Evaluate:</b></p>
+		{% include_cached icon.html name="default" %}<p>Evaluate:</p>
 	</div>
 	<div class="colRow">
 		{% include_cached icon.html name="code" %}
@@ -70,7 +70,7 @@
 	{% include_cached icon.html name="default" %}Operating Systems:
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}<b>Scope:</b>
+		{% include_cached icon.html name="default" %}Scope:
 		<p>{% for automated in tool.automated %}
 		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>

@@ -9,10 +9,14 @@ const jsonTools = JSON.parse(importJson);
 const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
 const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
+const jsonHelpers = JSON.parse('{{site.data.helpers | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
+var toolsListContent = document.querySelector('.tools-list');
 
 var activeFiltersBlock = document.getElementById('activeFilters');
+
+var activeHelperFilters = [];
 
 //Pagination settings
 var currentPage = 1;
@@ -22,6 +26,10 @@ document.querySelectorAll('fieldset').forEach(item => {
   if(item.getAttribute("collapsed")){
     makeCollapsible(item);
   }
+})
+
+document.querySelector('.button-help-me-choose').addEventListener('click', e => {
+    showHelpMeChoose(e);
 })
 
 if (filterForm && sortForm && search) {
@@ -42,33 +50,28 @@ if (filterForm && sortForm && search) {
   showFilterCounters(filterForm, true);
 
   //Add pagination after showing tools
-  var initialArticles = Array.from(toolsList.querySelectorAll('aside'));
+  var initialArticles = Array.from(toolsListContent.querySelectorAll('aside'));
   addPagination(initialArticles)
 
   function showFilterCounters(form, init){
     var counterFiltersOn = getActiveFiltersList(form);
     var counterResults = filterNewResultsList(counterFiltersOn);
     var projectedCounterFiltersOn = counterFiltersOn;
+
     form.querySelectorAll('fieldset').forEach(att => {
       att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
         projectedCounterFiltersOn = getActiveFiltersList(form);
+        
         var attValues = [];
         attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
         filterName = att.querySelectorAll('legend')[0].innerText;
+        
         var newFilter = false;
         projectedCounterFiltersOn.forEach(f => {
           if(f.filterId === att.id){
-            if(att.id === "language"){
-              if(f.filterValues.some(function(v){ return v.indexOf(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)<0 })){
-                f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
-                newFilter = true;
-              }
-            }else{
-              if(!f.filterValues.includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
-                f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
-              }
-              newFilter = true;
-            }
+            f.filterValues = [];
+            f.filterValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+            newFilter = true;
           }
         })
         if(newFilter === false){
@@ -76,27 +79,9 @@ if (filterForm && sortForm && search) {
         }
 
         var projectedCounterResults = filterNewResultsList(projectedCounterFiltersOn);
-        var counter = 0;
-        if(Object.values(projectedCounterResults).length >= Object.values(counterResults).length){
-          if(filter.checked){
-            Object.values(projectedCounterResults).forEach(r => {
-              if(att.id === "language"){
-                if(r[att.id].some(function(v){ return v.indexOf(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)>=0 })){
-                  counter++;
-                }
-              }else{
-                if(r[att.id].includes(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText)){
-                  counter++;
-                }
-              }
-            })
-          }else{
-            counter = Object.values(projectedCounterResults).length - Object.values(counterResults).length;
-          }
-        }else if(Object.values(projectedCounterResults).length < Object.values(counterResults).length){
-          counter = Object.values(projectedCounterResults).length;
-        }
+        var counter = Object.values(projectedCounterResults).length;
         att.querySelector("label[for='" + filter.id + "']").querySelector(".filterPreCounter").innerText = "(" + counter + ")";
+        
         if(init == true){
           if(att.id === "language" && counter === 0 && !filter.checked){
             att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = true;
@@ -104,6 +89,7 @@ if (filterForm && sortForm && search) {
             att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = false;
           }
         }
+
       })
     });
   }
@@ -204,7 +190,7 @@ if (filterForm && sortForm && search) {
 
   function rebuildList(newResults, filtersOn) {
 
-    const articles = toolsList.querySelectorAll('aside');
+    const articles = toolsListContent.querySelectorAll('aside');
     var totalToolsCounter = document.getElementById("total-tools");
     var totalTools = document.getElementById("found-tools");
 
@@ -322,7 +308,7 @@ if (filterForm && sortForm && search) {
     // Validate page
     if (page < 1) page = 1;
     if (page > numPages(activeToolsCount)) page = numPages(activeToolsCount);
-    const articles = toolsList.querySelectorAll('aside');
+    const articles = toolsListContent.querySelectorAll('aside');
     var sortedArticles = Array.from(articles);
     var activeArticles = sortedArticles.filter((article) => !article.classList.contains("inactive"));
 
@@ -354,16 +340,28 @@ if (filterForm && sortForm && search) {
     activeFiltersBlock.innerHTML = "";
     filtersOn.forEach(filterGroup => {
       filterGroup.filterValues.forEach(filter => {
-        activeFiltersBlock.innerHTML += '<div class="filterTag">'+filter+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
       })
     })
     if(filtersOn.length > 0){
-      activeFiltersBlock.innerHTML += '<div class="clearButton">{% include_cached button.html label="Clear filters" class="clear-button" %}</div>';
+      activeFiltersBlock.innerHTML += '<div class="clearButton"><a class="button-clear-button">Clear all filters</a></div>';
     }
 
     document.querySelectorAll('.button-clear-button').forEach(item => {
       item.addEventListener('click', e => { clearFilters(e) });
     })
+  }
+
+  function getFilterName(filter){
+    var guidelines = jsonFilters.find(e => e.id === 'guidelines');
+    var activeFilter = guidelines.options.find(e => e.name === filter);
+    var name = "";
+    if(activeFilter != undefined){
+      name = activeFilter.short;
+    }else{
+      name = filter;
+    }
+    return name;
   }
 
   function removeFilter(filterTitle) {
@@ -428,6 +426,69 @@ if (filterForm && sortForm && search) {
     return obj
   }
 
+}
+
+function showHelpMeChoose(e){
+  e.preventDefault();
+  var overlay = document.getElementById("help-me-choose-overlay");
+  overlay.style.display = "flex";
+
+  console.log(jsonHelpers);
+  var overlayContent = overlay.querySelector('.overlay-content');
+
+  var content = "<div class='helper-header'><h3>"+jsonHelpers[0].name+"</h3>";
+  content += "<h4>"+jsonHelpers[0].question+"</h4>";
+  content += '<a onclick="closeHelperOverlay()">{% include_cached icon.html name="ex-circle" %}</a></div>';
+  content += "<div class='questionOptions'><fieldset id="+jsonHelpers[0].id+"><legend class='label'>"+jsonHelpers[0].name+"</legend>";
+  jsonHelpers[0].options.forEach(option => {
+    content += '<div class="helper-options field">';
+    content += '<input type="checkbox" id="filter-'+option.id+'" name="'+option.id+'">';
+    content += '<div class="helper-option"><label for="filter-'+option.id+'"><span class="filterName">'+option.name+'</span></label>';
+    content += '<p>'+option.info+'</p></div>';
+    content += "</div>";
+  })
+  content += "</fieldset></div>";
+  content += "<div class='helper-footer'>";
+  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a onclick="closeHelperOverlay()">back to tools list</a></div>';
+  content += '<div id="showHelperResults"><a onclick="applyHelper()">show <span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
+  content += '<div id="skipHelperStep"><a>Skip '+jsonHelpers[0].id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
+  content += "</div>";
+  overlayContent.innerHTML = content;
+
+  document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
+    console.log(item);
+    item.addEventListener('change', e => { updateHelperCounter(overlayContent) })
+  })
+}
+
+function updateHelperCounter(overlayContent){
+  activeHelperFilters = getActiveFiltersList(overlayContent);
+  console.log(activeHelperFilters);
+  var projectedHelperResults = filterNewResultsList(activeHelperFilters);
+  var counter = Object.values(projectedHelperResults).length;
+  console.log(counter);
+  document.querySelector('.helperResultsCounter').innerText = counter;
+}
+
+function applyHelper(){
+  console.log(activeHelperFilters);
+  activeHelperFilters.forEach(filter => {
+    var currentFilter = jsonFilters.find(f => f.id === filter.filterId);
+    filter.filterValues.forEach(value => {
+      var filterValueId = currentFilter.options.find(o => o.name === value).id;
+      console.log(filterValueId);
+      filterForm.querySelector('#filter-'+filterValueId).checked = true;
+    })
+  })
+  filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
+  var event = new Event('change');
+  filterForm.dispatchEvent(event);
+  closeHelperOverlay();
+}
+
+function closeHelperOverlay(){
+  var overlay = document.getElementById("help-me-choose-overlay");
+  overlay.style.display = "none";
 }
 
 // const divSelectLang = document.getElementById("divSelectLang");

@@ -51,7 +51,7 @@ footer: >
     <div class="header-right">
         {% include box.html type="start" class="simple" %}
             <h3>Need help finding the right tool for you?</h3>
-            {% include_cached button.html type="link" label="Help me choose" class="more" %}  
+            {% include_cached button.html type="link" label="Help me choose" class="help-me-choose" %}
         {% include box.html type="end" %}
     </div>
 </div>
@@ -124,26 +124,27 @@ footer: >
             {% assign defaultSort = site.data.sorting.first.sortkey %}
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
         </div>
+        <div id="improvepage">
+            {% include box.html type="start" title="Help improve this page" %}
+                <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore.</p>
+                <div class="button-group">
+                    {% include_cached button.html type="link" label="Add tool" class="more" href="submit-a-tool" %}
+                    {% include_cached button.html type="link" label="Update tool info" class="more" %}
+                    {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
+                </div>
+            {% include box.html type="end" %}
+        </div>
+        <div id="disclaimer">
+            {% include box.html type="start" title="Important Disclaimer" %}
+                <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
+                <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
+                <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
+            {% include box.html type="end" %}
+        </div>
     </div>
     
 </div>
-<div id="improvepage">
-    {% include box.html type="start" title="Help improve this page" %}
-        <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore.</p>
-        <div class="button-group">
-            {% include_cached button.html type="link" label="Add tool" class="more" href="submit-a-tool" %}
-            {% include_cached button.html type="link" label="Update tool info" class="more" %}
-            {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
-        </div>
-    {% include box.html type="end" %}
-</div>
-<div id="disclaimer">
-    {% include box.html type="start" title="Important Disclaimer" %}
-        <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
-        <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
-        <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
-    {% include box.html type="end" %}
-</div>
+<div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
 <!-- <div class="button-submit-end">
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->

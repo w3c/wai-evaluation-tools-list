@@ -1,0 +1,25 @@
+[
+  {
+    "id": "purpose",
+    "name": "Purpose",
+    "step": "1",
+    "question": "What would you like to use the tool for?",
+    "options": [
+      {
+        "id": "automatic",
+        "name": "Automatically test accessibility",
+        "info": ""
+      },
+      {
+        "id": "manual",
+        "name": "Support manual testing",
+        "info": "the tool guides you with evaluating guidelines that you can only test manually"
+      },
+      {
+        "id": "simulate",
+        "name": "Simulate user experience",
+        "info": "experience what it’s like to browse websites or apps with a disability"
+      }                      
+    ]
+  }
+]
