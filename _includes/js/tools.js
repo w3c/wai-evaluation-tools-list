@@ -29,7 +29,15 @@ document.querySelectorAll('fieldset').forEach(item => {
 })
 
 document.querySelector('.button-help-me-choose').addEventListener('click', e => {
-    showHelpMeChoose(e);
+    getHelpMeChooseStep(e);
+})
+
+document.querySelector('.button-filters').addEventListener('click', e => {
+    toggleFilters();
+})
+
+document.querySelector('.close-filters').addEventListener('click', e => {
+    toggleFilters();
 })
 
 if (filterForm && sortForm && search) {
@@ -139,6 +147,45 @@ if (filterForm && sortForm && search) {
           attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
         }
       })
+
+      if (attValues.length > 0){
+        activeFiltersList.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
+      }
+
+      att.querySelectorAll('select').forEach(filter => {
+        attValues = [];
+        if (filter.value != "") {
+          attValues.push(filter.value)
+          activeFiltersList.push({ filterId: filter.id, filterName: filterName, filterValues: attValues });
+        }
+
+      });
+
+    });
+
+    return activeFiltersList;
+  }
+
+  function updateHelperFiltersList(form, list) {
+    var activeFiltersList = list;
+    var attValues = [];
+
+    // for each attribute group
+    form.querySelectorAll('fieldset').forEach(att => {
+
+      attValues = [];
+      filterName = att.querySelectorAll('legend')[0].innerText;
+
+      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
+        if (filter.checked) {
+          attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
+        }
+      })
+
+      if(activeFiltersList.find(f => f.filterId === att.id)){
+        var index = activeFiltersList.findIndex(i => i.filterId === att.id);
+        activeFiltersList.splice(index, 1);
+      }
 
       if (attValues.length > 0){
         activeFiltersList.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
@@ -428,19 +475,18 @@ if (filterForm && sortForm && search) {
 
 }
 
-function showHelpMeChoose(e){
-  e.preventDefault();
+function showHelpMeChoose(step){
+  var currentStep = step;
   var overlay = document.getElementById("help-me-choose-overlay");
   overlay.style.display = "flex";
-
-  console.log(jsonHelpers);
   var overlayContent = overlay.querySelector('.overlay-content');
+  overlayContent.innerHTML = "";
 
-  var content = "<div class='helper-header'><h3>"+jsonHelpers[0].name+"</h3>";
-  content += "<h4>"+jsonHelpers[0].question+"</h4>";
+  var content = "<div class='helper-header'><h3>"+currentStep.name+"</h3>";
+  content += "<h4>"+currentStep.question+"</h4>";
   content += '<a onclick="closeHelperOverlay()">{% include_cached icon.html name="ex-circle" %}</a></div>';
-  content += "<div class='questionOptions'><fieldset id="+jsonHelpers[0].id+"><legend class='label'>"+jsonHelpers[0].name+"</legend>";
-  jsonHelpers[0].options.forEach(option => {
+  content += "<div class='questionOptions'><fieldset id="+currentStep.id+"><legend class='label'>"+currentStep.name+"</legend>";
+  currentStep.options.forEach(option => {
     content += '<div class="helper-options field">';
     content += '<input type="checkbox" id="filter-'+option.id+'" name="'+option.id+'">';
     content += '<div class="helper-option"><label for="filter-'+option.id+'"><span class="filterName">'+option.name+'</span></label>';
@@ -451,18 +497,58 @@ function showHelpMeChoose(e){
   content += "<div class='helper-footer'>";
   content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a onclick="closeHelperOverlay()">back to tools list</a></div>';
   content += '<div id="showHelperResults"><a onclick="applyHelper()">show <span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
-  content += '<div id="skipHelperStep"><a>Skip '+jsonHelpers[0].id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
+  if(currentStep.skip != ""){
+    content += '<div id="skipHelperStep"><a class="nextStep">Skip '+currentStep.id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
+  }
   content += "</div>";
   overlayContent.innerHTML = content;
+  updateHelperCounter(overlayContent);
 
   document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
     console.log(item);
-    item.addEventListener('change', e => { updateHelperCounter(overlayContent) })
+    item.addEventListener('change', e => { 
+      updateHelperCounter(overlayContent);
+      updateNextHelperButton();
+    })
   })
+  if(document.querySelector('.nextStep')){
+    document.querySelector('.nextStep').addEventListener('click', e => {
+      getHelpMeChooseStep(e);
+    })
+  }
+}
+
+function getHelpMeChooseStep(e){
+  e.preventDefault();
+  console.log(jsonHelpers);
+  var step = [];
+
+  if(document.querySelector('.questionOptions') == undefined){
+    step = jsonHelpers[0];
+  }else{
+    document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
+      if(item.checked == true){
+        console.log(item.name);
+        var currentCheckbox = jsonHelpers.find(f => f.id === document.querySelector('.questionOptions').querySelector("fieldset").id);
+        console.log(currentCheckbox);
+        var answer = currentCheckbox.options.find(f => f.id === item.name);
+        console.log(answer);
+        step = jsonHelpers.find(f => f.id === answer.next);
+      }
+    })
+  }
+
+  if(step.length === 0){
+    var currentStep = jsonHelpers.find(f => f.id === document.querySelector('.questionOptions').querySelector("fieldset").id);
+    step = jsonHelpers.find(f => f.id === currentStep.skip);
+  }
+
+  console.log(step);
+  showHelpMeChoose(step);
 }
 
 function updateHelperCounter(overlayContent){
-  activeHelperFilters = getActiveFiltersList(overlayContent);
+  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters);
   console.log(activeHelperFilters);
   var projectedHelperResults = filterNewResultsList(activeHelperFilters);
   var counter = Object.values(projectedHelperResults).length;
@@ -470,17 +556,34 @@ function updateHelperCounter(overlayContent){
   document.querySelector('.helperResultsCounter').innerText = counter;
 }
 
+function updateNextHelperButton(){
+  var active = false;
+  document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
+    if(item.checked == true){
+      active = true;
+    }
+  })
+  if(active == true){
+    document.querySelector('.nextStep').innerHTML = "Next";
+  }else{
+    console.log(document.querySelector('.questionOptions').querySelector('fieldset'));
+    console.log(document.querySelector('.questionOptions').querySelector('fieldset').id);
+    document.querySelector('.nextStep').innerHTML = "Skip " + document.querySelector('.questionOptions').querySelector('fieldset').id;
+  }
+}
+
 function applyHelper(){
   console.log(activeHelperFilters);
+  filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
   activeHelperFilters.forEach(filter => {
     var currentFilter = jsonFilters.find(f => f.id === filter.filterId);
     filter.filterValues.forEach(value => {
       var filterValueId = currentFilter.options.find(o => o.name === value).id;
       console.log(filterValueId);
+      console.log(filterForm.querySelector('#filter-'+filterValueId));
       filterForm.querySelector('#filter-'+filterValueId).checked = true;
     })
   })
-  filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
   var event = new Event('change');
   filterForm.dispatchEvent(event);
   closeHelperOverlay();
@@ -488,7 +591,10 @@ function applyHelper(){
 
 function closeHelperOverlay(){
   var overlay = document.getElementById("help-me-choose-overlay");
+  var overlayContent = overlay.querySelector('.overlay-content');
+  overlayContent.innerHTML = "";
   overlay.style.display = "none";
+  activeHelperFilters = [];
 }
 
 // const divSelectLang = document.getElementById("divSelectLang");
@@ -534,5 +640,15 @@ function toggleCollapsed(item){
     label.querySelector('.icon-chevron-up').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     options.classList.add("collapsed");
+  }
+}
+
+function toggleFilters(){
+  if(!filterForm.classList.contains("open")){
+    filterForm.classList.add("open");
+    document.querySelector('.button-filters').classList.add("closed");
+  }else{
+    filterForm.classList.remove("open");
+    document.querySelector('.button-filters').classList.remove("closed");
   }
 }

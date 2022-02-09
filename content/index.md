@@ -57,8 +57,11 @@ footer: >
 </div>
 <div id="app">
     <div id="left-col" class="tools-filters">
-        <form data-filter-form action="...">
-            <h2>Filters</h2>
+        <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
+        <form data-filter-form action="..." class="data-filter-form">
+            <div class="filter-header">
+                <h2>Filters</h2><a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
+            </div>
             <div id="activeFilters"></div>
             {% for filter in site.data.filters %}
             <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">

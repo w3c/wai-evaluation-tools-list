@@ -644,25 +644,142 @@ input[type=checkbox]
   width: 40px;
 }
 
+.questionOptions legend {
+  display: none; 
+}
+
 .helper-footer {
   display: flex;
   bottom: 0;
   position: absolute;
   margin-bottom: 3rem;
-  justify-content: space-between;
   padding-left: inherit;
   padding-right: inherit;
   left: 0;
   right: 0;
 }
 
+#backToList {
+  margin: auto;
+  width: -webkit-fill-available;
+}
+
 #backToList svg {
   margin-right: 0.5rem;
+}
+
+#showHelperResults {
+  margin: auto;
+  width: -webkit-fill-available;
+}
+
+#skipHelperStep {
+  margin: auto;
+  width: -webkit-fill-available;
 }
 
 #skipHelperStep svg {
   margin-left: 0.5rem;
 }
+
+.button-filters {
+  display: none;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-header svg {
+  display: none;
+}
+
+.filter-header h2 {
+  width: 100%
+}
+
+.filter-header a:hover {
+  cursor: pointer;
+}
+
+.open {
+  display: block !important;
+}
+
+.closed {
+  display: none !important;
+}
+
+@media (max-width: 60em){
+  .header-sup {
+    grid-gap: 0em;
+  }
+  .header-left {
+    grid-column: 1 / 8;
+  }
+  .header-right {
+    grid-column: 1 / 8;
+  }
+  .button-filters {
+    display: block;
+  }
+  .data-filter-form {
+    display: none;
+  }
+  .filter-header svg {
+    display: block;
+  }
+  .tools-list-header .field {
+    grid-column: 1 / 5;
+  }
+  .tools-list-header #status {
+    grid-column: 5 / 8;
+  }
+  .tools-list-header .sort-by {
+    grid-column: 1 / 8;
+    justify-content: flex-start; 
+  }
+  .subheader {
+    flex-wrap: wrap;
+  }
+  .leftColHeader {
+    flex: 100%;
+  }
+  .rightColHeader {
+    flex: 100%;
+  }
+  .leftCol {
+    flex: 100%;
+  }
+  .rightCol {
+    flex: 100%;
+  }
+  .subBox {
+    margin-bottom: 1rem;
+  }
+  .overlay-content {
+    padding: 1rem 1rem;
+  }
+  .helper-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 60em){
+  .button-filters {
+    display: none;
+  }
+  .data-filter-form {
+    display: block;
+  }
+  .filter-header svg {
+    display: none;
+  }
+}
+
 
 
 

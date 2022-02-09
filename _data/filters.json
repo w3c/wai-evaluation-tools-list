@@ -80,7 +80,7 @@
     "options": [
       {
         "id": "extension",
-        "name": "Browser extension"
+        "name": "Browser plugin"
       },
       {
         "id": "desktop",

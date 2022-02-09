@@ -4,22 +4,65 @@
     "name": "Purpose",
     "step": "1",
     "question": "What would you like to use the tool for?",
+    "skip": "product",
     "options": [
       {
         "id": "automatic",
         "name": "Automatically test accessibility",
-        "info": ""
+        "info": "",
+        "next": "product"
       },
       {
         "id": "manual",
         "name": "Support manual testing",
-        "info": "the tool guides you with evaluating guidelines that you can only test manually"
+        "info": "the tool guides you with evaluating guidelines that you can only test manually",
+        "next": "product"
       },
       {
         "id": "simulate",
         "name": "Simulate user experience",
-        "info": "experience what it’s like to browse websites or apps with a disability"
+        "info": "experience what it’s like to browse websites or apps with a disability",
+        "next": "scope"
       }                      
+    ]
+  },
+  {
+    "id": "product",
+    "name": "Product",
+    "step": "2",
+    "question": "What product or content do you want to test?",
+    "skip": "",
+    "options": [
+      {
+        "id": "website",
+        "name": "Website",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "application",
+        "name": "Application",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "document",
+        "name": "Document",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "sourcecode",
+        "name": "Source code",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "otherProduct",
+        "name": "Other",
+        "info": "",
+        "next": ""
+      }                       
     ]
   }
 ]
