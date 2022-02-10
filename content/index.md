@@ -20,13 +20,13 @@ github:
 permalink: /list-of-evaluation-tools/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
-  # previous: /teach-advocate/course-list/@@
-  # next: /teach-advocate/course-list/@@
-ref: /teach-advocate/course-list/   # Translators, do not change this
-changelog: /teach-advocate/course-list/changelog/  # NEW: set up a changelog so it's ready for later
-acknowledgements: /teach-advocate/course-list/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
+  # previous: /teach-advocate/list-of-evaluation-tools/@@
+  # next: /teach-advocate/list-of-evaluation-tools/@@
+ref: /teach-advocate/list-of-evaluation-tools/   # Translators, do not change this
+changelog: /teach-advocate/list-of-evaluation-tools//changelog/  # NEW: set up a changelog so it's ready for later
+acknowledgements: /teach-advocate/list-of-evaluation-tools/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/wai-course-list/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
+# image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
 # In the footer below:
 # Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"

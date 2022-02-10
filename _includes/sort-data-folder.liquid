@@ -1,0 +1,6 @@
+{%- assign items = "" | split: "," -%}
+{%- for item in include.data -%}
+    {% assign newItem = item[1] -%}
+    {% assign items = items | push: newItem -%}
+{%- endfor -%}
+{%- assign itemsSorted = items | sort: include.sortKey -%}

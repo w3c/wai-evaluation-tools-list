@@ -1,0 +1,36 @@
+{%- if include.type == 'start' -%}
+{%- if include.method == nil %}{% assign method="post" %}{% else %}{% assign method=include.method %}{% endif -%}
+{%- if include.name == nil %}{% assign name=include.id %}{% else %}{% assign name=include.name %}{% endif -%}
+<form id="{{include.id}}" name="{{name}}" method="{{method}}" data-netlify="true">
+{% elsif include.type == 'end' -%}
+</form>
+
+<script>
+// TODO - don't want this for more than one instance of this include !!!
+// Assume a single form - could add a build time check
+const form = document.querySelector('#form-submit-a-tool')
+const submitButton = form.querySelector('button[type="submit"]')
+submitButton.addEventListener('click', (event) =>
+{
+    console.log("click")
+    const requiredCheckboxes = form.querySelectorAll('input[type="checkbox"][required][group]')
+    const groups = Array.from(requiredCheckboxes).map((n) => n.getAttribute('group'))
+    const uniqueGroups = [... new Set(groups)]
+
+    uniqueGroups.forEach(groupName => {
+        const checkboxs = form.querySelectorAll(`input[type="checkbox"][group="${groupName}"]`)
+        const checkedCheckboxs = form.querySelectorAll(`input[type="checkbox"][group="${groupName}"]:checked`)
+
+        // if any checkbox in the group is checked we removed required from them all
+        if (checkedCheckboxs.length) {
+            for (let checkbox of checkboxs) {
+            checkbox.required = false;
+            }
+        }
+    })
+    console.log(groups);
+    console.log(uniqueGroups);
+})
+
+</script>
+{%- endif -%}

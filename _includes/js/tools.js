@@ -92,12 +92,9 @@ if (filterForm && sortForm && search) {
         
         if(init == true){
           if(att.id === "language" && counter === 0 && !filter.checked){
-            att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = true;
-          }else{
-            att.querySelector("label[for='" + filter.id + "']").parentNode.hidden = false;
+            att.querySelector("label[for='" + filter.id + "']").parentNode.style.display = "none";
           }
         }
-
       })
     });
   }
