@@ -16,16 +16,16 @@
 }
 
 .header-right {
-  grid-column: 5 / 5;
+  grid-column: 5 / 7;
 }
 
 .header-right .box {
   margin: 0;
-  padding: 2em;
+  padding: 8px;
 }
 
-.header-right a {
-  padding: 1em;
+.header-right p {
+  font-size: 100% !important;
 }
 
 .button-submit-end{
@@ -63,11 +63,48 @@ main>header {
 }
 
 #left-col h2 {
-  margin: 20px 0 20px;
+  border: none;
+  margin: 0;
+}
+
+#left-col svg {
+  margin-left: 5px;
 }
 
 #left-col legend {
   font-size: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--line-grey);
+}
+
+#left-col .box-simple {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#left-col .box-i {
+  background-color: var(--off-white);
+  border: none;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#left-col .box-i a {
+  width: 100%;
+}
+
+#left-col .icon-chevron-up {
+  margin-left: auto;
+}
+
+#left-col .icon-chevron-down {
+  margin-left: auto;
 }
 
 .tools-filters {
@@ -129,6 +166,7 @@ main>header {
 .filter-options {
   margin: 0;
   display: flex;
+  margin-bottom: 2px;
 }
 
 .filter-options input[type=checkbox] {

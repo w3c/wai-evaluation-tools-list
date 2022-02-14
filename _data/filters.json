@@ -7,7 +7,7 @@
     "type": "checkbox",
     "options": [
       {
-        "id": "automatic",
+        "id": "automated",
         "name": "Automatically test accessibility"
       },
       {
@@ -15,7 +15,7 @@
         "name": "Support manual testing"
       },
       {
-        "id": "simulate",
+        "id": "simulation",
         "name": "Simulate user experience"
       }                      
     ]
@@ -31,15 +31,19 @@
         "name": "Website"
       },
       {
-        "id": "application",
-        "name": "Application"
+        "id": "productDesktopApplication",
+        "name": "Desktop application"
+      },
+      {
+        "id": "productMobileApplication",
+        "name": "Mobile application"
       },
       {
         "id": "document",
         "name": "Document"
       },
       {
-        "id": "sourcecode",
+        "id": "sourceCode",
         "name": "Source code"
       },
       {
@@ -55,16 +59,16 @@
     "type": "checkbox",
     "options": [
       {
-        "id": "text",
-        "name": "Text"
+        "id": "textLanguage",
+        "name": "Text / Language"
       },
       {
-        "id": "videoAnimations",
-        "name": "Video / Animations"
+        "id": "videoAnimation",
+        "name": "Video / Animation"
       },
       {
-        "id": "images",
-        "name": "Images"
+        "id": "image",
+        "name": "Image"
       },
       {
         "id": "audio",
@@ -79,19 +83,19 @@
     "type": "checkbox",
     "options": [
       {
-        "id": "extension",
+        "id": "browserPlugin",
         "name": "Browser plugin"
       },
       {
-        "id": "desktop",
+        "id": "typeDesktopApplication",
         "name": "Desktop application"
       },
       {
-        "id": "mobile",
+        "id": "typeMobileApplication",
         "name": "Mobile application"
       },
       {
-        "id": "web",
+        "id": "typeWebApplication",
         "name": "Web application"
       },
       {
@@ -99,11 +103,15 @@
         "name": "Server-side integration"
       },
       {
-        "id": "programming",
-        "name": "Programming tool plugin"
+        "id": "commandline",
+        "name": "Command-line / CI"
       },
       {
-        "id": "authoring",
+        "id": "programmingTool",
+        "name": "Programming tool plugin / IDE"
+      },
+      {
+        "id": "authoringTool",
         "name": "Authoring tool plugin",
         "info": "true"
       }                       
@@ -121,19 +129,11 @@
       },
       {
         "id": "limited",
-        "name": "Limited free functionality"
+        "name": "Limited"
       },
       {
-        "id": "timetrial",
-        "name": "Time-limited trial"
-      },
-      {
-        "id": "subscription",
-        "name": "Subscription"
-      },
-      {
-        "id": "purchase",
-        "name": "One-time purchase"
+        "id": "paid",
+        "name": "Paid"
       }                       
     ]
   },
@@ -144,19 +144,23 @@
     "type": "checkbox",
     "options": [
       {
-        "id": "element",
-        "name": "Single element"
+        "id": "pageComponent",
+        "name": "Page component"
       },
       {
-        "id": "page",
+        "id": "singlePage",
         "name": "Single page"
       },
       {
-        "id": "entire",
-        "name": "Entire website/app"
+        "id": "samplePages",
+        "name": "Sample of pages"
       },
       {
-        "id": "restricted",
+        "id": "entireProduct",
+        "name": "Entire product"
+      },
+      {
+        "id": "restrictedPages",
         "name": "Restricted or password protected pages"
       }                       
     ]
@@ -230,14 +234,14 @@
         "short": "EN 301 549"
       },
       {
-        "id": "AccessiWeb",
-        "name": "AccessiWeb",
-        "short": "AccessiWeb"
-      },
-      {
         "id": "MAAG1.0",
         "name": "MAAG 1.0 - Korea government standard",
         "short": "MAAG 1.0"
+      },
+      {
+        "id": "AccessiWeb",
+        "name": "AccessiWeb",
+        "short": "AccessiWeb"
       }
     ]
   },
@@ -248,7 +252,7 @@
     "type": "checkbox",
     "options": [
       {
-        "id": "msdocuments",
+        "id": "msodocuments",
         "name": "Microsoft Office documents"
       },
       {
@@ -261,19 +265,11 @@
       },
       {
         "id": "html",
-        "name": "HTML"
-      },
-      {
-        "id": "xhtml",
-        "name": "XHTML"
+        "name": "HTML / XHTML"
       },
       {
         "id": "css",
         "name": "CSS"
-      },
-      {
-        "id": "waiaria",
-        "name": "WAI ARIA"
       },
       {
         "id": "smil",
@@ -286,9 +282,26 @@
     ]
   },
   {
-    "id": "accessible",
-    "name": "Tool is accessible",
+    "id": "accessibilityStatement",
+    "name": "Accessibility statement available",
     "collapsed": "false",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "yes",
+        "name": "Yes"
+      },
+      {
+        "id": "no",
+        "name": "No"
+      }                       
+    ]
+  },
+  {
+    "id": "actrules",
+    "name": "Implements ACT Rules",
+    "collapsed": "false",
+    "info": "true",
     "type": "checkbox",
     "options": [
       {
@@ -366,17 +379,17 @@
     ]
   },
   {
-    "id": "metrics",
-    "name": "Metrics",
+    "id": "checks",
+    "name": "Checks",
     "collapsed": "true",
     "type": "checkbox",
     "options": [
       {
-        "id": "colorcontrast",
+        "id": "colorContrast",
         "name": "Color contrast"
       },
       {
-        "id": "textalternatives",
+        "id": "textAlternatives",
         "name": "Text alternatives"
       },
       {
@@ -384,9 +397,29 @@
         "name": "Labels"
       },
       {
-        "id": "pagestructure",
+        "id": "pageStructure",
         "name": "Page structure"
       }                       
+    ]
+  },
+  {
+    "id": "output",
+    "name": "Output",
+    "collapsed": "true",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "generateReport",
+        "name": "Generate report of evaluation results"
+      },
+      {
+        "id": "displayInformation",
+        "name": "Display information within pages"
+      },
+      {
+        "id": "modifyPresentation",
+        "name": "Modify the presentation of pages"
+      }                      
     ]
   }   
 ]

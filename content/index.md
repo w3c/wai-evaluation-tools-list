@@ -45,13 +45,10 @@ footer: >
     <div class="header-left">
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
         <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
-        <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
-        </em></p>
     </div>
     <div class="header-right">
         {% include box.html type="start" class="simple" %}
-            <h3>Need help finding the right tool for you?</h3>
-            {% include_cached button.html type="link" label="Help me choose" class="help-me-choose" %}
+            <p>Information on this website is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products. <br><br>See <a href="#disclaimer">Important disclaimer</a>.</p>
         {% include box.html type="end" %}
     </div>
 </div>
@@ -63,6 +60,10 @@ footer: >
                 <h2>Filters</h2><a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
             <div id="activeFilters"></div>
+            {% include box.html type="start" class="simple" %}
+                <p>Need help finding the right tool?</p>
+                {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
+            {% include box.html type="end" %}
             {% for filter in site.data.filters %}
             <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
                 <legend class="label">{{ filter.name }}
