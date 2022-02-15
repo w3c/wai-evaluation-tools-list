@@ -171,11 +171,15 @@ main>header {
 
 .filter-options input[type=checkbox] {
   align-self: flex-start;
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
 }
 
 #left-col .field label {
   display: inline !important;
+}
+
+#left-col .field label:hover {
+  cursor: pointer;
 }
 
 #tools-list {
@@ -334,12 +338,17 @@ details>div{
 }
 
 .tools-list-header #status {
-  grid-column: 5 / 8;
+  grid-column: 1 / 8;
   align-self: center;
 }
 
-.tools-list-header #status h4 {
+.tools-list-header #status p {
   margin: 0;
+}
+
+.tools-list-header #status span {
+  color: var(--wai-green);
+  font-weight: bold;
 }
 
 .tools-list-header .sort-by {
@@ -403,6 +412,10 @@ select:hover {
 .rightColHeader {
   margin: 0;
   flex: 50%;
+}
+
+.tools-list header a {
+  font-size: 18px;
 }
 
 .tools-list .box-i {
@@ -498,10 +511,8 @@ details[open] summary{
   box-sizing: border-box;
   border-radius: 5px;
   padding: 8px;
-  margin-bottom: 0.25rem;
-  margin-right: 0.25rem;
-  float: left;
   font-size: 12px;
+  margin-right: 0.5rem;
 }
 
 .filterTag svg {
@@ -519,12 +530,14 @@ details[open] summary{
 }
 
 #activeFilters {
-  /*margin-bottom: 1rem;*/
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .clearButton {
-  width: 100%;
-  display: flex;
+  margin-left: 1rem;
 }
 
 .clearButton a {
@@ -626,15 +639,20 @@ input[type=checkbox]
 
 .overlay-content {
   width: 50em;
-  height: 40em;
   text-align: center;
   background-color: white;
   padding: 1rem 5rem;
+  padding-bottom: 5em;
   background: #FFFFFF;
   border: 1px solid #D7D7D7;
   box-sizing: border-box;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   position: relative;
+}
+
+.overlay-content .box {
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 .overlay-content a:hover {
@@ -748,6 +766,23 @@ input[type=checkbox]
 
 .closed {
   display: none !important;
+}
+
+.showMoreBlock {
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-left: 1.6rem;
+  color: var(--wai-green);
+  text-decoration: underline;
+}
+
+.showMoreBlock svg {
+  margin-right: 0.2rem;
+}
+
+.showMoreBlock:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 60em){

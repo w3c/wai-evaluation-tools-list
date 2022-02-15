@@ -9,7 +9,7 @@
 {% include_cached icon.html name="external-link" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.creator }}</p>
-<p class="rightColHeader">Last updated: {{ tool.update }}.</p>
+<p class="rightColHeader">Last updated: {{ tool.update | join: "" | date: "%b %Y" }}</p>
 </div>
 {% endcapture %}
 
@@ -41,6 +41,12 @@
 		  {{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
+	<div class="colRow">
+		{% include_cached icon.html name="desktop" %}
+		<p>{% for browser in tool.browsers %}
+		  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
+	</div>
 </div>
 
 {% include excol.html type="start" id=tool_details_id %}
@@ -49,8 +55,13 @@
 
 <div class="leftCol">
 	{% if tool.guideline | size > 0 %}<h4>Guidelines</h4>{% endif %}
+	{% assign filterGuidelines = site.data.filters | find: "id", "guideline" %}
 	{% for guideline in tool.guideline %}
-	  <div class="tag">{{ guideline }}</div>
+	  {% for option in filterGuidelines.options %}
+	  	{% if guideline contains option.filtername %}
+	  		<div class="tag">{{ option.short }}</div>
+	  	{% endif %}
+	  {% endfor %}
 	{% endfor %}
 	<div class="subBox">
 		<p>Is the information provided for this tool incorrect or outdated?</p>
@@ -60,12 +71,6 @@
 </div>
 
 <div class="rightCol">
-	<div class="colRow">
-		{% include_cached icon.html name="desktop" %}
-		<p>{% for browser in tool.browsers %}
-		  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
-		{% endfor %}</p>
-	</div>
 	<div class="colRow">
 	{% include_cached icon.html name="default" %}Operating Systems:
 	</div>

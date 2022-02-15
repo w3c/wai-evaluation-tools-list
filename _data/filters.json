@@ -8,11 +8,11 @@
     "options": [
       {
         "id": "automated",
-        "name": "Automatically test accessibility"
+        "name": "Automated testing"
       },
       {
         "id": "manual",
-        "name": "Support manual testing"
+        "name": "Manual testing"
       },
       {
         "id": "simulation",
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "id": "mediatype",
+    "id": "technology",
     "name": "Media type",
     "collapsed": "false",
     "type": "checkbox",
@@ -63,12 +63,14 @@
         "name": "Text / Language"
       },
       {
-        "id": "videoAnimation",
-        "name": "Video / Animation"
+        "id": "videoAnimations",
+        "name": "Video / Animation",
+        "filtername": "Video / Animations"
       },
       {
-        "id": "image",
-        "name": "Image"
+        "id": "images",
+        "name": "Image",
+        "filtername": "Images"
       },
       {
         "id": "audio",
@@ -104,7 +106,8 @@
       },
       {
         "id": "commandline",
-        "name": "Command-line / CI"
+        "name": "Command-line / CI",
+        "filtername": "Command line tool"
       },
       {
         "id": "programmingTool",
@@ -125,20 +128,23 @@
     "options": [
       {
         "id": "free",
-        "name": "Free"
+        "name": "Free",
+        "filtername": ["Free Software","Open Source"]
       },
       {
         "id": "limited",
-        "name": "Limited"
+        "name": "Limited",
+        "filtername": ["Trial or Demo"]
       },
       {
         "id": "paid",
-        "name": "Paid"
+        "name": "Paid",
+        "filtername": ["Commercial","Enterprise"]
       }                       
     ]
   },
   {
-    "id": "scope",
+    "id": "automated",
     "name": "Scope",
     "collapsed": "false",
     "type": "checkbox",
@@ -149,7 +155,8 @@
       },
       {
         "id": "singlePage",
-        "name": "Single page"
+        "name": "Single page",
+        "filtername": "Single web pages"
       },
       {
         "id": "samplePages",
@@ -166,7 +173,7 @@
     ]
   },
   {
-    "id": "guidelines",
+    "id": "guideline",
     "name": "Guidelines",
     "info": "true",
     "collapsed": "false",
@@ -176,72 +183,86 @@
       {
         "id": "WCAG2.1",
         "name": "WCAG 2.1 — W3C Web Content Accessibility Guidelines 2.1",
-        "short": "WCAG 2.1"
+        "short": "WCAG 2.1",
+        "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
         "name": "WCAG 2.0 — W3C Web Content Accessibility Guidelines 2.0",
-        "short": "WCAG 2.0"
+        "short": "WCAG 2.0",
+        "filtername": "WCAG<\/abbr> 2.0"
       },
       {
         "id": "Section508",
         "name": "Section 508, US federal procurement standard",
-        "short": "sECTION 508"
+        "short": "Section 508",
+        "filtername": "Section 508"
       },
       {
         "id": "WCAG1.0",
         "name": "WCAG 1.0 — W3C Web Content Accessibility Guidelines 1.0",
-        "short": "WCAG 1.0"
+        "short": "WCAG 1.0",
+        "filtername": "WCAG<\/abbr> 1.0"
       },
       {
         "id": "RGAA",
         "name": "RGAA, French government standard",
-        "short": "RGAA"
+        "short": "RGAA",
+        "filtername": "RGAA"
       },
       {
         "id": "BITV",
         "name": "BITV, German government standard",
-        "short": "BITV"
+        "short": "BITV",
+        "filtername": "BITV"
       },
       {
         "id": "Irish",
         "name": "Irish National IT Accessibility Guidelines",
-        "short": "Irish"
+        "short": "Irish",
+        "filtername": "Irish National IT Accessibility Guidelines"
       },
       {
         "id": "JIS",
         "name": "JIS, Japanese industry standard",
-        "short": "JIS"
+        "short": "JIS",
+        "filtername": "JIS"
       },
       {
         "id": "SI5568",
         "name": "SI 5568, Israeli web accessibility guidelines",
-        "short": "SI 5568"
+        "short": "SI 5568",
+        "filtername": "SI 5568"
       },
       {
         "id": "StancaAct",
         "name": "Stanca Act, Italian accessibility legislation",
-        "short": "Stance Act"
+        "short": "Stanca Act",
+        "filtername": "Stanca Act"
       },
       {
         "id": "EPUB1.0",
         "name": "EPUB Accessibility 1.0",
-        "short": "EPUD"
+        "short": "EPUD",
+        "filtername": "EPUB Accessibility 1.0",
       },
       {
         "id": "EN301549",
         "name": "EN 301 549, European accessibility standard",
-        "short": "EN 301 549"
+        "short": "EN 301 549",
+        "filtername": "EN 301 549"
       },
       {
         "id": "MAAG1.0",
         "name": "MAAG 1.0 - Korea government standard",
-        "short": "MAAG 1.0"
+        "short": "MAAG 1.0",
+        "filtername": "MAAG 1.0"
       },
       {
         "id": "AccessiWeb",
         "name": "AccessiWeb",
-        "short": "AccessiWeb"
+        "short": "AccessiWeb",
+        "filtername": "AccessiWeb"
       }
     ]
   },
@@ -261,19 +282,23 @@
       },
       {
         "id": "pdf",
-        "name": "PDF"
+        "name": "PDF",
+        "filtername": "PDF"
       },
       {
         "id": "html",
-        "name": "HTML / XHTML"
+        "name": "HTML / XHTML",
+        "filtername": ["HTML", "XHTML"]
       },
       {
         "id": "css",
-        "name": "CSS"
+        "name": "CSS",
+        "filtername": "CSS"
       },
       {
         "id": "smil",
-        "name": "SMIL"
+        "name": "SMIL",
+        "filtername": "SMIL"
       },
       {
         "id": "markdown",
@@ -282,35 +307,28 @@
     ]
   },
   {
-    "id": "accessibilityStatement",
-    "name": "Accessibility statement available",
+    "id": "a11yinfo",
+    "name": "Accessibility statement",
     "collapsed": "false",
     "type": "checkbox",
     "options": [
       {
         "id": "yes",
-        "name": "Yes"
-      },
-      {
-        "id": "no",
-        "name": "No"
-      }                       
+        "name": "Accessibility statement available",
+        "filtername": "Tools providing accessibility information"
+      }                      
     ]
   },
   {
     "id": "actrules",
-    "name": "Implements ACT Rules",
+    "name": "ACT Rules",
     "collapsed": "false",
     "info": "true",
     "type": "checkbox",
     "options": [
       {
         "id": "yes",
-        "name": "Yes"
-      },
-      {
-        "id": "no",
-        "name": "No"
+        "name": "Implements ACT Rules"
       }                       
     ]
   },
@@ -347,7 +365,7 @@
     ]
   },
   {
-    "id": "browser",
+    "id": "browsers",
     "name": "Browser",
     "collapsed": "true",
     "type": "checkbox",
@@ -403,22 +421,25 @@
     ]
   },
   {
-    "id": "output",
+    "id": "assists",
     "name": "Output",
     "collapsed": "true",
     "type": "checkbox",
     "options": [
       {
         "id": "generateReport",
-        "name": "Generate report of evaluation results"
+        "name": "Generate report of evaluation results",
+        "filtername": "Generating reports of evaluation results"
       },
       {
         "id": "displayInformation",
-        "name": "Display information within pages"
+        "name": "Display information within pages",
+        "filtername": "Displaying information within web pages"
       },
       {
         "id": "modifyPresentation",
-        "name": "Modify the presentation of pages"
+        "name": "Modify the presentation of pages",
+        "filtername": "Modifying the presentation of web pages"
       }                      
     ]
   }   

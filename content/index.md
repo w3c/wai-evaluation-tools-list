@@ -59,13 +59,16 @@ footer: >
             <div class="filter-header">
                 <h2>Filters</h2><a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
-            <div id="activeFilters"></div>
             {% include box.html type="start" class="simple" %}
                 <p>Need help finding the right tool?</p>
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
             {% for filter in site.data.filters %}
-            <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
+                {% if filter.showmore %}
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore">
+                {% else %}
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
+                {% endif %}
                 <legend class="label">{{ filter.name }}
                     {% if filter.info %}
                         {% include_cached icon.html name="default" %}
@@ -103,11 +106,8 @@ footer: >
     <div id="tools-list">
         <div class="tools-list-header">
             <div class="field">
-                <input type="search" id="search" placeholder="Search tools">
+                <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
             </div>
-            <span id="status">
-                <h4 id="total-tools">{{ site.data.tools | size }} tools</h4>
-            </span>
             <div class="field" class="sort-by">
                 <h4><label for="select">Sort by</label></h4>
                 <select id="select" class="field">
@@ -119,10 +119,14 @@ footer: >
                         {% endif %}
                     {% endfor %}
                 </select>
-            </div>        
+            </div>
+            <span id="status">
+                <p id="total-tools">Showing <span>{{ site.data.tools | size }} results</span></p>
+            </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
         </div>
+        <div id="activeFilters"></div>
         <h4 id="found-tools"></h4>
         <div class="tools-list">
             {% assign defaultSort = site.data.sorting.first.sortkey %}

@@ -1,68 +1,174 @@
 [
   {
-    "id": "purpose",
-    "name": "Purpose",
-    "step": "1",
-    "question": "What would you like to use the tool for?",
-    "skip": "product",
-    "options": [
-      {
-        "id": "automatic",
-        "name": "Automatically test accessibility",
-        "info": "",
-        "next": "product"
-      },
-      {
-        "id": "manual",
-        "name": "Support manual testing",
-        "info": "the tool guides you with evaluating guidelines that you can only test manually",
-        "next": "product"
-      },
-      {
-        "id": "simulate",
-        "name": "Simulate user experience",
-        "info": "experience what it’s like to browse websites or apps with a disability",
-        "next": "scope"
-      }                      
-    ]
-  },
-  {
     "id": "product",
     "name": "Product",
-    "step": "2",
+    "step": "1",
     "question": "What product or content do you want to test?",
-    "skip": "",
+    "info": "This is information that is not present everywhere, just click skip/next",
+    "skip": "purpose",
     "options": [
       {
         "id": "website",
         "name": "Website",
         "info": "",
-        "next": ""
+        "next": "purpose"
       },
       {
         "id": "application",
         "name": "Application",
         "info": "",
-        "next": ""
+        "next": "purpose"
       },
       {
         "id": "document",
         "name": "Document",
         "info": "",
-        "next": ""
+        "next": "purpose"
       },
       {
         "id": "sourcecode",
         "name": "Source code",
         "info": "",
-        "next": ""
+        "next": "purpose"
       },
       {
         "id": "otherProduct",
         "name": "Other",
         "info": "",
-        "next": ""
+        "next": "purpose"
       }                       
+    ]
+  },
+  {
+    "id": "purpose",
+    "name": "Purpose",
+    "step": "1",
+    "question": "What would you like to use the tool for?",
+    "info": "",
+    "skip": "type",
+    "options": [
+      {
+        "id": "automatic",
+        "name": "Automated testing",
+        "info": "",
+        "next": "type"
+      },
+      {
+        "id": "manual",
+        "name": "Manual testing",
+        "info": "the tool guides you with evaluating guidelines that you can only test manually",
+        "next": "type"
+      },
+      {
+        "id": "simulate",
+        "name": "Simulate user experience",
+        "info": "experience what it’s like to browse websites or apps with a disability",
+        "next": "checks"
+      }                      
+    ]
+  },
+  {
+    "id": "type",
+    "name": "Type of tool",
+    "step": "3",
+    "question": "What type of tool do you want to test?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "browserPlugin",
+        "name": "Browser plugin",
+        "info": "",
+        "next": "browsers"
+      },
+      {
+        "id": "typeDesktopApplication",
+        "name": "Desktop application",
+        "info": "",
+        "next": "operatingsystem"
+      },
+      {
+        "id": "typeMobileApplication",
+        "name": "Mobile application",
+        "info": "",
+        "next": "operatingsystem"
+      },
+      {
+        "id": "typeWebApplication",
+        "name": "Web application",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "serverside",
+        "name": "Server-side integration",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "commandline",
+        "name": "Command-line / CI",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "programmingTool",
+        "name": "Programming tool plugin / IDE",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "authoringTool",
+        "name": "Authoring tool plugin",
+        "info": "",
+        "next": "checks"
+      }                      
+    ]
+  },
+  {
+    "id": "browsers",
+    "name": "Browsers",
+    "step": "4",
+    "question": "What browsers should it work in?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "chrome",
+        "name": "Chrome",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "safari",
+        "name": "Safari",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "edge",
+        "name": "Edge",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "firefox",
+        "name": "Firefox",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "opera",
+        "name": "Opera",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "otherbrowser",
+        "name": "Other",
+        "info": "",
+        "next": "checks"
+      }                      
     ]
   }
 ]

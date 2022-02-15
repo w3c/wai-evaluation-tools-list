@@ -28,6 +28,10 @@ document.querySelectorAll('fieldset').forEach(item => {
   }
 })
 
+document.querySelectorAll('.showmore').forEach(item => {
+  makeShowMore(item);
+})
+
 document.querySelector('.button-help-me-choose').addEventListener('click', e => {
     getHelpMeChooseStep(e);
 })
@@ -51,6 +55,9 @@ if (filterForm && sortForm && search) {
   });
 
   searchForm.addEventListener('keyup', el => {
+    filterJson(filterForm);
+  });
+  searchForm.addEventListener('search', el => {
     filterJson(filterForm);
   });
 
@@ -213,7 +220,27 @@ if (filterForm && sortForm && search) {
             if(filter.filterId === "language"){
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
             }else{
-              return x[filter.filterId].includes(r);
+              var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
+              var mask = currentFilter.options.find(o => o.name === r);
+              if(mask.filtername != undefined){
+                if(Array.isArray(mask.filtername)){
+                  var tracker;
+                  mask.filtername.forEach(mfn => {
+                    if(tracker === undefined){
+                      tracker = x[filter.filterId].some(function(m){ return m.indexOf(mfn)>=0 });
+                    }
+                  })
+                  return tracker;
+                }else{
+                  if(Array.isArray(x[filter.filterId])){    
+                    return x[filter.filterId].some(function(m){ return m.indexOf(mask.filtername)>=0 }) || x[filter.filterId].includes(r);
+                  }else{
+                    return x[filter.filterId] === mask.filtername || x[filter.filterId] === mask.name;
+                  }
+                }
+              }else{
+                return x[filter.filterId].includes(r);
+              }
             }
           }else{
             return false;
@@ -293,7 +320,7 @@ if (filterForm && sortForm && search) {
       totalTools.appendChild(listFiltersOnString);
       var searchTerm = searchForm.value;
       if(searchTerm.length > 0){
-        totalTools.innerText += "Searchterm: \"" + searchTerm + "\"";
+        totalTools.innerHTML += "<br>Searchterm: \"" + searchTerm + "\"";
       }
       hideClearButton(false);
     }else{
@@ -301,9 +328,9 @@ if (filterForm && sortForm && search) {
       hideClearButton(true);
     }
     if(Object.values(newResults).length === 1){
-      totalToolsCounter.innerText = Object.values(newResults).length + " tool";
+      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " result</span>";
     }else{
-      totalToolsCounter.innerText = Object.values(newResults).length + " tools";
+      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " results</span>";
     }
 
     console.log(newResults);
@@ -317,9 +344,9 @@ if (filterForm && sortForm && search) {
     var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
     if(activeToolsCount > toolsPerPage){
       list.innerHTML += '<div class="paginationBlock">' 
-      +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
+      +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a href="#tools-list" onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
       +'<span id="pageCount"></span>'
-      +'<div id="btn_next"><a onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
+      +'<div id="btn_next"><a href="#tools-list" onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
       +'</div>';
       changePage(currentPage, activeToolsCount);
     }
@@ -384,7 +411,15 @@ if (filterForm && sortForm && search) {
     activeFiltersBlock.innerHTML = "";
     filtersOn.forEach(filterGroup => {
       filterGroup.filterValues.forEach(filter => {
-        activeFiltersBlock.innerHTML += '<div class="filterTag">'+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
+        var prefix = "";
+        if(getFilterName(filter) == "Desktop application" || getFilterName(filter) == "Mobile application"){
+          prefix += filterGroup.filterId + ": ";
+        }
+        if(getFilterName(filter) == "Statement available"){
+          console.log(filterGroup);
+          prefix += filterGroup.filterName + ": ";
+        }
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
       })
     })
     if(filtersOn.length > 0){
@@ -397,7 +432,7 @@ if (filterForm && sortForm && search) {
   }
 
   function getFilterName(filter){
-    var guidelines = jsonFilters.find(e => e.id === 'guidelines');
+    var guidelines = jsonFilters.find(e => e.id === 'guideline');
     var activeFilter = guidelines.options.find(e => e.name === filter);
     var name = "";
     if(activeFilter != undefined){
@@ -491,6 +526,9 @@ function showHelpMeChoose(step){
     content += "</div>";
   })
   content += "</fieldset></div>";
+  if(currentStep.info != undefined && currentStep.info != ""){
+    content += '{% include box.html type="start" title="Title" %}'+currentStep.info+'{% include box.html type="end" %}';
+  }
   content += "<div class='helper-footer'>";
   content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a onclick="closeHelperOverlay()">back to tools list</a></div>';
   content += '<div id="showHelperResults"><a onclick="applyHelper()">show <span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
@@ -561,7 +599,9 @@ function updateNextHelperButton(){
     }
   })
   if(active == true){
-    document.querySelector('.nextStep').innerHTML = "Next";
+    if(document.querySelector('.nextStep')){
+      document.querySelector('.nextStep').innerHTML = "Next";
+    }
   }else{
     console.log(document.querySelector('.questionOptions').querySelector('fieldset'));
     console.log(document.querySelector('.questionOptions').querySelector('fieldset').id);
@@ -624,6 +664,38 @@ function makeCollapsible(item){
     label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
   }
   label.addEventListener('click', e => { toggleCollapsed(item) });
+}
+
+function makeShowMore(item){
+  var options = item.querySelectorAll('.filter-options');
+  var filter = jsonFilters.find(e => e.id === item.id);
+  for(var i = 0; i < options.length; i++){
+    if(i >= filter.showmore){
+      options[i].classList.add("closed");
+    }
+  }
+  if(item.querySelector('.showMoreBlock') == undefined){
+    item.innerHTML += '<div class="showMoreBlock">{% include_cached icon.html name="chevron-down" %}see more</div>';
+    item.querySelector('.showMoreBlock').addEventListener('click', e => { toggleShowMore(item) });
+  }
+
+}
+
+function toggleShowMore(item){
+  var options = item.querySelectorAll('.filter-options');
+  var closed = item.querySelectorAll('.closed');
+  if(closed.length > 0){
+    options.forEach(option => {
+      option.classList.remove("closed");
+    })
+  }else{
+    makeShowMore(item);
+  }
+  if(item.querySelectorAll('.closed').length > 0){
+    item.querySelector('.showMoreBlock').innerHTML = '{% include_cached icon.html name="chevron-down" %}see more';
+  }else{
+    item.querySelector('.showMoreBlock').innerHTML = '{% include_cached icon.html name="chevron-up" %}see less';
+  }
 }
 
 function toggleCollapsed(item){
