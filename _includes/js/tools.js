@@ -17,6 +17,7 @@ var toolsListContent = document.querySelector('.tools-list');
 var activeFiltersBlock = document.getElementById('activeFilters');
 
 var activeHelperFilters = [];
+var prevStep = [];
 
 //Pagination settings
 var currentPage = 1;
@@ -170,7 +171,9 @@ if (filterForm && sortForm && search) {
     return activeFiltersList;
   }
 
-  function updateHelperFiltersList(form, list) {
+  function updateHelperFiltersList(form, list, back) {
+    console.log("oude");
+    console.log(list);
     var activeFiltersList = list;
     var attValues = [];
 
@@ -186,9 +189,11 @@ if (filterForm && sortForm && search) {
         }
       })
 
-      if(activeFiltersList.find(f => f.filterId === att.id)){
-        var index = activeFiltersList.findIndex(i => i.filterId === att.id);
-        activeFiltersList.splice(index, 1);
+      if(back == false){
+        if(activeFiltersList.find(f => f.filterId === att.id)){
+          var index = activeFiltersList.findIndex(i => i.filterId === att.id);
+          activeFiltersList.splice(index, 1);
+        }
       }
 
       if (attValues.length > 0){
@@ -507,7 +512,7 @@ if (filterForm && sortForm && search) {
 
 }
 
-function showHelpMeChoose(step){
+function showHelpMeChoose(step, back){
   var currentStep = step;
   var overlay = document.getElementById("help-me-choose-overlay");
   overlay.style.display = "flex";
@@ -537,27 +542,58 @@ function showHelpMeChoose(step){
     content += '{% include box.html type="start" title="Title" %}'+currentStep.info+'{% include box.html type="end" %}';
   }
   content += "<div class='helper-footer'>";
-  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a onclick="closeHelperOverlay()">back to tools list</a></div>';
+  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a class="prevStep">back to tools list</a></div>';
   content += '<div id="showHelperResults"><a onclick="applyHelper()">show <span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
   if(currentStep.skip != ""){
     content += '<div id="skipHelperStep"><a class="nextStep">Skip '+currentStep.id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
   }
   content += "</div>";
   overlayContent.innerHTML = content;
-  updateHelperCounter(overlayContent);
+  updateHelperCounter(overlayContent, back);
 
   document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
     console.log(item);
     item.addEventListener('change', e => { 
-      updateHelperCounter(overlayContent);
+      updateHelperCounter(overlayContent, back);
       updateNextHelperButton();
     })
   })
   if(document.querySelector('.nextStep')){
     document.querySelector('.nextStep').addEventListener('click', e => {
+      prevStep = currentStep;
       getHelpMeChooseStep(e);
     })
   }
+  if(document.querySelector('.prevStep') && prevStep.length != 0){
+    document.querySelector('.prevStep').addEventListener('click', e => {
+      console.log(activeHelperFilters);
+      handleBackStep();
+    })
+    document.querySelector('.prevStep').innerHTML = "back";
+  }else{
+    document.querySelector('.prevStep').addEventListener('click', e => {
+      closeHelperOverlay()
+    })
+  }
+}
+
+function handleBackStep(){
+  console.log(prevStep);
+  showHelpMeChoose(prevStep, true);
+  console.log(activeHelperFilters);
+  var previousFilters = activeHelperFilters.find(f => f.filterId === prevStep.id);
+  if(previousFilters != undefined){
+    console.log(previousFilters);
+    document.querySelector('.questionOptions').querySelectorAll('.helper-options').forEach(item => {
+      console.log(item);
+      if(previousFilters.filterValues.includes(item.querySelector('.filterName').innerText)){
+        item.querySelector('input[type=checkbox]').checked = true;
+      }
+    })
+  }
+  var overlayContent = document.getElementById("help-me-choose-overlay").querySelector('.overlay-content');
+  updateHelperCounter(overlayContent, true);
+  updateNextHelperButton(); 
 }
 
 function getHelpMeChooseStep(e){
@@ -586,11 +622,11 @@ function getHelpMeChooseStep(e){
   }
 
   console.log(step);
-  showHelpMeChoose(step);
+  showHelpMeChoose(step, false);
 }
 
-function updateHelperCounter(overlayContent){
-  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters);
+function updateHelperCounter(overlayContent, back){
+  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters, back);
   console.log(activeHelperFilters);
   var projectedHelperResults = filterNewResultsList(activeHelperFilters);
   var counter = Object.values(projectedHelperResults).length;
@@ -639,6 +675,7 @@ function closeHelperOverlay(){
   overlayContent.innerHTML = "";
   overlay.style.display = "none";
   activeHelperFilters = [];
+  prevStep = [];
 }
 
 // const divSelectLang = document.getElementById("divSelectLang");

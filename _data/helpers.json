@@ -14,8 +14,14 @@
         "next": "purpose"
       },
       {
-        "id": "application",
-        "name": "Application",
+        "id": "productDesktopApplication",
+        "name": "Desktop application",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "productMobileApplication",
+        "name": "Mobile application",
         "info": "",
         "next": "purpose"
       },
