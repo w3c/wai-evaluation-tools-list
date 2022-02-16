@@ -42,7 +42,7 @@
   {
     "id": "purpose",
     "name": "Purpose",
-    "step": "1",
+    "step": "2",
     "question": "What would you like to use the tool for?",
     "info": "",
     "skip": "type",
@@ -169,6 +169,92 @@
         "info": "",
         "next": "checks"
       }                      
+    ]
+  },
+  {
+    "id": "operatingsystem",
+    "name": "Operating system",
+    "step": "5",
+    "question": "What operating system is it for?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "android",
+        "name": "Android",
+        "info": "",
+        "next": "checks",
+        "relevant": "Mobile application"
+      },
+      {
+        "id": "ios",
+        "name": "iOS",
+        "info": "",
+        "next": "checks",
+        "relevant": "Mobile application"
+      },
+      {
+        "id": "windows",
+        "name": "Windows",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "macos",
+        "name": "MacOS",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "linux",
+        "name": "Linux",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "otheros",
+        "name": "Other",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      }                     
+    ]
+  },
+  {
+    "id": "checks",
+    "name": "Check",
+    "step": "6",
+    "question": "What should it check?",
+    "info": "",
+    "skip": "",
+    "options": [
+      {
+        "id": "colorContrast",
+        "name": "Color contrast",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "textAlternatives",
+        "name": "Text alternatives",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "labels",
+        "name": "Labels",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "pageStructure",
+        "name": "Page structure",
+        "info": "",
+        "next": ""
+      }                     
     ]
   }
 ]

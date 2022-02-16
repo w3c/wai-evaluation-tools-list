@@ -453,6 +453,7 @@ select:hover {
 
 .colRow p {
   margin: 0;
+  margin-left: 2px;
 }
 
 details {
@@ -625,7 +626,7 @@ input[type=checkbox]
 #help-me-choose-overlay  {
   position: fixed; /* Sit on top of the page content */
   display: none; /* Hidden by default */
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
@@ -635,10 +636,12 @@ input[type=checkbox]
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.8); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  overflow: scroll;
 }
 
 .overlay-content {
   width: 50em;
+  height: min-content;
   text-align: center;
   background-color: white;
   padding: 1rem 5rem;
@@ -648,6 +651,7 @@ input[type=checkbox]
   box-sizing: border-box;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   position: relative;
+  margin-top: 2rem;
 }
 
 .overlay-content .box {
@@ -833,7 +837,7 @@ input[type=checkbox]
     margin-bottom: 1rem;
   }
   .overlay-content {
-    padding: 1rem 1rem;
+    /*padding: 1rem 1rem;*/
   }
   .helper-footer {
     padding-left: 5px;

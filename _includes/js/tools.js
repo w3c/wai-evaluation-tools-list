@@ -518,8 +518,15 @@ function showHelpMeChoose(step){
   content += "<h4>"+currentStep.question+"</h4>";
   content += '<a onclick="closeHelperOverlay()">{% include_cached icon.html name="ex-circle" %}</a></div>';
   content += "<div class='questionOptions'><fieldset id="+currentStep.id+"><legend class='label'>"+currentStep.name+"</legend>";
+  console.log(currentStep);
+  console.log(activeHelperFilters);
+  console.log(activeHelperFilters.find(f => f.filterId === "type"));
   currentStep.options.forEach(option => {
-    content += '<div class="helper-options field">';
+    if(currentStep.id === "operatingsystem" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant)){
+      content += '<div class="helper-options field closed">';
+    }else{
+      content += '<div class="helper-options field">';
+    }
     content += '<input type="checkbox" id="filter-'+option.id+'" name="'+option.id+'">';
     content += '<div class="helper-option"><label for="filter-'+option.id+'"><span class="filterName">'+option.name+'</span></label>';
     content += '<p>'+option.info+'</p></div>';

@@ -27,7 +27,7 @@
 </div>
 <div class="rightCol">
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}<p>Evaluate:</p>
+		{% include_cached icon.html name="default" %}<p><b>Evaluate:</b></p>
 	</div>
 	<div class="colRow">
 		{% include_cached icon.html name="code" %}
@@ -42,10 +42,12 @@
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="desktop" %}
-		<p>{% for browser in tool.browsers %}
-		  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
-		{% endfor %}</p>
+		{% if tool.browsers.size != 0 %}
+			{% include_cached icon.html name="desktop" %}
+			<p>{% for browser in tool.browsers %}
+			  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
 	</div>
 </div>
 
@@ -72,10 +74,15 @@
 
 <div class="rightCol">
 	<div class="colRow">
-	{% include_cached icon.html name="default" %}Operating Systems:
+		{% if tool.operatingsystems | size > 0 %}
+			{% include_cached icon.html name="default" %}
+			<p>{% for os in tool.operatingsystems %}
+			  {{ os }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}Scope:
+		{% include_cached icon.html name="default" %}<b>Scope:</b>
 		<p>{% for automated in tool.automated %}
 		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -87,7 +94,9 @@
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-	{% include_cached icon.html name="check-circle" %}<p>Accessible?{{ tools.accessible }}</p>
+		{% if tool.a11yinfo %}
+			{% include_cached icon.html name="check-circle" %}<p>Accessibility statement available</p>
+		{% endif %}
 	</div>
 </div>
 
