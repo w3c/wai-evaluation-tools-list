@@ -189,11 +189,9 @@ if (filterForm && sortForm && search) {
         }
       })
 
-      if(back == false){
-        if(activeFiltersList.find(f => f.filterId === att.id)){
-          var index = activeFiltersList.findIndex(i => i.filterId === att.id);
-          activeFiltersList.splice(index, 1);
-        }
+      if(activeFiltersList.find(f => f.filterId === att.id)){
+        var index = activeFiltersList.findIndex(i => i.filterId === att.id);
+        activeFiltersList.splice(index, 1);
       }
 
       if (attValues.length > 0){
@@ -512,7 +510,7 @@ if (filterForm && sortForm && search) {
 
 }
 
-function showHelpMeChoose(step, back){
+function showHelpMeChoose(step){
   var currentStep = step;
   var overlay = document.getElementById("help-me-choose-overlay");
   overlay.style.display = "flex";
@@ -549,12 +547,12 @@ function showHelpMeChoose(step, back){
   }
   content += "</div>";
   overlayContent.innerHTML = content;
-  updateHelperCounter(overlayContent, back);
+  updateHelperCounter(overlayContent);
 
   document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
     console.log(item);
     item.addEventListener('change', e => { 
-      updateHelperCounter(overlayContent, back);
+      updateHelperCounter(overlayContent);
       updateNextHelperButton();
     })
   })
@@ -579,7 +577,7 @@ function showHelpMeChoose(step, back){
 
 function handleBackStep(){
   console.log(prevStep);
-  showHelpMeChoose(prevStep, true);
+  showHelpMeChoose(prevStep);
   console.log(activeHelperFilters);
   var previousFilters = activeHelperFilters.find(f => f.filterId === prevStep.id);
   if(previousFilters != undefined){
@@ -592,7 +590,7 @@ function handleBackStep(){
     })
   }
   var overlayContent = document.getElementById("help-me-choose-overlay").querySelector('.overlay-content');
-  updateHelperCounter(overlayContent, true);
+  updateHelperCounter(overlayContent);
   updateNextHelperButton(); 
 }
 
@@ -622,11 +620,11 @@ function getHelpMeChooseStep(e){
   }
 
   console.log(step);
-  showHelpMeChoose(step, false);
+  showHelpMeChoose(step);
 }
 
-function updateHelperCounter(overlayContent, back){
-  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters, back);
+function updateHelperCounter(overlayContent){
+  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters);
   console.log(activeHelperFilters);
   var projectedHelperResults = filterNewResultsList(activeHelperFilters);
   var counter = Object.values(projectedHelperResults).length;
