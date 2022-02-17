@@ -175,11 +175,13 @@ main>header {
 }
 
 #left-col .field label {
-  display: flex !important;
+  display: inline !important;
 }
 
 #left-col .field label img {
-  align-self: center;
+  margin-top: 2.5px;
+  display: block;
+  float: right;
 }
 
 #left-col .field label:hover {
@@ -439,6 +441,7 @@ select:hover {
 
 .tools-list .box-i img {
   height: max-content;
+  width: 25px;
 }
 
 .leftCol {
