@@ -442,6 +442,7 @@ select:hover {
 .tools-list .box-i img {
   height: max-content;
   width: 25px;
+  margin-right: 10px;
 }
 
 .leftCol {
