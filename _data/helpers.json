@@ -1,7 +1,7 @@
 [
   {
     "id": "product",
-    "name": "Product",
+    "name": "Product to evaluate",
     "step": "1",
     "question": "What product or content do you want to test?",
     "info": "This is information that is not present everywhere, just click skip/next",

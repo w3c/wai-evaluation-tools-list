@@ -223,6 +223,8 @@ if (filterForm && sortForm && search) {
             if(filter.filterId === "language"){
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
             }else{
+              console.log(jsonFilters);
+              console.log(filter);
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               var mask = currentFilter.options.find(o => o.name === r);
 
@@ -532,7 +534,7 @@ function showHelpMeChoose(step){
   console.log(activeHelperFilters);
   console.log(activeHelperFilters.find(f => f.filterId === "type"));
   currentStep.options.forEach(option => {
-    if(currentStep.id === "operatingsystem" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant)){
+    if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant)){
       content += '<div class="helper-options field closed">';
     }else{
       content += '<div class="helper-options field">';
