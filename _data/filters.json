@@ -129,7 +129,7 @@
       {
         "id": "free",
         "name": "Free",
-        "filtername": ["Free Software","Open Source"]
+        "filtername": ["Free Software","Open Source", "Free"]
       },
       {
         "id": "limited",
@@ -333,7 +333,7 @@
     ]
   },
   {
-    "id": "operatingsystem",
+    "id": "desktop",
     "name": "Operating system",
     "collapsed": "true",
     "type": "checkbox",
@@ -348,11 +348,13 @@
       },
       {
         "id": "windows",
-        "name": "Windows"
+        "name": "Windows",
+        "filtername": "Microsoft Windows"
       },
       {
         "id": "macos",
-        "name": "MacOS"
+        "name": "MacOS",
+        "filtername": "Apple macOS"
       },
       {
         "id": "linux",
@@ -380,7 +382,8 @@
       },
       {
         "id": "edge",
-        "name": "Edge"
+        "name": "Edge",
+        "filtername": "Edge / Explorer"
       },
       {
         "id": "firefox",
@@ -407,17 +410,69 @@
         "name": "Color contrast"
       },
       {
+        "id": "pageStructure",
+        "name": "Page structure"
+      },
+      {
+        "id": "navigationAndLinks",
+        "name": "Navigation and links"
+      },
+      {
+        "id": "plainText",
+        "name": "Plain text"
+      },  
+      {
         "id": "textAlternatives",
         "name": "Text alternatives"
+      },
+      {
+        "id": "mediaAlternatives",
+        "name": "Media alternatives"
       },
       {
         "id": "labels",
         "name": "Labels"
       },
       {
-        "id": "pageStructure",
-        "name": "Page structure"
-      }                       
+        "id": "forms",
+        "name": "Forms"
+      },
+      {
+        "id": "tables",
+        "name": "Tables"
+      },
+      {
+        "id": "maps",
+        "name": "Maps"
+      },
+      {
+        "id": "hoverAndFocus",
+        "name": "Hover and Focus"
+      },
+      {
+        "id": "resizingPage",
+        "name": "Resizing page"
+      },
+      {
+        "id": "keyboardAccessible",
+        "name": "Keyboard accessible"
+      },
+      {
+        "id": "assistiveTechnology",
+        "name": "Compatible with assistive technology"
+      },
+      {
+        "id": "time",
+        "name": "Time (pause, adjust etc)"
+      },
+      {
+        "id": "error",
+        "name": "Error (prevention)"
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI-ARIA attributes"
+      }                   
     ]
   },
   {

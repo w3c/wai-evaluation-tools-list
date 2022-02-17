@@ -225,20 +225,27 @@ if (filterForm && sortForm && search) {
             }else{
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               var mask = currentFilter.options.find(o => o.name === r);
+
               if(mask.filtername != undefined){
                 if(Array.isArray(mask.filtername)){
+                  if(filter.filterId == "license"){
+                    console.log(r);
+                    console.log(mask);
+                    console.log(x[filter.filterId]);
+                  }
                   var tracker;
                   mask.filtername.forEach(mfn => {
-                    if(tracker === undefined){
+                    if(tracker === undefined || tracker === false){
                       tracker = x[filter.filterId].some(function(m){ return m.indexOf(mfn)>=0 });
                     }
                   })
+                  console.log(tracker);
                   return tracker;
                 }else{
-                  if(Array.isArray(x[filter.filterId])){    
+                  if(Array.isArray(x[filter.filterId])){  
                     return x[filter.filterId].some(function(m){ return m.indexOf(mask.filtername)>=0 }) || x[filter.filterId].includes(r);
-                  }else{
-                    return x[filter.filterId] === mask.filtername || x[filter.filterId] === mask.name;
+                  }else{  
+                    return x[filter.filterId] === mask.filtername || x[filter.filterId] === r;
                   }
                 }
               }else{

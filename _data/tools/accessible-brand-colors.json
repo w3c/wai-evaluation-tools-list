@@ -1,1 +1,54 @@
-{"title":"Accessible Brand Colors","creator":"Use All Five, inc.","location":"https:\/\/abc.useallfive.com\/","release":"2019-02-28","version":"v1","description":"A tool that shows you how ADA compliant your colors are in relation to each other. By adding your brand\u2019s colors, you can generate a chart to see how they can be used together for accessibility, and find similar colors that work better.","a11yloc":"","update":"2019-04-14","language":["English"],"guideline":["<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.1 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.1<\/strong>","<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.0 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.0<\/strong>","<abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 1.0 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 1.0","Section 508, <abbr title=\"United States\">US<\/abbr> federal procurement standard"],"assists":["Generating reports of evaluation results"],"automated":[],"technology":[],"type":["Online tool"],"onlineservice":["Online checker"],"desktop":[],"mobile":[],"authoringtools":[],"apitype":[],"browsers":[],"license":["Free Software"]}
+{
+  "title": "Accessible Brand Colors",
+  "creator": "Use All Five, inc.",
+  "location": "https://abc.useallfive.com/",
+  "release": "2019-02-28",
+  "version": "v1",
+  "description": [
+    "Shows how ADA compliant your colors are in relation to each other",
+    "Add your brand’s colors and generate a chart to see how they can be used together for accessibility",
+    "Find similar colors that work better"
+    ],
+  "a11yloc": "",
+  "update": "2019-04-14",
+  "language": [
+    "English"
+  ],
+  "guideline": [
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.1 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.1</strong>",
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.0</strong>",
+    "<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 1.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 1.0",
+    "Section 508, <abbr title=\"United States\">US</abbr> federal procurement standard"
+  ],
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [],
+  "technology": [],
+  "type": [
+    "Web application"
+  ],
+  "onlineservice": [
+    "Online checker"
+  ],
+  "desktop": [],
+  "mobile": [],
+  "authoringtools": [],
+  "apitype": [],
+  "browsers": [],
+  "license": [
+    "Free"
+  ],
+  "purpose": [
+    "Manual testing"
+  ],
+  "product": [
+    "Website",
+    "Desktop application",
+    "Mobile application",
+    "Other"
+  ],
+  "checks": [
+    "Color contrast"
+  ]
+}

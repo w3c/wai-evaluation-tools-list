@@ -91,13 +91,13 @@
         "id": "typeDesktopApplication",
         "name": "Desktop application",
         "info": "",
-        "next": "operatingsystem"
+        "next": "desktop"
       },
       {
         "id": "typeMobileApplication",
         "name": "Mobile application",
         "info": "",
-        "next": "operatingsystem"
+        "next": "desktop"
       },
       {
         "id": "typeWebApplication",
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "id": "operatingsystem",
+    "id": "desktop",
     "name": "Operating system",
     "step": "5",
     "question": "What operating system is it for?",

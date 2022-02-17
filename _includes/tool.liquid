@@ -3,7 +3,7 @@
     {% assign toolsData = toolsData | push: tool[1] %}
 {% endfor %}
 
-{% assign toolsDataSorted = toolsData | sort: include.sort_key %}
+{% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
 {% capture tool_title %}<a href="{{ tool.location }}" target="_blank">{{ tool.title }}
 {% include_cached icon.html name="external-link" %}</a> 
@@ -20,14 +20,17 @@
 <h4>Features</h4>
 <div class="leftCol">
 	<ul>
-	{% for assist in tool.assists %}
-	  <li>{{ assist }}</li>
+	{% for desc in tool.description %}
+  		<li>{{ desc }}</li>
 	{% endfor %}
 	</ul> 
 </div>
 <div class="rightCol">
 	<div class="colRow">
 		{% include_cached icon.html name="default" %}<p><b>Evaluate:</b></p>
+		<p>{% for automated in tool.automated %}
+		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
+		{% endfor %}</p>
 	</div>
 	<div class="colRow">
 		{% include_cached icon.html name="code" %}

@@ -1,1 +1,70 @@
-{"title":"UXPin","creator":"UXPin","location":"https:\/\/www.uxpin.com\/","release":"2018-12-01","version":"","description":"UXPin is the design process tool that helps you keep your whole UX\/UI project in one place. To make sure all your prototypes meet the WCAG standards, use the built-in contrast checker and the color blindness simulator.","a11yloc":"","update":"2020-11-23","language":["English"],"guideline":["<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.1 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.1<\/strong>","<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.0 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.0<\/strong>","<abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 1.0 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 1.0"],"assists":["Displaying information within web pages","Modifying the presentation of web pages"],"automated":["Single web pages"],"technology":["<abbr title=\"Cascading Style Sheets\">CSS<\/abbr>","<abbr title=\"Hypertext Markup Language\">HTML<\/abbr>","<abbr title=\"Scalabale Vector Grpahics\">SVG<\/abbr>","<abbr title=\"Portable Document Format\">PDF<\/abbr> documents","Images"],"type":["Desktop application","Online tool"],"onlineservice":["Online checker"],"desktop":["Microsoft Windows","Apple macOS"],"mobile":[],"authoringtools":[],"apitype":[],"browsers":[],"license":["Free Software","Trial or Demo","Commercial","Enterprise"]}
+{
+  "title": "UXPin",
+  "creator": "UXPin",
+  "location": "https://www.uxpin.com/",
+  "release": "2018-12-01",
+  "version": "",
+  "description": [
+    "Design process tool that helps you keep your whole UX/UI project in one place",
+    "Built-in contrast checker and the color blindness simulator"
+  ],
+  "a11yloc": "",
+  "update": "2020-11-23",
+  "language": [
+    "English"
+  ],
+  "guideline": [
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.1 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.1</strong>",
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.0</strong>",
+    "<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 1.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 1.0"
+  ],
+  "assists": [
+    "Displaying information within web pages",
+    "Modifying the presentation of web pages"
+  ],
+  "automated": [
+    "Single web pages"
+  ],
+  "technology": [
+    "<abbr title=\"Cascading Style Sheets\">CSS</abbr>",
+    "<abbr title=\"Hypertext Markup Language\">HTML</abbr>",
+    "<abbr title=\"Scalabale Vector Grpahics\">SVG</abbr>",
+    "<abbr title=\"Portable Document Format\">PDF</abbr> documents"
+  ],
+  "media": [
+    "Image"
+  ],
+  "type": [
+    "Desktop application",
+    "Web application"
+  ],
+  "onlineservice": [
+    "Online checker"
+  ],
+  "desktop": [
+    "Microsoft Windows",
+    "Apple macOS"
+  ],
+  "mobile": [],
+  "authoringtools": [],
+  "apitype": [],
+  "browsers": [],
+  "license": [
+    "Free",
+    "Trial or Demo",
+    "Commercial",
+    "Enterprise"
+  ],
+  "purpose": [
+    "Manual testing"
+  ],
+  "product": [
+    "Website",
+    "Desktop application",
+    "Mobile application",
+    "Other"
+  ],
+  "checks": [
+    "Color contrast"
+  ]
+}

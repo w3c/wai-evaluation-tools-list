@@ -430,6 +430,7 @@ select:hover {
 
 .tools-list .box-i ul {
   margin-top: 0;
+  margin-right: 10px;
 }
 
 .tools-list .box-i svg {

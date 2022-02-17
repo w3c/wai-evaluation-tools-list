@@ -1,1 +1,50 @@
-{"title":"Online-Utility.org Document Readability Test Tool","creator":"Online-Utility.org","location":"http:\/\/www.online-utility.org\/english\/readability_test_and_improve.jsp","release":"2006-06-01","version":"","description":"Calculates readability : Coleman Liau index, Flesch Kincaid Grade Level, ARI (Automated Readability Index), SMOG. The measure of readability used here is the indication of number of years of education that a person needs to be able to understand the text easily on the first reading.","a11yloc":"","update":"2014-12-17","language":["English"],"guideline":[],"assists":["Providing step-by-step evaluation guidance"],"automated":["Single web pages"],"technology":["<abbr title=\"Hypertext Markup Language\">HTML<\/abbr>"],"type":["Online tool"],"onlineservice":["Online checker"],"desktop":[],"mobile":[],"authoringtools":[],"browsers":[],"license":["Free Software"]}
+{
+  "title": "Online-Utility.org Document Readability Test Tool",
+  "creator": "Online-Utility.org",
+  "location": "http://www.online-utility.org/english/readability_test_and_improve.jsp",
+  "release": "2006-06-01",
+  "version": "",
+  "description": [
+    "Calculates readability: Coleman Liau index, Flesch Kincaid Grade Level, ARI (Automated Readability Index), SMOG",
+    "Measures readability indicating the number of years of education that a person needs to be able to understand the text easily on the first reading."
+  ],
+  "a11yloc": "",
+  "update": "2014-12-17",
+  "language": [
+    "English"
+  ],
+  "guideline": [],
+  "assists": [],
+  "automated": [
+    "Single page"
+  ],
+  "technology": [
+    "<abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+  ],
+  "media": [
+    "Text / Language"
+  ],
+  "type": [
+    "Web application"
+  ],
+  "onlineservice": [
+    "Online checker"
+  ],
+  "desktop": [],
+  "mobile": [],
+  "authoringtools": [],
+  "browsers": [],
+  "license": [
+    "Free"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "product": [
+    "Document",
+    "Other"
+  ],
+  "checks": [
+    "Plain text"
+  ]
+}

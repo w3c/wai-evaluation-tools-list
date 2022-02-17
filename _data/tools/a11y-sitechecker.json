@@ -1,1 +1,66 @@
-{"title":"A11y-sitechecker","creator":"Martin Forstner","location":"https:\/\/www.npmjs.com\/package\/a11y-sitechecker","release":"2021-02-27","version":"","description":"A11y-sitecheker is a tool to check a whole site against accessibility criteria. It uses axe-core to check whole sites for accessibility issues. It is crawling the first given Domain and tries to find all links recursivly. In addition it is possible to click elements which have a tabindex >= 0","a11yloc":"","update":"2021-03-15","language":["English","German (<span lang=\"de\">Deutsch<\/span>)"],"guideline":["<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.1 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.1<\/strong>","<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG<\/abbr> 2.0 \u2014 <abbr title=\"World Wide Web Consortium\">W3C<\/abbr> Web Content Accessibility Guidelines 2.0<\/strong>"],"assists":["Generating reports of evaluation results"],"automated":["Groups of web pages or web sites"],"technology":["<abbr title=\"Accessible Rich Internet Applications\">WAI-ARIA<\/abbr>","<abbr title=\"Cascading Style Sheets\">CSS<\/abbr>","<abbr title=\"Hypertext Markup Language\">HTML<\/abbr>"],"type":["Command line tool"],"onlineservice":[],"desktop":[],"mobile":[],"authoringtools":[],"apitype":[],"browsers":[],"license":["Open Source"]}
+{
+  "title": "A11y-sitechecker",
+  "creator": "Martin Forstner",
+  "location": "https://www.npmjs.com/package/a11y-sitechecker",
+  "release": "2021-02-27",
+  "version": "",
+  "description": [
+    "Crawls Websites automatically for accessibility issues",
+    "Analyzes a Set of URLs agains accessibility criteria",
+    "Provides images for Tab-Order, Errors highlighted and view of the site in general",
+    "Shows results for different viewports"
+    ],
+  "a11yloc": "",
+  "update": "2021-03-15",
+  "language": [
+    "English",
+    "German (<span lang=\"de\">Deutsch</span>)"
+  ],
+  "guideline": [
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.1 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.1</strong>",
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.0</strong>"
+  ],
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages"
+  ],
+  "technology": [
+    "<abbr title=\"Accessible Rich Internet Applications\">WAI-ARIA</abbr>",
+    "<abbr title=\"Cascading Style Sheets\">CSS</abbr>",
+    "<abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+  ],
+  "type": [
+    "Command-line / CI"
+  ],
+  "onlineservice": [],
+  "desktop": [],
+  "mobile": [],
+  "authoringtools": [],
+  "apitype": [],
+  "browsers": [],
+  "license": [
+    "Open Source"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "product": [
+    "Website"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure",
+    "Navigation and links",
+    "Plain text",
+    "Text alternatives",
+    "Media alternatives",
+    "Labels",
+    "Forms",
+    "Tables",
+    "Resizing page",
+    "Keyboard accessible",
+    "WAI-ARIA attributes"
+  ]
+}
