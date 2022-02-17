@@ -223,25 +223,17 @@ if (filterForm && sortForm && search) {
             if(filter.filterId === "language"){
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
             }else{
-              console.log(jsonFilters);
-              console.log(filter);
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               var mask = currentFilter.options.find(o => o.name === r);
 
               if(mask.filtername != undefined){
                 if(Array.isArray(mask.filtername)){
-                  if(filter.filterId == "license"){
-                    console.log(r);
-                    console.log(mask);
-                    console.log(x[filter.filterId]);
-                  }
                   var tracker;
                   mask.filtername.forEach(mfn => {
                     if(tracker === undefined || tracker === false){
                       tracker = x[filter.filterId].some(function(m){ return m.indexOf(mfn)>=0 });
                     }
                   })
-                  console.log(tracker);
                   return tracker;
                 }else{
                   if(Array.isArray(x[filter.filterId])){  
@@ -534,7 +526,7 @@ function showHelpMeChoose(step){
   console.log(activeHelperFilters);
   console.log(activeHelperFilters.find(f => f.filterId === "type"));
   currentStep.options.forEach(option => {
-    if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant)){
+    if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant) && option.name != "Other"){
       content += '<div class="helper-options field closed">';
     }else{
       content += '<div class="helper-options field">';
@@ -546,7 +538,7 @@ function showHelpMeChoose(step){
   })
   content += "</fieldset></div>";
   if(currentStep.info != undefined && currentStep.info != ""){
-    content += '{% include box.html type="start" title="Title" %}'+currentStep.info+'{% include box.html type="end" %}';
+    content += '{% include box.html type="start" title="Info" %}'+currentStep.info+'{% include box.html type="end" %}';
   }
   content += "<div class='helper-footer'>";
   content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a class="prevStep">back to tools list</a></div>';
@@ -571,7 +563,8 @@ function showHelpMeChoose(step){
       getHelpMeChooseStep(e);
     })
   }
-  if(document.querySelector('.prevStep') && prevStep.length != 0){
+  
+  if(document.querySelector('.prevStep') && prevStep.length != 0 && currentStep.step != 1){
     document.querySelector('.prevStep').addEventListener('click', e => {
       console.log(activeHelperFilters);
       handleBackStep();
@@ -580,6 +573,7 @@ function showHelpMeChoose(step){
   }else{
     document.querySelector('.prevStep').addEventListener('click', e => {
       closeHelperOverlay()
+      document.querySelector('.prevStep').innerHTML = "back to list";
     })
   }
 }

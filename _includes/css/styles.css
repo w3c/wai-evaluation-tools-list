@@ -175,7 +175,11 @@ main>header {
 }
 
 #left-col .field label {
-  display: inline !important;
+  display: flex !important;
+}
+
+#left-col .field label img {
+  align-self: center;
 }
 
 #left-col .field label:hover {
@@ -433,10 +437,8 @@ select:hover {
   margin-right: 10px;
 }
 
-.tools-list .box-i svg {
-  margin-right: 0.5rem;
-  margin-top: 0.25rem;
-  flex-shrink: 0;
+.tools-list .box-i img {
+  height: max-content;
 }
 
 .leftCol {
@@ -449,7 +451,7 @@ select:hover {
 
 .colRow {
   display: flex;
-  margin-bottom: 0.25rem
+  margin-bottom: 0.25rem;
 }
 
 .colRow p {

@@ -27,26 +27,26 @@
 </div>
 <div class="rightCol">
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}<p><b>Evaluate:</b></p>
+		<img src="/content-images/wai-evaluation-tools-list/product.png" /><p><b>Evaluate:</b></p>
 		<p>{% for automated in tool.automated %}
 		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="code" %}
+		<img src="/content-images/wai-evaluation-tools-list/type.png" />
 		<p>{% for type in tool.type %}
 		  {{ type }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}
+		<img src="/content-images/wai-evaluation-tools-list/paidfree.png" />
 		<p>{% for license in tool.license %}
 		  {{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
 		{% if tool.browsers.size != 0 %}
-			{% include_cached icon.html name="desktop" %}
+			<img src="/content-images/wai-evaluation-tools-list/browsers.png" />
 			<p>{% for browser in tool.browsers %}
 			  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -78,27 +78,27 @@
 <div class="rightCol">
 	<div class="colRow">
 		{% if tool.operatingsystems | size > 0 %}
-			{% include_cached icon.html name="default" %}
+			<img src="/content-images/wai-evaluation-tools-list/os.png" />
 			<p>{% for os in tool.operatingsystems %}
 			  {{ os }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
 		{% endif %}
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="default" %}<b>Scope:</b>
+		<img src="/content-images/wai-evaluation-tools-list/scope.png" /><b>Scope:</b>
 		<p>{% for automated in tool.automated %}
 		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		{% include_cached icon.html name="translations" %}
+		<img src="/content-images/wai-evaluation-tools-list/language.png" />
 		<p>{% for language in tool.language %}
 		  {{ language }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
 		{% if tool.a11yinfo %}
-			{% include_cached icon.html name="check-circle" %}<p>Accessibility statement available</p>
+			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p>Accessibility statement available</p>
 		{% endif %}
 	</div>
 </div>

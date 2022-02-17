@@ -401,7 +401,7 @@
   },
   {
     "id": "checks",
-    "name": "Checks",
+    "name": "Accessibility checks",
     "collapsed": "true",
     "type": "checkbox",
     "options": [

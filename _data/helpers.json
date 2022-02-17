@@ -3,8 +3,8 @@
     "id": "product",
     "name": "Product to evaluate",
     "step": "1",
-    "question": "What product or content do you want to test?",
-    "info": "This is information that is not present everywhere, just click skip/next",
+    "question": "What product should the tool be able to test?",
+    "info": "",
     "skip": "purpose",
     "options": [
       {
@@ -40,7 +40,7 @@
       {
         "id": "otherProduct",
         "name": "Other",
-        "info": "",
+        "info": "e.g. Virtual Reality",
         "next": "purpose"
       }                       
     ]
@@ -49,35 +49,35 @@
     "id": "purpose",
     "name": "Purpose",
     "step": "2",
-    "question": "What would you like to use the tool for?",
-    "info": "",
+    "question": "What kind of testing should the tool support?",
+    "info": "Automated tools can currently find about 20% of accessibility issues. Tools supporting manual testing can help you test and find other issues and fix them. This way you can be sure your content is accessible and compliant with the standards and guidelines.",
     "skip": "type",
     "options": [
       {
         "id": "automatic",
         "name": "Automated testing",
-        "info": "",
+        "info": "Performs automated scans to find accessibility issues",
         "next": "type"
       },
       {
         "id": "manual",
         "name": "Manual testing",
-        "info": "the tool guides you with evaluating guidelines that you can only test manually",
+        "info": "Guides you in evaluating, and possibly fixing, accessibility issues manually",
         "next": "type"
       },
       {
         "id": "simulate",
         "name": "Simulate user experience",
-        "info": "experience what it’s like to browse websites or apps with a disability",
+        "info": "Experience what it is like to use web content with a disability",
         "next": "checks"
-      }                      
+      }
     ]
   },
   {
     "id": "type",
     "name": "Type of tool",
     "step": "3",
-    "question": "What type of tool do you want to test?",
+    "question": "Do you prefer a type of tool integration?",
     "info": "",
     "skip": "checks",
     "options": [
@@ -102,13 +102,13 @@
       {
         "id": "typeWebApplication",
         "name": "Web application",
-        "info": "",
+        "info": "Online tool",
         "next": "checks"
       },
       {
         "id": "serverside",
         "name": "Server-side integration",
-        "info": "",
+        "info": "Tools that run on your (local) server",
         "next": "checks"
       },
       {
@@ -126,7 +126,7 @@
       {
         "id": "authoringTool",
         "name": "Authoring tool plugin",
-        "info": "",
+        "info": "Extensions for content creation software (e.g.: text processing, creative software, CMS)",
         "next": "checks"
       }                      
     ]
@@ -135,7 +135,7 @@
     "id": "browsers",
     "name": "Browsers",
     "step": "4",
-    "question": "What browsers should it work in?",
+    "question": "Which browser(s) should the tool run on?",
     "info": "",
     "skip": "checks",
     "options": [
@@ -181,7 +181,7 @@
     "id": "desktop",
     "name": "Operating system",
     "step": "5",
-    "question": "What operating system is it for?",
+    "question": "Which system would you like to install the tool on?",
     "info": "",
     "skip": "checks",
     "options": [
@@ -231,9 +231,9 @@
   },
   {
     "id": "checks",
-    "name": "Check",
+    "name": "Accessibility checks",
     "step": "6",
-    "question": "What should it check?",
+    "question": "What are some of the things you would like to test or simulate?",
     "info": "",
     "skip": "",
     "options": [

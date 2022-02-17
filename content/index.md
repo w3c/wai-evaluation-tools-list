@@ -71,7 +71,7 @@ footer: >
                 {% endif %}
                 <legend class="label">{{ filter.name }}
                     {% if filter.info %}
-                        {% include_cached icon.html name="default" %}
+                        <img src="/content-images/wai-evaluation-tools-list/info.png" />
                     {% endif %}
                 </legend>
                     <div class="options">
@@ -80,7 +80,7 @@ footer: >
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
-                                {% include_cached icon.html name="default" %}
+                                <img src="/content-images/wai-evaluation-tools-list/info.png" />
                             {% endif %}
                         </label>
                     </div>
