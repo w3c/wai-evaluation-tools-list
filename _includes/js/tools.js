@@ -23,14 +23,14 @@ var prevStep = [];
 var currentPage = 1;
 var toolsPerPage = 8;
 
+document.querySelectorAll('.showmore').forEach(item => {
+  makeShowMore(item);
+})
+
 document.querySelectorAll('fieldset').forEach(item => {
   if(item.getAttribute("collapsed")){
     makeCollapsible(item);
   }
-})
-
-document.querySelectorAll('.showmore').forEach(item => {
-  makeShowMore(item);
 })
 
 document.querySelector('.button-help-me-choose').addEventListener('click', e => {
