@@ -434,7 +434,7 @@ label abbr {
   vertical-align: top;
 }
 
-.left-col abbr {
+legend abbr {
   display: flex;
   margin-left: 3px;
 }
