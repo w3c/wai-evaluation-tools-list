@@ -384,7 +384,7 @@ svg {
 }
 
 .collapsed {
-  display: none;
+  display: none !important;
 }
 
 .collapsible:hover {
@@ -434,7 +434,7 @@ label abbr {
   vertical-align: top;
 }
 
-abbr {
+.left-col abbr {
   display: flex;
   margin-left: 3px;
 }

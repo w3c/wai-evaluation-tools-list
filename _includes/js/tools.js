@@ -700,6 +700,7 @@ function addNewField(divToAppend, fieldToAppend){
 }
 
 function makeCollapsible(item){
+  console.log(item);
   var label = item.querySelector('legend');
   label.classList.add("collapsible");
   if(item.getAttribute("collapsed") == "true"){
@@ -723,7 +724,6 @@ function makeShowMore(item){
     item.innerHTML += '<div class="showMoreBlock">{% include_cached icon.html name="chevron-down" %}see more</div>';
     item.querySelector('.showMoreBlock').addEventListener('click', e => { toggleShowMore(item) });
   }
-
 }
 
 function toggleShowMore(item){
@@ -746,14 +746,22 @@ function toggleShowMore(item){
 function toggleCollapsed(item){
   var label = item.querySelector('legend');
   var options = item.querySelector('.options');
+  console.log(item);
   if(options.classList.contains("collapsed")){
     label.querySelector('.icon-chevron-down').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
     options.classList.remove("collapsed");
+    if(item.querySelector('.showMoreBlock') != undefined){
+      item.querySelector('.showMoreBlock').classList.remove("collapsed");
+    }
   }else{
+    console.log("jaja");
     label.querySelector('.icon-chevron-up').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     options.classList.add("collapsed");
+    if(item.querySelector('.showMoreBlock') != undefined){
+      item.querySelector('.showMoreBlock').classList.add("collapsed");
+    }
   }
 }
 
