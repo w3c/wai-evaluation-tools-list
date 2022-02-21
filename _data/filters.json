@@ -2,7 +2,7 @@
   {
     "id": "purpose",
     "name": "Purpose",
-    "info": "true",
+    "info": "Types of evaluation",
     "collapsed": "false",
     "type": "checkbox",
     "options": [
@@ -107,16 +107,18 @@
       {
         "id": "commandline",
         "name": "Command-line / CI",
-        "filtername": "Command line tool"
+        "filtername": "Command line tool",
+        "info": "Continuous Integration"
       },
       {
         "id": "programmingTool",
-        "name": "Programming tool plugin / IDE"
+        "name": "Programming tool plugin / IDE",
+        "info": "Integrated Development Environment"
       },
       {
         "id": "authoringTool",
         "name": "Authoring tool plugin",
-        "info": "true"
+        "info": "For content creation software"
       }                       
     ]
   },
@@ -147,6 +149,7 @@
     "id": "automated",
     "name": "Scope",
     "collapsed": "false",
+    "info": "Range and depth of single evaluation",
     "type": "checkbox",
     "options": [
       {
@@ -175,44 +178,49 @@
   {
     "id": "guideline",
     "name": "Guidelines",
-    "info": "true",
     "collapsed": "false",
     "showmore": "3",
     "type": "checkbox",
     "options": [
       {
         "id": "WCAG2.1",
-        "name": "WCAG 2.1 — W3C Web Content Accessibility Guidelines 2.1",
+        "name": "WCAG 2.1",
+        "info": "W3C Web Content Accessibility Guidelines 2.1",
         "short": "WCAG 2.1",
         "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
-        "name": "WCAG 2.0 — W3C Web Content Accessibility Guidelines 2.0",
+        "name": "WCAG 2.0",
+        "info": "W3C Web Content Accessibility Guidelines 2.0",
         "short": "WCAG 2.0",
         "filtername": "WCAG<\/abbr> 2.0"
       },
       {
         "id": "Section508",
-        "name": "Section 508, US federal procurement standard",
+        "name": "Section 508",
+        "info": "US federal procurement standard",
         "short": "Section 508",
         "filtername": "Section 508"
       },
       {
         "id": "WCAG1.0",
-        "name": "WCAG 1.0 — W3C Web Content Accessibility Guidelines 1.0",
+        "name": "WCAG 1.0",
+        "info": "W3C Web Content Accessibility Guidelines 1.0",
         "short": "WCAG 1.0",
         "filtername": "WCAG<\/abbr> 1.0"
       },
       {
         "id": "RGAA",
-        "name": "RGAA, French government standard",
+        "name": "RGAA",
+        "info": "French government standard",
         "short": "RGAA",
         "filtername": "RGAA"
       },
       {
         "id": "BITV",
-        "name": "BITV, German government standard",
+        "name": "BITV",
+        "info": "German government standard",
         "short": "BITV",
         "filtername": "BITV"
       },
@@ -224,19 +232,22 @@
       },
       {
         "id": "JIS",
-        "name": "JIS, Japanese industry standard",
+        "name": "JIS",
+        "info": "Japanese industry standard",
         "short": "JIS",
         "filtername": "JIS"
       },
       {
         "id": "SI5568",
-        "name": "SI 5568, Israeli web accessibility guidelines",
+        "name": "SI 5568",
+        "info": "Israeli web accessibility guidelines",
         "short": "SI 5568",
         "filtername": "SI 5568"
       },
       {
         "id": "StancaAct",
-        "name": "Stanca Act, Italian accessibility legislation",
+        "name": "Stanca Act",
+        "info": "Italian accessibility legislation",
         "short": "Stanca Act",
         "filtername": "Stanca Act"
       },
@@ -248,13 +259,15 @@
       },
       {
         "id": "EN301549",
-        "name": "EN 301 549, European accessibility standard",
+        "name": "EN 301 549",
+        "info": "European accessibility standard",
         "short": "EN 301 549",
         "filtername": "EN 301 549"
       },
       {
         "id": "MAAG1.0",
-        "name": "MAAG 1.0 - Korea government standard",
+        "name": "MAAG 1.0",
+        "info": "Korea government standard",
         "short": "MAAG 1.0",
         "filtername": "MAAG 1.0"
       },
@@ -310,6 +323,7 @@
     "id": "a11yinfo",
     "name": "Accessibility statement",
     "collapsed": "false",
+    "info": "Vendor provided information on tool`s accessibility",
     "type": "checkbox",
     "options": [
       {
@@ -323,7 +337,7 @@
     "id": "actrules",
     "name": "ACT Rules",
     "collapsed": "false",
-    "info": "true",
+    "info": "Accessibility Conformance Testing Rules",
     "type": "checkbox",
     "options": [
       {
@@ -403,6 +417,7 @@
     "id": "checks",
     "name": "Accessibility checks",
     "collapsed": "true",
+    "info": "Selection of common issues",
     "type": "checkbox",
     "options": [
       {

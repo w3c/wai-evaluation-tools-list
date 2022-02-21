@@ -429,6 +429,15 @@ select:hover {
   flex-wrap: wrap;
 }
 
+label abbr {
+  display: inline-block;
+  vertical-align: top;
+}
+
+abbr {
+  display: flex;
+}
+
 .tools-list .box-i h4 {
   flex: 100%;
   margin-bottom: 0.25rem;
