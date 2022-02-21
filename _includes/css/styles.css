@@ -436,6 +436,7 @@ label abbr {
 
 abbr {
   display: flex;
+  margin-left: 3px;
 }
 
 .tools-list .box-i h4 {
