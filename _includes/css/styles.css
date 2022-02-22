@@ -429,7 +429,7 @@ select:hover {
   flex-wrap: wrap;
 }
 
-label abbr {
+label abbr { 
   display: inline-block;
   vertical-align: top;
 }
