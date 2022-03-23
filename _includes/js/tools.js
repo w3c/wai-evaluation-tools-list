@@ -319,22 +319,23 @@ if (filterForm && sortForm && search) {
     })
     addPagination(sortedArticles);
 
-    if (Object.values(newResults).length === 0) {
+    var searchTerm = searchForm.value;
+    if (Object.values(newResults).length === 0 && filtersOn.length > 0) {
       totalTools.innerText = "Sorry, but no tools match the following criteria: ";
       totalTools.appendChild(listFiltersOnString);
-      var searchTerm = searchForm.value;
-      if(searchTerm.length > 0){
-        totalTools.innerHTML += "<br>Searchterm: \"" + searchTerm + "\"";
-      }
       hideClearButton(false);
     }else{
       totalTools.innerText = "";
       hideClearButton(true);
     }
     if(Object.values(newResults).length === 1){
-      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " result</span>";
+      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " tool</span>";
     }else{
-      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " results</span>";
+      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " tools</span>";
+    }
+
+    if(searchTerm.length > 0){
+      totalToolsCounter.innerHTML += " for: <span>\"" + searchTerm + "\"</span>";
     }
 
     console.log(newResults);

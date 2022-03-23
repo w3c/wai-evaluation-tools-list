@@ -48,7 +48,7 @@ footer: >
     </div>
     <div class="header-right">
         {% include box.html type="start" class="simple" %}
-            <p>Information on this website is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products. <br><br>See <a href="#disclaimer">Important disclaimer</a>.</p>
+            <p>Information on this website is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products. <br><br>See <a href="#disclaimer">Disclaimer</a>.</p>
         {% include box.html type="end" %}
     </div>
 </div>
@@ -57,7 +57,7 @@ footer: >
         <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
         <form data-filter-form action="..." class="data-filter-form">
             <div class="filter-header">
-                <h2>Filters</h2><a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
+                <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
             {% include box.html type="start" class="simple" %}
                 <p>Need help finding the right tool?</p>
@@ -126,7 +126,7 @@ footer: >
                 </select>
             </div>
             <span id="status">
-                <p id="total-tools">Showing <span>{{ site.data.tools | size }} results</span></p>
+                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
@@ -148,7 +148,7 @@ footer: >
             {% include box.html type="end" %}
         </div> -->
         <div id="disclaimer">
-            {% include box.html type="start" title="Important Disclaimer" %}
+            {% include box.html type="start" title="Disclaimer" %}
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
                 <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
                 <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>

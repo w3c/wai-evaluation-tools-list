@@ -52,74 +52,87 @@
       }                       
     ]
   },
-  {
-    "id": "technology",
-    "name": "Media type",
+    {
+    "id": "checks",
+    "name": "Accessibility checks",
     "collapsed": "false",
+    "showmore": "5",
+    "info": "Selection of common issues",
     "type": "checkbox",
     "options": [
       {
-        "id": "textLanguage",
-        "name": "Text / Language"
+        "id": "colorContrast",
+        "name": "Color contrast"
       },
       {
-        "id": "videoAnimations",
-        "name": "Video / Animation",
-        "filtername": "Video / Animations"
+        "id": "pageStructure",
+        "name": "Page structure"
       },
       {
-        "id": "images",
-        "name": "Image",
-        "filtername": "Images"
+        "id": "navigationAndLinks",
+        "name": "Navigation and links"
       },
       {
-        "id": "audio",
-        "name": "Audio"
-      }                      
-    ]
-  },
-  {
-    "id": "type",
-    "name": "Type of tool",
-    "collapsed": "false",
-    "type": "checkbox",
-    "options": [
+        "id": "readability",
+        "name": "Readability",
+        "filtername": "Plain text"
+      },  
       {
-        "id": "browserPlugin",
-        "name": "Browser plugin"
+        "id": "textAlternatives",
+        "name": "Text alternatives"
       },
       {
-        "id": "typeDesktopApplication",
-        "name": "Desktop application"
+        "id": "mediaAlternatives",
+        "name": "Media alternatives"
       },
       {
-        "id": "typeMobileApplication",
-        "name": "Mobile application"
+        "id": "labels",
+        "name": "Labels"
       },
       {
-        "id": "typeWebApplication",
-        "name": "Web application"
+        "id": "forms",
+        "name": "Forms"
       },
       {
-        "id": "serverside",
-        "name": "Server-side integration"
+        "id": "tables",
+        "name": "Tables"
       },
       {
-        "id": "commandline",
-        "name": "Command-line / CI",
-        "filtername": "Command line tool",
-        "info": "Continuous Integration"
+        "id": "maps",
+        "name": "Maps"
       },
       {
-        "id": "programmingTool",
-        "name": "Programming tool plugin / IDE",
-        "info": "Integrated Development Environment"
+        "id": "hoverAndFocus",
+        "name": "Hover and Focus"
       },
       {
-        "id": "authoringTool",
-        "name": "Authoring tool plugin",
-        "info": "For content creation software"
-      }                       
+        "id": "resizingPage",
+        "name": "Resizing page"
+      },
+      {
+        "id": "keyboardAccessible",
+        "name": "Keyboard accessible"
+      },
+      {
+        "id": "assistiveTechnology",
+        "name": "Compatible with assistive technology"
+      },
+      {
+        "id": "time",
+        "name": "Time (pause, adjust etc)"
+      },
+      {
+        "id": "error",
+        "name": "Error (prevention)"
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI-ARIA attributes"
+      }, 
+      {
+        "id": "checksLanguage",
+        "name": "Language"
+      }                    
     ]
   },
   {
@@ -146,32 +159,47 @@
     ]
   },
   {
-    "id": "automated",
-    "name": "Scope",
+    "id": "type",
+    "name": "Type of tool",
     "collapsed": "false",
-    "info": "Range and depth of single evaluation",
     "type": "checkbox",
     "options": [
       {
-        "id": "pageComponent",
-        "name": "Page component"
+        "id": "browserPlugin",
+        "name": "Browser plugin"
       },
       {
-        "id": "singlePage",
-        "name": "Single page",
-        "filtername": "Single web pages"
+        "id": "typeDesktopApplication",
+        "name": "Desktop application"
       },
       {
-        "id": "samplePages",
-        "name": "Sample of pages"
+        "id": "typeMobileApplication",
+        "name": "Mobile application"
       },
       {
-        "id": "entireProduct",
-        "name": "Entire product"
+        "id": "typeWebOnlineTool",
+        "name": "Online tool",
+        "filtername": "Web application",
       },
       {
-        "id": "restrictedPages",
-        "name": "Restricted or password protected pages"
+        "id": "serverside",
+        "name": "Server-side integration"
+      },
+      {
+        "id": "commandline",
+        "name": "Command-line / CI",
+        "filtername": "Command line tool",
+        "info": "Continuous Integration"
+      },
+      {
+        "id": "programmingTool",
+        "name": "Programming tool plugin / IDE",
+        "info": "Integrated Development Environment"
+      },
+      {
+        "id": "authoringTool",
+        "name": "Authoring tool plugin",
+        "info": "For content creation software"
       }                       
     ]
   },
@@ -281,7 +309,7 @@
   },
   {
     "id": "technology",
-    "name": "File format",
+    "name": "Supported files",
     "collapsed": "false",
     "type": "checkbox",
     "options": [
@@ -320,29 +348,34 @@
     ]
   },
   {
-    "id": "a11yinfo",
-    "name": "Accessibility statement",
+    "id": "automated",
+    "name": "Scope",
     "collapsed": "false",
-    "info": "Vendor provided information on tool`s accessibility",
+    "info": "Range and depth of single evaluation",
     "type": "checkbox",
     "options": [
       {
-        "id": "yes",
-        "name": "Accessibility statement available",
-        "filtername": "Tools providing accessibility information"
-      }                      
-    ]
-  },
-  {
-    "id": "actrules",
-    "name": "ACT Rules",
-    "collapsed": "false",
-    "info": "Accessibility Conformance Testing Rules",
-    "type": "checkbox",
-    "options": [
+        "id": "component",
+        "name": "Component",
+        "filtername": "Page component"
+      },
       {
-        "id": "yes",
-        "name": "Implements ACT Rules"
+        "id": "singlePageScreen",
+        "name": "Single page/screen",
+        "filtername": ["Single web pages", "Single page"]
+      },
+      {
+        "id": "samplePagesScreens",
+        "name": "Sample of pages/screens",
+        "filtername": "Sample of pages"
+      },
+      {
+        "id": "entireProduct",
+        "name": "Entire product"
+      },
+      {
+        "id": "restrictedPages",
+        "name": "Restricted or password protected pages"
       }                       
     ]
   },
@@ -414,80 +447,30 @@
     ]
   },
   {
-    "id": "checks",
-    "name": "Accessibility checks",
-    "collapsed": "true",
-    "info": "Selection of common issues",
+    "id": "a11yinfo",
+    "name": "Accessibility statement",
+    "collapsed": "false",
+    "info": "Vendor provided information on tool`s accessibility",
     "type": "checkbox",
     "options": [
       {
-        "id": "colorContrast",
-        "name": "Color contrast"
-      },
+        "id": "yes",
+        "name": "Accessibility statement available",
+        "filtername": "Tools providing accessibility information"
+      }                      
+    ]
+  },
+  {
+    "id": "actrules",
+    "name": "ACT Rules",
+    "collapsed": "false",
+    "info": "Accessibility Conformance Testing Rules",
+    "type": "checkbox",
+    "options": [
       {
-        "id": "pageStructure",
-        "name": "Page structure"
-      },
-      {
-        "id": "navigationAndLinks",
-        "name": "Navigation and links"
-      },
-      {
-        "id": "plainText",
-        "name": "Plain text"
-      },  
-      {
-        "id": "textAlternatives",
-        "name": "Text alternatives"
-      },
-      {
-        "id": "mediaAlternatives",
-        "name": "Media alternatives"
-      },
-      {
-        "id": "labels",
-        "name": "Labels"
-      },
-      {
-        "id": "forms",
-        "name": "Forms"
-      },
-      {
-        "id": "tables",
-        "name": "Tables"
-      },
-      {
-        "id": "maps",
-        "name": "Maps"
-      },
-      {
-        "id": "hoverAndFocus",
-        "name": "Hover and Focus"
-      },
-      {
-        "id": "resizingPage",
-        "name": "Resizing page"
-      },
-      {
-        "id": "keyboardAccessible",
-        "name": "Keyboard accessible"
-      },
-      {
-        "id": "assistiveTechnology",
-        "name": "Compatible with assistive technology"
-      },
-      {
-        "id": "time",
-        "name": "Time (pause, adjust etc)"
-      },
-      {
-        "id": "error",
-        "name": "Error (prevention)"
-      },
-      {
-        "id": "waiaria",
-        "name": "WAI-ARIA attributes"
-      }                   
+        "id": "yes",
+        "name": "Implements ACT Rules"
+      }                       
     ]
   },
   {
@@ -510,7 +493,11 @@
         "id": "modifyPresentation",
         "name": "Modify the presentation of pages",
         "filtername": "Modifying the presentation of web pages"
+      },
+      {
+        "id": "accessibilityScore",
+        "name": "Accessibility score",
       }                      
     ]
-  }   
+  } 
 ]

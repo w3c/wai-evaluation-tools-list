@@ -85,18 +85,30 @@ main>header {
 #left-col .box-simple {
   border: none;
   margin-bottom: 2rem;
+  margin-top: 0;
 }
 
 #left-col .box-i {
-  background-color: var(--off-white);
+  background-color: #00818D;
   border: none;
   padding: 16px;
   display: flex;
   flex-wrap: wrap;
+  color: white;
+  border-radius: 5px;
 }
 
 #left-col .box-i a {
   width: 100%;
+  background-color: white;
+  color: var(--wai-green);
+  border-color: white;
+}
+
+#left-col .box-i a:hover {
+  border-color: var(--w3c-blue);
+  background-color: var(--w3c-blue);
+  color: white;
 }
 
 #left-col .icon-chevron-up {
@@ -478,6 +490,7 @@ details {
   padding: 0;
   position:relative;
   padding-top: 0.5rem;
+  border-top: solid 1px var(--line-grey);
 }
 
 details h4 {
