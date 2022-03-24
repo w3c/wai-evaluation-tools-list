@@ -194,6 +194,7 @@ main>header {
   margin-top: 2.5px;
   display: block;
   float: right;
+  z-index: 2;
 }
 
 #left-col .field label:hover {
@@ -493,6 +494,27 @@ details {
   border-top: solid 1px var(--line-grey);
 }
 
+details:before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: -1px;
+  width: 16px;
+  border-top: 1px solid lightgray;
+  border-top: solid 1px var(--line-grey);
+}
+
+details:after {
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: -1px;
+  width: 16px;
+  border-top: 1px solid lightgray;
+  border-top: solid 1px var(--line-grey);
+}
+
+
 details h4 {
   margin-top: 0 !important;
 }
@@ -714,6 +736,10 @@ input[type=checkbox]
   font-size: 18px;
 }
 
+.helper-option label:hover {
+  cursor: pointer;
+}
+
 .helper-option p {
   margin: 0;
 }
@@ -891,6 +917,10 @@ input[type=checkbox]
 .toggletip-container {
   position: relative;
   /*display: inline-block;*/
+}
+
+.toggletip-container img {
+  z-index: 2;
 }
 
 /* the bubble element, added inside the toggletip live region */

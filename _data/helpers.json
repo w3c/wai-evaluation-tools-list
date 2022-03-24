@@ -100,9 +100,9 @@
         "next": "desktop"
       },
       {
-        "id": "typeWebApplication",
-        "name": "Web application",
-        "info": "Online tool",
+        "id": "typeWebOnlineTool",
+        "name": "Online tool",
+        "info": "Web-based tools",
         "next": "checks"
       },
       {

@@ -195,6 +195,7 @@ if (filterForm && sortForm && search) {
       if(activeFiltersList.find(f => f.filterId === att.id)){
         var index = activeFiltersList.findIndex(i => i.filterId === att.id);
         activeFiltersList.splice(index, 1);
+
       }
 
       if (attValues.length > 0){
@@ -535,8 +536,8 @@ function showHelpMeChoose(step){
     }else{
       content += '<div class="helper-options field">';
     }
-    content += '<input type="checkbox" id="filter-'+option.id+'" name="'+option.id+'">';
-    content += '<div class="helper-option"><label for="filter-'+option.id+'"><span class="filterName">'+option.name+'</span></label>';
+    content += '<input type="checkbox" id="filter-'+option.id+'-help" name="'+option.id+'">';
+    content += '<div class="helper-option"><label for="filter-'+option.id+'-help"><span class="filterName">'+option.name+'</span><span class="filterPreCounter"></span></label>';
     content += '<p>'+option.info+'</p></div>';
     content += "</div>";
   })
@@ -553,6 +554,7 @@ function showHelpMeChoose(step){
   content += "</div>";
   overlayContent.innerHTML = content;
   updateHelperCounter(overlayContent);
+  updateBackHelperButton();
 
   document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
     console.log(item);
@@ -563,7 +565,7 @@ function showHelpMeChoose(step){
   })
   if(document.querySelector('.nextStep')){
     document.querySelector('.nextStep').addEventListener('click', e => {
-      prevStep = currentStep;
+      prevStep.push(currentStep);
       getHelpMeChooseStep(e);
     })
   }
@@ -572,21 +574,30 @@ function showHelpMeChoose(step){
     document.querySelector('.prevStep').addEventListener('click', e => {
       console.log(activeHelperFilters);
       handleBackStep();
+      prevStep.pop();
+      updateBackHelperButton();
     })
-    document.querySelector('.prevStep').innerHTML = "back";
   }else{
     document.querySelector('.prevStep').addEventListener('click', e => {
       closeHelperOverlay()
-      document.querySelector('.prevStep').innerHTML = "back to list";
     })
+  }
+  // showFilterCounters(overlayContent, false);
+}
+
+function updateBackHelperButton(){
+  if(prevStep[prevStep.length - 1]){
+    document.querySelector('.prevStep').innerHTML = prevStep[prevStep.length - 1].id;
+  }else{
+    document.querySelector('.prevStep').innerHTML = "back to list";
   }
 }
 
 function handleBackStep(){
-  console.log(prevStep);
-  showHelpMeChoose(prevStep);
+  console.log(prevStep[prevStep.length - 1]);
+  var previousFilters = activeHelperFilters.find(f => f.filterId === prevStep[prevStep.length - 1].id);
+  showHelpMeChoose(prevStep[prevStep.length - 1]);
   console.log(activeHelperFilters);
-  var previousFilters = activeHelperFilters.find(f => f.filterId === prevStep.id);
   if(previousFilters != undefined){
     console.log(previousFilters);
     document.querySelector('.questionOptions').querySelectorAll('.helper-options').forEach(item => {
@@ -816,4 +827,19 @@ function makeToggleTips() {
       liveRegion.innerHTML = '';
     });
   });
-};
+}
+
+document.querySelectorAll('details').forEach(item => {
+  item.addEventListener('click', e => { 
+    updateDetailText(e);
+  });
+})
+
+function updateDetailText(e){
+  if(e.target.innerHTML == "Show more details"){
+    e.target.innerHTML = "Show less details";
+  }else{
+    e.target.innerHTML = "Show more details";
+  }
+}
+

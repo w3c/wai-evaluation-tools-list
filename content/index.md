@@ -44,7 +44,8 @@ footer: >
 <div class="header-sup">
     <div class="header-left">
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
-        <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p>
+        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p> -->
+        <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of such tools.</p>
     </div>
     <div class="header-right">
         {% include box.html type="start" class="simple" %}
