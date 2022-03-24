@@ -71,8 +71,9 @@ footer: >
                 {% endif %}
                 <legend class="label">{{ filter.name }}
                     {% if filter.info %}
-                        <abbr title="{{ filter.info }}">
-                            <img src="/content-images/wai-evaluation-tools-list/info.png" />
+                        <abbr title="{{ filter.info }}" class="toggletip-container">
+                            <img aria-label="more info" data-toggletip-content="{{ filter.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
                 </legend>
@@ -82,11 +83,11 @@ footer: >
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
-                                <abbr title="{{ option.info }}">
-                                    <img src="/content-images/wai-evaluation-tools-list/info.png" />
+                                <abbr title="{{ option.info }}" class="toggletip-container">
+                                    <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <span class="toggletip-span-inline" role="status"></span>
                                 </abbr>
                             {% endif %}
-
                         </label>
                     </div>
                 {% endfor %}

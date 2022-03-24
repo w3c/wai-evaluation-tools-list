@@ -62,6 +62,9 @@ if (filterForm && sortForm && search) {
     filterJson(filterForm);
   });
 
+  //Make info-icons toggle
+  makeToggleTips();
+
   //Add pre-counters to filters
   showFilterCounters(filterForm, true);
 
@@ -756,7 +759,6 @@ function toggleCollapsed(item){
       item.querySelector('.showMoreBlock').classList.remove("collapsed");
     }
   }else{
-    console.log("jaja");
     label.querySelector('.icon-chevron-up').remove();
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     options.classList.add("collapsed");
@@ -764,6 +766,7 @@ function toggleCollapsed(item){
       item.querySelector('.showMoreBlock').classList.add("collapsed");
     }
   }
+  makeToggleTips();
 }
 
 function toggleFilters(){
@@ -775,3 +778,42 @@ function toggleFilters(){
     document.querySelector('.button-filters').classList.remove("closed");
   }
 }
+
+function makeToggleTips() {
+  // Get all the toggletip buttons
+  var toggletips = document.querySelectorAll('[data-toggletip-content]');
+  console.log(toggletips);
+
+  // Iterate over them
+  Array.prototype.forEach.call(toggletips, function (toggletip) {
+    // Get the message from the data-content element
+    var message = toggletip.getAttribute('data-toggletip-content');
+
+    // Get the live region element
+    var liveRegion = toggletip.nextElementSibling;
+
+    // Toggle the message
+    toggletip.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        liveRegion.innerHTML = '';
+        window.setTimeout(function() {
+          liveRegion.innerHTML = '<span class="toggletip-bubble">'+ message +'</span>';
+        }, 100);
+    });
+
+    // Close on outside click
+    document.addEventListener('click', function (e) {
+      if (toggletip !== e.target) {
+        liveRegion.innerHTML = '';
+      }                        
+    });
+
+    // Remove toggletip on ESC
+    document.addEventListener('keydown', function(e) {
+      if ((e.keyCode || e.which) === 27)
+      liveRegion.innerHTML = '';
+    });
+  });
+};
