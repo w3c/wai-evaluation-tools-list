@@ -5,6 +5,7 @@
     "info": "Types of evaluation",
     "collapsed": "false",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "automated",
@@ -25,6 +26,7 @@
     "name": "Product to evaluate",
     "collapsed": "false",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "website",
@@ -59,6 +61,7 @@
     "showmore": "5",
     "info": "Selection of common issues",
     "type": "checkbox",
+    "order": "custom",
     "options": [
       {
         "id": "colorContrast",
@@ -140,11 +143,12 @@
     "name": "Paid or free",
     "collapsed": "false",
     "type": "checkbox",
+    "order": "custom",
     "options": [
       {
         "id": "free",
         "name": "Free",
-        "filtername": ["Free Software","Open Source", "Free"]
+        "filtername": ["Free Software","Open Source"]
       },
       {
         "id": "limited",
@@ -163,6 +167,7 @@
     "name": "Type of tool",
     "collapsed": "false",
     "type": "checkbox",
+    "order": "custom",
     "options": [
       {
         "id": "browserPlugin",
@@ -209,6 +214,7 @@
     "collapsed": "false",
     "showmore": "3",
     "type": "checkbox",
+    "order": "custom",
     "options": [
       {
         "id": "WCAG2.1",
@@ -312,6 +318,7 @@
     "name": "Supported files",
     "collapsed": "false",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "msodocuments",
@@ -353,11 +360,12 @@
     "collapsed": "false",
     "info": "Range and depth of single evaluation",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "component",
         "name": "Component",
-        "filtername": "Page component"
+        "filtername": ["Page component"]
       },
       {
         "id": "singlePageScreen",
@@ -367,7 +375,7 @@
       {
         "id": "samplePagesScreens",
         "name": "Sample of pages/screens",
-        "filtername": "Sample of pages"
+        "filtername": ["Sample of pages"]
       },
       {
         "id": "entireProduct",
@@ -384,6 +392,7 @@
     "name": "Operating system",
     "collapsed": "true",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "android",
@@ -418,6 +427,7 @@
     "name": "Browser",
     "collapsed": "true",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "chrome",
@@ -452,6 +462,7 @@
     "collapsed": "false",
     "info": "Vendor provided information on tool`s accessibility",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "yes",
@@ -466,6 +477,7 @@
     "collapsed": "false",
     "info": "Accessibility Conformance Testing Rules",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "yes",
@@ -478,6 +490,7 @@
     "name": "Output",
     "collapsed": "true",
     "type": "checkbox",
+    "order": "default",
     "options": [
       {
         "id": "generateReport",

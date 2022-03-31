@@ -244,8 +244,32 @@
         "next": ""
       },
       {
+        "id": "pageStructure",
+        "name": "Page structure",
+        "info": "",
+        "next": "" 
+      },
+      {
+        "id": "navigationAndLinks",
+        "name": "Navigation and links",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "readability",
+        "name": "Readability",
+        "info": "",
+        "next": ""
+      },  
+      {
         "id": "textAlternatives",
         "name": "Text alternatives",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "mediaAlternatives",
+        "name": "Media alternatives",
         "info": "",
         "next": ""
       },
@@ -256,8 +280,68 @@
         "next": ""
       },
       {
-        "id": "pageStructure",
-        "name": "Page structure",
+        "id": "forms",
+        "name": "Forms",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "tables",
+        "name": "Tables",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "maps",
+        "name": "Maps",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "hoverAndFocus",
+        "name": "Hover and Focus",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "resizingPage",
+        "name": "Resizing page",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "keyboardAccessible",
+        "name": "Keyboard accessible",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "assistiveTechnology",
+        "name": "Compatible with assistive technology",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "time",
+        "name": "Time (pause, adjust etc)",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "error",
+        "name": "Error (prevention)",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI-ARIA attributes",
+        "info": "",
+        "next": ""
+      }, 
+      {
+        "id": "checksLanguage",
+        "name": "Language",
         "info": "",
         "next": ""
       }                     

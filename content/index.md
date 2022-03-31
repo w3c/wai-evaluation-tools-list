@@ -66,9 +66,9 @@ footer: >
             {% include box.html type="end" %}
             {% for filter in site.data.filters %}
                 {% if filter.showmore %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore">
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
                 {% else %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}">
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                 {% endif %}
                 <legend class="label">{{ filter.name }}
                     {% if filter.info %}
@@ -164,5 +164,7 @@ footer: >
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->
 <script>
+{% include js/utilities.js %}
 {% include js/tools.js %}
+{% include js/helpers.js %}
 </script>

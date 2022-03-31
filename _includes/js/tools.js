@@ -9,15 +9,11 @@ const jsonTools = JSON.parse(importJson);
 const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
 const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
-const jsonHelpers = JSON.parse('{{site.data.helpers | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
 
 var activeFiltersBlock = document.getElementById('activeFilters');
-
-var activeHelperFilters = [];
-var prevStep = [];
 
 //Pagination settings
 var currentPage = 1;
@@ -68,9 +64,12 @@ if (filterForm && sortForm && search) {
   //Add pre-counters to filters
   showFilterCounters(filterForm, true);
 
+  //Order filters by amount
+  orderFilterOptions(filterForm);
+
   //Add pagination after showing tools
   var initialArticles = Array.from(toolsListContent.querySelectorAll('aside'));
-  addPagination(initialArticles)
+  addPagination(initialArticles);
 
   function showFilterCounters(form, init){
     var counterFiltersOn = getActiveFiltersList(form);
@@ -124,20 +123,23 @@ if (filterForm && sortForm && search) {
     console.log(newResults);
 
     //Filter on search term
-    var searchTerm = searchForm.value;
-    console.log(searchTerm);
     var searchedResults = [];
-    Object.values(newResults).forEach(o => {
-      if(o.title.toLowerCase().includes(searchTerm.toLowerCase())){
-        searchedResults.push(o);
-      }
-    })
+    searchedResults = filterSearchList(newResults);
     console.log(searchedResults);
 
     //rebuild document
     rebuildList(searchedResults, filtersOn);
+  }
 
-    // callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList);
+  function filterSearchList(filteredResults){
+    var searchTerm = searchForm.value;
+    var searchOutputList = [];
+    Object.values(filteredResults).forEach(o => {
+      if(o.title.toLowerCase().includes(searchTerm.toLowerCase())){
+        searchOutputList.push(o);
+      }
+    })
+    return searchOutputList;
   }
 
   function getActiveFiltersList(form) {
@@ -174,51 +176,8 @@ if (filterForm && sortForm && search) {
     return activeFiltersList;
   }
 
-  function updateHelperFiltersList(form, list, back) {
-    console.log("oude");
-    console.log(list);
-    var activeFiltersList = list;
-    var attValues = [];
-
-    // for each attribute group
-    form.querySelectorAll('fieldset').forEach(att => {
-
-      attValues = [];
-      filterName = att.querySelectorAll('legend')[0].innerText;
-
-      att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
-        if (filter.checked) {
-          attValues.push(att.querySelector("label[for='" + filter.id + "']").querySelector('.filterName').innerText);
-        }
-      })
-
-      if(activeFiltersList.find(f => f.filterId === att.id)){
-        var index = activeFiltersList.findIndex(i => i.filterId === att.id);
-        activeFiltersList.splice(index, 1);
-
-      }
-
-      if (attValues.length > 0){
-        activeFiltersList.push({ filterId: att.id, filterName: filterName, filterValues: attValues });
-      }
-
-      att.querySelectorAll('select').forEach(filter => {
-        attValues = [];
-        if (filter.value != "") {
-          attValues.push(filter.value)
-          activeFiltersList.push({ filterId: filter.id, filterName: filterName, filterValues: attValues });
-        }
-
-      });
-
-    });
-
-    return activeFiltersList;
-  }
-
   function filterNewResultsList(filtersOnList) {
     var newResultsList = [];
-    // console.log(filtersOnList);
     // by attribute
     filtersOnList.forEach(filter => {
       newResultsList.push(Object.values(jsonTools).filter((x) => filter.filterValues.some(
@@ -312,7 +271,7 @@ if (filterForm && sortForm && search) {
     }
 
     sortedArticles.forEach(el => {
-      if (!Object.values(newResults).find(o => o.title === el.id)){
+      if (!Object.values(newResults).find(o => o.title === el.id && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
         el.hidden = true;
         el.classList.add("inactive");
       }
@@ -347,72 +306,28 @@ if (filterForm && sortForm && search) {
     showFilterCounters(filterForm, false);
   }
 
-  function addPagination(sortedArticles) {
-    // console.log(sortedArticles);
-    var list = document.querySelector('.tools-list');
-    var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
-    if(activeToolsCount > toolsPerPage){
-      list.innerHTML += '<div class="paginationBlock">' 
-      +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a href="#tools-list" onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
-      +'<span id="pageCount"></span>'
-      +'<div id="btn_next"><a href="#tools-list" onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
-      +'</div>';
-      changePage(currentPage, activeToolsCount);
-    }
-  }
+  function orderFilterOptions(form) {
+    form.querySelectorAll('fieldset').forEach(att => {
+      if(att.classList.contains("default")){
+        var myListParent = att;
+        var myListChildren = myListParent.querySelectorAll('.filter-options');
+        var myListArray = [];
 
-  function previousPage(activeToolsCount) {
-    if (currentPage > 1) {
-        currentPage--;
-        changePage(currentPage, activeToolsCount);
-    }
-  }
+        for (var i = 0; i < myListChildren.length; i++) {
+          myListArray.push(myListChildren[i]);
+        }
+        
+        myListArray.sort(function(a, b){
+          var a2 = a.querySelector('.filterPreCounter').innerHTML.replace(/[{()}]/g, '');
+          var b2 = b.querySelector('.filterPreCounter').innerHTML.replace(/[{()}]/g, '');
+          return parseInt(b2) - parseInt(a2);
+        });
 
-  function nextPage(activeToolsCount) {
-    if (currentPage < numPages(activeToolsCount)) {
-        currentPage++;
-        changePage(currentPage, activeToolsCount);
-    }
-  }
-
-  function numPages(activeToolsCount) {
-    return Math.ceil(activeToolsCount / toolsPerPage);
-  }
-
-  function changePage(page, activeToolsCount) {
-    var btn_next = document.getElementById("btn_next");
-    var btn_prev = document.getElementById("btn_prev");
-    var list = document.querySelector('.tools-list');
-    var page_span = document.getElementById("pageCount");
- 
-    // Validate page
-    if (page < 1) page = 1;
-    if (page > numPages(activeToolsCount)) page = numPages(activeToolsCount);
-    const articles = toolsListContent.querySelectorAll('aside');
-    var sortedArticles = Array.from(articles);
-    var activeArticles = sortedArticles.filter((article) => !article.classList.contains("inactive"));
-
-    activeArticles.forEach(a => {
-      a.classList.add("hiddenInPagination");
-    })
-
-    for (var i = (page-1) * toolsPerPage; i < (page * toolsPerPage); i++) {
-      if(activeArticles[i] != undefined){
-        activeArticles[i].classList.remove("hiddenInPagination");
-      }
-    }
-    page_span.innerHTML = "Page " + page + " of " + numPages(activeToolsCount);
-
-    if (page == 1) {
-        btn_prev.style.visibility = "hidden";
-    } else {
-        btn_prev.style.visibility = "visible";
-    }
-    if (page == numPages(activeToolsCount)) {
-        btn_next.style.visibility = "hidden";
-    } else {
-        btn_next.style.visibility = "visible";
-    }
+        for (var i = 0; i < myListArray.length; i++) {
+          myListParent.querySelector('.options').appendChild(myListArray[i]);
+        }
+      } 
+    });
   }
 
   function updateActiveFilters() {
@@ -425,7 +340,6 @@ if (filterForm && sortForm && search) {
           prefix += filterGroup.filterId + ": ";
         }
         if(getFilterName(filter) == "Statement available"){
-          console.log(filterGroup);
           prefix += filterGroup.filterName + ": ";
         }
         activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
@@ -453,7 +367,6 @@ if (filterForm && sortForm && search) {
   }
 
   function removeFilter(filterTitle) {
-    console.log(filterTitle);
     var form = filterForm;
     form.querySelectorAll('fieldset').forEach(att => {
       att.querySelectorAll('input[type="checkbox"]').forEach(filter => {
@@ -491,355 +404,5 @@ if (filterForm && sortForm && search) {
     filterJson(filterForm);
   }
 
-
-  function callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList) {
-    console.log("Filters:");
-    console.log(jsonFilters);
-    console.log("Tools:");
-    console.log(jsonTools);
-    console.log("Filters On:");
-    console.log(filtersOn);
-    console.log("Results:");
-    console.log(newResults);
-    console.log("toolsList");
-    console.log(toolsList);
-  }
-
-  function clean(obj) {
-    for (var propName in obj) {
-      if (obj[propName].length === 0) {
-        delete obj[propName];
-      }
-    }
-    return obj
-  }
-
-}
-
-function showHelpMeChoose(step){
-  var currentStep = step;
-  var overlay = document.getElementById("help-me-choose-overlay");
-  overlay.style.display = "flex";
-  var overlayContent = overlay.querySelector('.overlay-content');
-  overlayContent.innerHTML = "";
-
-  var content = "<div class='helper-header'><h3>"+currentStep.name+"</h3>";
-  content += "<h4>"+currentStep.question+"</h4>";
-  content += '<a onclick="closeHelperOverlay()">{% include_cached icon.html name="ex-circle" %}</a></div>';
-  content += "<div class='questionOptions'><fieldset id="+currentStep.id+"><legend class='label'>"+currentStep.name+"</legend>";
-  console.log(currentStep);
-  console.log(activeHelperFilters);
-  console.log(activeHelperFilters.find(f => f.filterId === "type"));
-  currentStep.options.forEach(option => {
-    if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant) && option.name != "Other"){
-      content += '<div class="helper-options field closed">';
-    }else{
-      content += '<div class="helper-options field">';
-    }
-    content += '<input type="checkbox" id="filter-'+option.id+'-help" name="'+option.id+'">';
-    content += '<div class="helper-option"><label for="filter-'+option.id+'-help"><span class="filterName">'+option.name+'</span><span class="filterPreCounter"></span></label>';
-    content += '<p>'+option.info+'</p></div>';
-    content += "</div>";
-  })
-  content += "</fieldset></div>";
-  if(currentStep.info != undefined && currentStep.info != ""){
-    content += '{% include box.html type="start" title="Info" %}'+currentStep.info+'{% include box.html type="end" %}';
-  }
-  content += "<div class='helper-footer'>";
-  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a class="prevStep">back to tools list</a></div>';
-  content += '<div id="showHelperResults"><a onclick="applyHelper()">show <span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
-  if(currentStep.skip != ""){
-    content += '<div id="skipHelperStep"><a class="nextStep">Skip '+currentStep.id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
-  }
-  content += "</div>";
-  overlayContent.innerHTML = content;
-  updateHelperCounter(overlayContent);
-  updateBackHelperButton();
-
-  document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
-    console.log(item);
-    item.addEventListener('change', e => { 
-      updateHelperCounter(overlayContent);
-      updateNextHelperButton();
-    })
-  })
-  if(document.querySelector('.nextStep')){
-    document.querySelector('.nextStep').addEventListener('click', e => {
-      prevStep.push(currentStep);
-      getHelpMeChooseStep(e);
-    })
-  }
-  
-  if(document.querySelector('.prevStep') && prevStep.length != 0 && currentStep.step != 1){
-    document.querySelector('.prevStep').addEventListener('click', e => {
-      console.log(activeHelperFilters);
-      handleBackStep();
-      prevStep.pop();
-      updateBackHelperButton();
-    })
-  }else{
-    document.querySelector('.prevStep').addEventListener('click', e => {
-      closeHelperOverlay()
-    })
-  }
-  // showFilterCounters(overlayContent, false);
-}
-
-function updateBackHelperButton(){
-  if(prevStep[prevStep.length - 1]){
-    document.querySelector('.prevStep').innerHTML = prevStep[prevStep.length - 1].id;
-  }else{
-    document.querySelector('.prevStep').innerHTML = "back to list";
-  }
-}
-
-function handleBackStep(){
-  console.log(prevStep[prevStep.length - 1]);
-  var previousFilters = activeHelperFilters.find(f => f.filterId === prevStep[prevStep.length - 1].id);
-  showHelpMeChoose(prevStep[prevStep.length - 1]);
-  console.log(activeHelperFilters);
-  if(previousFilters != undefined){
-    console.log(previousFilters);
-    document.querySelector('.questionOptions').querySelectorAll('.helper-options').forEach(item => {
-      console.log(item);
-      if(previousFilters.filterValues.includes(item.querySelector('.filterName').innerText)){
-        item.querySelector('input[type=checkbox]').checked = true;
-      }
-    })
-  }
-  var overlayContent = document.getElementById("help-me-choose-overlay").querySelector('.overlay-content');
-  updateHelperCounter(overlayContent);
-  updateNextHelperButton(); 
-}
-
-function getHelpMeChooseStep(e){
-  e.preventDefault();
-  console.log(jsonHelpers);
-  var step = [];
-
-  if(document.querySelector('.questionOptions') == undefined){
-    step = jsonHelpers[0];
-  }else{
-    document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
-      if(item.checked == true){
-        console.log(item.name);
-        var currentCheckbox = jsonHelpers.find(f => f.id === document.querySelector('.questionOptions').querySelector("fieldset").id);
-        console.log(currentCheckbox);
-        var answer = currentCheckbox.options.find(f => f.id === item.name);
-        console.log(answer);
-        step = jsonHelpers.find(f => f.id === answer.next);
-      }
-    })
-  }
-
-  if(step.length === 0){
-    var currentStep = jsonHelpers.find(f => f.id === document.querySelector('.questionOptions').querySelector("fieldset").id);
-    step = jsonHelpers.find(f => f.id === currentStep.skip);
-  }
-
-  console.log(step);
-  showHelpMeChoose(step);
-}
-
-function updateHelperCounter(overlayContent){
-  activeHelperFilters = updateHelperFiltersList(overlayContent, activeHelperFilters);
-  console.log(activeHelperFilters);
-  var projectedHelperResults = filterNewResultsList(activeHelperFilters);
-  var counter = Object.values(projectedHelperResults).length;
-  console.log(counter);
-  document.querySelector('.helperResultsCounter').innerText = counter;
-}
-
-function updateNextHelperButton(){
-  var active = false;
-  document.querySelector('.questionOptions').querySelectorAll('input[type=checkbox]').forEach(item => {
-    if(item.checked == true){
-      active = true;
-    }
-  })
-  if(active == true){
-    if(document.querySelector('.nextStep')){
-      document.querySelector('.nextStep').innerHTML = "Next";
-    }
-  }else{
-    console.log(document.querySelector('.questionOptions').querySelector('fieldset'));
-    console.log(document.querySelector('.questionOptions').querySelector('fieldset').id);
-    document.querySelector('.nextStep').innerHTML = "Skip " + document.querySelector('.questionOptions').querySelector('fieldset').id;
-  }
-}
-
-function applyHelper(){
-  console.log(activeHelperFilters);
-  filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
-  activeHelperFilters.forEach(filter => {
-    var currentFilter = jsonFilters.find(f => f.id === filter.filterId);
-    filter.filterValues.forEach(value => {
-      var filterValueId = currentFilter.options.find(o => o.name === value).id;
-      console.log(filterValueId);
-      console.log(filterForm.querySelector('#filter-'+filterValueId));
-      filterForm.querySelector('#filter-'+filterValueId).checked = true;
-    })
-  })
-  var event = new Event('change');
-  filterForm.dispatchEvent(event);
-  closeHelperOverlay();
-}
-
-function closeHelperOverlay(){
-  var overlay = document.getElementById("help-me-choose-overlay");
-  var overlayContent = overlay.querySelector('.overlay-content');
-  overlayContent.innerHTML = "";
-  overlay.style.display = "none";
-  activeHelperFilters = [];
-  prevStep = [];
-}
-
-// const divSelectLang = document.getElementById("divSelectLang");
-// const fieldLang = document.getElementsByClassName("field-language")[0];
-// document.getElementsByClassName("button-new-lang")[0].addEventListener('click', e => { addNewField(divSelectLang,fieldLang)});
-
-// const divSelectCountry = document.getElementById("divSelectCountry");
-// const fieldCountry = document.getElementsByClassName("field-country")[0];
-// document.getElementsByClassName("button-new-country")[0].addEventListener('click', e => { addNewField(divSelectCountry,fieldCountry)});
-
-// const divInputPrerequisite = document.getElementById("divInputPrerequisite");
-// const fieldPrequisite = document.getElementsByClassName("field-prerequisite")[0];
-// document.getElementsByClassName("button-new-prerequisite")[0].addEventListener('click', e => { addNewField(divInputPrerequisite,fieldPrequisite)});
-
-// const divInputTopic = document.getElementById("divInputTopic");
-// const fieldTopic = document.getElementsByClassName("field-topic")[0];
-// document.getElementsByClassName("button-new-topic")[0].addEventListener('click', e => { addNewField(divInputTopic,fieldTopic)});
-
-function addNewField(divToAppend, fieldToAppend){
-  divToAppend.insertBefore(fieldToAppend.cloneNode(true), divToAppend.lastElementChild);
-}
-
-function makeCollapsible(item){
-  console.log(item);
-  var label = item.querySelector('legend');
-  label.classList.add("collapsible");
-  if(item.getAttribute("collapsed") == "true"){
-    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-    item.querySelector('.options').classList.add("collapsed");
-  }else{
-    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
-  }
-  label.addEventListener('click', e => { toggleCollapsed(item) });
-}
-
-function makeShowMore(item){
-  var options = item.querySelectorAll('.filter-options');
-  var filter = jsonFilters.find(e => e.id === item.id);
-  for(var i = 0; i < options.length; i++){
-    if(i >= filter.showmore){
-      options[i].classList.add("closed");
-    }
-  }
-  if(item.querySelector('.showMoreBlock') == undefined){
-    item.innerHTML += '<div class="showMoreBlock">{% include_cached icon.html name="chevron-down" %}see more</div>';
-    item.querySelector('.showMoreBlock').addEventListener('click', e => { toggleShowMore(item) });
-  }
-}
-
-function toggleShowMore(item){
-  var options = item.querySelectorAll('.filter-options');
-  var closed = item.querySelectorAll('.closed');
-  if(closed.length > 0){
-    options.forEach(option => {
-      option.classList.remove("closed");
-    })
-  }else{
-    makeShowMore(item);
-  }
-  if(item.querySelectorAll('.closed').length > 0){
-    item.querySelector('.showMoreBlock').innerHTML = '{% include_cached icon.html name="chevron-down" %}see more';
-  }else{
-    item.querySelector('.showMoreBlock').innerHTML = '{% include_cached icon.html name="chevron-up" %}see less';
-  }
-}
-
-function toggleCollapsed(item){
-  var label = item.querySelector('legend');
-  var options = item.querySelector('.options');
-  console.log(item);
-  if(options.classList.contains("collapsed")){
-    label.querySelector('.icon-chevron-down').remove();
-    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
-    options.classList.remove("collapsed");
-    if(item.querySelector('.showMoreBlock') != undefined){
-      item.querySelector('.showMoreBlock').classList.remove("collapsed");
-    }
-  }else{
-    label.querySelector('.icon-chevron-up').remove();
-    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
-    options.classList.add("collapsed");
-    if(item.querySelector('.showMoreBlock') != undefined){
-      item.querySelector('.showMoreBlock').classList.add("collapsed");
-    }
-  }
-  makeToggleTips();
-}
-
-function toggleFilters(){
-  if(!filterForm.classList.contains("open")){
-    filterForm.classList.add("open");
-    document.querySelector('.button-filters').classList.add("closed");
-  }else{
-    filterForm.classList.remove("open");
-    document.querySelector('.button-filters').classList.remove("closed");
-  }
-}
-
-function makeToggleTips() {
-  // Get all the toggletip buttons
-  var toggletips = document.querySelectorAll('[data-toggletip-content]');
-  console.log(toggletips);
-
-  // Iterate over them
-  Array.prototype.forEach.call(toggletips, function (toggletip) {
-    // Get the message from the data-content element
-    var message = toggletip.getAttribute('data-toggletip-content');
-
-    // Get the live region element
-    var liveRegion = toggletip.nextElementSibling;
-
-    // Toggle the message
-    toggletip.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
-        liveRegion.innerHTML = '';
-        window.setTimeout(function() {
-          liveRegion.innerHTML = '<span class="toggletip-bubble">'+ message +'</span>';
-        }, 100);
-    });
-
-    // Close on outside click
-    document.addEventListener('click', function (e) {
-      if (toggletip !== e.target) {
-        liveRegion.innerHTML = '';
-      }                        
-    });
-
-    // Remove toggletip on ESC
-    document.addEventListener('keydown', function(e) {
-      if ((e.keyCode || e.which) === 27)
-      liveRegion.innerHTML = '';
-    });
-  });
-}
-
-document.querySelectorAll('details').forEach(item => {
-  item.addEventListener('click', e => { 
-    updateDetailText(e);
-  });
-})
-
-function updateDetailText(e){
-  if(e.target.innerHTML == "Show more details"){
-    e.target.innerHTML = "Show less details";
-  }else{
-    e.target.innerHTML = "Show more details";
-  }
 }
 

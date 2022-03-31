@@ -27,21 +27,35 @@
 </div>
 <div class="rightCol">
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/product.png" /><p><b>Evaluate:</b></p>
-		<p>{% for prod in tool.product %}
-		  {{ prod }}{% if forloop.last %}{% else %}, {% endif %}
-		{% endfor %}</p>
+		{% if tool.product | size > 0 %}
+			<img src="/content-images/wai-evaluation-tools-list/product.png" /><p><b>Evaluate:</b></p>
+			<p>{% for prod in tool.product %}
+			  {{ prod }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
 	</div>
 	<div class="colRow">
 		<img src="/content-images/wai-evaluation-tools-list/type.png" />
 		<p>{% for type in tool.type %}
-		  {{ type }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
+		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
+		  {% if otherNames %}
+		  	{{ type }} ({{ otherNames.name }}){% if forloop.last %}{% else %}, {% endif %}
+		  {% else %}
+		  	{{ type }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
 		<img src="/content-images/wai-evaluation-tools-list/paidfree.png" />
 		<p>{% for license in tool.license %}
-		  {{ license }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% assign currentFilter = site.data.filters | find: "id", "license"  %}
+		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains license"  %}
+		  {% if otherNames %}
+		  	{{ license }} ({{ otherNames.name }}){% if forloop.last %}{% else %}, {% endif %}
+		  {% else %}
+		  	{{ license }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
@@ -75,6 +89,22 @@
 
 <div class="rightCol">
 	<div class="colRow">
+		{% if tool.purpose | size > 0 %}
+			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<p>{% for purp in tool.purpose %}
+			  {{ purp }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
+	</div>
+	<div class="colRow">
+		{% if tool.checks | size > 0 %}
+			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<p>{% for check in tool.checks %}
+			  {{ check }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
+	</div>
+	<div class="colRow">
 		{% if tool.operatingsystems | size > 0 %}
 			<img src="/content-images/wai-evaluation-tools-list/os.png" />
 			<p>{% for os in tool.operatingsystems %}
@@ -85,7 +115,13 @@
 	<div class="colRow">
 		<img src="/content-images/wai-evaluation-tools-list/scope.png" /><b>Scope:</b>
 		<p>{% for automated in tool.automated %}
-		  {{ automated }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% assign currentFilter = site.data.filters | find: "id", "automated"  %}
+		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains automated"  %}
+		  {% if otherNames %}
+		  	{{ automated }} ({{ otherNames.name }}){% if forloop.last %}{% else %}, {% endif %}
+		  {% else %}
+		  	{{ automated }}{% if forloop.last %}{% else %}, {% endif %}
+		  {% endif %}
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
@@ -97,8 +133,16 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
+		{% if tool.assists | size > 0 %}
+			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<p>{% for assist in tool.assists %}
+			  {{ assist }}{% if forloop.last %}{% else %}, {% endif %}
+			{% endfor %}</p>
+		{% endif %}
+	</div>
+	<div class="colRow">
 		{% if tool.a11yinfo %}
-			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p>Accessibility statement available</p>
+			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement available</a></p>
 		{% endif %}
 	</div>
 </div>
