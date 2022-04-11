@@ -108,6 +108,7 @@ function showHelpMeChoose(step){
     })
   }
   showFilterCountersHelper(overlayContent, false);
+  document.body.style.overflowY = 'hidden';
 }
 
 function showFilterCountersHelper(form, init){
@@ -238,6 +239,7 @@ function applyHelper(){
 }
 
 function closeHelperOverlay(){
+  document.body.style.overflowY = 'unset';
   var overlay = document.getElementById("help-me-choose-overlay");
   var overlayContent = overlay.querySelector('.overlay-content');
   overlayContent.innerHTML = "";

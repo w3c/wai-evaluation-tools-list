@@ -89,6 +89,9 @@ function makeToggleTips() {
         e.preventDefault();
         e.stopPropagation();
         e.stopImmediatePropagation();
+        toggletips.forEach(tip => {
+          tip.nextElementSibling.innerHTML = '';
+        })
         liveRegion.innerHTML = '';
         window.setTimeout(function() {
           liveRegion.innerHTML = '<span class="toggletip-bubble">'+ message +'</span>';
