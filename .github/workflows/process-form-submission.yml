@@ -1,0 +1,48 @@
+# Github action triggered as webhook from a netlify function
+# NB!!!! this MUST be on the branch set as GitHub's default if it is to be triggered
+
+name: Process Form Submission
+
+on:
+  repository_dispatch:
+    types: [form-submission]
+
+jobs:
+  process-submission:
+    name: Process Form
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Add new file to workspace
+        run: "jq '.client_payload.form' $GITHUB_EVENT_PATH > _data/submissions/$SUBMISSION_REF.json"
+        env:
+          SUBMISSION_REF: ${{ github.event.client_payload.form.submission_ref }}
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Add form submission
+          committer: GitHub <noreply@github.com>
+          author: Form process <formprocess@users.noreply.github.com>
+          signoff: false
+          branch: form-submission/${{ github.event.client_payload.form.submission_ref }}
+          branch-suffix: random # handle concurrent submissions of same form id
+          delete-branch: true
+          title: "New form submission '${{ github.event.client_payload.form.form_name }}' - ${{ github.event.client_payload.form.submission_ref }}"
+          body: |
+            New form submission:
+
+            - form_name: ${{ github.event.client_payload.form.form_name }}
+            - form_version: ${{ github.event.client_payload.form.form_version }}
+            - submission_ref: ${{ github.event.client_payload.form.submission_ref }}
+            - submission_date: ${{ github.event.client_payload.form.submission_date}}
+
+            View the submitted JSON in the "Files changed" tab above.
+
+            Merge this PR to add the submission to `_data/submissions`.
+          labels: |
+            form submission
+            automated pr
+          draft: false
