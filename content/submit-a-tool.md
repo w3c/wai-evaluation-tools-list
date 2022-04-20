@@ -86,7 +86,7 @@ main > header { grid-column: 4 / span 4; }
       <p>What type of evaluations does this tool support?</p>
       {% for option in purpose.options %}
         <div class="radio-field">
-          <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" required>
+          <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -97,7 +97,7 @@ main > header { grid-column: 4 / span 4; }
       <p>What type of evaluations does this tool support?</p>
       {% for option in product.options %}
         <div class="radio-field">
-          <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" required>
+          <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -107,7 +107,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-technology"  class="label-input">Supported file / format<span>Required</span></label>
       {% for option in technology.options %}
         <div class="radio-field">
-          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" required>
+          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -117,7 +117,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-automated"  class="label-input">Scope of evaluation<span>Required</span></label>
       {% for option in automated.options %}
         <div class="radio-field">
-          <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" required>
+          <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -128,7 +128,7 @@ main > header { grid-column: 4 / span 4; }
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       {% for option in checks.options %}
         <div class="radio-field">
-          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" required>
+          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -138,7 +138,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-guideline"  class="label-input">Guidelines<span>Required</span></label>
       {% for option in guideline.options %}
         <div class="radio-field">
-          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" required>
+          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -148,7 +148,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-assists"  class="label-input">Output<span>Required</span></label>
       {% for option in assists.options %}
         <div class="radio-field">
-          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" required>
+          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -185,7 +185,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-license"  class="label-input">License<span>Required</span></label>
       {% for option in license.options %}
         <div class="radio-field">
-          <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" required>
+          <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-license-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -195,7 +195,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-type"  class="label-input">Type of tool<span>Required</span></label>
       {% for option in type.options %}
         <div class="radio-field">
-          <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" required>
+          <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -205,7 +205,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-browsers"  class="label-input">Browser<span>Required</span></label>
       {% for option in browsers.options %}
         <div class="radio-field">
-          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" required>
+          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -215,7 +215,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-desktop"  class="label-input">Operating system<span>Required</span></label>
       {% for option in desktop.options %}
         <div class="radio-field">
-          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" required>
+          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
