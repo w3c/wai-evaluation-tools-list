@@ -139,7 +139,7 @@ footer: >
             {% assign defaultSort = site.data.sorting.first.sortkey %}
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
         </div>
-<!--         <div id="improvepage">
+        <div id="improvepage">
             {% include box.html type="start" title="Help improve this page" %}
                 <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore.</p>
                 <div class="button-group">
@@ -148,7 +148,7 @@ footer: >
                     {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
                 </div>
             {% include box.html type="end" %}
-        </div> -->
+        </div>
         <div id="disclaimer">
             {% include box.html type="start" title="Disclaimer" %}
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>

@@ -1,6 +1,6 @@
 ---
-title: "Submit an evaluation tool"
-nav_title: "Submit an evaluation tool"
+title: "Tools for web evaluation - add a tool"
+nav_title: "Tools for web evaluation - add a tool"
 doc-note-type: draft
 lang: en   
 last_updated: 2021-@@-@@
@@ -25,33 +25,215 @@ footer:
 {% include css/styles.css %}
 main > header { grid-column: 4 / span 4; }
 </style>
-
-<a href="../list-of-evaluation-tools/">Back to List of evaluation tools</a>
-<p>
-  This form allows you to provide information about a new evaluation tool to add to the list.
-
-<p><em>Please note that <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific providers. Resources are listed with no quality rating. All information (except your name and email) will be publicly available as this page generates a Pull Request on our GitHub repository where you can also come back to in order to edit your tool.</em></p> 
-
+<div class="submission-header">
+  <a href="../list-of-evaluation-tools/">Back to List of evaluation tools</a>
+  <p>
+    concise and clear information about:
+  </p>
+  <ul>
+    <li>the submission & validation process</li>
+    <li>how users can update information after submitting a tool</li>
+    <li>which type of tools can be submitted</li>
+    <li>info should be informative and easy-to-read</li>
+  </ul>
+</div>
 {% include netlify-form.liquid type="start" id="form-submit-a-tool" %}
-  <h2 id="about-you">About you</h2>
-  <p>We'd like to know who you are, so that we can contact you with questions about your submission. This information will not be publicly shared.</p>
+<div class="submission-form">
+  <h2 id="general-information"><span>1/3</span>General information</h2>
 
-  <div class="field">
+  <fieldset class="field">
+      <label for="tool-title" class="label-input">Tool name<span>Required</span></label>
+      <input type="text" id="tool-title" required>
+  </fieldset>
+  <fieldset class="field">
+      <label for="tool-provider" class="label-input">Vendor / organisation<span>Required</span></label>
+      <input type="text" id="tool-provider" required>
+  </fieldset>
+  <fieldset class="field">
+      <label for="tool-website" class="label-input">Web Address (URI)<span>Required</span></label>
+      <input type="url" name="tool-website" id="tool-website" required>
+  </fieldset>
+  <fieldset class="field">
+      <label for="tool-release"  class="label-input">Release date (dd/mm/yyyy)<span>Required</span></label>
+      <input type="date" id="tool-release" required>
+  </fieldset>
+  <fieldset class="field">
+      <label for="tool-a11yloc" class="label-input">Accessibility statement (URI)<span>Required</span></label>
+      <input type="url" id="tool-a11yloc" required>
+      <p>
+        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting (link to resource).
+      </p>
+  </fieldset>
+
+  <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
+
+  <fieldset class="field" id="features">
+    <legend class="label">Features</legend>
+    <div class="line">
+      <label for="tool-feature_1" class="label-input">Feature 1<span>Required</span></label>
+      <input type="text" name="features[]" id="feature_1" class="select-form" required> 
+    </div>
+    <div class="proto">
+      <label for="tool-feature_[n]" class="label-input">Feature [n]</label>
+      <input type="text" name="feature[]" id="feature_[n]" class="select-form" required> 
+    </div>
+    <button type="button" class="add_line small">Add new feature</button>
+    <button type="button" class="remove_line small" disabled>Remove last feature</button>
+  </fieldset>
+  {% assign purpose = site.data.filters | find: "id", "purpose" %}
+  <fieldset class="field" id="purpose">
+      <label for="tool-purpose"  class="label-input">Purpose<span>Required</span></label>
+      <p>What type of evaluations does this tool support?</p>
+      {% for option in purpose.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" required>
+          <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign product = site.data.filters | find: "id", "product" %}
+  <fieldset class="field" id="product">
+      <label for="tool-product"  class="label-input">Product to evaluate<span>Required</span></label>
+      <p>What type of evaluations does this tool support?</p>
+      {% for option in product.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" required>
+          <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign technology = site.data.filters | find: "id", "technology" %}
+  <fieldset class="field" id="technology">
+      <label for="tool-technology"  class="label-input">Supported file / format<span>Required</span></label>
+      {% for option in technology.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" required>
+          <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign automated = site.data.filters | find: "id", "automated" %}
+  <fieldset class="field" id="automated">
+      <label for="tool-automated"  class="label-input">Scope of evaluation<span>Required</span></label>
+      {% for option in automated.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" required>
+          <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign checks = site.data.filters | find: "id", "checks" %}
+  <fieldset class="field" id="checks">
+      <label for="tool-checks"  class="label-input">Accessibility checks<span>Required</span></label>
+      <p>Which aspects of web accessibility can users evaluate with this tool?</p>
+      {% for option in checks.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" required>
+          <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign guideline = site.data.filters | find: "id", "guideline" %}
+  <fieldset class="field" id="checks">
+      <label for="tool-guideline"  class="label-input">Guidelines<span>Required</span></label>
+      {% for option in guideline.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" required>
+          <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign assists = site.data.filters | find: "id", "assists" %}
+  <fieldset class="field" id="checks">
+      <label for="tool-assists"  class="label-input">Output<span>Required</span></label>
+      {% for option in assists.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" required>
+          <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+
+  <h2 id="tool-details"><span>3/3</span>Tool details </h2>
+
+  <fieldset class="field" id="language">
+    <legend class="label">Language (Required)</legend>
+    <p class="expl">Indicate in which language or languages this resource is provided.</p>
+    <div class="line">
+      <label for="tool-language_1" class="label-input">Language 1 (Required)</label>
+      <select name="language[]" id="language_1" class="select-form" required> 
+          <option value=""></option>
+          {% for language in site.data.lang %}
+              <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
+          {% endfor %}
+      </select>
+    </div>
+    <div class="proto">
+      <label for="tool-language_[n]" class="label-input">Language [n]</label>
+      <select name="language[]" id="language_[n]" class="select-form" required> 
+          <option value=""></option>
+          {% for language in site.data.lang %}
+              <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
+          {% endfor %}
+      </select>
+      </div>
+    <button type="button" class="add_line small">Add new language</button>
+    <button type="button" class="remove_line small" disabled>Remove last language</button>
+  </fieldset>
+  {% assign license = site.data.filters | find: "id", "license" %}
+  <fieldset class="field" id="license">
+      <label for="tool-license"  class="label-input">License<span>Required</span></label>
+      {% for option in license.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" required>
+          <label for="tool-license-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign type = site.data.filters | find: "id", "type" %}
+  <fieldset class="field" id="type">
+      <label for="tool-type"  class="label-input">Type of tool<span>Required</span></label>
+      {% for option in type.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" required>
+          <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign browsers = site.data.filters | find: "id", "browsers" %}
+  <fieldset class="field" id="browsers">
+      <label for="tool-browsers"  class="label-input">Browser<span>Required</span></label>
+      {% for option in browsers.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" required>
+          <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+  {% assign desktop = site.data.filters | find: "id", "desktop" %}
+  <fieldset class="field" id="desktop">
+      <label for="tool-desktop"  class="label-input">Operating system<span>Required</span></label>
+      {% for option in desktop.options %}
+        <div class="radio-field">
+          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" required>
+          <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
+        </div>
+      {% endfor %}
+  </fieldset>
+
+
+<!--   <div class="field">
      <label for="submitter-name" class="label-input">Name (Required)</label>
      <input type="text" id="submitter-name" required>
-   </div>
-   <div class="field">
+   </div> -->
+<!--    <div class="field">
      <label for="submitter-email" class="label-input">Email (Required)</label>
      <input type="email" id="submitter-email" required>
-  </div>
+  </div> -->
 
-  <h2 id="the-resource">About the resource</h2>
+<!--   <h2 id="the-resource">About the resource</h2>
   <p>Provide some information about the tool. This information will be publicly shared.</p>
 
-  <div class="field">
-      <label for="tool-title" class="label-input">Title (Required)</label>
-      <input type="text" id="tool-title" required>
-  </div>
   <div class="field">
       <label for="tool-provider" class="label-input">Provider (Required)</label>
       <input type="text" id="tool-provider" required>
@@ -96,7 +278,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
 
   <fieldset class="field" id="course-license">
-    <legend class="label">Paid or free (Required)</legend>
+    <legend class="label">Paid or free (Required)</legend> -->
 <!--     <div class="radio-field">
       <input type="radio" name="course-cost" id="course-cost-free">
       <label for="course-cost-free">Free of charge</label>
@@ -117,7 +299,7 @@ main > header { grid-column: 4 / span 4; }
       <input type="radio" name="course-cost" id="course-cost-paid">
       <label for="course-cost-paid">Paid</label>
     </div>  --> 
-  </fieldset>
+<!--   </fieldset>
 
   <fieldset class="field"  id="tool-scope">
     <legend class="label">Scope (Required)</legend>
@@ -175,12 +357,6 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
 
   <div class="field">
-      <label for="course-website" class="label-input">Website (Required)</label>
-      <p class="expl">Indicate the website containing more information about this tool.</p>
-      <input type="url" name="tool-website" id="tool-website" required>
-  </div>
-
-  <div class="field">
       <label for="tool-content-update"  class="label-input">Last updated (Required)</label>
       <input type="date" id="tool-content-update" required>
   </div>
@@ -205,12 +381,13 @@ main > header { grid-column: 4 / span 4; }
       <label for="confirmatin-publish-info">I give permission for the information about this resource to be published in the W3C's List of Evaluation Tools (Required).</label>
     </div>
   </fieldset>
-  <p>When you submit the form, we will review your submission and add it to the list. This will be within a month.</p>
+  <p>When you submit the form, we will review your submission and add it to the list. This will be within a month.</p> -->
   <div class="field">
     <button type="submit">Send information</button>
   </div>
+</div>
 {% include netlify-form.liquid type="end"%}
 
 <script>
-{% include js/courses.js %}
+{% include js/submission.js %}
 </script>

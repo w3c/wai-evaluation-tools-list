@@ -1014,6 +1014,61 @@ input[type=checkbox]
   cursor: default !important;
 }
 
+.submission-header li {
+  margin: 0;
+}
+
+.submission-form h2 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.submission-form h2 span {
+  font-size: 12px;
+  margin-right: 1rem;
+  color: var(--wai-green);
+}
+
+.submission-form label {
+  font-weight: normal;
+  font-size: initial;
+  /*margin-bottom: 1rem;*/
+}
+
+.submission-form .field span {
+  float: right;
+  color: var(--wai-green);
+}
+
+/* new line button */
+
+.button-group button:hover {
+    cursor: pointer;
+}
+
+.proto {
+    display: none;
+}
+
+.add_line {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.line .select_form {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    height: 2em !important;
+    background: white;
+}
+
+.field input[type="checkbox"]:focus {
+    outline: 2px solid #686868;
+    outline-offset: 2px;
+    transition: outline-offset 0.2s linear;
+}
+
 
 
 
