@@ -1,3 +1,8 @@
+.minimal-header-container{
+  display: grid !important;
+  grid-column-gap: 32px;
+}
+
 @media (min-width: 40em) {
   main {
     display: contents;

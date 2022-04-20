@@ -18,6 +18,7 @@ footer:
    <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href="https://www.w3.org/groups/wg/eowg/participants">participants of the EOWG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
+<!-- markdownlint-disable no-inline-html -->
 
 <div style="grid-column: 4 / span 4">
 
@@ -25,6 +26,7 @@ footer:
 {% include css/styles.css %}
 main > header { grid-column: 4 / span 4; }
 </style>
+
 <div class="submission-header">
   <a href="../list-of-evaluation-tools/">Back to List of evaluation tools</a>
   <p>
@@ -37,7 +39,15 @@ main > header { grid-column: 4 / span 4; }
     <li>info should be informative and easy-to-read</li>
   </ul>
 </div>
-{% include netlify-form.liquid type="start" id="form-submit-a-tool" %}
+
+{%- include list-submission-form.liquid type="start"
+                                   name="submission"
+                                   version="1"
+                                   success="/success.html"
+                                   failure="/failure.html"
+                                   repository="wai-evaluation-tools-list" -%}
+
+
 <div class="submission-form">
   <h2 id="general-information"><span>1/3</span>General information</h2>
 
@@ -86,7 +96,7 @@ main > header { grid-column: 4 / span 4; }
       <p>What type of evaluations does this tool support?</p>
       {% for option in purpose.options %}
         <div class="radio-field">
-          <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" group="purpose" required>
           <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -97,7 +107,7 @@ main > header { grid-column: 4 / span 4; }
       <p>What type of evaluations does this tool support?</p>
       {% for option in product.options %}
         <div class="radio-field">
-          <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" group="product" required>
           <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -107,7 +117,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-technology"  class="label-input">Supported file / format<span>Required</span></label>
       {% for option in technology.options %}
         <div class="radio-field">
-          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology" required>
           <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -117,7 +127,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-automated"  class="label-input">Scope of evaluation<span>Required</span></label>
       {% for option in automated.options %}
         <div class="radio-field">
-          <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" group="automated" required>
           <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -128,7 +138,7 @@ main > header { grid-column: 4 / span 4; }
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       {% for option in checks.options %}
         <div class="radio-field">
-          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" group="checks" required>
           <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -138,7 +148,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-guideline"  class="label-input">Guidelines<span>Required</span></label>
       {% for option in guideline.options %}
         <div class="radio-field">
-          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline" required>
           <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -148,7 +158,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-assists"  class="label-input">Output<span>Required</span></label>
       {% for option in assists.options %}
         <div class="radio-field">
-          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists" required>
           <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -190,23 +200,23 @@ main > header { grid-column: 4 / span 4; }
         </div>
       {% endfor %} -->
       <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-free" value="Free" required>
+        <input type="checkbox" name="license[]" id="tool-license-free" value="Free" group="licence" required>
         <label for="tool-license-free">Free</label>
       </div>
       <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-limited" value="Limited free functionality" required>
+        <input type="checkbox" name="license[]" id="tool-license-limited" value="Limited free functionality" group="licence" required>
         <label for="tool-license-limited">Limited free functionality</label>
       </div>
       <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-time" value="Time-limited trial" required>
+        <input type="checkbox" name="license[]" id="tool-license-time" value="Time-limited trial" group="licence" required>
         <label for="tool-license-time">Time-limited trial</label>
       </div>
       <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-subscription" value="Subscription" required>
+        <input type="checkbox" name="license[]" id="tool-license-subscription" value="Subscription" group="licence" required>
         <label for="tool-license-subscription">Subscription</label>
       </div>
       <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-purchase" value="One-time purchase" required>
+        <input type="checkbox" name="license[]" id="tool-license-purchase" value="One-time purchase" group="licence" required>
         <label for="tool-license-purchase">One-time purchase</label>
       </div>
       <div class="radio-field-other">
@@ -219,7 +229,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-type"  class="label-input">Type of tool<span>Required</span></label>
       {% for option in type.options %}
         <div class="radio-field">
-          <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" group="type" required>
           <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -229,7 +239,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-browsers"  class="label-input">Browser<span>Required</span></label>
       {% for option in browsers.options %}
         <div class="radio-field">
-          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers" required>
           <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -239,7 +249,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="tool-desktop"  class="label-input">Operating system<span>Required</span></label>
       {% for option in desktop.options %}
         <div class="radio-field">
-          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop" required>
           <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -323,7 +333,7 @@ main > header { grid-column: 4 / span 4; }
       <input type="radio" name="course-cost" id="course-cost-paid">
       <label for="course-cost-paid">Paid</label>
     </div>  --> 
-<!--   </fieldset>
+ <!--   </fieldset>
 
   <fieldset class="field"  id="tool-scope">
     <legend class="label">Scope (Required)</legend>
@@ -410,7 +420,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="submit">Send information</button>
   </div>
 </div>
-{% include netlify-form.liquid type="end"%}
+{% include list-submission-form.liquid type="end"%}
 
 <script>
 {% include js/submission.js %}

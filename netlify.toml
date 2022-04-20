@@ -10,5 +10,12 @@ RUBY_VERSION = "2.6.2"
   to = "/list-of-evaluation-tools/"
 
 [dev]
-publish = "_site"
-framework = "#static"
+# NB on win64 (cmd or bash shells) --live reload is broken - s/-w --livereload/--no-watch
+command = "bundle exec jekyll serve -w --livereload --trace --config _config.yml,_config_staging.yml"
+
+[functions]
+directory = "_functions"
+node_bundler = "esbuild"
+
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"
