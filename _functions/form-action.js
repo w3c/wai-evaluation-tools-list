@@ -30,7 +30,7 @@ function callGitHubWebhook(formData) {
             ${JSON.stringify(data)}
           }
     }`
-console.log('req', reqBody)
+
   const options = {
     hostname: 'api.github.com',
     port: 443,
@@ -50,7 +50,6 @@ console.log('req', reqBody)
       let respBody = ''
       res.on('data', (chunk) => (respBody += chunk.toString()))
       res.on('end', () => {
-        console.log('gh', respBody)
         resolve({
           statusCode: res.statusCode,
           headers: res.headers,
