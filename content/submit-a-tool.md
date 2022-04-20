@@ -180,15 +180,39 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add new language</button>
     <button type="button" class="remove_line small" disabled>Remove last language</button>
   </fieldset>
-  {% assign license = site.data.filters | find: "id", "license" %}
+  <!-- {% assign license = site.data.filters | find: "id", "license" %} -->
   <fieldset class="field" id="license">
       <label for="tool-license"  class="label-input">License<span>Required</span></label>
-      {% for option in license.options %}
+<!--       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-license-{{ option.id }}">{{ option.name }}</label>
         </div>
-      {% endfor %}
+      {% endfor %} -->
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-free" value="Free" required>
+        <label for="tool-license-free">Free</label>
+      </div>
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-limited" value="Limited free functionality" required>
+        <label for="tool-license-limited">Limited free functionality</label>
+      </div>
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-time" value="Time-limited trial" required>
+        <label for="tool-license-time">Time-limited trial</label>
+      </div>
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-subscription" value="Subscription" required>
+        <label for="tool-license-subscription">Subscription</label>
+      </div>
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-purchase" value="One-time purchase" required>
+        <label for="tool-license-purchase">One-time purchase</label>
+      </div>
+      <div class="radio-field-other">
+        <label for="tool-license-purchase">Other:</label>
+        <input type="text" name="license[]" id="tool-license-other">
+      </div>
   </fieldset>
   {% assign type = site.data.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
