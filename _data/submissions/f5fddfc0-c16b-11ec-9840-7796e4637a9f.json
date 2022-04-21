@@ -1,0 +1,37 @@
+{
+  "assists": [
+    "Generate report of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure"
+  ],
+  "features": [
+    "This is a feature",
+    ""
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "product": [
+    "Website"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "submission_date": "2022-04-21T12:09:57.436Z",
+  "submission_ref": "f5fddfc0-c16b-11ec-9840-7796e4637a9f",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "tool-a11yloc": "http://www.test.com",
+  "tool-provider": "HAN",
+  "tool-release": "2022-04-21",
+  "tool-title": "Testnamee",
+  "tool-website": "http://www.test.com"
+}
