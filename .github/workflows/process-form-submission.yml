@@ -45,4 +45,6 @@ jobs:
           labels: |
             form submission
             automated pr
+            steve-add-submit
           draft: false
+            master
