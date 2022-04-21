@@ -1,0 +1,59 @@
+{
+  "assists": [
+    "Display information within pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Safari",
+    "Edge"
+  ],
+  "checks": [
+    "Color contrast",
+    "Labels",
+    "Forms"
+  ],
+  "desktop": [
+    "Linux"
+  ],
+  "features": [
+    "This is a feature1",
+    ""
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "bs",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "submission_date": "2022-04-21T12:15:02.379Z",
+  "submission_ref": "abc07bb0-c16c-11ec-a2d1-296cfef0faff",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "tool-a11yloc": "http://www.test.com",
+  "tool-provider": "HAN",
+  "tool-release": "2022-04-21",
+  "tool-title": "Final tool",
+  "tool-website": "http://www.test.com",
+  "type": [
+    "Browser plugin"
+  ]
+}
