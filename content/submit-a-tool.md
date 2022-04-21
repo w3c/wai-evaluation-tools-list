@@ -53,23 +53,23 @@ main > header { grid-column: 4 / span 4; }
 
   <fieldset class="field">
       <label for="tool-title" class="label-input">Tool name<span>Required</span></label>
-      <input type="text" id="tool-title" required>
+      <input type="text" id="tool-title" name="tool-title" required>
   </fieldset>
   <fieldset class="field">
       <label for="tool-provider" class="label-input">Vendor / organisation<span>Required</span></label>
-      <input type="text" id="tool-provider" required>
+      <input type="text" id="tool-provider" name="tool-provider" required>
   </fieldset>
   <fieldset class="field">
       <label for="tool-website" class="label-input">Web Address (URI)<span>Required</span></label>
-      <input type="url" name="tool-website" id="tool-website" required>
+      <input type="url" id="tool-website" name="tool-website" required>
   </fieldset>
   <fieldset class="field">
       <label for="tool-release"  class="label-input">Release date (dd/mm/yyyy)<span>Required</span></label>
-      <input type="date" id="tool-release" required>
+      <input type="date" id="tool-release" name="tool-release" required>
   </fieldset>
   <fieldset class="field">
       <label for="tool-a11yloc" class="label-input">Accessibility statement (URI)<span>Required</span></label>
-      <input type="url" id="tool-a11yloc" required>
+      <input type="url" id="tool-a11yloc" name="tool-a11yloc">
       <p>
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting (link to resource).
       </p>
@@ -85,7 +85,7 @@ main > header { grid-column: 4 / span 4; }
     </div>
     <div class="proto">
       <label for="tool-feature_[n]" class="label-input">Feature [n]</label>
-      <input type="text" name="feature[]" id="feature_[n]" class="select-form" required> 
+      <input type="text" name="features[]" id="feature_[n]" class="select-form"> 
     </div>
     <button type="button" class="add_line small">Add new feature</button>
     <button type="button" class="remove_line small" disabled>Remove last feature</button>
@@ -180,7 +180,7 @@ main > header { grid-column: 4 / span 4; }
     </div>
     <div class="proto">
       <label for="tool-language_[n]" class="label-input">Language [n]</label>
-      <select name="language[]" id="language_[n]" class="select-form" required> 
+      <select name="language[]" id="language_[n]" class="select-form" disabled> 
           <option value=""></option>
           {% for language in site.data.lang %}
               <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
@@ -190,8 +190,8 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add new language</button>
     <button type="button" class="remove_line small" disabled>Remove last language</button>
   </fieldset>
-  <!-- {% assign license = site.data.filters | find: "id", "license" %} -->
-  <fieldset class="field" id="license">
+  {% assign license = site.data.filters | find: "id", "license" %}
+ <fieldset class="field" id="license">
       <label for="tool-license"  class="label-input">License<span>Required</span></label>
 <!--       {% for option in license.options %}
         <div class="radio-field">
@@ -255,167 +255,6 @@ main > header { grid-column: 4 / span 4; }
       {% endfor %}
   </fieldset>
 
-
-<!--   <div class="field">
-     <label for="submitter-name" class="label-input">Name (Required)</label>
-     <input type="text" id="submitter-name" required>
-   </div> -->
-<!--    <div class="field">
-     <label for="submitter-email" class="label-input">Email (Required)</label>
-     <input type="email" id="submitter-email" required>
-  </div> -->
-
-<!--   <h2 id="the-resource">About the resource</h2>
-  <p>Provide some information about the tool. This information will be publicly shared.</p>
-
-  <div class="field">
-      <label for="tool-provider" class="label-input">Provider (Required)</label>
-      <input type="text" id="tool-provider" required>
-  </div>
-  <div class="field">
-      <label for="tool-description" class="label-input">Description (Required)</label>
-      <p class="expl">Provide a brief description of this tool (max.: 350 chars).</p>
-      <textarea id="tool-description" maxlength="350" required></textarea>
-      <p><em>Please enter only plain text (no HTML). URIs are not linked.</em></p>
-  </div>
-
-  <fieldset class="field"  id="tool-features">
-    <legend class="label">Features (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field" id="tool-purpose">
-    <legend class="label">Purpose (Required)</legend>
-    <div class="radio-field">
-      <input type="radio" name="tool-purpose" id="tool-purpose-automated" required>
-      <label for="tool-purpose-automated">Automatically test accessibility</label>
-    </div> 
-    <div class="radio-field">
-      <input type="radio" name="tool-purpose" id="tool-purpose-manual" required>
-      <label for="tool-purpose-manual">Support manual testing</label>
-    </div>
-    <div class="radio-field">
-      <input type="radio" name="tool-purpose" id="tool-purpose-simulate" required>
-      <label for="tool-purpose-simulate">Simulate user experience</label>
-    </div> 
-  </fieldset>
-
-  <fieldset class="field"  id="tool-product">
-    <legend class="label">Product to evaluate (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-mediatype">
-    <legend class="label">Media type (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-type">
-    <legend class="label">Type of tool (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field" id="course-license">
-    <legend class="label">Paid or free (Required)</legend> -->
-<!--     <div class="radio-field">
-      <input type="radio" name="course-cost" id="course-cost-free">
-      <label for="course-cost-free">Free of charge</label>
-    </div> 
-    <div class="radio-field">
-      <input type="radio" name="course-cost" id="course-cost-free-certificates-for-purchase" required>
-      <label for="course-cost-free-certificates-for-purchase">Free with certificates for purchase</label>
-    </div>
-    <div class="radio-field">
-      <input type="radio" name="course-cost" id="course-cost-free-limited-time">
-      <label for="course-cost-free-limited-time">Free for limited content or duration</label>
-    </div>
-    <div class="radio-field">
-      <input type="radio" name="course-cost" id="course-cost-free-or-reduced-for-some">
-      <label for="course-cost-free-or-reduced-for-some">Free or reduced fee for some</label>
-    </div>
-    <div class="radio-field">
-      <input type="radio" name="course-cost" id="course-cost-paid">
-      <label for="course-cost-paid">Paid</label>
-    </div>  --> 
- <!--   </fieldset>
-
-  <fieldset class="field"  id="tool-scope">
-    <legend class="label">Scope (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-guideline">
-    <legend class="label">Guidelines (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-technology">
-    <legend class="label">File format (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-operatingsystem">
-    <legend class="label">Operating system (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-browser">
-    <legend class="label">Browser (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field"  id="tool-metrics">
-    <legend class="label">Metrics (Required)</legend>
-  </fieldset>
-
-  <fieldset class="field" id="language">
-    <legend class="label">Language (Required)</legend>
-    <p class="expl">Indicate in which language or languages this resource is provided.</p>
-    <div class="line">
-      <label for="course-language_1" class="label-input">Language 1 (Required)</label>
-      <select name="language" id="language_1" class="select-form" required> 
-          <option value=""></option>
-          {% for language in site.data.lang %}
-              <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
-          {% endfor %}
-      </select>
-    </div>
-    <div class="proto">
-      <label for="course-language_[n]" class="label-input">Language [n]</label>
-      <select name="language" id="language_[n]" class="select-form" required> 
-          <option value=""></option>
-          {% for language in site.data.lang %}
-              <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
-          {% endfor %}
-      </select>
-      </div>
-    <button type="button" class="add-line small">Add new language</button>
-    <button type="button" class="remove-line small" disabled>Remove last language</button>
-  </fieldset>
-
-  <fieldset class="field"  id="course-accessibility-support">
-    <legend><h3>Accessibility support</h3></legend>
-    <p class="expl">If applicable, indicate what accessibility support is provided (see guidance on <a href="https://www.w3.org/WAI/teach-advocate/accessible-presentations/">How to Make Your Presentations Accessible to All</a>). Include details in the text box.</p>
-    {% include accessibility-support.liquid %}
-  </fieldset>
-
-  <div class="field">
-      <label for="tool-content-update"  class="label-input">Last updated (Required)</label>
-      <input type="date" id="tool-content-update" required>
-  </div>
-  <div class="field">
-      <label for="tool-content-release"  class="label-input">Date added? (Required)</label>
-      <input type="date" id="tool-content-release" required>
-  </div>
-
-  <h2>Submitting your tool</h2>
-  <div class="field">
-    <label for="comments" class="label-input">Comments</label>
-    <p class="expl">Let us know if you have any comments. This information will not be publicly shared.</p>
-    <textarea id="comments"></textarea>
-  </div>
-  <fieldset class="field">
-    <div class="radio-field">  
-      <input type="checkbox" id="check-correct-info" required> 
-      <label for="check-correct-info">The information I provided is correct according to the best of my knowledge (Required).</label>
-    </div>
-    <div class="radio-field">  
-      <input type="checkbox" id="check-publish-info" required> 
-      <label for="confirmatin-publish-info">I give permission for the information about this resource to be published in the W3C's List of Evaluation Tools (Required).</label>
-    </div>
-  </fieldset>
-  <p>When you submit the form, we will review your submission and add it to the list. This will be within a month.</p> -->
   <div class="field">
     <button type="submit">Send information</button>
   </div>

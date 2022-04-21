@@ -10,8 +10,8 @@ RUBY_VERSION = "2.6.2"
   to = "/list-of-evaluation-tools/"
 
 [dev]
-# NB on win64 (cmd or bash shells) --live reload is broken - s/-w --livereload/--no-watch
-command = "bundle exec jekyll serve -w --livereload --trace --config _config.yml,_config_staging.yml"
+publish = "_site"
+framework = "#static"
 
 [functions]
 directory = "_functions"

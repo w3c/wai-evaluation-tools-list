@@ -1,8 +1,7 @@
 const submitForm = document.querySelector('form');
 
 if (submitForm) {
-    console.log("test");
-
+    
     _addLine();
 
     submitForm.querySelectorAll('.other_field input[type="radio"]').forEach(item => {
@@ -26,6 +25,7 @@ if (submitForm) {
 
                 proto.parentNode.insertBefore(newLine, proto);
 
+                newLine.querySelector('input, checkbox, select').disabled = false;
                 newLine.querySelector('input, checkbox, select').focus();
                 newLine.querySelector('input, checkbox, select').classList.remove('input_hidden');
 
