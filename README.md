@@ -13,3 +13,15 @@ See [interative lists repo](https://github.com/w3c/wai-interactive-lists).
 The [master branch deploy](https://master--wai-evaluation-tools-list.netlify.app/list-of-evaluation-tools/)
 
 Pull Requests Have Netlify links to see CD 'preview' deploys
+
+## Form submission
+
+When submitted the browser is redirected to a success/fail page while the GitHub Action runs async
+
+The GitHub action progress can be viewed here:
+https://github.com/w3c/wai-evaluation-tools-list/actions/workflows/process-form-submission.yml
+
+The PR will appear here:
+https://github.com/w3c/wai-evaluation-tools-list/pulls
+
+The Function progress is logged and can be viewed in netlify.
