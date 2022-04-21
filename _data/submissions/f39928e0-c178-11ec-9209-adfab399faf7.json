@@ -1,0 +1,53 @@
+{
+  "assists": [
+    "Modify the presentation of pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Color contrast"
+  ],
+  "desktop": [
+    "Android"
+  ],
+  "features": [
+    "This is a feature2",
+    ""
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0",
+    "RGAA"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "submission_date": "2022-04-21T13:42:56.878Z",
+  "submission_ref": "f39928e0-c178-11ec-9209-adfab399faf7",
+  "technology": [
+    "PDF"
+  ],
+  "tool-a11yloc": "http://www.test.com",
+  "tool-provider": "HAN",
+  "tool-release": "2022-04-21",
+  "tool-title": "Language fix name",
+  "tool-website": "http://www.test.com",
+  "type": [
+    "Server-side integration"
+  ]
+}
