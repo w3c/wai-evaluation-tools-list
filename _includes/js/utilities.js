@@ -113,20 +113,6 @@ function makeToggleTips() {
   });
 }
 
-document.querySelectorAll('details').forEach(item => {
-  item.addEventListener('click', e => { 
-    updateDetailText(e);
-  });
-})
-
-function updateDetailText(e){
-  if(e.target.innerHTML == "Show more details"){
-    e.target.innerHTML = "Show less details";
-  }else{
-    e.target.innerHTML = "Show more details";
-  }
-}
-
 function addPagination(sortedArticles) {
   var list = document.querySelector('.tools-list');
   var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;

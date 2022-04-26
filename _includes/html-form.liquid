@@ -28,7 +28,7 @@
     {% assign onsubmit = include.onsubmit %}
   {% endif -%}
 
-  <form name="{{ include.name }}" method="{{ method }}" action="{{ include.action }}">
+  <form name="{{ include.name }}" method="{{ method }}" action="{{ include.action }}" onkeydown="return event.key != 'Enter';">
     <input type="hidden" name="form_name" value="{{ include.name }}">
     {%- if include.args -%}
     {% assign args = include.args | split: "," %}

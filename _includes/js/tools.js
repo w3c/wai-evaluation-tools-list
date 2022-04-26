@@ -406,3 +406,24 @@ if (filterForm && sortForm && search) {
 
 }
 
+document.querySelectorAll('details').forEach(item => {
+  item.addEventListener('click', e => { 
+    updateDetail(e);
+  });
+})
+
+function updateDetail(e){
+  console.log(e.target);
+  const root = document.querySelector(":root");
+  if(e.target.innerHTML == "Show more details"){
+    e.target.innerHTML = "Show less details";
+    e.target.parentNode.parentNode.style.borderTop = "none"
+    root.style.setProperty("--pseudo-backgroundcolor", 'white');
+  }else{
+    e.target.innerHTML = "Show more details";
+    e.target.parentNode.parentNode.style.borderTop = ""
+    root.style.setProperty("--pseudo-backgroundcolor", 'lightgray');
+  }
+}
+
+

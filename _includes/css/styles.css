@@ -1,3 +1,7 @@
+:root{
+--pseudo-backgroundcolor: lightgray;
+}
+
 .minimal-header-container{
   display: grid !important;
   grid-column-gap: 32px;
@@ -496,7 +500,7 @@ details {
   padding: 0;
   position:relative;
   padding-top: 0.5rem;
-  border-top: solid 1px var(--line-grey);
+  border-top: 1px solid var(--pseudo-backgroundcolor);
 }
 
 details:before {
@@ -506,7 +510,7 @@ details:before {
   top: -1px;
   width: 16px;
   border-top: 1px solid lightgray;
-  border-top: solid 1px var(--line-grey);
+  border-top: solid 1px var(--pseudo-backgroundcolor);
 }
 
 details:after {
@@ -516,7 +520,7 @@ details:after {
   top: -1px;
   width: 16px;
   border-top: 1px solid lightgray;
-  border-top: solid 1px var(--line-grey);
+  border-top: solid 1px var(--pseudo-backgroundcolor);
 }
 
 
@@ -1060,6 +1064,10 @@ input[type=checkbox]
 
 .submission-form legend {
   display: contents;
+}
+
+.submission-form .submit-tool {
+  width: 100%;
 }
 
 /* new line button */

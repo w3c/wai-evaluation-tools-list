@@ -260,7 +260,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
 
   <div class="field">
-    <button type="submit">Submit tool</button>
+    <button type="submit" class="submit-tool">Submit tool</button>
   </div>
 </div>
 {% include list-submission-form.liquid type="end"%}
