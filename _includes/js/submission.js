@@ -21,7 +21,7 @@ if (submitForm) {
 
                 newLine.classList.remove('proto');
                 newLine.classList.add('line');
-                newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
+                // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
 
                 proto.parentNode.insertBefore(newLine, proto);
 

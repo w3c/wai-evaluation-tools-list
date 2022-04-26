@@ -938,6 +938,9 @@ input[type=checkbox]
     transform: translateY(-80%) !important;
     top: -3px !important;
   }
+  .submission-form h2 span {
+    margin-left: 0rem !important;
+  }
 }
 
 @media (min-width: 60em){
@@ -1026,13 +1029,13 @@ input[type=checkbox]
 .submission-form h2 {
   display: flex;
   align-items: center;
-  color: black;
 }
 
 .submission-form h2 span {
   font-size: 12px;
   margin-right: 1rem;
   color: var(--wai-green);
+  margin-left: -2rem;
 }
 
 .submission-form label {
@@ -1044,6 +1047,19 @@ input[type=checkbox]
 .submission-form .field span {
   float: right;
   color: var(--wai-green);
+}
+
+.submission-form .radio-field {
+  display: flex;
+  align-items: center;
+}
+
+.submission-form .radio-field label {
+  margin-left: 0.3em;
+}
+
+.submission-form legend {
+  display: contents;
 }
 
 /* new line button */
@@ -1072,6 +1088,10 @@ input[type=checkbox]
     outline: 2px solid #686868;
     outline-offset: 2px;
     transition: outline-offset 0.2s linear;
+}
+
+.standalone-resource__prevnext {
+  grid-column: 4 / 10;
 }
 
 

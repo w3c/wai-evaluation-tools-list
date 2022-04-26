@@ -52,24 +52,28 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="general-information"><span>1/3</span>General information</h2>
 
   <fieldset class="field">
-      <label for="tool-title" class="label-input">Tool name<span>Required</span></label>
-      <input type="text" id="tool-title" name="tool-title" required>
+      <label for="title" class="label-input">Tool name</label>
+      <input type="text" id="title" name="title" required>
   </fieldset>
   <fieldset class="field">
-      <label for="tool-provider" class="label-input">Vendor / organisation<span>Required</span></label>
-      <input type="text" id="tool-provider" name="tool-provider" required>
+      <label for="provider" class="label-input">Vendor / organisation</label>
+      <input type="text" id="provider" name="provider" required>
   </fieldset>
   <fieldset class="field">
-      <label for="tool-website" class="label-input">Web Address (URI)<span>Required</span></label>
-      <input type="url" id="tool-website" name="tool-website" required>
+      <label for="website" class="label-input">Web Address (URI)</label>
+      <input type="url" id="website" name="website" required>
   </fieldset>
   <fieldset class="field">
-      <label for="tool-release"  class="label-input">Release date (dd/mm/yyyy)<span>Required</span></label>
-      <input type="date" id="tool-release" name="tool-release" required>
+      <label for="release"  class="label-input">Release date (dd/mm/yyyy)</label>
+      <input type="date" id="release" name="release" required>
   </fieldset>
   <fieldset class="field">
-      <label for="tool-a11yloc" class="label-input">Accessibility statement (URI)<span>Required</span></label>
-      <input type="url" id="tool-a11yloc" name="tool-a11yloc">
+      <label for="updated"  class="label-input">Date of most recent update (dd/mm/yyyy)</label>
+      <input type="date" id="updated" name="updated" required>
+  </fieldset>
+  <fieldset class="field">
+      <label for="a11yloc" class="label-input">Accessibility statement (URI)<span>Optional</span></label>
+      <input type="url" id="a11yloc" name="a11yloc">
       <p>
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting (link to resource).
       </p>
@@ -80,19 +84,19 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="features">
     <legend class="label">Features</legend>
     <div class="line">
-      <label for="tool-feature_1" class="label-input">Feature 1<span>Required</span></label>
+      <label for="tool-feature_1" class="label-input"></label>
       <input type="text" name="features[]" id="feature_1" class="select-form" required> 
     </div>
     <div class="proto">
-      <label for="tool-feature_[n]" class="label-input">Feature [n]</label>
-      <input type="text" name="features[]" id="feature_[n]" class="select-form"> 
+      <label for="tool-feature_[n]" class="label-input"></label>
+      <input type="text" name="features[]" id="feature_[n]" class="select-form" disabled> 
     </div>
-    <button type="button" class="add_line small">Add new feature</button>
+    <button type="button" class="add_line small">Add feature</button>
     <button type="button" class="remove_line small" disabled>Remove last feature</button>
   </fieldset>
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
-      <label for="tool-purpose"  class="label-input">Purpose<span>Required</span></label>
+      <legend for="tool-purpose"  class="label-input">Purpose</legend>
       <p>What type of evaluations does this tool support?</p>
       {% for option in purpose.options %}
         <div class="radio-field">
@@ -103,7 +107,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign product = site.data.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
-      <label for="tool-product"  class="label-input">Product to evaluate<span>Required</span></label>
+      <legend for="tool-product"  class="label-input">Product to evaluate</legend>
       <p>What type of evaluations does this tool support?</p>
       {% for option in product.options %}
         <div class="radio-field">
@@ -114,17 +118,17 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign technology = site.data.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
-      <label for="tool-technology"  class="label-input">Supported file / format<span>Required</span></label>
+      <legend for="tool-technology"  class="label-input">Supported file / format<span>Optional</span></legend>
       {% for option in technology.options %}
         <div class="radio-field">
-          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology" required>
+          <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology">
           <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
   </fieldset>
   {% assign automated = site.data.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
-      <label for="tool-automated"  class="label-input">Scope of evaluation<span>Required</span></label>
+      <legend for="tool-automated"  class="label-input">Scope of evaluation</legend>
       {% for option in automated.options %}
         <div class="radio-field">
           <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" group="automated" required>
@@ -134,31 +138,31 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign checks = site.data.filters | find: "id", "checks" %}
   <fieldset class="field" id="checks">
-      <label for="tool-checks"  class="label-input">Accessibility checks<span>Required</span></label>
+      <legend for="tool-checks"  class="label-input">Accessibility checks<span>Optional</span></legend>
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       {% for option in checks.options %}
         <div class="radio-field">
-          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" group="checks" required>
+          <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" group="checks">
           <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
   </fieldset>
   {% assign guideline = site.data.filters | find: "id", "guideline" %}
-  <fieldset class="field" id="checks">
-      <label for="tool-guideline"  class="label-input">Guidelines<span>Required</span></label>
+  <fieldset class="field" id="guideline">
+      <legend for="tool-guideline"  class="label-input">Guidelines<span>Optional</span></legend>
       {% for option in guideline.options %}
         <div class="radio-field">
-          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline" required>
+          <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline">
           <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
   </fieldset>
   {% assign assists = site.data.filters | find: "id", "assists" %}
-  <fieldset class="field" id="checks">
-      <label for="tool-assists"  class="label-input">Output<span>Required</span></label>
+  <fieldset class="field" id="assists">
+      <legend for="tool-assists"  class="label-input">Output<span>Optional</span></legend>
       {% for option in assists.options %}
         <div class="radio-field">
-          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists" required>
+          <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists">
           <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
@@ -167,10 +171,10 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-details"><span>3/3</span>Tool details </h2>
 
   <fieldset class="field" id="language">
-    <legend class="label">Language (Required)</legend>
+    <legend class="label">Language</legend>
     <p class="expl">Indicate in which language or languages this resource is provided.</p>
     <div class="line">
-      <label for="tool-language_1" class="label-input">Language 1 (Required)</label>
+      <label for="tool-language_1" class="label-input"></label>
       <select name="language[]" id="language_1" class="select-form" required> 
           <option value=""></option>
           {% for language in site.data.lang %}
@@ -179,7 +183,7 @@ main > header { grid-column: 4 / span 4; }
       </select>
     </div>
     <div class="proto">
-      <label for="tool-language_[n]" class="label-input">Language [n]</label>
+      <label for="tool-language_[n]" class="label-input"></label>
       <select name="language[]" id="language_[n]" class="select-form" disabled> 
           <option value=""></option>
           {% for language in site.data.lang %}
@@ -187,12 +191,12 @@ main > header { grid-column: 4 / span 4; }
           {% endfor %}
       </select>
       </div>
-    <button type="button" class="add_line small">Add new language</button>
+    <button type="button" class="add_line small">Add language</button>
     <button type="button" class="remove_line small" disabled>Remove last language</button>
   </fieldset>
   {% assign license = site.data.filters | find: "id", "license" %}
  <fieldset class="field" id="license">
-      <label for="tool-license"  class="label-input">License<span>Required</span></label>
+      <legend for="tool-license"  class="label-input">License</legend>
 <!--       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
@@ -226,7 +230,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign type = site.data.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
-      <label for="tool-type"  class="label-input">Type of tool<span>Required</span></label>
+      <legend for="tool-type"  class="label-input">Type of tool</legend>
       {% for option in type.options %}
         <div class="radio-field">
           <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" group="type" required>
@@ -236,27 +240,27 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign browsers = site.data.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
-      <label for="tool-browsers"  class="label-input">Browser<span>Required</span></label>
+      <legend for="tool-browsers"  class="label-input">Browser<span>Optional</span></legend>
       {% for option in browsers.options %}
         <div class="radio-field">
-          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers" required>
+          <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers">
           <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
   </fieldset>
   {% assign desktop = site.data.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
-      <label for="tool-desktop"  class="label-input">Operating system<span>Required</span></label>
+      <legend for="tool-desktop"  class="label-input">Operating system</legend>
       {% for option in desktop.options %}
         <div class="radio-field">
-          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop" required>
+          <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop">
           <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
   </fieldset>
 
   <div class="field">
-    <button type="submit">Send information</button>
+    <button type="submit">Submit tool</button>
   </div>
 </div>
 {% include list-submission-form.liquid type="end"%}
