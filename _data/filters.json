@@ -465,7 +465,7 @@
     "order": "default",
     "options": [
       {
-        "id": "yes",
+        "id": "yesas",
         "name": "Accessibility statement available",
         "filtername": "Tools providing accessibility information"
       }                      
@@ -480,7 +480,7 @@
     "order": "default",
     "options": [
       {
-        "id": "yes",
+        "id": "yesact",
         "name": "Implements ACT Rules"
       }                       
     ]
