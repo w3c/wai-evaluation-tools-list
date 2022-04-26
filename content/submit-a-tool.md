@@ -68,8 +68,8 @@ main > header { grid-column: 4 / span 4; }
       <input type="date" id="release" name="release" required>
   </fieldset>
   <fieldset class="field">
-      <label for="updated"  class="label-input">Date of most recent update (dd/mm/yyyy)</label>
-      <input type="date" id="updated" name="updated" required>
+      <label for="update"  class="label-input">Date of most recent update (dd/mm/yyyy)</label>
+      <input type="date" id="update" name="update" required>
   </fieldset>
   <fieldset class="field">
       <label for="a11yloc" class="label-input">Accessibility statement (URI)<span>Optional</span></label>

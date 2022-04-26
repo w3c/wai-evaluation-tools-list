@@ -1,8 +1,14 @@
 [
   {
+    "id": "recentlyupdated",
+    "name": "Most recently updated",
+    "selected": "true",
+    "sortkey": "update"
+  },
+  {
     "id": "alphabeticallyaz",
     "name": "Alphabetically (A to Z)",
-    "selected": "true",
+    "selected": "false",
     "sortkey": "title"
   },
   {
@@ -12,15 +18,9 @@
     "sortkey": "title"
   },
   {
-    "id": "recentlyupdated",
-    "name": "Most recently updated",
-    "selected": "false",
-    "sortkey": "updated"
-  },
-  {
     "id": "recentlyadded",
     "name": "Most recently added",
     "selected": "false",
-    "sortkey": "title"
+    "sortkey": "release"
   }
 ]

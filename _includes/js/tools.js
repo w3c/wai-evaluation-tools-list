@@ -71,6 +71,9 @@ if (filterForm && sortForm && search) {
   var initialArticles = Array.from(toolsListContent.querySelectorAll('aside'));
   addPagination(initialArticles);
 
+  //Sort and filter init
+  filterJson(filterForm);
+
   function showFilterCounters(form, init){
     var counterFiltersOn = getActiveFiltersList(form);
     var counterResults = filterNewResultsList(counterFiltersOn);

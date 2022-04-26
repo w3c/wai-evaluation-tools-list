@@ -18,19 +18,20 @@ if (submitForm) {
                 var lines = parent.querySelectorAll('.line');
                 var proto = parent.querySelector('.proto');
                 var newLine = proto.cloneNode(true);
+                console.log(parent);
+                if((lines.length < 5 && parent.id == 'features') || parent.id == 'language'){
+                    newLine.classList.remove('proto');
+                    newLine.classList.add('line');
+                    // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
 
-                newLine.classList.remove('proto');
-                newLine.classList.add('line');
-                // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
+                    proto.parentNode.insertBefore(newLine, proto);
 
-                proto.parentNode.insertBefore(newLine, proto);
+                    newLine.querySelector('input, checkbox, select').disabled = false;
+                    newLine.querySelector('input, checkbox, select').focus();
+                    newLine.querySelector('input, checkbox, select').classList.remove('input_hidden');
 
-                newLine.querySelector('input, checkbox, select').disabled = false;
-                newLine.querySelector('input, checkbox, select').focus();
-                newLine.querySelector('input, checkbox, select').classList.remove('input_hidden');
-
-                parent.querySelector('button.remove_line').disabled = false;
-
+                    parent.querySelector('button.remove_line').disabled = false;
+                }
             });
         });
 
