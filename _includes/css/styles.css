@@ -1030,9 +1030,10 @@ input[type=checkbox]
   margin: 0;
 }
 
-.submission-header a {
+.submission-header .backtolist {
   display: flex;
   align-items: center;
+  width: max-content;
 }
 
 .submission-header svg {

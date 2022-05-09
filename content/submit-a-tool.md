@@ -28,16 +28,19 @@ main > header { grid-column: 4 / span 4; }
 </style>
 
 <div class="submission-header">
-  <a href="../list-of-evaluation-tools/">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
+  <a href="../list-of-evaluation-tools/" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
   <p>
-    concise and clear information about:
+    This form allows vendors of tools for web accessibility evaluation to submit their tool to the List of Tools for Web Evaluation. 
   </p>
-  <ul>
-    <li>the submission & validation process</li>
-    <li>how users can update information after submitting a tool</li>
-    <li>which type of tools can be submitted</li>
-    <li>info should be informative and easy-to-read</li>
-  </ul>
+  <p>
+    Tool users can use the form Suggesting a web evaluation tool to let us know about tools that are not yet included in the list. We will then try to contact the corresponding tool vendor.
+  </p>
+  <p>
+    <b>Note:</b> Information sent using this form is reviewed before the tool is published to the list. It can take <i>up to 10 business days</i> until the tool is published. A notification email is sent to you after submitting this form. This email is also copied to a publicly archived <a href="https://lists.w3.org/Archives/Public/public-wai-ert-tools/" target="_blank">mailing list</a>. 
+  </p>
+  <p>
+    Contact <a href="mailto:shawn@w3.org">Shawn Lawton Henry (shawn@w3.org)</a> if you have questions or comments. 
+  </p>
 </div>
 
 {%- include list-submission-form.liquid type="start"
