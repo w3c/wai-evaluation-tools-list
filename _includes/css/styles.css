@@ -1030,6 +1030,15 @@ input[type=checkbox]
   margin: 0;
 }
 
+.submission-header a {
+  display: flex;
+  align-items: center;
+}
+
+.submission-header svg {
+  margin-right: 5px;
+}
+
 .submission-form h2 {
   display: flex;
   align-items: center;
@@ -1051,6 +1060,7 @@ input[type=checkbox]
 .submission-form .field span {
   float: right;
   color: var(--wai-green);
+  font-weight: normal;
 }
 
 .submission-form .radio-field {
@@ -1064,6 +1074,11 @@ input[type=checkbox]
 
 .submission-form legend {
   display: contents;
+  font-size: 18px;
+}
+
+.submission-form p {
+  margin: 0;
 }
 
 .submission-form .submit-tool {
@@ -1100,6 +1115,15 @@ input[type=checkbox]
 
 .standalone-resource__prevnext {
   grid-column: 4 / 10;
+}
+
+.short-sub {
+  margin-left: 5px;
+  float: none !important;
+}
+
+.field-group {
+  margin-top: 0.5rem;
 }
 
 
