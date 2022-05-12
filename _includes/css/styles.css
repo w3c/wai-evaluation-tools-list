@@ -98,7 +98,7 @@ main>header {
 }
 
 #left-col .box-i {
-  background-color: #00818D;
+  background-color: var(--wai-green);
   border: none;
   padding: 16px;
   display: flex;
@@ -296,7 +296,7 @@ details>div{
 }
 
 #improvepage .box-simple {
-  background-color: #00818D;
+  background-color: var(--wai-green);
   border: none;
   padding: 16px;
   display: flex;
@@ -310,6 +310,12 @@ details>div{
   background-color: white;
   color: var(--wai-green);
   border-color: white;
+}
+
+#improvepage .box-i a:hover {
+  border-color: var(--w3c-blue);
+  background-color: var(--w3c-blue);
+  color: white;
 }
 
 #disclaimer {
