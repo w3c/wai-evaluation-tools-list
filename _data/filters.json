@@ -2,7 +2,7 @@
   {
     "id": "purpose",
     "name": "Purpose",
-    "info": "Types of evaluation",
+    "info": "Type of evaluation a tool supports",
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
@@ -460,7 +460,7 @@
     "id": "a11yinfo",
     "name": "Accessibility statement",
     "collapsed": "false",
-    "info": "Vendor provided information on tool`s accessibility",
+    "info": "Vendor provided information on tools accessibility",
     "type": "checkbox",
     "order": "default",
     "options": [
@@ -475,7 +475,7 @@
     "id": "actrules",
     "name": "ACT Rules",
     "collapsed": "false",
-    "info": "Accessibility Conformance Testing Rules",
+    "info": "Data available on consistency of tool evaluation, ACT Rules: Accessibility Conformance Testing Rules",
     "type": "checkbox",
     "order": "default",
     "options": [

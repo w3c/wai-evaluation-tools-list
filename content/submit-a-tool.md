@@ -99,93 +99,190 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
-      <legend for="tool-purpose"  class="label-input">Purpose</legend>
+      <div class="fieldheader">
+        <legend for="tool-purpose"  class="label-input">Purpose</legend>
+        {% if purpose.info %}
+          <abbr title="{{ purpose.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <p>What type of evaluations does this tool support?</p>
       <div class="field-group">
         {% for option in purpose.options %}
           <div class="radio-field">
             <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" group="purpose" required>
             <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign product = site.data.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
-      <legend for="tool-product"  class="label-input">Product to evaluate</legend>
-      <p>What type of evaluations does this tool support?</p>
+      <div class="fieldheader">
+        <legend for="tool-product"  class="label-input">Product to evaluate</legend>
+        {% if product.info %}
+          <abbr title="{{ product.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in product.options %}
           <div class="radio-field">
             <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" group="product" required>
             <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign technology = site.data.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
-      <legend for="tool-technology"  class="label-input">Supported file / format<span class="short-sub">(Optional)</span></legend>
+      <div class="fieldheader">
+        <legend for="tool-technology"  class="label-input">Supported file / format<span class="short-sub">(Optional)</span></legend>
+        {% if technology.info %}
+          <abbr title="{{ technology.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in technology.options %}
           <div class="radio-field">
             <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology">
             <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign automated = site.data.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
-      <legend for="tool-automated"  class="label-input">Scope of evaluation</legend>
+      <div class="fieldheader">
+        <legend for="tool-automated"  class="label-input">Scope of evaluation</legend>
+        {% if automated.info %}
+          <abbr title="{{ automated.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in automated.options %}
           <div class="radio-field">
             <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" group="automated" required>
             <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign checks = site.data.filters | find: "id", "checks" %}
   <fieldset class="field" id="checks">
-      <legend for="tool-checks"  class="label-input">Accessibility checks<span class="short-sub">(Optional)</span></legend>
+      <div class="fieldheader">
+        <legend for="tool-checks"  class="label-input">Accessibility checks<span class="short-sub">(Optional)</span></legend>
+        {% if checks.info %}
+          <abbr title="{{ checks.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       <div class="field-group">
         {% for option in checks.options %}
           <div class="radio-field">
             <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" group="checks">
             <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign guideline = site.data.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
-      <legend for="tool-guideline"  class="label-input">Guidelines<span class="short-sub">(Optional)</span></legend>
+      <div class="fieldheader">
+        <legend for="tool-guideline"  class="label-input">Guidelines<span class="short-sub">(Optional)</span></legend>
+        {% if guideline.info %}
+          <abbr title="{{ guideline.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in guideline.options %}
           <div class="radio-field">
             <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline">
             <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign assists = site.data.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
-      <legend for="tool-assists"  class="label-input">Output<span class="short-sub">(Optional)</span></legend>
+      <div class="fieldheader">
+        <legend for="tool-assists"  class="label-input">Output<span class="short-sub">(Optional)</span></legend>
+        {% if assists.info %}
+          <abbr title="{{ assists.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in assists.options %}
           <div class="radio-field">
             <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists">
             <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
 
-  <h2 id="tool-details"><span>3/3</span>Tool details </h2>
+  <h2 id="tool-details"><span>3/3</span>Tool details</h2>
 
   <fieldset class="field" id="language">
     <legend class="label">Language</legend>
@@ -249,36 +346,78 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign type = site.data.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
-      <legend for="tool-type"  class="label-input">Type of tool</legend>
+      <div class="fieldheader">
+        <legend for="tool-type"  class="label-input">Type of tool</legend>
+        {% if type.info %}
+          <abbr title="{{ type.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in type.options %}
           <div class="radio-field">
             <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" group="type" required>
             <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign browsers = site.data.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
-      <legend for="tool-browsers"  class="label-input">Browser<span class="short-sub">(Optional)</span></legend>
+      <div class="fieldheader">
+        <legend for="tool-browsers"  class="label-input">Browser<span class="short-sub">(Optional)</span></legend>
+        {% if browsers.info %}
+          <abbr title="{{ browsers.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in browsers.options %}
           <div class="radio-field">
             <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers">
             <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
   </fieldset>
   {% assign desktop = site.data.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
+      <div class="fieldheader">
       <legend for="tool-desktop"  class="label-input">Operating system</legend>
+        {% if desktop.info %}
+          <abbr title="{{ desktop.info }}" class="toggletip-container">
+              <img aria-label="more info" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <span class="toggletip-span" role="status"></span>
+          </abbr>
+        {% endif %}
+      </div>
       <div class="field-group">
         {% for option in desktop.options %}
           <div class="radio-field">
             <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop">
             <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
+            {% if option.info %}
+              <abbr title="{{ option.info }}" class="toggletip-container">
+                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <span class="toggletip-span-inline" role="status"></span>
+              </abbr>
+            {% endif %}
           </div>
         {% endfor %}
       </div>

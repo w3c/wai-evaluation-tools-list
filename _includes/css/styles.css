@@ -292,7 +292,24 @@ details>div{
 
 #improvepage {
   grid-column: 4 / 10;
-  margin-top: 5em;
+  margin-top: 3em;
+}
+
+#improvepage .box-simple {
+  background-color: #00818D;
+  border: none;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 5px;
+}
+
+#improvepage .box-i a {
+  width: 10em;
+  background-color: white;
+  color: var(--wai-green);
+  border-color: white;
 }
 
 #disclaimer {
@@ -483,6 +500,7 @@ legend abbr {
 
 .rightCol {
   flex: 50%;
+  margin-bottom: 0.5rem;
 }
 
 .colRow {
@@ -1071,6 +1089,24 @@ input[type=checkbox]
 
 .submission-form .radio-field label {
   margin-left: 0.3em;
+  flex: initial;
+}
+
+.submission-form .radio-field abbr {
+  display: flex;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+
+.submission-form .fieldheader {
+  display: flex;
+  align-items: center;
+}
+
+.submission-form .fieldheader abbr {
+  display: flex;
+  align-items: center;
+  margin-left: 0.3rem;
 }
 
 .submission-form legend {

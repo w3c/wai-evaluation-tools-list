@@ -90,7 +90,7 @@
 <div class="rightCol">
 	<div class="colRow">
 		{% if tool.purpose | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<img src="/content-images/wai-evaluation-tools-list/purpose.png" />
 			<p>{% for purp in tool.purpose %}
 			  {{ purp }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -98,7 +98,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.checks | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<img src="/content-images/wai-evaluation-tools-list/checks.png" />
 			<p>{% for check in tool.checks %}
 			  {{ check }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -134,7 +134,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.assists | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/type.png" />
+			<img src="/content-images/wai-evaluation-tools-list/output.png" />
 			<p>{% for assist in tool.assists %}
 			  {{ assist }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -142,7 +142,10 @@
 	</div>
 	<div class="colRow">
 		{% if tool.a11yinfo %}
-			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement available</a></p>
+			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
+		{% endif %}
+		{% if tool.actrules %}
+			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" /><p>ACT Rules implemented</p>
 		{% endif %}
 	</div>
 </div>

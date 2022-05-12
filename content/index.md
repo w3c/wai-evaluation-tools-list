@@ -46,6 +46,9 @@ footer: >
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p> -->
         <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of such tools.</p>
+        <p>
+            To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.
+        </p>
     </div>
     <div class="header-right">
         {% include box.html type="start" class="simple" %}
@@ -140,13 +143,9 @@ footer: >
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
         </div>
         <div id="improvepage">
-            {% include box.html type="start" title="Help improve this page" %}
-                <p>Text about adding or updating a tool, and how you can report a tool that doesn’t work anymore.</p>
-                <div class="button-group">
-                    {% include_cached button.html type="link" label="Add tool" class="more" href="submit-a-tool" %}
-                    {% include_cached button.html type="link" label="Update tool info" class="more" %}
-                    {% include_cached button.html type="link" label="Report incorrect/outdated tool" class="more" %}    
-                </div>
+            {% include box.html type="start" class="simple" %}
+                <p>Add your organization’s tool to this list, or suggest a tool that you think should be added.</p>
+                {% include_cached button.html type="link" label="Submit a tool" class="more" href="submit-a-tool" %}
             {% include box.html type="end" %}
         </div>
         <div id="disclaimer">
