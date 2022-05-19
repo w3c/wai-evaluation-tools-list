@@ -67,11 +67,11 @@ main > header { grid-column: 4 / span 4; }
       <input type="url" id="website" name="website" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="release"  class="label-input">Release date (dd/mm/yyyy)</legend>
+      <legend for="release"  class="label-input">Release date</legend>
       <input type="date" id="release" name="release" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="update"  class="label-input">Date of most recent update (dd/mm/yyyy)</legend>
+      <legend for="update"  class="label-input">Date of most recent update</legend>
       <input type="date" id="update" name="update" required>
   </fieldset>
   <fieldset class="field">
@@ -399,7 +399,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign desktop = site.data.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
-      <legend for="tool-desktop"  class="label-input">Operating system</legend>
+      <legend for="tool-desktop"  class="label-input">Operating system<span class="short-sub">(Optional)</span></legend>
         {% if desktop.info %}
           <abbr title="{{ desktop.info }}" class="toggletip-container">
               <img aria-label="more info" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
