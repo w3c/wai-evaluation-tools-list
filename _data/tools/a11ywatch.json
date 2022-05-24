@@ -1,17 +1,17 @@
 {
   "title": "A11yWatch",
   "creator": "A11yWatch LLC",
-  "location": "https://www.a11ywatch.com",
+  "location": "https://a11ywatch.com",
   "release": "2020-01-29",
-  "version": "0.1.0",
+  "version": "0.0.97",
   "description": [
-    "Scans for problems with recommended solutions",
-    "Custom cdn that fixes most of your issues at runtime",
-    "View your website with annotations of the issues on your page",
-    "Experiment with recommended fixes to validate changes"
+    "Rapid scans for WCAG2.1 issues with recommended solutions",
+    "Custom CDN that fixes inclusion at runtime",
+    "Web accessibility monitoring across all web pages",
+    "Experiment with recommended fixes to validate changes live"
   ],
   "a11yloc": "",
-  "update": "2021-05-27",
+  "update": "2021-06-16",
   "language": [
     "English"
   ],
@@ -41,7 +41,10 @@
   ],
   "type": [
     "API (Application Programming Interface)",
-    "Web application"
+    "Web application",
+    "Online tool",
+    "Browser plugin",
+    "CLI (Command Line Interface)"
   ],
   "onlineservice": [
     "Online checker",
@@ -53,11 +56,17 @@
   "authoringtools": [],
   "apitype": [
     "REST",
-    "Webhook"
+    "Webhook",
+    "GraphQL",
+    "gRPC"
   ],
-  "browsers": [],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
   "license": [
-    "Open Source"
+    "Open Source",
+    "Commercial"
   ],
   "purpose": [
     "Automated testing"
