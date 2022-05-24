@@ -59,12 +59,16 @@ main > header { grid-column: 4 / span 4; }
       <input type="text" id="title" name="title" required>
   </fieldset>
   <fieldset class="field">
+      <legend for="website" class="label-input">Web Address (URI)</legend>
+      <input type="url" id="website" name="website" required>
+  </fieldset>
+  <fieldset class="field">
       <legend for="provider" class="label-input">Vendor / organisation</legend>
       <input type="text" id="provider" name="provider" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="website" class="label-input">Web Address (URI)</legend>
-      <input type="url" id="website" name="website" required>
+      <legend for="contact" class="label-input">Email Address</legend>
+      <input type="email" id="contact" name="contact" required>
   </fieldset>
   <fieldset class="field">
       <legend for="release"  class="label-input">Release date</legend>
