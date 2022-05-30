@@ -409,7 +409,7 @@ if (filterForm && sortForm && search) {
 
 }
 
-document.querySelectorAll('details').forEach(item => {
+document.querySelectorAll('summary').forEach(item => {
   item.addEventListener('click', e => { 
     updateDetail(e);
   });
