@@ -92,14 +92,15 @@ main > header { grid-column: 4 / span 4; }
     <legend class="label">Features</legend>
     <div class="line">
       <label for="tool-feature_1" class="label-input"></label>
-      <input type="text" name="features[]" id="feature_1" class="select-form" required> 
+      <input type="text" name="features[]" id="feature_1" class="select-form" required>
     </div>
     <div class="proto">
       <label for="tool-feature_[n]" class="label-input"></label>
       <input type="text" name="features[]" id="feature_[n]" class="select-form" disabled> 
+      <button type="button" class="remove_line">Remove</button>
     </div>
     <button type="button" class="add_line small">Add feature</button>
-    <button type="button" class="remove_line small" disabled>Remove last feature</button>
+    <!-- <button type="button" class="remove_line small" disabled>Remove last feature</button> -->
   </fieldset>
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
@@ -308,9 +309,10 @@ main > header { grid-column: 4 / span 4; }
               <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
           {% endfor %}
       </select>
+      <button type="button" class="remove_line">Remove</button>
       </div>
     <button type="button" class="add_line small">Add language</button>
-    <button type="button" class="remove_line small" disabled>Remove last language</button>
+    <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
   </fieldset>
   {% assign license = site.data.filters | find: "id", "license" %}
  <fieldset class="field" id="license">

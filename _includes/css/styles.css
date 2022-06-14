@@ -523,28 +523,25 @@ details {
   width: 100%;
   padding: 0;
   position:relative;
-  padding-top: 0.5rem;
+}
+
+summary {
+  margin-left: 0 !important;
+}
+
+summary h4 {
   border-top: 1px solid var(--pseudo-backgroundcolor);
+  padding-top: 0.5rem;
 }
 
-details:before {
+summary h4:after {
   content: "";
-  position: absolute;
-  left: -16px;
-  top: -1px;
-  width: 16px;
-  border-top: 1px solid lightgray;
-  border-top: solid 1px var(--pseudo-backgroundcolor);
-}
-
-details:after {
-  content: "";
-  position: absolute;
-  right: -16px;
-  top: -1px;
-  width: 16px;
-  border-top: 1px solid lightgray;
-  border-top: solid 1px var(--pseudo-backgroundcolor);
+    position: absolute;
+    left: -16px;
+    right: -16px;
+    top: 0px;
+    border-top: 1px solid lightgray;
+    border-top: solid 1px var(--pseudo-backgroundcolor);
 }
 
 
@@ -555,6 +552,17 @@ details h4 {
 summary h4 {
   margin-top: 0 !important;
   text-align: center;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.remove_line {
+  margin-left: 0.5rem;
+  height: 100%;
+  margin-top: 1em;
 }
 
 #tools-list details>div {
@@ -1005,7 +1013,7 @@ input[type=checkbox]
   font-size: 12px;
   font-weight: normal;
   background: #005A6A;
-  color: #fff;
+  color: #fff !important;
   border: 2px solid #005A6A;
   margin-left: 10px;
   z-index: 2;

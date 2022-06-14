@@ -238,13 +238,6 @@
         "filtername": "Section 508"
       },
       {
-        "id": "WCAG1.0",
-        "name": "WCAG 1.0",
-        "info": "W3C Web Content Accessibility Guidelines 1.0",
-        "short": "WCAG 1.0",
-        "filtername": "WCAG<\/abbr> 1.0"
-      },
-      {
         "id": "RGAA",
         "name": "RGAA",
         "info": "French government standard",

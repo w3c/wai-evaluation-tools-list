@@ -416,14 +416,15 @@ document.querySelectorAll('summary').forEach(item => {
 })
 
 function updateDetail(e){
+  var r = document.querySelector(':root');
   if(e.target.innerHTML == "Show more details"){
     e.target.innerHTML = "Show less details";
-    e.target.parentNode.parentNode.style.borderTop = "none"
-    root.style.setProperty("--pseudo-backgroundcolor", 'white');
+    // e.target.parentNode.parentNode.style.borderTop = "none"
+    // r.style.setProperty("--pseudo-backgroundcolor", 'white');
   }else{
     e.target.innerHTML = "Show more details";
-    e.target.parentNode.parentNode.style.borderTop = ""
-    root.style.setProperty("--pseudo-backgroundcolor", 'lightgray');
+    // e.target.parentNode.parentNode.style.borderTop = ""
+    // r.style.setProperty("--pseudo-backgroundcolor", 'lightgray');
   }
 }
 
