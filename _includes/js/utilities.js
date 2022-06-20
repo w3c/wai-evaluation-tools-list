@@ -8,6 +8,12 @@ function makeCollapsible(item){
     label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
   }
   label.addEventListener('click', e => { toggleCollapsed(item) });
+  label.addEventListener('keyup', e => { 
+    if (e.key === "Enter") {
+      e.preventDefault();
+      label.click();
+    }
+  });
 }
 
 function makeShowMore(item){
@@ -19,8 +25,14 @@ function makeShowMore(item){
     }
   }
   if(item.querySelector('.showMoreBlock') == undefined){
-    item.innerHTML += '<div class="showMoreBlock">{% include_cached icon.html name="chevron-down" %}see more</div>';
+    item.innerHTML += '<div class="showMoreBlock" tabindex="0">{% include_cached icon.html name="chevron-down" %}see more</div>';
     item.querySelector('.showMoreBlock').addEventListener('click', e => { toggleShowMore(item) });
+    item.querySelector('.showMoreBlock').addEventListener('keyup', e => { 
+      if (e.key === "Enter") {
+        e.preventDefault();
+        item.querySelector('.showMoreBlock').click();
+      }
+    });
   }
 }
 
@@ -98,6 +110,15 @@ function makeToggleTips() {
         }, 100);
     });
 
+    toggletip.addEventListener('keyup', function (e) {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+          toggletip.click();
+        }
+    });
+
     // Close on outside click
     document.addEventListener('click', function (e) {
       if (toggletip !== e.target) {
@@ -107,7 +128,7 @@ function makeToggleTips() {
 
     // Remove toggletip on ESC
     document.addEventListener('keydown', function(e) {
-      if ((e.keyCode || e.which) === 27)
+      if ((e.keyCode || e.which) === 27 || e.key === "Tab")
       liveRegion.innerHTML = '';
     });
   });
@@ -118,9 +139,9 @@ function addPagination(sortedArticles) {
   var activeToolsCount = sortedArticles.filter((article) => !article.classList.contains("inactive")).length;
   if(activeToolsCount > toolsPerPage){
     list.innerHTML += '<div class="paginationBlock">' 
-    +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a href="#tools-list" onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
+    +'<div id="btn_prev">{% include_cached icon.html name="arrow-left" %}<a href="#tools-list-body" onclick="previousPage('+activeToolsCount+')">Previous page</a></div>'
     +'<span id="pageCount"></span>'
-    +'<div id="btn_next"><a href="#tools-list" onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
+    +'<div id="btn_next"><a href="#tools-list-body" onclick="nextPage('+activeToolsCount+')">Next page</a>{% include_cached icon.html name="arrow-right" %}</div>'
     +'</div>';
     changePage(currentPage, activeToolsCount);
   }
@@ -138,6 +159,7 @@ function nextPage(activeToolsCount) {
       currentPage++;
       changePage(currentPage, activeToolsCount);
   }
+
 }
 
 function numPages(activeToolsCount) {

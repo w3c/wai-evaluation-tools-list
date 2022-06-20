@@ -52,7 +52,9 @@ if (filterForm && sortForm && search) {
   });
 
   searchForm.addEventListener('keyup', el => {
-    filterJson(filterForm);
+    if(event.key != "Tab"){
+      filterJson(filterForm);
+    }
   });
   searchForm.addEventListener('search', el => {
     filterJson(filterForm);
@@ -345,11 +347,11 @@ if (filterForm && sortForm && search) {
         if(getFilterName(filter) == "Statement available"){
           prefix += filterGroup.filterName + ": ";
         }
-        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')">{% include_cached icon.html name="ex-circle" %}</a></div>';
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')" tabindex="0">{% include_cached icon.html name="ex-circle" %}</a></div>';
       })
     })
     if(filtersOn.length > 0){
-      activeFiltersBlock.innerHTML += '<div class="clearButton"><a class="button-clear-button">Clear all filters</a></div>';
+      activeFiltersBlock.innerHTML += '<div class="clearButton"><a class="button-clear-button" tabindex="0">Clear all filters</a></div>';
     }
 
     document.querySelectorAll('.button-clear-button').forEach(item => {
@@ -406,23 +408,25 @@ if (filterForm && sortForm && search) {
     filterForm.querySelectorAll("select").forEach(el => el.selectedIndex = 0);
     filterJson(filterForm);
   }
-
 }
 
 document.querySelectorAll('summary').forEach(item => {
   item.addEventListener('click', e => { 
-    updateDetail(e);
+    updateDetail(e.target);
   });
 })
 
 function updateDetail(e){
   var r = document.querySelector(':root');
-  if(e.target.innerHTML == "Show more details"){
-    e.target.innerHTML = "Show less details";
+  if(e.querySelector("h4")){
+    e = e.querySelector("h4");
+  }
+  if(e.innerHTML == "Show more details"){
+    e.innerHTML = "Show less details";
     // e.target.parentNode.parentNode.style.borderTop = "none"
     // r.style.setProperty("--pseudo-backgroundcolor", 'white');
   }else{
-    e.target.innerHTML = "Show more details";
+    e.innerHTML = "Show more details";
     // e.target.parentNode.parentNode.style.borderTop = ""
     // r.style.setProperty("--pseudo-backgroundcolor", 'lightgray');
   }

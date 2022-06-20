@@ -14,6 +14,7 @@ if (submitForm) {
 
         Array.prototype.forEach.call(buttonsAdd, function addClickListener(button) {
             button.addEventListener('click', function (event) {
+                console.log("accessed click add");
                 var parent = event.target.parentNode;
                 var lines = parent.querySelectorAll('.line');
                 var proto = parent.querySelector('.proto');
@@ -34,8 +35,22 @@ if (submitForm) {
 
                     newLine.querySelector('.remove_line').addEventListener('click', function (event) {
                         var parent = event.target.parentNode;
+                        console.log("accessed click remove");
                         parent.remove();
                     });
+
+                    newLine.querySelector('.remove_line').addEventListener("keyup", function(event) {
+                      if (event.key === "Enter") {
+                        event.preventDefault();
+                        newLine.querySelector('.remove_line').click();
+                      }
+                    });
+                }
+            });
+            button.addEventListener('keyup', function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    button.click();
                 }
             });
         });
@@ -100,6 +115,15 @@ if (submitForm) {
             }, 100);
         });
 
+        toggletip.addEventListener('keyup', function (e) {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              e.stopPropagation();
+              e.stopImmediatePropagation();
+              toggletip.click();
+            }
+        });
+
         // Close on outside click
         document.addEventListener('click', function (e) {
           if (toggletip !== e.target) {
@@ -109,7 +133,7 @@ if (submitForm) {
 
         // Remove toggletip on ESC
         document.addEventListener('keydown', function(e) {
-          if ((e.keyCode || e.which) === 27)
+          if ((e.keyCode || e.which) === 27 || e.key === "Tab")
           liveRegion.innerHTML = '';
         });
       });

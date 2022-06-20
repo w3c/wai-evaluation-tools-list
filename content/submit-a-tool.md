@@ -33,9 +33,6 @@ main > header { grid-column: 4 / span 4; }
     This form allows vendors of tools for web accessibility evaluation to submit their tool to the List of Tools for Web Evaluation. 
   </p>
   <p>
-    Tool users can use the form Suggesting a web evaluation tool to let us know about tools that are not yet included in the list. We will then try to contact the corresponding tool vendor.
-  </p>
-  <p>
     <b>Note:</b> Information sent using this form is reviewed before the tool is published to the list. It can take <i>up to 10 business days</i> until the tool is published. A notification email is sent to you after submitting this form. This email is also copied to a publicly archived <a href="https://lists.w3.org/Archives/Public/public-wai-ert-tools/" target="_blank">mailing list</a>. 
   </p>
   <p>
@@ -55,41 +52,41 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="general-information"><span>1/3</span>General information</h2>
 
   <fieldset class="field">
-      <legend for="title" class="label-input">Tool name</legend>
+      <legend for="title" class="label-input">Tool name<span>Required</span></legend>
       <input type="text" id="title" name="title" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="website" class="label-input">Web Address (URI)</legend>
+      <legend for="website" class="label-input">Web Address (URI)<span>Required</span></legend>
       <input type="url" id="website" name="website" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="provider" class="label-input">Vendor / organisation</legend>
+      <legend for="provider" class="label-input">Vendor / organisation<span>Required</span></legend>
       <input type="text" id="provider" name="provider" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="contact" class="label-input">Email Address</legend>
+      <legend for="contact" class="label-input">Email Address<span>Required</span></legend>
       <input type="email" id="contact" name="contact" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="release"  class="label-input">Release date</legend>
+      <legend for="release"  class="label-input">Release date<span>Required</span></legend>
       <input type="date" id="release" name="release" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="update"  class="label-input">Date of most recent update</legend>
+      <legend for="update"  class="label-input">Date of most recent updat<span>Required</span>e</legend>
       <input type="date" id="update" name="update" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="a11yloc" class="label-input">Accessibility statement (URI)<span>Optional</span></legend>
+      <legend for="a11yloc" class="label-input">Accessibility statement (URI)</legend>
       <input type="url" id="a11yloc" name="a11yloc">
       <p>
-        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting (link to resource).
+        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </fieldset>
 
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <fieldset class="field" id="features">
-    <legend class="label">Features</legend>
+    <legend class="label">Features<span>Required</span></legend>
     <div class="line">
       <label for="tool-feature_1" class="label-input"></label>
       <input type="text" name="features[]" id="feature_1" class="select-form" required>
@@ -105,10 +102,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
       <div class="fieldheader">
-        <legend for="tool-purpose"  class="label-input">Purpose</legend>
+        <legend for="tool-purpose"  class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
         {% if purpose.info %}
           <abbr title="{{ purpose.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -121,7 +118,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -132,10 +129,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign product = site.data.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
       <div class="fieldheader">
-        <legend for="tool-product"  class="label-input">Product to evaluate</legend>
+        <legend for="tool-product"  class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
           <abbr title="{{ product.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -147,7 +144,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -158,10 +155,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign technology = site.data.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
-        <legend for="tool-technology"  class="label-input">Supported file / format<span class="short-sub">(Optional)</span></legend>
+        <legend for="tool-technology"  class="label-input">Supported file / format</legend>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -173,7 +170,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -184,10 +181,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign automated = site.data.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
       <div class="fieldheader">
-        <legend for="tool-automated"  class="label-input">Scope of evaluation</legend>
+        <legend for="tool-automated"  class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
         {% if automated.info %}
           <abbr title="{{ automated.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -199,7 +196,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -210,10 +207,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign checks = site.data.filters | find: "id", "checks" %}
   <fieldset class="field" id="checks">
       <div class="fieldheader">
-        <legend for="tool-checks"  class="label-input">Accessibility checks<span class="short-sub">(Optional)</span></legend>
+        <legend for="tool-checks"  class="label-input">Accessibility checks</legend>
         {% if checks.info %}
           <abbr title="{{ checks.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -226,7 +223,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -237,10 +234,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign guideline = site.data.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
-        <legend for="tool-guideline"  class="label-input">Guidelines<span class="short-sub">(Optional)</span></legend>
+        <legend for="tool-guideline"  class="label-input">Guidelines</legend>
         {% if guideline.info %}
           <abbr title="{{ guideline.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -252,7 +249,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -263,10 +260,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign assists = site.data.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
       <div class="fieldheader">
-        <legend for="tool-assists"  class="label-input">Output<span class="short-sub">(Optional)</span></legend>
+        <legend for="tool-assists"  class="label-input">Output</legend>
         {% if assists.info %}
           <abbr title="{{ assists.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -278,7 +275,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -290,7 +287,7 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
 
   <fieldset class="field" id="language">
-    <legend class="label">Language</legend>
+    <legend class="label">Language<span>Required</span></legend>
     <p class="expl">Indicate in which language or languages this resource is provided.</p>
     <div class="line">
       <label for="tool-language_1" class="label-input"></label>
@@ -317,7 +314,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign license = site.data.filters | find: "id", "license" %}
  <fieldset class="field" id="license">
   <div class="field-group">
-      <legend for="tool-license"  class="label-input">License</legend>
+      <legend for="tool-license"  class="label-input">License<span class="short-sub">(Required)</span></legend>
 <!--       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
@@ -353,10 +350,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign type = site.data.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
       <div class="fieldheader">
-        <legend for="tool-type"  class="label-input">Type of tool</legend>
+        <legend for="tool-type"  class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -368,7 +365,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -379,10 +376,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign browsers = site.data.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
-        <legend for="tool-browsers"  class="label-input">Browser<span class="short-sub">(Optional)</span></legend>
+        <legend for="tool-browsers"  class="label-input">Browser</legend>
         {% if browsers.info %}
           <abbr title="{{ browsers.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -394,7 +391,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -405,10 +402,10 @@ main > header { grid-column: 4 / span 4; }
   {% assign desktop = site.data.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
-      <legend for="tool-desktop"  class="label-input">Operating system<span class="short-sub">(Optional)</span></legend>
+      <legend for="tool-desktop"  class="label-input">Operating system</legend>
         {% if desktop.info %}
           <abbr title="{{ desktop.info }}" class="toggletip-container">
-              <img aria-label="more info" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -420,7 +417,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}

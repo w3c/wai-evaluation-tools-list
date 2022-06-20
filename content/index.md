@@ -67,16 +67,17 @@ footer: >
                 <p>Need help finding the right tool?</p>
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
+            <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.filters %}
                 {% if filter.showmore %}
                     <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
                 {% else %}
                     <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                 {% endif %}
-                <legend class="label">{{ filter.name }}
+                <legend class="label" tabindex="0">{{ filter.name }}
                     {% if filter.info %}
                         <abbr title="{{ filter.info }}" class="toggletip-container">
-                            <img aria-label="more info" data-toggletip-content="{{ filter.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <img aria-label="more info" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                             <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
@@ -88,7 +89,7 @@ footer: >
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
                                 <abbr title="{{ option.info }}" class="toggletip-container">
-                                    <img aria-label="more info" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <img aria-label="more info" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                                     <span class="toggletip-span-inline" role="status"></span>
                                 </abbr>
                             {% endif %}
@@ -105,8 +106,8 @@ footer: >
                     {% for language in langAvailable %}
                         <div class="filter-options field">
                             <input type="checkbox" id="lang-filter-{{ language.first }}" name="language">
-                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span> ({{
-                                language.last.nativeName}}) <span class="filterPreCounter"></span></label>
+                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span><span lang="{{ language.first }}"> ({{
+                                language.last.nativeName}})</span><span class="filterPreCounter"></span></label>
                         </div>
                     {% endfor %}
                     </div>
@@ -116,6 +117,7 @@ footer: >
     <div id="tools-list">
         <div class="tools-list-header">
             <div class="field">
+                <label for="search" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
                 <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
             </div>
             <div class="field" class="sort-by">
@@ -138,7 +140,7 @@ footer: >
         </div>
         <div id="activeFilters"></div>
         <h4 id="found-tools"></h4>
-        <div class="tools-list">
+        <div id="tools-list-body" class="tools-list">
             {% assign defaultSort = site.data.sorting.first.sortkey %}
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
         </div>
