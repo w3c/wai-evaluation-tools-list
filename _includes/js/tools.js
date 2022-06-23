@@ -347,7 +347,7 @@ if (filterForm && sortForm && search) {
         if(getFilterName(filter) == "Statement available"){
           prefix += filterGroup.filterName + ": ";
         }
-        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')" tabindex="0">{% include_cached icon.html name="ex-circle" %}</a></div>';
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')" onkeyup="removeFilterEnter(event, \''+filter+'\')" tabindex="0">{% include_cached icon.html name="ex-circle" label="Remove filter" %}</a></div>';
       })
     })
     if(filtersOn.length > 0){
@@ -356,6 +356,14 @@ if (filterForm && sortForm && search) {
 
     document.querySelectorAll('.button-clear-button').forEach(item => {
       item.addEventListener('click', e => { clearFilters(e) });
+    })
+    document.querySelectorAll('.button-clear-button').forEach(item => {
+      item.addEventListener('keyup', e => { 
+        if (e.key === "Enter") {
+          e.preventDefault();
+          item.click(); 
+        }
+      });
     })
   }
 
@@ -369,6 +377,13 @@ if (filterForm && sortForm && search) {
       name = filter;
     }
     return name;
+  }
+
+  function removeFilterEnter(e, filterTitle) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      removeFilter(filterTitle)
+    }
   }
 
   function removeFilter(filterTitle) {

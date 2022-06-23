@@ -105,7 +105,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-purpose"  class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
         {% if purpose.info %}
           <abbr title="{{ purpose.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Purpose" tabindex="0" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -118,7 +118,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -132,7 +132,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-product"  class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
           <abbr title="{{ product.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Product to evaluate" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -144,7 +144,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -158,7 +158,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-technology"  class="label-input">Supported file / format</legend>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Supported file / format" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -170,7 +170,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -184,7 +184,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-automated"  class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
         {% if automated.info %}
           <abbr title="{{ automated.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info scope of evaluation" tabindex="0" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -196,7 +196,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -210,7 +210,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-checks"  class="label-input">Accessibility checks</legend>
         {% if checks.info %}
           <abbr title="{{ checks.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Accessibility checks" tabindex="0" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -223,7 +223,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -237,7 +237,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-guideline"  class="label-input">Guidelines</legend>
         {% if guideline.info %}
           <abbr title="{{ guideline.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Guidelines" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -249,7 +249,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -263,7 +263,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-assists"  class="label-input">Output</legend>
         {% if assists.info %}
           <abbr title="{{ assists.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Output" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -275,7 +275,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -353,7 +353,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-type"  class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Type of tool" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -365,7 +365,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -379,7 +379,7 @@ main > header { grid-column: 4 / span 4; }
         <legend for="tool-browsers"  class="label-input">Browser</legend>
         {% if browsers.info %}
           <abbr title="{{ browsers.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Browser" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -391,7 +391,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}
@@ -405,7 +405,7 @@ main > header { grid-column: 4 / span 4; }
       <legend for="tool-desktop"  class="label-input">Operating system</legend>
         {% if desktop.info %}
           <abbr title="{{ desktop.info }}" class="toggletip-container">
-              <img aria-label="more info" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+              <img aria-label="Info Operating System" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
         {% endif %}
@@ -417,7 +417,7 @@ main > header { grid-column: 4 / span 4; }
             <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
             {% if option.info %}
               <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img aria-label="more info" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
+                  <img aria-label="Info {{ option.name }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
                   <span class="toggletip-span-inline" role="status"></span>
               </abbr>
             {% endif %}

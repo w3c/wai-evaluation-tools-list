@@ -67,6 +67,7 @@ footer: >
                 <p>Need help finding the right tool?</p>
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
+            <div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.filters %}
                 {% if filter.showmore %}
@@ -77,7 +78,7 @@ footer: >
                 <legend class="label" tabindex="0">{{ filter.name }}
                     {% if filter.info %}
                         <abbr title="{{ filter.info }}" class="toggletip-container">
-                            <img aria-label="more info" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <img aria-label="Info {{ filter.name }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                             <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
@@ -89,7 +90,7 @@ footer: >
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
                                 <abbr title="{{ option.info }}" class="toggletip-container">
-                                    <img aria-label="more info" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <img aria-label="Info {{option.name}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                                     <span class="toggletip-span-inline" role="status"></span>
                                 </abbr>
                             {% endif %}
@@ -160,7 +161,6 @@ footer: >
     </div>
     
 </div>
-<div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
 <!-- <div class="button-submit-end">
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->

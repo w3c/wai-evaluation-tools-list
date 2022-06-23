@@ -53,7 +53,7 @@ function showHelpMeChoose(step){
 
   var content = "<div class='helper-header'><h3>"+currentStep.name+"</h3>";
   content += "<h4>"+currentStep.question+"</h4>";
-  content += '<a onclick="closeHelperOverlay()">{% include_cached icon.html name="ex-circle" %}</a></div>';
+  content += '<a tabindex="0" onclick="closeHelperOverlay()" onkeyup="closeHelperOverlayEnter(event)">{% include_cached icon.html name="ex-circle" label="Close helper assistant" %}</a></div>';
   content += "<div class='questionOptions'><fieldset id="+currentStep.id+"><legend class='label'>"+currentStep.name+"</legend>";
   currentStep.options.forEach(option => {
     if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant) && option.name != "Other"){
@@ -71,13 +71,14 @@ function showHelpMeChoose(step){
     content += '{% include box.html type="start" title="Info" %}'+currentStep.info+'{% include box.html type="end" %}';
   }
   content += "<div class='helper-footer'>";
-  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a class="prevStep">back to tools list</a></div>';
-  content += '<div id="showHelperResults"><a onclick="applyHelper()"><span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
+  content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a tabindex="0" class="prevStep">back to tools list</a></div>';
+  content += '<div id="showHelperResults"><a tabindex="0" onclick="applyHelper()" onkeyup="applyHelperEnter(event)"><span class="helperResultsCounter">'+Object.values(jsonTools).length+'</span> results</a></div>';
   if(currentStep.skip != ""){
-    content += '<div id="skipHelperStep"><a class="nextStep">Skip '+currentStep.id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
+    content += '<div id="skipHelperStep"><a tabindex="0" class="nextStep">Skip '+currentStep.id+'</a>{% include_cached icon.html name="arrow-right" %}</div>';
   }
   content += "</div>";
   overlayContent.innerHTML = content;
+  overlayContent.focus();
   updateBackHelperButton();
   updateHelperCounter(overlayContent);
 
@@ -94,7 +95,20 @@ function showHelpMeChoose(step){
         getHelpMeChooseStep(e);
       }
     })
+    document.querySelector('.nextStep').addEventListener('keyup', e => { 
+      if (e.key === "Enter") {
+        e.preventDefault();
+        document.querySelector('.nextStep').click();
+      }
+    });
+    document.querySelector('.nextStep').addEventListener('keydown', e => { 
+      if(e.key === "Tab"){
+        e.preventDefault();
+        overlay.querySelector('a').focus();
+      }
+    });
   }
+  
   
   if(document.querySelector('.prevStep') && prevStep.length != 0 && currentStep.step != 1){
     document.querySelector('.prevStep').addEventListener('click', e => {
@@ -107,6 +121,12 @@ function showHelpMeChoose(step){
       closeHelperOverlay()
     })
   }
+  document.querySelector('.prevStep').addEventListener('keyup', e => { 
+    if (e.key === "Enter") {
+      e.preventDefault();
+      document.querySelector('.prevStep').click();
+    }
+  });
   showFilterCountersHelper(overlayContent, false);
   document.body.style.overflowY = 'hidden';
 }
@@ -224,6 +244,12 @@ function updateNextHelperButton(counter){
   }
 }
 
+function applyHelperEnter(e){
+  if (e.key === "Enter") {
+    applyHelper();
+  }
+}
+
 function applyHelper(){
   filterForm.querySelectorAll("input[type='checkbox']").forEach(el => el.checked = false);
   activeHelperFilters.forEach(filter => {
@@ -238,6 +264,12 @@ function applyHelper(){
   closeHelperOverlay();
 }
 
+function closeHelperOverlayEnter(e){
+  if (e.key === "Enter") {
+    closeHelperOverlay();
+  }
+}
+
 function closeHelperOverlay(){
   document.body.style.overflowY = 'unset';
   var overlay = document.getElementById("help-me-choose-overlay");
@@ -246,4 +278,5 @@ function closeHelperOverlay(){
   overlay.style.display = "none";
   activeHelperFilters = [];
   prevStep = [];
+  document.querySelector('.button-help-me-choose').focus();
 }
