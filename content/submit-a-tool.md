@@ -56,11 +56,11 @@ main > header { grid-column: 4 / span 4; }
       <input type="text" id="title" name="title" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="website" class="label-input">Web Address (URI)<span>Required</span></legend>
+      <legend for="website" class="label-input">Web Address (URL)<span>Required</span></legend>
       <input type="url" id="website" name="website" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="provider" class="label-input">Vendor / organisation<span>Required</span></legend>
+      <legend for="provider" class="label-input">Vendor / organization<span>Required</span></legend>
       <input type="text" id="provider" name="provider" required>
   </fieldset>
   <fieldset class="field">
@@ -76,9 +76,9 @@ main > header { grid-column: 4 / span 4; }
       <input type="date" id="update" name="update" required>
   </fieldset>
   <fieldset class="field">
-      <legend for="a11yloc" class="label-input">Accessibility statement (URI)</legend>
+      <legend for="a11yloc" class="label-input">Accessibility statement (URL)</legend>
       <input type="url" id="a11yloc" name="a11yloc">
-      <p>
+      <p class="subfieldtext"> 
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </fieldset>
@@ -103,12 +103,6 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="purpose">
       <div class="fieldheader">
         <legend for="tool-purpose"  class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
-        {% if purpose.info %}
-          <abbr title="{{ purpose.info }}" class="toggletip-container">
-              <img aria-label="Info Purpose" tabindex="0" data-toggletip-content="{{ purpose.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <p>What type of evaluations does this tool support?</p>
       <div class="field-group">
@@ -155,7 +149,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign technology = site.data.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
-        <legend for="tool-technology"  class="label-input">Supported file / format</legend>
+        <legend for="tool-technology"  class="label-input">Supported files</legend>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
               <img aria-label="Info Supported file / format" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -182,12 +176,7 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="automated">
       <div class="fieldheader">
         <legend for="tool-automated"  class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
-        {% if automated.info %}
-          <abbr title="{{ automated.info }}" class="toggletip-container">
-              <img aria-label="Info scope of evaluation" tabindex="0" data-toggletip-content="{{ automated.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
+        <p>{{ automated.info }}</p>
       </div>
       <div class="field-group">
         {% for option in automated.options %}
@@ -208,12 +197,6 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="checks">
       <div class="fieldheader">
         <legend for="tool-checks"  class="label-input">Accessibility checks</legend>
-        {% if checks.info %}
-          <abbr title="{{ checks.info }}" class="toggletip-container">
-              <img aria-label="Info Accessibility checks" tabindex="0" data-toggletip-content="{{ checks.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       <div class="field-group">
@@ -288,7 +271,7 @@ main > header { grid-column: 4 / span 4; }
 
   <fieldset class="field" id="language">
     <legend class="label">Language<span>Required</span></legend>
-    <p class="expl">Indicate in which language or languages this resource is provided.</p>
+    <p class="expl">Indicate in which language or languages this tool is provided.</p>
     <div class="line">
       <label for="tool-language_1" class="label-input"></label>
       <select name="language[]" id="language_1" class="select-form" required> 
@@ -341,9 +324,10 @@ main > header { grid-column: 4 / span 4; }
         <input type="checkbox" name="license[]" id="tool-license-purchase" value="One-time purchase" group="licence" required>
         <label for="tool-license-purchase">One-time purchase</label>
       </div>
-      <div class="radio-field-other">
+      <div class="radio-field">
+        <input type="checkbox" name="license[]" id="tool-license-other" class="tool-license-other-check" group="licence">
         <label for="tool-license-purchase">Other:</label>
-        <input type="text" name="license[]" id="tool-license-other">
+        <input type="text" name="license[]" id="tool-license-other" class="tool-license-other-input">
       </div>
     </div>
   </fieldset>

@@ -67,7 +67,6 @@ footer: >
                 <p>Need help finding the right tool?</p>
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
-            <div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.filters %}
                 {% if filter.showmore %}
@@ -159,7 +158,7 @@ footer: >
             {% include box.html type="end" %}
         </div>
     </div>
-    
+    <div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
 </div>
 <!-- <div class="button-submit-end">
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  

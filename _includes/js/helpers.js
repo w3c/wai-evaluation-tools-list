@@ -36,7 +36,6 @@ function updateHelperFiltersList(form, list) {
 	      attValues.push(filter.value)
 	      activeFiltersList.push({ filterId: filter.id, filterName: filterName, filterValues: attValues });
 	    }
-
 	  });
 
 	});
@@ -53,7 +52,7 @@ function showHelpMeChoose(step){
 
   var content = "<div class='helper-header'><h3>"+currentStep.name+"</h3>";
   content += "<h4>"+currentStep.question+"</h4>";
-  content += '<a tabindex="0" onclick="closeHelperOverlay()" onkeyup="closeHelperOverlayEnter(event)">{% include_cached icon.html name="ex-circle" label="Close helper assistant" %}</a></div>';
+  content += '<a tabindex="0" onclick="applyHelper()" onkeydown="applyHelperEnter(event)">{% include_cached icon.html name="ex-circle" label="Close helper assistant" %}</a></div>';
   content += "<div class='questionOptions'><fieldset id="+currentStep.id+"><legend class='label'>"+currentStep.name+"</legend>";
   currentStep.options.forEach(option => {
     if(currentStep.id === "desktop" && !activeHelperFilters.find(f => f.filterId === "type").filterValues.includes(option.relevant) && option.name != "Other"){
@@ -78,7 +77,7 @@ function showHelpMeChoose(step){
   }
   content += "</div>";
   overlayContent.innerHTML = content;
-  overlayContent.focus();
+  overlay.querySelector('a').focus();
   updateBackHelperButton();
   updateHelperCounter(overlayContent);
 
@@ -129,6 +128,15 @@ function showHelpMeChoose(step){
   });
   showFilterCountersHelper(overlayContent, false);
   document.body.style.overflowY = 'hidden';
+
+  document.getElementById("help-me-choose-overlay").querySelector('.overlay-content').querySelectorAll('input[type=checkbox]').forEach(item => {
+    item.addEventListener('keyup', e => { 
+      if (e.key === "Enter") {
+        e.preventDefault();
+        item.click();
+      }
+    })
+  })
 }
 
 function showFilterCountersHelper(form, init){

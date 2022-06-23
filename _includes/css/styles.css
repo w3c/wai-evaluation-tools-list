@@ -195,6 +195,10 @@ main>header {
   margin-top: 0.4rem;
 }
 
+.submission-form .field {
+  width: 100%;
+}
+
 #left-col .field label {
   display: inline !important;
 }
@@ -557,6 +561,7 @@ summary h4 {
 .line {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .remove_line {
@@ -813,7 +818,7 @@ input[type=checkbox]
 }
 
 .questionOptions legend {
-  display: none; 
+  display: none !important; 
 }
 
 .helper-footer {
@@ -1115,6 +1120,7 @@ input[type=checkbox]
 .submission-form .fieldheader {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .submission-form .fieldheader abbr {
@@ -1130,6 +1136,7 @@ input[type=checkbox]
 
 .submission-form p {
   margin: 0;
+  width: 100%;
 }
 
 .submission-form .submit-tool {
@@ -1175,6 +1182,16 @@ input[type=checkbox]
 
 .field-group {
   margin-top: 0.5rem;
+}
+
+.subfieldtext {
+  margin-top: 0.5rem !important;
+}
+
+#tool-license-other {
+  flex: unset;
+  margin-left: 5px;
+  box-sizing: unset;
 }
 
 

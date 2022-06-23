@@ -8,6 +8,33 @@ if (submitForm) {
         item.addEventListener('change', changeHandlerOtherField);
     });
 
+    submitForm.querySelector('.tool-license-other-input').addEventListener('keyup', function (event) {
+        console.log(document.querySelector('.tool-license-other-input'));
+        var box = document.querySelector('.tool-license-other-input');
+        if(box.value == undefined || box.value == "" || box.value.length == 0){
+            console.log("empty");
+            document.querySelector('.tool-license-other-check').checked = false;
+        }else{
+            console.log("full");
+            document.querySelector('.tool-license-other-check').checked = true;
+        }
+    });
+
+    submitForm.querySelector('.submit-tool').addEventListener('keyup', e => { 
+      if (e.key === "Enter") {
+        e.preventDefault();
+        submitForm.querySelector('.submit-tool').click();
+      }
+    });
+
+    submitForm.querySelectorAll('input[type=checkbox]').forEach(item => {
+        item.addEventListener('keyup', e => { 
+          if (e.key === "Enter") {
+            e.preventDefault();
+            item.click();
+          }
+        })
+    })
 
     function _addLine() {
         var buttonsAdd = document.querySelectorAll('button.add_line');
