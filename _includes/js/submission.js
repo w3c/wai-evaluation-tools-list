@@ -36,6 +36,15 @@ if (submitForm) {
         })
     })
 
+    submitForm.querySelectorAll('select').forEach(item => {
+        item.addEventListener('keyup', e => { 
+          if (e.key === "Enter") {
+            console.log("clicked");
+            item.click();
+          }
+        })
+    })
+
     function _addLine() {
         var buttonsAdd = document.querySelectorAll('button.add_line');
 

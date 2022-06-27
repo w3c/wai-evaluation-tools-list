@@ -268,7 +268,6 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
-
   <fieldset class="field" id="language">
     <legend class="label">Language<span>Required</span></legend>
     <p class="expl">Indicate in which language or languages this tool is provided.</p>
