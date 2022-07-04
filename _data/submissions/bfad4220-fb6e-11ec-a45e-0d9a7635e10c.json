@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "assists": [
+    "Generate report of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Media alternatives"
+  ],
+  "contact": "Vera.Lange@han.nl",
+  "desktop": [
+    "iOS"
+  ],
+  "features": [
+    "Beep beep"
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "RGAA"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "HAN",
+  "purpose": [
+    "Automated testing"
+  ],
+  "release": "2022-07-06",
+  "submission_date": "2022-07-04T07:56:02.242Z",
+  "submission_ref": "bfad4220-fb6e-11ec-a45e-0d9a7635e10c",
+  "technology": [
+    "Open Documents Format (ODF)"
+  ],
+  "title": "HAN Test",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "update": "2022-07-21",
+  "website": "https://www.han.nl"
+}
