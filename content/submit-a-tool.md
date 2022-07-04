@@ -33,7 +33,7 @@ main > header { grid-column: 4 / span 4; }
     This form allows vendors of tools for web accessibility evaluation to submit their tool to the List of Tools for Web Evaluation. 
   </p>
   <p>
-    <b>Note:</b> Information sent using this form is reviewed before the tool is published to the list. It can take <i>up to 10 business days</i> until the tool is published. A notification email is sent to you after submitting this form. This email is also copied to a publicly archived <a href="https://lists.w3.org/Archives/Public/public-wai-ert-tools/" target="_blank">mailing list</a>. 
+    <b>Note:</b> This process is managed through GitHub (https://github.com/w3c/wai-evaluation-tools-list/pulls) - new submissions should appear on this page, if you wish to verify the information you have provided. 
   </p>
   <p>
     Contact <a href="mailto:shawn@w3.org">Shawn Lawton Henry (shawn@w3.org)</a> if you have questions or comments. 
