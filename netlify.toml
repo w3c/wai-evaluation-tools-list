@@ -12,3 +12,10 @@ RUBY_VERSION = "2.6.2"
 [dev]
 publish = "_site"
 framework = "#static"
+
+[functions]
+directory = "_functions"
+node_bundler = "esbuild"
+
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"

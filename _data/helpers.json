@@ -1,0 +1,350 @@
+[
+  {
+    "id": "product",
+    "name": "Product to evaluate",
+    "step": "1",
+    "question": "What product should the tool be able to test?",
+    "info": "",
+    "skip": "purpose",
+    "options": [
+      {
+        "id": "website",
+        "name": "Website",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "productDesktopApplication",
+        "name": "Desktop application",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "productMobileApplication",
+        "name": "Mobile application",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "document",
+        "name": "Document",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "sourcecode",
+        "name": "Source code",
+        "info": "",
+        "next": "purpose"
+      },
+      {
+        "id": "otherProduct",
+        "name": "Other",
+        "info": "e.g. Virtual Reality",
+        "next": "purpose"
+      }                       
+    ]
+  },
+  {
+    "id": "purpose",
+    "name": "Purpose",
+    "step": "2",
+    "question": "What kind of testing should the tool support?",
+    "info": "Automated tools can currently find about 20% of accessibility issues. Tools supporting manual testing can help you test and find other issues and fix them. This way you can be sure your content is accessible and compliant with the standards and guidelines.",
+    "skip": "type",
+    "options": [
+      {
+        "id": "automatic",
+        "name": "Automated testing",
+        "info": "Performs automated scans to find accessibility issues",
+        "next": "type"
+      },
+      {
+        "id": "manual",
+        "name": "Manual testing",
+        "info": "Guides you in evaluating, and possibly fixing, accessibility issues manually",
+        "next": "type"
+      },
+      {
+        "id": "simulate",
+        "name": "Simulate user experience",
+        "info": "Experience what it is like to use web content with a disability",
+        "next": "checks"
+      }
+    ]
+  },
+  {
+    "id": "type",
+    "name": "Type of tool",
+    "step": "3",
+    "question": "Do you prefer a type of tool integration?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "browserPlugin",
+        "name": "Browser plugin",
+        "info": "",
+        "next": "browsers"
+      },
+      {
+        "id": "typeDesktopApplication",
+        "name": "Desktop application",
+        "info": "",
+        "next": "desktop"
+      },
+      {
+        "id": "typeMobileApplication",
+        "name": "Mobile application",
+        "info": "",
+        "next": "desktop"
+      },
+      {
+        "id": "typeWebOnlineTool",
+        "name": "Online tool",
+        "info": "Web-based tools",
+        "next": "checks"
+      },
+      {
+        "id": "serverside",
+        "name": "Server-side integration",
+        "info": "Tools that run on your (local) server",
+        "next": "checks"
+      },
+      {
+        "id": "commandline",
+        "name": "Command-line / CI",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "programmingTool",
+        "name": "Programming tool plugin / IDE",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "authoringTool",
+        "name": "Authoring tool plugin",
+        "info": "Extensions for content creation software (e.g.: text processing, creative software, CMS)",
+        "next": "checks"
+      }                      
+    ]
+  },
+  {
+    "id": "browsers",
+    "name": "Browsers",
+    "step": "4",
+    "question": "Which browser(s) should the tool run on?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "chrome",
+        "name": "Chrome",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "safari",
+        "name": "Safari",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "edge",
+        "name": "Edge",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "firefox",
+        "name": "Firefox",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "opera",
+        "name": "Opera",
+        "info": "",
+        "next": "checks"
+      },
+      {
+        "id": "otherbrowser",
+        "name": "Other",
+        "info": "",
+        "next": "checks"
+      }                      
+    ]
+  },
+  {
+    "id": "desktop",
+    "name": "Operating system",
+    "step": "5",
+    "question": "Which system would you like to install the tool on?",
+    "info": "",
+    "skip": "checks",
+    "options": [
+      {
+        "id": "android",
+        "name": "Android",
+        "info": "",
+        "next": "checks",
+        "relevant": "Mobile application"
+      },
+      {
+        "id": "ios",
+        "name": "iOS",
+        "info": "",
+        "next": "checks",
+        "relevant": "Mobile application"
+      },
+      {
+        "id": "windows",
+        "name": "Windows",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "macos",
+        "name": "MacOS",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "linux",
+        "name": "Linux",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      },
+      {
+        "id": "otheros",
+        "name": "Other",
+        "info": "",
+        "next": "checks",
+        "relevant": "Desktop application"
+      }                     
+    ]
+  },
+  {
+    "id": "checks",
+    "name": "Accessibility checks",
+    "step": "6",
+    "question": "What are some of the things you would like to test or simulate?",
+    "info": "",
+    "skip": "",
+    "options": [
+      {
+        "id": "colorContrast",
+        "name": "Color contrast",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "pageStructure",
+        "name": "Page structure",
+        "info": "",
+        "next": "" 
+      },
+      {
+        "id": "navigationAndLinks",
+        "name": "Navigation and links",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "readability",
+        "name": "Readability",
+        "info": "",
+        "next": ""
+      },  
+      {
+        "id": "textAlternatives",
+        "name": "Text alternatives",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "mediaAlternatives",
+        "name": "Media alternatives",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "labels",
+        "name": "Labels",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "forms",
+        "name": "Forms",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "tables",
+        "name": "Tables",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "maps",
+        "name": "Maps",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "hoverAndFocus",
+        "name": "Hover and Focus",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "resizingPage",
+        "name": "Resizing page",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "keyboardAccessible",
+        "name": "Keyboard accessible",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "assistiveTechnology",
+        "name": "Compatible with assistive technology",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "time",
+        "name": "Time (pause, adjust etc)",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "error",
+        "name": "Error (prevention)",
+        "info": "",
+        "next": ""
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI-ARIA attributes",
+        "info": "",
+        "next": ""
+      }, 
+      {
+        "id": "checksLanguage",
+        "name": "Language",
+        "info": "",
+        "next": ""
+      }                     
+    ]
+  }
+]

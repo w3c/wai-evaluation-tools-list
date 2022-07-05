@@ -1,0 +1,80 @@
+{
+  "title": "Compliance Sheriff",
+  "creator": "Cryptzone",
+  "location": "https://www.compliancesheriff.com/",
+  "release": "2016-08-12",
+  "version": "5.1",
+  "description": [
+    "Ensures that online content complies with accessibility, privacy, quality, and custom standards and regulations",
+    "Enables customers to quickly identify and correct problems and track improvement throughout all of their web properties."
+  ],
+  "a11yloc": "",
+  "update": "2021-05-27",
+  "language": [
+    "English"
+  ],
+  "guideline": [
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.0</strong>",
+    "<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 1.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 1.0",
+    "Section 508, <abbr title=\"United States\">US</abbr> federal procurement standard"
+  ],
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page",
+    "Sample of pages",
+    "Restricted or password protected pages"
+  ],
+  "technology": [
+    "<abbr title=\"Hypertext Markup Language\">HTML</abbr>",
+    "<abbr title=\"Extensible Hypertext Markup Language\">XHTML</abbr>",
+    "Images",
+    "Microsoft Office documents"
+  ],
+  "type": [
+    "Browser plugin",
+    "Web application"
+  ],
+  "onlineservice": [
+    "Online checker",
+    "Hosted service",
+    "Server installation"
+  ],
+  "desktop": [],
+  "mobile": [],
+  "authoringtools": [],
+  "apitype": [],
+  "browsers": [
+    "Chrome",
+    "Firefox",
+    "Safari",
+    "Internet Explorer &le; 8"
+  ],
+  "license": [
+    "Trial or Demo",
+    "Commercial",
+    "Enterprise"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "product": [
+    "Website"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure",
+    "Navigation and links",
+    "Plain text",
+    "Text alternatives",
+    "Media alternatives",
+    "Labels",
+    "Forms",
+    "Tables",
+    "Maps",
+    "Keyboard accessible",
+    "Compatible with assistive technology"
+  ]
+}

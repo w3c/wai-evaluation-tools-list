@@ -1,0 +1,63 @@
+{
+  "title": "OzART",
+  "creator": "AccessibilityOz",
+  "location": "http://www.accessibilityoz.com/ozart/",
+  "release": "2014-01-01",
+  "version": "4.2",
+  "description": [
+    "Automated batch testing of pages/site with workflow guides to handle issues that can&#39;t be automatically determined."
+  ],
+  "a11yloc": "",
+  "update": "2021-08-03",
+  "language": [
+    "English"
+  ],
+  "guideline": [
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.1 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.1</strong>",
+    "<strong><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr> 2.0 — <abbr title=\"World Wide Web Consortium\">W3C</abbr> Web Content Accessibility Guidelines 2.0</strong>"
+  ],
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages",
+    "Restricted or password protected pages"
+  ],
+  "technology": [
+    "<abbr title=\"Cascading Style Sheets\">CSS</abbr>",
+    "<abbr title=\"Hypertext Markup Language\">HTML</abbr>",
+    "<abbr title=\"Extensible Hypertext Markup Language\">XHTML</abbr>",
+    "<abbr title=\"Portable Document Format\">PDF</abbr> documents",
+    "Images"
+  ],
+  "type": [
+    "Web application"
+  ],
+  "onlineservice": [
+    "Hosted service"
+  ],
+  "desktop": [],
+  "mobile": [],
+  "authoringtools": [],
+  "apitype": [],
+  "browsers": [],
+  "license": [
+    "Commercial"
+  ],
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "product": [
+    "Website"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure",
+    "Navigation and links",
+    "Text alternatives",
+    "Labels",
+    "Forms",
+    "Tables"
+  ]
+}

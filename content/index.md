@@ -2,9 +2,9 @@
 # NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "List of Evaluation Tools"
-title_html: "List of Evaluation Tools" 
-nav_title: "List of Ealuation Tools"
+title: "Tools for web evaluation"
+title_html: "Tools for web evaluation" 
+nav_title: "Tools for web evaluation"
 doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -20,13 +20,13 @@ github:
 permalink: /list-of-evaluation-tools/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
-  # previous: /teach-advocate/course-list/@@
-  # next: /teach-advocate/course-list/@@
-ref: /teach-advocate/course-list/   # Translators, do not change this
-changelog: /teach-advocate/course-list/changelog/  # NEW: set up a changelog so it's ready for later
-acknowledgements: /teach-advocate/course-list/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
+  # previous: /teach-advocate/list-of-evaluation-tools/@@
+  # next: /teach-advocate/list-of-evaluation-tools/@@
+ref: /teach-advocate/list-of-evaluation-tools/   # Translators, do not change this
+changelog: /teach-advocate/list-of-evaluation-tools//changelog/  # NEW: set up a changelog so it's ready for later
+acknowledgements: /teach-advocate/list-of-evaluation-tools/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/wai-course-list/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
+# image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
 # In the footer below:
 # Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
@@ -42,88 +42,129 @@ footer: >
 {% include css/styles.css %}
 </style>
 <div class="header-sup">
-    <p>This List of Courses provides information about courses, training, and certification on web accessibility from different providers. It is meant to help you make informed decisions to choose a resource. The page allows you to filter submissions to find ones that match your specific interest and need. If you wish to provide information about a course, training, or certification on web accessibility, please use the following button to add or update information about your resource.</p>
-    {% include_cached button.html type="link" label="Submit a course, training, or certification" class="more" href="submit-an-offer" %}
-    <p><em>Please note that the list items are provider-submitted, not <abbr title="World Wide Web Consortium">W3C</abbr>-endorsed. See the full <a href="#disclaimer">disclaimer</a> for more information about provider-submitted content.
-    </em></p>
+    <div class="header-left">
+        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
+        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p> -->
+        <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of such tools.</p>
+        <p>
+            To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.
+        </p>
+    </div>
+    <div class="header-right">
+        {% include box.html type="start" class="simple" %}
+            <p>Information on this website is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products. <br><br>See <a href="#disclaimer">Disclaimer</a>.</p>
+        {% include box.html type="end" %}
+    </div>
 </div>
 <div id="app">
-    <div id="left-col" class="offers-filters">
-        <form data-filter-form action="...">
-            <h2>Filters</h2>
+    <div id="left-col" class="tools-filters">
+        <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
+        <form data-filter-form action="..." class="data-filter-form">
+            <div class="filter-header">
+                <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
+            </div>
+            {% include box.html type="start" class="simple" %}
+                <p>Need help finding the right tool?</p>
+                {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
+            {% include box.html type="end" %}
+            <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.filters %}
-            <fieldset id="{{ filter.id }}">
-                <legend class="label">{{ filter.name }}</legend>
-<!--                {% if filter.name == "Format" %}
-                    {% include resource-link.html label="Show info" href="#"%}
-                {% endif %} -->
-                {% for option in filter.options %}
-                <div class="filter-options field">
-                    <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
-                    <label for="filter-{{ option.id }}">{{ option.name }}</label>
-                </div>
+                {% if filter.showmore %}
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
+                {% else %}
+                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
+                {% endif %}
+                <legend class="label" tabindex="0">{{ filter.name }}
+                    {% if filter.info %}
+                        <abbr title="{{ filter.info }}" class="toggletip-container">
+                            <img aria-label="Info {{ filter.name }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <span class="toggletip-span" role="status"></span>
+                        </abbr>
+                    {% endif %}
+                </legend>
+                    <div class="options">
+                    {% for option in filter.options %}
+                    <div class="filter-options field">
+                        <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
+                        <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
+                            {% if option.info %}
+                                <abbr title="{{ option.info }}" class="toggletip-container">
+                                    <img aria-label="Info {{option.name}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <span class="toggletip-span-inline" role="status"></span>
+                                </abbr>
+                            {% endif %}
+                        </label>
+                    </div>
                 {% endfor %}
+                </div>
             </fieldset>
             {% endfor %}
-            {% assign langAvailable = site.data.offers | map: "language" | uniq %}
-            <fieldset id="language-filter">
-                <legend>Language</legend>
-                <div class="filter-options field">
-                    <select name="language" id="language">
-                        <option value="">--Select an option--</option>
-                        {% for language in langAvailable %}
-                        <option value="{{ language }}">{{ site.data.lang[language].name }} ({{
-                            site.data.lang[language].nativeName}})</option>
-                        {% endfor %}
-                    </select>
-                </div>
-            </fieldset>
-            {% assign countriesAvailable = site.data.offers | map: "country" | uniq %}
-            <fieldset id="contry-filter">
-                <legend>Country</legend>
-                <div class="filter-options field">
-                    <select name="country" id="country">
-                        <option value="">--Select an option--</option>
-                        {% for country in countriesAvailable %}
-                        <option value="{{ country }}">{{ site.data.countries[country].name }} ({{
-                            site.data.countries[country].nativeName}})</option>
-                        {% endfor %}
-                    </select>
-                </div>
+            {% assign langAvailable = site.data.lang %}
+            <fieldset id="language" collapsed="true">
+                <legend class='collapsible'>Language </legend>  
+                    <div class="options collapsible">
+                    {% for language in langAvailable %}
+                        <div class="filter-options field">
+                            <input type="checkbox" id="lang-filter-{{ language.first }}" name="language">
+                            <label for="lang-filter-{{ language.first }}"><span class='filterName'>{{ language.last.name }}</span><span lang="{{ language.first }}"> ({{
+                                language.last.nativeName}})</span><span class="filterPreCounter"></span></label>
+                        </div>
+                    {% endfor %}
+                    </div>
             </fieldset>
         </form>
-        {% include_cached button.html label="Clear filters" class="clear-button"%}
+    </div>
+    <div id="tools-list">
+        <div class="tools-list-header">
+            <div class="field">
+                <label for="search" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
+                <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
+            </div>
+            <div class="field" class="sort-by">
+                <h4><label for="select">Sort by</label></h4>
+                <select id="select" class="field" alt="Sort by">
+                    {% for sort in site.data.sorting %}
+                        {% if sort.selected == "true" %}
+                            <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
+                        {% else %}
+                            <option value="{{ sort.id }}">{{ sort.name }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+            </div>
+            <span id="status">
+                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
+            </span>       
+            <!-- {% include excol.html type="all" %} -->
+            <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
+        </div>
+        <div id="activeFilters"></div>
+        <h4 id="found-tools"></h4>
+        <div id="tools-list-body" class="tools-list">
+            {% assign defaultSort = site.data.sorting.first.sortkey %}
+            {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
+        </div>
+        <div id="improvepage">
+            {% include box.html type="start" class="simple" %}
+                <p>Add your organization’s tool to this list, or suggest a tool that you think should be added.</p>
+                {% include_cached button.html type="link" label="Submit a tool" class="more" href="submit-a-tool" %}
+            {% include box.html type="end" %}
+        </div>
         <div id="disclaimer">
-            <h2>Important Disclaimer</h2>
-            <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of resources in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
-            <p>Courses descriptions, search criteria, and other information in this database are provider-submitted. W3C does not verify the accuracy of the information.</p>
-            <p>The list is not a review of courses, nor a complete or definitive list of all courses. The information can change at any time.</p>
+            {% include box.html type="start" title="Disclaimer" %}
+                <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
+                <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
+                <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
+            {% include box.html type="end" %}
         </div>
     </div>
-    <div id="offers-list">
-        <span id="status">
-            <p id="total-offers">Showing {{ site.data.offers | size }} results</p>
-        </span>
-        <div class="field" class="sort-by">
-            <label for="select">Sort by</label>
-            <select id="select">
-                <option selected="selected">Alphabetically (A to Z)</option>
-                <option>Most recently updated</option>
-            </select>
-        </div>        
-        {% include excol.html type="all" %}
-        {% include_cached button.html label="Clear filters" class="clear-button"%}
-        {% assign offers = site.data.offers | sort: 'name' %}
-        {% for offer in offers %}
-            {% include offer.liquid %}
-        {% endfor %}      
-    </div>
-    
 </div>
-<div class="button-submit-end">
-    {% include_cached button.html type="link" label="Submit a course, training, or certification" class="more" href="submit-an-offer" %}  
-</div>
-
+<div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
+<!-- <div class="button-submit-end">
+    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
+</div> -->
 <script>
-{% include js/offers.js %}
+{% include js/utilities.js %}
+{% include js/tools.js %}
+{% include js/helpers.js %}
 </script>

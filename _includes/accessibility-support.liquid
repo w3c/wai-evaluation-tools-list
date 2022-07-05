@@ -1,0 +1,27 @@
+{% for support in site.data.accessibility-support %}
+
+<h4>{{ support.type }}</h4>
+
+{% for option in support.options %}
+
+{% if option.options %}
+<p class="expl">{{ option.name }}, including: </p>
+{% for details in option.options %}
+<div class="radio-field">  
+    <input type="checkbox" id="course-{{ details.id }}" name="course-{{ details.id }}">
+    <label for="course-{{ details.id }}">{{ details.name }}</label>
+</div>
+{% endfor %}
+{% else %}
+<div class="radio-field">
+    <input type="checkbox" id="course-{{ option.id }}" name="course-{{ option.id }}">
+    <label for="course-{{ option.id }}">{{ option.name }}</label>
+</div>    
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+<div class="field">
+    <label for="course-new-accessibility-support">Additional accessibility support</label>
+    <textarea id="course-new-accessibility-support"></textarea>
+</div>
