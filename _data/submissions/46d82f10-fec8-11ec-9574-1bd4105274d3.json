@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.gov.scot",
+  "assists": [
+    "Generate report of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Color contrast"
+  ],
+  "contact": "mark.palmer@gov.scot",
+  "desktop": [
+    "Android"
+  ],
+  "features": [
+    "It also makes great coffee",
+    "ddd",
+    ""
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ScotGov",
+  "purpose": [
+    "Automated testing"
+  ],
+  "release": "2022-02-01",
+  "submission_date": "2022-07-08T14:14:27.713Z",
+  "submission_ref": "46d82f10-fec8-11ec-9574-1bd4105274d3",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Mark's Test Tool",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2022-07-02",
+  "website": "https://www.testitforaccessibility.com"
+}
