@@ -192,26 +192,28 @@ if (filterForm && sortForm && search) {
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
             }else{
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
-              var mask = currentFilter.options.find(o => o.name === r);
+              if(currentFilter != undefined){
+                var mask = currentFilter.options.find(o => o.name === r);
 
-              if(mask.filtername != undefined){
-                if(Array.isArray(mask.filtername)){
-                  var tracker;
-                  mask.filtername.forEach(mfn => {
-                    if(tracker === undefined || tracker === false){
-                      tracker = x[filter.filterId].some(function(m){ return m.indexOf(mfn)>=0 });
+                if(mask.filtername != undefined){
+                  if(Array.isArray(mask.filtername)){
+                    var tracker;
+                    mask.filtername.forEach(mfn => {
+                      if(tracker === undefined || tracker === false){
+                        tracker = x[filter.filterId].some(function(m){ return m.indexOf(mfn)>=0 });
+                      }
+                    })
+                    return tracker;
+                  }else{
+                    if(Array.isArray(x[filter.filterId])){  
+                      return x[filter.filterId].some(function(m){ return m.indexOf(mask.filtername)>=0 }) || x[filter.filterId].includes(r);
+                    }else{  
+                      return x[filter.filterId] === mask.filtername || x[filter.filterId] === r;
                     }
-                  })
-                  return tracker;
-                }else{
-                  if(Array.isArray(x[filter.filterId])){  
-                    return x[filter.filterId].some(function(m){ return m.indexOf(mask.filtername)>=0 }) || x[filter.filterId].includes(r);
-                  }else{  
-                    return x[filter.filterId] === mask.filtername || x[filter.filterId] === r;
                   }
+                }else{
+                  return x[filter.filterId].includes(r);
                 }
-              }else{
-                return x[filter.filterId].includes(r);
               }
             }
           }else{

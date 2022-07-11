@@ -1,6 +1,8 @@
 const submitForm = document.querySelector('form');
 
 if (submitForm) {
+
+    document.getElementById('update').valueAsDate = new Date();
     
     _addLine();
 
