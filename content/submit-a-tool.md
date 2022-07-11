@@ -71,8 +71,8 @@ main > header { grid-column: 4 / span 4; }
       <legend for="release"  class="label-input">Release date<span>Required</span></legend>
       <input type="date" id="release" name="release" required>
   </fieldset>
-  <fieldset class="field">
-      <legend for="update" style="display: none;" class="label-input">Date of most recent update<span>Required</span></legend>
+  <fieldset class="field" style="display: none;">
+      <legend for="update" class="label-input">Date of most recent update<span>Required</span></legend>
       <input type="date" id="update" name="update" required>
   </fieldset>
   <fieldset class="field">
