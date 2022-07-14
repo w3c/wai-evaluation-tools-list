@@ -83,6 +83,8 @@ if (submitForm) {
                         newLine.querySelector('.remove_line').click();
                       }
                     });
+
+                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id + " " + lines.length+1)
                 }
             });
             button.addEventListener('keyup', function (event) {

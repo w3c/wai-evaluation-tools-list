@@ -42,6 +42,10 @@
   margin-top: 2em;
 }
 
+.button-help-me-choose:focus{
+  outline-color: var(--gold) !important;
+}
+
 @media ( min-width: 72em) {
   .header-sup {
     grid-column: 2 / 10;
@@ -1121,6 +1125,10 @@ input[type=checkbox]
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.radio-field:hover img {
+  filter: brightness(0) invert(1);
 }
 
 .submission-form .fieldheader abbr {
