@@ -117,7 +117,7 @@ footer: >
     <div id="tools-list">
         <div class="tools-list-header">
             <div class="field">
-                <label for="search" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
+                <label for="search" aria-label="Search tools, eg. “contrast” or “WCAG”" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
                 <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
             </div>
             <div class="field" class="sort-by">
