@@ -259,10 +259,17 @@ details dt::after {
 .label-input {
   font-size: 1.25rem;
   font-weight: 700;
+  color: var(--wai-green);
 }
 
 .field-topic, .field-prerequisite {
   margin-top: 2em;
+}
+
+.specialField {
+  color: var(--wai-green);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* 
@@ -429,6 +436,10 @@ details>div{
 }
 
 legend {
+  color: var(--wai-green);
+}
+
+.submission-form .fieldheader label {
   color: var(--wai-green);
 }
 
@@ -1098,7 +1109,7 @@ input[type=checkbox]
 }
 
 .submission-form label {
-  font-weight: normal;
+  /*font-weight: normal;*/
   font-size: initial;
   /*margin-bottom: 1rem;*/
 }
@@ -1131,6 +1142,10 @@ input[type=checkbox]
   flex-wrap: wrap;
 }
 
+.submission-form .fieldheader label {
+  font-weight: 700 !important;
+}
+
 .radio-field:hover img {
   filter: brightness(0) invert(1);
 }
@@ -1142,6 +1157,11 @@ input[type=checkbox]
 }
 
 .submission-form legend {
+  display: contents;
+  font-size: 18px;
+}
+
+.submission-form .fieldheader label {
   display: contents;
   font-size: 18px;
 }
