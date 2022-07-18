@@ -46,6 +46,10 @@
   outline-color: var(--gold) !important;
 }
 
+#improvepage .button-more:focus{
+  outline-color: var(--gold) !important;
+}
+
 @media ( min-width: 72em) {
   .header-sup {
     grid-column: 2 / 10;
