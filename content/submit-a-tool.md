@@ -52,31 +52,31 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="general-information"><span>1/3</span>General information</h2>
 
   <div class="field">
-      <legend for="title" aria-label="Tool name" class="label-input">Tool name<span>Required</span></legend>
+      <label for="title" class="label-input">Tool name<span>Required</span></label>
       <input type="text" id="title" name="title" required>
   </div>
   <div class="field">
-      <legend for="website" aria-label="Web address (URL)" class="label-input">Web address (URL)<span>Required</span></legend>
+      <label for="website" class="label-input">Web address (URL)<span>Required</span></label>
       <input type="url" id="website" name="website" required>
   </div>
   <div class="field">
-      <legend for="provider" aria-label="Vendor / organization" class="label-input">Vendor / organization<span>Required</span></legend>
+      <label for="provider" class="label-input">Vendor / organization<span>Required</span></label>
       <input type="text" id="provider" name="provider" required>
   </div>
   <div class="field">
-      <legend for="contact" aria-label="Email address" class="label-input">Email address<span>Required</span></legend>
+      <label for="contact" class="label-input">Email address<span>Required</span></label>
       <input type="email" id="contact" name="contact" required>
   </div>
   <div class="field">
-      <legend for="release" aria-label="Release date" class="label-input">Release date<span>Required</span></legend>
+      <label for="release" class="label-input">Release date<span>Required</span></label>
       <input type="date" id="release" name="release" required>
   </div>
   <div class="field" style="display: none;">
-      <legend for="update" class="label-input">Date of most recent update<span>Required</span></legend>
+      <label for="update" class="label-input">Date of most recent update<span>Required</span></label>
       <input type="date" id="update" name="update" required>
   </div>
   <div class="field">
-      <legend for="a11yloc" aria-label="Accessibility statement (URL)" class="label-input">Accessibility statement (URL)</legend>
+      <label for="a11yloc" class="label-input">Accessibility statement (URL)</label>
       <input type="url" id="a11yloc" name="a11yloc">
       <p class="subfieldtext"> 
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
@@ -86,7 +86,7 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <div class="field" id="features">
-    <legend class="label" aria-label="Features">Features<span>Required</span></legend>
+    <label class="label specialField">Features<span>Required</span></label>
     <div class="line">
       <label for="tool-feature_1" class="label-input"></label>
       <input type="text" name="features[]" id="feature_1" class="select-form" required>
@@ -102,7 +102,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
   <div class="field" id="purpose">
       <div class="fieldheader">
-        <legend for="tool-purpose" aria-label="Purpose" class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
+        <label for="tool-purpose" class="label-input">Purpose<span class="short-sub">(Required)</span></label>
       </div>
       <p>What type of evaluations does this tool support?</p>
       <div class="field-group">
@@ -123,7 +123,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign product = site.data.filters | find: "id", "product" %}
   <div class="field" id="product">
       <div class="fieldheader">
-        <legend for="tool-product" aria-label="Product to evaluate" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
+        <label for="tool-product" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></label>
         {% if product.info %}
           <abbr title="{{ product.info }}" class="toggletip-container">
               <img alt="Info Product to evaluate" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -149,7 +149,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign technology = site.data.filters | find: "id", "technology" %}
   <div class="field" id="technology">
       <div class="fieldheader">
-        <legend for="tool-technology" aria-label="Supported files" class="label-input">Supported files</legend>
+        <label for="tool-technology" class="label-input">Supported files</label>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
               <img alt="Info Supported file / format" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -175,7 +175,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign automated = site.data.filters | find: "id", "automated" %}
   <div class="field" id="automated">
       <div class="fieldheader">
-        <legend for="tool-automated" aria-label="Scope of evaluation" class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
+        <label for="tool-automated" class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></label>
         <p>{{ automated.info }}</p>
       </div>
       <div class="field-group">
@@ -196,7 +196,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign checks = site.data.filters | find: "id", "checks" %}
   <div class="field" id="checks">
       <div class="fieldheader">
-        <legend for="tool-checks" aria-label="Accessibility checks" class="label-input">Accessibility checks</legend>
+        <label for="tool-checks" class="label-input">Accessibility checks</label>
       </div>
       <p>Which aspects of web accessibility can users evaluate with this tool?</p>
       <div class="field-group">
@@ -217,7 +217,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign guideline = site.data.filters | find: "id", "guideline" %}
   <div class="field" id="guideline">
       <div class="fieldheader">
-        <legend for="tool-guideline" aria-label="Guidelines" class="label-input">Guidelines</legend>
+        <label for="tool-guideline" class="label-input">Guidelines</label>
         {% if guideline.info %}
           <abbr title="{{ guideline.info }}" class="toggletip-container">
               <img alt="Info Guidelines" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -243,7 +243,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign assists = site.data.filters | find: "id", "assists" %}
   <div class="field" id="assists">
       <div class="fieldheader">
-        <legend for="tool-assists" aria-label="Output" class="label-input">Output</legend>
+        <label for="tool-assists" class="label-input">Output</label>
         {% if assists.info %}
           <abbr title="{{ assists.info }}" class="toggletip-container">
               <img alt="Info Output" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -269,7 +269,7 @@ main > header { grid-column: 4 / span 4; }
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
   <div class="field" id="language">
-    <legend class="label" aria-label="Language">Language<span>Required</span></legend>
+    <label class="label specialField">Language<span>Required</span></label>
     <p class="expl">Indicate in which language or languages this tool is provided.</p>
     <div class="line">
       <label for="tool-language_1" class="label-input"></label>
@@ -288,7 +288,7 @@ main > header { grid-column: 4 / span 4; }
               <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
           {% endfor %}
       </select>
-      <button type="button" class="remove_line">Remove</button>
+      <button type="button" aria-label="Remove language" class="remove_line">Remove</button>
       </div>
     <button type="button" class="add_line small">Add language</button>
     <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
@@ -296,7 +296,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign license = site.data.filters | find: "id", "license" %}
  <div class="field" id="license">
   <div class="field-group">
-      <legend for="tool-license" aria-label="License" class="label-input">License<span class="short-sub">(Required)</span></legend>
+      <label for="tool-license" class="label-input">License<span class="short-sub">(Required)</span></label>
 <!--       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
@@ -333,7 +333,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign type = site.data.filters | find: "id", "type" %}
   <div class="field" id="type">
       <div class="fieldheader">
-        <legend for="tool-type" aria-label="Type of tool" class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
+        <label for="tool-type" class="label-input">Type of tool<span class="short-sub">(Required)</span></label>
         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
               <img alt="Info Type of tool" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -359,7 +359,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign browsers = site.data.filters | find: "id", "browsers" %}
   <div class="field" id="browsers">
       <div class="fieldheader">
-        <legend for="tool-browsers" aria-label="Browser" class="label-input">Browser</legend>
+        <label for="tool-browsers" class="label-input">Browser</label>
         {% if browsers.info %}
           <abbr title="{{ browsers.info }}" class="toggletip-container">
               <img alt="Info Browser" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -385,7 +385,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign desktop = site.data.filters | find: "id", "desktop" %}
   <div class="field" id="desktop">
       <div class="fieldheader">
-      <legend for="tool-desktop" aria-label="Operating system" class="label-input">Operating system</legend>
+      <label for="tool-desktop" class="label-input">Operating system</label>
         {% if desktop.info %}
           <abbr title="{{ desktop.info }}" class="toggletip-container">
               <img alt="Info Operating System" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
