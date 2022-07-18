@@ -77,7 +77,7 @@ footer: >
                 <legend class="label" tabindex="0">{{ filter.name }}
                     {% if filter.info %}
                         <abbr title="{{ filter.info }}" class="toggletip-container">
-                            <img aria-label="Info {{ filter.name }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <img alt="Info {{ filter.name }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                             <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
@@ -89,7 +89,7 @@ footer: >
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
                                 <abbr title="{{ option.info }}" class="toggletip-container">
-                                    <img aria-label="Info {{option.name}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <img alt="Info {{option.name}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                                     <span class="toggletip-span-inline" role="status"></span>
                                 </abbr>
                             {% endif %}
