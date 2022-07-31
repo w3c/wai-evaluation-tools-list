@@ -1,0 +1,54 @@
+{
+  "assists": [
+    "Modify the presentation of pages"
+  ],
+  "automated": [
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "checks": [
+    "Page structure"
+  ],
+  "desktop": [
+    "iOS"
+  ],
+  "features": [
+    "This is a feature you know"
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "ak",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Desktop application"
+  ],
+  "purpose": [
+    "Automated testing"
+  ],
+  "submission_date": "2022-04-25T06:56:38.264Z",
+  "submission_ref": "da76df80-c464-11ec-b89c-e7ae609034f5",
+  "technology": [
+    "PDF"
+  ],
+  "tool-a11yloc": "http://www.test.com",
+  "tool-provider": "HAN",
+  "tool-release": "2022-04-25",
+  "tool-title": "Testnameee",
+  "tool-website": "http://www.test.com",
+  "type": [
+    "Browser plugin",
+    "Programming tool plugin / IDE"
+  ]
+}
