@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "assists": [
+    "Generate report of evaluation results"
+  ],
+  "automated": [
+    "Entire product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure"
+  ],
+  "contact": "test@test.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": [
+    "feature 1",
+    "feature 2"
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "Section 508"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "release": "2020-11-30",
+  "submission_date": "2022-05-27T14:17:07.553Z",
+  "submission_ref": "b0c45510-ddc7-11ec-b457-bd39301d57e2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Test tool",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2021-12-31",
+  "website": "http://www.test.com"
+}
