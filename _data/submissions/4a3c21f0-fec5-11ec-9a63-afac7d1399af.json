@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://accessibilitychecks.com/accessibility-statement/",
+  "assists": [
+    "Generate report of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "checks": [
+    "Color contrast",
+    "Page structure",
+    "Navigation and links",
+    "Text alternatives",
+    "Labels",
+    "Forms",
+    "Tables"
+  ],
+  "contact": "lakeen@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": [
+    "color contast",
+    "HTML formatting",
+    "alt text"
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "es"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Access Tools LLC",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "release": "2022-07-08",
+  "submission_date": "2022-07-08T13:53:04.911Z",
+  "submission_ref": "4a3c21f0-fec5-11ec-9a63-afac7d1399af",
+  "technology": [
+    "Microsoft Office documents",
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "My great tool for Accessibility checks",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2022-07-08",
+  "website": "https://accessibilitychecks.com"
+}
