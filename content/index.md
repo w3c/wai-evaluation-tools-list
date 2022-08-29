@@ -49,11 +49,9 @@ footer: >
         <p>
             To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.
         </p>
+        {% include_cached button.html type="link" label="Submit your tool" class="more" href="submit-a-tool" %}
     </div>
     <div class="header-right">
-        {% include box.html type="start" class="simple" %}
-            <p>Information on this website is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products. <br><br>See <a href="#disclaimer">Disclaimer</a>.</p>
-        {% include box.html type="end" %}
     </div>
 </div>
 <div id="app">
@@ -77,7 +75,7 @@ footer: >
                 <legend class="label" tabindex="0">{{ filter.name }}
                     {% if filter.info %}
                         <abbr title="{{ filter.info }}" class="toggletip-container">
-                            <img alt="Info {{ filter.name }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                            <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                             <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
@@ -89,7 +87,7 @@ footer: >
                         <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
                                 <abbr title="{{ option.info }}" class="toggletip-container">
-                                    <img alt="Info {{option.name}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                    <img alt="{{option.info}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                                     <span class="toggletip-span-inline" role="status"></span>
                                 </abbr>
                             {% endif %}
@@ -121,7 +119,7 @@ footer: >
                 <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
             </div>
             <div class="field" class="sort-by">
-                <h4><label for="select">Sort by</label></h4>
+                <label for="select">Sort by</label>
                 <select id="select" class="field" alt="Sort by">
                     {% for sort in site.data.sorting %}
                         {% if sort.selected == "true" %}
@@ -144,14 +142,9 @@ footer: >
             {% assign defaultSort = site.data.sorting.first.sortkey %}
             {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
         </div>
-        <div id="improvepage">
-            {% include box.html type="start" class="simple" %}
-                <p>Add your organization’s tool to this list, or suggest a tool that you think should be added.</p>
-                {% include_cached button.html type="link" label="Submit a tool" class="more" href="submit-a-tool" %}
-            {% include box.html type="end" %}
-        </div>
         <div id="disclaimer">
             {% include box.html type="start" title="Disclaimer" %}
+                <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
                 <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
                 <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>

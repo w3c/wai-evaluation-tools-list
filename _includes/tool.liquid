@@ -5,7 +5,7 @@
 
 {% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
-{% capture tool_title %}<a href="{{ tool.location }}" target="_blank">{{ tool.title }}
+{% capture tool_title %}<a href="{{ tool.location }}" target="_blank"><h3>{{ tool.title }}</h3>
 {% include_cached icon.html name="external-link" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.creator }}</p>

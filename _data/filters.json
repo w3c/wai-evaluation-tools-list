@@ -210,7 +210,7 @@
   },
   {
     "id": "guideline",
-    "name": "Guidelines",
+    "name": "Guidelines and standards",
     "collapsed": "false",
     "showmore": "3",
     "type": "checkbox",
@@ -308,24 +308,11 @@
   },
   {
     "id": "technology",
-    "name": "Supported files",
+    "name": "File to evaluate",
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
     "options": [
-      {
-        "id": "msodocuments",
-        "name": "Microsoft Office documents"
-      },
-      {
-        "id": "odf",
-        "name": "Open Documents Format (ODF)"
-      },
-      {
-        "id": "pdf",
-        "name": "PDF",
-        "filtername": "PDF"
-      },
       {
         "id": "html",
         "name": "HTML / XHTML",
@@ -337,6 +324,15 @@
         "filtername": "CSS"
       },
       {
+        "id": "pdf",
+        "name": "PDF",
+        "filtername": "PDF"
+      },
+      {
+        "id": "msodocuments",
+        "name": "Microsoft Office documents"
+      },
+      {
         "id": "smil",
         "name": "SMIL",
         "filtername": "SMIL"
@@ -344,6 +340,10 @@
       {
         "id": "markdown",
         "name": "Markdown"
+      },
+      {
+        "id": "odf",
+        "name": "Open Document Format (ODF)"
       }                       
     ]
   },
