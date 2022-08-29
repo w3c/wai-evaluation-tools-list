@@ -67,7 +67,7 @@ function showHelpMeChoose(step){
   })
   content += "</fieldset></div>";
   if(currentStep.info != undefined && currentStep.info != ""){
-    content += '{% include box.html type="start" title="Info" %}'+currentStep.info+'{% include box.html type="end" %}';
+    content += '{% include box.html type="start" title="Note" %}'+currentStep.info+'{% include box.html type="end" %}';
   }
   content += "<div class='helper-footer'>";
   content += '<div id="backToList">{% include_cached icon.html name="arrow-left" %}<a tabindex="0" class="prevStep">back to tools list</a></div>';
@@ -172,9 +172,9 @@ function showFilterCountersHelper(form, init){
 
 function updateBackHelperButton(){
   if(prevStep[prevStep.length - 1]){
-    document.querySelector('.prevStep').innerHTML = prevStep[prevStep.length - 1].id;
+    document.querySelector('.prevStep').innerHTML = prevStep[prevStep.length - 1].name;
   }else{
-    document.querySelector('.prevStep').innerHTML = "back to list";
+    document.querySelector('.prevStep').innerHTML = "Back to list";
   }
 }
 
@@ -222,7 +222,7 @@ function updateHelperCounter(overlayContent){
   if(counter == 0){
     document.querySelector('.helperResultsCounter').innerText = counter;
   }else{
-    document.querySelector('.helperResultsCounter').innerText = "show " + counter;
+    document.querySelector('.helperResultsCounter').innerText = "Show " + counter;
   }
   updateNextHelperButton(counter);
 }
@@ -245,7 +245,7 @@ function updateNextHelperButton(counter){
     }
   }else{
     if(document.querySelector('.nextStep')){
-      document.querySelector('.nextStep').innerHTML = "Skip " + document.querySelector('.questionOptions').querySelector('fieldset').id;
+      document.querySelector('.nextStep').innerHTML = "Skip " + document.querySelector('.questionOptions').querySelector('fieldset').name;
       document.querySelector('.nextStep').classList.remove("disabled");
     }
     

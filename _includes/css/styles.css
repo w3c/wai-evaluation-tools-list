@@ -16,7 +16,7 @@
 .header-sup {
   display: grid;
   grid-gap: 5em;
-  grid-column: 1 / 8;
+  grid-column: 2 / 9;
   margin-bottom: 48px;
 }
 
@@ -106,20 +106,18 @@ main>header {
 }
 
 #left-col .box-i {
-  background-color: var(--wai-green);
-  border: none;
+  border: 1px solid #ccc;
   padding: 16px;
   display: flex;
   flex-wrap: wrap;
-  color: white;
-  border-radius: 5px;
+  color: var(--wai-green);
 }
 
 #left-col .box-i a {
   width: 100%;
-  background-color: white;
+/*  background-color: white;
   color: var(--wai-green);
-  border-color: white;
+  border-color: white;*/
 }
 
 #left-col .box-i a:hover {
@@ -429,10 +427,11 @@ details>div{
   justify-content: flex-end;
 }
 
-.tools-list-header .sort-by h4 {
+.tools-list-header .sort-by label {
   float: left;
   margin: 0;
-  margin-right: 0.5em
+  margin-right: 0.5em;
+  color: var(--wai-green);
 }
 
 legend {
