@@ -68,74 +68,74 @@
         "name": "Color contrast"
       },
       {
-        "id": "pageStructure",
-        "name": "Page structure"
-      },
-      {
-        "id": "navigationAndLinks",
-        "name": "Navigation and links"
-      },
-      {
-        "id": "readability",
-        "name": "Readability",
-        "filtername": "Plain text"
-      },  
-      {
-        "id": "textAlternatives",
-        "name": "Text alternatives"
-      },
-      {
-        "id": "mediaAlternatives",
-        "name": "Media alternatives"
-      },
-      {
-        "id": "labels",
-        "name": "Labels"
-      },
-      {
-        "id": "forms",
-        "name": "Forms"
-      },
-      {
-        "id": "tables",
-        "name": "Tables"
-      },
-      {
-        "id": "maps",
-        "name": "Maps"
-      },
-      {
-        "id": "hoverAndFocus",
-        "name": "Hover and Focus"
-      },
-      {
-        "id": "resizingPage",
-        "name": "Resizing page"
-      },
-      {
-        "id": "keyboardAccessible",
-        "name": "Keyboard accessible"
-      },
-      {
         "id": "assistiveTechnology",
         "name": "Compatible with assistive technology"
-      },
-      {
-        "id": "time",
-        "name": "Time (pause, adjust etc)"
       },
       {
         "id": "error",
         "name": "Error (prevention)"
       },
       {
-        "id": "waiaria",
-        "name": "WAI-ARIA attributes"
-      }, 
+        "id": "forms",
+        "name": "Forms"
+      },
+      {
+        "id": "hoverAndFocus",
+        "name": "Hover and Focus"
+      },
+      {
+        "id": "keyboardAccessible",
+        "name": "Keyboard accessible"
+      },
+      {
+        "id": "labels",
+        "name": "Labels"
+      },
       {
         "id": "checksLanguage",
         "name": "Language"
-      }                    
+      },
+      {
+        "id": "maps",
+        "name": "Maps"
+      },
+      {
+        "id": "mediaAlternatives",
+        "name": "Media alternatives"
+      },
+      {
+        "id": "navigationAndLinks",
+        "name": "Navigation and links"
+      },
+      {
+        "id": "pageStructure",
+        "name": "Page structure"
+      },
+      {
+        "id": "readability",
+        "name": "Readability",
+        "filtername": "Plain text"
+      },
+      {
+        "id": "resizingPage",
+        "name": "Resizing page"
+      },
+      {
+        "id": "tables",
+        "name": "Tables"
+      },
+      {
+        "id": "textAlternatives",
+        "name": "Text alternatives"
+      },
+      {
+        "id": "time",
+        "name": "Time (pause, adjust etc)"
+      },
+      {
+        "id": "waiaria",
+        "name": "WAI-ARIA attributes"
+      }                 
     ]
   },
   {
@@ -219,35 +219,35 @@
       {
         "id": "WCAG2.1",
         "name": "WCAG 2.1",
-        "info": "W3C Web Content Accessibility Guidelines 2.1",
+        "info": "International - Web Content Accessibility Guidelines 2.1",
         "short": "WCAG 2.1",
         "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
         "name": "WCAG 2.0",
-        "info": "W3C Web Content Accessibility Guidelines 2.0",
+        "info": "International - Web Content Accessibility Guidelines 2.0",
         "short": "WCAG 2.0",
         "filtername": "WCAG<\/abbr> 2.0"
       },
       {
         "id": "Section508",
         "name": "Section 508",
-        "info": "US federal procurement standard",
+        "info": "USA - Section 508 of the Rehabilitation Act",
         "short": "Section 508",
         "filtername": "Section 508"
       },
       {
         "id": "RGAA",
         "name": "RGAA",
-        "info": "French government standard",
+        "info": "France - Référentiel général d`amélioration de l`accessibilité",
         "short": "RGAA",
         "filtername": "RGAA"
       },
       {
         "id": "BITV",
         "name": "BITV",
-        "info": "German government standard",
+        "info": "Germany – Barrierefreie-Informationstechnik-Verordnung",
         "short": "BITV",
         "filtername": "BITV"
       },
@@ -260,21 +260,21 @@
       {
         "id": "JIS",
         "name": "JIS",
-        "info": "Japanese industry standard",
+        "info": "Japan – Japanese Industry Standard",
         "short": "JIS",
         "filtername": "JIS"
       },
       {
         "id": "SI5568",
         "name": "SI 5568",
-        "info": "Israeli web accessibility guidelines",
+        "info": "Israel – Standard 5568",
         "short": "SI 5568",
         "filtername": "SI 5568"
       },
       {
         "id": "StancaAct",
         "name": "Stanca Act",
-        "info": "Italian accessibility legislation",
+        "info": "Italy",
         "short": "Stanca Act",
         "filtername": "Stanca Act"
       },
@@ -283,26 +283,6 @@
         "name": "EPUB Accessibility 1.0",
         "short": "EPUD",
         "filtername": "EPUB Accessibility 1.0",
-      },
-      {
-        "id": "EN301549",
-        "name": "EN 301 549",
-        "info": "European accessibility standard",
-        "short": "EN 301 549",
-        "filtername": "EN 301 549"
-      },
-      {
-        "id": "MAAG1.0",
-        "name": "MAAG 1.0",
-        "info": "Korea government standard",
-        "short": "MAAG 1.0",
-        "filtername": "MAAG 1.0"
-      },
-      {
-        "id": "AccessiWeb",
-        "name": "AccessiWeb",
-        "short": "AccessiWeb",
-        "filtername": "AccessiWeb"
       }
     ]
   },

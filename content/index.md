@@ -56,6 +56,7 @@ footer: >
 </div>
 <div id="app">
     <div id="left-col" class="tools-filters">
+        <h2 class="visuallyhidden">Filters</h2>
         <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
         <form data-filter-form action="..." class="data-filter-form">
             <div class="filter-header">
@@ -114,6 +115,7 @@ footer: >
     </div>
     <div id="tools-list">
         <div class="tools-list-header">
+            <h2 class="visuallyhidden">List of tools</h2>
             <div class="field">
                 <label for="search" aria-label="Search tools, eg. “contrast” or “WCAG”" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
                 <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
