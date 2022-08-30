@@ -35,7 +35,7 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" />
+		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" /><b>Type of tool:</b>
 		<p>{% for type in tool.type %}
 		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
@@ -52,7 +52,7 @@
 		  {% assign currentFilter = site.data.filters | find: "id", "license"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains license"  %}
 		  {% if otherNames %}
-		  	{{ license }} ({{ otherNames.name }}){% if forloop.last %}{% else %}, {% endif %}
+		  	{{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		  {% else %}
 		  	{{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		  {% endif %}
@@ -98,7 +98,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.checks | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" />
+			<img src="/content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" /><b>Accessibility checks:</b>
 			<p>{% for check in tool.checks %}
 			  {{ check }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -134,7 +134,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.assists | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/output.png" alt="Output" />
+			<img src="/content-images/wai-evaluation-tools-list/output.png" alt="Output" /><b>Output:</b>
 			<p>{% for assist in tool.assists %}
 			  {{ assist }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -145,7 +145,7 @@
 			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 		{% endif %}
 		{% if tool.actrules %}
-			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="ACT Rules" /><p>ACT Rules implemented</p>
+			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p>ACT Rules implemented</p>
 		{% endif %}
 	</div>
 </div>

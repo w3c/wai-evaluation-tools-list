@@ -47,7 +47,7 @@ footer: >
         <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p> -->
         <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of such tools.</p>
         <p>
-            To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.
+            To determine what kind of tool you need and how they are able to assist you, see <a href="https://deploy-preview-32--wai-selecting-eval-tools.netlify.app/test-evaluate/tools/selecting/">Selecting Web Accessibility Evaluation Tools</a>.
         </p>
         {% include_cached button.html type="link" label="Submit your tool" class="more" href="submit-a-tool" %}
     </div>
