@@ -541,6 +541,10 @@ legend abbr {
   margin-left: 2px;
 }
 
+.colRow b {
+  flex: none;
+}
+
 details {
   width: 100%;
   padding: 0;

@@ -445,20 +445,6 @@
     ]
   },
   {
-    "id": "actrules",
-    "name": "ACT Rules",
-    "collapsed": "false",
-    "info": "Data available on consistency of tool evaluation, ACT Rules: Accessibility Conformance Testing Rules",
-    "type": "checkbox",
-    "order": "default",
-    "options": [
-      {
-        "id": "yesact",
-        "name": "Implements ACT Rules"
-      }                       
-    ]
-  },
-  {
     "id": "assists",
     "name": "Output",
     "collapsed": "true",

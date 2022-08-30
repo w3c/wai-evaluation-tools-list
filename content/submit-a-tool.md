@@ -1,6 +1,6 @@
 ---
-title: "Add a tool - Web Accessibility Evaluation Tools List"
-nav_title: "Add a tool - Web Accessibility Evaluation Tools List"
+title: "Submit a tool - Web Accessibility Evaluation Tools List"
+nav_title: "Submit a tool - Web Accessibility Evaluation Tools List"
 doc-note-type: draft
 lang: en   
 last_updated: 2021-@@-@@
@@ -270,6 +270,12 @@ main > header { grid-column: 4 / span 4; }
           </div>
         {% endfor %}
       </div>
+      <div class="field">
+        <label for="actrules" class="label-input">ACT Rules (URL)</label>
+        <input type="url" id="actrules" name="actrules">
+        <p class="subfieldtext">
+        </p>
+    </div>
   </fieldset>
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
