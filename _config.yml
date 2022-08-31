@@ -29,7 +29,7 @@ kramwdown:
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
-repository: w3c/wai-course-list
+repository: w3c/wai-evaluation-tools-list-list
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
@@ -51,8 +51,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: standalone_resource
-      standalone_resource_doc_name: List of Evaluation Tools
+      layout: default
 #  -
 #    scope:
 #      path: "_business-case"
