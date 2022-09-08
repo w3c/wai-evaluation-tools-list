@@ -270,13 +270,14 @@ main > header { grid-column: 4 / span 4; }
           </div>
         {% endfor %}
       </div>
-      <div class="field">
-        <label for="actrules" class="label-input">ACT Rules (URL)</label>
-        <input type="url" id="actrules" name="actrules">
-        <p class="subfieldtext">
-        </p>
-    </div>
   </fieldset>
+  <div class="field">
+    <label for="actrules" class="label-input">ACT Rules (URL)</label>
+    <input type="url" id="actrules" name="actrules">
+    <p class="subfieldtext">
+      Tool vendors can describe if and how their tool(s) support the Accessibility Conformance Testing Rules. If there is a report about the implementation of the rules, the details section of the tool in the Web Accessibility Evaluation Tools List will provide a link to the report. For more information, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a>.
+    </p>
+  </div>
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
   <div class="field" id="language">
