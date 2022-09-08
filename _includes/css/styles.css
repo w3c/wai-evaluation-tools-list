@@ -907,6 +907,12 @@ input[type=checkbox]
   display: none !important;
 }
 
+.button--skip-link {
+  transform: translateY(-4em);
+  opacity: 0;
+  display: table-column;
+}
+
 .showMoreBlock {
   display: flex;
   align-items: center;
