@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://test.example.com",
+  "actrules": "",
+  "assists": [
+    "Display information within pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Edge"
+  ],
+  "checks": [
+    "Error (prevention)",
+    "Language",
+    "Text alternatives"
+  ],
+  "contact": "test@example.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": [
+    "Test",
+    "Test more",
+    ""
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "sq",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Desktop application"
+  ],
+  "provider": "test",
+  "purpose": [
+    "Automated testing"
+  ],
+  "release": "2022-09-29",
+  "submission_date": "2022-09-09T13:28:22.228Z",
+  "submission_ref": "4682e940-3043-11ed-966d-4d714d3473e7",
+  "title": "Test",
+  "type": [
+    "Desktop application"
+  ],
+  "update": "2022-09-09",
+  "website": "https://test.example.com"
+}
