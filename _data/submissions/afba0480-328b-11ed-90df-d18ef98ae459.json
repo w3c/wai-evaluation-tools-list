@@ -1,0 +1,79 @@
+{
+  "a11yloc": "http://qualweb.di.fc.ul.pt/evaluator/about",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/qualweb/",
+  "assists": [
+    "Generate report of evaluation results",
+    "Display information within pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Color contrast",
+    "Compatible with assistive technology",
+    "Error (prevention)",
+    "Forms",
+    "Hover and Focus",
+    "Keyboard accessible",
+    "Labels",
+    "Language",
+    "Media alternatives",
+    "Navigation and links",
+    "Page structure",
+    "Resizing page",
+    "Tables",
+    "Text alternatives",
+    "WAI-ARIA attributes"
+  ],
+  "contact": "qualweb@fc.ul.pt",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": [
+    "QualWeb is able to automatically check a webpage against a set of WCAG 2.1 Techniques and ACT Rules",
+    "You can use QualWeb online at its website, as a command line tool, as a browser (Chrome) extension, or you can integrate it in your javascript projects"
+  ],
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "Section 508"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Faculdade de Ciências da Universidade de Lisboa",
+  "purpose": [
+    "Automated testing"
+  ],
+  "release": "2008-08-01",
+  "submission_date": "2022-09-12T11:11:44.840Z",
+  "submission_ref": "afba0480-328b-11ed-90df-d18ef98ae459",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "QualWeb",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "update": "2022-09-12",
+  "website": "http://qualweb.di.fc.ul.pt/"
+}
