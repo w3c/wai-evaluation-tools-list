@@ -1,5 +1,7 @@
 # List of Evaluation Tools
 
+**[issues in related repo](https://github.com/w3c/wai-eval-tools/issues)**
+
 ## Development
 
 The current work is on [this PR](https://github.com/w3c/wai-evaluation-tools-list/pull/1) which provides a link to the `develop` branch preview deploy on Netlify.
