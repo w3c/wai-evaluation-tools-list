@@ -6,7 +6,7 @@
 {% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
 {% capture tool_title %}<a href="{{ tool.location }}" target="_blank"><h3>{{ tool.title }}</h3>
-{% include_cached icon.html name="external-link" %}</a> 
+{% include_cached icon.html name="external-link" label="Open tool in new window" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.creator }}</p>
 <p class="rightColHeader">Last updated: {{ tool.update | join: "" | date: "%b %Y" }}</p>
@@ -35,7 +35,7 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" /><b>Type of tool:</b>
+		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" />
 		<p>{% for type in tool.type %}
 		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
@@ -80,11 +80,6 @@
 	  	{% endif %}
 	  {% endfor %}
 	{% endfor %}
-	<div class="subBox">
-		<p>Is the information provided for this tool incorrect or outdated?</p>
-		<a href="{{ tool.location }}" target="_blank">Update information</a>
-		<a href="{{ tool.location }}" target="_blank">Report tool</a>
-	</div>
 </div>
 
 <div class="rightCol">

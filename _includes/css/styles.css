@@ -408,10 +408,12 @@ details>div{
 .tools-list-header #status {
   grid-column: 1 / 8;
   align-self: center;
+  display: flex;
 }
 
 .tools-list-header #status p {
   margin: 0;
+  margin-right: 5px;
 }
 
 .tools-list-header #status span {
@@ -907,10 +909,27 @@ input[type=checkbox]
   display: none !important;
 }
 
+.button--skip-link:not(:focus):not(:hover) {
+    transform: translateY(-4em);
+    opacity: 0;
+}
+
 .button--skip-link {
-  transform: translateY(-4em);
-  opacity: 0;
-  display: table-column;
+    background-color: var(--gold) !important;
+    border-color: var(--gold) !important;
+    outline-color: currentColor !important;
+    color: var(--off-black) !important;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    top: 0.5em;
+    width: 10em;
+    opacity: 1;
+    transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
 }
 
 .showMoreBlock {

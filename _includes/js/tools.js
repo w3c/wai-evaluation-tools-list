@@ -299,9 +299,9 @@ if (filterForm && sortForm && search) {
       hideClearButton(true);
     }
     if(Object.values(newResults).length === 1){
-      totalToolsCounter.innerHTML = "Showing <span aria-live='polite'>" + Object.values(newResults).length + " tool</span>";
+      totalToolsCounter.innerHTML = "out of <span aria-live='polite'>" + Object.values(newResults).length + " tool</span>";
     }else{
-      totalToolsCounter.innerHTML = "Showing <span aria-live='polite'>" + Object.values(newResults).length + " tools</span>";
+      totalToolsCounter.innerHTML = "out of <span aria-live='polite'>" + Object.values(newResults).length + " tools</span>";
     }
 
     if(searchTerm.length > 0){

@@ -100,7 +100,7 @@ footer: >
             {% endfor %}
             {% assign langAvailable = site.data.lang %}
             <fieldset id="language" collapsed="true">
-                <legend class='collapsible'>Language </legend>  
+                <legend class='collapsible' tabindex="0">Language </legend>  
                     <div class="options collapsible">
                     {% for language in langAvailable %}
                         <div class="filter-options field">
@@ -117,12 +117,12 @@ footer: >
         <div class="tools-list-header">
             <h2 class="visuallyhidden">List of tools</h2>
             <div class="field">
-                <label for="search" aria-label="Search tools, eg. “contrast” or “WCAG”" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
-                <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
+                <label for="search" aria-label="Search tools" class="visuallyhidden">Search tools</label>
+                <input type="search" id="search" placeholder="Search tools">
             </div>
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
-                <select id="select" class="field" alt="Sort by">
+                <select id="select" class="field" aria-label="Sort by">
                     {% for sort in site.data.sorting %}
                         {% if sort.selected == "true" %}
                             <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
@@ -133,7 +133,8 @@ footer: >
                 </select>
             </div>
             <span id="status">
-                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
+                <p id="pagination-tools">Showing:</p>
+                <p id="total-tools">out of <span>{{ site.data.tools | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
