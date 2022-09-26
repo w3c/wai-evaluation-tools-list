@@ -70,9 +70,12 @@ main > header { grid-column: 4 / span 4; }
   <div class="field">
       <label for="contact" class="label-input">Email address<span>(Required)</span></label>
       <input type="email" id="contact" name="contact" required>
+      <p class="subfieldtext"> 
+        The list maintainer may use this e-mail address solely to contact you in case of questions about this submission.  For this purpose, it will be published in <a href="https://github.com/w3c/wai-evaluation-tools-list/pulls" target="_blank">Github</a>, where your submission will be processed. The e-mail address will never be displayed in the tool list.
+      </p>
   </div>
   <div class="field">
-      <label for="release" class="label-input">Release date (dd/mm/jjjj)<span>(Required)</span></label>
+      <label for="release" class="label-input">Release date<span>(Required)</span></label>
       <input type="date" id="release" name="release" required>
   </div>
   <div class="field" style="display: none;">
