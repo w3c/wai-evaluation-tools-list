@@ -94,7 +94,7 @@ main > header { grid-column: 4 / span 4; }
 
   <div class="field" id="features">
     <label class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
-    <p>Add a description of key features and functionalities of the tool. Try to write description in a way that tool users can understand.</p>
+    <p>Add a description of key features and functionalities of the tool. Try to write this description in a way that tool users can understand.</p>
     <textarea id="features" name="features" rows="5" maxlength="350"></textarea>
 <!--     <div class="line">
       <label for="tool-feature_1" class="label-input"></label>
@@ -375,7 +375,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign browsers = site.data.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
-        <legend for="tool-browsers" class="label-input">Browser</legend>
+        <legend for="tool-browsers" class="label-input">Browser for plugin</legend>
         {% if browsers.info %}
           <abbr title="{{ browsers.info }}" class="toggletip-container">
               <img alt="{{ browsers.info }}" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />

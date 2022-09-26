@@ -28,7 +28,7 @@
 <div class="rightCol">
 	<div class="colRow">
 		{% if tool.product | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" /><p><b>Evaluate:</b></p>
+			<img src="/content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" />
 			<p>{% for prod in tool.product %}
 			  {{ prod }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -93,7 +93,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.checks | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" /><b>Accessibility checks:</b>
+			<img src="/content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" />
 			<p>{% for check in tool.checks %}
 			  {{ check }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
@@ -108,7 +108,7 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/scope.png" alt="Scope" /><b>Scope:</b>
+		<img src="/content-images/wai-evaluation-tools-list/scope.png" alt="Scope" />
 		<p>{% for automated in tool.automated %}
 		  {% assign currentFilter = site.data.filters | find: "id", "automated"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains automated"  %}
@@ -129,7 +129,7 @@
 	</div>
 	<div class="colRow">
 		{% if tool.assists | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/output.png" alt="Output" /><b>Output:</b>
+			<img src="/content-images/wai-evaluation-tools-list/output.png" alt="Output" />
 			<p>{% for assist in tool.assists %}
 			  {{ assist }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
