@@ -80,7 +80,7 @@ main>header {
 }
 
 #left-col h2 {
-  border: none;
+  /*border: none;*/
   margin: 0;
 }
 
@@ -224,6 +224,10 @@ main>header {
   padding-top: 2em;
   margin-top: 2em;
   border-top: 1px solid #ccc;
+}
+
+#tools-list h2 {
+  margin-top: 0;
 }
 
 @media (min-width: 60em) {
@@ -887,6 +891,7 @@ input[type=checkbox]
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .filter-header svg {
@@ -1143,7 +1148,8 @@ input[type=checkbox]
 }
 
 .submission-form .field span {
-  float: right;
+  /*float: right;*/
+  margin-left: 3px;
   color: var(--wai-green);
   font-weight: normal;
 }

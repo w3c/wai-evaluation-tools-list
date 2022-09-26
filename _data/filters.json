@@ -238,26 +238,6 @@
         "filtername": "Section 508"
       },
       {
-        "id": "RGAA",
-        "name": "RGAA",
-        "info": "France - Référentiel général d`amélioration de l`accessibilité",
-        "short": "RGAA",
-        "filtername": "RGAA"
-      },
-      {
-        "id": "BITV",
-        "name": "BITV",
-        "info": "Germany – Barrierefreie-Informationstechnik-Verordnung",
-        "short": "BITV",
-        "filtername": "BITV"
-      },
-      {
-        "id": "Irish",
-        "name": "Irish National IT Accessibility Guidelines",
-        "short": "Irish",
-        "filtername": "Irish National IT Accessibility Guidelines"
-      },
-      {
         "id": "JIS",
         "name": "JIS",
         "info": "Japan – Japanese Industry Standard",
@@ -272,17 +252,16 @@
         "filtername": "SI 5568"
       },
       {
-        "id": "StancaAct",
-        "name": "Stanca Act",
-        "info": "Italy",
-        "short": "Stanca Act",
-        "filtername": "Stanca Act"
-      },
-      {
         "id": "EPUB1.0",
         "name": "EPUB Accessibility 1.0",
         "short": "EPUD",
         "filtername": "EPUB Accessibility 1.0",
+      },
+      {
+        "id": "EN301549",
+        "name": "EN 301549",
+        "short": "EN 301549",
+        "filtername": "EN 301549",
       }
     ]
   },
@@ -397,7 +376,7 @@
   },
   {
     "id": "browsers",
-    "name": "Browser",
+    "name": "Browser for plugin",
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",

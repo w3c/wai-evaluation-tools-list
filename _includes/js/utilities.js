@@ -201,10 +201,10 @@ function changePage(page, activeToolsCount) {
       btn_next.style.visibility = "visible";
   }
 
-  var paginationCounter = document.getElementById("pagination-tools");
+  // var paginationCounter = document.getElementById("pagination-tools");
   var leftPag = (page-1) * toolsPerPage + 1;
   var rightPag = page * toolsPerPage;
-  paginationCounter.innerHTML = "Showing <span aria-live='polite'>" + leftPag + "-" + rightPag + "</span>";
+  // paginationCounter.innerHTML = "Showing <span aria-live='polite'>" + leftPag + "-" + rightPag + "</span>";
 }
 
 function callDebug(jsonFilters, jsonTools, filtersOn, newResults, toolsList) {

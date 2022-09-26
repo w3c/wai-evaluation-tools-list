@@ -56,9 +56,9 @@ footer: >
 </div>
 <div id="app">
     <div id="left-col" class="tools-filters">
-        <h2 class="visuallyhidden">Filters</h2>
         <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
         <form data-filter-form action="..." class="data-filter-form">
+            <h2>Filters</h2>
             <div class="filter-header">
                 <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
@@ -114,6 +114,7 @@ footer: >
         </form>
     </div>
     <div id="tools-list">
+        <h2>Tools list</h2>
         <div class="tools-list-header">
             <h2 class="visuallyhidden">List of tools</h2>
             <div class="field">
@@ -133,8 +134,7 @@ footer: >
                 </select>
             </div>
             <span id="status">
-                <p id="pagination-tools">Showing:</p>
-                <p id="total-tools">out of <span>{{ site.data.tools | size }} tools</span></p>
+                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->

@@ -35,7 +35,7 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" />
+		<img src="/content-images/wai-evaluation-tools-list/tooltype.png" alt="Type of tool" />
 		<p>{% for type in tool.type %}
 		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
