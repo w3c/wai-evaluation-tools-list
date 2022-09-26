@@ -1,4 +1,4 @@
-const submitForm = document.querySelector('form');
+const submitForm = document.querySelector('form[name="submission"]');
 
 if (submitForm) {
 

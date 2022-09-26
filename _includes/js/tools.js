@@ -47,6 +47,15 @@ if (filterForm && sortForm && search) {
     filterJson(filterForm);
   });
 
+  filterForm.querySelectorAll('input[type="checkbox"]').forEach(item => {
+    item.addEventListener('keyup', e => {
+        if (e.key === "Enter") {
+          item.checked = !item.checked;
+          filterJson(filterForm);
+        }
+      });
+  })
+
   sortForm.querySelector('select').addEventListener('change', el => {
     filterJson(filterForm);
   });
@@ -71,7 +80,7 @@ if (filterForm && sortForm && search) {
 
   //Add pagination after showing tools
   var initialArticles = Array.from(toolsListContent.querySelectorAll('aside'));
-  addPagination(initialArticles);
+  // addPagination(initialArticles);
 
   //Sort and filter init
   filterJson(filterForm);
@@ -287,7 +296,7 @@ if (filterForm && sortForm && search) {
         el.classList.remove("inactive");
       }
     })
-    addPagination(sortedArticles);
+    // addPagination(sortedArticles);
 
     var searchTerm = searchForm.value;
     if (Object.values(newResults).length === 0 && filtersOn.length > 0) {

@@ -30,7 +30,7 @@ main > header { grid-column: 4 / span 4; }
 <div class="submission-header">
   <a href="../list-of-evaluation-tools/" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
   <p>
-    This form allows you to provide information on your organization’s Tool for Web Accessibility Evaluation to be listed on the WAI website. Information submitted with this form will be publicly available in GitHub.
+    This form allows you to provide information on your organization’s Tool for Web Accessibility Evaluation to be listed on the WAI website. Information submitted will also be publicly available in GitHub.
   </p>
   <p>
     When you submit the form, we will strive to review and publish your submission within 2-4 weeks depending on the content. You will receive an email when we have reviewed your submission.
@@ -56,27 +56,27 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="general-information"><span>1/3</span>General information</h2>
 
   <div class="field">
-      <label for="title" class="label-input">Tool name<span>Required</span></label>
+      <label for="title" class="label-input">Tool name<span>(Required)</span></label>
       <input type="text" id="title" name="title" required>
   </div>
   <div class="field">
-      <label for="website" class="label-input">Web address (URL)<span>Required</span></label>
+      <label for="website" class="label-input">Web address (URL)<span>(Required)</span></label>
       <input type="url" id="website" name="website" required>
   </div>
   <div class="field">
-      <label for="provider" class="label-input">Vendor / organization<span>Required</span></label>
+      <label for="provider" class="label-input">Vendor / organization<span>(Required)</span></label>
       <input type="text" id="provider" name="provider" required>
   </div>
   <div class="field">
-      <label for="contact" class="label-input">Email address<span>Required</span></label>
+      <label for="contact" class="label-input">Email address<span>(Required)</span></label>
       <input type="email" id="contact" name="contact" required>
   </div>
   <div class="field">
-      <label for="release" class="label-input">Release date<span>Required</span></label>
+      <label for="release" class="label-input">Release date (dd/mm/jjjj)<span>(Required)</span></label>
       <input type="date" id="release" name="release" required>
   </div>
   <div class="field" style="display: none;">
-      <label for="update" class="label-input">Date of most recent update<span>Required</span></label>
+      <label for="update" class="label-input">Date of most recent update<span>(Required)</span></label>
       <input type="date" id="update" name="update" required>
   </div>
   <div class="field">
@@ -90,9 +90,10 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <div class="field" id="features">
-    <label class="label specialField">Features<span>Required</span></label>
-    <p>Add key features and functionalities of the tool. Try to write features in a way that tool users can understand.</p>
-    <div class="line">
+    <label class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
+    <p>Add a description of key features and functionalities of the tool. Try to write description in a way that tool users can understand.</p>
+    <textarea id="features" name="features" rows="5" maxlength="350"></textarea>
+<!--     <div class="line">
       <label for="tool-feature_1" class="label-input"></label>
       <input type="text" name="features[]" id="feature_1" class="select-form" required>
     </div>
@@ -101,7 +102,7 @@ main > header { grid-column: 4 / span 4; }
       <input type="text" name="features[]" id="feature_[n]" class="select-form" disabled> 
       <button aria-label="Remove feature" type="button" class="remove_line">Remove</button>
     </div>
-    <button type="button" class="add_line small">Add feature</button>
+    <button type="button" class="add_line small">Add feature</button> -->
     <!-- <button type="button" class="remove_line small" disabled>Remove last feature</button> -->
   </div>
   {% assign purpose = site.data.filters | find: "id", "purpose" %}
@@ -281,7 +282,7 @@ main > header { grid-column: 4 / span 4; }
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
   <div class="field" id="language">
-    <label class="label specialField">Language<span>Required</span></label>
+    <label class="label specialField">Language<span>(Required)</span></label>
     <p class="expl">Indicate in which language or languages this tool is provided.</p>
     <div class="line">
       <label for="tool-language_1" class="label-input"></label>

@@ -44,7 +44,7 @@
     {%- if firstForm %}
       // Adds check for one or more checkboxes in a required group
       // TODO handle more than one form
-      const form = document.querySelector('form')
+      const form = document.querySelector('form[name="submission"]')
       const submitButton = form.querySelector('button[type="submit"]')
       submitButton.addEventListener('click', (event) => {
         const requiredCheckboxes = form.querySelectorAll('input[type="checkbox"][required][group]')

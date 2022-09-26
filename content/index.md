@@ -56,9 +56,9 @@ footer: >
 </div>
 <div id="app">
     <div id="left-col" class="tools-filters">
-        <h2 class="visuallyhidden">Filters</h2>
         <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
         <form data-filter-form action="..." class="data-filter-form">
+            <h2>Filters</h2>
             <div class="filter-header">
                 <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
@@ -100,7 +100,7 @@ footer: >
             {% endfor %}
             {% assign langAvailable = site.data.lang %}
             <fieldset id="language" collapsed="true">
-                <legend class='collapsible'>Language </legend>  
+                <legend class='collapsible' tabindex="0">Language </legend>  
                     <div class="options collapsible">
                     {% for language in langAvailable %}
                         <div class="filter-options field">
@@ -114,15 +114,16 @@ footer: >
         </form>
     </div>
     <div id="tools-list">
+        <h2>Tools list</h2>
         <div class="tools-list-header">
             <h2 class="visuallyhidden">List of tools</h2>
             <div class="field">
-                <label for="search" aria-label="Search tools, eg. “contrast” or “WCAG”" class="visuallyhidden">Search tools, eg. “contrast” or “WCAG”</label>
-                <input type="search" id="search" placeholder="Search tools, eg. “contrast” or “WCAG”">
+                <label for="search" aria-label="Search tools" class="visuallyhidden">Search tools</label>
+                <input type="search" id="search" placeholder="Search tools">
             </div>
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
-                <select id="select" class="field" alt="Sort by">
+                <select id="select" class="field" aria-label="Sort by">
                     {% for sort in site.data.sorting %}
                         {% if sort.selected == "true" %}
                             <option value="{{ sort.id }}" selected>{{ sort.name }}</option>

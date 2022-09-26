@@ -133,7 +133,7 @@
   },
   {
     "id": "browsers",
-    "name": "Browsers",
+    "name": "Browsers for plugin",
     "step": "4",
     "question": "Which browser(s) should the tool run on?",
     "info": "",
