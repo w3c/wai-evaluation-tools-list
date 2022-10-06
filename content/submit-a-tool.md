@@ -89,6 +89,13 @@ main > header { grid-column: 4 / span 4; }
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </div>
+  <div class="field">
+    <label for="actrules" class="label-input">ACT Rules (URL)</label>
+    <input type="url" id="actrules" name="actrules">
+    <p class="subfieldtext">
+      Tool vendors can describe if and how their tool(s) support the Accessibility Conformance Testing Rules. If there is a report about the implementation of the rules, the details section of the tool in the Web Accessibility Evaluation Tools List will provide a link to the report. For more information, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a>.
+    </p>
+  </div>
 
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
@@ -275,13 +282,6 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  <div class="field">
-    <label for="actrules" class="label-input">ACT Rules (URL)</label>
-    <input type="url" id="actrules" name="actrules">
-    <p class="subfieldtext">
-      Tool vendors can describe if and how their tool(s) support the Accessibility Conformance Testing Rules. If there is a report about the implementation of the rules, the details section of the tool in the Web Accessibility Evaluation Tools List will provide a link to the report. For more information, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a>.
-    </p>
-  </div>
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
   <div class="field" id="language">
