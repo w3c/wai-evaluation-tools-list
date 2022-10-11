@@ -91,9 +91,9 @@ main > header { grid-column: 4 / span 4; }
   </div>
   <div class="field">
     <label for="actrules" class="label-input">ACT Rules (URL)</label>
-    <input type="url" id="actrules" name="actrules">
+    <input type="url" id="actrules" name="actrules" value="https://www.w3.org/WAI/standards-guidelines/act/implementations/">
     <p class="subfieldtext">
-      Tool vendors can describe if and how their tool(s) support the Accessibility Conformance Testing Rules. If there is a report about the implementation of the rules, the details section of the tool in the Web Accessibility Evaluation Tools List will provide a link to the report. For more information, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a>.
+      Tools that have a documented implementation of Accessibility Conformance Testing (ACT) Rules can include a link to their ACT implementation report. Tools that use a test engine with a documented ACT implementation can link to the report of this test engine. For more information, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a>. See also <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/#add-a-tool-or-methodology">Add a Test Tool or Methodology</a> for information on how to submit a new ACT implementation.
     </p>
   </div>
 
