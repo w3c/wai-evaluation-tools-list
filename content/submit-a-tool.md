@@ -93,8 +93,9 @@ main > header { grid-column: 4 / span 4; }
     <label for="actrules" class="label-input">ACT Rules (URL)</label>
     <input type="url" id="actrules" name="actrules" value="https://www.w3.org/WAI/standards-guidelines/act/implementations/">
     <p class="subfieldtext">
-      Accessibility Conformance Testing (ACT) rule implementations show how specific accessibility test tools and methodologies interpret ACT rule tesst cases.
-      Tools that have a documented implementation of Accessibility Conformance Testing (ACT) Rules can include a link to their ACT implementation report. Users will be able to filter based on whether or not a tool has implemented ACT rules. To learn more about ACT implementations, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a> and <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/#add-a-tool-or-methodology">Add a Test Tool or Methodology</a>
+      Accessibility Conformance Testing (ACT) rules are test units that describe how to meet requirements of accessibility standards, such as WCAG and WAI-ARIA.<br>
+      ACT rule implementations show how specific accessibility test tools and methodologies interpret ACT rule tesst cases.<br>
+      To learn more about ACT implementations, read <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">ACT Rules Implementation in Test Tools and Methodologies</a> and <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/#add-a-tool-or-methodology">Add a Test Tool or Methodology</a>
     </p>
   </div>
 
