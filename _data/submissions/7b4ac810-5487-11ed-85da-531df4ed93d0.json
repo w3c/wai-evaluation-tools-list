@@ -1,0 +1,92 @@
+{
+  "a11yloc": "",
+  "actrules": "https://google.com",
+  "assists": [
+    "Generate report of evaluation results",
+    "Display information within pages",
+    "Modify the presentation of pages",
+    "Accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "checks": [
+    "Color contrast",
+    "Compatible with assistive technology",
+    "Error (prevention)",
+    "Forms",
+    "Hover and Focus",
+    "Keyboard accessible",
+    "Labels",
+    "Language",
+    "Maps",
+    "Media alternatives",
+    "Navigation and links",
+    "Page structure",
+    "Readability",
+    "Resizing page",
+    "Tables",
+    "Text alternatives",
+    "Time (pause, adjust etc)",
+    "WAI-ARIA attributes"
+  ],
+  "contact": "ramtin.beheshti@hotmail.com",
+  "desktop": [
+    "iOS",
+    "MacOS"
+  ],
+  "features": "Good night, There are several issuses in my google, such az (XSS) attack , I find issuse in:google.com some one change code url and my url redirect ti another site.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "Section 508",
+    "EPUB Accessibility 1.0",
+    "EN 301549"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Desktop application",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Nickb",
+  "purpose": [
+    "Automated testing"
+  ],
+  "release": "2022-10-25",
+  "submission_date": "2022-10-25T17:07:18.417Z",
+  "submission_ref": "7b4ac810-5487-11ed-85da-531df4ed93d0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Evalutiom tools",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "Authoring tool plugin"
+  ],
+  "update": "2022-10-25",
+  "website": "https://analytics.google.com"
+}
