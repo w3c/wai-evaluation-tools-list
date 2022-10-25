@@ -89,11 +89,11 @@ main > header { grid-column: 4 / span 4; }
         While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </div>
-  <div class="field">
-    <label for="actrules" class="label-input">ACT rule impleementations (URL)</label>
-    <input type="url" id="actrules" name="actrules" value="https://www.w3.org/WAI/standards-guidelines/act/implementations/">
+  <div class="field" id="actrules">
+    <label for="actrules" class="label-input">ACT Rule Implementation Report (URL starting wth https://www.w3.org/WAI/standards-guidelines/act/implementations/)</label>
+    <input type="url" id="actrules" name="actrules">
     <p class="subfieldtext">
-      An Accessibility Conformance Testing (ACT) rule describes how to test an accessibility requirement. <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">Learn more about ACT rules</a>. An ACT rule implementation shows how a specific accessibility test tool or methodology evaluates ACT rule examples. <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/" target="_blank">Learn about ACT rule implementations</a>.
+      Accessibility Conformance Testing (ACT) Rules describe how to test accessibility requirements. <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">Learn about ACT Rules</a>. An ACT Rule Implementation Report provides details on how an accessibility test tool or methodology implements ACT Rules. <a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/">Learn about existing ACT Rules Implementation Reports</a>.
     </p>
   </div>
 
