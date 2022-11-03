@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://atoall.com/asp/accessibility-statement.asp",
+  "actrules": "",
+  "assists": [
+    "Modify the presentation of pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "checks": [
+    "Keyboard accessible"
+  ],
+  "contact": "admin@atoall.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Our world has multiple languages and different health conditions of the public. Alphabets of domain names are also away from each other. So, 3 billion people can not type website names easily. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Web Accessibility Tool",
+  "purpose": [
+    "Manual testing"
+  ],
+  "release": "2021-11-02",
+  "submission_date": "2022-11-03T07:36:50.404Z",
+  "submission_ref": "47863a40-5b4a-11ed-b917-9f39bca29291",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Web Doamin Name Accessibility Evaluation Tool",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2022-11-03",
+  "website": "https://atoall.com/web-accessibility-evaluation-tool.asp"
+}
