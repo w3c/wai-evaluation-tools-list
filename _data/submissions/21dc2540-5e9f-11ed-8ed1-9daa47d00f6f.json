@@ -1,0 +1,77 @@
+{
+  "a11yloc": "https://www.equalweb.com/html5/?_id=9491&did=1116&G=",
+  "actrules": "",
+  "assists": [
+    "Generate report of evaluation results",
+    "Accessibility score"
+  ],
+  "automated": [
+    "Entire product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "checks": [
+    "Color contrast",
+    "Compatible with assistive technology",
+    "Error (prevention)",
+    "Forms",
+    "Hover and Focus",
+    "Keyboard accessible",
+    "Labels",
+    "Language",
+    "Navigation and links",
+    "Page structure",
+    "Tables",
+    "Text alternatives",
+    "WAI-ARIA attributes"
+  ],
+  "contact": "natan@equalweb.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Test the website against the WCAG 2.1 AA standards and receive a detailed report with an overall web accessibility compliance score. The EqualWeb evaluation report displays the ADA guidelines that were met or yet require fixing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "Section 508",
+    "JIS",
+    "SI 5568",
+    "EPUB Accessibility 1.0",
+    "EN 301549"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "EqualWeb",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "release": "2022-07-22",
+  "submission_date": "2022-11-07T13:21:47.925Z",
+  "submission_ref": "21dc2540-5e9f-11ed-8ed1-9daa47d00f6f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Monitor",
+  "type": [
+    "Server-side integration"
+  ],
+  "update": "2022-11-07",
+  "website": "https://www.equalweb.com/monitor"
+}
