@@ -17,7 +17,7 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 github:
   repository: wai/wai-evaluation-tools-list
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /list-of-evaluation-tools/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /tools-list/evaluation/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /teach-advocate/list-of-evaluation-tools/@@
@@ -39,7 +39,7 @@ footer: >
 ---
 
 <style> 
-{% include css/styles.css %}
+{% include wai-evaluation-tools-list/css/styles.css %}
 </style>
 <div class="header-sup">
     <div class="header-left">
@@ -67,7 +67,7 @@ footer: >
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
-            {% for filter in site.data.filters %}
+            {% for filter in site.data.wai-evaluation-tools-list.filters %}
                 {% if filter.showmore %}
                     <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
                 {% else %}
@@ -124,7 +124,7 @@ footer: >
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
                 <select id="select" class="field" aria-label="Sort by">
-                    {% for sort in site.data.sorting %}
+                    {% for sort in site.data.wai-evaluation-tools-list.sorting %}
                         {% if sort.selected == "true" %}
                             <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
                         {% else %}
@@ -134,7 +134,7 @@ footer: >
                 </select>
             </div>
             <span id="status">
-                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
+                <p id="total-tools">Showing <span>{{ site.data.wai-evaluation-tools-list.tools | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
@@ -142,8 +142,8 @@ footer: >
         <div id="activeFilters"></div>
         <h4 id="found-tools"></h4>
         <div id="tools-list-body" class="tools-list">
-            {% assign defaultSort = site.data.sorting.first.sortkey %}
-            {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
+            {% assign defaultSort = site.data.wai-evaluation-tools-list.sorting.first.sortkey %}
+            {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.tools sort_key=defaultSort %}
         </div>
         <div id="disclaimer">
             {% include box.html type="start" title="Disclaimer" %}
@@ -160,7 +160,7 @@ footer: >
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->
 <script>
-{% include js/utilities.js %}
-{% include js/tools.js %}
-{% include js/helpers.js %}
+{% include wai-evaluation-tools-list/js/utilities.js %}
+{% include wai-evaluation-tools-list/js/tools.js %}
+{% include wai-evaluation-tools-list/js/helpers.js %}
 </script>
