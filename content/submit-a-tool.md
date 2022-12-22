@@ -7,8 +7,8 @@ last_updated: 2021-@@-@@
 github:
   repository: w3c/wai-evaluation-tools-list
   path: content/submit-a-tool.md
-permalink: list-of-evaluation-tools/submit-a-tool
-ref: /teach-advocate/evaluation-tools-list/
+permalink: /tools-list/evaluation/submit-a-tool/
+ref: /tools-list/evaluation/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
 acknowledgements: /teach-advocate/evaluation-tools-list/acknowledgements/
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
@@ -23,7 +23,7 @@ footer:
 <div style="grid-column: 4 / span 4">
 
 <style>
-{% include css/styles.css %}
+{% include wai-evaluation-tools-list/css/styles.css %}
 main > header { grid-column: 4 / span 4; }
 </style>
 
@@ -44,7 +44,7 @@ main > header { grid-column: 4 / span 4; }
   
 </div>
 
-{%- include list-submission-form.liquid type="start"
+{%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
                                    name="submission"
                                    version="1"
                                    success="/success.html"
@@ -115,7 +115,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add feature</button> -->
     <!-- <button type="button" class="remove_line small" disabled>Remove last feature</button> -->
   </div>
-  {% assign purpose = site.data.filters | find: "id", "purpose" %}
+  {% assign purpose = site.data.wai-evaluation-tools-list.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
       <div class="fieldheader">
         <legend for="tool-purpose" class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
@@ -136,8 +136,8 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign product = site.data.filters | find: "id", "product" %}
-  <fieldset class="field" id="product">
+  {% assign product = site.data.wai-evaluation-tools-listfilters | find: "id", "product" %}
+  <fieldset class="field" id="product">.
       <div class="fieldheader">
         <legend for="tool-product" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
@@ -162,7 +162,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign technology = site.data.filters | find: "id", "technology" %}
+  {% assign technology = site.data.wai-evaluation-tools-list.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
         <legend for="tool-technology" class="label-input">File to evaluate</legend>
@@ -188,7 +188,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign automated = site.data.filters | find: "id", "automated" %}
+  {% assign automated = site.data.wai-evaluation-tools-list.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
       <div class="fieldheader">
         <legend for="tool-automated" class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
@@ -209,7 +209,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign checks = site.data.filters | find: "id", "checks" %}
+  {% assign checks = site.data.wai-evaluation-tools-list.filters | find: "id", "checks" %}
   <fieldset class="field" id="checks">
       <div class="fieldheader">
         <legend for="tool-checks" class="label-input">Accessibility checks</legend>
@@ -230,7 +230,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign guideline = site.data.filters | find: "id", "guideline" %}
+  {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
         <legend for="tool-guideline" class="label-input">Guidelines and standards</legend>
@@ -256,7 +256,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign assists = site.data.filters | find: "id", "assists" %}
+  {% assign assists = site.data.wai-evaluation-tools-list.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
       <div class="fieldheader">
         <legend for="tool-assists" class="label-input">Output</legend>
@@ -309,7 +309,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add language</button>
     <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
   </div>
-  {% assign license = site.data.filters | find: "id", "license" %}
+  {% assign license = site.data.wai-evaluation-tools-list.filters | find: "id", "license" %}
  <fieldset class="field" id="license">
   <div class="field-group">
       <legend for="tool-license" class="label-input">License<span class="short-sub">(Required)</span></legend>
@@ -346,7 +346,7 @@ main > header { grid-column: 4 / span 4; }
       </div>
     </div>
   </fieldset>
-  {% assign type = site.data.filters | find: "id", "type" %}
+  {% assign type = site.data.wai-evaluation-tools-list.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
       <div class="fieldheader">
         <legend for="tool-type" class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
@@ -372,7 +372,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign browsers = site.data.filters | find: "id", "browsers" %}
+  {% assign browsers = site.data.wai-evaluation-tools-list.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
         <legend for="tool-browsers" class="label-input">Browser for plugin</legend>
@@ -398,7 +398,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign desktop = site.data.filters | find: "id", "desktop" %}
+  {% assign desktop = site.data.wai-evaluation-tools-list.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
       <legend for="tool-desktop" class="label-input">Operating system</legend>
@@ -429,8 +429,8 @@ main > header { grid-column: 4 / span 4; }
     <button type="submit" class="submit-tool">Submit tool</button>
   </div>
 </div>
-{% include list-submission-form.liquid type="end"%}
+{% include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="end"%}
 
 <script>
-{% include js/submission.js %}
+{% include wai-evaluation-tools-list/js/submission.js %}
 </script>
