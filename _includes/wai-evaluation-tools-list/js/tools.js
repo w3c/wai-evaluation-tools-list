@@ -47,6 +47,15 @@ if (filterForm && sortForm && search) {
     filterJson(filterForm);
   });
 
+  filterForm.querySelectorAll('input[type="checkbox"]').forEach(item => {
+    item.addEventListener('keyup', e => {
+        if (e.key === "Enter") {
+          item.checked = !item.checked;
+          filterJson(filterForm);
+        }
+      });
+  })
+
   sortForm.querySelector('select').addEventListener('change', el => {
     filterJson(filterForm);
   });
@@ -71,7 +80,7 @@ if (filterForm && sortForm && search) {
 
   //Add pagination after showing tools
   var initialArticles = Array.from(toolsListContent.querySelectorAll('aside'));
-  addPagination(initialArticles);
+  // addPagination(initialArticles);
 
   //Sort and filter init
   filterJson(filterForm);
@@ -287,7 +296,7 @@ if (filterForm && sortForm && search) {
         el.classList.remove("inactive");
       }
     })
-    addPagination(sortedArticles);
+    // addPagination(sortedArticles);
 
     var searchTerm = searchForm.value;
     if (Object.values(newResults).length === 0 && filtersOn.length > 0) {
@@ -299,13 +308,13 @@ if (filterForm && sortForm && search) {
       hideClearButton(true);
     }
     if(Object.values(newResults).length === 1){
-      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " tool</span>";
+      totalToolsCounter.innerHTML = "Showing <span aria-live='polite'>" + Object.values(newResults).length + " tool</span>";
     }else{
-      totalToolsCounter.innerHTML = "Showing <span>" + Object.values(newResults).length + " tools</span>";
+      totalToolsCounter.innerHTML = "Showing <span aria-live='polite'>" + Object.values(newResults).length + " tools</span>";
     }
 
     if(searchTerm.length > 0){
-      totalToolsCounter.innerHTML += " for: <span>\"" + searchTerm + "\"</span>";
+      totalToolsCounter.innerHTML += " for: <span aria-live='polite'>\"" + searchTerm + "\"</span>";
     }
 
     console.log(newResults);
@@ -349,7 +358,7 @@ if (filterForm && sortForm && search) {
         if(getFilterName(filter) == "Statement available"){
           prefix += filterGroup.filterName + ": ";
         }
-        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')" onkeyup="removeFilterEnter(event, \''+filter+'\')" tabindex="0">{% include_cached icon.html name="ex-circle" label="Remove filter" %}</a></div>';
+        activeFiltersBlock.innerHTML += '<div class="filterTag">'+prefix+getFilterName(filter)+' <a onclick="removeFilter(\''+filter+'\')" onkeyup="removeFilterEnter(event, \''+filter+'\')" tabindex="0">{% include_cached icon.html name="ex-circle" label="Remove filter for '+prefix+getFilterName(filter)+'" %}</a></div>';
       })
     })
     if(filtersOn.length > 0){

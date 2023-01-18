@@ -16,7 +16,7 @@
 .header-sup {
   display: grid;
   grid-gap: 5em;
-  grid-column: 1 / 8;
+  grid-column: 2 / 9;
   margin-bottom: 48px;
 }
 
@@ -40,6 +40,14 @@
 .button-submit-end{
   grid-column: 2 / 8;
   margin-top: 2em;
+}
+
+.button-help-me-choose:focus{
+  outline-color: var(--gold) !important;
+}
+
+#improvepage .button-more:focus{
+  outline-color: var(--gold) !important;
 }
 
 @media ( min-width: 72em) {
@@ -72,7 +80,7 @@ main>header {
 }
 
 #left-col h2 {
-  border: none;
+  /*border: none;*/
   margin: 0;
 }
 
@@ -98,20 +106,18 @@ main>header {
 }
 
 #left-col .box-i {
-  background-color: var(--wai-green);
-  border: none;
+  border: 1px solid #ccc;
   padding: 16px;
   display: flex;
   flex-wrap: wrap;
-  color: white;
-  border-radius: 5px;
+  color: var(--wai-green);
 }
 
 #left-col .box-i a {
   width: 100%;
-  background-color: white;
+/*  background-color: white;
   color: var(--wai-green);
-  border-color: white;
+  border-color: white;*/
 }
 
 #left-col .box-i a:hover {
@@ -220,6 +226,10 @@ main>header {
   border-top: 1px solid #ccc;
 }
 
+#tools-list h2 {
+  margin-top: 0;
+}
+
 @media (min-width: 60em) {
   #tools-list {
     grid-column: 4 / span 7;
@@ -251,10 +261,17 @@ details dt::after {
 .label-input {
   font-size: 1.25rem;
   font-weight: 700;
+  color: var(--wai-green);
 }
 
 .field-topic, .field-prerequisite {
   margin-top: 2em;
+}
+
+.specialField {
+  color: var(--wai-green);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* 
@@ -395,10 +412,12 @@ details>div{
 .tools-list-header #status {
   grid-column: 1 / 8;
   align-self: center;
+  display: flex;
 }
 
 .tools-list-header #status p {
   margin: 0;
+  margin-right: 5px;
 }
 
 .tools-list-header #status span {
@@ -414,13 +433,18 @@ details>div{
   justify-content: flex-end;
 }
 
-.tools-list-header .sort-by h4 {
+.tools-list-header .sort-by label {
   float: left;
   margin: 0;
-  margin-right: 0.5em
+  margin-right: 0.5em;
+  color: var(--wai-green);
 }
 
 legend {
+  color: var(--wai-green);
+}
+
+.submission-form .fieldheader label {
   color: var(--wai-green);
 }
 
@@ -521,6 +545,10 @@ legend abbr {
 .colRow p {
   margin: 0;
   margin-left: 2px;
+}
+
+.colRow b {
+  flex: none;
 }
 
 details {
@@ -863,6 +891,7 @@ input[type=checkbox]
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .filter-header svg {
@@ -883,6 +912,29 @@ input[type=checkbox]
 
 .closed {
   display: none !important;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+    transform: translateY(-4em);
+    opacity: 0;
+}
+
+.button--skip-link {
+    background-color: var(--gold) !important;
+    border-color: var(--gold) !important;
+    outline-color: currentColor !important;
+    color: var(--off-black) !important;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    top: 0.5em;
+    width: 10em;
+    opacity: 1;
+    transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
 }
 
 .showMoreBlock {
@@ -1090,13 +1142,14 @@ input[type=checkbox]
 }
 
 .submission-form label {
-  font-weight: normal;
+  /*font-weight: normal;*/
   font-size: initial;
   /*margin-bottom: 1rem;*/
 }
 
 .submission-form .field span {
-  float: right;
+  /*float: right;*/
+  margin-left: 3px;
   color: var(--wai-green);
   font-weight: normal;
 }
@@ -1123,6 +1176,14 @@ input[type=checkbox]
   flex-wrap: wrap;
 }
 
+.submission-form .fieldheader label {
+  font-weight: 700 !important;
+}
+
+.radio-field:hover img {
+  filter: brightness(0) invert(1);
+}
+
 .submission-form .fieldheader abbr {
   display: flex;
   align-items: center;
@@ -1130,6 +1191,11 @@ input[type=checkbox]
 }
 
 .submission-form legend {
+  display: contents;
+  font-size: 18px;
+}
+
+.submission-form .fieldheader label {
   display: contents;
   font-size: 18px;
 }

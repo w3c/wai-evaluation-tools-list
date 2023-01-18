@@ -50,7 +50,7 @@
     "name": "Purpose",
     "step": "2",
     "question": "What kind of testing should the tool support?",
-    "info": "Automated tools can currently find about 20% of accessibility issues. Tools supporting manual testing can help you test and find other issues and fix them. This way you can be sure your content is accessible and compliant with the standards and guidelines.",
+    "info": "Currently, automated tools are not able to detect all accessibility issues. Tools supporting manual testing can help you test and find other issues and fix them. This way you can be sure your content is accessible and compliant with the standards and guidelines.",
     "skip": "type",
     "options": [
       {
@@ -77,7 +77,7 @@
     "id": "type",
     "name": "Type of tool",
     "step": "3",
-    "question": "Do you prefer a type of tool integration?",
+    "question": "Should the tool work separately or integrated within other applications and environments?",
     "info": "",
     "skip": "checks",
     "options": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "browsers",
-    "name": "Browsers",
+    "name": "Browsers for plugin",
     "step": "4",
     "question": "Which browser(s) should the tool run on?",
     "info": "",

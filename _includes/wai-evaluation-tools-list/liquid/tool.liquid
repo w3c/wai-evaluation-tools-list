@@ -5,8 +5,8 @@
 
 {% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
-{% capture tool_title %}<a href="{{ tool.location }}" target="_blank">{{ tool.title }}
-{% include_cached icon.html name="external-link" %}</a> 
+{% capture tool_title %}<a href="{{ tool.location }}" target="_blank"><h3>{{ tool.title }}</h3>
+{% include_cached icon.html name="external-link" label="Open tool in new window" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.creator }}</p>
 <p class="rightColHeader">Last updated: {{ tool.update | join: "" | date: "%b %Y" }}</p>
@@ -28,14 +28,14 @@
 <div class="rightCol">
 	<div class="colRow">
 		{% if tool.product | size > 0 %}
-			<img src="/content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" /><p><b>Evaluate:</b></p>
+			<img src="/content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" />
 			<p>{% for prod in tool.product %}
 			  {{ prod }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/type.png" alt="Type of tool" />
+		<img src="/content-images/wai-evaluation-tools-list/tooltype.png" alt="Type of tool" />
 		<p>{% for type in tool.type %}
 		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
@@ -52,7 +52,7 @@
 		  {% assign currentFilter = site.data.filters | find: "id", "license"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains license"  %}
 		  {% if otherNames %}
-		  	{{ license }} ({{ otherNames.name }}){% if forloop.last %}{% else %}, {% endif %}
+		  	{{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		  {% else %}
 		  	{{ license }}{% if forloop.last %}{% else %}, {% endif %}
 		  {% endif %}
@@ -80,11 +80,6 @@
 	  	{% endif %}
 	  {% endfor %}
 	{% endfor %}
-	<div class="subBox">
-		<p>Is the information provided for this tool incorrect or outdated?</p>
-		<a href="{{ tool.location }}" target="_blank">Update information</a>
-		<a href="{{ tool.location }}" target="_blank">Report tool</a>
-	</div>
 </div>
 
 <div class="rightCol">
@@ -113,7 +108,7 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		<img src="/content-images/wai-evaluation-tools-list/scope.png" alt="Scope" /><b>Scope:</b>
+		<img src="/content-images/wai-evaluation-tools-list/scope.png" alt="Scope" />
 		<p>{% for automated in tool.automated %}
 		  {% assign currentFilter = site.data.filters | find: "id", "automated"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains automated"  %}
@@ -145,7 +140,7 @@
 			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 		{% endif %}
 		{% if tool.actrules %}
-			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="ACT Rules" /><p>ACT Rules implemented</p>
+			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p>ACT Rules implemented <a href="{{tool.actrules}}" target="_blank">(Report)</a></p>
 		{% endif %}
 	</div>
 </div>
