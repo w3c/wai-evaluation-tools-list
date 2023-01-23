@@ -2,13 +2,13 @@ const filterForm = document.querySelector('[data-filter-form]');
 const sortForm = document.querySelector('.sort-by');
 const searchForm = document.querySelector('#search');
 
-const importJson = String.raw`{{ site.data.tools | jsonify }}`;
+const importJson = String.raw`{{ site.data.wai-evaluation-tools-list.tools | jsonify }}`;
 importJson.replace("\\","\\\\");
 
 const jsonTools = JSON.parse(importJson);
-const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
-const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
-const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
+const jsonFilters = JSON.parse('{{site.data.wai-evaluation-tools-list.filters | jsonify}}');
+const jsonLang = JSON.parse('{{site.data.wai-evaluation-tools-list.lang | jsonify}}');
+const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-listcountries | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
