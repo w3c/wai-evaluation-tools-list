@@ -33,11 +33,7 @@ main > header { grid-column: 4 / span 4; }
     This form allows you to provide information on your organization’s Tool for Web Accessibility Evaluation to be listed on the WAI website. Information submitted will also be publicly available in GitHub.
   </p>
   <p>
-<<<<<<< HEAD
-    <b>Note:</b> This process is managed through GitHub (https://github.com/w3c/wai-evaluation-tools-list/pulls) - new submissions should appear on this page, if you wish to verify the information you have provided. 
-=======
-    When you submit the form, we will strive to review and publish your submission within 2-4 weeks depending on the content. You will receive an email when we have reviewed your submission.
->>>>>>> 25cff86d6ccdde3dd392fb7a704c7237c1104379
+
   </p>
   <p>
     If you have questions, want to update information in the list or delete a tool please send an e-mail to: <a href="mailto:group-wai-list-eval-tools@w3.org">group-wai-list-eval-tools@w3.org</a> 
@@ -81,15 +77,12 @@ main > header { grid-column: 4 / span 4; }
   <div class="field">
       <label for="release" class="label-input">Release date<span>(Required)</span></label>
       <input type="date" id="release" name="release" required>
-<<<<<<< HEAD
-  </fieldset>
-  <fieldset class="field" style="display: none;">
+  </div>
+  <div class="field" style="display: none;">
       <legend for="update"  class="label-input">Date of most recent update<span>Required</span></legend>
-=======
   </div>
   <div class="field" style="display: none;">
       <label for="update" class="label-input">Date of most recent update<span>(Required)</span></label>
->>>>>>> 25cff86d6ccdde3dd392fb7a704c7237c1104379
       <input type="date" id="update" name="update" required>
   </div>
   <div class="field">
