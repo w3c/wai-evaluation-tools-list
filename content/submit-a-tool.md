@@ -28,7 +28,7 @@ main > header { grid-column: 4 / span 4; }
 </style>
 
 <div class="submission-header">
-  <a href="../list-of-evaluation-tools/" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
+  <a href="../" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
   <p>
     This form allows you to provide information on your organization’s Tool for Web Accessibility Evaluation to be listed on the WAI website. Information submitted will also be publicly available in GitHub.
   </p>
