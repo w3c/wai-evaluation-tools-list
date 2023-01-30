@@ -53,7 +53,7 @@ main > header { grid-column: 4 / span 4; }
   {% include excol.html type="middle" %}
   Tools that **will** be included on this list include:
 
-  - Tools, applications or extensions that support the automatic evaluation of digital accessibility.
+  - Tools, applications or extensions that support the evaluation of digital accessibility.
   
   - Tools that simulate user experience in order to support the identification of accessibility issues. 
     
@@ -61,7 +61,7 @@ main > header { grid-column: 4 / span 4; }
   
   - Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.
   
-  - Tools that primarily seek to change content or code directly to improve accessibility rather than support evaluations.
+  - Tools that primarily change content or code directly to improve accessibility.
   
   - Checklists of accessibility requirements or Success Criteria.
   
