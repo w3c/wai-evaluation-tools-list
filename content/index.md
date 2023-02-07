@@ -123,7 +123,7 @@ footer: >
             </div>
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
-                <select id="select" class="field" aria-label="Sort by">
+                <select id="select" class="field">
                     {% for sort in site.data.wai-evaluation-tools-list.sorting %}
                         {% if sort.selected == "true" %}
                             <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
@@ -146,7 +146,7 @@ footer: >
             {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.tools sort_key=defaultSort %}
         </div>
         <div id="disclaimer">
-            {% include box.html type="start" title="Disclaimer" %}
+            {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
                 <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
                 <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
