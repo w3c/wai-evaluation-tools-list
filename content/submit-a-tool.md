@@ -89,7 +89,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="a11yloc" class="label-input">Accessibility statement (URL)</label>
       <input type="url" id="a11yloc" name="a11yloc">
       <p class="subfieldtext"> 
-        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
+        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </div>
   <div class="field">
@@ -139,8 +139,8 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign product = site.data.wai-evaluation-tools-listfilters | find: "id", "product" %}
-  <fieldset class="field" id="product">.
+  {% assign product = site.data.wai-evaluation-tools-list.filters | find: "id", "product" %}
+  <fieldset class="field" id="product">
       <div class="fieldheader">
         <legend for="tool-product" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
