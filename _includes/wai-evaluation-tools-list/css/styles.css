@@ -392,6 +392,17 @@ details>div{
 }
 */
 
+.searchbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchbox svg {
+  position: absolute;
+  right: 15px;
+}
+
 #helpimprove {
   grid-column: 4 / 10;
 }

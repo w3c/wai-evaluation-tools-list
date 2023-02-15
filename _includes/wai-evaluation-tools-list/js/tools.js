@@ -314,7 +314,10 @@ if (filterForm && sortForm && search) {
     }
 
     if(searchTerm.length > 0){
+      document.getElementsByClassName('searchbox')[0].getElementsByTagName("svg")[0].style.display = "none";
       totalToolsCounter.innerHTML += " for: <span aria-live='polite'>\"" + searchTerm + "\"</span>";
+    }else{
+      document.getElementsByClassName('searchbox')[0].getElementsByTagName("svg")[0].style.display = "";
     }
 
     console.log(newResults);
