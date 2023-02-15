@@ -117,9 +117,9 @@ footer: >
         <h2>Tools list</h2>
         <div class="tools-list-header">
             <h2 class="visuallyhidden">List of tools</h2>
-            <div class="field">
+            <div class="field searchbox">
                 <label for="search" aria-label="Search tools" class="visuallyhidden">Search tools</label>
-                <input type="search" id="search" placeholder="Search tools">
+                {% include_cached icon.html name="search" %}<input type="search" id="search" placeholder="Search tools">
             </div>
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
