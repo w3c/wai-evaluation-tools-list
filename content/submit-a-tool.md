@@ -42,6 +42,31 @@ main > header { grid-column: 4 / span 4; }
     <i>Please note that W3C does not endorse specific providers. Resources are listed with no quality rating.</i>
   </p>
   
+  <h2 id="scope">What evaluation tools are included</h2>
+  
+  <p>
+    This list includes digital accessibility evaluation software tools in any language, free or paid. These tools will help determine if digital content meet accessibility guidelines.
+  </p>
+  
+  {% include excol.html type="start" id="scope-info" %}
+  Evaluation Tools List details
+  {% include excol.html type="middle" %}
+  Tools that **will** be included on this list include:
+
+  - Tools, applications or extensions that support the evaluation of digital accessibility.
+  
+  - Tools that simulate user experience in order to support the identification of accessibility issues. 
+    
+  Tools that **will not** be included in this list are:
+  
+  - Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.
+  
+  - Tools that primarily change content or code directly to improve accessibility.
+  
+  - Checklists of accessibility requirements or Success Criteria.
+  
+  - Recommendations, best practices, or methodologies about digital accessibility.
+  {% include excol.html type="end" %}
 </div>
 
 {%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
