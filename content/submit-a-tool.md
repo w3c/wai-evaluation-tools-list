@@ -378,12 +378,13 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="type">
       <div class="fieldheader">
         <legend for="tool-type" class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
-        {% if type.info %}
+        <p>{{ type.info }}</p>
+<!--         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
               <img alt="{{ type.info }}" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
-        {% endif %}
+        {% endif %} -->
       </div>
       <div class="field-group">
         {% for option in type.options %}

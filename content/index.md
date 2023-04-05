@@ -23,8 +23,8 @@ permalink: /tools-list/evaluation/   # Add the language shortcode to the end, wi
   # previous: /teach-advocate/list-of-evaluation-tools/@@
   # next: /teach-advocate/list-of-evaluation-tools/@@
 ref: /teach-advocate/list-of-evaluation-tools/   # Translators, do not change this
-changelog: /teach-advocate/list-of-evaluation-tools//changelog/  # NEW: set up a changelog so it's ready for later
-acknowledgements: /teach-advocate/list-of-evaluation-tools/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
+changelog: /@@/changelog/  # NEW: set up a changelog so it's ready for later
+acknowledgements: /@@/acknowledgements/  # delete this line if don't have a separate acknowledgements page. And delete it in the footer below.
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
 # image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
 # In the footer below:
@@ -32,10 +32,11 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
+# NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
 footer: >
-   <p><strong>Date:</strong> <!-- Updated @@ Month 2021.--> First published Month 20@@. CHANGELOG.</p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href="https://www.w3.org/groups/wg/eowg/participants">participants of the EOWG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
+   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. CHANGELOG.</p>
+   <p><strong>Editors:</strong> @@name, @@name. Contributors: @@name, @@name, and <a href="https://www.w3.org/groups/wg/@@wg/participants">participants of the @@WG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
+   <p>Developed by the @@ Working Group (<a href="http://www.w3.org/WAI/@@/">@@WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/@@/">WAI-@@ project</a>, @@co-funded by the European Commission.</p>
 ---
 
 <style> 
