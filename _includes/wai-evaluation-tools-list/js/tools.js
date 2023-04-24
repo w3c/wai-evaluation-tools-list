@@ -199,7 +199,21 @@ if (filterForm && sortForm && search) {
           if(x[filter.filterId] !== undefined){
             if(filter.filterId === "language"){
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
-            }else{
+            }else if(filter.filterId === "actrules"){
+              if(x[filter.filterId] == null){
+                return false;
+              }else{
+                return x[filter.filterId];
+              }
+            }else if(filter.filterId === "a11yloc"){
+
+              if(x[filter.filterId] == null){
+                return false;
+              }else{
+                return x[filter.filterId];
+              }
+            }
+            else{
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               if(currentFilter != undefined){
                 var mask = currentFilter.options.find(o => o.name === r);

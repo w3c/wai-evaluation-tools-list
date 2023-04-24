@@ -136,11 +136,12 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		{% if tool.a11yinfo %}
+		{% if tool.a11yloc != "" %}
 			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 		{% endif %}
 		{% if tool.actrules %}
-			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p>ACT Rules implemented <a href="{{tool.actrules}}" target="_blank">(Report)</a></p>
+			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p><a href="{{tool.actrules}}" target="_blank">ACT Rules implemented</a>: <small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small><br>
+    		0 Rules <small>/ 0 Proposed Rules</small></p>
 		{% endif %}
 	</div>
 </div>

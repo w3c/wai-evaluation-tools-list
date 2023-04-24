@@ -410,7 +410,7 @@
     ]
   },
   {
-    "id": "a11yinfo",
+    "id": "a11yloc",
     "name": "Accessibility statement",
     "collapsed": "false",
     "info": "Vendor provided information on tools accessibility",
@@ -421,6 +421,21 @@
         "id": "yesas",
         "name": "Accessibility statement available",
         "filtername": "Tools providing accessibility information"
+      }                      
+    ]
+  },
+  {
+    "id": "actrules",
+    "name": "ACT Implementation",
+    "collapsed": "false",
+    "info": "Rules for harmonized WCAG and ARIA testing",
+    "type": "checkbox",
+    "order": "default",
+    "options": [
+      {
+        "id": "yesas",
+        "name": "Documented support for ACT Rules",
+        "filtername": "test"
       }                      
     ]
   },
