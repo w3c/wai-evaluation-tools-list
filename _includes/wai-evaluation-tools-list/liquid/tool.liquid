@@ -6,7 +6,7 @@
 {% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
 {% capture tool_title %}<a href="{{ tool.location }}" target="_blank"><h3>{{ tool.title }}</h3>
-{% include_cached icon.html name="external-link" label="Open tool in new window" %}</a> 
+{% include_cached icon.html name="external-link" aria-label="Open tool in new window" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.creator }}</p>
 <p class="rightColHeader">Last updated: {{ tool.update | join: "" | date: "%b %Y" }}</p>
@@ -136,11 +136,12 @@
 		{% endif %}
 	</div>
 	<div class="colRow">
-		{% if tool.a11yinfo %}
+		{% if tool.a11yloc != "" %}
 			<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 		{% endif %}
 		{% if tool.actrules %}
-			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p>ACT Rules implemented <a href="{{tool.actrules}}" target="_blank">(Report)</a></p>
+			<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" /><p><a href="{{tool.actrules}}" target="_blank">ACT Rules implemented</a>: <small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small><br>
+    		0 Rules <small>/ 0 Proposed Rules</small></p>
 		{% endif %}
 	</div>
 </div>

@@ -17,14 +17,14 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 github:
   repository: wai/wai-evaluation-tools-list
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /list-of-evaluation-tools/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /tools-list/evaluation/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /teach-advocate/list-of-evaluation-tools/@@
   # next: /teach-advocate/list-of-evaluation-tools/@@
 ref: /teach-advocate/list-of-evaluation-tools/   # Translators, do not change this
-changelog: /teach-advocate/list-of-evaluation-tools//changelog/  # NEW: set up a changelog so it's ready for later
-acknowledgements: /teach-advocate/list-of-evaluation-tools/acknowledgements/  # NEW: delete if don't have a separate acknowledgements page. And delete it in the footer below.
+changelog: /@@/changelog/  # NEW: set up a changelog so it's ready for later
+acknowledgements: /@@/acknowledgements/  # delete this line if don't have a separate acknowledgements page. And delete it in the footer below.
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
 # image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
 # In the footer below:
@@ -32,14 +32,15 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
+# NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
 footer: >
-   <p><strong>Date:</strong> <!-- Updated @@ Month 2021.--> First published Month 20@@. CHANGELOG.</p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href="https://www.w3.org/groups/wg/eowg/participants">participants of the EOWG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
+   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. CHANGELOG.</p>
+   <p><strong>Editors:</strong> @@name, @@name. Contributors: @@name, @@name, and <a href="https://www.w3.org/groups/wg/@@wg/participants">participants of the @@WG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
+   <p>Developed by the @@ Working Group (<a href="http://www.w3.org/WAI/@@/">@@WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/@@/">WAI-@@ project</a>, @@co-funded by the European Commission.</p>
 ---
 
 <style> 
-{% include css/styles.css %}
+{% include wai-evaluation-tools-list/css/styles.css %}
 </style>
 <div class="header-sup">
     <div class="header-left">
@@ -67,7 +68,7 @@ footer: >
                 {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
             {% include box.html type="end" %}
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
-            {% for filter in site.data.filters %}
+            {% for filter in site.data.wai-evaluation-tools-list.filters %}
                 {% if filter.showmore %}
                     <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
                 {% else %}
@@ -117,14 +118,14 @@ footer: >
         <h2>Tools list</h2>
         <div class="tools-list-header">
             <h2 class="visuallyhidden">List of tools</h2>
-            <div class="field">
+            <div class="field searchbox">
                 <label for="search" aria-label="Search tools" class="visuallyhidden">Search tools</label>
-                <input type="search" id="search" placeholder="Search tools">
+                {% include_cached icon.html name="search" %}<input type="search" id="search" placeholder="Search tools">
             </div>
             <div class="field" class="sort-by">
                 <label for="select">Sort by</label>
-                <select id="select" class="field" aria-label="Sort by">
-                    {% for sort in site.data.sorting %}
+                <select id="select" class="field">
+                    {% for sort in site.data.wai-evaluation-tools-list.sorting %}
                         {% if sort.selected == "true" %}
                             <option value="{{ sort.id }}" selected>{{ sort.name }}</option>
                         {% else %}
@@ -134,7 +135,7 @@ footer: >
                 </select>
             </div>
             <span id="status">
-                <p id="total-tools">Showing <span>{{ site.data.tools | size }} tools</span></p>
+                <p id="total-tools">Showing <span>{{ site.data.wai-evaluation-tools-list.tools | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
@@ -142,11 +143,11 @@ footer: >
         <div id="activeFilters"></div>
         <h4 id="found-tools"></h4>
         <div id="tools-list-body" class="tools-list">
-            {% assign defaultSort = site.data.sorting.first.sortkey %}
-            {% include tool.liquid data=site.data.tools sort_key=defaultSort %}
+            {% assign defaultSort = site.data.wai-evaluation-tools-list.sorting.first.sortkey %}
+            {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.tools sort_key=defaultSort %}
         </div>
         <div id="disclaimer">
-            {% include box.html type="start" title="Disclaimer" %}
+            {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
                 <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
                 <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
@@ -160,7 +161,7 @@ footer: >
     {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
 </div> -->
 <script>
-{% include js/utilities.js %}
-{% include js/tools.js %}
-{% include js/helpers.js %}
+{% include wai-evaluation-tools-list/js/utilities.js %}
+{% include wai-evaluation-tools-list/js/tools.js %}
+{% include wai-evaluation-tools-list/js/helpers.js %}
 </script>

@@ -135,7 +135,7 @@ main>header {
 }
 
 .tools-filters {
-  padding-right: 2em;
+  padding-right: 2.5em;
 }
 
 @media (min-width: 60em) {
@@ -224,6 +224,7 @@ main>header {
   padding-top: 2em;
   margin-top: 2em;
   border-top: 1px solid #ccc;
+  padding-left: 0.5em;
 }
 
 #tools-list h2 {
@@ -271,7 +272,16 @@ details dt::after {
 .specialField {
   color: var(--wai-green);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 18px !important;
+}
+
+.logos a:hover{
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.logos img:hover{
+  text-decoration: none !important;
 }
 
 /* 
@@ -381,6 +391,17 @@ details>div{
   }
 }
 */
+
+.searchbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchbox svg {
+  position: absolute;
+  right: 15px;
+}
 
 #helpimprove {
   grid-column: 4 / 10;
@@ -612,14 +633,14 @@ details[open] {
   margin-bottom: 50px !important;
 }
 
-details[open] summary{
+/*details[open] summary{
   position: absolute;
   bottom: 0;
   margin-bottom: -50px;
   left: 0;
   right: 0;
 }
-
+*/
 .tag {
   border: 1px solid #C4C4C4;
   box-sizing: border-box;

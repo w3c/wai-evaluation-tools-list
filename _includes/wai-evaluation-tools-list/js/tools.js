@@ -2,13 +2,13 @@ const filterForm = document.querySelector('[data-filter-form]');
 const sortForm = document.querySelector('.sort-by');
 const searchForm = document.querySelector('#search');
 
-const importJson = String.raw`{{ site.data.tools | jsonify }}`;
+const importJson = String.raw`{{ site.data.wai-evaluation-tools-list.tools | jsonify }}`;
 importJson.replace("\\","\\\\");
 
 const jsonTools = JSON.parse(importJson);
-const jsonFilters = JSON.parse('{{site.data.filters | jsonify}}');
-const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
-const jsonCountry = JSON.parse('{{ site.data.countries | jsonify}}');
+const jsonFilters = JSON.parse('{{site.data.wai-evaluation-tools-list.filters | jsonify}}');
+const jsonLang = JSON.parse('{{site.data.wai-evaluation-tools-list.lang | jsonify}}');
+const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-listcountries | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
@@ -199,7 +199,21 @@ if (filterForm && sortForm && search) {
           if(x[filter.filterId] !== undefined){
             if(filter.filterId === "language"){
               return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
-            }else{
+            }else if(filter.filterId === "actrules"){
+              if(x[filter.filterId] == null){
+                return false;
+              }else{
+                return x[filter.filterId];
+              }
+            }else if(filter.filterId === "a11yloc"){
+
+              if(x[filter.filterId] == null){
+                return false;
+              }else{
+                return x[filter.filterId];
+              }
+            }
+            else{
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               if(currentFilter != undefined){
                 var mask = currentFilter.options.find(o => o.name === r);
@@ -314,7 +328,10 @@ if (filterForm && sortForm && search) {
     }
 
     if(searchTerm.length > 0){
+      document.getElementsByClassName('searchbox')[0].getElementsByTagName("svg")[0].style.display = "none";
       totalToolsCounter.innerHTML += " for: <span aria-live='polite'>\"" + searchTerm + "\"</span>";
+    }else{
+      document.getElementsByClassName('searchbox')[0].getElementsByTagName("svg")[0].style.display = "";
     }
 
     console.log(newResults);

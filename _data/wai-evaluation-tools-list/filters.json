@@ -165,6 +165,7 @@
   {
     "id": "type",
     "name": "Type of tool",
+    "info": "Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and desktop application).",
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
@@ -409,7 +410,7 @@
     ]
   },
   {
-    "id": "a11yinfo",
+    "id": "a11yloc",
     "name": "Accessibility statement",
     "collapsed": "false",
     "info": "Vendor provided information on tools accessibility",
@@ -420,6 +421,21 @@
         "id": "yesas",
         "name": "Accessibility statement available",
         "filtername": "Tools providing accessibility information"
+      }                      
+    ]
+  },
+  {
+    "id": "actrules",
+    "name": "ACT Implementation",
+    "collapsed": "false",
+    "info": "Rules for harmonized WCAG and ARIA testing",
+    "type": "checkbox",
+    "order": "default",
+    "options": [
+      {
+        "id": "yesas",
+        "name": "Documented support for ACT Rules",
+        "filtername": "test"
       }                      
     ]
   },

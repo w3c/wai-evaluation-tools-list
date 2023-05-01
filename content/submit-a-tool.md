@@ -7,8 +7,8 @@ last_updated: 2021-@@-@@
 github:
   repository: w3c/wai-evaluation-tools-list
   path: content/submit-a-tool.md
-permalink: list-of-evaluation-tools/submit-a-tool
-ref: /teach-advocate/evaluation-tools-list/
+permalink: /tools-list/evaluation/submit-a-tool/
+ref: /tools-list/evaluation/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
 acknowledgements: /teach-advocate/evaluation-tools-list/acknowledgements/
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
@@ -23,17 +23,17 @@ footer:
 <div style="grid-column: 4 / span 4">
 
 <style>
-{% include css/styles.css %}
+{% include wai-evaluation-tools-list/css/styles.css %}
 main > header { grid-column: 4 / span 4; }
 </style>
 
 <div class="submission-header">
-  <a href="../list-of-evaluation-tools/" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
+  <a href="../" class="backtolist">{% include_cached icon.html name="arrow-left" %}Back to List of Evaluation Tools</a>
   <p>
     This form allows you to provide information on your organization’s Tool for Web Accessibility Evaluation to be listed on the WAI website. Information submitted will also be publicly available in GitHub.
   </p>
   <p>
-    When you submit the form, we will strive to review and publish your submission within 2-4 weeks depending on the content. You will receive an email when we have reviewed your submission.
+
   </p>
   <p>
     If you have questions, want to update information in the list or delete a tool please send an e-mail to: <a href="mailto:group-wai-list-eval-tools@w3.org">group-wai-list-eval-tools@w3.org</a> 
@@ -42,9 +42,34 @@ main > header { grid-column: 4 / span 4; }
     <i>Please note that W3C does not endorse specific providers. Resources are listed with no quality rating.</i>
   </p>
   
+  <h2 id="scope">What evaluation tools are included</h2>
+  
+  <p>
+    This list includes digital accessibility evaluation software tools in any language, free or paid. These tools will help determine if digital content meet accessibility guidelines.
+  </p>
+  
+  {% include excol.html type="start" id="scope-info" %}
+  Evaluation Tools List details
+  {% include excol.html type="middle" %}
+  Tools that **will** be included on this list include:
+
+  - Tools, applications or extensions that support the evaluation of digital accessibility.
+  
+  - Tools that simulate user experience in order to support the identification of accessibility issues. 
+    
+  Tools that **will not** be included in this list are:
+  
+  - Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.
+  
+  - Tools that primarily change content or code directly to improve accessibility.
+  
+  - Checklists of accessibility requirements or Success Criteria.
+  
+  - Recommendations, best practices, or methodologies about digital accessibility.
+  {% include excol.html type="end" %}
 </div>
 
-{%- include list-submission-form.liquid type="start"
+{%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
                                    name="submission"
                                    version="1"
                                    success="/success.html"
@@ -79,6 +104,9 @@ main > header { grid-column: 4 / span 4; }
       <input type="date" id="release" name="release" required>
   </div>
   <div class="field" style="display: none;">
+      <legend for="update"  class="label-input">Date of most recent update<span>Required</span></legend>
+  </div>
+  <div class="field" style="display: none;">
       <label for="update" class="label-input">Date of most recent update<span>(Required)</span></label>
       <input type="date" id="update" name="update" required>
   </div>
@@ -86,7 +114,7 @@ main > header { grid-column: 4 / span 4; }
       <label for="a11yloc" class="label-input">Accessibility statement (URL)</label>
       <input type="url" id="a11yloc" name="a11yloc">
       <p class="subfieldtext"> 
-        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your (potential) users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
+        While an accessibility statement is not required to submit a tool, it provides valuable information on your commitment to accessibility to your users. Get started by visiting <a href="https://www.w3.org/WAI/planning/statements/" target="_blank">Developing an Accessibility Statement</a>.
       </p>
   </div>
   <div class="field">
@@ -115,7 +143,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add feature</button> -->
     <!-- <button type="button" class="remove_line small" disabled>Remove last feature</button> -->
   </div>
-  {% assign purpose = site.data.filters | find: "id", "purpose" %}
+  {% assign purpose = site.data.wai-evaluation-tools-list.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
       <div class="fieldheader">
         <legend for="tool-purpose" class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
@@ -136,7 +164,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign product = site.data.filters | find: "id", "product" %}
+  {% assign product = site.data.wai-evaluation-tools-list.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
       <div class="fieldheader">
         <legend for="tool-product" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
@@ -162,7 +190,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign technology = site.data.filters | find: "id", "technology" %}
+  {% assign technology = site.data.wai-evaluation-tools-list.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
         <legend for="tool-technology" class="label-input">File to evaluate</legend>
@@ -188,7 +216,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign automated = site.data.filters | find: "id", "automated" %}
+  {% assign automated = site.data.wai-evaluation-tools-list.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
       <div class="fieldheader">
         <legend for="tool-automated" class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
@@ -209,7 +237,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign checks = site.data.filters | find: "id", "checks" %}
+  {% assign checks = site.data.wai-evaluation-tools-list.filters | find: "id", "checks" %}
   <fieldset class="field" id="checks">
       <div class="fieldheader">
         <legend for="tool-checks" class="label-input">Accessibility checks</legend>
@@ -230,7 +258,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign guideline = site.data.filters | find: "id", "guideline" %}
+  {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
         <legend for="tool-guideline" class="label-input">Guidelines and standards</legend>
@@ -256,7 +284,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign assists = site.data.filters | find: "id", "assists" %}
+  {% assign assists = site.data.wai-evaluation-tools-list.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
       <div class="fieldheader">
         <legend for="tool-assists" class="label-input">Output</legend>
@@ -309,7 +337,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="button" class="add_line small">Add language</button>
     <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
   </div>
-  {% assign license = site.data.filters | find: "id", "license" %}
+  {% assign license = site.data.wai-evaluation-tools-list.filters | find: "id", "license" %}
  <fieldset class="field" id="license">
   <div class="field-group">
       <legend for="tool-license" class="label-input">License<span class="short-sub">(Required)</span></legend>
@@ -346,16 +374,17 @@ main > header { grid-column: 4 / span 4; }
       </div>
     </div>
   </fieldset>
-  {% assign type = site.data.filters | find: "id", "type" %}
+  {% assign type = site.data.wai-evaluation-tools-list.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
       <div class="fieldheader">
         <legend for="tool-type" class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
-        {% if type.info %}
+        <p>{{ type.info }}</p>
+<!--         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
               <img alt="{{ type.info }}" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
               <span class="toggletip-span" role="status"></span>
           </abbr>
-        {% endif %}
+        {% endif %} -->
       </div>
       <div class="field-group">
         {% for option in type.options %}
@@ -372,7 +401,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign browsers = site.data.filters | find: "id", "browsers" %}
+  {% assign browsers = site.data.wai-evaluation-tools-list.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
         <legend for="tool-browsers" class="label-input">Browser for plugin</legend>
@@ -398,7 +427,7 @@ main > header { grid-column: 4 / span 4; }
         {% endfor %}
       </div>
   </fieldset>
-  {% assign desktop = site.data.filters | find: "id", "desktop" %}
+  {% assign desktop = site.data.wai-evaluation-tools-list.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
       <legend for="tool-desktop" class="label-input">Operating system</legend>
@@ -429,8 +458,8 @@ main > header { grid-column: 4 / span 4; }
     <button type="submit" class="submit-tool">Submit tool</button>
   </div>
 </div>
-{% include list-submission-form.liquid type="end"%}
+{% include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="end"%}
 
 <script>
-{% include js/submission.js %}
+{% include wai-evaluation-tools-list/js/submission.js %}
 </script>
