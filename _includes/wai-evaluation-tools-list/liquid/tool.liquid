@@ -72,7 +72,7 @@
 
 <div class="leftCol">
 	{% if tool.guideline | size > 0 %}<h4>Guidelines</h4>{% endif %}
-	{% assign filterGuidelines = site.data.filters | find: "id", "guideline" %}
+	{% assign filterGuidelines = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
 	{% for guideline in tool.guideline %}
 	  {% for option in filterGuidelines.options %}
 	  	{% if guideline contains option.filtername %}
