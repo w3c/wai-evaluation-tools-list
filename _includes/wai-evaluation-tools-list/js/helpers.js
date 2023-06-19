@@ -1,4 +1,4 @@
-const jsonHelpers = JSON.parse('{{site.data.helpers | jsonify}}');
+const jsonHelpers = JSON.parse('{{site.data.wai-evaluation-tools-list.helpers | jsonify}}');
 
 var activeHelperFilters = [];
 var prevStep = [];

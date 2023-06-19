@@ -69,6 +69,11 @@ main > header { grid-column: 4 / span 4; }
   {% include excol.html type="end" %}
 </div>
 
+<div class="radio-field external-checkbox">
+  <input type="checkbox" id="title" name="readterms" required>
+  <label for="readterms">I read the "Evaluation Tools List details" above. This tool is in the "Tools that will be included on this list". It is not in the "Tools that will not be included". (Required)</label>
+</div>
+
 {%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
                                    name="submission"
                                    version="1"

@@ -204,8 +204,8 @@
       },
       {
         "id": "authoringTool",
-        "name": "Authoring tool plugin",
-        "info": "For content creation software"
+        "name": "CMS plugin",
+        "info": "Content Management System plugin"
       }                       
     ]
   },
@@ -253,10 +253,10 @@
         "filtername": "SI 5568"
       },
       {
-        "id": "EPUB1.0",
-        "name": "EPUB Accessibility 1.0",
-        "short": "EPUD",
-        "filtername": "EPUB Accessibility 1.0",
+        "id": "EPUB",
+        "name": "EPUB Accessibility",
+        "short": "EPUB",
+        "filtername": "EPUB Accessibility",
       },
       {
         "id": "EN301549",
@@ -332,7 +332,8 @@
       },
       {
         "id": "entireProduct",
-        "name": "Entire product"
+        "name": "Entire website / software / product",
+        "filtername": ["Entire product"]
       },
       {
         "id": "restrictedPages",
@@ -413,14 +414,14 @@
     "id": "a11yloc",
     "name": "Accessibility statement",
     "collapsed": "false",
-    "info": "Vendor provided information on tools accessibility",
+    "info": "Vendor provided information on tool accessibility",
     "type": "checkbox",
     "order": "default",
     "options": [
       {
         "id": "yesas",
         "name": "Accessibility statement available",
-        "filtername": "Tools providing accessibility information"
+        "filtername": "Tool providing accessibility information"
       }                      
     ]
   },
