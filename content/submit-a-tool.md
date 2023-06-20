@@ -45,33 +45,24 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="scope">What evaluation tools are included</h2>
   
   <p>
-    This list includes digital accessibility evaluation software tools in any language, free or paid. These tools will help determine if digital content meet accessibility guidelines.
+    This list includes digital accessibility evaluation software tools in any language, free or paid. These tools are specifically designed to help determine if digital content meets accessibility guidelines.
   </p>
   
-  {% include excol.html type="start" id="scope-info" %}
-  Evaluation Tools List details
-  {% include excol.html type="middle" %}
-  Tools that **will** be included on this list include:
+  <p>Tools that <strong>will</strong> be included on this list include:</p>
 
-  - Tools, applications or extensions that support the evaluation of digital accessibility.
-  
-  - Tools that simulate user experience in order to support the identification of accessibility issues. 
+  <ul>
+    <li>Tools, applications or extensions that are specifically designed to support the evaluation of digital accessibility.</li>
+    <li>Tools that simulate user experience in order to support the identification of accessibility issues.</li>
+  </ul>
     
-  Tools that **will not** be included in this list are:
+  <p>Tools that <strong>will not</strong> be included in this list are:</p>
   
-  - Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.
-  
-  - Tools that primarily change content or code directly to improve accessibility.
-  
-  - Checklists of accessibility requirements or Success Criteria.
-  
-  - Recommendations, best practices, or methodologies about digital accessibility.
-  {% include excol.html type="end" %}
-</div>
-
-<div class="radio-field external-checkbox">
-  <input type="checkbox" id="title" name="readterms" required>
-  <label for="readterms">I read the "Evaluation Tools List details" above. This tool is in the "Tools that will be included on this list". It is not in the "Tools that will not be included". (Required)</label>
+  <ul>
+    <li>Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.</li>
+    <li>Tools that primarily change content or code directly to improve accessibility.</li>
+    <li>Checklists of accessibility requirements or Success Criteria.</li>
+    <li>Recommendations, best practices, or methodologies about digital accessibility.</li>
+  </ul>
 </div>
 
 {%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
@@ -81,6 +72,10 @@ main > header { grid-column: 4 / span 4; }
                                    failure="/failure.html"
                                    repository="wai-evaluation-tools-list" -%}
 
+<div class="radio-field external-checkbox">
+  <input type="checkbox" id="readterms" name="readterms" required>
+  <label for="readterms">I have read the above and confirm that this submission meets the criteria for tools that will be included (Required)</label>
+</div>
 
 <div class="submission-form">
   <h2 id="general-information"><span>1/3</span>General information</h2>
