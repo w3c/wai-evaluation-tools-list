@@ -454,6 +454,21 @@ main > header { grid-column: 4 / span 4; }
       </div>
   </fieldset>
 
+  <h2 id="submission"><span>4/5</span>Submitting your evaluation tool</h2>
+
+  <div class="field">
+    <label for="comments" class="label-input">Comments</label>
+    <p class="expl" id="expl_comments">Let us know if you have further comments. This comment will be publicly available but not published on the evaluation tools list.</p>
+    <textarea id="comments" name="comments" aria-describedby="expl_comments"></textarea>
+  </div>
+  
+  <div class="radio-field external-checkbox">
+    <input type="checkbox" id="publish-permission" name="publish-permission" required>
+    <label for="publish-permission">I give permission for the information about this resource to be published in the W3C's Evaluation Tools List and archived on GitHub (Required).</label>
+  </div>
+  
+  <p>We will aim to review and publish your submission within 2-4 weeks depending on the content. You will receive an email when we have reviewed your submission.</p>
+
   <div class="field">
     <button type="submit" class="submit-tool">Submit tool</button>
   </div>

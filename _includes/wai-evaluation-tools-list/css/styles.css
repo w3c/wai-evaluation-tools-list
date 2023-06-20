@@ -1185,7 +1185,6 @@ input[type=checkbox]
 
 .submission-form .radio-field {
   display: flex;
-  align-items: center;
 }
 
 .submission-form .radio-field label {
@@ -1230,8 +1229,12 @@ input[type=checkbox]
 }
 
 .submission-form p {
-  margin: 0;
+  margin: 1em 0;
   width: 100%;
+}
+
+.submission-form > p {
+  padding: 4px;
 }
 
 .submission-form .submit-tool {
