@@ -13,7 +13,7 @@
 </div>
 {% endcapture %}
 
-{% capture tool_section_identifier %}section_{{ tool.title }}{% endcapture %}
+{% capture tool_section_identifier %}aside_{{ tool.title }}{% endcapture %}
 {% capture tool_details_id %}{{tool.title}}{% endcapture %}
 
 {% include box.html type="start" title=tool_title id=tool_details_id %}
@@ -40,14 +40,14 @@
 	<h4>Features</h4>
 	{% if tool.product | size > 0 %}
 	  <div class="colRow">
-			<img src="../../content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" />
+			<img src="/content-images/wai-evaluation-tools-list/product.png" alt="Product to evaluate" />
 			<p>{% for prod in tool.product %}
 			  {{ prod }}{% if forloop.last %}{% else %}, {% endif %}
 			{% endfor %}</p>
 	  </div>
 	{% endif %}
 	<div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/tooltype.png" alt="Type of tool" />
+		<img src="/content-images/wai-evaluation-tools-list/tooltype.png" alt="Type of tool" />
 		<p>{% for type in tool.type %}
 		  {% assign currentFilter = site.data.filters | find: "id", "type"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains type"  %}
@@ -59,7 +59,7 @@
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/paidfree.png" alt="Paid or free" />
+		<img src="/content-images/wai-evaluation-tools-list/paidfree.png" alt="Paid or free" />
 		<p>{% for license in tool.license %}
 		  {% assign currentFilter = site.data.filters | find: "id", "license"  %}
 		  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains license"  %}
@@ -71,7 +71,7 @@
 		{% endfor %}</p>
 	</div>
 	<div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/language.png" alt="Language" />
+		<img src="/content-images/wai-evaluation-tools-list/language.png" alt="Language" />
 		<p>{% for language in tool.language %}
 			{{ language }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -83,7 +83,7 @@ More features
 
 {% if tool.purpose | size > 0 %}
   <div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/purpose.png" alt="Purpose" />
+		<img src="/content-images/wai-evaluation-tools-list/purpose.png" alt="Purpose" />
 		<p>{% for purp in tool.purpose %}
 		  {{ purp }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -91,7 +91,7 @@ More features
 {% endif %}
 {% if tool.checks | size > 0 %}
   <div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" />
+		<img src="/content-images/wai-evaluation-tools-list/checks.png" alt="Accessibility checks" />
 		<p>{% for check in tool.checks %}
 		  {{ check }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -99,7 +99,7 @@ More features
 {% endif %}
 {% if tool.operatingsystems | size > 0 %}
   <div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/os.png" alt="Operating system" />
+		<img src="/content-images/wai-evaluation-tools-list/os.png" alt="Operating system" />
 		<p>{% for os in tool.operatingsystems %}
 		  {{ os }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -107,7 +107,7 @@ More features
 {% endif %}
 {% if tool.automated | size > 0 %}
 <div class="colRow">
-	<img src="../../content-images/wai-evaluation-tools-list/scope.png" alt="Scope" />
+	<img src="/content-images/wai-evaluation-tools-list/scope.png" alt="Scope" />
 	<p>{% for automated in tool.automated %}
 	  {% assign currentFilter = site.data.filters | find: "id", "automated"  %}
 	  {% assign otherNames = currentFilter.options | find_exp:"item", "item.filtername contains automated"  %}
@@ -121,7 +121,7 @@ More features
 {% endif %}
 {% if tool.browsers.size != 0 %}
   <div class="colRow">
-		<img src="../../content-images/wai-evaluation-tools-list/browsers.png" alt="Browser" />
+		<img src="/content-images/wai-evaluation-tools-list/browsers.png" alt="Browser" />
 		<p>{% for browser in tool.browsers %}
 		  {{ browser }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -129,7 +129,7 @@ More features
 {% endif %}
 <div class="colRow">
 	{% if tool.assists | size > 0 %}
-		<img src="../../content-images/wai-evaluation-tools-list/output.png" alt="Output" />
+		<img src="/content-images/wai-evaluation-tools-list/output.png" alt="Output" />
 		<p>{% for assist in tool.assists %}
 		  {{ assist }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
@@ -137,12 +137,12 @@ More features
 </div>
 {% if tool.a11yloc != "" %}
 <div class="colRow">
-	<img src="../../content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
+	<img src="/content-images/wai-evaluation-tools-list/accessibilitystatement.png" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 </div>
 {% endif %}
 {% if tool.actrules %}
 <div class="colRow">
-	<img src="../../content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" />
+	<img src="/content-images/wai-evaluation-tools-list/actrules.png" alt="ACT Rules" />
 	<p>
 		<a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
 		<small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small>
