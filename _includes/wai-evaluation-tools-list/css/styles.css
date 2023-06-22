@@ -529,6 +529,11 @@ select:hover {
 .tools-list .box-i {
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.tools-list .box-i h4 {
+  margin-top: 0;
 }
 
 label abbr {
@@ -558,7 +563,9 @@ legend abbr {
 }
 
 .leftCol {
-  flex: 50%;
+  flex: calc(50% - 0.5rem);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .rightCol {
@@ -629,16 +636,11 @@ summary h4 {
 
 #tools-list details>div {
   flex-wrap: wrap;
-  display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
   padding-top: 0.5rem;
   border: none;
-}
-
-details[open] {
-  margin-bottom: 50px !important;
 }
 
 /*details[open] summary{
