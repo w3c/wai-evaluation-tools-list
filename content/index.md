@@ -63,10 +63,6 @@ footer: >
             <div class="filter-header">
                 <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
-            {% include box.html type="start" class="simple" %}
-                <p>Need help finding the right tool?</p>
-                {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
-            {% include box.html type="end" %}
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.wai-evaluation-tools-list.filters %}
                 {% if filter.showfilter  %}

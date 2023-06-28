@@ -383,7 +383,7 @@
   {
     "id": "a11yloc",
     "name": "Accessibility statement",
-    "collapsed": "false",
+    "collapsed": "true",
     "info": "Vendor provided information on tool accessibility",
     "type": "checkbox",
     "order": "default",
@@ -399,7 +399,7 @@
   {
     "id": "actrules",
     "name": "ACT Implementation",
-    "collapsed": "false",
+    "collapsed": "true",
     "info": "Rules for harmonized WCAG and ARIA testing",
     "type": "checkbox",
     "order": "default",
