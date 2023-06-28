@@ -464,12 +464,12 @@ function updateDetail(e){
   if(e.querySelector("h4")){
     e = e.querySelector("h4");
   }
-  if(e.innerHTML == "Show more details"){
-    e.innerHTML = "Show less details";
+  if(e.innerHTML == "Show more features"){
+    e.innerHTML = "Show less features";
     // e.target.parentNode.parentNode.style.borderTop = "none"
     // r.style.setProperty("--pseudo-backgroundcolor", 'white');
   }else{
-    e.innerHTML = "Show more details";
+    e.innerHTML = "Show more features";
     // e.target.parentNode.parentNode.style.borderTop = ""
     // r.style.setProperty("--pseudo-backgroundcolor", 'lightgray');
   }
