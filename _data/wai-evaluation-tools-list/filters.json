@@ -206,7 +206,6 @@
     "id": "guideline",
     "name": "Standards",
     "collapsed": "false",
-    "showmore": "3",
     "type": "checkbox",
     "order": "custom",
     "showfilter" : true,
