@@ -69,19 +69,20 @@ footer: >
             {% include box.html type="end" %}
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.wai-evaluation-tools-list.filters %}
-                {% if filter.showmore %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
-                {% else %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
-                {% endif %}
-                <legend class="label" tabindex="0">{{ filter.name }}
-                    {% if filter.info %}
-                        <abbr title="{{ filter.info }}" class="toggletip-container">
-                            <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
-                            <span class="toggletip-span" role="status"></span>
-                        </abbr>
+                {% if filter.showfilter  %}
+                    {% if filter.showmore %}
+                        <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
+                    {% else %}
+                        <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                     {% endif %}
-                </legend>
+                    <legend class="label" tabindex="0">{{ filter.name }}
+                        {% if filter.info %}
+                            <abbr title="{{ filter.info }}" class="toggletip-container">
+                                <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                <span class="toggletip-span" role="status"></span>
+                            </abbr>
+                        {% endif %}
+                    </legend>
                     <div class="options">
                     {% for option in filter.options %}
                     <div class="filter-options field">
@@ -95,9 +96,10 @@ footer: >
                             {% endif %}
                         </label>
                     </div>
-                {% endfor %}
-                </div>
-            </fieldset>
+                    {% endfor %}
+                    </div>
+                </fieldset>
+                {% endif %}
             {% endfor %}
             {% assign langAvailable = site.data.lang %}
             <fieldset id="language" collapsed="true">

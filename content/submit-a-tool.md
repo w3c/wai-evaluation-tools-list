@@ -261,7 +261,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
-        <legend for="tool-guideline" class="label-input">Guidelines and standards</legend>
+        <legend for="tool-guideline" class="label-input">Standards</legend>
         {% if guideline.info %}
           <abbr title="{{ guideline.info }}" class="toggletip-container">
               <img alt="{{ guideline.info }}" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
