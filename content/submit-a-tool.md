@@ -242,7 +242,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="fieldheader">
         <legend for="tool-checks" class="label-input">Accessibility checks</legend>
       </div>
-      <p>Which aspects of web accessibility can users evaluate with this tool?</p>
+      <p>Which aspects of web accessibility can users evaluate with this tool? We are experimenting with providing this as a feature to help users find the right tool for their needs. If there are other options that this tool can check, please add them in the 'other' text box below the list.</p>
       <div class="field-group">
         {% for option in checks.options %}
           <div class="radio-field">
@@ -256,6 +256,11 @@ main > header { grid-column: 4 / span 4; }
             {% endif %}
           </div>
         {% endfor %}
+      </div>
+      
+      <div class="field">
+        <label for="otherchecks" class="label-input">Other accessibility aspects checked</label>
+        <textarea id="otherchecks" name="otherchecks"></textarea>
       </div>
   </fieldset>
   {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}

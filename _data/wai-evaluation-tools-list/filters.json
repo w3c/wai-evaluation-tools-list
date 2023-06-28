@@ -6,6 +6,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "automated",
@@ -27,6 +28,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "website",
@@ -62,6 +64,7 @@
     "info": "Selection of common issues",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : false,
     "options": [
       {
         "id": "colorContrast",
@@ -80,10 +83,6 @@
         "name": "Forms"
       },
       {
-        "id": "hoverAndFocus",
-        "name": "Hover and Focus"
-      },
-      {
         "id": "keyboardAccessible",
         "name": "Keyboard accessible"
       },
@@ -94,10 +93,6 @@
       {
         "id": "checksLanguage",
         "name": "Language"
-      },
-      {
-        "id": "maps",
-        "name": "Maps"
       },
       {
         "id": "mediaAlternatives",
@@ -129,12 +124,8 @@
         "name": "Text alternatives"
       },
       {
-        "id": "time",
-        "name": "Time (pause, adjust etc)"
-      },
-      {
         "id": "waiaria",
-        "name": "WAI-ARIA attributes"
+        "name": "WAI-ARIA"
       }                 
     ]
   },
@@ -144,6 +135,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "free",
@@ -169,6 +161,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "browserPlugin",
@@ -216,6 +209,7 @@
     "showmore": "3",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "WCAG2.1",
@@ -245,6 +239,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "html",
@@ -287,6 +282,7 @@
     "info": "Range and depth of single evaluation",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "component",
@@ -320,6 +316,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "android",
@@ -355,6 +352,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "chrome",
@@ -390,6 +388,7 @@
     "info": "Vendor provided information on tool accessibility",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "yesas",
@@ -405,6 +404,7 @@
     "info": "Rules for harmonized WCAG and ARIA testing",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "yesar",
@@ -419,6 +419,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "generateReport",
