@@ -161,5 +161,4 @@ footer: >
 <script>
 {% include wai-evaluation-tools-list/js/utilities.js %}
 {% include wai-evaluation-tools-list/js/tools.js %}
-{% include wai-evaluation-tools-list/js/helpers.js %}
 </script>
