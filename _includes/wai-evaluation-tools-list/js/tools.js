@@ -29,10 +29,6 @@ document.querySelectorAll('fieldset').forEach(item => {
   }
 })
 
-document.querySelector('.button-help-me-choose').addEventListener('click', e => {
-    getHelpMeChooseStep(e);
-})
-
 document.querySelector('.button-filters').addEventListener('click', e => {
     toggleFilters();
 })
