@@ -33,10 +33,6 @@
         "name": "Website"
       },
       {
-        "id": "productDesktopApplication",
-        "name": "Desktop application"
-      },
-      {
         "id": "productMobileApplication",
         "name": "Mobile application"
       },
@@ -173,10 +169,6 @@
       {
         "id": "browserPlugin",
         "name": "Browser plugin"
-      },
-      {
-        "id": "typeDesktopApplication",
-        "name": "Desktop application"
       },
       {
         "id": "typeMobileApplication",
