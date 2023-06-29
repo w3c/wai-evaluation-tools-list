@@ -276,6 +276,11 @@
         "filtername": "CSS"
       },
       {
+        "id": "epub",
+        "name": "EPUB",
+        "filtername": "EPUB"
+      },
+      {
         "id": "pdf",
         "name": "PDF",
         "filtername": "PDF"
