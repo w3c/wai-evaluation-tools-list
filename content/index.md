@@ -74,14 +74,15 @@ footer: >
                 {% else %}
                     <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                 {% endif %}
-                <legend class="label" tabindex="0">{{ filter.name }}
-                    {% if filter.info %}
-                        <abbr title="{{ filter.info }}" class="toggletip-container">
+                <div class="filterLegend"> 
+                <legend class="label" tabindex="0">{{ filter.name }}</legend>
+                {% if filter.info %}
+                        <abbr title="{{ filter.info }}" class="toggletip-container-legend">
                             <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
                             <span class="toggletip-span" role="status"></span>
                         </abbr>
                     {% endif %}
-                </legend>
+                </div>
                     <div class="options">
                     {% for option in filter.options %}
                     <div class="filter-options field">

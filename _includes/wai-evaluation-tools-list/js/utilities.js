@@ -1,14 +1,15 @@
 function makeCollapsible(item){
   var label = item.querySelector('legend');
   label.classList.add("collapsible");
+  var parent = label.parentNode;
   if(item.getAttribute("collapsed") == "true"){
-    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    parent.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     item.querySelector('.options').classList.add("collapsed");
   }else{
-    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+    parent.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
   }
-  label.addEventListener('click', e => { toggleCollapsed(item) });
-  label.addEventListener('keyup', e => { 
+  parent.addEventListener('click', e => { toggleCollapsed(item) });
+  parent.addEventListener('keyup', e => { 
     if (e.key === "Enter") {
       e.preventDefault();
       label.click();
@@ -54,7 +55,7 @@ function toggleShowMore(item){
 }
 
 function toggleCollapsed(item){
-  var label = item.querySelector('legend');
+  var label = item.querySelector('legend').parentNode;
   var options = item.querySelector('.options');
   if(options.classList.contains("collapsed")){
     label.querySelector('.icon-chevron-down').remove();
