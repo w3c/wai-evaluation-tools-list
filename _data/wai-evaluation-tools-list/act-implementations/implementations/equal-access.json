@@ -2,7 +2,7 @@
   "vendor": "IBM Accessibility",
   "name": "Equal Access Accessibility Checker",
   "version": "3.1.42-rc.0",
-  "lastModified": "27 May 2023",
+  "lastModified": "8 July 2023",
   "approvedRules": {
     "complete": 14,
     "partial": 4,
@@ -11,9 +11,9 @@
   },
   "proposedRules": {
     "complete": 10,
-    "partial": 5,
-    "inconsistent": 0,
-    "untested": 51
+    "partial": 4,
+    "inconsistent": 1,
+    "untested": 52
   },
   "actRuleMapping": [
     {
@@ -6093,9 +6093,9 @@
           ]
         },
         {
-          "testcaseId": "4373f9e70eb353c76d7e9d4c2cc4dcfd6c17ad70",
+          "testcaseId": "830f50dcf51acb0b97b948000d7c163e50858312",
           "testCaseName": "Passed Example 4",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/5f99a7/4373f9e70eb353c76d7e9d4c2cc4dcfd6c17ad70.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/5f99a7/830f50dcf51acb0b97b948000d7c163e50858312.html",
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
@@ -6404,6 +6404,15 @@
           ]
         }
       ]
+    },
+    {
+      "ruleId": "in6db8",
+      "ruleName": "ARIA required ID references exist",
+      "ruleApproved": false,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
     },
     {
       "ruleId": "bc4a75",
@@ -7903,7 +7912,7 @@
       "procedureNames": [
         "frame_title_exists:Pass_0,Fail_1"
       ],
-      "consistency": "partial",
+      "consistency": null,
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -7914,10 +7923,10 @@
         ]
       },
       "coverage": {
-        "covered": 9,
+        "covered": 8,
         "untested": 0,
         "cantTell": 0,
-        "testCaseTotal": 10
+        "testCaseTotal": 11
       },
       "testCaseResults": [
         {
@@ -7945,7 +7954,7 @@
             {
               "procedureName": "frame_title_exists:Pass_0,Fail_1",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -7960,7 +7969,7 @@
             {
               "procedureName": "frame_title_exists:Pass_0,Fail_1",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -8011,16 +8020,16 @@
           ]
         },
         {
-          "testcaseId": "8d7ed640412cd827b169ef4f465faed482feaa26",
+          "testcaseId": "0a18c94e7b8bd8d0a54c14acbc56958918fcad2b",
           "testCaseName": "Failed Example 4",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/8d7ed640412cd827b169ef4f465faed482feaa26.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/0a18c94e7b8bd8d0a54c14acbc56958918fcad2b.html",
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
             {
               "procedureName": "frame_title_exists:Pass_0,Fail_1",
               "outcomes": [
-                "inapplicable"
+                "failed"
               ]
             }
           ]
@@ -8056,9 +8065,24 @@
           ]
         },
         {
-          "testcaseId": "803b52f32a5d2193683f152aa5e00174d5f8416a",
+          "testcaseId": "77075e0f50c9b77457d90450bc31c0fae372dbaf",
           "testCaseName": "Inapplicable Example 3",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/803b52f32a5d2193683f152aa5e00174d5f8416a.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/77075e0f50c9b77457d90450bc31c0fae372dbaf.html",
+          "testCaseApproved": false,
+          "expected": "inapplicable",
+          "procedureResults": [
+            {
+              "procedureName": "frame_title_exists:Pass_0,Fail_1",
+              "outcomes": [
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "058668cee446d08989bf24d5ce3413dc2cda9975",
+          "testCaseName": "Inapplicable Example 4",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/058668cee446d08989bf24d5ce3413dc2cda9975.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
           "procedureResults": [
@@ -9256,7 +9280,7 @@
     },
     {
       "ruleId": "0ssw9k",
-      "ruleName": "Scrollable element is keyboard accessible",
+      "ruleName": "Scrollable element is included in the sequential focus navigation",
       "ruleApproved": false,
       "procedureNames": [],
       "consistency": null,

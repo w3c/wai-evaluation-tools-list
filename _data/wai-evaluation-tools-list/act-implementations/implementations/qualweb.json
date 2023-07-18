@@ -2,7 +2,7 @@
   "vendor": "LASIGE, Faculdade de Ciências da Universidade de Lisboa",
   "name": "QualWeb",
   "version": "3.0.0",
-  "lastModified": "22 May 2023",
+  "lastModified": "10 July 2023",
   "approvedRules": {
     "complete": 20,
     "partial": 2,
@@ -10,10 +10,10 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 9,
-    "partial": 23,
-    "inconsistent": 15,
-    "untested": 19
+    "complete": 11,
+    "partial": 20,
+    "inconsistent": 16,
+    "untested": 20
   },
   "actRuleMapping": [
     {
@@ -1061,14 +1061,14 @@
       "procedureNames": [
         "Element marked as decorative is not exposed"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [],
         "reported": []
       },
       "coverage": {
-        "covered": 9,
+        "covered": 10,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 10
@@ -1189,7 +1189,7 @@
             {
               "procedureName": "Element marked as decorative is not exposed",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -3078,7 +3078,7 @@
       "procedureNames": [
         "Link has accessible name"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -3092,7 +3092,7 @@
         ]
       },
       "coverage": {
-        "covered": 28,
+        "covered": 27,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 28
@@ -3243,7 +3243,7 @@
             {
               "procedureName": "Link has accessible name",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -3378,7 +3378,7 @@
             {
               "procedureName": "Link has accessible name",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -5787,9 +5787,9 @@
           ]
         },
         {
-          "testcaseId": "4373f9e70eb353c76d7e9d4c2cc4dcfd6c17ad70",
+          "testcaseId": "830f50dcf51acb0b97b948000d7c163e50858312",
           "testCaseName": "Passed Example 4",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/5f99a7/4373f9e70eb353c76d7e9d4c2cc4dcfd6c17ad70.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/5f99a7/830f50dcf51acb0b97b948000d7c163e50858312.html",
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
@@ -5855,7 +5855,7 @@
       "procedureNames": [
         "ARIA required context role"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -5866,7 +5866,7 @@
         ]
       },
       "coverage": {
-        "covered": 14,
+        "covered": 15,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 15
@@ -6002,7 +6002,7 @@
             {
               "procedureName": "ARIA required context role",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -6100,13 +6100,22 @@
       ]
     },
     {
+      "ruleId": "in6db8",
+      "ruleName": "ARIA required ID references exist",
+      "ruleApproved": false,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
+    },
+    {
       "ruleId": "bc4a75",
       "ruleName": "ARIA required owned elements",
       "ruleApproved": false,
       "procedureNames": [
         "ARIA required owned elements"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -6117,7 +6126,7 @@
         ]
       },
       "coverage": {
-        "covered": 16,
+        "covered": 17,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 17
@@ -6313,7 +6322,7 @@
             {
               "procedureName": "ARIA required owned elements",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -10508,7 +10517,7 @@
       "procedureNames": [
         "iframe element has accessible name"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -10519,10 +10528,10 @@
         ]
       },
       "coverage": {
-        "covered": 9,
+        "covered": 11,
         "untested": 0,
         "cantTell": 0,
-        "testCaseTotal": 10
+        "testCaseTotal": 11
       },
       "testCaseResults": [
         {
@@ -10616,16 +10625,16 @@
           ]
         },
         {
-          "testcaseId": "8d7ed640412cd827b169ef4f465faed482feaa26",
+          "testcaseId": "0a18c94e7b8bd8d0a54c14acbc56958918fcad2b",
           "testCaseName": "Failed Example 4",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/8d7ed640412cd827b169ef4f465faed482feaa26.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/0a18c94e7b8bd8d0a54c14acbc56958918fcad2b.html",
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
             {
               "procedureName": "iframe element has accessible name",
               "outcomes": [
-                "inapplicable"
+                "failed"
               ]
             }
           ]
@@ -10661,9 +10670,24 @@
           ]
         },
         {
-          "testcaseId": "803b52f32a5d2193683f152aa5e00174d5f8416a",
+          "testcaseId": "77075e0f50c9b77457d90450bc31c0fae372dbaf",
           "testCaseName": "Inapplicable Example 3",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/803b52f32a5d2193683f152aa5e00174d5f8416a.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/77075e0f50c9b77457d90450bc31c0fae372dbaf.html",
+          "testCaseApproved": false,
+          "expected": "inapplicable",
+          "procedureResults": [
+            {
+              "procedureName": "iframe element has accessible name",
+              "outcomes": [
+                "inapplicable"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "058668cee446d08989bf24d5ce3413dc2cda9975",
+          "testCaseName": "Inapplicable Example 4",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cae760/058668cee446d08989bf24d5ce3413dc2cda9975.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
           "procedureResults": [
@@ -12235,7 +12259,7 @@
       "procedureNames": [
         "Element with role attribute has required states and properties"
       ],
-      "consistency": "partial",
+      "consistency": null,
       "accessibilityRequirements": {
         "correct": true,
         "expected": [],
@@ -12244,7 +12268,7 @@
         ]
       },
       "coverage": {
-        "covered": 10,
+        "covered": 12,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 15
@@ -12320,7 +12344,7 @@
             {
               "procedureName": "Element with role attribute has required states and properties",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -12365,7 +12389,7 @@
             {
               "procedureName": "Element with role attribute has required states and properties",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -12395,7 +12419,7 @@
             {
               "procedureName": "Element with role attribute has required states and properties",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -12410,7 +12434,7 @@
             {
               "procedureName": "Element with role attribute has required states and properties",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -12479,7 +12503,7 @@
     },
     {
       "ruleId": "0ssw9k",
-      "ruleName": "Scrollable element is keyboard accessible",
+      "ruleName": "Scrollable element is included in the sequential focus navigation",
       "ruleApproved": false,
       "procedureNames": [
         "Scrollable element is keyboard accessible"
@@ -12792,7 +12816,7 @@
       "procedureNames": [
         "All table header cells have assigned data cells"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -12803,8 +12827,8 @@
         ]
       },
       "coverage": {
-        "covered": 16,
-        "untested": 0,
+        "covered": 15,
+        "untested": 1,
         "cantTell": 0,
         "testCaseTotal": 16
       },
@@ -12855,16 +12879,16 @@
           ]
         },
         {
-          "testcaseId": "0f66b15e6d2430e9afbdd6dc579023ece171b278",
+          "testcaseId": "7240c687f37a56254b1847ae6d75e5d4090bd8a5",
           "testCaseName": "Passed Example 4",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/d0f69e/0f66b15e6d2430e9afbdd6dc579023ece171b278.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/d0f69e/7240c687f37a56254b1847ae6d75e5d4090bd8a5.html",
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
             {
               "procedureName": "All table header cells have assigned data cells",
               "outcomes": [
-                "passed"
+                "untested"
               ]
             }
           ]
@@ -14936,8 +14960,8 @@
       },
       "coverage": {
         "covered": 1,
-        "untested": 0,
-        "cantTell": 7,
+        "untested": 1,
+        "cantTell": 6,
         "testCaseTotal": 8
       },
       "testCaseResults": [
@@ -14951,7 +14975,7 @@
             {
               "procedureName": "video element auditory content has captions",
               "outcomes": [
-                "cantTell"
+                "untested"
               ]
             }
           ]

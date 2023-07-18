@@ -13,7 +13,7 @@
     "complete": 12,
     "partial": 4,
     "inconsistent": 1,
-    "untested": 49
+    "untested": 50
   },
   "actRuleMapping": [
     {
@@ -755,6 +755,15 @@
     {
       "ruleId": "ff89c9",
       "ruleName": "ARIA required context role",
+      "ruleApproved": false,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
+    },
+    {
+      "ruleId": "in6db8",
+      "ruleName": "ARIA required ID references exist",
       "ruleApproved": false,
       "procedureNames": [],
       "consistency": null,
@@ -4187,7 +4196,7 @@
     },
     {
       "ruleId": "0ssw9k",
-      "ruleName": "Scrollable element is keyboard accessible",
+      "ruleName": "Scrollable element is included in the sequential focus navigation",
       "ruleApproved": false,
       "procedureNames": [],
       "consistency": null,
