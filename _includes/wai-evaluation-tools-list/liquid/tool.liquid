@@ -14,7 +14,7 @@
 {% endcapture %}
 
 {% capture tool_section_identifier %}aside_{{ tool.title }}{% endcapture %}
-{% capture tool_details_id %}{{tool.title}}{% endcapture %}
+{% capture tool_details_id %}{{tool.title | slugify: "raw" }}{% endcapture %}
 
 {% include box.html type="start" title=tool_title id=tool_details_id %}
 <div class="leftCol">
