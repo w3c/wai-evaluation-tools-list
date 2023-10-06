@@ -18,13 +18,13 @@
       },
       {
         "id": "simulation",
-        "name": "Simulate user experience"
+        "name": "Simulated user experience"
       }                      
     ]
   },
   {
     "id": "product",
-    "name": "Product to evaluate",
+    "name": "Product evaluated",
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
@@ -50,79 +50,6 @@
         "id": "otherProduct",
         "name": "Other"
       }                       
-    ]
-  },
-    {
-    "id": "checks",
-    "name": "Accessibility checks",
-    "collapsed": "false",
-    "showmore": "5",
-    "info": "Selection of common issues",
-    "type": "checkbox",
-    "order": "custom",
-    "showfilter" : false,
-    "options": [
-      {
-        "id": "colorContrast",
-        "name": "Color contrast"
-      },
-      {
-        "id": "assistiveTechnology",
-        "name": "Compatible with assistive technology"
-      },
-      {
-        "id": "error",
-        "name": "Error (prevention)"
-      },
-      {
-        "id": "forms",
-        "name": "Forms"
-      },
-      {
-        "id": "keyboardAccessible",
-        "name": "Keyboard accessible"
-      },
-      {
-        "id": "labels",
-        "name": "Labels"
-      },
-      {
-        "id": "checksLanguage",
-        "name": "Language"
-      },
-      {
-        "id": "mediaAlternatives",
-        "name": "Media alternatives"
-      },
-      {
-        "id": "navigationAndLinks",
-        "name": "Navigation and links"
-      },
-      {
-        "id": "pageStructure",
-        "name": "Page structure"
-      },
-      {
-        "id": "readability",
-        "name": "Readability",
-        "filtername": "Plain text"
-      },
-      {
-        "id": "resizingPage",
-        "name": "Resizing page"
-      },
-      {
-        "id": "tables",
-        "name": "Tables"
-      },
-      {
-        "id": "textAlternatives",
-        "name": "Text alternatives"
-      },
-      {
-        "id": "waiaria",
-        "name": "WAI-ARIA"
-      }                 
     ]
   },
   {
@@ -226,7 +153,7 @@
   },
   {
     "id": "technology",
-    "name": "File to evaluate",
+    "name": "File type",
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",

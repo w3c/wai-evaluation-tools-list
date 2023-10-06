@@ -167,7 +167,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign product = site.data.wai-evaluation-tools-list.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
       <div class="fieldheader">
-        <legend for="tool-product" class="label-input">Product to evaluate<span class="short-sub">(Required)</span></legend>
+        <legend for="tool-product" class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
           <abbr title="{{ product.info }}" class="toggletip-container">
               <img alt="{{ product.info }}" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -193,7 +193,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign technology = site.data.wai-evaluation-tools-list.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
-        <legend for="tool-technology" class="label-input">File to evaluate</legend>
+        <legend for="tool-technology" class="label-input">File type</legend>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
               <img alt="{{ technology.info }}" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -219,7 +219,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign automated = site.data.wai-evaluation-tools-list.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
       <div class="fieldheader">
-        <legend for="tool-automated" class="label-input">Scope of evaluation<span class="short-sub">(Required)</span></legend>
+        <legend for="tool-automated" class="label-input">Scope<span class="short-sub">(Required)</span></legend>
         <p>{{ automated.info }}</p>
       </div>
       <div class="field-group">
@@ -235,32 +235,6 @@ main > header { grid-column: 4 / span 4; }
             {% endif %}
           </div>
         {% endfor %}
-      </div>
-  </fieldset>
-  {% assign checks = site.data.wai-evaluation-tools-list.filters | find: "id", "checks" %}
-  <fieldset class="field" id="checks">
-      <div class="fieldheader">
-        <legend for="tool-checks" class="label-input">Accessibility checks</legend>
-      </div>
-      <p>Which aspects of web accessibility can users evaluate with this tool? We are experimenting with providing this as a feature to help users find the right tool for their needs. If there are other options that this tool can check, please add them in the 'other' text box below the list.</p>
-      <div class="field-group">
-        {% for option in checks.options %}
-          <div class="radio-field">
-            <input type="checkbox" name="checks[]" id="tool-checks-{{ option.id }}" value="{{ option.name }}" group="checks">
-            <label for="tool-checks-{{ option.id }}">{{ option.name }}</label>
-            {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-      
-      <div class="field">
-        <label for="otherchecks" class="label-input">Other accessibility aspects checked</label>
-        <textarea id="otherchecks" name="otherchecks"></textarea>
       </div>
   </fieldset>
   {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
