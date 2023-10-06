@@ -63,26 +63,22 @@ footer: >
             <div class="filter-header">
                 <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
             </div>
-            {% include box.html type="start" class="simple" %}
-                <p>Need help finding the right tool?</p>
-                {% include_cached button.html type="link" label="Start filter assistant" class="help-me-choose" %}
-            {% include box.html type="end" %}
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.wai-evaluation-tools-list.filters %}
-                {% if filter.showmore %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
-                {% else %}
-                    <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
-                {% endif %}
-                <div class="filterLegend"> 
-                <legend class="label" tabindex="0">{{ filter.name }}</legend>
-                {% if filter.info %}
-                        <abbr title="{{ filter.info }}" class="toggletip-container-legend">
-                            <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
-                            <span class="toggletip-span" role="status"></span>
-                        </abbr>
+                {% if filter.showfilter  %}
+                    {% if filter.showmore %}
+                        <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="showmore {{ filter.order }}">
+                    {% else %}
+                        <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                     {% endif %}
-                </div>
+                    <legend class="label" tabindex="0">{{ filter.name }}
+                        {% if filter.info %}
+                            <abbr title="{{ filter.info }}" class="toggletip-container">
+                                <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
+                                <span class="toggletip-span" role="status"></span>
+                            </abbr>
+                        {% endif %}
+                    </legend>
                     <div class="options">
                     {% for option in filter.options %}
                     <div class="filter-options field">
@@ -96,10 +92,10 @@ footer: >
                             {% endif %}
                         </label>
                     </div>
-                {% endfor %}
-                </div>
-                <a href="#tools-list" class="button button--skip-link">Skip to results</a>
-            </fieldset>
+                    {% endfor %}
+                    </div>
+                </fieldset>
+                {% endif %}
             {% endfor %}
             {% assign langAvailable = site.data.lang %}
             <fieldset id="language" collapsed="true">
@@ -165,5 +161,4 @@ footer: >
 <script>
 {% include wai-evaluation-tools-list/js/utilities.js %}
 {% include wai-evaluation-tools-list/js/tools.js %}
-{% include wai-evaluation-tools-list/js/helpers.js %}
 </script>

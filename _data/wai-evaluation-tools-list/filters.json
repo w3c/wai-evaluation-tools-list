@@ -6,6 +6,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "automated",
@@ -27,6 +28,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "website",
@@ -58,6 +60,7 @@
     "info": "Selection of common issues",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : false,
     "options": [
       {
         "id": "colorContrast",
@@ -76,10 +79,6 @@
         "name": "Forms"
       },
       {
-        "id": "hoverAndFocus",
-        "name": "Hover and Focus"
-      },
-      {
         "id": "keyboardAccessible",
         "name": "Keyboard accessible"
       },
@@ -90,10 +89,6 @@
       {
         "id": "checksLanguage",
         "name": "Language"
-      },
-      {
-        "id": "maps",
-        "name": "Maps"
       },
       {
         "id": "mediaAlternatives",
@@ -125,12 +120,8 @@
         "name": "Text alternatives"
       },
       {
-        "id": "time",
-        "name": "Time (pause, adjust etc)"
-      },
-      {
         "id": "waiaria",
-        "name": "WAI-ARIA attributes"
+        "name": "WAI-ARIA"
       }                 
     ]
   },
@@ -140,6 +131,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "free",
@@ -165,6 +157,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "browserPlugin",
@@ -203,11 +196,11 @@
   },
   {
     "id": "guideline",
-    "name": "Guidelines and standards",
+    "name": "Standards",
     "collapsed": "false",
-    "showmore": "3",
     "type": "checkbox",
     "order": "custom",
+    "showfilter" : true,
     "options": [
       {
         "id": "WCAG2.1",
@@ -224,37 +217,10 @@
         "filtername": "WCAG<\/abbr> 2.0"
       },
       {
-        "id": "Section508",
-        "name": "Section 508",
-        "info": "USA - Section 508 of the Rehabilitation Act",
-        "short": "Section 508",
-        "filtername": "Section 508"
-      },
-      {
-        "id": "JIS",
-        "name": "JIS",
-        "info": "Japan – Japanese Industry Standard",
-        "short": "JIS",
-        "filtername": "JIS"
-      },
-      {
-        "id": "SI5568",
-        "name": "SI 5568",
-        "info": "Israel – Standard 5568",
-        "short": "SI 5568",
-        "filtername": "SI 5568"
-      },
-      {
         "id": "EPUB",
-        "name": "EPUB Accessibility",
-        "short": "EPUB",
-        "filtername": "EPUB Accessibility",
-      },
-      {
-        "id": "EN301549",
-        "name": "EN 301549",
-        "short": "EN 301549",
-        "filtername": "EN 301549",
+        "name": "EPUB Accessibility 1.1",
+        "short": "EPUB 1.1",
+        "filtername": "EPUB Accessibility 1.1",
       }
     ]
   },
@@ -264,6 +230,7 @@
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "html",
@@ -311,6 +278,7 @@
     "info": "Range and depth of single evaluation",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "component",
@@ -344,6 +312,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "android",
@@ -379,6 +348,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "chrome",
@@ -410,10 +380,11 @@
   {
     "id": "a11yloc",
     "name": "Accessibility statement",
-    "collapsed": "false",
+    "collapsed": "true",
     "info": "Vendor provided information on tool accessibility",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "yesas",
@@ -425,10 +396,11 @@
   {
     "id": "actrules",
     "name": "ACT Implementation",
-    "collapsed": "false",
+    "collapsed": "true",
     "info": "Rules for harmonized WCAG and ARIA testing",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "yesar",
@@ -443,6 +415,7 @@
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
+    "showfilter" : true,
     "options": [
       {
         "id": "generateReport",
