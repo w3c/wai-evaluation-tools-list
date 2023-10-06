@@ -35,10 +35,6 @@
         "name": "Website"
       },
       {
-        "id": "productDesktopApplication",
-        "name": "Desktop application"
-      },
-      {
         "id": "productMobileApplication",
         "name": "Mobile application"
       },
@@ -168,10 +164,6 @@
         "name": "Browser plugin"
       },
       {
-        "id": "typeDesktopApplication",
-        "name": "Desktop application"
-      },
-      {
         "id": "typeMobileApplication",
         "name": "Mobile application"
       },
@@ -249,6 +241,11 @@
         "id": "css",
         "name": "CSS",
         "filtername": "CSS"
+      },
+      {
+        "id": "epub",
+        "name": "EPUB",
+        "filtername": "EPUB"
       },
       {
         "id": "pdf",

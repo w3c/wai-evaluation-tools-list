@@ -283,7 +283,8 @@ if (filterForm && sortForm && search) {
     var sortedArticles = Array.from(articles);
     newResults.sort(sortList);
     sortedArticles.sort(function(a, b){  
-      return newResults.findIndex(x => x.title === a.id) - newResults.findIndex(x => x.title === b.id);
+      // return newResults.findIndex(x => x.title === a.getElementsByTagName("h3")[0].innerHTML) - newResults.findIndex(x => x.title === b.getElementsByTagName("h3")[0].innerHTML);
+      return newResults.findIndex(x => x.title.replace(/\s+/g, '-').toLowerCase() === a.id) - newResults.findIndex(x => x.title.replace(/\s+/g, '-').toLowerCase() === b.id);
     });
     //Reset list and pagination
     sortedArticles.forEach(a => {
@@ -297,7 +298,8 @@ if (filterForm && sortForm && search) {
     }
 
     sortedArticles.forEach(el => {
-      if (!Object.values(newResults).find(o => o.title === el.id && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
+      // if (!Object.values(newResults).find(o => o.title === el.getElementsByTagName("h3")[0].innerHTML && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
+      if (!Object.values(newResults).find(o => o.title.replace(/\s+/g, '-').toLowerCase() === el.id && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
         el.hidden = true;
         el.classList.add("inactive");
       }
@@ -425,9 +427,9 @@ if (filterForm && sortForm && search) {
   function sortList(a, b) {
     var selectedSort = document.querySelector('.sort-by').querySelector('select').value;
     if(selectedSort == "alphabeticallyaz"){
-      return a.title.localeCompare(b.title);
+      return a.title.replace(/\s+/g, '-').toLowerCase().localeCompare(b.title.replace(/\s+/g, '-').toLowerCase());
     }else if(selectedSort == "alphabeticallyza"){
-      return b.title.localeCompare(a.title);
+      return b.title.replace(/\s+/g, '-').toLowerCase().localeCompare(a.title.replace(/\s+/g, '-').toLowerCase());
     }else if(selectedSort == "recentlyupdated"){
       return new Date(b.update) - new Date(a.update);
     }else if(selectedSort == "recentlyadded"){

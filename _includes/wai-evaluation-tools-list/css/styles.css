@@ -96,7 +96,7 @@ main>header {
   margin-left: 5px;
 }
 
-#left-col legend {
+.filterLegend {
   font-size: 100%;
   display: flex;
   align-items: center;
@@ -1045,6 +1045,9 @@ input[type=checkbox]
   .toggletip-container {
      position: unset !important; 
   }
+  .toggletip-container-legend {
+     position: unset !important; 
+  }
   .toggletip-bubble {
     left: 0 !important;
     max-width: none !important;
@@ -1052,7 +1055,7 @@ input[type=checkbox]
     right: 0 !important;
     margin: 0 auto !important;
     /* overflow: hidden; */
-    margin-top: 70px !important;
+    margin-top: 30px !important;
   }
   .toggletip-bubble:before {
     left: 5px !important;
@@ -1064,6 +1067,9 @@ input[type=checkbox]
   }
   .submission-form h2 span {
     margin-left: 0rem !important;
+  }
+  .toggletip-span {
+    display: block !important;
   }
 }
 
@@ -1079,6 +1085,14 @@ input[type=checkbox]
   }
 }
 
+.filterLegend:hover {
+  cursor: pointer;
+}
+
+.toggletip-container-legend {
+  position: relative;
+  display: flex;
+}
 
 .toggletip-container {
   position: relative;
@@ -1086,6 +1100,10 @@ input[type=checkbox]
 }
 
 .toggletip-container img {
+  z-index: 2;
+}
+
+.toggletip-container-legend img {
   z-index: 2;
 }
 

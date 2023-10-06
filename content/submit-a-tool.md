@@ -128,7 +128,7 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <div class="field" id="features">
-    <label class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
+    <label for="features" class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
     <p>Add a description of key features and functionalities of the tool. Try to write this description in a way that tool users can understand.</p>
     <textarea id="features" name="features" rows="5" maxlength="350"></textarea>
 <!--     <div class="line">
@@ -318,10 +318,9 @@ main > header { grid-column: 4 / span 4; }
 
   <h2 id="tool-details"><span>3/3</span>Tool details</h2>
   <div class="field" id="language">
-    <label class="label specialField">Language<span>(Required)</span></label>
+    <label for="language_1" class="label specialField">Language<span>(Required)</span></label>
     <p class="expl">Indicate in which language or languages this tool is provided.</p>
     <div class="line">
-      <label for="tool-language_1" class="label-input"></label>
       <select name="language[]" id="language_1" class="select-form" required> 
           <option value=""></option>
           {% for language in site.data.lang %}
@@ -374,8 +373,8 @@ main > header { grid-column: 4 / span 4; }
       </div>
       <div class="radio-field">
         <input type="checkbox" name="license[]" id="tool-license-other" class="tool-license-other-check" group="licence">
-        <label for="tool-license-purchase">Other:</label>
-        <input type="text" name="license[]" id="tool-license-other" class="tool-license-other-input">
+        <label id="tool-license-other" for="tool-license-other">Other:</label>
+        <input aria-labeledby="tool-license-other" type="text" name="license[]" id="tool-license-other" class="tool-license-other-input">
       </div>
     </div>
   </fieldset>
