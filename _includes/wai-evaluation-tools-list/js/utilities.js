@@ -3,10 +3,10 @@ function makeCollapsible(item){
   label.classList.add("collapsible");
   var parent = label.parentNode;
   if(item.getAttribute("collapsed") == "true"){
-    parent.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
+    label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     item.querySelector('.options').classList.add("collapsed");
   }else{
-    parent.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
+    label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
   }
   parent.addEventListener('click', e => { toggleCollapsed(item) });
   parent.addEventListener('keyup', e => { 
@@ -55,7 +55,7 @@ function toggleShowMore(item){
 }
 
 function toggleCollapsed(item){
-  var label = item.querySelector('legend').parentNode;
+  var label = item.querySelector('legend');
   var options = item.querySelector('.options');
   if(options.classList.contains("collapsed")){
     label.querySelector('.icon-chevron-down').remove();

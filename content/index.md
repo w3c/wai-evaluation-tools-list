@@ -60,6 +60,9 @@ footer: >
         <button class="button button-filters" aria-haspopup="true" aria-expanded="false" id="openfilters">Filters</button>
         <form data-filter-form action="..." class="data-filter-form">
             <h2>Filters</h2>
+            <div class="filter-header">
+                <a class="close-filters">{% include_cached icon.html name="ex-circle" %}</a>
+            </div>
             <a href="#tools-list" class="button button--skip-link">Skip filters</a>
             {% for filter in site.data.wai-evaluation-tools-list.filters %}
                 {% if filter.showfilter  %}
