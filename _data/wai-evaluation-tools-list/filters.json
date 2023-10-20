@@ -130,6 +130,13 @@
     "showfilter" : true,
     "options": [
       {
+        "id": "WCAG2.2",
+        "name": "WCAG 2.2",
+        "info": "International - Web Content Accessibility Guidelines 2.2",
+        "short": "WCAG 2.2",
+        "filtername": "WCAG<\/abbr> 2.2"
+      },
+      {
         "id": "WCAG2.1",
         "name": "WCAG 2.1",
         "info": "International - Web Content Accessibility Guidelines 2.1",
