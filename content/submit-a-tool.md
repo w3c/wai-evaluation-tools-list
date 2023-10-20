@@ -128,25 +128,14 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <div class="field" id="features">
-    <label for="features" class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
+    <label for="feature-desc" class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
     <p>Add a description of key features and functionalities of the tool. Try to write this description in a way that tool users can understand.</p>
-    <textarea id="features" name="features" rows="5" maxlength="350"></textarea>
-<!--     <div class="line">
-      <label for="tool-feature_1" class="label-input"></label>
-      <input type="text" name="features[]" id="feature_1" class="select-form" required>
-    </div>
-    <div class="proto">
-      <label for="tool-feature_[n]" class="label-input"></label>
-      <input type="text" name="features[]" id="feature_[n]" class="select-form" disabled> 
-      <button aria-label="Remove feature" type="button" class="remove_line">Remove</button>
-    </div>
-    <button type="button" class="add_line small">Add feature</button> -->
-    <!-- <button type="button" class="remove_line small" disabled>Remove last feature</button> -->
+    <textarea id="feature-desc" name="features" rows="5" maxlength="350"></textarea>
   </div>
   {% assign purpose = site.data.wai-evaluation-tools-list.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
       <div class="fieldheader">
-        <legend for="tool-purpose" class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
+        <legend class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
       </div>
       <p>What type of evaluations does this tool support?</p>
       <div class="field-group">
@@ -167,7 +156,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign product = site.data.wai-evaluation-tools-list.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
       <div class="fieldheader">
-        <legend for="tool-product" class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
+        <legend class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
         {% if product.info %}
           <abbr title="{{ product.info }}" class="toggletip-container">
               <img alt="{{ product.info }}" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -193,7 +182,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign technology = site.data.wai-evaluation-tools-list.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
       <div class="fieldheader">
-        <legend for="tool-technology" class="label-input">File type</legend>
+        <legend class="label-input">File type</legend>
         {% if technology.info %}
           <abbr title="{{ technology.info }}" class="toggletip-container">
               <img alt="{{ technology.info }}" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -219,7 +208,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign automated = site.data.wai-evaluation-tools-list.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
       <div class="fieldheader">
-        <legend for="tool-automated" class="label-input">Scope<span class="short-sub">(Required)</span></legend>
+        <legend class="label-input">Scope<span class="short-sub">(Required)</span></legend>
         <p>{{ automated.info }}</p>
       </div>
       <div class="field-group">
@@ -240,7 +229,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
-        <legend for="tool-guideline" class="label-input">Standards</legend>
+        <legend class="label-input">Standards</legend>
         {% if guideline.info %}
           <abbr title="{{ guideline.info }}" class="toggletip-container">
               <img alt="{{ guideline.info }}" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -266,7 +255,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign assists = site.data.wai-evaluation-tools-list.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
       <div class="fieldheader">
-        <legend for="tool-assists" class="label-input">Output</legend>
+        <legend class="label-input">Output</legend>
         {% if assists.info %}
           <abbr title="{{ assists.info }}" class="toggletip-container">
               <img alt="{{ assists.info }}" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -303,7 +292,7 @@ main > header { grid-column: 4 / span 4; }
       </select>
     </div>
     <div class="proto">
-      <label for="tool-language_[n]" class="label-input"></label>
+      <label for="language_[n]" class="label-input"></label>
       <select name="language[]" id="language_[n]" class="select-form" disabled> 
           <option value=""></option>
           {% for language in site.data.lang %}
@@ -318,7 +307,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign license = site.data.wai-evaluation-tools-list.filters | find: "id", "license" %}
  <fieldset class="field" id="license">
   <div class="field-group">
-      <legend for="tool-license" class="label-input">License<span class="short-sub">(Required)</span></legend>
+      <legend class="label-input">License<span class="short-sub">(Required)</span></legend>
 <!--       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
@@ -355,7 +344,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign type = site.data.wai-evaluation-tools-list.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
       <div class="fieldheader">
-        <legend for="tool-type" class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
+        <legend class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
         <p>{{ type.info }}</p>
 <!--         {% if type.info %}
           <abbr title="{{ type.info }}" class="toggletip-container">
@@ -382,7 +371,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign browsers = site.data.wai-evaluation-tools-list.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
-        <legend for="tool-browsers" class="label-input">Browser for plugin</legend>
+        <legend class="label-input">Browser for plugin</legend>
         {% if browsers.info %}
           <abbr title="{{ browsers.info }}" class="toggletip-container">
               <img alt="{{ browsers.info }}" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
@@ -408,7 +397,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign desktop = site.data.wai-evaluation-tools-list.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
-      <legend for="tool-desktop" class="label-input">Operating system</legend>
+      <legend class="label-input">Operating system</legend>
         {% if desktop.info %}
           <abbr title="{{ desktop.info }}" class="toggletip-container">
               <img alt="{{ desktop.info }}" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
