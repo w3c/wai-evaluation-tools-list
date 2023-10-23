@@ -62,6 +62,11 @@ if (submitForm) {
                     newLine.classList.remove('proto');
                     newLine.classList.add('line');
                     // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
+                    var counter = parseInt(lines[lines.length-1].querySelector('select').id.split("_")[1]) + 1;
+                    console.log(counter);
+                    newLine.querySelector('label').id = "language_" + counter; 
+                    newLine.querySelector('label').innerHTML = "Language " + counter; 
+                    newLine.querySelector('select').id = "language_" + counter; 
 
                     proto.parentNode.insertBefore(newLine, proto);
 
@@ -84,7 +89,7 @@ if (submitForm) {
                       }
                     });
 
-                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id + " " + lines.length+1)
+                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id)
                 }
             });
             button.addEventListener('keyup', function (event) {
