@@ -292,7 +292,7 @@ main > header { grid-column: 4 / span 4; }
       </select>
     </div>
     <div class="proto">
-      <label for="language_[n]" style="display: none;" class="label-input"></label>
+      <label for="language_[n]" class="label-input no-display"></label>
       <select name="language[]" id="language_[n]" class="select-form" disabled> 
           <option value=""></option>
           {% for language in site.data.lang %}
