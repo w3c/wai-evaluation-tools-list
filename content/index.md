@@ -73,7 +73,7 @@ footer: >
                     {% endif %}
                     <legend class="label" tabindex="0">
                         {% if filter.info %}
-                            <abbr title="{{ filter.info }}">{{ filter.name }}</abbr>
+                            {{ filter.info }}
                         {% else %}
                             {{ filter.name }}
                         {% endif %}
@@ -83,7 +83,7 @@ footer: >
                     <div class="filter-options field">
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
                             {% if option.info %}
-                                <label for="filter-{{ option.id }}"><span class='filterName'><abbr title="{{ option.info }}">{{ option.name }}</abbr></span><span class="filterPreCounter"></span>
+                                <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.info }}</span><span class="filterPreCounter"></span>
                             {% else %}
                                 <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% endif %}

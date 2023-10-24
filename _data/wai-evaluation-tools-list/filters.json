@@ -2,7 +2,8 @@
   {
     "id": "purpose",
     "name": "Purpose",
-    "info": "Type of evaluation a tool supports",
+    "info": "<abbr title='Type of evaluation a tool supports'>Purpose</abbr>",
+    "infoForm": "What type of evaluations does this tool support?",
     "collapsed": "false",
     "type": "checkbox",
     "order": "default",
@@ -80,7 +81,8 @@
   {
     "id": "type",
     "name": "Type of tool",
-    "info": "Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and desktop application).",
+    "info": "<abbr title='Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and desktop application)'>Type of tool</abbr>",
+    "infoForm": "Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and desktop application).",
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
@@ -105,16 +107,19 @@
       },
       {
         "id": "commandline",
-        "name": "Command-line / <abbr title='Continuous Integration'>CI</abbr>",
-        "filtername": "Command line tool"
+        "name": "Command-line / CI",
+        "filtername": "Command line tool",
+        "info": "Command-line / <abbr title='Continuous Integration'>CI</abbr>"
       },
       {
         "id": "programmingTool",
-        "name": "Programming tool plugin / <abbr title='Integrated Development Environment'>IDE</abbr>"
+        "name": "Programming tool plugin / IDE",
+        "info": "Programming tool plugin / <abbr title='Integrated Development Environment'>IDE</abbr>"
       },
       {
         "id": "authoringTool",
-        "name": "<abbr title='Content Management System'>CMS</abbr> plugin"
+        "name": "CMS plugin",
+        "info": "<abbr title='Content Management System'>CMS</abbr> plugin"
       }                       
     ]
   },
@@ -129,21 +134,21 @@
       {
         "id": "WCAG2.2",
         "name": "WCAG 2.2",
-        "info": "Web Content Accessibility Guidelines 2.2",
+        "info": "<abbr title='Web Content Accessibility Guidelines'>WCAG</abbr> 2.2",
         "short": "WCAG 2.2",
         "filtername": "WCAG<\/abbr> 2.2"
       },
       {
         "id": "WCAG2.1",
         "name": "WCAG 2.1",
-        "info": "Web Content Accessibility Guidelines 2.1",
+        "info": "<abbr title='Web Content Accessibility Guidelines'>WCAG</abbr> 2.1",
         "short": "WCAG 2.1",
         "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
         "name": "WCAG 2.0",
-        "info": "Web Content Accessibility Guidelines 2.0",
+        "info": "<abbr title='Web Content Accessibility Guidelines'>WCAG</abbr> 2.0",
         "short": "WCAG 2.0",
         "filtername": "WCAG<\/abbr> 2.0"
       },
@@ -206,7 +211,8 @@
     "id": "automated",
     "name": "Scope",
     "collapsed": "false",
-    "info": "Range and depth of single evaluation",
+    "info": "<abbr title='Range and depth of single evaluation'>Scope</abbr>",
+    "infoForm": "Range and depth of single evaluation.",
     "type": "checkbox",
     "order": "default",
     "showfilter" : true,
@@ -312,7 +318,7 @@
     "id": "a11yloc",
     "name": "Accessibility statement",
     "collapsed": "true",
-    "info": "Vendor provided information on tool accessibility",
+    "info": "<abbr title='Vendor provided information on tool accessibility'>Accessibility statement</abbr>",
     "type": "checkbox",
     "order": "default",
     "showfilter" : true,
@@ -328,7 +334,7 @@
     "id": "actrules",
     "name": "ACT Implementation",
     "collapsed": "true",
-    "info": "Rules for harmonized WCAG and ARIA testing",
+    "info": "<abbr title='Rules for harmonized WCAG and ARIA testing'>ACT Implementation</abbr>",
     "type": "checkbox",
     "order": "default",
     "showfilter" : true,

@@ -6,9 +6,10 @@ const importJson = String.raw`{{ site.data.wai-evaluation-tools-list.tools | jso
 importJson.replace("\\","\\\\");
 
 const jsonTools = JSON.parse(importJson);
-const jsonFilters = JSON.parse('{{site.data.wai-evaluation-tools-list.filters | jsonify}}');
+const jsonFilters = JSON.parse(String.raw`{{site.data.wai-evaluation-tools-list.filters | jsonify}}`);
 const jsonLang = JSON.parse('{{site.data.wai-evaluation-tools-list.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-listcountries | jsonify}}');
+console.log(jsonFilters);
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
@@ -213,7 +214,6 @@ if (filterForm && sortForm && search) {
               var currentFilter = jsonFilters.find(f => f.id === filter.filterId && f.name === filter.filterName);
               if(currentFilter != undefined){
                 var mask = currentFilter.options.find(o => o.name === r);
-
                 if(mask.filtername != undefined){
                   if(Array.isArray(mask.filtername)){
                     var tracker;

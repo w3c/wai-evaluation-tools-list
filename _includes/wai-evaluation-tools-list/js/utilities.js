@@ -2,14 +2,15 @@ function makeCollapsible(item){
   var label = item.querySelector('legend');
   label.classList.add("collapsible");
   var parent = label.parentNode;
+  console.log(parent);
   if(item.getAttribute("collapsed") == "true"){
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     item.querySelector('.options').classList.add("collapsed");
   }else{
     label.innerHTML += '{% include_cached icon.html name="chevron-up" %}';
   }
-  parent.addEventListener('click', e => { toggleCollapsed(item) });
-  parent.addEventListener('keyup', e => { 
+  label.addEventListener('click', e => { toggleCollapsed(item) });
+  label.addEventListener('keyup', e => { 
     if (e.key === "Enter") {
       e.preventDefault();
       label.click();
