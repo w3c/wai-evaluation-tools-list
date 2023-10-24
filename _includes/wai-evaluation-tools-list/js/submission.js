@@ -106,25 +106,6 @@ if (submitForm) {
             });
         });
 
-        // var buttonsRemove = document.querySelectorAll('.remove_line');
-
-        // Array.prototype.forEach.call(buttonsRemove, function addClickListener(button) {
-        //     button.addEventListener('click', function (event) {
-        //         var parent = event.target.parentNode;
-        //         var lines = parent.querySelectorAll('.line');
-        //         var last = lines[lines.length - 1];
-
-        //         last.parentNode.removeChild(last);
-
-        //         lines = parent.querySelectorAll('.line');
-        //         last = lines[lines.length - 1];
-        //         last.querySelector('input, checkbox, select').focus();
-
-        //         if (lines.length <= 1)
-        //             button.disabled = true;
-        //     });
-        // });
-
         makeToggleTips();
     }
 
