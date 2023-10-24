@@ -142,13 +142,13 @@ main > header { grid-column: 4 / span 4; }
         {% for option in purpose.options %}
           <div class="radio-field">
             <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" group="purpose" required>
-            <label for="tool-purpose-{{ option.id }}">{{ option.name }}</label>
-            {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+            <label for="tool-purpose-{{ option.id }}">
+              {% if option.info %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -157,24 +157,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="product">
       <div class="fieldheader">
         <legend class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
-        {% if product.info %}
-          <abbr title="{{ product.info }}" class="toggletip-container">
-              <img alt="{{ product.info }}" tabindex="0" data-toggletip-content="{{ product.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in product.options %}
           <div class="radio-field">
             <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" group="product" required>
-            <label for="tool-product-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-product-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -183,24 +177,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="technology">
       <div class="fieldheader">
         <legend class="label-input">File type</legend>
-        {% if technology.info %}
-          <abbr title="{{ technology.info }}" class="toggletip-container">
-              <img alt="{{ technology.info }}" tabindex="0" data-toggletip-content="{{ technology.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in technology.options %}
           <div class="radio-field">
             <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology">
-            <label for="tool-technology-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-technology-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -215,13 +203,13 @@ main > header { grid-column: 4 / span 4; }
         {% for option in automated.options %}
           <div class="radio-field">
             <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" group="automated" required>
-            <label for="tool-automated-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-automated-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -230,24 +218,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="guideline">
       <div class="fieldheader">
         <legend class="label-input">Standards</legend>
-        {% if guideline.info %}
-          <abbr title="{{ guideline.info }}" class="toggletip-container">
-              <img alt="{{ guideline.info }}" tabindex="0" data-toggletip-content="{{ guideline.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in guideline.options %}
           <div class="radio-field">
             <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline">
-            <label for="tool-guideline-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-guideline-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -256,24 +238,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="assists">
       <div class="fieldheader">
         <legend class="label-input">Output</legend>
-        {% if assists.info %}
-          <abbr title="{{ assists.info }}" class="toggletip-container">
-              <img alt="{{ assists.info }}" tabindex="0" data-toggletip-content="{{ assists.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in assists.options %}
           <div class="radio-field">
             <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists">
-            <label for="tool-assists-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-assists-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -346,24 +322,18 @@ main > header { grid-column: 4 / span 4; }
       <div class="fieldheader">
         <legend class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
         <p>{{ type.info }}</p>
-<!--         {% if type.info %}
-          <abbr title="{{ type.info }}" class="toggletip-container">
-              <img alt="{{ type.info }}" tabindex="0" data-toggletip-content="{{ type.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %} -->
       </div>
       <div class="field-group">
         {% for option in type.options %}
           <div class="radio-field">
             <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" group="type" required>
-            <label for="tool-type-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-type-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -372,24 +342,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="browsers">
       <div class="fieldheader">
         <legend class="label-input">Browser for plugin</legend>
-        {% if browsers.info %}
-          <abbr title="{{ browsers.info }}" class="toggletip-container">
-              <img alt="{{ browsers.info }}" tabindex="0" data-toggletip-content="{{ browsers.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in browsers.options %}
           <div class="radio-field">
             <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers">
-            <label for="tool-browsers-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-browsers-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>
@@ -398,24 +362,18 @@ main > header { grid-column: 4 / span 4; }
   <fieldset class="field" id="desktop">
       <div class="fieldheader">
       <legend class="label-input">Operating system</legend>
-        {% if desktop.info %}
-          <abbr title="{{ desktop.info }}" class="toggletip-container">
-              <img alt="{{ desktop.info }}" tabindex="0" data-toggletip-content="{{ desktop.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-              <span class="toggletip-span" role="status"></span>
-          </abbr>
-        {% endif %}
       </div>
       <div class="field-group">
         {% for option in desktop.options %}
           <div class="radio-field">
             <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop">
-            <label for="tool-desktop-{{ option.id }}">{{ option.name }}</label>
+            <label for="tool-desktop-{{ option.id }}">
             {% if option.info %}
-              <abbr title="{{ option.info }}" class="toggletip-container">
-                  <img alt="{{ option.info }}" tabindex="0" data-toggletip-content="{{ option.info }}" src="/content-images/wai-evaluation-tools-list/info.png" />
-                  <span class="toggletip-span-inline" role="status"></span>
-              </abbr>
-            {% endif %}
+                <abbr title="{{ option.info }}">{{ option.name }}</abbr>
+              {% else %}
+                {{ option.name }}
+              {% endif %}
+            </label>
           </div>
         {% endfor %}
       </div>

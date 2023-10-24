@@ -71,24 +71,21 @@ footer: >
                     {% else %}
                         <fieldset id="{{ filter.id }}" collapsed="{{ filter.collapsed }}" class="{{ filter.order }}">
                     {% endif %}
-                    <legend class="label" tabindex="0">{{ filter.name }}
+                    <legend class="label" tabindex="0">
                         {% if filter.info %}
-                            <abbr title="{{ filter.info }}" class="toggletip-container">
-                                <img alt="{{ filter.info }}" data-toggletip-content="{{ filter.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
-                                <span class="toggletip-span" role="status"></span>
-                            </abbr>
+                            <abbr title="{{ filter.info }}">{{ filter.name }}</abbr>
+                        {% else %}
+                            {{ filter.name }}
                         {% endif %}
                     </legend>
                     <div class="options">
                     {% for option in filter.options %}
                     <div class="filter-options field">
                         <input type="{{ filter.type }}" id="filter-{{ option.id }}" name="{{ option.id }}">
-                        <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% if option.info %}
-                                <abbr title="{{ option.info }}" class="toggletip-container">
-                                    <img alt="{{option.info}}" data-toggletip-content="{{ option.info }}" tabindex="0" src="/content-images/wai-evaluation-tools-list/info.png" />
-                                    <span class="toggletip-span-inline" role="status"></span>
-                                </abbr>
+                                <label for="filter-{{ option.id }}"><span class='filterName'><abbr title="{{ option.info }}">{{ option.name }}</abbr></span><span class="filterPreCounter"></span>
+                            {% else %}
+                                <label for="filter-{{ option.id }}"><span class='filterName'>{{ option.name }}</span><span class="filterPreCounter"></span>
                             {% endif %}
                         </label>
                     </div>
