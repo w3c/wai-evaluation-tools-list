@@ -2,10 +2,6 @@ const submitForm = document.querySelector('form[name="submission"]');
 
 if (submitForm) {
 
-    submitForm.querySelector('#language_1').addEventListener('change', function (event) {
-        submitForm.querySelector('#language_1').setAttribute("aria-label", submitForm.querySelector('#language_1').selectedOptions[0].text);
-    });
-
     document.getElementById('update').valueAsDate = new Date();
     
     _addLine();
@@ -67,7 +63,6 @@ if (submitForm) {
                     // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
                     var counter = parseInt(lines[lines.length-1].querySelector('select').id.split("_")[1]) + 1;
 
-                    newLine.querySelector('label').id = "language_" + counter; 
                     newLine.querySelector('label').innerHTML = "Language " + counter; 
                     newLine.querySelector('select').id = "language_" + counter; 
 
@@ -76,8 +71,6 @@ if (submitForm) {
                     newLine.querySelector('input, checkbox, select').disabled = false;
                     newLine.querySelector('input, checkbox, select').focus();
                     newLine.querySelector('input, checkbox, select').classList.remove('input_hidden');
-
-                    // parent.querySelector('button.remove_line').disabled = false;
 
                     newLine.querySelector('.remove_line').addEventListener('click', function (event) {
                         var parent = event.target.parentNode;
@@ -92,10 +85,8 @@ if (submitForm) {
                     });
 
                     newLine.querySelector('select').addEventListener('change', function (event) {
-                        newLine.querySelector('select').setAttribute("aria-label", newLine.querySelector('select').selectedOptions[0].text);
+                        newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " + newLine.querySelector('select').selectedOptions[0].text);
                     });
-
-                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id);
                 }
             });
             button.addEventListener('keyup', function (event) {

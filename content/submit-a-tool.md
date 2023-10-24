@@ -275,7 +275,7 @@ main > header { grid-column: 4 / span 4; }
               <option value="{{ language[0] }}">{{ language[1].name }} ({{language[1].nativeName }})</option>
           {% endfor %}
       </select>
-      <button type="button" aria-label="Remove language" class="remove_line">Remove</button>
+      <button type="button" aria-label="Remove" class="remove_line">Remove</button>
       </div>
     <button type="button" class="add_line small">Add language</button>
     <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
