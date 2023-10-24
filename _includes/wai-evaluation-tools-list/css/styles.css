@@ -1218,12 +1218,6 @@ b {
   flex: initial;
 }
 
-.submission-form .radio-field abbr {
-  display: flex;
-  align-items: center;
-  margin-left: 0.3rem;
-}
-
 .submission-form .fieldheader {
   display: flex;
   align-items: center;

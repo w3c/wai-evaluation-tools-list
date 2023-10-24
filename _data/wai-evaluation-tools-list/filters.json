@@ -105,19 +105,16 @@
       },
       {
         "id": "commandline",
-        "name": "Command-line / CI",
-        "filtername": "Command line tool",
-        "info": "Continuous Integration"
+        "name": "Command-line / <abbr title='Continuous Integration'>CI</abbr>",
+        "filtername": "Command line tool"
       },
       {
         "id": "programmingTool",
-        "name": "Programming tool plugin / IDE",
-        "info": "Integrated Development Environment"
+        "name": "Programming tool plugin / <abbr title='Integrated Development Environment'>IDE</abbr>"
       },
       {
         "id": "authoringTool",
-        "name": "CMS plugin",
-        "info": "Content Management System plugin"
+        "name": "<abbr title='Content Management System'>CMS</abbr> plugin"
       }                       
     ]
   },
@@ -132,21 +129,21 @@
       {
         "id": "WCAG2.2",
         "name": "WCAG 2.2",
-        "info": "International - Web Content Accessibility Guidelines 2.2",
+        "info": "Web Content Accessibility Guidelines 2.2",
         "short": "WCAG 2.2",
         "filtername": "WCAG<\/abbr> 2.2"
       },
       {
         "id": "WCAG2.1",
         "name": "WCAG 2.1",
-        "info": "International - Web Content Accessibility Guidelines 2.1",
+        "info": "Web Content Accessibility Guidelines 2.1",
         "short": "WCAG 2.1",
         "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
         "name": "WCAG 2.0",
-        "info": "International - Web Content Accessibility Guidelines 2.0",
+        "info": "Web Content Accessibility Guidelines 2.0",
         "short": "WCAG 2.0",
         "filtername": "WCAG<\/abbr> 2.0"
       },
