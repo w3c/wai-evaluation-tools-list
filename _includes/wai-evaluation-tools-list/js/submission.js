@@ -2,6 +2,10 @@ const submitForm = document.querySelector('form[name="submission"]');
 
 if (submitForm) {
 
+    submitForm.querySelector('#language_1').addEventListener('change', function (event) {
+        submitForm.querySelector('#language_1').setAttribute("aria-label", submitForm.querySelector('#language_1').selectedOptions[0].text);
+    });
+
     document.getElementById('update').valueAsDate = new Date();
     
     _addLine();
@@ -11,7 +15,6 @@ if (submitForm) {
     });
 
     submitForm.querySelector('.tool-license-other-input').addEventListener('keyup', function (event) {
-        console.log(document.querySelector('.tool-license-other-input'));
         var box = document.querySelector('.tool-license-other-input');
         if(box.value == undefined || box.value == "" || box.value.length == 0){
             console.log("empty");
@@ -52,7 +55,7 @@ if (submitForm) {
 
         Array.prototype.forEach.call(buttonsAdd, function addClickListener(button) {
             button.addEventListener('click', function (event) {
-                console.log("accessed click add");
+ 
                 var parent = event.target.parentNode;
                 var lines = parent.querySelectorAll('.line');
                 var proto = parent.querySelector('.proto');
@@ -63,7 +66,7 @@ if (submitForm) {
                     newLine.classList.add('line');
                     // newLine.innerHTML = newLine.innerHTML.replace(/\[n\]/g, lines.length + 1);
                     var counter = parseInt(lines[lines.length-1].querySelector('select').id.split("_")[1]) + 1;
-                    console.log(counter);
+
                     newLine.querySelector('label').id = "language_" + counter; 
                     newLine.querySelector('label').innerHTML = "Language " + counter; 
                     newLine.querySelector('select').id = "language_" + counter; 
@@ -78,7 +81,6 @@ if (submitForm) {
 
                     newLine.querySelector('.remove_line').addEventListener('click', function (event) {
                         var parent = event.target.parentNode;
-                        console.log("accessed click remove");
                         parent.remove();
                     });
 
@@ -89,7 +91,11 @@ if (submitForm) {
                       }
                     });
 
-                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id)
+                    newLine.querySelector('select').addEventListener('change', function (event) {
+                        newLine.querySelector('select').setAttribute("aria-label", newLine.querySelector('select').selectedOptions[0].text);
+                    });
+
+                    newLine.querySelector('.remove_line').setAttribute("aria-label", "Remove " +  parent.id);
                 }
             });
             button.addEventListener('keyup', function (event) {
