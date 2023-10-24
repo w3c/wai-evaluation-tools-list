@@ -132,21 +132,21 @@
       {
         "id": "WCAG2.2",
         "name": "WCAG 2.2",
-        "info": "International - Web Content Accessibility Guidelines 2.2",
+        "info": "Web Content Accessibility Guidelines 2.2",
         "short": "WCAG 2.2",
         "filtername": "WCAG<\/abbr> 2.2"
       },
       {
         "id": "WCAG2.1",
         "name": "WCAG 2.1",
-        "info": "International - Web Content Accessibility Guidelines 2.1",
+        "info": "Web Content Accessibility Guidelines 2.1",
         "short": "WCAG 2.1",
         "filtername": "WCAG<\/abbr> 2.1"
       },
       {
         "id": "WCAG2.0",
         "name": "WCAG 2.0",
-        "info": "International - Web Content Accessibility Guidelines 2.0",
+        "info": "Web Content Accessibility Guidelines 2.0",
         "short": "WCAG 2.0",
         "filtername": "WCAG<\/abbr> 2.0"
       },
