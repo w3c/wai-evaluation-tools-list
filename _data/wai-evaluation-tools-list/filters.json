@@ -105,19 +105,16 @@
       },
       {
         "id": "commandline",
-        "name": "Command-line / CI",
-        "filtername": "Command line tool",
-        "info": "Continuous Integration"
+        "name": "Command-line / <abbr title='Continuous Integration'>CI</abbr>",
+        "filtername": "Command line tool"
       },
       {
         "id": "programmingTool",
-        "name": "Programming tool plugin / IDE",
-        "info": "Integrated Development Environment"
+        "name": "Programming tool plugin / <abbr title='Integrated Development Environment'>IDE</abbr>"
       },
       {
         "id": "authoringTool",
-        "name": "CMS plugin",
-        "info": "Content Management System plugin"
+        "name": "<abbr title='Content Management System'>CMS</abbr> plugin"
       }                       
     ]
   },

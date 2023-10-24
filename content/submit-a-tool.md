@@ -141,7 +141,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in purpose.options %}
           <div class="radio-field">
-            <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name }}" group="purpose" required>
+            <input type="checkbox" name="purpose[]" id="tool-purpose-{{ option.id }}" value="{{ option.name | strip_html }}" group="purpose" required>
             <label for="tool-purpose-{{ option.id }}">
               {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -161,7 +161,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in product.options %}
           <div class="radio-field">
-            <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name }}" group="product" required>
+            <input type="checkbox" name="product[]" id="tool-product-{{ option.id }}" value="{{ option.name | strip_html }}" group="product" required>
             <label for="tool-product-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -181,7 +181,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in technology.options %}
           <div class="radio-field">
-            <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name }}" group="technology">
+            <input type="checkbox" name="technology[]" id="tool-technology-{{ option.id }}" value="{{ option.name | strip_html }}" group="technology">
             <label for="tool-technology-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -202,7 +202,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in automated.options %}
           <div class="radio-field">
-            <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name }}" group="automated" required>
+            <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name | strip_html }}" group="automated" required>
             <label for="tool-automated-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -222,7 +222,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in guideline.options %}
           <div class="radio-field">
-            <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name }}" group="guideline">
+            <input type="checkbox" name="guideline[]" id="tool-guideline-{{ option.id }}" value="{{ option.name | strip_html }}" group="guideline">
             <label for="tool-guideline-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -242,7 +242,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in assists.options %}
           <div class="radio-field">
-            <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name }}" group="assists">
+            <input type="checkbox" name="assists[]" id="tool-assists-{{ option.id }}" value="{{ option.name | strip_html }}" group="assists">
             <label for="tool-assists-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -326,7 +326,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in type.options %}
           <div class="radio-field">
-            <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name }}" group="type" required>
+            <input type="checkbox" name="type[]" id="tool-type-{{ option.id }}" value="{{ option.name | strip_html }}" group="type" required>
             <label for="tool-type-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -346,7 +346,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in browsers.options %}
           <div class="radio-field">
-            <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name }}" group="browsers">
+            <input type="checkbox" name="browsers[]" id="tool-browsers-{{ option.id }}" value="{{ option.name | strip_html }}" group="browsers">
             <label for="tool-browsers-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
@@ -366,7 +366,7 @@ main > header { grid-column: 4 / span 4; }
       <div class="field-group">
         {% for option in desktop.options %}
           <div class="radio-field">
-            <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name }}" group="desktop">
+            <input type="checkbox" name="desktop[]" id="tool-desktop-{{ option.id }}" value="{{ option.name | strip_html }}" group="desktop">
             <label for="tool-desktop-{{ option.id }}">
             {% if option.info %}
                 <abbr title="{{ option.info }}">{{ option.name }}</abbr>
