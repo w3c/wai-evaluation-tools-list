@@ -91,6 +91,7 @@ footer: >
                     </div>
                     {% endfor %}
                     </div>
+                    <a href="#tools-list" class="button button--skip-link">Skip to results</a>
                 </fieldset>
                 {% endif %}
             {% endfor %}
