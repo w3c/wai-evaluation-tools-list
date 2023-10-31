@@ -129,7 +129,7 @@ main > header { grid-column: 4 / span 4; }
   <h2 id="tool-functionality"><span>2/3</span>Tool functionality</h2>
 
   <div class="field" id="features">
-    <label for="feature-desc" class="label specialField">Short product description (max. 350)<span>(Required)</span></label>
+    <label for="feature-desc" class="label specialField">Short product description (max. 350 characters)<span>(Required)</span></label>
     <p>Add a description of key features and functionalities of the tool. Try to write this description in a way that tool users can understand.</p>
     <textarea id="feature-desc" name="features" rows="5" maxlength="350"></textarea>
   </div>
