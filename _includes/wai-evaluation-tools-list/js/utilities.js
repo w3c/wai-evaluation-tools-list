@@ -2,7 +2,6 @@ function makeCollapsible(item){
   var label = item.querySelector('legend');
   label.classList.add("collapsible");
   var parent = label.parentNode;
-  console.log(parent);
   if(item.getAttribute("collapsed") == "true"){
     label.innerHTML += '{% include_cached icon.html name="chevron-down" %}';
     item.querySelector('.options').classList.add("collapsed");

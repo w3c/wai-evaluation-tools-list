@@ -13,10 +13,8 @@ if (submitForm) {
     submitForm.querySelector('.tool-license-other-input').addEventListener('keyup', function (event) {
         var box = document.querySelector('.tool-license-other-input');
         if(box.value == undefined || box.value == "" || box.value.length == 0){
-            console.log("empty");
             document.querySelector('.tool-license-other-check').checked = false;
         }else{
-            console.log("full");
             document.querySelector('.tool-license-other-check').checked = true;
         }
     });
@@ -40,7 +38,6 @@ if (submitForm) {
     submitForm.querySelectorAll('select').forEach(item => {
         item.addEventListener('keyup', e => { 
           if (e.key === "Enter") {
-            console.log("clicked");
             item.click();
           }
         })

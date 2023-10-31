@@ -9,7 +9,6 @@ const jsonTools = JSON.parse(importJson);
 const jsonFilters = JSON.parse(String.raw`{{site.data.wai-evaluation-tools-list.filters | jsonify}}`);
 const jsonLang = JSON.parse('{{site.data.wai-evaluation-tools-list.lang | jsonify}}');
 const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-listcountries | jsonify}}');
-console.log(jsonFilters);
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
@@ -125,18 +124,15 @@ if (filterForm && sortForm && search) {
 
     // selecting filters on
     var filtersOn = getActiveFiltersList(form);
-    console.log(filtersOn);
 
     // filtering results
     var newResults = [];
 
     newResults = filterNewResultsList(filtersOn);
-    console.log(newResults);
 
     //Filter on search term
     var searchedResults = [];
     searchedResults = filterSearchList(newResults);
-    console.log(searchedResults);
 
     //rebuild document
     rebuildList(searchedResults, filtersOn);
@@ -332,7 +328,6 @@ if (filterForm && sortForm && search) {
       document.getElementsByClassName('searchbox')[0].getElementsByTagName("svg")[0].style.display = "";
     }
 
-    console.log(newResults);
     updateActiveFilters();
     showFilterCounters(filterForm, false);
   }
