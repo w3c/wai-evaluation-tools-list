@@ -85,7 +85,8 @@ main > header { grid-column: 4 / span 4; }
       <input type="text" id="title" name="title" required>
   </div>
   <div class="field">
-      <label for="website" class="label-input">Web address (URL)<span>(Required)</span></label>
+      <label for="website" class="label-input" aria-describedby="website-desc">Web address (URL)<span>(Required)</span></label>
+      <p id="website-desc">Include 'http://' or 'https://' as appropriate.</p>
       <input type="url" id="website" name="website" required>
   </div>
   <div class="field">
