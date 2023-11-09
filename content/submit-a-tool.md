@@ -58,7 +58,7 @@ main > header { grid-column: 4 / span 4; }
   <p>Tools that <strong>will not</strong> be included in this list are:</p>
   
   <ul>
-    <li>Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities use the web.</li>
+    <li>Assistive technologies, such as screen readers, or voice assistants, that are primarily designed to support people with disabilities using the web.</li>
     <li>Tools that primarily change content or code directly to improve accessibility.</li>
     <li>Checklists of accessibility requirements or Success Criteria.</li>
     <li>Recommendations, best practices, or methodologies about digital accessibility.</li>
