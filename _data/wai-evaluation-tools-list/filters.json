@@ -343,7 +343,7 @@
   },
   {
     "id": "assists",
-    "name": "Output",
+    "name": "Assists by",
     "collapsed": "true",
     "type": "checkbox",
     "order": "default",
@@ -351,23 +351,22 @@
     "options": [
       {
         "id": "generateReport",
-        "name": "Generate report of evaluation results",
+        "name": "Generating reports of evaluation results",
         "filtername": "Generating reports of evaluation results"
       },
       {
         "id": "displayInformation",
-        "name": "Display information within pages",
+        "name": "Displaying information within web pages",
         "filtername": "Displaying information within web pages"
       },
       {
-        "id": "modifyPresentation",
-        "name": "Modify the presentation of pages",
-        "filtername": "Modifying the presentation of web pages"
-      },
-      {
         "id": "accessibilityScore",
-        "name": "Accessibility score",
-      }                      
+        "name": "Creating an accessibility score",
+      },                      
+      {
+        "id": "provideGuidance",
+        "name": "Providing step-by-step evaluation guidance"
+      }
     ]
   } 
 ]

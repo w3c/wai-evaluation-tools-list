@@ -237,7 +237,7 @@ main > header { grid-column: 4 / span 4; }
   {% assign assists = site.data.wai-evaluation-tools-list.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
       <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Output</legend>
+        <legend class="label-input">Assists by</legend>
       <!-- </div> -->
       <div class="field-group">
         {% for option in assists.options %}
