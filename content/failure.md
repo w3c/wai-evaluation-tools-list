@@ -1,6 +1,6 @@
 ---
 title: 'Something went wrong'
-permalink: /tools-list/evaluation/submit-a-tool/failure
+permalink: /test-evaluate/tools/submit-a-tool/failure
 ---
 
 <!-- markdownlint-disable no-inline-html -->

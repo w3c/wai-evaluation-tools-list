@@ -1,6 +1,6 @@
 ---
 title: 'Tool submitted successfully!'
-permalink: /success
+permalink: /test-evaluate/tools/submit-a-tool/success
 ---
 
 The information sent using this form will be reviewed before the tool is published to the list. It can take up to 2-4 weeks until the tool is published.

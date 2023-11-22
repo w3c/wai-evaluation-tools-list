@@ -7,7 +7,7 @@ title_html: "Web Accessibility Evaluation Tools List"
 nav_title: "Web Accessibility Evaluation Tools List"
 doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
@@ -17,7 +17,7 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 github:
   repository: wai/wai-evaluation-tools-list
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /tools-list/evaluation/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /test-evaluate/tools/list/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /teach-advocate/list-of-evaluation-tools/@@

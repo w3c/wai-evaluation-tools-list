@@ -1,14 +1,13 @@
 ---
 title: "Submit a tool - Web Accessibility Evaluation Tools List"
 nav_title: "Submit a tool - Web Accessibility Evaluation Tools List"
-doc-note-type: draft
 lang: en   
-last_updated: 2021-@@-@@
+last_updated: 2023-11-22
 github:
   repository: w3c/wai-evaluation-tools-list
   path: content/submit-a-tool.md
-permalink: /tools-list/evaluation/submit-a-tool/
-ref: /tools-list/evaluation/submit-a-tool/
+permalink: /test-evaluate/tools/submit-a-tool/
+ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
 acknowledgements: /teach-advocate/evaluation-tools-list/acknowledgements/
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
