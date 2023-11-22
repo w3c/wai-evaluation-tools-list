@@ -50,7 +50,8 @@ footer: >
         <p>
             To determine what kind of tool you need and how they are able to assist you, see <a href="https://deploy-preview-32--wai-selecting-eval-tools.netlify.app/test-evaluate/tools/selecting/">Selecting Web Accessibility Evaluation Tools</a>.
         </p>
-        {% include_cached button.html type="link" label="Submit your tool" class="more" href="submit-a-tool" %}
+        {% assign submit = "/test-evaluate/tools/submit-a-tool/" | relative_url %}
+        {% include_cached button.html type="link" label="Submit your tool" class="more" href=submit %}
     </div>
     <div class="header-right">
     </div>
