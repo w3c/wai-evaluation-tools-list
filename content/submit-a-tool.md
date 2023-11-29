@@ -413,7 +413,7 @@ main > header { grid-column: 4 / span 4; }
     <button type="submit" class="submit-tool">Submit tool</button>
   </div>
 </div>
-{% include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="end"%}
+{% include list-submission-form.liquid type="end"%}
 
 <script>
 {% include wai-evaluation-tools-list/js/submission.js %}
