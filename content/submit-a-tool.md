@@ -19,6 +19,16 @@ footer: >
 ---
 <!-- markdownlint-disable no-inline-html -->
 
+{% comment %}
+  To DEBUG set any of the following to true.
+  NB!! ensure to reset all to false before committing
+
+  DEBUG_FUNCTION - pass DEBUG to submission function, causes function to return JSON rather than submitting to GitHub
+  DEBUG_USE_LOCAL_FUNCTION - use local/domain function rather than live one exposed by the Netlify wai-website deploy
+{% endcomment %}
+{% assign DEBUG_SUBMISSION_FUNCTION = false %}
+{% assign DEBUG_USE_LOCAL_SUBMISSION_FUNCTION = false %}
+
 <div style="grid-column: 4 / span 4">
 
 <style>
@@ -64,12 +74,17 @@ main > header { grid-column: 4 / span 4; }
   </ul>
 </div>
 
-{%- include wai-evaluation-tools-list/liquid/list-submission-form.liquid type="start"
+{% capture success_page %}{{ page.dir }}success.html{% endcapture %}
+{% capture failure_page %}{{ page.dir }}failure.html{% endcapture %}
+{%- include list-submission-form.liquid type="start"
                                    name="submission"
                                    version="1"
-                                   success="/success.html"
-                                   failure="/failure.html"
-                                   repository="wai-evaluation-tools-list" -%}
+                                   success=success_page
+                                   failure=failure_page
+                                   repository="wai-evaluation-tools-list"
+                                   onsubmit="onSubmit"
+                                   DEBUG_SUBMISSION_FUNCTION=DEBUG_SUBMISSION_FUNCTION
+                                   DEBUG_USE_LOCAL_SUBMISSION_FUNCTION=DEBUG_USE_LOCAL_SUBMISSION_FUNCTION -%}
 
 <div class="radio-field external-checkbox">
   <input type="checkbox" id="readterms" name="readterms" required>
