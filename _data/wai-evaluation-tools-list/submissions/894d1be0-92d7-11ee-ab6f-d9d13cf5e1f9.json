@@ -1,0 +1,66 @@
+{
+  "a11yloc": "http://test.com",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Test",
+  "contact": "test@test.com",
+  "desktop": [
+    "MacOS",
+    "Linux"
+  ],
+  "features": "test",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Test",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-12-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-04T19:01:31.422Z",
+  "submission_ref": "894d1be0-92d7-11ee-ab6f-d9d13cf5e1f9",
+  "technology": [
+    "EPUB",
+    "Microsoft Office documents",
+    "SMIL"
+  ],
+  "title": "Test Tool",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "CMS plugin"
+  ],
+  "update": "2023-12-04",
+  "website": "http://test.com"
+}
