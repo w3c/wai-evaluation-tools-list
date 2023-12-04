@@ -12,7 +12,7 @@ jobs:
     name: Process Form
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Add new file to workspace
         run: "jq '.client_payload.form' $GITHUB_EVENT_PATH > _data/$REPOSITORY/submissions/$SUBMISSION_REF.json"
@@ -22,7 +22,7 @@ jobs:
 
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: Add form submission
           committer: GitHub <noreply@github.com>
@@ -46,6 +46,4 @@ jobs:
           labels: |
             form submission
             automated pr
-            steve-add-submit
           draft: false
-            master
