@@ -33,10 +33,6 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 # NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
-footer: >
-   <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated on dd MON 2023. First published March 2006.</p>
-   <p><strong>Editors:</strong> Michel Hansma and Vera Lange. Contributors: Eric Velleman, Steve Lee, Wilco Fiers, Shawn Henry, Brent Bakken, Sharron Rush, Kris Anne Kinney, Steve Lee, Daniel Montavo, Kevin White, Estella Oncins, Michele Williams, Vicki Menezes Miller, Andrew Arch, Laura Keen, Sylvie Duchateau, Jade Matos Carew, Brian Elton, Howard Kramer, Mark Palmer, Shadi Abou-Zahra, and other <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
-   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
 
 <style> 
