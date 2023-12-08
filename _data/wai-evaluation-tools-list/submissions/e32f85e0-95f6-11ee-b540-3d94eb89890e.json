@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://sa11y.netlify.app/accessibility/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "adam.chaboryk@torontomu.ca",
+  "features": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "pl",
+    "uk",
+    "es",
+    "sv",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Toronto Metropolitan University",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-05-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T18:23:30.110Z",
+  "submission_ref": "e32f85e0-95f6-11ee-b540-3d94eb89890e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sa11y",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2023-12-08",
+  "website": "https://sa11y.netlify.app"
+}
