@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "This tool differs from the legacy AChecker tool previously submitted as it combines Lighthouse, AChecker and Tingtun (for PDFs).  It also provides a WordPress companion plugin at https://wordpress.org/plugins/accessibility-compliance/",
+  "contact": "admin@achecks.org",
+  "features": "ACHECKS monitors WCAG 2 AA compliance for your domains through intuitive dashboards of AChecker and Lighthouse results generating reports across your websites. PDF checking is provided through Tingtun. ACHECKS scrapes your domain and calls web-services to generate page-by-page and aggregate results.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Cantan Group",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T14:21:44.641Z",
+  "submission_ref": "1d407400-95d5-11ee-bd39-a7b46173c51d",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ACHECKS",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2023-12-08",
+  "website": "https://www.achecks.org"
+}
