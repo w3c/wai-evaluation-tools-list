@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "admin@achecks.org",
+  "features": "Check the Accessibility of a PDF Document via Tingtun.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Cantan Group",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2015-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T14:25:09.615Z",
+  "submission_ref": "976d27f0-95d5-11ee-bd39-a7b46173c51d",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Tingtun PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2023-12-08",
+  "website": "https://achecks.org/tingtun-pdf-accessibility-checker"
+}
