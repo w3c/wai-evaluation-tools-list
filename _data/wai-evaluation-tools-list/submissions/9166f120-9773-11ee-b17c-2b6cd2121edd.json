@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://qualweb.di.fc.ul.pt/evaluator/about",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/qualweb/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "qualweb@fc.ul.pt",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "QualWeb is an automated accessibility checker that assesses webpage conformance to ACT-Rules and WCAG 2.2 HTML and CSS techniques. QualWeb can be used as part of your application, through a command line interface or via its website. QualWeb is the engine of the Portuguese Accessibility Observatory.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "pt",
+    "fi",
+    "sv",
+    "nb"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Faculdade de Ciências da Universidade de Lisboa",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2008-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-10T15:48:31.154Z",
+  "submission_ref": "9166f120-9773-11ee-b17c-2b6cd2121edd",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "QualWeb",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "update": "2023-12-10",
+  "website": "https://qualweb.di.fc.ul.pt/"
+}
