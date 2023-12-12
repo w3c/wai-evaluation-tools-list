@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/equal-access/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "eatools@us.ibm.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "An open source browser extension for web developers and auditors that utilizes IBM's rule engine, which detects accessibility issues for web applications. Provides an integrated checking experience, helping users quickly identify the source of accessibility issues and try fixes. Also provides a keyboard checker mode and identifies issues for review",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "IBM Accessibility",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2020-05-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-12T14:38:20.749Z",
+  "submission_ref": "18a19fd0-98fc-11ee-9b88-f5ce3caaedec",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "IBM Equal Access Accessibility Checker (Chrome, Firefox, Edge extension)",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2023-12-12",
+  "website": "https://www.ibm.com/able/toolkit/tools/#develop"
+}
