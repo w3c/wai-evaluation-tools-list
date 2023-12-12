@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/equal-access/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "eatools@us.ibm.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Cypress Module that performs integrated accessibility testing in the Cypress test environment within a continuous integration pipelines or local test environments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "IBM Accessibility",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-08-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-12T14:42:05.065Z",
+  "submission_ref": "9e558790-98fc-11ee-9b88-f5ce3caaedec",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "IBM Equal Access cypress-accessibility-checker (NPM)",
+  "type": [
+    "Command-line / CI"
+  ],
+  "update": "2023-12-12",
+  "website": "https://www.ibm.com/able/toolkit/tools/#develop"
+}
