@@ -1,0 +1,75 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox"
+  ],
+  "comments": " ",
+  "contact": "angelinaevmenova@gmail.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "  ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "ar",
+    "en",
+    "ru"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "http://me.ca",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-12-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-12T04:42:36.821Z",
+  "submission_ref": "df96e540-98a8-11ee-b0df-2dadf6dbaeff",
+  "technology": [
+    "PDF",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Angelina Evmenova",
+  "type": [
+    "Mobile application",
+    "Online tool",
+    "Programming tool plugin / IDE"
+  ],
+  "update": "2023-12-12",
+  "website": "http://ae.ca"
+}
