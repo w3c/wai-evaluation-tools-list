@@ -80,7 +80,7 @@
   {
     "id": "type",
     "name": "Type of tool",
-    "infoForm": "Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and desktop application).",
+    "infoForm": "Check all that apply when submitting multiple types of the tool (e.g. both browser plugin and online tool).",
     "collapsed": "false",
     "type": "checkbox",
     "order": "custom",
