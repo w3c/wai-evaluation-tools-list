@@ -91,6 +91,10 @@
         "name": "Browser plugin"
       },
       {
+        "id": "typeDesktopApplication",
+        "name": "Desktop application"
+      },
+      {
         "id": "typeMobileApplication",
         "name": "Mobile application"
       },
