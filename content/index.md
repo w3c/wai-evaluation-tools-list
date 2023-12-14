@@ -128,7 +128,7 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
                 </select>
             </div>
             <span id="status">
-                <p id="total-tools">Showing <span>{{ site.data.wai-evaluation-tools-list.tools | size }} tools</span></p>
+                <p id="total-tools">Showing <span>{{ site.data.wai-evaluation-tools-list.submissions | size }} tools</span></p>
             </span>       
             <!-- {% include excol.html type="all" %} -->
             <!-- {% include_cached button.html label="Clear filters" class="clear-button"%} -->
@@ -137,7 +137,7 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
         <h4 id="found-tools"></h4>
         <div id="tools-list-body" class="tools-list">
             {% assign defaultSort = site.data.wai-evaluation-tools-list.sorting.first.sortkey %}
-            {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.tools sort_key=defaultSort %}
+            {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.submissions sort_key=defaultSort %}
         </div>
         <div id="disclaimer">
             {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
