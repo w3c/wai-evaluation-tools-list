@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.audioeye.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "maxwell.johnson@audioeye.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AudioEye's Website Accessibility Checker runs 400+ tests on your website, more than any other site scanner. It only takes a few clicks to get a detailed report of your site’s accessibility issues. Get a breakdown of the most impactful accessibility issues on your site. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AudioEye",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-10-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-15T16:24:34.060Z",
+  "submission_ref": "6ea8f4c0-9b66-11ee-a0cd-ede0291350dc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AudioEye's Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2023-12-14",
+  "website": "https://www.audioeye.com/website-accessibility-checker/"
+}
