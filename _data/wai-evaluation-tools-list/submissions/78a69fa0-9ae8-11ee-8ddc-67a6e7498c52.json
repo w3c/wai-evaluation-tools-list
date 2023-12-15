@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://aaardvarkaccessibility.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "natalie.maclees@nsquared.io",
+  "features": "AAArdvark streamlines web accessibility testing and audits with features like automated issue scanning, visual view of accessibility issues, efficient logging of issues found in manual testing, remediation management, and comprehensive reporting and tracking. Everything digital professionals need for achieving accessibility compliance in one tool.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "N Squared Digital, LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-15T01:22:54.234Z",
+  "submission_ref": "78a69fa0-9ae8-11ee-8ddc-67a6e7498c52",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AAArdvark",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2023-12-15",
+  "website": "https://aaardvarkaccessibility.com/"
+}
