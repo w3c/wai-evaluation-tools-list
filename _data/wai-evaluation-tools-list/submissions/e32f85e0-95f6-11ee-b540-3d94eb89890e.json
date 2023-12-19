@@ -1,6 +1,6 @@
 {
   "a11yloc": "https://sa11y.netlify.app/accessibility/",
-  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
     "Displaying information within web pages",
@@ -9,6 +9,14 @@
   ],
   "automated": [
     "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
   ],
   "comments": "",
   "contact": "adam.chaboryk@torontomu.ca",
@@ -29,7 +37,7 @@
   ],
   "license": [
     "Free",
-    ""
+    "Open source"
   ],
   "product": [
     "Website"
@@ -49,7 +57,7 @@
   ],
   "title": "Sa11y",
   "type": [
-    "Online tool",
+    "Browser plugin",
     "CMS plugin"
   ],
   "update": "2023-12-08",
