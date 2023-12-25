@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://luma.includia.com/record/d790b841-8d9a-400f-92dd-14dc1729c800",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Luma is very similar to PEAT (Photosensitive Epilepsy Analysis Tool), but its web based and supports a wider range of video file formats",
+  "contact": "evan@includia.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Luma Video Accessibility Analysis Tool identifies sequences with flashing lights, spatial patterns, and other potential seizure triggers, especially for individuals with photosensitive epilepsy. Through color data extraction and frame-by-frame analysis, Luma ensures compliance with international video accessibility guidelines, including WCAG 2.3.1 ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Includia",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-10-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-25T02:22:54.091Z",
+  "submission_ref": "8276b5b0-a2cc-11ee-9fd2-63692983318e",
+  "title": "Luma",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2023-12-25",
+  "website": "https://www.includia.com/luma"
+}
