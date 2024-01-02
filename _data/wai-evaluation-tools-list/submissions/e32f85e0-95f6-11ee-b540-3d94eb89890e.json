@@ -58,6 +58,7 @@
   "title": "Sa11y",
   "type": [
     "Browser plugin",
+    "Bookmarklet",
     "CMS plugin"
   ],
   "update": "2023-12-08",
