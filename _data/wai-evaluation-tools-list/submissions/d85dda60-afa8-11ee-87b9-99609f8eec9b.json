@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/total-validator-browser/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "support@totalvalidator.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Checks websites are accessible, use valid HTML, ARIA and CSS, have no broken links, and are free from spelling mistakes. Test single pages through to multiple websites in one go; including offline, authenticated, and javascript generated pages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Total Validator",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-01-10T11:10:21.446Z",
+  "submission_ref": "d85dda60-afa8-11ee-87b9-99609f8eec9b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Total Validator",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Command-line / CI"
+  ],
+  "update": "2024-01-10",
+  "website": "https://www.totalvalidator.com"
+}
