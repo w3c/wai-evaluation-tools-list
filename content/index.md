@@ -33,6 +33,7 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 # NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
+sidebar: false
 ---
 
 <style> 
