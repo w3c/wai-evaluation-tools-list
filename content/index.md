@@ -1,5 +1,4 @@
 ---
-# NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 title: "Web Accessibility Evaluation Tools List"
@@ -8,31 +7,24 @@ nav_title: "Web Accessibility Evaluation Tools List"
 doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
 github:
-  repository: wai/wai-evaluation-tools-list
+  repository: w3c/wai-evaluation-tools-list
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /test-evaluate/tools/list/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
-# NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
-# navigation:
-  # previous: /teach-advocate/list-of-evaluation-tools/@@
-  # next: /teach-advocate/list-of-evaluation-tools/@@
-ref: /teach-advocate/list-of-evaluation-tools/   # Translators, do not change this
-changelog: /@@/changelog/  # NEW: set up a changelog so it's ready for later
-acknowledgements: /@@/acknowledgements/  # delete this line if don't have a separate acknowledgements page. And delete it in the footer below.
+ref: /teach-advocate/list-of-evaluation-tools/   # Do not change this
+
 description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
-# In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
-# Translate the other words below, including "Date:" and "Editor:"
-# Translate the Working Group name. Leave the Working Group acronym in English.
-# Do not change the dates in the footer below.
-# NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
+# image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this resource)
+
+sidebar: false
 ---
 
 <style> 
