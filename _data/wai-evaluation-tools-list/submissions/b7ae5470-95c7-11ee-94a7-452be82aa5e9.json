@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "support@alumnionlineservices.com",
+  "features": "WP ADA Compliance Check includes 82 individual error checks, evaluates content for Web Accessibility issues anywhere on your website, integrates seamlessly into your workflow, and automatically corrects 28 error types, saving you time and money.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Alumnionline Web Services LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2019-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T12:45:50.775Z",
+  "submission_ref": "b7ae5470-95c7-11ee-94a7-452be82aa5e9",
+  "title": "WP ADA Compliance Check Plugin",
+  "type": [
+    "CMS plugin"
+  ],
+  "update": "2023-12-08",
+  "website": "https://www.alumnionlineservices.com"
+}
