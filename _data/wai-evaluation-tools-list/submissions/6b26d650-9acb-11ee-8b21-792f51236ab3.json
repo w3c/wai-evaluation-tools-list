@@ -9,13 +9,7 @@
   ],
   "comments": "",
   "contact": "maxwell.johnson@audioeye.com",
-  "desktop": [
-    "Android",
-    "iOS",
-    "Windows",
-    "MacOS",
-    "Linux"
-  ],
+  "desktop": "",
   "features": "AudioEye's color contrast checker is a tool that measures the contrast between website elements such as background, foreground, text, images, or documents to ensure it meets WCAG accessibility standards. This free tool is one of the most comprehensive on the internet and the only one built to be fully accessible for all.",
   "form_name": "submission",
   "form_version": "1",
