@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "admin@achecks.org",
+  "features": "Interactive, international, customizable, Web content accessibility checker. Allows users to create their own guidelines, and author their own accessibility checks. Based on the Open Accessibility Checks(OAC)",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Cantan Group",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2008-07-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T14:16:47.995Z",
+  "submission_ref": "6c6fdda0-95d4-11ee-bd39-a7b46173c51d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AChecker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2023-12-08",
+  "website": "https://achecks.org/achecker/"
+}

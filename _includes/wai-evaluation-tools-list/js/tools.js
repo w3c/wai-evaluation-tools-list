@@ -2,7 +2,7 @@ const filterForm = document.querySelector('[data-filter-form]');
 const sortForm = document.querySelector('.sort-by');
 const searchForm = document.querySelector('#search');
 
-const importJson = String.raw`{{ site.data.wai-evaluation-tools-list.tools | jsonify }}`;
+const importJson = String.raw`{{ site.data.wai-evaluation-tools-list.submissions | jsonify }}`;
 importJson.replace("\\","\\\\");
 
 const jsonTools = JSON.parse(importJson);
@@ -295,7 +295,7 @@ if (filterForm && sortForm && search) {
 
     sortedArticles.forEach(el => {
       // if (!Object.values(newResults).find(o => o.title === el.getElementsByTagName("h3")[0].innerHTML && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
-      if (!Object.values(newResults).find(o => o.title.replace(/\s+/g, '-').toLowerCase() === el.id && o.creator === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
+      if (!Object.values(newResults).find(o => o.title.replace(/\s+/g, '-').toLowerCase() === el.id && o.provider === el.querySelector('.leftColHeader').innerHTML.replace("by ", ""))){
         el.hidden = true;
         el.classList.add("inactive");
       }

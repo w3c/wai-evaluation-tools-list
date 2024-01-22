@@ -8,7 +8,7 @@
 {% capture tool_title %}<a href="{{ tool.location }}" target="_blank"><h3>{{ tool.title }}</h3>
 {% include_cached icon.html name="external-link" aria-label="Open tool in new window" %}</a> 
 <div class="subheader">
-<p class="leftColHeader">by {{ tool.creator }}</p>
+<p class="leftColHeader">by {{ tool.provider }}</p>
 <p class="rightColHeader">Last updated: {{ tool.update | join: "" | date: "%b %Y" }}</p>
 </div>
 {% endcapture %}
@@ -19,16 +19,14 @@
 {% include box.html type="start" title=tool_title id=tool_details_id %}
 <div class="leftCol">
 	<h4>Description</h4>
-	{% for desc in tool.description %}
-  		<p>{{ desc }}</p>
-	{% endfor %}
+  <p>{{ tool.features }}</p>
 	
 	{% if tool.guideline | size > 0 %}<h4>Guidelines</h4>{% endif %}
 	{% assign filterGuidelines = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
 	{% for guideline in tool.guideline %}
 	  {% for option in filterGuidelines.options %}
-	  	{% if guideline contains option.filtername %}
-	  		<div class="tag">{{ option.short }}</div>
+	  	{% if guideline contains option.name %}
+	  		<div class="tag">{{ option.info }}</div>
 	  	{% endif %}
 	  {% endfor %}
 	{% endfor %}
@@ -117,7 +115,7 @@ Show more features
 	{% endfor %}</p>
 </div>
 {% endif %}
-{% if tool.browsers.size != 0 %}
+{% if tool.browsers | size > 0 %}
   <div class="colRow">
 		<img src="{{ "/content-images/wai-evaluation-tools-list/browsers.png" | relative_url }}" alt="Browser" />
 		<p>{% for browser in tool.browsers %}
