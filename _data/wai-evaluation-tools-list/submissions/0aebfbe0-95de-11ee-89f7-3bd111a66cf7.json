@@ -15,7 +15,7 @@
   "desktop": [
     "iOS"
   ],
-  "features": "Color contrast is a complete mobile accessibility checking tool that allows users to verify that the color contrast of their mobile webpage or image meets WCAG 2.x AA guidelines. \r\n\r\nIn addition, users can audit their mobile website against WCAG 2.x AA and share recommendations .",
+  "features": "Color contrast is a complete mobile accessibility checking tool that allows users to verify that the color contrast of their mobile webpage or image meets WCAG 2.x AA guidelines.<br><br>In addition, users can audit their mobile website against WCAG 2.x AA and share recommendations .",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
