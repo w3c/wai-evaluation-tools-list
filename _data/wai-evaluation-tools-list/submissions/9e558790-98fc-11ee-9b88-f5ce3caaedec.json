@@ -61,5 +61,5 @@
     "Command-line / CI"
   ],
   "update": "2023-12-12",
-  "website": "https://www.ibm.com/able/toolkit/tools/#develop"
+  "website": "https://www.npmjs.com/package/cypress-accessibility-checker"
 }
