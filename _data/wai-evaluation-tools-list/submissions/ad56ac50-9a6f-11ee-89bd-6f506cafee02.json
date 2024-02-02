@@ -1,0 +1,77 @@
+{
+  "a11yloc": "https://monsido.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "info@monsido.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "The Monsido Platform includes a cohesive suite of tools for web accessibility, website quality assurance, brand and content compliance, user consent management, social and web content archiving, and more. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "da",
+    "en",
+    "nl",
+    "no"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Monsido",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2017-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-14T10:58:13.525Z",
+  "submission_ref": "ad56ac50-9a6f-11ee-89bd-6f506cafee02",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Monsido",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2023-12-14",
+  "website": "https://monsido.com/"
+}
