@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@accessibleresources.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "Color contrast is a complete mobile accessibility checking tool that allows users to verify that the color contrast of their mobile webpage or image meets WCAG 2.x AA guidelines.<br><br>In addition, users can audit their mobile website against WCAG 2.x AA and share recommendations .",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Accessible Resources Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2015-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-08T15:25:39.358Z",
+  "submission_ref": "0aebfbe0-95de-11ee-89f7-3bd111a66cf7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Color Contrast",
+  "type": [
+    "Mobile application"
+  ],
+  "update": "2023-12-08",
+  "website": "https://apps.apple.com/us/app/color-contrast/id1095478187"
+}
