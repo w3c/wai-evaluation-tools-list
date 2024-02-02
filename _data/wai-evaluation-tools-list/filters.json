@@ -91,6 +91,10 @@
         "name": "Browser plugin"
       },
       {
+        "id": "bookmarklet",
+        "name": "Bookmarklet"
+      },
+      {
         "id": "typeDesktopApplication",
         "name": "Desktop application"
       },
