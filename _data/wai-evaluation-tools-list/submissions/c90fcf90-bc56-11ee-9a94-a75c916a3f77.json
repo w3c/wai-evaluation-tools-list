@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@silktide.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Silktide's free accessibility checker tests your web page for over 200 WCAG issues, giving you straightforward, step-by-step guidance. The Chrome plugin highlights accessibility issues on each page, includes information on how to fix them, and offers a range of accessibility tools to help you monitor WCAG and ADA compliance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Silktide",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-01-26T14:25:42.153Z",
+  "submission_ref": "c90fcf90-bc56-11ee-9a94-a75c916a3f77",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Silktide accessibility checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2024-01-26",
+  "website": "https://silktide.com/tools/toolbar/"
+}
