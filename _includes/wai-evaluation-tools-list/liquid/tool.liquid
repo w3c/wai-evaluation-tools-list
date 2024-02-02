@@ -136,11 +136,15 @@ Show more features
 	<img src="{{ "/content-images/wai-evaluation-tools-list/accessibilitystatement.png" | relative_url }}" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
 </div>
 {% endif %}
-{% if tool.actrules %}
+{% if tool.actrules != "" and tool.actrules != "https://www.w3.org/WAI/standards-guidelines/act/implementations/"%}
 <div class="colRow">
 	<img src="{{ "/content-images/wai-evaluation-tools-list/actrules.png" | relative_url }}" alt="ACT Rules" />
 	<p>
-		<a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
+    {% if tool.actrules contains "https://www.w3.org/WAI/standards-guidelines/act/implementations/" %}
+  		<a href="{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
+    {% else %}
+	  	<a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
+    {% endif %}
 		<small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small>
 		{%- assign actImplementations = site.data.wai-evaluation-tools-list.act-implementations %}
 		{%- assign actImplementation = actImplementations[tool.actrules] %}
