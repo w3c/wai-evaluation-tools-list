@@ -17,7 +17,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "QualWeb is an automated accessibility checker that assesses webpage conformance to ACT-Rules and WCAG 2.2 HTML and CSS techniques. QualWeb can be used as part of your application, through a command line interface or via its website. QualWeb is the engine of the Portuguese Accessibility Observatory.",
+  "features": "QualWeb is an automated accessibility checker that assesses webpage conformance to ACT-Rules and WCAG 2.1 HTML and CSS techniques. QualWeb can be used as part of your application, through a command line interface or via its website. QualWeb is the engine of the Portuguese Accessibility Observatory.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
