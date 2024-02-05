@@ -68,8 +68,8 @@
 	</div>
 	<div class="colRow">
 		<img src="{{ "/content-images/wai-evaluation-tools-list/language.png" | relative_url }}" alt="Language" />
-		<p>{% for language in tool.language %}
-			{{ language }}{% if forloop.last %}{% else %}, {% endif %}
+		<p>{% for langCode in tool.language %}
+      {{ site.data.lang[langCode].name }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 

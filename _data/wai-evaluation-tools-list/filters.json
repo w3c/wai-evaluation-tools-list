@@ -62,19 +62,24 @@
     "options": [
       {
         "id": "free",
-        "name": "Free",
-        "filtername": ["Free Software","Open Source"]
+        "name": "Free"
       },
       {
         "id": "limited",
-        "name": "Limited",
-        "filtername": ["Trial or Demo"]
+        "name": "Limited free functionality"
       },
       {
-        "id": "paid",
-        "name": "Paid",
-        "filtername": ["Commercial","Enterprise"]
-      }                       
+        "id": "time",
+        "name": "Time-limited trial"
+      },
+      {
+        "id": "subscription",
+        "name": "Subscription"
+      },
+      {
+        "id": "purchase",
+        "name": "One-time purchase"
+      }
     ]
   },
   {
@@ -225,7 +230,7 @@
       {
         "id": "component",
         "name": "Component",
-        "filtername": ["Page component"]
+        "filtername": "Page component"
       },
       {
         "id": "singlePageScreen",
@@ -240,7 +245,7 @@
       {
         "id": "entireProduct",
         "name": "Entire website / software / product",
-        "filtername": ["Entire product"]
+        "filtername": "Entire product"
       },
       {
         "id": "restrictedPages",
@@ -344,8 +349,7 @@
     "options": [
       {
         "id": "yesar",
-        "name": "Documented support for ACT Rules",
-        "filtername": "test"
+        "name": "Documented support for ACT Rules"
       }                      
     ]
   },
