@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "sara@myessaywriter.ai",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "MyEssayWriter.ai is a groundbreaking AI essay writing tool tailored for academic use, offering a diverse array of templates for tasks like paraphrasing and essay generation. What sets it apart is its unique training on a vast database of academic essays and reports, ensuring highly accurate and expert-quality outputs.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "fr",
+    "zh",
+    "hi",
+    ""
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Writing",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-06T06:14:12.604Z",
+  "submission_ref": "f276fbc0-c4b6-11ee-a17e-83a8e9dd76d6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "MyEssayWriterAI",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2024-02-06",
+  "website": "https://www.myessaywriter.ai/"
+}
