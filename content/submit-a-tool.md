@@ -295,32 +295,12 @@ main > header { grid-column: 4 / span 4; }
  <fieldset class="field" id="license">
   <div class="field-group">
       <legend class="label-input">License<span class="short-sub">(Required)</span></legend>
-<!--       {% for option in license.options %}
+      {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
           <label for="tool-license-{{ option.id }}">{{ option.name }}</label>
         </div>
-      {% endfor %} -->
-      <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-free" value="Free" group="licence" required>
-        <label for="tool-license-free">Free</label>
-      </div>
-      <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-limited" value="Limited free functionality" group="licence" required>
-        <label for="tool-license-limited">Limited free functionality</label>
-      </div>
-      <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-time" value="Time-limited trial" group="licence" required>
-        <label for="tool-license-time">Time-limited trial</label>
-      </div>
-      <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-subscription" value="Subscription" group="licence" required>
-        <label for="tool-license-subscription">Subscription</label>
-      </div>
-      <div class="radio-field">
-        <input type="checkbox" name="license[]" id="tool-license-purchase" value="One-time purchase" group="licence" required>
-        <label for="tool-license-purchase">One-time purchase</label>
-      </div>
+      {% endfor %}
       <div class="radio-field">
         <input type="checkbox" name="license[]" id="tool-license-other" class="tool-license-other-check" group="licence">
         <label id="tool-license-other" for="tool-license-other">Other:</label>

@@ -68,8 +68,8 @@
 	</div>
 	<div class="colRow">
 		<img src="{{ "/content-images/wai-evaluation-tools-list/language.png" | relative_url }}" alt="Language" />
-		<p>{% for language in tool.language %}
-			{{ language }}{% if forloop.last %}{% else %}, {% endif %}
+		<p>{% for langCode in tool.language %}
+      {{ site.data.lang[langCode].name }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
 	</div>
 
@@ -133,7 +133,7 @@ Show more features
 </div>
 {% if tool.a11yloc != "" %}
 <div class="colRow">
-	<img src="{{ "/content-images/wai-evaluation-tools-list/accessibilitystatement.png" | relative_url }}" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement </a>available</p>
+	<img src="{{ "/content-images/wai-evaluation-tools-list/accessibilitystatement.png" | relative_url }}" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement</a> available</p>
 </div>
 {% endif %}
 {% if tool.actrules != "" and tool.actrules != "https://www.w3.org/WAI/standards-guidelines/act/implementations/"%}

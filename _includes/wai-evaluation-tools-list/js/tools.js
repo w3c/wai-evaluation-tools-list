@@ -7,13 +7,18 @@ importJson.replace("\\","\\\\");
 
 const jsonTools = JSON.parse(importJson);
 const jsonFilters = JSON.parse(String.raw`{{site.data.wai-evaluation-tools-list.filters | jsonify}}`);
-const jsonLang = JSON.parse('{{site.data.wai-evaluation-tools-list.lang | jsonify}}');
-const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-listcountries | jsonify}}');
+const jsonLang = JSON.parse('{{site.data.lang | jsonify}}');
+const jsonCountry = JSON.parse('{{ site.data.wai-evaluation-tools-list.countries | jsonify}}');
 
 var toolsList = document.getElementById('tools-list');
 var toolsListContent = document.querySelector('.tools-list');
 
 var activeFiltersBlock = document.getElementById('activeFilters');
+
+var jsonLangCode = [];
+for(let langCode in jsonLang) {
+  jsonLangCode[jsonLang[langCode].name] = langCode;
+}
 
 //Pagination settings
 var currentPage = 1;
@@ -191,7 +196,9 @@ if (filterForm && sortForm && search) {
         function(r) {
           if(x[filter.filterId] !== undefined){
             if(filter.filterId === "language"){
-              return x[filter.filterId].some(function(v){ return v.indexOf(r)>=0 });
+              return x[filter.filterId].some(function(v){
+                return v.indexOf(jsonLangCode[r])>=0
+              });
             }else if(filter.filterId === "actrules"){
               if(x[filter.filterId] == null){
                 return false;
@@ -264,9 +271,6 @@ if (filterForm && sortForm && search) {
 
       var attValues = document.createElement('dd');
 
-      // if (f.filterId == 'language')
-        // attValues.innerText = jsonLang[f.filterValues[0]].name + " (" + jsonLang[f.filterValues[0]].nativeName + ")";
-      // else 
       if (f.filterId == 'country')
         attValues.innerText = jsonCountry[f.filterValues[0]].name + " (" + jsonCountry[f.filterValues[0]].nativeName + ")";
       else
