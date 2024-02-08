@@ -1,0 +1,71 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Our accessibility statement is held within our A11y Center, which can be accessed by clicking the text button labeled \"Accessibility\" in the footer of our website.",
+  "contact": "pete.bruhn@accessibleweb.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "RAMP helps teams discover, understand, and remediate web accessibility issues. Our suite of tools includes a website monitoring platform, free browser extension for automated scanning, color contrast & manual audits, and an online learning Academy. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Accessible Web",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2021-10-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-08T18:13:30.844Z",
+  "submission_ref": "c39b49c0-c6ad-11ee-bf90-81cec25a579a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessible Web RAMP",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "update": "2024-02-08",
+  "website": "https://accessibleweb.com/ramp-tools/"
+}
