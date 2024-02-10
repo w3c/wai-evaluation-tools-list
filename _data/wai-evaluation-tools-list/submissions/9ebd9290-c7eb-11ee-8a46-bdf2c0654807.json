@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "harrywilson7079@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "PerfectEssayWriter.AI is the world's first AI-powered essay-writing tool. Its mission is to make essay writing easy and fun for students of all ages. The AI engine automatically writes your essays, outlines, and research papers in minutes - so you can focus on what's important: learning.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PerfectEssayWriter.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-10T08:08:48.953Z",
+  "submission_ref": "9ebd9290-c7eb-11ee-8a46-bdf2c0654807",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PerfectEssayWriter.ai",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2024-02-10",
+  "website": "https://www.perfectessaywriter.ai/"
+}
