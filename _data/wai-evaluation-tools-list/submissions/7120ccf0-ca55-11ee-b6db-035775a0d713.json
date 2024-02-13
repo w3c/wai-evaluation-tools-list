@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://www.accessibilitycloud.com/view-report/?site=www.accessibilitycloud.com-22432077",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "umut@accessibilitycloud.com",
+  "features": "Test & monitor your websites and documents against WCAG, EN 301 549, BITV, Section 508 and ADA. Accessibility Cloud offers automatic and manual accessibility tests, monitoring, and compliance management within the same powerful platform. Sign up for free to scan your site and get started.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "sv",
+    "nb"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Accessibility Cloud",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-13T09:51:21.407Z",
+  "submission_ref": "7120ccf0-ca55-11ee-b6db-035775a0d713",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Accessibility Cloud",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2024-02-13",
+  "website": "https://www.accessibilitycloud.com/"
+}
