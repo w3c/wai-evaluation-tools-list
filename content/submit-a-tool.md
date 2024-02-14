@@ -297,7 +297,7 @@ main > header { grid-column: 4 / span 4; }
       <legend class="label-input">License<span class="short-sub">(Required)</span></legend>
       {% for option in license.options %}
         <div class="radio-field">
-          <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" required>
+          <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" group="license" required>
           <label for="tool-license-{{ option.id }}">{{ option.name }}</label>
         </div>
       {% endfor %}
