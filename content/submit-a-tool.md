@@ -114,13 +114,6 @@ main > header { grid-column: 4 / span 4; }
       <label for="release" class="label-input">Release date<span>(Required)</span></label>
       <input type="date" id="release" name="release" required>
   </div>
-  <div class="field" style="display: none;">
-      <legend for="update"  class="label-input">Date of most recent update<span>Required</span></legend>
-  </div>
-  <div class="field" style="display: none;">
-      <label for="update" class="label-input">Date of most recent update<span>(Required)</span></label>
-      <input type="date" id="update" name="update" required>
-  </div>
   <div class="field">
       <label for="a11yloc" class="label-input">Accessibility statement (URL)</label>
       <input type="url" id="a11yloc" name="a11yloc">
@@ -141,13 +134,11 @@ main > header { grid-column: 4 / span 4; }
   <div class="field" id="features">
     <label for="feature-desc" class="label specialField">Short product description (max. 350 characters)<span>(Required)</span></label>
     <p>Add a description of key features and functionalities of the tool. Try to write this description in a way that tool users can understand.</p>
-    <textarea id="feature-desc" name="features" rows="5" maxlength="350"></textarea>
+    <textarea id="feature-desc" name="features" rows="5" maxlength="350" required></textarea>
   </div>
   {% assign purpose = site.data.wai-evaluation-tools-list.filters | find: "id", "purpose" %}
   <fieldset class="field" id="purpose">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
-      <!-- </div> -->
+      <legend class="label-input">Purpose<span class="short-sub">(Required)</span></legend>
       <p>{{ purpose.infoForm }}</p>
       <div class="field-group">
         {% for option in purpose.options %}
@@ -166,9 +157,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign product = site.data.wai-evaluation-tools-list.filters | find: "id", "product" %}
   <fieldset class="field" id="product">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
-      <!-- </div> -->
+      <legend class="label-input">Product evaluated<span class="short-sub">(Required)</span></legend>
       <div class="field-group">
         {% for option in product.options %}
           <div class="radio-field">
@@ -186,9 +175,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign technology = site.data.wai-evaluation-tools-list.filters | find: "id", "technology" %}
   <fieldset class="field" id="technology">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">File type</legend>
-      <!-- </div> -->
+      <legend class="label-input">File type</legend>
       <div class="field-group">
         {% for option in technology.options %}
           <div class="radio-field">
@@ -206,10 +193,8 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign automated = site.data.wai-evaluation-tools-list.filters | find: "id", "automated" %}
   <fieldset class="field" id="automated">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Scope<span class="short-sub">(Required)</span></legend>
-        <p>{{ automated.infoForm }}</p>
-      <!-- </div> -->
+      <legend class="label-input">Scope<span class="short-sub">(Required)</span></legend>
+      <p>{{ automated.infoForm }}</p>
       <div class="field-group">
         {% for option in automated.options %}
           <div class="radio-field">
@@ -227,9 +212,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign guideline = site.data.wai-evaluation-tools-list.filters | find: "id", "guideline" %}
   <fieldset class="field" id="guideline">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Standards</legend>
-      <!-- </div> -->
+      <legend class="label-input">Standards</legend>
       <div class="field-group">
         {% for option in guideline.options %}
           <div class="radio-field">
@@ -247,9 +230,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign assists = site.data.wai-evaluation-tools-list.filters | find: "id", "assists" %}
   <fieldset class="field" id="assists">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Assists by</legend>
-      <!-- </div> -->
+      <legend class="label-input">Assists by</legend>
       <div class="field-group">
         {% for option in assists.options %}
           <div class="radio-field">
@@ -289,12 +270,11 @@ main > header { grid-column: 4 / span 4; }
       <button type="button" aria-label="Remove" class="remove_line">Remove</button>
       </div>
     <button type="button" class="add_line small">Add language</button>
-    <!-- <button type="button" class="remove_line small" disabled>Remove last language</button> -->
   </div>
   {% assign license = site.data.wai-evaluation-tools-list.filters | find: "id", "license" %}
- <fieldset class="field" id="license">
-  <div class="field-group">
-      <legend class="label-input">License<span class="short-sub">(Required)</span></legend>
+  <fieldset class="field" id="license">
+    <legend class="label-input">License<span class="short-sub">(Required)</span></legend>
+    <div class="field-group">
       {% for option in license.options %}
         <div class="radio-field">
           <input type="checkbox" name="license[]" id="tool-license-{{ option.id }}" value="{{ option.name }}" group="license" required>
@@ -310,10 +290,8 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign type = site.data.wai-evaluation-tools-list.filters | find: "id", "type" %}
   <fieldset class="field" id="type">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
+      <legend class="label-input">Type of tool<span class="short-sub">(Required)</span></legend>
         <p>{{ type.infoForm }}</p>
-      <!-- </div> -->
       <div class="field-group">
         {% for option in type.options %}
           <div class="radio-field">
@@ -331,9 +309,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign browsers = site.data.wai-evaluation-tools-list.filters | find: "id", "browsers" %}
   <fieldset class="field" id="browsers">
-      <!-- <div class="fieldheader"> -->
-        <legend class="label-input">Browser for plugin</legend>
-      <!-- </div> -->
+      <legend class="label-input">Browser for plugin</legend>
       <div class="field-group">
         {% for option in browsers.options %}
           <div class="radio-field">
@@ -351,9 +327,7 @@ main > header { grid-column: 4 / span 4; }
   </fieldset>
   {% assign desktop = site.data.wai-evaluation-tools-list.filters | find: "id", "desktop" %}
   <fieldset class="field" id="desktop">
-      <!-- <div class="fieldheader"> -->
       <legend class="label-input">Operating system</legend>
-      <!-- </div> -->
       <div class="field-group">
         {% for option in desktop.options %}
           <div class="radio-field">
