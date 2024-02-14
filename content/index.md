@@ -4,7 +4,6 @@
 title: "Web Accessibility Evaluation Tools List"
 title_html: "Web Accessibility Evaluation Tools List" 
 nav_title: "Web Accessibility Evaluation Tools List"
-doc-note-type: draft
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
