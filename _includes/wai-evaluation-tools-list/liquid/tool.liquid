@@ -142,16 +142,18 @@ Show more features
 	<p>
     {% if tool.actrules contains "https://www.w3.org/WAI/standards-guidelines/act/implementations/" %}
   		<a href="{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
+      {%- assign actrule-token = tool.actrules | replace: "https://www.w3.org/WAI/standards-guidelines/act/implementations/" | remove: "/"-%}
     {% else %}
 	  	<a href="https://www.w3.org/WAI/standards-guidelines/act/implementations/{{tool.actrules}}" target="_blank">ACT Rules implemented</a>:
+      {%- assign actrule-token = tool.actrules -%}
     {% endif %}
-		<small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small>
-		{%- assign actImplementations = site.data.wai-evaluation-tools-list.act-implementations %}
-		{%- assign actImplementation = actImplementations[tool.actrules] %}
-		{%- if actImplementation %}<br>
+		{%- assign actImplementations = site.data.wai-evaluation-tools-list.act-implementations.implementations %}
+		{%- assign actImplementation = actImplementations[actrule-token] %}
+		{%- if actImplementation %}
 			{{ actImplementation.approvedRules.complete }} Rules 
 			<small>/ {{ actImplementation.proposedRules.complete }} Proposed Rules</small>
 		{%- endif %}
+		<small>(<a href="https://www.w3.org/WAI/standards-guidelines/act/rules/about/">About ACT</a>)</small>
 	</p>
 </div>
 {% endif %}
