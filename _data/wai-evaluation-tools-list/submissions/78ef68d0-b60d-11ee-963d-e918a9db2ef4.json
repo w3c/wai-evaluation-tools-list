@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "francesco.pasquini@mashfrog.com",
+  "features": "",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "LUMSA",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-01-18T14:25:47.486Z",
+  "submission_ref": "78ef68d0-b60d-11ee-963d-e918a9db2ef4",
+  "title": "LUMSA",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Server-side integration"
+  ],
+  "update": "2024-01-18",
+  "website": "https://lumsa.it/it/home"
+}
