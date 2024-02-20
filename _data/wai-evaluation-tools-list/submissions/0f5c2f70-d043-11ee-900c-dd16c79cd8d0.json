@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "https://Im6e.ma/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "sihamsaham830@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "features": "Site dans lycée pour la publication des nouvelles ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lycée",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-20T22:54:53.415Z",
+  "submission_ref": "0f5c2f70-d043-11ee-900c-dd16c79cd8d0",
+  "title": "WCAG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://Im6e.ma/"
+}
