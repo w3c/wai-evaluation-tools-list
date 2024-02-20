@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "wcag",
+  "contact": "saida.aityahya@ump.ac.ma",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "free,website,html",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "ar"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Étudiants ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-20T22:57:49.510Z",
+  "submission_ref": "78522660-d043-11ee-900c-dd16c79cd8d0",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "WCAG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.cpge.ac.ma/"
+}
