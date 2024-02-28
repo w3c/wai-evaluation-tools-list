@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "kate@essayservice.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "EssayService.ai is a smart platform designed to assist individuals in creating high-quality essays, research papers, and other academic content. The platform uses the power of artificial intelligence, and natural language processing to help users in every step of the academic writing process.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    "on",
+    "Freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "EssayService.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-05-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-10T07:16:36.867Z",
+  "submission_ref": "53df2d30-c7e4-11ee-91aa-9f6697ea006c",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "EssayService.ai",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2024-02-10",
+  "website": "https://www.essayservice.ai/"
+}
