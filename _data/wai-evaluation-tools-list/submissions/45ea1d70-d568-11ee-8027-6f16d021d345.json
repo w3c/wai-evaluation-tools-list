@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "m@squidler.io",
+  "features": "Squidler does fully autonomous website testing. All you have to do is provide your URL. \r\n\r\nOur virtual user opens a browser and navigates and interacts with your website much like any visitor. As it browses your website it checks for accessibility issues as well as functional bugs, spelling and grammar mistakes and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Squidler AB",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-06-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-27T12:03:52.135Z",
+  "submission_ref": "45ea1d70-d568-11ee-8027-6f16d021d345",
+  "title": "Squidler.io",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://squidler.io/"
+}
