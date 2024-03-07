@@ -1,0 +1,74 @@
+{
+  "a11yloc": " https://www.infosys.com/services/incubating-emerging-technologies/offerings/digital-accessibility.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "gangasusan_kurian@infosys.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "AI powered, cloud ready, end to end accessibility and inclusivity solution with built in intelligence automation adhering to global standards with web, mobile, and PDF analysis and recommendations for remediation. AI capabilities include AI powered color contrast checker, web content checker and image description generator. \r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Infosys",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-07T10:25:10.062Z",
+  "submission_ref": "f9cd15d0-dc6c-11ee-838a-8317bf917673",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Infosys Accessibility Platform",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Online tool",
+    "Server-side integration",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.infosys.com/services/incubating-emerging-technologies/documents/accessibility-testing-tool.pdf"
+}
