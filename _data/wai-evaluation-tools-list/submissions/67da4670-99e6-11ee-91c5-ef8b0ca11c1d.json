@@ -1,0 +1,69 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "aghazuc@odellus.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "COMPLYFirst Element-V is a windows desktop application for automated and manual web accessibility testing. COMPLYFirst Element-V includes a comprehensive set of tools and features that enable development and QA processes for accessibility. It includes unlimited scanning/verification of web pages and provides summary and detailed reports",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Odellus Corporation",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2002-06-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-13T18:35:35.895Z",
+  "submission_ref": "67da4670-99e6-11ee-91c5-ef8b0ca11c1d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Markdown"
+  ],
+  "title": "COMPLYFirst Element-V",
+  "type": [
+    "Browser plugin",
+    "Programming tool plugin / IDE"
+  ],
+  "update": "2023-12-13",
+  "website": "https://odellus.com/odellus?COMPLYFirstElementVOverview"
+}
