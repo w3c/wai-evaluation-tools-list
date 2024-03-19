@@ -1,0 +1,66 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Axe Auditor is a comprehensive manual testing tool with test automation and manual testing methodology built in. With a comprehensive dashboard for full WCAG conformance reporting, it provides integration with the axe DevTools extension to provide high efficiency to QA teams. Supports testing for WCAG, EN 301-549, Trusted tester and ACAA standards.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Other"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-12-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T10:01:04.994Z",
+  "submission_ref": "996e5c20-e5d7-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Axe Auditor",
+  "type": [
+    "Server-side integration"
+  ],
+  "website": "https://www.deque.com/axe/auditor/"
+}
