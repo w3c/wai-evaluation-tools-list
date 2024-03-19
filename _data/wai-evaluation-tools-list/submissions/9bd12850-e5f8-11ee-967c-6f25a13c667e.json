@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "nicole@hbcu20x20.org",
+  "features": "Tool helps people apply for jobs and internships ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "HBCU 20x20",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-03-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T13:57:22.389Z",
+  "submission_ref": "9bd12850-e5f8-11ee-967c-6f25a13c667e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "HBCU 20x20",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://theapplication.org/"
+}
