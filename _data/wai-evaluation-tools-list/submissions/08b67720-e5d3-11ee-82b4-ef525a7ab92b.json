@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "axe DevTools Linter allows you to check your code for accessibility issues in your IDE and CI/CD. axe DevTools Linter is easy to configure and use, and it can check React (.js, .jsx, and .tsx), Vue (.vue), Angular (.component.html), HTML (.html and .htm), and Markdown (.md and .markdown) files so you can avoid common accessibility defects.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-10-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:28:24.210Z",
+  "submission_ref": "08b67720-e5d3-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "Markdown"
+  ],
+  "title": "Axe DevTools Linter",
+  "type": [
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.deque.com/axe/devtools/linter/"
+}
