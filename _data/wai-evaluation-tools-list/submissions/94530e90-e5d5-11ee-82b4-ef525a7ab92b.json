@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "3 NuGet packages, which can be used for automated accessibility testing powered by axe core. Integrations include Playwright and Selenium.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:46:37.433Z",
+  "submission_ref": "94530e90-e5d5-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Axe-core - C# APIs)",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/dequelabs/axe-core-nuget"
+}
