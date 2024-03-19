@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Helps you catch and fix accessibility issues immediately while you code in your favorite IDE, VS Code. The extension points you to full explanations and clear directions for remediation so you can fix accessibility issues early—when it's cheaper and easier.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:31:26.555Z",
+  "submission_ref": "75661ab0-e5d3-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "Markdown"
+  ],
+  "title": "Axe Accessibility Linter for VS Code",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter"
+}
