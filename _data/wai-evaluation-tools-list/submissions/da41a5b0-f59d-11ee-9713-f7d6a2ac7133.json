@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "test@mairiesdzdwdf.fz",
+  "features": "adadsasS",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Maire Asnieres",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-04-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-08T11:48:01.547Z",
+  "submission_ref": "da41a5b0-f59d-11ee-9713-f7d6a2ac7133",
+  "title": "Maire Asnieres",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.espace-citoyens.net/asnieres-sur-seine/espace-citoyens/"
+}
