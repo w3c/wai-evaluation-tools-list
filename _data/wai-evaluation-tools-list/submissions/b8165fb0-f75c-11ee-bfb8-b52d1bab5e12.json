@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "evan@includia.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Includia Accessibility Checker seamlessly integrates into your development workflow, empowering you to create inclusive web experiences. It meticulously analyzes web pages to pinpoint potential accessibility violations based on the latest WCAG standards.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Includia",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-10T17:06:49.259Z",
+  "submission_ref": "b8165fb0-f75c-11ee-bfb8-b52d1bab5e12",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Includia Accessibility Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://includia.com/checker"
+}
