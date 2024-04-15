@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "jveliov@qualibooth.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "QualiBooth simplifies web accessibility compliance with real-time scanning, monitoring, and detailed reporting. The platform offers an accessibility checker, real-time dashboards, and a development assistant, aiding organizations in achieving ADA, WCAG, and European Accessibility Act compliance. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "QualiBooth",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-15T12:53:14.856Z",
+  "submission_ref": "1fa97680-fb27-11ee-b702-edcbac603cbb",
+  "title": "QualiBooth",
+  "type": [
+    "Server-side integration"
+  ],
+  "website": "https://qualibooth.com/"
+}
