@@ -1,0 +1,81 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "junuzdjipalo11@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows",
+    "Linux",
+    "Other"
+  ],
+  "features": "balkanet internet",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "bs"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "balkanet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-02-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-17T20:41:18.010Z",
+  "submission_ref": "d75a0a90-fcfa-11ee-af28-cfea2ef6bcf0",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "balkanet",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Online tool",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "http://balkanet.com"
+}
