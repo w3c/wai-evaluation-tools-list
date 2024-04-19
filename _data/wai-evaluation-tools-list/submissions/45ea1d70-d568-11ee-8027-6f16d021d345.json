@@ -10,7 +10,7 @@
   ],
   "comments": "",
   "contact": "m@squidler.io",
-  "features": "Squidler does fully autonomous website testing. All you have to do is provide your URL. \r\n\r\nOur virtual user opens a browser and navigates and interacts with your website much like any visitor. As it browses your website it checks for accessibility issues as well as functional bugs, spelling and grammar mistakes and more.",
+  "features": "<p>Squidler does fully autonomous website testing. All you have to do is provide your URL.</p><p>Our virtual user opens a browser and navigates and interacts with your website much like any visitor. As it browses your website it checks for accessibility issues as well as functional bugs, spelling and grammar mistakes and more.</p>",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
