@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.siteimprove.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/alfa-assisted/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Language selector on submission form doesn't work. \r\nThe Siteimprove Accessibility Platform is available in the following languages: \r\nEnglish\r\nDanish\r\nSwedish\r\nGerman\r\nNorwegian (bokmål)\r\nFrench\r\nSpanish\r\nItalian\r\nDutch\r\nFinnish\r\nJapanese ",
+  "contact": "amoe@siteimprove.com",
+  "features": "Siteimprove Accessibility Platform is an enterprise-grade tool for evaluating and enhancing website accessibility. It identifies issues, offers remediation guidance, and tracks improvements. Customizable dashboards and reports ensure you always stay updated on the state of your websites.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Siteimprove ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-02-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-24T13:35:28.522Z",
+  "submission_ref": "838ff6a0-023f-11ef-8567-556589168cb7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Siteimprove Accessibility Platform",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://www.siteimprove.com/"
+}
