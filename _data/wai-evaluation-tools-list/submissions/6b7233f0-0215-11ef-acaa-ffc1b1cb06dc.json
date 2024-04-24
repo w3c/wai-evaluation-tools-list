@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.facebook.com/p/Salesforge-AI-100091665079586/ ",
+  "actrules": "https://twitter.com/franksondors",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "AI autopilot for sales execution",
+  "contact": "salesforge@setoutreach.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "AI autopilot for sales execution",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "da"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-24T08:34:09.199Z",
+  "submission_ref": "6b7233f0-0215-11ef-acaa-ffc1b1cb06dc",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Salesforge",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://salesforge.ai/"
+}
