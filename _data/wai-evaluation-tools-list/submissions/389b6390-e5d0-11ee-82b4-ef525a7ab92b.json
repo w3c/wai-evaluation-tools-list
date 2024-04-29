@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "a11yloc": "",
   "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
   "assists": [
     "Generating reports of evaluation results"
@@ -18,7 +18,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "axe DevTools HTML CLI is a command-line application for scanning web pages for accessibility issues and for generating reports.\r\n\r\nWith axe DevTools HTML CLI, organizations can automate accessibility testing without having to integrate axe into integration or end-to-end tests.",
+  "features": "axe DevTools for Web CLI is a command-line application for scanning web pages for accessibility issues and for generating reports. With axe DevTools for Web CLI, organizations can automate accessibility testing without having to integrate axe into integration or end-to-end tests.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -50,9 +50,9 @@
     "HTML / XHTML",
     "CSS"
   ],
-  "title": "Axe DevTools HTML - CLI",
+  "title": "Axe DevTools for Web CLI",
   "type": [
     "Command-line / CI"
   ],
-  "website": "https://www.deque.com/axe/devtools/"
+  "website": "https://docs.deque.com/devtools-html/4.0.0/en/cli-home"
 }
