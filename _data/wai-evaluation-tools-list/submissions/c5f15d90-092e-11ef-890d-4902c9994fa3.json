@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "no",
+  "contact": "KidtivityLab@gmail.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "\"Kidtivity Lab harnesses AI to deliver personalized play experiences for children. Our app listens to what your kids love and their unique preferences, including age and interests, to suggest activities that are far from one-size-fits-all.\r\n\r\nFrom crafting and cooking to learning and moving, Kidtivity Lab offers a diverse range of activities tailored",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "bs"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "254354-05-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-03T09:23:16.585Z",
+  "submission_ref": "c5f15d90-092e-11ef-890d-4902c9994fa3",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Kidtivity Lab",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://www.typeflowai.com/"
+}
