@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "nicola2102@zohomail.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "i want test web accesibilty status , afrer resonse that, make a secure envirement  for my mobile device surface.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "apple",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-05-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-08T07:45:29.159Z",
+  "submission_ref": "f0bff570-0d0e-11ef-881e-93a0082e0904",
+  "title": "accesibility",
+  "type": [
+    "Mobile application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://apple.com"
+}
