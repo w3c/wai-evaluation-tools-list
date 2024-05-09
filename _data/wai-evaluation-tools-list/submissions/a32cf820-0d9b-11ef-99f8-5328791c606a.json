@@ -1,0 +1,68 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "gugulavenkatesh667@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "I'm venky",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "MBA",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-05-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-09T00:32:38.050Z",
+  "submission_ref": "a32cf820-0d9b-11ef-99f8-5328791c606a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Microsoft Office documents"
+  ],
+  "title": "G VENKATESH ",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "http://venky.html"
+}
