@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://mentor.enterprisedna.co/",
+  "actrules": "https://mentor.enterprisedna.co/",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "Datamentorseo@gmail.com",
+  "features": "Data Mentor is tailored for individuals who frequently engage with data-related tasks, whether it be for learning, creating, or problem-solving. It caters to a broad audience, including but not limited to data analysts, students, educators, and professionals who require on-demand assistance with data.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Data Mentor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-09T16:49:18.023Z",
+  "submission_ref": "137b1660-0e24-11ef-8335-7fe01d085ff6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Data Mentor",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://mentor.enterprisedna.co/"
+}
