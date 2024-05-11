@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://typeflowai.com",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "no",
+  "contact": "typeflowai@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "\"We convert form questions into dynamic merge tags to craft high-level prompts and build sophisticated AI toolsTypeflowAI is the Next-Gen AI Forms with GPT superpowers.\r\n\r\n\"",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "af"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "66524-05-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-11T20:38:13.065Z",
+  "submission_ref": "6307d390-0fd6-11ef-95ed-df2b17256b71",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "TypeflowAI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://typeflowai.com/"
+}
