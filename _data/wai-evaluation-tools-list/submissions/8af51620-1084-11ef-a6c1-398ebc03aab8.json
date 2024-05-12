@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "al68507@ulunos.utad.pt",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "É um jogo de perguntas que a pessoa roda o dado e vai andando pelo tabuleiro e responder as perguntas",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "pt"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PlayNwhere",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-03-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-12T17:24:52.482Z",
+  "submission_ref": "8af51620-1084-11ef-a6c1-398ebc03aab8",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Play",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://playnwhere.com.br/matriz_play_v11_rt_202401/clientes/ffc582bf8b6b3c8/torneios/308/index.html"
+}
