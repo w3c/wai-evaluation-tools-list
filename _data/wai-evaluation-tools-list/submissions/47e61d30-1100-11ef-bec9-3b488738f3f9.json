@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://socialaiplanner.com/",
+  "actrules": "https://socialaiplanner.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "no",
+  "contact": "Socialaiplanner@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Our platform will create content and schedule your posts for you, making your social media management a breeze. Trust Social AI Planner to streamline your workflow and enhance your online presence.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "af"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "3245-05-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-13T08:10:37.571Z",
+  "submission_ref": "47e61d30-1100-11ef-bec9-3b488738f3f9",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Social AI Planner",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://socialaiplanner.com/"
+}
