@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
+  "actrules": "https://accessibilitychecker.org",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "yotam@AccessibilityChecker.org",
+  "features": "A free website accessibility automated scan for WCAG 2.1 compliance issues. Just insert your URL and get instant results. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityChecker.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-06-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-14T08:00:21.330Z",
+  "submission_ref": "0300cc10-11c8-11ef-ad08-275252fe0d15",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Yotam Flohr",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessibilitychecker.org"
+}
