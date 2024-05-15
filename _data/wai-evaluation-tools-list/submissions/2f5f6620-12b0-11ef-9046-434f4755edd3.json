@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://tjime.com/",
+  "actrules": "https://tjime.com/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Tjime is a simple calendar and burnout prevention tool to track and schedule your daily work",
+  "contact": "tjimeoutreach@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Tjime is a simple calendar and burnout prevention tool to track and schedule your daily work",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "eu"
+  ],
+  "license": [
+    "Free",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "0095-06-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-15T11:42:19.011Z",
+  "submission_ref": "2f5f6620-12b0-11ef-9046-434f4755edd3",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Mathias",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "http://tjime.com"
+}
