@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://musavir.ai/",
+  "actrules": "https://musavir.ai/",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "Musavir is a multilingual text to image generator that allows you to generate stunning visuals with simple text prompts. MyAvatar on Musavir is the most powerful avatar generator yet, allowing users to generate stunningly life-like avatars from a single selfie and a text prompt.",
+  "contact": "Musaviroutreach@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Musavir is a multilingual text to image generator that allows you to generate stunning visuals with simple text prompts. MyAvatar on Musavir is the most powerful avatar generator yet, allowing users to generate stunningly life-like avatars from a single selfie and a text prompt.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "hy"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "saas",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "0012-03-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-16T19:43:33.020Z",
+  "submission_ref": "94096dc0-13bc-11ef-9b12-294bdcfae5d3",
+  "technology": [
+    "EPUB"
+  ],
+  "title": "Musavir AI",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://musavir.ai/"
+}
