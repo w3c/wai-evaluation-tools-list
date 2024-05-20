@@ -1,0 +1,44 @@
+{
+  "a11yloc": "https://drive.google.com/open?id=1lPB5zdJ_7gdmfjVJp2sR86Szj7IHFbZ5",
+  "actrules": "https://humanizeaitext.ai/",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Humanize AI Text transforms AI-generated content into natural, human-like text to bypass AI detection systems. It offers modes like Standard, Shorten, Expand, Simplify, and Improve Writing, supporting multilingual content and enhancing readability. The tool provides a \"Human Score\" for real-time feedback on text quality, making it suitable for various industries and content types.",
+  "contact": "humanizeseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Humanize AI Text transforms AI-generated content into natural, human-like text to bypass AI detection systems. It offers modes like Standard, Shorten, Expand, Simplify, and Improve Writing, supporting multilingual content and enhancing readability. The tool provides a \"Human Score\" for real-time feedback on text quality, making it suitable for vari",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "ak"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2012-12-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-20T09:48:26.790Z",
+  "submission_ref": "1b1e1c60-168e-11ef-8fe4-91070baba48e",
+  "title": "Humanize AI Text",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://humanizeaitext.ai/"
+}
