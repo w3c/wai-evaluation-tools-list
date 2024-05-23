@@ -1,6 +1,6 @@
 {
   "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
-  "actrules": "https://accessibilitychecker.org",
+  "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
     "Displaying information within web pages",
@@ -45,7 +45,7 @@
     "HTML / XHTML",
     "CSS"
   ],
-  "title": "Yotam Flohr",
+  "title": "AccessibilityChecker.org",
   "type": [
     "Online tool"
   ],
