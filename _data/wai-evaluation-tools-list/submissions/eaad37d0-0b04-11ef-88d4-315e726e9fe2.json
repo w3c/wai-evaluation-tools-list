@@ -18,7 +18,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "With ARIA DevTools you see your website the way screen readers present it to the blind users. All page elements are presented according to their explicit or implied ARIA roles. This includes headings, images, tables and form items beyond others.\r\n\r\nIt's now easy to spot missing ARIA labels, misused ARIA roles, and incomplete keyboard support. This ma",
+  "features": "With ARIA DevTools you see your website the way screen readers present it to the blind users. All page elements are presented according to their explicit or implied ARIA roles. This includes headings, images, tables and form items beyond others.<br><br>It's now easy to spot missing ARIA labels, misused ARIA roles, and incomplete keyboard support. This ma",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
