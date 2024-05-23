@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://www.hepsiburada.com",
+  "actrules": "https://www.hepsiburada.com",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "melek25melek25@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "hepsiburada alişveriş sitesi kullanılabilirlik açısından uygun mu",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "tr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "hepsiburada",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-05-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-23T12:45:17.902Z",
+  "submission_ref": "4f128ee0-1902-11ef-b09d-57e1bef9db37",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "hepsiburada",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.hepsiburada.com"
+}
