@@ -1,0 +1,52 @@
+{
+  "a11yloc": "http://moontower.ai/?ref=khadin",
+  "actrules": "http://moontower.ai/?ref=khadin",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Moontower is an opinionated options analytics platform that helps options traders make better decisions. It includes 20+ proprietary charts, an education component, options calculators, and much more. ",
+  "contact": "moontowerseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Moontower is an opinionated options analytics platform that helps options traders make better decisions. It includes 20+ proprietary charts, an education component, options calculators, and much more. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "af"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "sdskjh",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2012-02-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-24T10:34:05.473Z",
+  "submission_ref": "2526f910-19b9-11ef-a2ad-9b8707d1266a",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Moontower",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "http://moontower.ai/?ref=khadin"
+}
