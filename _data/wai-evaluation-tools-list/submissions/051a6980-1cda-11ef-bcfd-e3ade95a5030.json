@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "info@aeldata.com",
+  "features": "AEL Accessibility Checker (AAC) can quickly evaluate your web page against automated Accessibility violations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AEL",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-28T10:06:58.584Z",
+  "submission_ref": "051a6980-1cda-11ef-bcfd-e3ade95a5030",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AEL Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aeldata.com/accessibility-checker/"
+}
