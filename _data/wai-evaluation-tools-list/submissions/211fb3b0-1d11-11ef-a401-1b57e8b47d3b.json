@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://retouch4.me/",
+  "actrules": "https://retouch4.me/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Photographers ",
+  "contact": "retouch4meseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Retouch4me: AI Retouching for Photo & Video",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "bm"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "https://retouch4.me/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "0012-02-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-28T16:41:27.916Z",
+  "submission_ref": "211fb3b0-1d11-11ef-a401-1b57e8b47d3b",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Retouch4me",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://retouch4.me/"
+}
