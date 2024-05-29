@@ -1,0 +1,76 @@
+{
+  "a11yloc": "https://eye-able.com/en/accessibility-declaration/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "support@eye-able.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Eye-Able Audit is a browser extension that analyzes web pages for WCAG requirements. Problems and potential problems are visualized and explained, including how to fix them. Eye-Able Report scans the entire domain, including PDF documents, and displays the results in a dashboard. This allows users to quickly find issues and monitor them over time.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Web Inclusion GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-09T21:57:08.853Z",
+  "submission_ref": "e62a3a50-96dd-11ee-a158-83c3e6f39dcc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Eye-Able Audit & Report",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "update": "2023-12-09",
+  "website": "https://eye-able.com/en/audit/"
+}
