@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Tools for using axe for web accessibility testing with JUnit, Selenium, and Playwright.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:41:08.958Z",
+  "submission_ref": "d089bfe0-e5d4-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Axe-core - Java APIs",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/dequelabs/axe-core-maven-html"
+}
