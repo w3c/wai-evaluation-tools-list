@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "The tool supports the Finnish language as well, but the submission form did not allow multiple languages to be added.",
+  "contact": "support@accessibilitykeeper.com",
+  "features": "Eficode Accessibility Keeper is an easy-to-use and intuitive accessibility monitoring service that makes it quick and easy to monitor the accessibility status of an online service or a web application. The service reduces the manual monitoring and verification tasks required to ensure accessibility.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Eficode",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-19T11:12:00.764Z",
+  "submission_ref": "b41693c0-cf17-11ee-91d9-5729bbc4caaa",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Eficode Accessibility Keeper",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilitykeeper.com"
+}
