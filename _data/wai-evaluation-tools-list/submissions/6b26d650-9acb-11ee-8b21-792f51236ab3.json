@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://www.audioeye.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "maxwell.johnson@audioeye.com",
+  "desktop": "",
+  "features": "AudioEye's color contrast checker is a tool that measures the contrast between website elements such as background, foreground, text, images, or documents to ensure it meets WCAG accessibility standards. This free tool is one of the most comprehensive on the internet and is made accessible with a keyboard navigation and voice commands.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AudioEye",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-14T21:54:56.181Z",
+  "submission_ref": "6b26d650-9acb-11ee-8b21-792f51236ab3",
+  "technology": [
+    "CSS"
+  ],
+  "title": "AudioEye Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2023-12-14",
+  "website": "https://www.audioeye.com/color-contrast-checker/"
+}
