@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@contrasts.app",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Contrasts: A macOS color contrast checker with the convenience of Spotlight-like accessibility. Instantly accessible via shortcuts, it features auto text to color conversion and preview mode for effortless color contrast checks, making it the ultimate intuitive tool for designers and developers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Contrasts",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-22T20:32:21.776Z",
+  "submission_ref": "6bcc2100-00e7-11ef-8ff9-219a27da68e5",
+  "technology": [
+    "HTML / XHTML",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Contrasts for macOS",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.contrasts.app"
+}
