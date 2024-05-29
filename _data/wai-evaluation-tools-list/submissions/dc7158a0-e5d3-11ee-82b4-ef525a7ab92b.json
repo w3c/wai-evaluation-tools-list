@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Axe is an accessibility testing engine for websites and other HTML-based user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:34:19.434Z",
+  "submission_ref": "dc7158a0-e5d3-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Axe-core",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://www.deque.com/axe/axe-core/"
+}
