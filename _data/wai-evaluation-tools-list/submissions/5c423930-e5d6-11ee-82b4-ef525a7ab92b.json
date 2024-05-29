@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Scan iOS apps for mobile accessibility. No SDKs or source code access needed. Find issues based on Web Content Accessibility Guidelines (WCAG) for apps built with any technology–native iOS, React Native, Flutter, or other cross-platform technologies. Get remediation advice and a visual view of accessibility issues from a team dashboard.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:52:12.867Z",
+  "submission_ref": "5c423930-e5d6-11ee-82b4-ef525a7ab92b",
+  "title": "Axe DevTools Mobile (Mobile Analyzer for iOS)",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://docs.deque.com/devtools-mobile-analyzer/ios-setup"
+}
