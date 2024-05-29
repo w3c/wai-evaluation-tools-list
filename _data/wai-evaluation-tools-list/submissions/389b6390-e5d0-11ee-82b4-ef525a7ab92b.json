@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "axe DevTools for Web CLI is a command-line application for scanning web pages for accessibility issues and for generating reports. With axe DevTools for Web CLI, organizations can automate accessibility testing without having to integrate axe into integration or end-to-end tests.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-10-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T09:08:16.073Z",
+  "submission_ref": "389b6390-e5d0-11ee-82b4-ef525a7ab92b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Axe DevTools for Web CLI",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://docs.deque.com/devtools-html/4.0.0/en/cli-home"
+}
