@@ -5,7 +5,7 @@
 
 {% assign toolsDataSorted = toolsData | sort_natural: include.sort_key %}
 {% for tool in toolsDataSorted %}
-{% capture tool_title %}<a href="{{ tool.website }}" target="_blank"><h3>{{ tool.title }}</h3>
+{% capture tool_title %}<a href="{{ tool.website }}" target="_blank" rel="nofollow noopener noreferrer"><h3>{{ tool.title }}</h3>
 {% include_cached icon.html name="external-link" aria-label="Open tool in new window" %}</a> 
 <div class="subheader">
 <p class="leftColHeader">by {{ tool.provider }}</p>
@@ -133,7 +133,7 @@ Show more features
 </div>
 {% if tool.a11yloc != "" %}
 <div class="colRow">
-	<img src="{{ "/content-images/wai-evaluation-tools-list/accessibilitystatement.png" | relative_url }}" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank">Accessibility statement</a> available</p>
+	<img src="{{ "/content-images/wai-evaluation-tools-list/accessibilitystatement.png" | relative_url }}" alt="Accessibility statement" /><p><a href="{{tool.a11yloc}}" target="_blank" rel="nofollow noopener noreferrer">Accessibility statement</a> available</p>
 </div>
 {% endif %}
 {% if tool.actrules != "" and tool.actrules != "https://www.w3.org/WAI/standards-guidelines/act/implementations/"%}
