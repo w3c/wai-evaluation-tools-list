@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://woxo.tech/",
+  "actrules": "https://woxo.tech/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Woxo is an innovative platform that empowers video creators, especially YouTubers, to effortlessly produce engaging short videos.",
+  "contact": "Woxooutreach@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Woxo is an innovative platform that empowers video creators, especially YouTubers, to effortlessly produce engaging short videos.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "ae"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ddfhgf",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2012-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-30T14:10:55.125Z",
+  "submission_ref": "6dfcad40-1e8e-11ef-b919-9ff8e8a33651",
+  "technology": [
+    "CSS"
+  ],
+  "title": "Woxo",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://woxo.tech/"
+}
