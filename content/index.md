@@ -31,14 +31,18 @@ sidebar: false
 </style>
 <div class="header-sup">
     <div class="header-left">
-        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs.</p> -->
-        <!-- <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of evaluation tools that you can filter to find ones that match your particular needs. To determine what kind of tool you need and how they are able to assist you, see <a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a>.</p> -->
         <p>Web accessibility evaluation tools are software programs or online services that help you determine if web content meets accessibility guidelines. This page provides a list of such tools.</p>
         <p>
             To determine what kind of tool you need and how they are able to assist you, see <a href="../selecting/">Selecting Web Accessibility Evaluation Tools</a>.
         </p>
-        {% assign submit = "/test-evaluate/tools/submit-a-tool/" | relative_url %}
-        {% include_cached button.html type="link" label="Submit your tool" class="more" href=submit %}
+        {% include box.html type="start" %}
+        <p>Information on this page is submitted by providers and others. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
+        <p>See <a href="#disclaimer">Disclaimer</a>.</p>
+        {% include box.html type="end" %}
+        <p>
+          {% assign submit = "/test-evaluate/tools/submit-a-tool/" | relative_url %}
+          {% include_cached button.html type="link" label="Submit your tool" class="more" href=submit %}
+        </p>
     </div>
     <div class="header-right">
     </div>
