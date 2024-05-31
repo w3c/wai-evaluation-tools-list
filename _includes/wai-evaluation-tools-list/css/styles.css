@@ -88,7 +88,7 @@ main>header {
   grid-column: 1 / 9;
 }
 
-.header-sup p:first-child {
+.header-sup > div > p:first-child {
   margin-top: 0;
   font-size: 125%;
 }
