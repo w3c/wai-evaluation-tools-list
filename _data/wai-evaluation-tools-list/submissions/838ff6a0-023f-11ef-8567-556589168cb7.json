@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.siteimprove.com/accessibility-statement/",
+  "a11yloc": "https://www.siteimprove.com/vpat/",
   "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/alfa-assisted/",
   "assists": [
     "Generating reports of evaluation results",
@@ -16,7 +16,7 @@
   ],
   "comments": "Language selector on submission form doesn't work. \r\nThe Siteimprove Accessibility Platform is available in the following languages: \r\nEnglish\r\nDanish\r\nSwedish\r\nGerman\r\nNorwegian (bokmål)\r\nFrench\r\nSpanish\r\nItalian\r\nDutch\r\nFinnish\r\nJapanese ",
   "contact": "amoe@siteimprove.com",
-  "features": "Siteimprove Accessibility Platform is an enterprise-grade tool for evaluating and enhancing website accessibility. It identifies issues, offers remediation guidance, and tracks improvements. Customizable dashboards and reports ensure you always stay updated on the state of your websites.",
+  "features": "Siteimprove Accessibility Platform is an enterprise-grade tool for evaluating website accessibility. It identifies issues, offers remediation guidance, and tracks improvements. Customizable dashboards and reports ensure you always stay updated on the state of your websites.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -56,5 +56,5 @@
     "Online tool",
     "CMS plugin"
   ],
-  "website": "https://www.siteimprove.com/"
+  "website": "https://www.siteimprove.com/product/inclusivity/"
 }
