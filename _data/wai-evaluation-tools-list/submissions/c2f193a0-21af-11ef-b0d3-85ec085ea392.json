@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://replayed.co",
+  "actrules": "https://replayed.co",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Edge"
+  ],
+  "comments": "Replayed uses AI to match YouTubers with world class vetted video editors who understand how to grow your channel. The platform allows you to chat directly with the editors, manage production and even magically publish to YouTube.",
+  "contact": "replayedoutreach@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Replayed uses AI to match YouTubers with world class vetted video editors who understand how to grow your channel. The platform allows you to chat directly with the editors, manage production and even magically publish to YouTube.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "an"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://replayed.co",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2012-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-03T13:47:04.538Z",
+  "submission_ref": "c2f193a0-21af-11ef-b0d3-85ec085ea392",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Replayed",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://replayed.co"
+}
