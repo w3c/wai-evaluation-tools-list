@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://trycadabra.io/",
+  "actrules": "https://trycadabra.io/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Cadabra maximizes email efficiency using AI, saving users time on reading, writing, replying, and reviewing emails.",
+  "contact": "cadabraseo@gmail.com",
+  "desktop": [
+    "Linux"
+  ],
+  "features": "Cadabra maximizes email efficiency using AI, saving users time on reading, writing, replying, and reviewing emails.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "be"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "jdhdsfkj",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-06T13:28:09.216Z",
+  "submission_ref": "9d7a7000-2408-11ef-8f32-e9771419b94b",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Cadabra ",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://trycadabra.io/"
+}
