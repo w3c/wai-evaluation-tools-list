@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://bookzpro.com",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "bookzproseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "All in one software solution for Amazon book resellers",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "ba"
+  ],
+  "license": [
+    "Free",
+    "Free"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://bookzpro.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-09T17:56:50.051Z",
+  "submission_ref": "a57be530-2689-11ef-8819-93e0c997ed28",
+  "title": "Omer Muhit",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://bookzpro.com"
+}
