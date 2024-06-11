@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://phlorin.com",
+  "actrules": "https://phlorin.com",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Edge"
+  ],
+  "comments": "fklfghfklj",
+  "contact": "Phlorinoutreach@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Phlorin.com turn Google Sheets into a powerful data pipeline that pulls API data directly into your spreadsheet. Easily fetch data from multiple APIs. You can runs directly through Google Sheets. It is dynamic and customizable without code.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "an"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "no",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2012-01-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-11T08:33:55.210Z",
+  "submission_ref": "56efa6a0-27cd-11ef-8d5f-43163a68d523",
+  "technology": [
+    "CSS"
+  ],
+  "title": "Phlorin.com",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://phlorin.com"
+}
