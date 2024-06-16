@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://hiroscope.ai/",
+  "actrules": "https://hiroscope.ai/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Small and Medium-Sized Businesses (SMBs): These businesses often face challenges in efficiently managing their recruitment processes due to limited resources and a lack of dedicated HR teams. hiroscope.ai’s AI-driven platform can help streamline their hiring process, making it faster and more cost-effective. Large Enterprises: Large companies with high-volume hiring needs can benefit significantly from the automation and accuracy provided by hiroscope.ai. The platform can handle the scale and complexity of their recruitment requirements, ensuring the right fit for every role. Staffing Agencies: Staffing agencies can leverage hiroscope.ai to enhance their candidate matching processes, improving the quality of placements and reducing the time-to-hire. The platform’s AI capabilities can provide a competitive edge in the staffing industry. Technology and IT Sector: Given the fast-paced and dynamic nature of the tech industry, companies in this sector are always on the lookout for top talent. hiroscope.ai can help identify and hire skilled professionals more efficiently, addressing the high demand for tech talent.",
+  "contact": "hiroscopeai@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "We are at the forefront of AI-powered pre-screening, making hiring smarter, faster, and unbiased. Our solution is meticulously designed for the modern workforce, ensuring the right fit every time.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Hiroscope.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-16T09:02:46.568Z",
+  "submission_ref": "32f8aa80-2bbf-11ef-b158-3196e712a897",
+  "title": "Hiroscope.ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://hiroscope.ai/"
+}
