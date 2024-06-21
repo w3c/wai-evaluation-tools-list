@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "vasidimi@hotmail.com",
+  "features": "xxzczxczx",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "el"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Endoscopiki sa",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-21T14:38:48.053Z",
+  "submission_ref": "f837e250-2fdb-11ef-9f79-31b4758432b5",
+  "title": "wave",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://endoscopiki.gr"
+}
