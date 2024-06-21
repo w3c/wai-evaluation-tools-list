@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://pushbeacon.com",
+  "actrules": "https://pushbeacon.com",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "\r\nThe purpose is to keep things simple, the setup is very simple and take less than 2 minutes.",
+  "contact": "Pushbeaconseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "The purpose is to keep things simple, the setup is very simple and take less than 2 minutes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "bm"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "vendre",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-21T14:34:12.481Z",
+  "submission_ref": "53f6ef10-2fdb-11ef-9f79-31b4758432b5",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PushBeacon",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://pushbeacon.com/"
+}
