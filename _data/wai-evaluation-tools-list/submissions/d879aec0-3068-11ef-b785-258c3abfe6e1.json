@@ -1,0 +1,52 @@
+{
+  "a11yloc": "http://wlspy.com",
+  "actrules": "http://wlspy.com",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "we find top products ads for shopify & dropship company owners",
+  "contact": "Wispyoutreach@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "we find top products ads for shopify & dropship company owners",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "eu"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-22T07:27:13.836Z",
+  "submission_ref": "d879aec0-3068-11ef-b785-258c3abfe6e1",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Wlspy.com",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "http://wlspy.com/"
+}
