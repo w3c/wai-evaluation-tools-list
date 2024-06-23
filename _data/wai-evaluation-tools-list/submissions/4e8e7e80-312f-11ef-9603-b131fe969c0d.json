@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://tradingplatforms.ai",
+  "actrules": "https://tradingplatforms.ai",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Finance, Trading Software, AI",
+  "contact": "Tradingplatformsai@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": " TradingPlatforms.ai is a comprehensive resource designed for traders, investors, and AI enthusiasts who seek reliable insights into AI-powered trading tools. Founded by Enda Cusack, the platform offers thorough reviews and detailed analysis of AI trading platforms, bots, and software. Catering to individual traders looking to enhance their trading",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "hy"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "seo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-23T07:07:52.296Z",
+  "submission_ref": "4e8e7e80-312f-11ef-9603-b131fe969c0d",
+  "technology": [
+    "CSS"
+  ],
+  "title": "TradingPlatforms.ai",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://tradingplatforms.ai"
+}
