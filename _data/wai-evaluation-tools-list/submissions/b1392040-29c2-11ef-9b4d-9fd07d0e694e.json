@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "jared@webaim.org",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "WAVE is a suite of powerful web accessibility testing tools. WAVE conducts automated tests and facilitates human assessment. The WAVE online checker and WAVE browser extensions for Chrome, Firefox, and Edge browsers are freely available. A subscription and stand-alone WAVE API are also available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WebAIM",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-13T20:22:44.548Z",
+  "submission_ref": "b1392040-29c2-11ef-9b4d-9fd07d0e694e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WAVE Web Accessibility Evaluation Tool",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://wave.webaim.org/"
+}
