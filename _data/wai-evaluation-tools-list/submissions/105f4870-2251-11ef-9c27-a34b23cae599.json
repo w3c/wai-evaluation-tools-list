@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.accessibilitycloud.com/view-report/?site=www.accessibilitycloud.com-22432077",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "umut@accessibilitycloud.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Lite is Accessibility Cloud’s bookmarklet. You can use it to test any web page, whether it’s behind a login or not. It runs locally on your computer.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessibility Cloud",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-05-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-04T09:01:43.415Z",
+  "submission_ref": "105f4870-2251-11ef-9c27-a34b23cae599",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessibility Cloud Lite",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://www.accessibilitycloud.com/lite/"
+}
