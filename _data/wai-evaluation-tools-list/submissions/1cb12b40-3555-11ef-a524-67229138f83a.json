@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://aiseo.ai/AI-tools/humanize-ai-text.html",
+  "actrules": "https://aiseo.ai/AI-tools/humanize-ai-text.html",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "AISEO is AI writing assistant which offers a undetectable AI content. ",
+  "contact": "Aiseooutreaches@gmail.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "AISEO is AI writing assistant which offers a undetectable AI content. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "ty"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ces",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-28T13:48:34.164Z",
+  "submission_ref": "1cb12b40-3555-11ef-a524-67229138f83a",
+  "technology": [
+    "PDF"
+  ],
+  "title": "AISEO",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://aiseo.ai/AI-tools/humanize-ai-text.html"
+}
