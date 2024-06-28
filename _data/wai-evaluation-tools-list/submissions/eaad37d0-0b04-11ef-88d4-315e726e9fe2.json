@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "mateusz@roombelt.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "With ARIA DevTools you see your website the way screen readers present it to the blind users. All page elements are presented according to their explicit or implied ARIA roles. This includes headings, images, tables and form items beyond others.<br><br>It's now easy to spot missing ARIA labels, misused ARIA roles, and incomplete keyboard support.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Roombelt",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-05T17:28:41.677Z",
+  "submission_ref": "eaad37d0-0b04-11ef-88d4-315e726e9fe2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ARIA DevTools",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://github.com/ziolko/aria-devtools"
+}
