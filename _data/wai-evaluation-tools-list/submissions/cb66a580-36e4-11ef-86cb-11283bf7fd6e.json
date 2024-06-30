@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.galichat.com/",
+  "actrules": "https://www.galichat.com/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Your 24/7 AI Lead Generation & Support Assistant that helps you grow your business.",
+  "contact": "galichatoutreach@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Your 24/7 AI Lead Generation & Support Assistant that helps you grow your business.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "wa"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-30T13:29:36.473Z",
+  "submission_ref": "cb66a580-36e4-11ef-86cb-11283bf7fd6e",
+  "technology": [
+    "PDF"
+  ],
+  "title": "GaliChat",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://www.galichat.com/"
+}
