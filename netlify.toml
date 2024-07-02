@@ -1,7 +1,9 @@
 [build]
 command = "git submodule update --init --remote && bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
 publish = "_site"
-environment = { RUBY_VERSION = "2.6.2" }
+
+[build.environment]
+RUBY_VERSION = "3.3.3"
 
 [[redirects]]
   from = "/"
