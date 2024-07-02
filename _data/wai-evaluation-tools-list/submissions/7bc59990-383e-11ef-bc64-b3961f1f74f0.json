@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "catherine@collegeessay.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "CollegeEssay.org offers an advanced AI essay writer designed to streamline the essay writing process. This tool uses natural language processing and machine learning to draft, customize, and refine essays. Key features include a grammar checker, plagiarism detection, citation finder, and content paraphraser. The AI essay writer provides extensive r",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CollegeEssay.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-09-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-02T06:44:08.745Z",
+  "submission_ref": "7bc59990-383e-11ef-bc64-b3961f1f74f0",
+  "technology": [
+    "CSS"
+  ],
+  "title": "CollegeEssay.org AI Essay Writer",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://collegeessay.org/ai-essaywriter"
+}
