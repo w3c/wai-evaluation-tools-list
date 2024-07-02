@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "john@perfectessaywriter.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "PerfectEssayWriter.ai is an innovative AI essay writing platform designed to assist students and professionals in excelling with ease and confidence. With its advanced algorithms, the platform simplifies and enhances the essay-writing process.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "PerfectEssayWriter.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-02T05:53:38.968Z",
+  "submission_ref": "6de25180-3837-11ef-a01a-5f6c8dc06f36",
+  "title": "PerfectEssayWriter.ai",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.perfectessaywriter.ai/"
+}
