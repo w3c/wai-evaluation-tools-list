@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "press@myperfectwords.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "MyPerfectWords.com Essay Bot is an innovative AI essay writing tool designed to help students effortlessly produce high-quality essays in seconds. It boasts smart topic recognition, and instant understanding of prompts for precise content generation. With its grammar perfection feature, it eliminates typos and errors, ensuring flawless writing. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MyPerfectWords.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-08-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-02T06:43:56.383Z",
+  "submission_ref": "746727e0-383e-11ef-bc64-b3961f1f74f0",
+  "technology": [
+    "CSS"
+  ],
+  "title": "MyPerfectWords.com Essay bot",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://myperfectwords.com/essaybot"
+}
