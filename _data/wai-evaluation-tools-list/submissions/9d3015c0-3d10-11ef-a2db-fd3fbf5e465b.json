@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "test@w3.org",
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "W3C",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-08T09:58:23.772Z",
+  "submission_ref": "9d3015c0-3d10-11ef-a2db-fd3fbf5e465b",
+  "title": "Test",
+  "type": [
+    "Browser plugin",
+    "Server-side integration"
+  ],
+  "website": "https://www.w3.org"
+}
