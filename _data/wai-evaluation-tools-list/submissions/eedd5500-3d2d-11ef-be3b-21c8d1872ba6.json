@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "Submitted for testing purposes only",
+  "contact": "test@email.com",
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Test",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2004-09-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-08T13:28:16.208Z",
+  "submission_ref": "eedd5500-3d2d-11ef-be3b-21c8d1872ba6",
+  "title": "Test",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://w3.org"
+}
