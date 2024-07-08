@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "faea",
+  "contact": "test@w3.org",
+  "features": "feafefaefa",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "W3C",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-12-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-08T09:54:16.972Z",
+  "submission_ref": "0a1564c0-3d10-11ef-a2db-fd3fbf5e465b",
+  "technology": [
+    "SMIL"
+  ],
+  "title": "Test",
+  "type": [
+    "Mobile application",
+    "Command-line / CI"
+  ],
+  "website": "https://www.w3.org"
+}
