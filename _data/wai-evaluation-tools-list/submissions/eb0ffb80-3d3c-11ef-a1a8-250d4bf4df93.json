@@ -1,0 +1,52 @@
+{
+  "a11yloc": "http://derisky.ai/mba",
+  "actrules": "http://derisky.ai/mba",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "\"🧠 Learn to think like a venture capitalist & unleash innovation with derisking intelligence.\r\n\r\nTransform your vague business ideas into a portfolio of worth-building & investable products. Learn how to explore business concepts, validate your product, manage risks, and derisk through smart experiments. Build a diverse portfolio of ideas and make data-driven decisions. Save millions and decades by mastering effective derisking strategies.\"",
+  "contact": "Deriskingoutreach@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": " Learn to think like a venture capitalist & unleash innovation with derisking intelligence.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-08T15:15:32.280Z",
+  "submission_ref": "eb0ffb80-3d3c-11ef-a1a8-250d4bf4df93",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Derisking Micro MBA",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "http://derisky.ai/mba"
+}
