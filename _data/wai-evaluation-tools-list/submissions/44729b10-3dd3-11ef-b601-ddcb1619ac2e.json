@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "test@email.com",
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Test",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2018-08-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-09T09:11:46.753Z",
+  "submission_ref": "44729b10-3dd3-11ef-b601-ddcb1619ac2e",
+  "title": "Test",
+  "type": [
+    "Desktop application",
+    "Command-line / CI"
+  ],
+  "website": "https://www.w3.org/"
+}
