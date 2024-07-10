@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://humanizerai.ai/",
+  "actrules": "https://humanizerai.ai/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Humanizer AI is a tool designed to transform AI-generated text into natural, human-like writing. It enhances readability, personalizes content, and improves engagement by refining grammar, syntax, and style. The platform offers customizable humanization modes such as shortening, expanding, simplifying, and improving writing. Additionally, it provides real-time feedback on the \"human score\" of content and supports multiple languages. Humanizer AI helps users bypass AI detection systems, making it ideal for writers, marketers, educators, and more who seek authentic, engaging content.",
+  "contact": "Humanizeraiseo@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Humanizer AI is a tool designed to transform AI-generated text into natural, human-like writing. It enhances readability, personalizes content, and improves engagement by refining grammar, syntax, and style. The platform offers customizable humanization modes such as shortening, expanding, simplifying, and improving writing. Additionally, it provid",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-10T15:26:56.818Z",
+  "submission_ref": "d7e7b120-3ed0-11ef-8cef-2b8bdf23f798",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "HumanizerAI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://humanizerai.ai/"
+}
