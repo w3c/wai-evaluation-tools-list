@@ -1,0 +1,77 @@
+{
+  "a11yloc": "https://github.com/w3c/wai-evaluation-tools-list.git",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "wikiprojvu@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "takim yonetimi toplum yonetimi guvenlik aciklari bildirimi duzenleme istemci uygulama uretimi",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "ar"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "wicloudx",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-07-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-16T20:09:59.735Z",
+  "submission_ref": "60fdac70-43af-11ef-aee9-fb04327fec2a",
+  "technology": [
+    "HTML / XHTML",
+    "Markdown"
+  ],
+  "title": "W3wk\\",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Online tool",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://github.com/w3c/wai-evaluation-tools-list.git"
+}
