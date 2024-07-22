@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.alpha-rank.com/?utm_source=AT&utm_medium=AN&utm_campaign=W3",
+  "actrules": "https://www.alpha-rank.com/?utm_source=AT&utm_medium=AN&utm_campaign=W3",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "AlphaRank - Elevate Shopify SEO & Dominate SERPs",
+  "contact": "support@alpha-rank.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Unleash SEO potential with AlphaRank's AI-driven solution for Shopify. Tackle 90%+ SEO challenges, generate high-quality content, and boost organic rankings with data-driven insights. Start optimizing now! ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AlphaRank",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-07-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-22T03:38:58.950Z",
+  "submission_ref": "ee146a60-47db-11ef-aa10-e98b671b9cb1",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AlphaRank",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.alpha-rank.com/"
+}
