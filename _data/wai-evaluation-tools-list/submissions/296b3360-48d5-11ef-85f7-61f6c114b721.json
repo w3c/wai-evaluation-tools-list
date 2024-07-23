@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "moritz.giessmann@gmx.de",
+  "features": "WCAG 2.1 color contrast checker. Check foreground and background color and see if they pass WCAG.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Moritz Gießmann",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-23T09:23:03.190Z",
+  "submission_ref": "296b3360-48d5-11ef-85f7-61f6c114b721",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Contrast-Ratio",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://contrast-ratio.org"
+}
