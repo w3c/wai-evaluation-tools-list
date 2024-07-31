@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://www.sally.bot/",
+  "actrules": "https://www.sally.bot/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Sally Suite is dedicated to embedding agent-based design into everyday applications, transforming software into agent-enabled tools, and making AI agents readily accessible in user scenarios.",
+  "contact": "Sallysuitseo@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "Sally Suite is dedicated to embedding agent-based design into everyday applications, transforming software into agent-enabled tools, and making AI agents readily accessible in user scenarios.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Sally Suite",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-31T08:04:32.593Z",
+  "submission_ref": "84fd2410-4f13-11ef-8062-45bfe3311495",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Sally Suite",
+  "type": [
+    "Browser plugin",
+    "Desktop application"
+  ],
+  "website": "https://www.sally.bot/"
+}
