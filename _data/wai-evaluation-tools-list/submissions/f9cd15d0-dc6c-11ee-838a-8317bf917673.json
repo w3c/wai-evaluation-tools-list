@@ -26,7 +26,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "AI powered, cloud ready, end to end accessibility and inclusivity solution with built in intelligence automation adhering to global standards with web, mobile, and PDF analysis and recommendations for remediation. AI capabilities include AI powered color contrast checker, web content checker and image description generator. \r\n",
+  "features": "AI powered, cloud ready, end to end accessibility and inclusivity solution with built in intelligence automation adhering to global standards with web, mobile, and PDF analysis and recommendations for remediation. AI capabilities include AI powered color contrast checker and web content checker, among others. \r\n",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -70,5 +70,5 @@
     "Server-side integration",
     "Programming tool plugin / IDE"
   ],
-  "website": "https://www.infosys.com/services/incubating-emerging-technologies/documents/accessibility-testing-tool.pdf"
+  "website": "https://www.infosys.com/services/incubating-emerging-technologies/offerings/digital-accessibility.html"
 }
