@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://training.dst.gov.in",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "prahlad988@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Testing",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dst",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-05T13:12:47.999Z",
+  "submission_ref": "692ce0f0-532c-11ef-bd22-95685387ee67",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Web",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://training.dst.gov.in"
+}
