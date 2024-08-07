@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.siteimprove.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/alfa/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "amoe@siteimprove.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "This free extension lets you check any multi-step form, dynamic content, or non-public page for accessibility issues. All analysis is done within your browser, which means you can securely check password-protected pages, too. The extension instantly highlights issues on the page and provides clear explanations of how they impact your visitors.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Siteimprove",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-02-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-04-24T13:20:04.835Z",
+  "submission_ref": "5d008330-023d-11ef-bdee-6326d7ff63d4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Siteimprove Accessibility Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.siteimprove.com/integrations/browser-extensions/"
+}
