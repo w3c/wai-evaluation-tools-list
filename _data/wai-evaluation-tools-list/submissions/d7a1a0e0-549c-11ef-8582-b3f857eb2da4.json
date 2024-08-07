@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "infobhihi@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Tool List AI helps you discover and choose the best AI tools for any task. From automation to analytics, find and compare AI solutions that fit your needs quickly and easily.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ayoub bhihi",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-05-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-07T09:10:08.110Z",
+  "submission_ref": "d7a1a0e0-549c-11ef-8582-b3f857eb2da4",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Tool List Ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://toollist.ai/"
+}
