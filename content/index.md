@@ -24,6 +24,12 @@ description:  # NEW: add a 150ish-character-description for social media   # tra
 # image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this resource)
 
 sidebar: false
+
+acknowledgements: /test-evaluate/tools/acknowledgements/
+footer: >
+    <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023.</p>
+    <p><strong>Editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainers:</strong> José Ramón Hilera González and Len Beasley. ACKNOWLEDGEMENTS lists previous contributors, previous editors, and funders.</p>
+
 ---
 
 <style> 
@@ -134,20 +140,17 @@ sidebar: false
             {% assign defaultSort = site.data.wai-evaluation-tools-list.sorting.first.sortkey %}
             {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.submissions sort_key=defaultSort %}
         </div>
-        <div id="disclaimer">
-            {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
-                <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
-                <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
-                <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
-                <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
-            {% include box.html type="end" %}
-        </div>
     </div>
 </div>
-<div id="help-me-choose-overlay"><div class="overlay-content"></div></div>
-<!-- <div class="button-submit-end">
-    {% include_cached button.html type="link" label="Add your tool" class="more" href="submit-a-tool" %}  
-</div> -->
+
+<div id="disclaimer">
+    {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
+        <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
+        <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
+        <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
+        <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>
+    {% include box.html type="end" %}
+</div>
 <script>
 {% include wai-evaluation-tools-list/js/utilities.js %}
 {% include wai-evaluation-tools-list/js/tools.js %}
