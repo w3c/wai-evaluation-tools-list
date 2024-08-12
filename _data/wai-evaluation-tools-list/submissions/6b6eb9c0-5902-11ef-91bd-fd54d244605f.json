@@ -1,0 +1,50 @@
+{
+  "a11yloc": "http://checkmeister.com/about",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "gslinn@gmail.com",
+  "features": "Check Meister is your essential tool for improving web accessibility and fostering inclusive websites. In today's digital world, ensuring accessibility for all users, including those with disabilities, is crucial. Accessibiley helps you identify and resolve accessibility issues, making your site easier for everyone to navigate and use.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "GDS Consulting Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-12T23:27:19.900Z",
+  "submission_ref": "6b6eb9c0-5902-11ef-91bd-fd54d244605f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Check Meister",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://checkmeister.com/"
+}
