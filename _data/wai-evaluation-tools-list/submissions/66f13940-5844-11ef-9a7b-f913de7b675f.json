@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "rtech1083@gmail.com",
+  "desktop": [
+    "Linux",
+    "Other"
+  ],
+  "features": "Access key logger ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "ch"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Darkweb tools",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-12T00:47:07.988Z",
+  "submission_ref": "66f13940-5844-11ef-9a7b-f913de7b675f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Brute Force ",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "http://DarkWeb.com"
+}
