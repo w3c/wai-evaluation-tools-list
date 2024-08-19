@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://www.amazon.com.br/",
+  "actrules": "https://www.amazon.com.br/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Jjnn",
+  "contact": "iaianop223@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Jkk",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Jjvh",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-19T02:17:26.156Z",
+  "submission_ref": "2d504cc0-5dd1-11ef-a139-ab8505b5be3d",
+  "technology": [
+    "CSS"
+  ],
+  "title": "W",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.amazon.com.br/"
+}
