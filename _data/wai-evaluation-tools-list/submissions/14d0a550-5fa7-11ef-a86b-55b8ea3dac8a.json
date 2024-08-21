@@ -1,0 +1,52 @@
+{
+  "a11yloc": "http://tymbot.io/",
+  "actrules": "http://tymbot.io/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Discover Tym: The Ultimate AI-Powered Assistant for Seamless Business Operations. Tym integrates effortlessly with essential tools like Slack, Jira, and more, enhancing workflow efficiency and global communication through real-time multilingual translation. Whether coordinating meetings, managing projects, or providing customer support, Tym leverages your custom knowledge base to keep your team synchronized and productive across all platforms. Perfect for businesses looking to streamline operations and break down communication barriers. Try Tym today and transform how your business interacts, collaborates, and grows!",
+  "contact": "tymoutreach@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Discover Tym: The Ultimate AI-Powered Assistant for Seamless Business Operations. Tym integrates effortlessly with essential tools like Slack, Jira, and more, enhancing workflow efficiency and global communication through real-time multilingual translation. Whether coordinating meetings, managing projects, or providing customer support, Tym leverag",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-21T10:21:08.517Z",
+  "submission_ref": "14d0a550-5fa7-11ef-a86b-55b8ea3dac8a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Tym",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "http://tymbot.io/"
+}
