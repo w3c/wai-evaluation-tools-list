@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://www.accessiweb.it/dichiarazione-di-accessibilita",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "e.longhi@dunp.it",
+  "features": "With AccessiWeb's free accessibility test you can check if your site is accessible\r\nand compiling with WCAG 2.1. Through the use of the LightHouse accessibility, SEO and Best-practice APIs and control over over 100 parameters you will be able to discover how to improve the accessibility performance of your website.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "dunp scpl",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-26T16:06:55.227Z",
+  "submission_ref": "36e21cb0-63c5-11ef-96e7-9dd8dd6df02e",
+  "title": "AccessiWeb",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessiweb.it"
+}
