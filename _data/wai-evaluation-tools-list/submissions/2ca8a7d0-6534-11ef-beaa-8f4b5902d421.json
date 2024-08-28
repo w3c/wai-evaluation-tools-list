@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://www.digitala11y.com/accessibility-statement-2/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "hello@digitala11y.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "DigitalA11Y Tublets is a suite of bookmarklets bundled into an extension for quick and easy accessibility audits. Features include highlighting semantic of structures, form defects, images missing alt text, CSS background images, and more. Ideal for developers, testers, and designers,\r\nTublets simplifies WCAG testing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "DigitalA11Y",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-11-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-28T11:53:43.373Z",
+  "submission_ref": "2ca8a7d0-6534-11ef-beaa-8f4b5902d421",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "DigitalA11Y Tublets",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/ccjeccodophadokglbdcinabgkiiakjh?hl=en"
+}
