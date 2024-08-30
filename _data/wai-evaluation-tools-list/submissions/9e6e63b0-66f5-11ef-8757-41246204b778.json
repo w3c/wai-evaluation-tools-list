@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://www.w3.org/TR/REC-xml/#NT-SystemLiteral",
+  "actrules": "https://www.w3.org/WAI/#:~:text=en%20vele%20meer.-,WAI,om%20jou%20te%20help%20om%20toeganklikheid%20te%20verstaan%20%E2%80%8B%E2%80%8Ben%20te%20implementeer.,-Jy",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "ystlaurent69@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Other"
+  ],
+  "features": "https://www.w3.org/WAI/#:~:text=en%20vele%20meer.-,WAI,om%20jou%20te%20help%20om%20toeganklikheid%20te%20verstaan%20%E2%80%8B%E2%80%8Ben%20te%20implementeer.,-Jy",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "af"
+  ],
+  "license": [
+    "Free",
+    "ouhouuhouuoj"
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "yuycuyucyu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "199208-07-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-30T17:30:58.283Z",
+  "submission_ref": "9e6e63b0-66f5-11ef-8757-41246204b778",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "ujfjgf",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.w3.org/TR/REC-xml/#NT-SystemLiteral"
+}
