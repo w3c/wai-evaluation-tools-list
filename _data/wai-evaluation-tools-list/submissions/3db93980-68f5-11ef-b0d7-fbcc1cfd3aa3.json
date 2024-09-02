@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://drop.space",
+  "actrules": "https://drop.space",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "\"A platform that empowers creators to showcase\r\nand deliver their work in extraordinary ways.\"",
+  "contact": "Dropoutreach@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "\"A platform that empowers creators to showcase\r\nand deliver their work in extraordinary ways.\"",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "DROP",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-02T06:33:18.360Z",
+  "submission_ref": "3db93980-68f5-11ef-b0d7-fbcc1cfd3aa3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "DROP",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://drop.space"
+}
