@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "hari@upi.edu",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "uykhkjh",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "id"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UPI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-07T16:29:36.436Z",
+  "submission_ref": "5f2f1f40-6d36-11ef-9309-9f76dd8f2328",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessibility Tools",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.upi.edu"
+}
