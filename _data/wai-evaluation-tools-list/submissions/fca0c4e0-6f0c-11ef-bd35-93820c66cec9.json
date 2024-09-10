@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://www.axcelerate.com.au/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "W3@gmail.com",
+  "features": "e",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "e",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-10T00:38:24.047Z",
+  "submission_ref": "fca0c4e0-6f0c-11ef-bd35-93820c66cec9",
+  "technology": [
+    "PDF"
+  ],
+  "title": "e",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://www.axcelerate.com.au/ "
+}
