@@ -9,16 +9,17 @@
     "Restricted or password protected pages"
   ],
   "browsers": [
-    "Chrome"
+    "Chrome",
+    "Edge"
   ],
-  "comments": "",
+  "comments": "Since the initial release we've added continual improvements. Latest features include Focus Order and Landmark visualizations. We've also updated the URL on the Silktide website and widened compatibility to the MS Edge browser.",
   "contact": "support@silktide.com",
   "desktop": [
     "Windows",
     "MacOS",
     "Linux"
   ],
-  "features": "Silktide's free accessibility checker tests your web page for over 200 WCAG issues, giving you straightforward, step-by-step guidance. The Chrome plugin highlights accessibility issues on each page, includes information on how to fix them, and offers a range of accessibility tools to help you monitor WCAG and ADA compliance.",
+  "features": "Silktide's free accessibility checker tests your web page for over 200 WCAG issues, giving you straightforward, step-by-step guidance. The browser plugin highlights accessibility issues on each page, includes information on how to fix them, and offers a range of accessibility tools to help you monitor WCAG and ADA compliance.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -30,8 +31,7 @@
     "en"
   ],
   "license": [
-    "Free",
-    ""
+    "Free"
   ],
   "product": [
     "Website"
@@ -43,9 +43,9 @@
     "Simulated user experience"
   ],
   "readterms": "on",
-  "release": "2024-01-01",
+  "release": "2024-07-22",
   "repository": "wai-evaluation-tools-list",
-  "submission_date": "2024-01-26T14:25:42.153Z",
+  "submission_date": "2024-07-22T08:33:09.771Z",
   "submission_ref": "c90fcf90-bc56-11ee-9a94-a75c916a3f77",
   "technology": [
     "HTML / XHTML",
@@ -55,6 +55,6 @@
   "type": [
     "Browser plugin"
   ],
-  "update": "2024-01-26",
-  "website": "https://silktide.com/tools/toolbar/"
+  "update": "2024-08-21",
+  "website": "https://silktide.com/toolbar/"
 }
