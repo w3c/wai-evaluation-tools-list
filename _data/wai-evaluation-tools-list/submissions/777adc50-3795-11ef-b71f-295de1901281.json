@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "6 packages/gems, which can be used for automated accessibility testing powered by axe core. Integrations include Capybara, Cucumber, RSpec, Selenium, and Watir.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-05-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-01T10:34:16.597Z",
+  "submission_ref": "777adc50-3795-11ef-b71f-295de1901281",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Axe-core (Ruby SDKs)",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/dequelabs/axe-core-gems"
+}
