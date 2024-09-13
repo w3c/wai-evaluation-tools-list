@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://photoguesser.com/",
+  "actrules": "https://photoguesser.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "App Developing Company that brings tangible impact to the world and enrich people's life",
+  "contact": "Savvyfocusseo@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "App Developing Company that brings tangible impact to the world and enrich people's life",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Savvy Focus ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-13T05:40:02.196Z",
+  "submission_ref": "9f348d40-7192-11ef-bec4-73aefb125112",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Savvy Focus ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://photoguesser.com/"
+}
