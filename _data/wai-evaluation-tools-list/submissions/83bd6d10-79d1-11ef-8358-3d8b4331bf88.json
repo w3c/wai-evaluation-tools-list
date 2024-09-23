@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://dynomapper.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Thanks for your consideration.",
+  "contact": "info@dynomapper.com",
+  "features": "DYNO Mapper is a sitemap generator that integrates Google Analytics and checks the accessibility of websites. Its features include content inventory, content audit, daily keyword tracking, all displayed within visual sitemaps for efficient project discovery and planning.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Indigo Design Company LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2014-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-23T17:30:23.713Z",
+  "submission_ref": "83bd6d10-79d1-11ef-8358-3d8b4331bf88",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "DYNO Mapper",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dynomapper.com/"
+}
