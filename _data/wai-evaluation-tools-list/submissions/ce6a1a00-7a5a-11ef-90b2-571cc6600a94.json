@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://creatoorai.com/",
+  "actrules": "https://creatoorai.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Creatoor AI allows you to make high-quality social media videos from simple text prompts with your AI Avatar. You can now scale your content infinitely thanks to Creatoor AI. Our advanced AI seamlessly transforms your ideas into premium, polished videos. Every video gets subtitles and b-roll automatically added so within minutes you can download and post to your social media.",
+  "contact": "acreatoor@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Creatoor AI allows you to make high-quality social media videos from simple text prompts with your AI Avatar. You can now scale your content infinitely thanks to Creatoor AI. Our advanced AI seamlessly transforms your ideas into premium, polished videos. Every video gets subtitles and b-roll automatically added so within minutes you can download an",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ceo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-09-24T09:53:10.048Z",
+  "submission_ref": "ce6a1a00-7a5a-11ef-90b2-571cc6600a94",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Creatoor AI ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://creatoorai.com/"
+}
