@@ -1,20 +1,13 @@
 ---
 title: 'Something went wrong'
 permalink: /test-evaluate/tools/submit-a-tool/failure
+acknowledgements: /test-evaluate/tools/acknowledgements/
+footer: >
+    <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023.</p>
+    <p><strong>Editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainers:</strong> José Ramón Hilera González and Len Beasley. ACKNOWLEDGEMENTS lists previous contributors, previous editors, and funders.</p>
+
 ---
 
-<!-- markdownlint-disable no-inline-html -->
+An error has occurred. Sorry about that.
 
-<div style="grid-column: 2 / span 8">
-
-<style>
-{% include wai-evaluation-tools-list/css/styles.css %}
-main > header { grid-column: 2 / span 8; }
-</style>
-
-<div class="result-status-message">
-<p>An error has occurred. Sorry about that.</p>
-<p>Please let us know by opening a <a href="https://github.com/w3c/wai-evaluation-tools-list/issues/new">new GitHub issue</a> or sending e-mail to: <a href="mailto:group-wai-list-evaluation-tools@w3.org?subject=Something%20went%20wrong">group-wai-list-evaluation-tools@w3.org</a></p>
-</div>
-
-</div>
+Please let us know by opening a [new GitHub issue](https://github.com/w3c/wai-evaluation-tools-list/issues/new) or sending e-mail to: [group-wai-list-evaluation-tools@w3.org](mailto:group-wai-list-evaluation-tools@w3.org?subject=Something%20went%20wrong)
