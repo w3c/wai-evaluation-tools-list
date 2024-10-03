@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://github.com/TEN-framework/TEN-Agent",
+  "actrules": "https://github.com/TEN-framework/TEN-Agent",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "The TEN Framework is an open-source framework that enables developers to quickly build real-time multimodal agents (voice, video, data stream, image and text), making it easy for developers to experiment, integrate large language models, and create reusable extensions. TEN can be used to build agents supporting use cases like voice chatbots, AI generated meeting minutes, language tutors, simultaneous translators, virtual companions, counseling and a lot more. ",
+  "contact": "developer@theten.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The TEN Framework is an open-source framework that enables developers to quickly build real-time multimodal agents (voice, video, data stream, image and text), making it easy for developers to experiment, integrate large language models, and create reusable extensions. TEN can be used to build agents supporting use cases like voice chatbots, AI gen",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-01T15:57:20.772Z",
+  "submission_ref": "d75a3c40-800d-11ef-a84d-3f4817008ca3",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Ten Agent",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://github.com/TEN-framework/TEN-Agent"
+}
