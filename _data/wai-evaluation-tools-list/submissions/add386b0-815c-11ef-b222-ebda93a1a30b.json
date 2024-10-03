@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "support@reelcraft.ai",
+  "desktop": [
+    "Android",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "ReelCraft is a cutting-edge AI generative platform that empowers users to quickly create high-quality 4K video animations and scripts from simple prompts. Tailored for content creators, marketers, educators, and hobbyists, ReelCraft simplifies the video production process, enabling users to turn their creative ideas into reality within minutes. The",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ReelCraft",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-03T07:54:12.508Z",
+  "submission_ref": "add386b0-815c-11ef-b222-ebda93a1a30b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ReelCraft",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.reelcraft.ai"
+}
