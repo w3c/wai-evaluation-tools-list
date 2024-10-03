@@ -12,7 +12,7 @@
   ],
   "comments": "Thanks for your consideration.",
   "contact": "info@dynomapper.com",
-  "features": "DYNO Mapper is a sitemap generator that integrates Google Analytics and checks the accessibility of websites. Its features include content inventory, content audit, daily keyword tracking, all displayed within visual sitemaps for efficient project discovery and planning.",
+  "features": "Dyno Mapper is a web accessibility testing tool with the ability to test and monitor public/private web pages, online web applications, and PDFs using WCAG guidelines.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -51,5 +51,5 @@
   "type": [
     "Online tool"
   ],
-  "website": "https://dynomapper.com/"
+  "website": "https://dynomapper.com/features/website-accessibility-testing"
 }
