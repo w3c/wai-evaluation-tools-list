@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://www.macmout.com/en/Solutions/moutvalid/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "MoutValid aims to accelerate Web accessibility reporting on mutiple pages to save time and effort by scanning a large volume of site pages and discover compliance issues quickly, provide remediations on accessibility issue and if needed manual fixes that can be applied.",
+  "contact": "accessibility@moutvalid.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "MoutValid is a software used to deliver fast, detailed and accurate Web accessibility audit status report on multiple Web pages of a website and  applications against WCAG compliance. It scans and checks page elements, provide tests results and observations that include remediations on accessibility issues found and suggestions for manual checks. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    "on",
+    "Pay per use"
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Macmout, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2011-04-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-05T14:19:23.948Z",
+  "submission_ref": "5dbe8ec0-dafb-11ee-8901-f5fe6b5c41af",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MoutValid",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.moutvalid.com"
+}
