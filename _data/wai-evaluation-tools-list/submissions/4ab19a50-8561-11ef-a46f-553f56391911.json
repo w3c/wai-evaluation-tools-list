@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "hellomomenapp@gmail.com",
+  "features": "Momen is a full-stack no-code web app builder. From design to deployment, Momen streamlines every step of your project, allowing rapid iteration without any coding. With robust scalability to support millions of users and integration with external services like Airtable and Zapier, you can enhance your app’s capabilities effortlessly. Enjoy predict",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Momen Technologies Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-08T10:37:18.325Z",
+  "submission_ref": "4ab19a50-8561-11ef-a46f-553f56391911",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Momen",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://momen.app"
+}
