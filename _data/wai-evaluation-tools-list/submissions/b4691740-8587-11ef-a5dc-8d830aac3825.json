@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://youtu.be/OnleaLcIWDE?si=RIhFjnFHHXguS9iG",
+  "actrules": "https://youtu.be/OnleaLcIWDE?si=RIhFjnFHHXguS9iG",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "nothing",
+  "contact": "help@effie.pro",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Effie is a light, clean, yet powerful AI writing software that works across platforms, flexible for writing, brainstorming, mind mapping, note-taking, list-making and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Effie",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-08T15:12:16.564Z",
+  "submission_ref": "b4691740-8587-11ef-a5dc-8d830aac3825",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Effie",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.effie.pro/"
+}
