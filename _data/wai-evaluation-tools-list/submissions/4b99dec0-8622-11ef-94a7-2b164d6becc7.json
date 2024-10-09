@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://www.biread.com/home",
+  "actrules": "https://www.biread.com/home",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "BiRead provides you with instant and accurate translations:\r\n- Original Context Preservation: Understand articles better with our context-preserving translations.\r\n- AI-powered Translations: contextual translations surpassing traditional tools.\r\n- Language Learning Mode: Pick up a new language while surfing your fave content. ",
+  "contact": "pioneeroluke@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "An easy tool for instant Bilingual Reading",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "BFC TECHNOLOGY PTE. LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-10-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-09T09:38:52.716Z",
+  "submission_ref": "4b99dec0-8622-11ef-94a7-2b164d6becc7",
+  "technology": [
+    "PDF"
+  ],
+  "title": "BiRead",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.biread.com/home"
+}
