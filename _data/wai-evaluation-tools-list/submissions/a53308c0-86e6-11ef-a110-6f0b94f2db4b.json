@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "chloe00horay@gmail.com",
+  "features": "Horay.ai provides out of the box large model inference acceleration services, bringing a more efficient user experience to your generative AI applications.\r\n\r\nhttp://Horay.ai is a cutting-edge cloud service platform that primarily offers API calls for open-source large models. Our platform offers a diverse array of models, ensures fast updates, and p",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Horay.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-10T09:04:24.396Z",
+  "submission_ref": "a53308c0-86e6-11ef-a110-6f0b94f2db4b",
+  "title": "Horay.ai",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.horay.ai/"
+}
