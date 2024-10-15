@@ -9,9 +9,11 @@ github:
 permalink: /test-evaluate/tools/submit-a-tool/
 ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
-acknowledgements: /teach-advocate/evaluation-tools-list/acknowledgements/
-description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/wai-evaluation-tools-list/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
+
+acknowledgements: /test-evaluate/tools/acknowledgements/
+footer: >
+    <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023.</p>
+    <p><strong>Editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainers:</strong> José Ramón Hilera González and Len Beasley. ACKNOWLEDGEMENTS lists previous contributors, previous editors, and funders.</p>
 ---
 <!-- markdownlint-disable no-inline-html -->
 
