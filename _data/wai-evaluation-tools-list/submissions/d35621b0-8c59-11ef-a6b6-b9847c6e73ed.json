@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://presentia.ai/",
+  "actrules": "https://presentia.ai/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Presentia AI, simplifies the process of creating professional presentations. With just a few clicks, users can generate fully-designed PowerPoint slides tailored to their needs—saving time and effort. Ideal for entrepreneurs, educators, and business professionals, our platform combines efficiency with creativity by using advanced AI to automate design, formatting, and content structuring.",
+  "contact": "Presentiaai@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Presentia AI, simplifies the process of creating professional presentations. With just a few clicks, users can generate fully-designed PowerPoint slides tailored to their needs—saving time and effort. Ideal for entrepreneurs, educators, and business professionals, our platform combines efficiency with creativity by using advanced AI to automate des",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "on",
+    "paid"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Presentia AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-17T07:31:29.739Z",
+  "submission_ref": "d35621b0-8c59-11ef-a6b6-b9847c6e73ed",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Presentia AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://presentia.ai/"
+}
