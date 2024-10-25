@@ -1,0 +1,42 @@
+{
+  "a11yloc": "https://sparkreceipt.com/",
+  "actrules": "https://sparkreceipt.com/",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "sparkreceiptseo@gmail.com",
+  "features": "SparkReceipt is designed for entrepreneurs, small business owners, and freelancers who are tired of spending too much time managing their receipts, invoices, and financial documents. It’s for anyone who feels overwhelmed by the constant flow of receipts and paperwork and is looking for a simple, efficient way to handle these tasks without needing a",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "paid"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI-powered receipt scanner and expense tracker",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "0024-06-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-25T09:29:21.351Z",
+  "submission_ref": "9da67d70-92b3-11ef-800d-ff073079c50e",
+  "title": "AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sparkreceipt.com/"
+}
