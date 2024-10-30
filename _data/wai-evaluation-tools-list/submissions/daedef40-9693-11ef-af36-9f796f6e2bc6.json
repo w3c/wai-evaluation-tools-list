@@ -1,0 +1,43 @@
+{
+  "a11yloc": " https://www.qypt.ai",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": " AI Tool, SaaS, Document Security\r\n",
+  "contact": "qyptai@gmail.com",
+  "features": "Chat & Discuss Documents: Securely, Without Sharing.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "on",
+    "other"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Chat & Discuss Documents: Securely, Without Sharing.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "0204-12-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-30T07:52:04.916Z",
+  "submission_ref": "daedef40-9693-11ef-af36-9f796f6e2bc6",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Qypt AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.qypt.ai"
+}
