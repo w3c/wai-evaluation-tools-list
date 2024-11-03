@@ -1,0 +1,66 @@
+{
+  "a11yloc": "https://www.praxi.ai/",
+  "actrules": "https://x.com/praxiai",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Firefox",
+    "Other"
+  ],
+  "comments": "Insurance, banking, healthcare and other regulated industries where data curation, compliance and responsible AI is a business imperative.\r\n",
+  "contact": "Praxiaiseo@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "Other"
+  ],
+  "features": "Praxi.ai transforms risky dark and gray data across complex data landscapes into strategic advantage.  The patented Praxi platform helps businesses with high volume data management and data curation, extracting real-time, business-critical information while ensuring compliance with internal and external regulatory and privacy rules. By making it ea",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    "on",
+    "freemium"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Praxi.ai transforms your datasets with industry-specific automated data curation.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "0018-12-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-03T06:37:36.195Z",
+  "submission_ref": "1d043930-99ae-11ef-8cb4-a1b7757ca2dc",
+  "technology": [
+    "HTML / XHTML",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Praxi AI",
+  "type": [
+    "Bookmarklet",
+    "Mobile application"
+  ],
+  "website": "https://www.praxi.ai/"
+}
