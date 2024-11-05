@@ -1,0 +1,94 @@
+{
+  "a11yloc": "https://www.pagersync.com",
+  "actrules": "https://www.pagersync.com",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Bring Your On-Call Roster into Slack for Seamless Communication\r\n",
+  "contact": "PagerSync@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "A Slack app to sync your on call schedule from PagerDuty into Slack User Groups. Optimize your incident responses by communicating with your on call engineers as quickly as possible.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Bring Your On-Call Roster into Slack for Seamless Communication  ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "0024-06-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-05T17:05:48.515Z",
+  "submission_ref": "34375330-9b98-11ef-a3f4-339c621d6358",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "PagerSync",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "CMS plugin"
+  ],
+  "website": "https://www.pagersync.com"
+}
