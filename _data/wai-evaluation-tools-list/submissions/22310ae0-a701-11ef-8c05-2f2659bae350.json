@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "anthonypetraccoro@yahoo.com",
+  "features": "An interactive tool to explore the world.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Google",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2005-06-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-20T05:34:38.222Z",
+  "submission_ref": "22310ae0-a701-11ef-8c05-2f2659bae350",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Google Earth",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://earth.google.com/static/multi-threaded/versions/10.67.0.5/index.html?"
+}
