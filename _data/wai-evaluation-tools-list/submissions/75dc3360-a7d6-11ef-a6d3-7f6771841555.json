@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "lathire.listings@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "LatHire connects you with top remote talents from Latin America at 80% less cost.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "Paid"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "LatHire",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-21T07:01:41.398Z",
+  "submission_ref": "75dc3360-a7d6-11ef-a6d3-7f6771841555",
+  "technology": [
+    "PDF"
+  ],
+  "title": "LatHire",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://lathire.com/"
+}
