@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "commercepro@capcut.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "CapCut Commerce Pro is an end-to-end platform that helps businesses and creators easily make and scale high-quality ads and creative content with AI-powered editing tools. It makes video and image generation super efficient for users by utilizing AI-Avatars and AI voice. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ByteDance",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-24T06:57:09.533Z",
+  "submission_ref": "530e24d0-aa31-11ef-89ea-f7155b5ef1b5",
+  "title": "CapCut Commerce Pro",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://commercepro.capcut.com/"
+}
