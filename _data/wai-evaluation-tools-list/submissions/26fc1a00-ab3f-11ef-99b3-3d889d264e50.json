@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@beyz.ai",
+  "features": "Beyz AI automatically listens and provides real-time answers during your interviews. You can either use it in real-life interviews to instantly boost your performance or practice by yourself to quickly learn the right answers for all types of interview questions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "paid"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Beyz Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-06-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-25T15:08:39.713Z",
+  "submission_ref": "26fc1a00-ab3f-11ef-99b3-3d889d264e50",
+  "title": "Beyz AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://beyz.ai"
+}
