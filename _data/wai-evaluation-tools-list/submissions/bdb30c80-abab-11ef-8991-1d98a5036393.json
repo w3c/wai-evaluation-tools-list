@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://www.newsbang.com",
+  "actrules": "https://www.newsbang.com",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "support@newsbang.com",
+  "features": "Transforming News into Value! At NewsBang, we deliver smarter news and deeper insights behind every headline with a simple \"Swipe Left.\" Explore interactive AI podcasts, concise news summaries, ask AI about any topic, and choose to enjoy some joyful news.\r\nExperience unbiased news and limitless insights, powered by cutting-edge Generative AI.\r\n\r\n➡️  B",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "NewsBang, Inc",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-26T04:05:58.216Z",
+  "submission_ref": "bdb30c80-abab-11ef-8991-1d98a5036393",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "NewsBang",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.newsbang.com"
+}
