@@ -1,0 +1,86 @@
+{
+  "a11yloc": "https://www.w3.org/WAI/planning/statements/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/#add-a-tool-or-methodology",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "aungko.use@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "https://www.w3.org/WAI/standards-guidelines/act/implementations/#add-a-tool-or-methodology",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "AungkoMCM ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-28T02:37:25.974Z",
+  "submission_ref": "b42e9850-ad31-11ef-9a10-a10c55214c16",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "https://www.w3.org/wai/test-evaluate/easy-checks/title/%27%3EChecking%20Page%20Title%3C/a%3E%3C/div%3E%3C/aside%3E%22",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "http://www.example.com"
+}
