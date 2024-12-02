@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "znalabdn99@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "personal website",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "hostinger",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-12-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-02T19:57:42.840Z",
+  "submission_ref": "b12fab80-b0e7-11ef-8a82-b5b6f4579e1c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "vs code",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://znalabdnweb.com/index.html"
+}
