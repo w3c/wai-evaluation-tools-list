@@ -1,0 +1,42 @@
+{
+  "a11yloc": "https://www.tempolor.com/?referrer=aidirectories",
+  "actrules": "https://www.tempolor.com/?referrer=aidirectories",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "tempolor_operations@52tt.com",
+  "features": "Tempolor is an AI-powered, royalty-free music platform designed to empower content creators with customizable music that enhances their storytelling. With a comprehensive and constantly growing music library, Tempolor provides high-quality soundtracks that can be tailored to match a wide range of creative needs.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "QUSTAR TECHNOLOGY PTE. LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-05T09:34:10.478Z",
+  "submission_ref": "14eb84e0-b2ec-11ef-b5d6-1dcc3b0ad5ea",
+  "title": "TemPolor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.tempolor.com/?referrer=aidirectories"
+}
