@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.zync.ai",
+  "actrules": "https://www.zync.ai",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Zync is your all-in-one Recording Studio designed to make video creation effortless and stress-free. With auto-generated scripts from your ideas or blog posts and a unique Segmented Recorder, Zync allows you to record videos in bite-sized chunks, eliminating the need for memorizing lengthy scripts. The Studio captures videos in FullHD, ensuring your content looks professional and polished. Whether you’re sharing thought leadership or crafting social media clips, Zync helps you create authentic, high-quality content in minutes.\r\n",
+  "contact": "Zyncoutreach@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Zync’s AI-powered Recording Studio lets you effortlessly create polished short-form videos. Generate scripts, record, edit, and publish in minutes—focus on your message and grow your brand.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Arjun Sundararajan",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-06-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-06T15:34:21.961Z",
+  "submission_ref": "90c7df90-b3e7-11ef-bf67-8b1398cc2df8",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Zync",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.zync.ai"
+}
