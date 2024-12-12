@@ -1,0 +1,57 @@
+{
+  "a11yloc": "http://127.0.0.1:5000/",
+  "actrules": "http://127.0.0.1:5000/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "Ricky.trivedi@education.nsw.gov.au",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Looks at frogs ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Frog Reasarch",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2004-06-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-12T08:23:28.171Z",
+  "submission_ref": "5d3317b0-b862-11ef-adb8-2909e8ba6dd9",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Frog Species",
+  "type": [
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "http://127.0.0.1:5000/"
+}
