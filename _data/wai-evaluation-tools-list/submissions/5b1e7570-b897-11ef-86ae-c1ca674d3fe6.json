@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "david@d-disseny.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Tattoo Studio services",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ddisseny",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-12-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-12T14:42:48.007Z",
+  "submission_ref": "5b1e7570-b897-11ef-86ae-c1ca674d3fe6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Web",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://sevenartstattoo.com/es"
+}
