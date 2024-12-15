@@ -1,0 +1,43 @@
+{
+  "a11yloc": "http://www.ues.io",
+  "actrules": "http://www.ues.io",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Core Features: Hybrid Development: Combines no-code simplicity with pro-code extensibility. Visual & Intuitive Design: Build applications using drag-and-drop tools with the option to add custom code. Deployment Options: Fully flexible deployment with on-premises, cloud, or hybrid configurations. Integration-Friendly: Built-in connectors and support for APIs, Git, and custom integrations. Data Control: Includes built-in database and filestore with data encryption and user-defined ownership. Governance & Security: Enterprise-grade security, role-based access control, and compliance-friendly configurations. AI-Powered Efficiency: GenAI support for automation, data insights, and test case generation. Scalable Architecture: Supports high availability (HA), disaster recovery (DR), and auto-scaling capabilities. Target Audience: CIOs, CTOs, and IT Managers seeking to modernise application development. Software engineering teams in need of flexibility and rapid deployment options. Enterprises requiring customisable, secure, and scalable solutions.  Key Differentiators: Vendor-neutral: No lock-in with open data standards and portable configurations. Complete control: Customisable deployment options, from on-prem to cloud. Seamless integrations: API-first architecture with compatibility across popular platforms. Transparent pricing: No hidden fees, pay-as-you-use model.  Notable Use Cases: Legacy System Modernisation: Replace or extend outdated systems with minimal disruption. Custom Application Development: Empower both technical and non-technical teams to innovate.\r\n",
+  "contact": "uesiostartup@gmail.com",
+  "features": "UES.IO exists to make application development accessible and efficient for businesses of all sizes. Our mission is to provide a flexible platform that empowers both technical and non-technical users to rapidly build, manage, and deploy applications with complete control, free from restrictive vendor lock-in. With UES.IO, you’ll be able to reduce de",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Technology, Information and Internet",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-02-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-15T09:05:05.386Z",
+  "submission_ref": "ace51ca0-bac3-11ef-b25c-618fa8d11f15",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Uesio",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://www.ues.io"
+}
