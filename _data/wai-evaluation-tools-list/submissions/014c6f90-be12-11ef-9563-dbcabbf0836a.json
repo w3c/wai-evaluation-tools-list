@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "We hope this resource will be soon available from https://www.w3.org/WAI/test-evaluate/tools/list/and valuable to the community in promoting inclusivity and accessibility across the web.\r\nThank you in advance for the opportunity to contribute to this important cause.\r\n",
+  "contact": "rajesh@skynettechnologies.com",
+  "features": "It is an automated accessibility testing tool to analyze site's compliance with ADA, WCAG, UK Equality Act, California Unruh, European EN 301 549, Israeli Standard 5568, Australian DDA, Canada ACA & other accessibility standards. Receive a comprehensive report detailing the primary accessibility issues on site and take a step further to remediate.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-19T14:03:21.225Z",
+  "submission_ref": "014c6f90-be12-11ef-9563-dbcabbf0836a",
+  "title": "Free Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/accessibility-checker"
+}
