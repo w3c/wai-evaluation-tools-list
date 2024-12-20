@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.upstackdata.com",
+  "actrules": "https://www.upstackdata.com",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "The #1 Data Toolkit for First Party Marketing. Identify, enrich and activate first party behavioral data, enabling digital brands to market more effectively online.\r\n",
+  "contact": "dataupstack@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "The #1 Data Toolkit for First Party Marketing. Identify, enrich and activate first party behavioral data, enabling digital brands to market more effectively online.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": " Michael Alt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-20T08:12:17.462Z",
+  "submission_ref": "20bb0560-beaa-11ef-ae92-9560ad941b70",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "UpStack Data",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://www.upstackdata.com"
+}
