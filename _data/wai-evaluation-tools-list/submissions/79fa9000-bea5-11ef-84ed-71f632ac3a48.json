@@ -1,0 +1,85 @@
+{
+  "a11yloc": "https://www.upstackdata.com",
+  "actrules": "https://www.upstackdata.com",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "The #1 Data Toolkit for First Party Marketing. Identify, enrich and activate first party behavioral data, enabling digital brands to market more effectively online.\r\n",
+  "contact": "dataupstack@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "The #1 Data Toolkit for First Party Marketing. Identify, enrich and activate first party behavioral data, enabling digital brands to market more effectively online.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "other"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Software Development, ecommerce and marketing",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "0024-12-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-20T07:38:59.712Z",
+  "submission_ref": "79fa9000-bea5-11ef-84ed-71f632ac3a48",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF"
+  ],
+  "title": "UpStack Data",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.upstackdata.com"
+}
