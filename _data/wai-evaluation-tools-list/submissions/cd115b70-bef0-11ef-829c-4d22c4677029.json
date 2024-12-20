@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "investor@pegasusangelaccelerator.com",
+  "features": "Pegasus Angel Accelerator is where startups come to scale. We select the top 1% of applicants to join our program, providing access to a network of investors, tailored resources, and industry expertise. With a focus on sectors like B2B SaaS, Climate Tech, and AI, we deliver the resources needed to turn ambitious ideas to scalable ventures.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Pegasus Angel Accelerator",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-20T16:38:11.367Z",
+  "submission_ref": "cd115b70-bef0-11ef-829c-4d22c4677029",
+  "title": "Pegasus Angel Accelerator",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.pegasusangelaccelerator.com/"
+}
