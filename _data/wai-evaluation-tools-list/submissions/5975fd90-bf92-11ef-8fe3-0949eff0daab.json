@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rajesh@skynettechnologies.com",
+  "features": "A Color Blindness Simulator is a tool that allows users to see how images, websites, or other visual content appear to individuals with different types of color vision deficiencies. It simulates and visualizes various types of color blindness.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-21T11:54:35.881Z",
+  "submission_ref": "5975fd90-bf92-11ef-8fe3-0949eff0daab",
+  "title": "Free Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/color-blindness-simulator"
+}
