@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "https://denser.ai",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Transform your websites and documents into interactive knowledge bases. Let users find answers through natural conversations.\r\n",
+  "contact": "denserseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Transform your websites and documents into interactive knowledge bases. Let users find answers through natural conversations.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Zhiheng Huang",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-12-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-26T14:48:30.344Z",
+  "submission_ref": "78f37080-c398-11ef-a6fa-2d7506f50b17",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "denserai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://denser.ai"
+}
