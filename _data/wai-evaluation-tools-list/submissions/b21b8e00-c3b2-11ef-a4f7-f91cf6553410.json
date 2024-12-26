@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "https://denser.ai",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Transform your websites and documents into interactive knowledge bases. Let users find answers through natural conversations.\r\n",
+  "contact": "denserseo@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Transform your websites and documents into interactive knowledge bases. Let users find answers through natural conversations.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Other"
+  ],
+  "provider": "Zhiheng Huang",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-26T17:56:13.152Z",
+  "submission_ref": "b21b8e00-c3b2-11ef-a4f7-f91cf6553410",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Denser",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://denser.ai"
+}
