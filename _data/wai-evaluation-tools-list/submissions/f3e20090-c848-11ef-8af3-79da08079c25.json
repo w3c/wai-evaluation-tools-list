@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://skycloak.io",
+  "actrules": "https://skycloak.io",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "guilliano.molaire@skycloak.io",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Simplify identity management: managed Keycloak hosting, secure and scalable IAM solutions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Skycloak inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-01T14:01:52.665Z",
+  "submission_ref": "f3e20090-c848-11ef-8af3-79da08079c25",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Skycloak",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://skycloak.io"
+}
