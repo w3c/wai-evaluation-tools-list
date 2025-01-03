@@ -9,8 +9,7 @@
   ],
   "comments": "",
   "contact": "rajesh@skynettechnologies.com",
-  "features": "Free Color Blindness Simulator lets you view websites, images, or designs as individuals with color vision deficiencies do. Ideal for designers and developers, this tool helps enhance digital accessibility and inclusivity, promoting user-friendly experiences for everyone. Try it online, quick and hassle-free!",
-  "form_name": "submission",
+  "features": "Free Color Blindness Simulator lets you view websites, images, or other visual content as individuals with color vision deficiencies do. It simulates & visualizes various types of color blindness such as Protanopia, Protanomaly, Deuteranopia, Deuteranomaly, Achromatomaly, Achromatopsia, Tritanopia & Tritanomaly. Ideal for designers & developers",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
