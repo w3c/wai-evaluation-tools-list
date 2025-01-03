@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "jonathan.ko@nhs.net",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Web bespoke of portal which need user accessibility ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "healthcare",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-03T12:21:49.319Z",
+  "submission_ref": "4e6f9970-c9cd-11ef-b58f-61934a419448",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "RA Portal",
+  "type": [
+    "Browser plugin",
+    "Desktop application"
+  ],
+  "website": "https://test-reasonableadjustmentsportal.bhamcommunity.nhs.uk"
+}
