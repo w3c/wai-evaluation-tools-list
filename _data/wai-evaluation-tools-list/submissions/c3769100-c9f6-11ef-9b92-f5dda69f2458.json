@@ -1,0 +1,59 @@
+{
+  "a11yloc": "http://www.usercall.co",
+  "actrules": "http://www.usercall.co",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "AI voice user interview tool that lets you gather 10x deeper and faster user insights\r\n",
+  "contact": "usercallseo@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AI voice user interview tool that lets you gather 10x deeper and faster user insights\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Junu Yang",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-06-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-03T17:18:35.024Z",
+  "submission_ref": "c3769100-c9f6-11ef-9b92-f5dda69f2458",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Usercall",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "http://www.usercall.co"
+}
