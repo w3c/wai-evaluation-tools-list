@@ -1,0 +1,82 @@
+{
+  "a11yloc": "http://www.usercall.co",
+  "actrules": "http://www.usercall.co",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Opera",
+    "Other"
+  ],
+  "comments": "AI Voice User Interviews\r\n",
+  "contact": "usercallseo@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "AI voice user interview tool that lets you gather 10x deeper and faster user insights\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Junu Yang",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-12-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-03T14:35:40.488Z",
+  "submission_ref": "0162bc80-c9e0-11ef-8cac-5704a4974b2b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "usercall",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "http://www.usercall.co"
+}
