@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "indiedev.david@gmail.com",
+  "features": "ReplyHunt empowers businesses with AI-driven social media marketing, automating replies to boost engagement on platforms like Twitter. By scanning for relevant keywords, it identifies potential leads and crafts personalized responses, saving users time while enhancing their marketing strategies.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ReplyHunt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-08T08:59:20.740Z",
+  "submission_ref": "d9624e40-cd9e-11ef-abf0-19a30cf422e9",
+  "title": "ReplyHunt",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://replyhunt.ai/"
+}
