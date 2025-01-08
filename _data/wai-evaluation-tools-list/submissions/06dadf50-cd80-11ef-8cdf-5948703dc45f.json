@@ -1,0 +1,37 @@
+{
+  "a11yloc": "https://softgen.ai/",
+  "actrules": "https://softgen.ai/",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "softgenai@gmail.com",
+  "features": "Softgen AI is a full-stack development tool. It can develop apps/software/marketplaces/websites and whatever you want by just talking with AI.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Software Development, Technology",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-08T05:18:42.629Z",
+  "submission_ref": "06dadf50-cd80-11ef-8cdf-5948703dc45f",
+  "title": "Softgen AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://softgen.ai/"
+}
