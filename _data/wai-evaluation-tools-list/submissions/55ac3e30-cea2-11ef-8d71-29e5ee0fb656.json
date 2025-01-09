@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "ance.fogele@ba.lv",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "its an app for a food stand",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Banku augstskola",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-09T15:56:48.915Z",
+  "submission_ref": "55ac3e30-cea2-11ef-8d71-29e5ee0fb656",
+  "technology": [
+    "PDF"
+  ],
+  "title": "bapauze",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://www.canva.com/design/DAGbXirwMyY/as9b0cID0T17lFBS_pK49Q/edit?utm_content=DAGbXirwMyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+}
