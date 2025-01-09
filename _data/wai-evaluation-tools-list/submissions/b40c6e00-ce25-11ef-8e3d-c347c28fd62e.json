@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.amazon.com.br/",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "josinaldob17@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Teste de acessibilidade ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Josinaldo ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-09T01:04:40.161Z",
+  "submission_ref": "b40c6e00-ce25-11ef-8e3d-c347c28fd62e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Análise ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.amazon.com.br/"
+}
