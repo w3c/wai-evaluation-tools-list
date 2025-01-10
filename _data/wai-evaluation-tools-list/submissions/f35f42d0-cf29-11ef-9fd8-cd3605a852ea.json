@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Supported languages:\r\nEnglish\r\nGerman",
+  "contact": "office@axes4.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "axesPDF is a powerful tool for validating and fixing the most complex challenges faced by remediators. axesPDF simplifies the process of making content fully accessible and compliant with PDF/UA, WCAG, and Section 508. Start with a tagged PDF, find accessibility issues, and fix most of them instantly in a few clicks.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "axes4 GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-10T08:07:35.549Z",
+  "submission_ref": "f35f42d0-cf29-11ef-9fd8-cd3605a852ea",
+  "technology": [
+    "PDF"
+  ],
+  "title": "axesPDF",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.axes4.com/axespdf"
+}
