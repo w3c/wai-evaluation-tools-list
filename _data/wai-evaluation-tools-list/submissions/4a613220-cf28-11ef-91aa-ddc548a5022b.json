@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://pac.pdf-accessibility.org/_Resources/Persistent/a/c/a/3/aca34de96ee6ab9c6273040e8c883e822a4bd602/PAC%20Accessibility%20Conformance%20Report.pdf",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Supported languages:\r\nEnglish\r\nGerman\r\nFrench\r\nSpanish\r\nDutch",
+  "contact": "office@axes4.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "PAC is the globally used, free PDF accessibility checking tool that has been tried and tested since 2010. PAC can check many PDF/UA and WCAG requirements at the touch of a button. In addition to this, PAC also supports the required visual check with the screen reader and structure preview. No installation required, just download and start PAC. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "axes4 GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-11-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-10T07:55:42.530Z",
+  "submission_ref": "4a613220-cf28-11ef-91aa-ddc548a5022b",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PAC 2024 (PDF Accessibility Checker)",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://pac.pdf-accessibility.org/"
+}
