@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://www.wui.ai/",
+  "actrules": "https://www.wui.ai/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "dennis@mutuavox.com",
+  "features": "AI-powered video editing tool for creating short clips from long-form videos and podcasts. Features include AI-driven highlight detection, subtitle generation, translation, and video optimization for various social media platforms.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MutuaVox",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-10T14:32:43.773Z",
+  "submission_ref": "c0f26ad0-cf5f-11ef-afe7-0d1aeae6775c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WUI.AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.wui.ai/"
+}
