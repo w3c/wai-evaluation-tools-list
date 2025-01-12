@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "wangxs1995s@gmail.com",
+  "desktop": [
+    "iOS",
+    "MacOS"
+  ],
+  "features": "Travel Map Video is a desktop application designed for travel enthusiasts. After downloading the application, users can unlock more advanced features to vividly present travel routes in video form. It can record travel footprints, making memories more dynamic and interesting, and provides a new way to share travel experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Individual developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-12T02:31:49.192Z",
+  "submission_ref": "6008a480-d08d-11ef-8068-19732909392a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Travel Map",
+  "type": [
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": " https://travelmap.video/"
+}
