@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "htryit@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "A collection of family fun educational games to help families become more harmonious.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "htryit",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-12T01:47:20.180Z",
+  "submission_ref": "292dbb40-d087-11ef-be7f-f1223fd057ba",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "FamilyFunHub",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://familyfunhub.com/zh"
+}
