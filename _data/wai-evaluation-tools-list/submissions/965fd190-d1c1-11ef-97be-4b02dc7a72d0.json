@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "john.annamalai@nycha.nyc.gov",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "Tenants can access to submit/review",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Oracle",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-13T15:18:05.353Z",
+  "submission_ref": "965fd190-d1c1-11ef-97be-4b02dc7a72d0",
+  "title": "Siebel Portal",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://eservstg.nycha.info/nycha/app/eservice/enu?"
+}
