@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://sprinsole.com/",
+  "actrules": "https://sprinsole.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "dreamstart@sprinsole.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "SprinSole is an AI driven solution for custom insoles with phone based scan technology for fitting.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SprinSole LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-15T04:42:30.420Z",
+  "submission_ref": "21025540-d2fb-11ef-8b34-57000790eb4f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "SprinSole",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://sprinsole.com/"
+}
