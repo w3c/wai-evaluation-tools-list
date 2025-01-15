@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://www.smartbi.ca/",
+  "actrules": "https://www.smartbi.ca/",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Say goodbye to juggling multiple analytical platforms! SmartBI centralizes all your data from the most widely used digital data sources into ready-to-use dashboards. With our AI Assistant, analyzing your data is easier than ever. Everything is in one place, ready for quick insights. Let your data come to life.\r\n",
+  "contact": "Smartbica@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Centralize and understand your data with re.ady-to-use SmartBI dashboards\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Centralize and understand your data with re.ady-to-use SmartBI dashboards",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-15T09:32:42.085Z",
+  "submission_ref": "ab2b9150-d323-11ef-9db5-ed460494a3f0",
+  "title": "SmartBI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.smartbi.ca/"
+}
