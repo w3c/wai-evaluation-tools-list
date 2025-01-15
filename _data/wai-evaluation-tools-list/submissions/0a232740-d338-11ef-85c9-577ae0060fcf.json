@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@authfoodmaps.com",
+  "features": "AuthFoodMaps is a yelp-like platform that helps food enthusiasts discover truly authentic ethnic restaurants nearby. This platform covers multiple cuisines including Chinese, Japanese, Korean, Thai, Vietnamese, Indian, Mexican, Italian, French, Turkish, and Mediterranean food. Each restaurant is evaluated across four key dimensions.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AuthFoodMaps",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-15T11:58:31.348Z",
+  "submission_ref": "0a232740-d338-11ef-85c9-577ae0060fcf",
+  "title": "AuthFoodMaps",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://authfoodmaps.com/"
+}
