@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Say goodbye to juggling multiple analytical platforms! SmartBI centralizes all your data from the most widely used digital data sources into ready-to-use dashboards. With our AI Assistant, analyzing your data is easier than ever. Everything is in one place, ready for quick insights. Let your data come to life.\r\n",
+  "contact": "smartbica@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Say goodbye to juggling multiple analytical platforms! SmartBI centralizes all your data from the most widely used digital data sources into ready-to-use dashboards. With our AI Assistant, analyzing your data is easier than ever. Everything is in one place, ready for quick insights. Let your data come to life.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Centralize and understand your data with re.ady-to-use SmartBI dashboards",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-05-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-16T05:22:44.258Z",
+  "submission_ref": "ea2e8820-d3c9-11ef-b6de-eb2fba1484b4",
+  "technology": [
+    "HTML / XHTML",
+    "Microsoft Office documents"
+  ],
+  "title": "SmartBI",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://www.smartbi.ca/"
+}
