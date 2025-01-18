@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Restricted or password protected pages"
+  ],
+  "comments": "Xbox message & email ",
+  "contact": "jacobchasser@outlook.com",
+  "features": "Give me a code or whatever you need to do so i hav it. Also adjust my aim assist just a little bit better. Thank you. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Halo Studios / Microsoft",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-18T22:24:02.314Z",
+  "submission_ref": "eb9356a0-d5ea-11ef-b812-19736b329402",
+  "title": "Halo blue flame ",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.halopedia.org/images/e/ef/HINF_Noble_Fire_Armor_FX_Icon.png"
+}
