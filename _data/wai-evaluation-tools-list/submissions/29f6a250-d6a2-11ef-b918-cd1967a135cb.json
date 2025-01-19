@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "laurence.r.lewis@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "A11y Quick Check is a testing tool that exposes accessibility issues to provide a high level check to help meet the requirements of the WCAG guidelines and coding best practices.\r\n\r\nEvery effort has been made to ensure the checks accurately identify both invalid code practices and failures in meeting the WCAG Guidelines. However, some false positive ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Laurence Lewis",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-03-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-19T20:15:44.885Z",
+  "submission_ref": "29f6a250-d6a2-11ef-b918-cd1967a135cb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "A11y Quick Check",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/a11y-quick-check/jlamgighkcjniljcdfpnhiemcakibepi"
+}
