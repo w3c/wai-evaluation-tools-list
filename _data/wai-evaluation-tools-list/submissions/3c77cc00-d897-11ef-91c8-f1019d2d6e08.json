@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Ensure the health of open-source packages to prevent harm to your application. DerScanner has examined 100+ million packages for you.\r\n",
+  "contact": "HealthyPackageAI@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Healthy Package AI by DerScanner is a handy solution designed to ensure the health and security of open-source packages, safeguarding your application from potential threats. By leveraging the power of DerScanner, which has examined over 100 million packages, developers can confidently evaluate open-source dependencies before integrating them into ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "https://healthypackage.ai/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-07-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-22T08:02:33.793Z",
+  "submission_ref": "3c77cc00-d897-11ef-91c8-f1019d2d6e08",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Healthy Package AI",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://healthypackage.ai/"
+}
