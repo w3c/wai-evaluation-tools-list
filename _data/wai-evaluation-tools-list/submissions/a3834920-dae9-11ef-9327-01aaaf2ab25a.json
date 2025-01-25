@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://soro.jp/",
+  "actrules": "https://soro.jp/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "1. Real-time transcription Converts audio during meetings and meetings into text in real time and instantly supports minutes. Two. High-precision Japanese voice recognition Accurately recognizes Japanese-specific pronunciation and technical terms, and realizes highly accurate transcription. 3. Automatic minutes generation After the meeting, automatically organize the minutes are provided. It can be easily checked and edited later. 4. Online conference support It also supports remote work and online meetings, and smoothly transcrits even in meetings with multiple participants. 5. Easy to operate With an intuitive interface, anyone can easily use everything from meeting recording to transcription. 6. Minutes search function Easily search for the minutes you have created with keywords to quickly grasp important information. 7. Data security Meeting contents and minutes data are protected by high security standards and can be used with confidence.",
+  "contact": "support@soro.jp",
+  "features": "Automatic conference transcription service",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Yuanze Technology Limited",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-25T06:57:27.730Z",
+  "submission_ref": "a3834920-dae9-11ef-9327-01aaaf2ab25a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sora",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://soro.jp/"
+}
