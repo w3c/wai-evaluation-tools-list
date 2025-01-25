@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "devinzhang@wdyxq.com",
+  "features": "Math, AI Solver, Homework",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Individual developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-25T03:00:21.559Z",
+  "submission_ref": "840ddc70-dac8-11ef-a8ff-219ed96005c9",
+  "title": "MathGPT",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://math-gpt.ai"
+}
