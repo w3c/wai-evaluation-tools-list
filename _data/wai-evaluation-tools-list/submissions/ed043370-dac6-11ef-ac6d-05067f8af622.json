@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "xego@miragebot.com",
+  "features": "AI roleplay, AI girlfriend, AI boyfriend, AI character chatbot",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Individual developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-25T02:48:58.663Z",
+  "submission_ref": "ed043370-dac6-11ef-ac6d-05067f8af622",
+  "title": "Xego AI",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://xego.ai"
+}
