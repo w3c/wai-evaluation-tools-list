@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "generatordirectory@xjtrd.com",
+  "features": "Generator Directory;AI tools;random generator;image generator;code generator;video generator",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Individual developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-25T03:01:43.693Z",
+  "submission_ref": "b50283d0-dac8-11ef-a8ff-219ed96005c9",
+  "title": "Generator Directory",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://generatordirectory.com"
+}
