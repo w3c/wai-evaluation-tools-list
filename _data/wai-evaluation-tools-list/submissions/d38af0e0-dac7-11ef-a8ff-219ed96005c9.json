@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "undatas@xjtrd.com",
+  "features": "Transform unstructured data into AI ready assets; PDF ingestion; intelligent document processing;",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Individual developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-25T02:55:25.422Z",
+  "submission_ref": "d38af0e0-dac7-11ef-a8ff-219ed96005c9",
+  "title": "undatasio, Ltd",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://undatas.io"
+}
