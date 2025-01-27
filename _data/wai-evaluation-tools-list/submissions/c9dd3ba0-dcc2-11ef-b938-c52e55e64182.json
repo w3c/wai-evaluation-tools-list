@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Visionati leverages cutting-edge AI to simplify image and video content analysis. Our platform provides tools for automatic generation of detailed captions, descriptions, and tags, improving content accessibility and discoverability. Visionati integrates with popular services, including a Shopify app that enhances product listings with AI-generated descriptions. Designed for creatives, marketers, and e-commerce businesses, Visionati ensures faster, more accurate content management. Our mission is to make AI-driven content generation accessible, empowering users to optimize their workflows and boost engagement across various platforms.\r\n",
+  "contact": "Visionatiseo@mail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Visionati leverages cutting-edge AI to simplify image and video content analysis. Our platform provides tools for automatic generation of detailed captions, descriptions, and tags, improving content accessibility and discoverability. Visionati integrates with popular services, including a Shopify app that enhances product listings with AI-generated",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "https://visionati.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2016-04-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-27T15:24:24.026Z",
+  "submission_ref": "c9dd3ba0-dcc2-11ef-b938-c52e55e64182",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Visionati",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://visionati.com"
+}
