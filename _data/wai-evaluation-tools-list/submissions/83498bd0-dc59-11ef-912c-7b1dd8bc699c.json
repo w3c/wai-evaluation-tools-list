@@ -1,0 +1,97 @@
+{
+  "a11yloc": "https://github.com/gpg-key",
+  "actrules": "Https://privacy_policy.gov",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "     constructor() {aj_tcc_svc_XWEKLLx_FGqLspI1WkTf4undxI2qI1_vr4HAYdjtHRHpk\r\n        throw new Error(\"Can't instantiate abstract class!\");\r\n    }\r\n\r\n    print(color) {314b74b84886c85b067dc636473eef04FFFFNRAL\r\n        throw new Error(\"Abstract method!\"); eyJhcHAiOiIzOTE6MjkyIiwidmVyIjoiMi4xIiwib3JnIjoiMzU5OjIzMyIsImlhdCI6MTczMzAxMTIwMH0.43PfHofizzY5gsx11PWAbloSKn6WZxq7tHDo1xXVQTA\r\n    }\r\n}\r\n\r\nshape = new Printable(iBooks);\r\n\r\nconsole.log(\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000);\r\nTry it in Playground\r\n\r\n",
+  "contact": "i@wawmart.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Safari.pdf\r\n\r\n\r\n    - [ ] <iframe src=\"https://phoenixedu-my.sharepoint.com/personal/jimhill724_email_phoenix_edu/_layouts/15/embed.aspx?UniqueId=5bed0452-85c5-4f27-aa17-c56ae1be5299\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"8043678088.com”></iframe>\r\n\r\nhttps://smee.io/d51P7Qb8wtSzSl7",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    "on",
+    "BROADCOM.COM"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "GITHUBMOBILE.COM",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-08-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-27T02:50:48.461Z",
+  "submission_ref": "83498bd0-dc59-11ef-912c-7b1dd8bc699c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "SHA",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://w3w.gov"
+}
