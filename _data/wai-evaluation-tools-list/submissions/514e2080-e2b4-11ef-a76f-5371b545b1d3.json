@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "The Virtual Sim OS for Modern Connectivity. Seamless communication, simplified. Rent reliable and secure temporary SIM numbers effortlessly.",
+  "contact": "veritelsimos@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "The Virtual Sim OS for Modern Connectivity. Seamless communication, simplified. Rent reliable and secure temporary SIM numbers effortlessly.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://www.veritel.io/",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-10-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-04T04:55:55.784Z",
+  "submission_ref": "514e2080-e2b4-11ef-a76f-5371b545b1d3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Veritel",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.veritel.io/"
+}
