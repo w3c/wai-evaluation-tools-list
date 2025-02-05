@@ -21,7 +21,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "A11y Quick Check is a testing tool that exposes accessibility issues to provide a high level check to help meet the requirements of the WCAG guidelines and coding best practices.\r\n\r\nEvery effort has been made to ensure the checks accurately identify both invalid code practices and failures in meeting the WCAG Guidelines. However, some false positive ",
+  "features": "A11y Quick Check is a browser extension for evaluating web accessibility through a structured checklist. It provides 42 individual tests focused on key accessibility aspects, including headings, grouping elements, lists, tables, related controls, and accessible names and descriptions. The tool identifies accessibility, structural, and semantic issue and includes guidance for manual verification.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
