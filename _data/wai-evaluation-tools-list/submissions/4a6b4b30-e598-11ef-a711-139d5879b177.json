@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Capable of document analysis, legal research and contracts, Evatt Al is the future of law. Through a unique encryption technology - it combines the intelligence of AI, with the security of private software.\r\n\r\n",
+  "contact": "evattaioutreach@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Making Lawyers' Lives Easier. \r\n\r\nEvatt AI is an AI Software for lawyers. Built using the world's most powerful AI, trained in the common law, and with access to 45 million cases through legal databases. Evatt AI can save you 2 hours per day.\r\n\r\nEvatt AI is capable of:\r\nAdvanced Legal Research \r\nContract Drafting\r\nDocument Review\r\n\r\nAll powered by highly in",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "https://www.evatt.ai/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-07T21:12:51.811Z",
+  "submission_ref": "4a6b4b30-e598-11ef-a711-139d5879b177",
+  "technology": [
+    "HTML / XHTML",
+    "Microsoft Office documents"
+  ],
+  "title": "Evatt AI",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.evatt.ai/"
+}
