@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Making Lawyers' Lives Easier. \r\n\r\nEvatt AI is an AI Software for lawyers. Built using the world's most powerful AI, trained in the common law, and with access to 45 million cases through legal databases. Evatt AI can save you 2 hours per day.\r\n\r\nEvatt AI is capable of:\r\nAdvanced Legal Research \r\nContract Drafting\r\nDocument Review\r\n\r\nAll powered by highly intelligent encryption technology and database access - to ensure client attorney privilege and pinpoint accurate responses.\r\n\r\nWe service lawyers, entrepreneurs and consultants in: The United States (US), The United Kingdom (UK), Australia, India, Canada and New Zealand.\r\n\r\nTry Evatt AI Today:\r\nhttps://www.evatt.ai/\r\n\r\nSign up here:\r\nhttps://evattai.com/\r\n\r\nEvatt AI \r\nMaking Lawyers' Lives Easier \r\n",
+  "contact": "evattaioutreach@gmail.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "Linux",
+    "Other"
+  ],
+  "features": "Making Lawyers' Lives Easier. \r\n\r\nEvatt AI is an AI Software for lawyers. Built using the world's most powerful AI, trained in the common law, and with access to 45 million cases through legal databases. Evatt AI can save you 2 hours per day.\r\n\r\nEvatt AI is capable of:\r\nAdvanced Legal Research \r\nContract Drafting\r\nDocument Review\r\n\r\nAll powered by highly in",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "https://www.evatt.ai/",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-05-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-08T12:57:09.710Z",
+  "submission_ref": "352896e0-e61c-11ef-b911-7f3c8ce188f8",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Evatt AI",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.evatt.ai/"
+}
