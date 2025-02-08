@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://www.simplynode.io/",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "SimplyNode is a trusted provider of proxy solutions, offering over 50 million ethically-sourced IPs, including residential and mobile proxies, with precise targeting and support for HTTP, SOCKS, and UDP protocols. Known for reliability and a 99.6% success rate, SimplyNode supports diverse use cases such as web scraping, ad verification, and SERP analysis.",
+  "contact": "valentinlistings@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "SimplyNode is a trusted provider of proxy solutions, offering over 50 million ethically-sourced IPs, including residential and mobile proxies, with precise targeting and support for HTTP, SOCKS, and UDP protocols. Known for reliability and a 99.6% success rate, SimplyNode supports diverse use cases such as web scraping, ad verification, and SERP an",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "SimplyNode",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-08T07:37:50.208Z",
+  "submission_ref": "99349800-e5ef-11ef-96f0-8591ce62651c",
+  "title": "SimplyNode",
+  "type": [
+    "Browser plugin",
+    "Mobile application"
+  ],
+  "website": "https://www.simplynode.io/"
+}
