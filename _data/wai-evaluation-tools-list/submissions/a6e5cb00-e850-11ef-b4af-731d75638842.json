@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://www.jobberman.com.gh",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "rita@jobberman.com.gh",
+  "features": "The tool is used to apply for Jobs and also manage job applications",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Jobberman Ghana",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-11T08:17:36.688Z",
+  "submission_ref": "a6e5cb00-e850-11ef-b4af-731d75638842",
+  "title": "Jobberman Ghana",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.jobberman.com.gh"
+}
