@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "mauve@isti.cnr.it",
+  "features": "MAUVE++(Multiguideline Accessibility and Usability Validation Environment) is a system to evaluate accessibility of websites by checking their HTML and CSS code through guidelines, it provides validation results for different types of stakeholders, and supports validation of W3C WCAG 2.1 guidelines.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "National Research Council",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2012-12-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-02T10:17:12.359Z",
+  "submission_ref": "9899e460-b096-11ef-b984-85af6e02fd9b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Mauve++",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://mauve.isti.cnr.it/"
+}
