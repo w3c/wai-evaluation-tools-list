@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "sclavijosuero@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Cypress plugin that seamlessly integrates accessibility checks into your End-to-End testing workflow. It logs detailed reports of accessibility violations within the Cypress interface, generates comprehensive HTML reports with screenshots for precise issue identification, and provides audible feedback of accessibility issues.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Open-source"
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Open-source (Creator: Sebastian Clavijo Suero)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-22T21:27:47.216Z",
+  "submission_ref": "7b824100-90bc-11ef-9a48-2bea246cb06f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "wick-a11y",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://github.com/sclavijosuero/wick-a11y"
+}
