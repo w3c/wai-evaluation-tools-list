@@ -1,0 +1,43 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rajesh@skynettechnologies.com",
+  "features": "A WCAG color contrast checker is a tool used to assess the difference in luminance or color between text and its background on a digital interface. It ensures that text is easily readable against its background, especially for people with visual impairments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-21T05:20:12.504Z",
+  "submission_ref": "40fd3580-bf5b-11ef-9e59-4d7bb8d9ad27",
+  "title": "WCAG Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/color-contrast-checker"
+}
