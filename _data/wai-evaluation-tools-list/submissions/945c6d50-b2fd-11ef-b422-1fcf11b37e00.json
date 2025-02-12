@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@webyes.com",
+  "features": "WebYes is a comprehensive website audit and monitoring tool that checks accessibility, SEO, performance, and quality - all in one place. The tool checks your website against WCAG 2.2 standards up to Level AAA, helping you work toward compliance with ADA, Section 508, EAA, and other digital accessibility regulations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Mozilor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-05T11:39:25.733Z",
+  "submission_ref": "945c6d50-b2fd-11ef-b422-1fcf11b37e00",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WebYes",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.webyes.com"
+}
