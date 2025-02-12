@@ -5,7 +5,7 @@ title: "Web Accessibility Evaluation Tools List"
 title_html: "Web Accessibility Evaluation Tools List" 
 nav_title: "Web Accessibility Evaluation Tools List"
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-02-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
