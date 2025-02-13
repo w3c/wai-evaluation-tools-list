@@ -93,10 +93,10 @@ Show more features
 		{% endfor %}</p>
   </div>
 {% endif %}
-{% if tool.operatingsystems | size > 0 %}
+{% if tool.desktop | size > 0 %}
   <div class="colRow">
 		<img src="{{ "/content-images/wai-evaluation-tools-list/os.png" | relative_url }}" alt="Operating system" />
-		<p>{% for os in tool.operatingsystems %}
+		<p>{% for os in tool.desktop %}
 		  {{ os }}{% if forloop.last %}{% else %}, {% endif %}
 		{% endfor %}</p>
   </div>
