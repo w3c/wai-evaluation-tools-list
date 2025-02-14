@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "An online peer-learning and peer-teaching platform to transform K-12 education. Transform your browsing with Tabs Magic: effortless, visual drag-and-drop tab organization. TabsMagic is a free Chrome and Firefox browser extension and productivity app that is designed to resolve the universal challenge of messy and unorganized browser tabs when people browser the web  and do online research. \r\n",
+  "contact": "tabsmagiclearn@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "An online peer-learning and peer-teaching platform to transform K-12 education. Transform your browsing with Tabs Magic: effortless, visual drag-and-drop tab organization. TabsMagic is a free Chrome and Firefox browser extension and productivity app that is designed to resolve the universal challenge of messy and unorganized browser tabs when peopl",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "https://Tabsmagic.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-04-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-14T07:45:53.243Z",
+  "submission_ref": "b79862b0-eaa7-11ef-82ac-075908f27357",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Kid Teach Kid",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://Tabsmagic.com"
+}
