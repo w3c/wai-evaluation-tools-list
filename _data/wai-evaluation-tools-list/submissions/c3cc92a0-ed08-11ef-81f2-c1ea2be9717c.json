@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Welcome to Visihero, the driving force behind your online reviews. We're a dedicated team of tech-savvy professionals on a mission to reshape the way you perceive and manage your digital reputation. Our Review Management Software as a Service (SaaS) platform is designed to empower businesses of all sizes to harness the power of reviews, transforming them into a cornerstone of your brand's success.\r\n",
+  "contact": "visiheroseo@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Welcome to Visihero, the driving force behind your online reviews. We're a dedicated team of tech-savvy professionals on a mission to reshape the way you perceive and manage your digital reputation. Our Review Management Software as a Service (SaaS) platform is designed to empower businesses of all sizes to harness the power of reviews, transformin",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "https://visihero.com/",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-04-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-17T08:25:37.226Z",
+  "submission_ref": "c3cc92a0-ed08-11ef-81f2-c1ea2be9717c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Visihero",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://visihero.com/"
+}
