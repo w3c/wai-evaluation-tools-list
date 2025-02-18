@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Supported languages:\r\nEnglish\r\nGerman\r\nDutch\r\nSpanish\r\nFrench",
+  "contact": "office@axes4.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "axesSense covers all machine-verifiable PDF/UA and WCAG requirements and can be easily integrated into your systems or software as a REST API, allowing for scalable and efficient validation of large volumes of PDFs. The API provides machine-readable test results in JSON format, facilitating further processing and integration in various workflows.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "axes4 GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2022-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-13T14:15:27.815Z",
+  "submission_ref": "d6b50570-d1b8-11ef-94e1-d314c69963ad",
+  "technology": [
+    "PDF"
+  ],
+  "title": "axesSense",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.axes4.com/axessense"
+}
