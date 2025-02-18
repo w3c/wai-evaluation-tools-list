@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/alfa/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "For the Release Date field, we put the date for the most recent update of the extension. This extension is updated several times a year. It is unclear if the initial release date of the extension is needed instead? ",
+  "contact": "jgo@siteimprove.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Siteimprove Accessibility Checker allows you to easily check the accessibility of any web page directly in the browser, so you can immediately identify issues with instant feedback. Allows for evaluation of any password-protected or non-public pages, multi-step forms, and dynamic content.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Siteimprove",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-12-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-21T21:18:06.455Z",
+  "submission_ref": "34f06870-d83d-11ef-8941-c1e4afe5d01f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Siteimprove Accessibility Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.siteimprove.com/integrations/browser-extensions/"
+}
