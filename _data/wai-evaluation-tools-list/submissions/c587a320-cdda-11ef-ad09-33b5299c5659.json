@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://pac.pdf-accessibility.org/_Resources/Persistent/a/c/a/3/aca34de96ee6ab9c6273040e8c883e822a4bd602/PAC%20Accessibility%20Conformance%20Report.pdf",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "info@axes4.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "The free PAC PDF Accessibility Checker helps you assess your documents. PAC is the globally used, free PDF accessibility checking tool that has been tried and tested since 2010. PAC can check many PDF/UA and WCAG requirements at the touch of a button. In addition to this, PAC also supports the required visual check.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "PDF Association",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-08T16:08:17.234Z",
+  "submission_ref": "c587a320-cdda-11ef-ad09-33b5299c5659",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PAC (PDF Accessibility Checker) ",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://pac.pdf-accessibility.org/"
+}
