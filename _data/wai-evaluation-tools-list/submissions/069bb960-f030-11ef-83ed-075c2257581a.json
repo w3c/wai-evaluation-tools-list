@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Save hours of writing emails & messages. Intelligently fix & improve your writing in any application with a lightning-fast native assistant for macOS and Windows.\r\n",
+  "contact": "Steeroutreach@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Save hours of writing emails & messages. Intelligently fix & improve your writing in any application with a lightning-fast native assistant for macOS and Windows. Perfect your communication without having to think about it. \r\n\r\nMakes you sound professional\r\nConcise your messages\r\nFixes spelling in 2 seconds \r\nWorks in any app\r\nWorks in any language 🇺🇸 ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "https://steerapp.ai/",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2022-05-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-21T08:44:13.174Z",
+  "submission_ref": "069bb960-f030-11ef-83ed-075c2257581a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Steer",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://steerapp.ai/"
+}
