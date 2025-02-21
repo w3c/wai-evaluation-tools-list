@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "safford.adin@gcmsk12.org",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "watch videos",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ivsa",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-21T16:52:12.765Z",
+  "submission_ref": "329ac0d0-f074-11ef-b692-812873bae454",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "IVHS",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.youtube.com"
+}
