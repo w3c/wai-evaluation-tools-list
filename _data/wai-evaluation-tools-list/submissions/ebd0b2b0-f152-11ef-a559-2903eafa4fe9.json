@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Provamoda is an AI Fashion Photoshoot generator that allows brands to upload their clothing items and receive professional photos with models wearing them with AI. Fashion photoshoots in minutes. Generate professional-grade, accurate images and videos for your e-commerce store in minutes.\r\n",
+  "contact": "Provamodaai@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Provamoda is an AI Fashion Photoshoot generator that allows brands to upload their clothing items and receive professional photos with models wearing them with AI. Fashion photoshoots in minutes. Generate professional-grade, accurate images and videos for your e-commerce store in minutes.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "https://provamoda.ai/",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-05-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-22T19:26:31.771Z",
+  "submission_ref": "ebd0b2b0-f152-11ef-a559-2903eafa4fe9",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Provamoda",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://provamoda.ai/"
+}
