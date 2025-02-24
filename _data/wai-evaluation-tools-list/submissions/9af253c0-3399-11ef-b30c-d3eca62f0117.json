@@ -1,0 +1,68 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Axe DevTools for Web is the complete toolkit for testing websites. Comprised of axe DevTools Linter, axe DevTools Browser Extension, axe Developer Hub, axe DevTools APIs, and axe DevTools CLI. The toolkit makes it easy for you to test while coding, while testing interactively in the browser, and while reviewing pull requests.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-26T08:53:49.436Z",
+  "submission_ref": "9af253c0-3399-11ef-b30c-d3eca62f0117",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "Axe DevTools for Web (full toolkit)",
+  "type": [
+    "Browser plugin",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.deque.com/axe/devtools/web-accessibility/"
+}
