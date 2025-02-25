@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "darnel.adv@gmail.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "rttrtrrtttt",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "fdtg",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-25T09:27:14.319Z",
+  "submission_ref": "b2be31f0-f35a-11ef-802e-7bb3a6db1f0e",
+  "title": "v",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://v-cubes.com"
+}
