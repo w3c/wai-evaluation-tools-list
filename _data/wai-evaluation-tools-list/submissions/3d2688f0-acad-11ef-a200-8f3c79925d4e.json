@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "https://webmedia.testfabrik.com/act_implementation_report/webmate_accessibility_workbench_2024_11_26.json",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "info@testfabrik.com",
+  "features": "Webmate Accessibility Workbench provides an integrated testing environment where everything you need is in one place: testing infrastructure including VMs and real devices; audit management and audit templates built with requirements catalogues WCAG, BITV, and more; reporting tools, page scanners, AI assistants, and impairment simulations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    "on",
+    "Project-based"
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Testfabrik Consulting + Solutions AG",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-09-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-27T10:49:12.703Z",
+  "submission_ref": "3d2688f0-acad-11ef-a200-8f3c79925d4e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Webmate Accessibility Workbench",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://barrierefr.ai"
+}
