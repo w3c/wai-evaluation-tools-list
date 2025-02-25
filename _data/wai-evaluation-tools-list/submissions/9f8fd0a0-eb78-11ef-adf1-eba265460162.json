@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "robin@testzeus.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Hercules takes natural language tests as input and performs accessibility scans at page level in accordance with Accessibility standards using AXE-CORE. It is AI powered and completely open source.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Testzeus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-15T08:41:17.738Z",
+  "submission_ref": "9f8fd0a0-eb78-11ef-adf1-eba265460162",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Hercules",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/test-zeus-ai/testzeus-hercules/"
+}
