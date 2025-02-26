@@ -3,6 +3,7 @@ _site
 .jekyll-*
 .DS_Store
 node_modules
+.vscode
 
 # Local Netlify folder
 .netlify
