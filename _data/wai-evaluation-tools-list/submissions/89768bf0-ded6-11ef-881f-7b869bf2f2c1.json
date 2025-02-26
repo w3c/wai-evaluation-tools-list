@@ -26,7 +26,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "A free automated website check that checks for accessibility issues according to WCAG 2.1 and a variety of technical, legal and performance aspects. Simply enter the URL and get instant results.",
+  "features": "A free automated website check that checks for accessibility issues according to WCAG 2.1. Simply enter the URL and get instant results.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
