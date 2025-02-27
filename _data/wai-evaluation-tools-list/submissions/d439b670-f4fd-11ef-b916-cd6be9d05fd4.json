@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "test@w3.org",
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "W3C",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-27T11:27:29.623Z",
+  "submission_ref": "d439b670-f4fd-11ef-b916-cd6be9d05fd4",
+  "title": "Test",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/"
+}
