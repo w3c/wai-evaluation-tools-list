@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "shangbowen@yanosaku.com",
+  "features": "Yanosaku is a brand that embodies the essence of Japanese style, dedicated to bringing simplicity, practicality, and high quality into modern home life.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    "on",
+    "Paid"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Yanosaku.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-02-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-27T01:00:07.350Z",
+  "submission_ref": "2faead60-f4a6-11ef-9386-7b341cf79e4b",
+  "title": "Yanosaku Furniture",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://yanosaku.com/"
+}
