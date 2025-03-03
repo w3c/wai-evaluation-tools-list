@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "emojisay@miragebot.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "EmojiSay is a Chrome extension offering an AI-powered multilingual emoji search tool with a comprehensive library, customizable features, and premium animated and search options.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-03T05:23:58.288Z",
+  "submission_ref": "b54f1d00-f7ef-11ef-b6c3-ed5c3cf7c1eb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "EmojiSay",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://emojisay.com"
+}
