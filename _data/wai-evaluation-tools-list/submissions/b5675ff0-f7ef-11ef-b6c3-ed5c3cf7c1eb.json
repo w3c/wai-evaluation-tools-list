@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "freefaceswap@miragebot.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "The best AI face swapping tool to remake your photos. 100% free, no signup, no watermarks. Create perfect face swaps instantly with our advanced AI technology.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-03T05:23:58.447Z",
+  "submission_ref": "b5675ff0-f7ef-11ef-b6c3-ed5c3cf7c1eb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Freefaceswap",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://freefaceswap.io/"
+}
