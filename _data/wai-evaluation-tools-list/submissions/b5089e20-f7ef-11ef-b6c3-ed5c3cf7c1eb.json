@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "fluxpro@roboweekly.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Flux Pro AI is a revolutionary AI image generation platform that uses cutting-edge diffusion model technology to create high-quality, diverse images. Powered by the FLUX.1 family of models (Pro, Dev, and Schnell), Flux AI caters to different needs and use cases. Whether you need photorealistic images, creative artwork, or rapid concept designs, Flux AI has the right tool for you.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-03T05:23:57.826Z",
+  "submission_ref": "b5089e20-f7ef-11ef-b6c3-ed5c3cf7c1eb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Flux Pro AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.fluxpro.ai"
+}
