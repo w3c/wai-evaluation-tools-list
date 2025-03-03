@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "generatordirectory@xjtrd.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Discover the most powerful generators and AI tools to enhance your work and life!",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-03T05:23:57.823Z",
+  "submission_ref": "b50828f0-f7ef-11ef-b205-ab8c1230438d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Generator Directory",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://generatordirectory.com"
+}
