@@ -24,7 +24,8 @@
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.1"
+    "WCAG 2.1",
+    "WCAG 2.0"
   ],
   "language": [
     "en"
