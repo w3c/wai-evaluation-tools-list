@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "xego@miragebot.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Experience unlimited roleplay with Xego AI's no filter AI characters. Chat, connect, and explore unfiltered interactions with personalized AI girlfriends, boyfriends, and unique characters.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-03T05:23:57.836Z",
+  "submission_ref": "b50a24c0-f7ef-11ef-80b7-db72b3b51120",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Xego AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://xego.ai"
+}
