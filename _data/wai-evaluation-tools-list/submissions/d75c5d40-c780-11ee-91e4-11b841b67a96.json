@@ -1,0 +1,74 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-devtools-pro/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "harris.schneiderman@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The axe DevTools Extension is the ultimate tool for in-browser automated, semi-automated and manual accessibility testing. With rich issue details and reporting including screenshots, this tool helps you easily find and fix accessibility issues covering 100% of WCAG testing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-02-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-02-09T19:24:27.796Z",
+  "submission_ref": "d75c5d40-c780-11ee-91e4-11b841b67a96",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "axe DevTools Extension",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "update": "2024-02-09",
+  "website": "https://www.deque.com/get-started-axe-devtools-browser-extension/"
+}
