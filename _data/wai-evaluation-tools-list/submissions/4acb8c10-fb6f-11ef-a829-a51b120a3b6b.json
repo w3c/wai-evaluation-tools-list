@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "investor@pegasusangelaccelerator.com",
+  "features": "Ascend is an 8-week sales mastery program for startups serious about driving revenue growth. We focus on teaching essential sales skills like pipeline management, closing deals, and utilizing advanced tools to scale operations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pegasus Angel Accelerator",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-07T16:14:48.657Z",
+  "submission_ref": "4acb8c10-fb6f-11ef-a829-a51b120a3b6b",
+  "title": "Ascend",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.pegasusangelaccelerator.com/ascend"
+}
