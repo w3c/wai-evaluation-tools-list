@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "ntim26115@gmail.com",
+  "desktop": [
+    "Android",
+    "Other"
+  ],
+  "features": "https://m.me/",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Self",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-07T15:44:16.775Z",
+  "submission_ref": "06e88970-fb6b-11ef-8886-6992c3b92b4e",
+  "title": "Me",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://m.me/"
+}
