@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "investor@pegasusangelaccelerator.com",
+  "features": "Accelerate is our flagship 12-week program focused on taking startups to the next level. Founders refine their business models, develop go-to-market strategies, and prepare investor-ready pitches in an environment designed for measurable growth. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pegasus Angel Accelerator",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-07T16:10:49.768Z",
+  "submission_ref": "bc67fa80-fb6e-11ef-a829-a51b120a3b6b",
+  "title": "Accelerate",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.sparkxyz.io/applications/812"
+}
