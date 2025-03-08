@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "wan21ai@miragebot.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Wan 2.1 AI is an open-source AI video generation model from Alibaba Cloud. It converts text into high-quality videos with realistic visuals and complex movements. The model supports multiple languages and artistic styles, and is designed to be efficient and use less memory than other similar models",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-08T02:10:47.430Z",
+  "submission_ref": "8caf2350-fbc2-11ef-9e12-29fc25b8ca13",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Wan 2.1 AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wan21ai.com"
+}
