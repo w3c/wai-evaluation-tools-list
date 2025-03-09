@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://www.themindreader.ai/",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "mindreaderlistings@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Help salespeople improve relationship selling by 15-50% using our facial profiling system.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Mindreader",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-02-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-09T10:27:04.087Z",
+  "submission_ref": "0b5e5270-fcd1-11ef-85d8-6316de39b68e",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Mindreader",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.themindreader.ai/"
+}
