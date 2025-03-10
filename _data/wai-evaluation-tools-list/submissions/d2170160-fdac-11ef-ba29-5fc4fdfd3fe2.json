@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "https://intellijob-one.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR2_AcPWhUh1DQtJstjVE5sDp2j3ll3Ip2wvILynPV1MMEBqO9Dt1wAfVoE_aem_Dphfy8e3oVCW2lj8vQyCxw",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "none",
+  "contact": "olanbeah01@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "This website is made for job matching assessment. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "school",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-10T12:40:17.270Z",
+  "submission_ref": "d2170160-fdac-11ef-ba29-5fc4fdfd3fe2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "none",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://intellijob-one.vercel.app/?fbclid=IwZXh0bgNhZW0CMTEAAR2_AcPWhUh1DQtJstjVE5sDp2j3ll3Ip2wvILynPV1MMEBqO9Dt1wAfVoE_aem_Dphfy8e3oVCW2lj8vQyCxw"
+}
