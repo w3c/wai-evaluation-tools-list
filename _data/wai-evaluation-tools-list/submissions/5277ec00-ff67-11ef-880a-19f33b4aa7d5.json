@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "No",
+  "contact": "gregorchel414@gmail.com",
+  "desktop": [
+    "Android",
+    "Linux"
+  ],
+  "features": "Pub rule standards, implementation and fix passing through w3.org 11.6.0 pub rule, with 4 recommendations ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "IEFT",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-12T17:27:50.208Z",
+  "submission_ref": "5277ec00-ff67-11ef-880a-19f33b4aa7d5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB"
+  ],
+  "title": "Policy",
+  "type": [
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.w3.org/TR/2025/NOTE-css-2024-20250225"
+}
