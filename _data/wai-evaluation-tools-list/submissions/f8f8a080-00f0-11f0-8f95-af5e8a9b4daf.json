@@ -1,0 +1,50 @@
+{
+  "a11yloc": "http://lyricstosong.ai/",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "lyricstosong@roboweekly.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Lyrics To Song AI is a free AI song generator and music creator that instantly transforms lyrics into professional-quality songs with AI.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CHUHAIQU",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-14T16:25:41.768Z",
+  "submission_ref": "f8f8a080-00f0-11f0-8f95-af5e8a9b4daf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Lyrics To Song",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://lyricstosong.ai/"
+}
