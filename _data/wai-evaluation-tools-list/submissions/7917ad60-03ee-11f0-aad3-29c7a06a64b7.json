@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "nandini@themeselection.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "FlyonUI offers 78+ pre-built components, works with React, Vue, Svelte, and Tailwind CSS, and includes headless JS plugins for interactivity. It's fully customizable, responsive, and supports RTL languages. Free and open-source, it also features advanced components like charts, tables, and timelines.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "ThemeSelection",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-18T11:45:21.718Z",
+  "submission_ref": "7917ad60-03ee-11f0-aad3-29c7a06a64b7",
+  "technology": [
+    "CSS"
+  ],
+  "title": "FlyonUI- Free Tailwind CSS Component Library",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://flyonui.com/"
+}
