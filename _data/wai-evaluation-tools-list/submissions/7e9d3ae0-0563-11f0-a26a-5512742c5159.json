@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "sesjinwei@icloud.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Free TikTok Emojis tools collection, including Sercet emojis, Kaomoji, and emojiCombos tools. Easily discover and use unique emoji symbols on TikTok platform to make your comments more interesting.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "个人",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-20T08:15:33.262Z",
+  "submission_ref": "7e9d3ae0-0563-11f0-a26a-5512742c5159",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "tiktok emojis tools",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.aimojitok.com/"
+}
