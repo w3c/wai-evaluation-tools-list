@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.accessiweb.it/dichiarazione-di-accessibilita",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "e.longhi@dunp.it",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AccessiWeb Color Contrast Tester è un'estensione per Google Chrome progettata per migliorare l'accessibilità delle piattaforme web. Grazie a questo strumento, puoi verificare rapidamente il rapporto di contrasto tra due colori (testo e sfondo) direttamente su una pagina web, assicurandoti che soddisfi le linee guida WCAG 2.1 AA e AAA.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "dunp scpl",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-11T11:32:58.105Z",
+  "submission_ref": "94f91690-fe6c-11ef-bf56-01d18ed047fb",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessiWeb Color Contrast Chrome extension",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.accessiweb.it/test-contrasto-colore"
+}
