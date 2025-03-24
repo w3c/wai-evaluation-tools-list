@@ -15,7 +15,7 @@
   ],
   "comments": "We frequently release product updates to enhance the feature set and user experience. Our product roadmap is open, so users can submit features and updates that would improve the app.",
   "contact": "enquiries@insytful.com",
-  "features": "Scan your website, intranet, and microsite web pages and documents against WCAG. With Insytful, you can find missing alt text, insufficient colour contrast ratio, inaccessible PDFs and more. Benefit from automated tests, manual checks and best practices. Get started for free, simply insert your URL to be notified of your website's results.",
+  "features": "Scan your website, intranet, and microsite web pages and documents against WCAG. With Insytful, you can find missing alt text, insufficient colour contrast ratio, inaccessible PDFs and more. Benefit from automated tests, manual checks and best practices using Axe Core. Get started for free, simply insert your URL to be notified of your website's results.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
