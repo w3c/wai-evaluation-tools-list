@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://aimangatranslator.com/",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "yanhuanchen88@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AI Manga Translator is an advanced online tool designed for translating manga and comic scans into multiple languages with precision. The platform uses AI-powered engines like DeepL and LLM APIs to deliver high-quality translations while preserving the original layout of the images. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Manga Translator ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-24T07:51:05.876Z",
+  "submission_ref": "bda2e540-0884-11f0-bd16-895ad53f0030",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AI Manga Translator ",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://aimangatranslator.com/"
+}
