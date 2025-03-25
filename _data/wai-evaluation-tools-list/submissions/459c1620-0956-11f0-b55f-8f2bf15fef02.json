@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "shalimarcode@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Brat Generator – Free fan tool to create Charli XCX-inspired visuals. Custom colors, viral-ready designs in seconds.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "personal",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-25T08:50:58.819Z",
+  "submission_ref": "459c1620-0956-11f0-b55f-8f2bf15fef02",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Brat Generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://bratgeneratoronline.com"
+}
