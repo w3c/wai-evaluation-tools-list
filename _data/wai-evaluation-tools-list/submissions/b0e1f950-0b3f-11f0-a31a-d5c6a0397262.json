@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://silversoftweb.com/tinyimage/",
+  "actrules": "https://silversoftweb.com/tinyimage/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "-",
+  "contact": "gsscp4@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "TinyImage is a free online tool for compressing images without loosing quality.Reduce file size for faster loading of web pages. Optimize your images with one click for websites, blogs, or social media platforms.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Silversoft corp",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-27T19:14:22.693Z",
+  "submission_ref": "b0e1f950-0b3f-11f0-a31a-d5c6a0397262",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "TinyImage",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://silversoftweb.com/tinyimage/"
+}
