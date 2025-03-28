@@ -18,7 +18,7 @@
     "Android",
     "iOS"
   ],
-  "features": "Automate accessibility testing for mobile apps with just a single flag change. Run tests on real devices, catch WCAG violations early, and integrate seamlessly into your CI/CD pipeline. No maintenance needed—DOM updates are tracked automatically. Get detailed reports, monitor trends, and ensure your app stays accessible with every release.",
+  "features": "Automate accessibility testing for mobile apps with just a single flag change. Run tests on real devices, catch violations early, and integrate seamlessly into your CI/CD pipeline. No maintenance needed—DOM updates are tracked automatically. Get detailed reports, monitor trends, and ensure your app stays accessible with every release.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
