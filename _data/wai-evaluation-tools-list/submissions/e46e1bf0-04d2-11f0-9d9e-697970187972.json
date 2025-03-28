@@ -28,7 +28,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Ensure your website meets WCAG standards effortlessly with BrowserStack’s Spectra™ Rule Engine. Run a single scan to catch accessibility issues across all pages, even behind logins. Navigate like a real user with built-in screen reader testing and track progress with smart issue summaries to stay compliant",
+  "features": "Test your website for accessibility with BrowserStack. Run a single scan to catch accessibility issues across all pages, even behind logins. Navigate like a real user with built-in screen reader testing and track progress with smart issue summaries.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -68,5 +68,5 @@
     "Browser plugin",
     "Online tool"
   ],
-  "website": "https://www.browserstack.com/accessibility-testing"
+  "website": "https://www.browserstack.com/accessibility-testing/features/workflow-analyzer"
 }
