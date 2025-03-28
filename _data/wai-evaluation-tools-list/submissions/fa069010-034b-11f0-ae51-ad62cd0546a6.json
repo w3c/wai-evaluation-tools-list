@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "regine@friendlycaptcha.com",
+  "features": "Developed by the Friendly Captcha engineering team for businesses: Use the WCAG Checker to check whether your website is accessible, discover accessibility violations, and avoid potential legal risks. Test for free whether your website meets the requirements of WCAG, EAA, and ADA.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Friendly Captcha",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-17T16:22:10.065Z",
+  "submission_ref": "fa069010-034b-11f0-ae51-ad62cd0546a6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Friendly Captcha WCAG Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://friendlycaptcha.com/wcag-checker/"
+}
