@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://www.caat.report/en/legal/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "farnetani@mindscreen.de",
+  "features": "CAAT is a powerful platform for comprehensive accessibility testing of websites, mobile applications, desktop apps and documents. It combines manual assessment with automated tools and supports WCAG, EN 301 549 and custom test catalogues. It also provides issue tracking and reporting.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Other"
+  ],
+  "provider": "mindscreen GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-02T13:58:50.554Z",
+  "submission_ref": "b1bfd1a0-c911-11ef-8fd6-a1a3c79890d1",
+  "title": "CAAT",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.caat.report/en"
+}
