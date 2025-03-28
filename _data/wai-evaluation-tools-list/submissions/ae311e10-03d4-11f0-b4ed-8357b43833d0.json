@@ -20,7 +20,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Detects failures, identifies issues to validate, and highlights code. Let A11yInspect reduce time taken to implement accessibility for your developers & accessibility professionals.\r\n\r\nOne-click highlights the issue along with the code. As simple as that!\r\nWide-range of Bookmarklets\r\nKey Code Attributes\r\nDownload Screenshots\r\n\r\nSave Time with A11yInspect!",
+  "features": "Detects failures, identifies issues to validate, and highlights code. Let A11yInspect assist your developers & accessibility professionals to evalaute for Web Content Accessibility Guideline (WCAG).\r\n\r\nOne-click highlights the issue along with the code. As simple as that!\r\nWide-range of Bookmarklets\r\nKey Code Attributes\r\nDownload Screenshots.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -60,5 +60,5 @@
     "Bookmarklet",
     "Online tool"
   ],
-  "website": "https://www.barrierbreak.com/a11yinspect/"
+  "website": "https://www.barrierbreak.com/a11yinspect-web-accessibility-tool/"
 }
