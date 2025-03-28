@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.accessiweb.it/dichiarazione-di-accessibilita",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results"
@@ -20,7 +20,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "AccessiWeb Color Contrast Tester è un'estensione per Google Chrome progettata per migliorare l'accessibilità delle piattaforme web. Grazie a questo strumento, puoi verificare rapidamente il rapporto di contrasto tra due colori (testo e sfondo) direttamente su una pagina web, assicurandoti che soddisfi le linee guida WCAG 2.1 AA e AAA.\r\n",
+  "features": "AccessiWeb Color Contrast Tester is a Google Chrome extension designed to evaluate the accessibility of web platforms. With this tool, you can quickly check the contrast ratio between two colors (text and background) directly on a web page, ensuring that it meets the WCAG 2.1 AA and AAA guidelines",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
