@@ -20,7 +20,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Run accessibility checks within your test automation pipeline with just one line of code—compatible with any framework & no maintenance required. DOM updates are tracked automatically. Get detailed reports, track trends, and catch accessibility issues early to build inclusive experiences.",
+  "features": "Run accessibility checks within your test automation pipeline with just one line of code—compatible with any framework & no maintenance required. DOM updates are tracked automatically. Get detailed reports, track trends, and catch accessibility issues early.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
