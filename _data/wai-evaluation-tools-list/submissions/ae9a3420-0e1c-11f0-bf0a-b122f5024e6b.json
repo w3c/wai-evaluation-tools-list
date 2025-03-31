@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "support@credas.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "IDV Verification",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Credas",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-31T10:41:19.970Z",
+  "submission_ref": "ae9a3420-0e1c-11f0-bf0a-b122f5024e6b",
+  "title": "Connect",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://portal.credas.com/auth-v2/login"
+}
