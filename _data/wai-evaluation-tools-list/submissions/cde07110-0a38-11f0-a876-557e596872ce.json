@@ -21,7 +21,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "taba11y is a free Chrome and Firefox extension which calculates and displays the tab order of elements on a webpage. It enables developers to ensure that interactive elements are included in the tab order, non-interactive elements are included in the tab order and the tab order is logical.",
+  "features": "taba11y is a free Chrome and Firefox extension which calculates and displays the tab order of elements on a webpage. It enables developers to evaluate whether interactive elements are included in the tab order, whether non-interactive elements are incorrectly included, and whether the tab order follows a logical sequence.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
