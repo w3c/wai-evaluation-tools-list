@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@lambdatest.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "LambdaTest’s Accessibility Testing Tool helps ensure your website meets WCAG and ADA compliance standards. Run automated and manual accessibility tests to detect issues like contrast errors, missing alt text, and keyboard navigation flaws. Get detailed reports and recommendations to improve usability for all users, including those with disabilities",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "LambdaTest",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-04-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-27T09:22:41.871Z",
+  "submission_ref": "08be6df0-0aed-11f0-98a8-0ff7d7148f60",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Testing Tool Suite",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.lambdatest.com/accessibility-testing-tool"
+}
