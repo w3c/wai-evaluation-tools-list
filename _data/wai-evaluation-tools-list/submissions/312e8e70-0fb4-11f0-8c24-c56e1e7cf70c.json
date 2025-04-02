@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "aivoicelab.official@gmail.com",
+  "features": "Free AI Cover and AI Voice Over tools. Upload a song, select a character, and let the character sing the song; enter a piece of text, select a character, and let the character speak the text. Create interesting videos efficiently.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "aivoicelab.net",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-02T11:18:24.215Z",
+  "submission_ref": "312e8e70-0fb4-11f0-8c24-c56e1e7cf70c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AI Voice Lab",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aivoicelab.net"
+}
