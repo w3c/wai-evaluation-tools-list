@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "tiktokaivoicetool@gmail.com",
+  "features": "A TikTok Voice generator tool,Turn text into funny TikTok voices with our text to speech technology, featuring over 200 styles across 20+ languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "tiktokvoice.net",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-02T11:31:02.853Z",
+  "submission_ref": "f55d8750-0fb5-11f0-ba00-2f9b90cd9899",
+  "title": "TikTokVoice",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tiktokvoice.net"
+}
