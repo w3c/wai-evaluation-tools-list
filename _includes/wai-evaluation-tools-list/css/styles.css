@@ -385,10 +385,6 @@ details>div{
   color: var(--off-black);
 }
 
-#disclaimer p {
-  padding: 10px;
-}
-
 .status:not([hidden]) {
   background: white;
   position: absolute;

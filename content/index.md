@@ -5,7 +5,7 @@ title: "Web Accessibility Evaluation Tools List"
 title_html: "Web Accessibility Evaluation Tools List" 
 nav_title: "Web Accessibility Evaluation Tools List"
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-02-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -135,8 +135,7 @@ sidebar: false
             {% include wai-evaluation-tools-list/liquid/tool.liquid data=site.data.wai-evaluation-tools-list.submissions sort_key=defaultSort %}
         </div>
         <div id="disclaimer">
-            {% include box.html type="start" title="<h3>Disclaimer</h3>" %}
-                <p>Information on this page is provided by vendors. <abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific products.</p>
+            {% include box.html type="start" title="Disclaimer" h="3" %}
                 <p><abbr title="World Wide Web Consortium">W3C</abbr> does not endorse specific vendor products. Inclusion of products in this list does not indicate endorsement by W3C. Products and search criteria are listed with no quality rating.</p>
                 <p>Tool descriptions, search criteria, and other information in this database is provided by tool developers, vendors, or others. W3C does not verify the accuracy of the information.</p>
                 <p>The list is not a review of evaluation tools, nor a complete or definitive list of all tools. The information can change at any time.</p>

@@ -1,0 +1,70 @@
+{
+  "a11yloc": "https://form.agid.gov.it/view/7f099840-ec53-11ee-a2b2-7ff54539741e",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+    "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "fabio.paterno@isti.cnr.it",
+    "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "MAUVE++ is a system to evaluate accessibility of websites by checking their dynamic code and/or their connected PDF documents according to W3C WCAG  guidelines, and  it provides validation results for different types of stakeholders. It also supports the possibility of automatically monitoring the accessibility levels of web sites.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "CNR-ISTI, HIIS Laboratory",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-12-02T10:17:12.359Z",
+  "submission_ref": "9899e460-b096-11ef-b984-85af6e02fd9b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "MAUVE++",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2024-12-02",
+  "website": "https://mauve.isti.cnr.it/"
+}

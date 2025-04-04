@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://www.accessiweb.it/dichiarazione-di-accessibilita",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "e.longhi@dunp.it",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AccessiWeb Color Contrast is a accessibility checking tool that allows users to verify that the color contrast of their webpage , app or image meets WCAG 2.x AA and AAA guidelines.\r\n\r\nCheck foreground and background color and see if they pass WCAG level.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Other"
+  ],
+  "provider": "dunp scpl",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-10-15T08:44:29.660Z",
+  "submission_ref": "b12589c0-8ad1-11ef-ba27-b135d627e21c",
+  "title": "AccessiWeb color contrast tool",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2024-11-04",
+  "website": "https://www.accessiweb.it/test-contrasto-colore"
+}
