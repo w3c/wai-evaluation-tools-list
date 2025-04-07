@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "partnerdocumental@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "es una página web de un despacho de abogados y los servicios que ofrece",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NVD ABOGADOS",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-07T18:24:54.026Z",
+  "submission_ref": "99f696a0-13dd-11f0-b28f-0f3f2cb7b64c",
+  "title": "Daniel",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.nvdabogados.com"
+}
