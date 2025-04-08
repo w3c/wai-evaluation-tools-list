@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://makepix.art/",
+  "actrules": "https://makepix.art/",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Edge"
+  ],
+  "comments": "Free AI Art Generator. Create original images easily using our AI Image Generator. Your style, your rules\r\n",
+  "contact": "Makepixart@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Makepix AI image generator empowers creativity by offering a diverse range of AI-powered tools to bring your artistic visions to life effortlessly. From character creation to tattoo design, anime generation to furry art, our platform provides intuitive solutions for artists of all levels. With easy-to-use features and stunning results, unleash your",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "AI Tool, Art generator, Technology, Information and Internet",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-08T14:45:43.802Z",
+  "submission_ref": "263b65a0-1488-11f0-a8ba-fbd39e2a8d39",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Makepix",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://makepix.art/"
+}
