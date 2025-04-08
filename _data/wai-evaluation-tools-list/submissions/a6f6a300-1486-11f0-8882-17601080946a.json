@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://makepix.art/",
+  "actrules": "https://makepix.art/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "Makepixart@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "MacOS"
+  ],
+  "features": "Free AI Art Generator. Create original images easily using our AI Image Generator. Your style, your rules",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Tool, Art generator, Technology, Information and Internet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-08T14:35:00.784Z",
+  "submission_ref": "a6f6a300-1486-11f0-8882-17601080946a",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Makepix",
+  "type": [
+    "Server-side integration"
+  ],
+  "website": "https://makepix.art/"
+}
