@@ -1,0 +1,80 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/all-in-one-accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "It replaces the \"All in One Accessibility\" tool submission",
+  "contact": "hello@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AI-powered plus optional manual assistive website accessibility compliance solution for WCAG, EAA EN 301 549 & global accessibility. Available with 70 built-in features, supports 140+ languages. Also options for Manual Accessibility Audit, Remediation, PDF, EPUB remediation, VPAT report / ACR. Supports any CMS, Ecommerce, CRM, LMS, or platform.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2019-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-10T14:26:33.936Z",
+  "submission_ref": "cdaf4500-1617-11f0-8d97-0f00a8a22ff4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF"
+  ],
+  "title": "All in One Accessibility",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "CMS plugin"
+  ],
+  "website": "https://www.skynettechnologies.com/all-in-one-accessibility"
+}
