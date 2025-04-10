@@ -20,7 +20,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "AccessiWeb Color Contrast Tester is a Google Chrome extension designed to evaluate the accessibility of web platforms. With this tool, you can quickly check the contrast ratio between two colors (text and background) directly on a web page, ensuring that it meets the WCAG 2.1 AA and AAA guidelines",
+  "features": "AccessiWeb Color Contrast Tester is a Google Chrome extension designed to evaluate the accessibility of web platforms. With this tool, you can quickly check the contrast ratio between two colors (text and background) directly on a web page, ensuring that it meets WCAG 2.1 AA/AAA color contrast criteria.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -39,7 +39,8 @@
   "provider": "dunp scpl",
   "publish-permission": "on",
   "purpose": [
-    "Automated testing"
+    "Automated testing",
+    "Manual testing"
   ],
   "readterms": "on",
   "release": "2025-03-10",
@@ -50,7 +51,7 @@
     "HTML / XHTML",
     "CSS"
   ],
-  "title": "AccessiWeb Color Contrast Chrome extension",
+  "title": "AccessiWeb Color Contrast Tester",
   "type": [
     "Browser plugin"
   ],
