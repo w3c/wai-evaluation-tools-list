@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "divyanshu@venngage.com",
+  "features": "It checks the PDFs for accessibility compliance with ease. User can upload the pdf and find out whether the pdf is accessibility complaint or not.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Venngage",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-04T05:49:01.665Z",
+  "submission_ref": "829c3d10-1118-11f0-8d53-5b93efe2a9e4",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://venngage.com/pdf-checker"
+}
