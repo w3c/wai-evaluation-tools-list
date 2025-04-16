@@ -1,0 +1,69 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "ReadWriteMadeSimple plays a crucial role in promoting digital inclusion and ensuring equal access for individual children, students with disabilities in school, college, university, and NGO. Children, students, and faculty with disabilities can access online learning materials, platforms, and digital resources, while using assistive technologies (screen reader) to engage with digital content effectively.",
+  "contact": "hello@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "MacOS"
+  ],
+  "features": "Designed to enhance accessibility for users with various impairments while browsing the internet. It offers various features to improve readability, navigation, and overall usability for individuals with disabilities or those who require additional assistance. It supports all types of websites and supports over 140 languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-03-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-16T09:24:44.824Z",
+  "submission_ref": "a24a9180-1aa4-11f0-bd51-7bd9e5b26dff",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "ReadWriteMadeSimple",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.skynettechnologies.com/readwritemadesimple-browser-extension"
+}
