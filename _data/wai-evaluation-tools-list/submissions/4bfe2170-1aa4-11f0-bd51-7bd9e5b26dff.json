@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "DyslexiaEasyRead App is suitable for readers with dyslexia of all ages, including children with reading difficulties.",
+  "contact": "hello@skynettechnologies.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "Designed to make reading easier, comfortable, and engaging for users of all ages. Modify word spacing, letter size, background color, confusing characters / words and highlight styles to create the reading environment that reduces visual stress. Supports both speech-to-text and text-to-speech functionalities. Supports 58 languages translation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-16T09:22:20.039Z",
+  "submission_ref": "4bfe2170-1aa4-11f0-bd51-7bd9e5b26dff",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "DyslexiaEasyRead",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://www.skynettechnologies.com/dyslexiaeasyread-app"
+}
