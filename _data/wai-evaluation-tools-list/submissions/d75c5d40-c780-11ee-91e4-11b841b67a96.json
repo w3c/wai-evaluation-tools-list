@@ -26,7 +26,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "The axe DevTools Extension is the ultimate tool for in-browser automated, semi-automated and manual accessibility testing. With rich issue details and reporting including screenshots, this tool helps you easily find and fix accessibility issues covering 100% of WCAG testing.",
+  "features": "The axe DevTools Extension is the ultimate tool for in-browser automated, semi-automated and manual accessibility testing. With rich issue details and reporting including screenshots, this tool helps you easily find and fix accessibility issues.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
