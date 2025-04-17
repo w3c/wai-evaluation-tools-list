@@ -30,8 +30,7 @@
     "it"
   ],
   "license": [
-    "Free",
-    ""
+    "Free"
   ],
   "product": [
     "Website"
@@ -39,7 +38,6 @@
   "provider": "dunp scpl",
   "publish-permission": "on",
   "purpose": [
-    "Automated testing",
     "Manual testing"
   ],
   "readterms": "on",
