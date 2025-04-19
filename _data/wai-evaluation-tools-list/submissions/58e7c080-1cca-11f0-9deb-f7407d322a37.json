@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://aiactionfiguregen.com/",
+  "actrules": "https://aiactionfiguregen.com/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hi@aiactionfiguregen.com",
+  "features": "This ai action figure generator uses cutting-edge artificial intelligence to understand your creative prompts and transform them into high-quality action figure visuals.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Action",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-19T02:59:44.904Z",
+  "submission_ref": "58e7c080-1cca-11f0-9deb-f7407d322a37",
+  "title": "AI Action Figure Generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aiactionfiguregen.com/"
+}
