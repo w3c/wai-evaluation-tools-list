@@ -1,0 +1,38 @@
+{
+  "a11yloc": "https://tykr.com/",
+  "actrules": "https://tykr.com/",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Tykr is a platform that helps people confidently buy and sell stocks with confidence. Clear Confident Investing: It is an investment research platform for retail and institutional investors. We save time, boost confidence, and increase retention.\r\n",
+  "contact": "Tykerstockconsult@gmail.com",
+  "features": "Tykr is a platform that helps people confidently buy and sell stocks with confidence. Clear Confident Investing: It is an investment research platform for retail and institutional investors. We save time, boost confidence, and increase retention.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Tykr is a platform that helps people confidently buy and sell stocks with confidence.",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "1996-03-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-20T05:19:47.314Z",
+  "submission_ref": "138b8520-1da7-11f0-a6d9-cb037cd4a13c",
+  "title": "Tykr",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tykr.com/"
+}
