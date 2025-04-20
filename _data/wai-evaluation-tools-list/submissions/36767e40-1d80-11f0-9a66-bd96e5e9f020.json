@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@hospinox.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Hospinox is a comprehensive hospital management and telemedicine platform that\r\n transforms healthcare operations through an integrated, user-friendly SaaS solution.\r\n Our all-in-one system combines patient management, appointment scheduling,\r\n electronic health records, telehealth capabilities, billing, analytics, and more—all\r\n designed specifically ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Hospinox",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-02-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-20T00:41:35.524Z",
+  "submission_ref": "36767e40-1d80-11f0-9a66-bd96e5e9f020",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Hospinox",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://hospinox.com"
+}
