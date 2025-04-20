@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Tykr is a platform that helps people confidently buy and sell stocks with confidence. Clear Confident Investing: It is an investment research platform for retail and institutional investors. We save time, boost confidence, and increase retention.\r\n",
+  "contact": "Tykerstockconsult@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Tykr is a platform that helps people confidently buy and sell stocks with confidence. Clear Confident Investing: It is an investment research platform for retail and institutional investors. We save time, boost confidence, and increase retention.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Tykr is a platform that helps people confidently buy and sell stocks with confidence.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2003-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-20T09:01:00.713Z",
+  "submission_ref": "fb1b7990-1dc5-11f0-a30b-198f0e625fe0",
+  "technology": [
+    "HTML / XHTML",
+    "Microsoft Office documents"
+  ],
+  "title": "Tykr",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://tykr.com/"
+}
