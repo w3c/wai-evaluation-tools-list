@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://dreamvideo.ai",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "piaoyu2011@dreamvideo.ai",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "All-in-One AI Video Maker: Transform Text, Images & Videos with Professional AI Tools - Free Video Generation, Face Swap & Advanced Editing",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-22T04:53:12.606Z",
+  "submission_ref": "b1d9e3e0-1f35-11f0-9df0-61970fc91baf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Dream Video AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://dreamvideo.ai"
+}
