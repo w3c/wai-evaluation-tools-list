@@ -20,7 +20,7 @@
     "MacOS",
     "Linux"
   ],
-  "features": "LambdaTest’s Accessibility Testing Tool helps ensure your website meets WCAG and ADA compliance standards. Run automated and manual accessibility tests to detect issues like contrast errors, missing alt text, and keyboard navigation flaws. Get detailed reports and recommendations to improve usability for all users, including those with disabilities",
+  "features": "LambdaTest’s Accessibility Testing Tool helps evaluate whether your website meets WCAG and ADA compliance standards. Run automated and manual accessibility tests to detect issues like contrast errors, missing alt text, and keyboard navigation flaws. Get detailed reports and recommendations to improve usability for all users, including those with disabilities.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
