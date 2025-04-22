@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://pxz.ai",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "wilrobbig3@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Transform text into art with pxz.ai's AI image generator, featuring models like FLUX and Stable Diffusion. Create dynamic videos from text or images using Kling AI, Runway, GPT 4o and more. Generate fun cartoon avatars from your photos. Plus, enhance your images and videos with our editing tools.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-22T04:53:12.035Z",
+  "submission_ref": "b182c330-1f35-11f0-9df0-61970fc91baf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PXZ AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://pxz.ai"
+}
