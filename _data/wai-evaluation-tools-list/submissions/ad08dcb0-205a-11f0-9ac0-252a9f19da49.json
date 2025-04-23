@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "pr@m1-project.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Elsa is your AI marketing assistant.\r\nHere's what she can do for you:\r\n\r\n1. Create an Ideal Customer Profile.\r\nYou will know everything about your best audience:\r\n- Needs\r\n- Problems\r\n- Pain points\r\n- And more\r\n\r\nYou also get 20+ places where your customers spend time:\r\n- Social media groups\r\n- Websites\r\n- Newsletters\r\n- And more\r\n\r\n\r\n2. Craft your winning Marketin",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "M1-project",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-09-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-23T15:50:27.067Z",
+  "submission_ref": "ad08dcb0-205a-11f0-9ac0-252a9f19da49",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "Marketing Assistant (Elsa AI)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.m1-project.com/tools/ai-marketing-strategy-generator"
+}
