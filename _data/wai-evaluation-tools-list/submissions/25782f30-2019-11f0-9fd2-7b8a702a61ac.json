@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "business@scrapeless.com",
+  "features": "Scrapeless offers an AI-powered, enterprise-grade web scraping toolkit with products like Scraping API, Scraping Browser, Serp API, Universal Scraping API, and Proxy. It solve challenges like proxy selection, headless browser tuning, and CAPTCHA bypass, enabling scalable, efficient, and customized data extraction for dynamic web environments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Scrapeless",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-23T08:01:22.339Z",
+  "submission_ref": "25782f30-2019-11f0-9fd2-7b8a702a61ac",
+  "title": "Scrapeless",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.scrapeless.com/en/"
+}
