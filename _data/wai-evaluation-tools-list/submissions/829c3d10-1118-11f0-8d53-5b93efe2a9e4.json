@@ -9,7 +9,7 @@
   ],
   "comments": "",
   "contact": "divyanshu@venngage.com",
-  "features": "It checks the PDFs for accessibility compliance with ease. User can upload the pdf and find out whether the pdf is accessibility complaint or not.",
+  "features": "Venngage PDF Checker scans PDF files for common accessibility problems based on WCAG 2.2 and PDF/UA standards. The tool checks for things like: Missing document structure, No language settings, Missing metadata, Reading order issues. After scanning, it gives you a detailed report. This report shows which rules your PDF passes and which ones it fails.",
   "form_name": "submission",
   "form_version": "1",
   "language": [
@@ -25,7 +25,7 @@
   "provider": "Venngage",
   "publish-permission": "on",
   "purpose": [
-    "Manual testing"
+    "Automatic testing"
   ],
   "readterms": "on",
   "release": "2024-11-13",
