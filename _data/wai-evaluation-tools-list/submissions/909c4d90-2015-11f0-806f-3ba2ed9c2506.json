@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "android.guang@gmail.com",
+  "desktop": [
+    "Windows",
+    "Linux"
+  ],
+  "features": "MAGI-1 is an advanced autoregressive video generation model by SandAI. It generates high-quality videos by predicting sequences of video chunks in an autoregressive manner. Key features include a Transformer-based VAE for fast decoding, an auto-regressive denoising algorithm for efficient generation, and a diffusion model",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "seekwise limited",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-04-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-23T07:35:44.105Z",
+  "submission_ref": "909c4d90-2015-11f0-806f-3ba2ed9c2506",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "magi ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.magi1.ai/"
+}
