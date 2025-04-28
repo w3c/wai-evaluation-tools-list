@@ -1,6 +1,6 @@
 {
   "a11yloc": "",
-  "actrules": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench/",
   "assists": [
     "Generating reports of evaluation results",
     "Displaying information within web pages",
@@ -58,5 +58,6 @@
     "Online tool",
     "Command-line / CI"
   ],
+  "update": "2025-04-28",
   "website": "https://barrierefr.ai"
 }
