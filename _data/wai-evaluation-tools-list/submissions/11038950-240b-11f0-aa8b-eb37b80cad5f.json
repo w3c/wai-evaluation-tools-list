@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "Free AI Content Detector",
+  "contact": "info@aifindbag.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "ZeroGPT Plus is a free AI Content Plagiarism Checker that doesn't require a login. It's designed to spot content created by AI tools like ChatGPT, Gemini, Claude, and Copilot. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ZeroGPT Plus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-03-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-28T08:30:39.717Z",
+  "submission_ref": "11038950-240b-11f0-aa8b-eb37b80cad5f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ZeroGPT Plus",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.zerogpt.plus"
+}
