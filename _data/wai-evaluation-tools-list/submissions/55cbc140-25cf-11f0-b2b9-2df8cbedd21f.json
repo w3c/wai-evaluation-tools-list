@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://assistivlabs.com/accessibility",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "contact@assistivlabs.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Instantly test the accessibility of your website or app with real screen readers, like NVDA, online using Assistiv Labs. It doesn't matter whether you're on a Mac, PC, or Linux computer — all you need is a modern web browser and an internet connection.\r\nNo buying expensive devices or maintaining virtual machines. No emulators or simulators.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Assistiv Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-02-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-30T14:28:07.636Z",
+  "submission_ref": "55cbc140-25cf-11f0-b2b9-2df8cbedd21f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown"
+  ],
+  "title": "Assistiv Labs",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://assistivlabs.com/"
+}
