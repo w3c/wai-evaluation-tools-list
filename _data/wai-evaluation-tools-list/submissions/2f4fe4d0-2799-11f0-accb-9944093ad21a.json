@@ -1,0 +1,43 @@
+{
+  "a11yloc": "https://a-plus.tech/accessibility-statement/",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "accessibility@a-plus.tech",
+  "features": "This accessible tool evaluates color contrast based on both WCAG 2 and APCA methods.\r\n\r\nIt provides Live Preview with APCA-specific details, assisting messages, helpful explanations, and permalink support.\r\n\r\nAPCA is a new method of contrast evaluation, which is based on human perception of color. It is included in WCAG 3 drafts (as of publication).",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "A+Tech Team",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-02T21:05:32.573Z",
+  "submission_ref": "2f4fe4d0-2799-11f0-accb-9944093ad21a",
+  "title": "A+Tech Color Contrast Checker ",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://a-plus.tech/tools/contrast-checker/"
+}
