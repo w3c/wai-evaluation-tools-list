@@ -12,15 +12,18 @@
   "desktop": [
     "Windows"
   ],
-  "features": "PAC is the globally used, free PDF accessibility checking tool that has been tried and tested since 2010. PAC can check many PDF/UA and WCAG requirements at the touch of a button. In addition to this, PAC also supports the required visual check with the screen reader and structure preview. No installation required, just download and start PAC. ",
+  "features": "PAC can check many PDF/UA and WCAG requirements at the touch of a button. In addition to this, PAC also supports visual check with the screen reader and structure preview. No installation required, just download and start PAC. ",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
-    "en"
+    "en",
+    "de",
+    "fr",
+    "es",
+    "nl"
   ],
   "license": [
     "Free",
