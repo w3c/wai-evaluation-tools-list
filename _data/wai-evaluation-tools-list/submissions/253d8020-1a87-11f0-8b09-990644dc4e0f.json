@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -24,7 +24,7 @@
     "Linux",
     "Other"
   ],
-  "features": "AccessibilityAssist PRO Platform is a complete web accessibility compliance platform offering automated, manual & assistive tech audit, remediation, PDF Document remediation, ongoing monitoring, training, support, VPAT & ACR services; helping websites achieve compliance with ADA, WCAG, European EAA EN 301 549 & other global accessibility standards.",
+  "features": "AccessibilityAssist PRO Platform is a complete web accessibility compliance platform offering automated, manual, and assistive manual audit, PDF / Document, ongoing compliance monitoring, manual testing reports like VPAT and ACR as per ADA, WCAG, European EAA EN 301 549, and other global accessibility standards.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -43,7 +43,6 @@
   ],
   "product": [
     "Website",
-    "Mobile application",
     "Document",
     "Source code",
     "Other"
@@ -52,8 +51,7 @@
   "publish-permission": "on",
   "purpose": [
     "Automated testing",
-    "Manual testing",
-    "Simulated user experience"
+    "Manual testing"
   ],
   "readterms": "on",
   "release": "2023-03-02",
@@ -77,5 +75,5 @@
     "Programming tool plugin / IDE",
     "CMS plugin"
   ],
-  "website": "https://www.skynettechnologies.com/full-website-accessibility-remediation"
+  "website": "https://www.skynettechnologies.com/website-accessibility-audit"
 }
