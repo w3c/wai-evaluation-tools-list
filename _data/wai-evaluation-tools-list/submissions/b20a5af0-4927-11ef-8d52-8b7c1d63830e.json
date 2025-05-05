@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://accessibilityinsights.io/docs/general/quality/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "jefroberts@deloitte.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Accessibility Insights for Web is an extension for Chrome and the new Microsoft Edge that helps developers find and fix accessibility issues in web apps and sites. It also provides a list of manual steps to guide testers in their accessibility testing. The results can be exported into a report with HTML links for development to reference.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code"
+  ],
+  "provider": "Microsoft",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-02-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-07-23T19:13:51.135Z",
+  "submission_ref": "b20a5af0-4927-11ef-8d52-8b7c1d63830e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Insights",
+  "type": [
+    "Browser plugin",
+    "Desktop application"
+  ],
+  "website": "https://accessibilityinsights.io/"
+}
