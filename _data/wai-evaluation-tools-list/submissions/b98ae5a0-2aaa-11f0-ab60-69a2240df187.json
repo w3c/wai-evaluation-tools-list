@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "aisha.usman@ontariotechu.net",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Nearpod stands out as a teaching software that lets students work together. It makes learning materials and information accessible on phones, tablets, and laptops, among other devices (How It Works, n.d.). Integration with schools' learning management systems makes it easy to keep data in sync. Additionally, Nearpod allows students to interact and ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "a renaissance company ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2015-05-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-06T18:48:39.418Z",
+  "submission_ref": "b98ae5a0-2aaa-11f0-ab60-69a2240df187",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "nearpod",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://nearpod.com/"
+}
