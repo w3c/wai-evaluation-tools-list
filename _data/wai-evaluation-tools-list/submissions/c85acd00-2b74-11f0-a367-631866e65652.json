@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "david.forsyth1@ontariotechu.net",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "Math Games\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "coolmath.comllc",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-07T18:55:02.608Z",
+  "submission_ref": "c85acd00-2b74-11f0-a367-631866e65652",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Cool Math Games",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.coolmathgames.com/"
+}
