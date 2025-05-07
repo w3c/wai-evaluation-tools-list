@@ -1,0 +1,70 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Accessibility scanning and monitoring tool is recommended to perform accessibility scans regularly, such as weekly, monthly or quarterly, to catch new issues and maintain compliance.",
+  "contact": "rajesh@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Scan, monitor, and identify website accessibility issues with compliance checks for WCAG 2.0, 2.1, 2.2, ADA, Section 508, EN 301 549, UK Equality Act, Australian DDA, Canada ACA, & other global standards. Get simple issue highlights & actionable fix recommendations to remediate it without much technical know-how. Supports 140+ Languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-07T12:36:55.848Z",
+  "submission_ref": "f5fdf280-2b3f-11f0-968a-f1a678e7f249",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Scanning and Monitoring",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/accessibility-scanning-and-monitoring"
+}
