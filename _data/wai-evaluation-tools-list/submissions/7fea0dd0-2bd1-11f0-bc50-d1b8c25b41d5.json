@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.aiagent-builder.com/",
+  "actrules": "https://www.aiagent-builder.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "agentbuilderai@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Build, Test and Deploy AI Agents and Agentic Workflows. Automate tasks and supercharge your business with 100+ APIs and Integrations.\r\nAI Agent Builder is a full development environment for AI Agents. With simple drag-and-drop workflow graph building and testing.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Agent Builder",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "0024-12-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-08T05:58:44.269Z",
+  "submission_ref": "7fea0dd0-2bd1-11f0-bc50-d1b8c25b41d5",
+  "technology": [
+    "PDF"
+  ],
+  "title": "AI Agent Builder",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.aiagent-builder.com/"
+}
