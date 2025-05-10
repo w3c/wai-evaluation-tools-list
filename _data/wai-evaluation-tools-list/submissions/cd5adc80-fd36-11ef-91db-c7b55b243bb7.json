@@ -12,7 +12,7 @@
   ],
   "comments": "",
   "contact": "info@getwcag.com",
-  "features": "See a detailed breakdown of your website’s WCAG compliance with real-time accessibility scores, issue severity classifications, and actionable insights.\r\n\r\nOur automated scanner helps you identify, prioritize, and resolve accessibility violations efficiently – ensuring a more inclusive digital experience.",
+  "features": "GetWcag is an automated accessibility evaluation tool that uses axe-core to scan websites for compliance with WCAG standards. It identifies accessibility issues and provides detailed reports based on established guidelines.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
