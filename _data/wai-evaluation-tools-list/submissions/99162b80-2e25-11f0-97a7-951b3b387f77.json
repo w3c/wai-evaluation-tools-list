@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "Lesley L Peterson",
+  "contact": "lpeterson@cyberstreet.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Holton eco-preserve. NATURE trail and aboretum. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lesley Peterson/Cyberstreet Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-05-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-11T05:05:46.552Z",
+  "submission_ref": "99162b80-2e25-11f0-97a7-951b3b387f77",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Lesley L. Peterson",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://holtonecopreserve.net"
+}
