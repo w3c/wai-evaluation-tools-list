@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "neeraja@tranistics.com",
+  "features": "Our Accessibility Checker Tool scans your website and identifies all accessibility issues based on the latest standards. After the scan, the tool generates a comprehensive PDF report that lists each issue in detail. This report can be easily saved, shared, or referred to later for remediation and compliance tracking.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Tranistics Data Technologies",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-23T09:48:32.962Z",
+  "submission_ref": "1e6b6220-2028-11f0-943d-93ae79728dfe",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Tranistics Accessibility Checker Tool",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.tranistics.com/accessibility-checker-tool/"
+}
