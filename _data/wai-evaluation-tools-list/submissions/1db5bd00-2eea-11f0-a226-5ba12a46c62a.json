@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.detectordeia.org/t%C3%A9rminos-de-uso",
+  "actrules": "https://www.detectordeia.org/t%C3%A9rminos-de-uso",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "info@aifindbag.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Detectordeia is an advanced tool that analyzes texts to determine whether they were written by AI or by a person. Using state-of-the-art technology, it examines writing patterns, structure, and style to provide you with accurate results instantly. The best part is that it is completely free, and you do not need to register to use it.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ContentTeam",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-12T04:32:30.416Z",
+  "submission_ref": "1db5bd00-2eea-11f0-a226-5ba12a46c62a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Detector de IA",
+  "type": [
+    "Online tool"
+  ],
+  "website": "ttps://www.detectordeia.org/"
+}
