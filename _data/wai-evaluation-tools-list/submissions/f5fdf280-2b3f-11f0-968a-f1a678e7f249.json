@@ -30,8 +30,7 @@
   "guideline": [
     "WCAG 2.2",
     "WCAG 2.1",
-    "WCAG 2.0",
-    "EPUB Accessibility 1.1"
+    "WCAG 2.0"
   ],
   "language": [
     "en"
@@ -43,7 +42,6 @@
   ],
   "product": [
     "Website",
-    "Document",
     "Source code"
   ],
   "provider": "Skynet Technologies USA LLC",
@@ -63,7 +61,6 @@
   ],
   "title": "Accessibility Scanning and Monitoring",
   "type": [
-    "Desktop application",
     "Online tool"
   ],
   "website": "https://www.skynettechnologies.com/accessibility-scanning-and-monitoring"
