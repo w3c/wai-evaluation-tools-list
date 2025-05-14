@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://imgedify.com",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@imgedify.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "AI Image Generation Platform\r\n\r\nEffortlessly create stunning images with AI. Generate visuals from text prompts (Text to Image) or transform existing images (Image to Image). Simply enter your creative ideas, and our platform brings them to life in a variety of unique styles. Perfect for creators, designers, and marketers looking to produce high-quality, personalized images with ease and efficiency.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-14T13:34:32.354Z",
+  "submission_ref": "2b1f0110-30c8-11f0-a535-c3dd1f99301a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ImgEdify",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://imgedify.com"
+}
