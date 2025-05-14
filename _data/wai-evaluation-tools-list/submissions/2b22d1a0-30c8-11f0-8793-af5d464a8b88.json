@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.imageresizer.work/zh",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "cbzerozero@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Image Resizer · Work provides a free online tool for quickly and easily resizing images. Secure, fast and simple to use with no registration required, ensuring the best image quality. Operations are done locally.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-14T13:34:32.378Z",
+  "submission_ref": "2b22d1a0-30c8-11f0-8793-af5d464a8b88",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Image Resizer",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.imageresizer.work/zh"
+}
