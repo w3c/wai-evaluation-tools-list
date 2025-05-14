@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://omnitalker.ai/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "100aigc@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Transform your text into realistic talking head videos with advanced AI technology. Experience real - time generation and style replication.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chuhaiqu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-14T13:34:32.958Z",
+  "submission_ref": "2b7b51e0-30c8-11f0-a535-c3dd1f99301a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "OmniTalker AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://omnitalker.ai/"
+}
