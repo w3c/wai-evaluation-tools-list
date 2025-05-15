@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test short description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "ACME Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-15T14:12:17.463Z",
+  "submission_ref": "9ba4f560-3196-11f0-9b3f-41570c1a7169",
+  "title": "ACME TOOL",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.w3.org/WAI"
+}
