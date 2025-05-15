@@ -1,6 +1,6 @@
 {
-  "a11yloc": "https://www.deque.com/accessibility-statement/",
-  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-devtools-pro/",
+  "a11yloc": "",
+  "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
     "Displaying information within web pages",
@@ -16,17 +16,19 @@
   ],
   "browsers": [
     "Chrome",
+    "Safari",
     "Edge",
     "Firefox"
   ],
   "comments": "",
-  "contact": "harris.schneiderman@deque.com",
+  "contact": "karthik@browserstack.com",
   "desktop": [
+    "Android",
+    "iOS",
     "Windows",
-    "MacOS",
-    "Linux"
+    "MacOS"
   ],
-  "features": "The axe DevTools Extension is the ultimate tool for in-browser automated, semi-automated and manual accessibility testing. With rich issue details and reporting including screenshots, this tool helps you easily find and fix accessibility issues.",
+  "features": "Test your website for accessibility with BrowserStack. Run a single scan to catch accessibility issues across all pages, even behind logins. Navigate like a real user with built-in screen reader testing and track progress with smart issue summaries.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -38,37 +40,33 @@
     "en"
   ],
   "license": [
-    "Free",
     "Limited free functionality",
     "Time-limited trial",
     "Subscription",
-    "One-time purchase",
     ""
   ],
   "product": [
-    "Website"
+    "Website",
+    "Document"
   ],
-  "provider": "Deque Systems, Inc.",
+  "provider": "BrowserStack",
   "publish-permission": "on",
   "purpose": [
-    "Automated testing",
-    "Manual testing",
-    "Simulated user experience"
+    "Manual testing"
   ],
   "readterms": "on",
-  "release": "2024-02-08",
+  "release": "2023-08-10",
   "repository": "wai-evaluation-tools-list",
-  "submission_date": "2024-02-09T19:24:27.796Z",
-  "submission_ref": "d75c5d40-c780-11ee-91e4-11b841b67a96",
+  "submission_date": "2025-03-19T15:00:27.055Z",
+  "submission_ref": "e46e1bf0-04d2-11f0-9d9e-697970187972",
   "technology": [
     "HTML / XHTML",
-    "CSS"
+    "PDF"
   ],
-  "title": "axe DevTools Extension",
+  "title": "BrowserStack Web Accessibility Testing",
   "type": [
     "Browser plugin",
     "Online tool"
   ],
-  "update": "2025-04-17",
-  "website": "https://www.deque.com/get-started-axe-devtools-browser-extension/"
+  "website": "https://www.browserstack.com/accessibility-testing/features/workflow-analyzer"
 }
