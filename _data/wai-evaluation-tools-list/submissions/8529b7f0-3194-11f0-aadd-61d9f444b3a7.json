@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test short product description",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ACME Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-15T13:57:20.751Z",
+  "submission_ref": "8529b7f0-3194-11f0-aadd-61d9f444b3a7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ACME Tool",
+  "type": [
+    "Browser plugin",
+    "Desktop application"
+  ],
+  "website": "https://www.w3.org/WAI"
+}
