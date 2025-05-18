@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://legacyonlineschool.com/",
+  "actrules": "https://legacyonlineschool.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "legacyonlinesschool@gmail.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "Legacy Online School is a globally accredited online education platform for K–12 students, offering live interactive classes, personalized learning paths, and a flexible virtual environment. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Legacy Online School",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-18T14:23:03.003Z",
+  "submission_ref": "9ba7f2b0-33f3-11f0-833b-69ad55c905cc",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Legacy Online School",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://legacyonlineschool.com/"
+}
