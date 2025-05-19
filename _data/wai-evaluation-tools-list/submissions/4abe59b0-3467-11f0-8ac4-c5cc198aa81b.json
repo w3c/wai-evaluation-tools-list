@@ -1,0 +1,79 @@
+{
+  "a11yloc": "https://foundationmibcorporate.atlassian.net/wiki/x/aYAC",
+  "actrules": "https://foundationmibcorporate.atlassian.net/wiki/x/aYAC",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "god964v@gmail.com",
+  "desktop": [
+    "iOS",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "https://id.atlassian.com/invite/p/confluence?id=P7AN-kkcSseuYA5Ilca9CA\r\n\r\nhttps://id.atlassian.com/invite/p/beacon?id=6wwHT4MEQtm4xpJpn8L4cQ\r\n\r\nhttps://id.atlassian.com/invite/p/compass?id=HVjWHeLtSFKl0G16mfim8Q\r\n\r\nhttps://id.atlassian.com/invite/p/confluence?id=VxUT0VakRNmE__Aei7T2Kg",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "ru"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Men in BLack corporate",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-05-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-19T04:11:08.875Z",
+  "submission_ref": "4abe59b0-3467-11f0-8ac4-c5cc198aa81b",
+  "technology": [
+    "HTML / XHTML",
+    "Markdown"
+  ],
+  "title": "Keith Bieszczat",
+  "type": [
+    "Browser plugin",
+    "Mobile application",
+    "Online tool",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://foundationmibcorporate.atlassian.net/wiki/x/aYAC"
+}
