@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "walneyalves@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "teste de acessibillidade do site",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pt-BR"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "amazon",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-05-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-19T20:55:59.454Z",
+  "submission_ref": "aaba9fe0-34f3-11f0-bb18-115581144e64",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Bancada de trabalho de acessibilidade do Webmate",
+  "type": [
+    "Browser plugin",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.amazon.com.br/"
+}
