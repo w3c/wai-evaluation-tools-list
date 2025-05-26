@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://decareto.com/declaration-of-accessibilty/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "info@decareto.de",
+  "features": "decareto helps SMBs and agencies identify and monitor accessibility and privacy issues on websites. decareto scans entire websites, displays the results in a dashboard, creates shareable and actionable reports in a brand-compliant design, and integrates into developer workflows. All plans include access to support from decareto engineers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "decareto GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-26T09:44:06.910Z",
+  "submission_ref": "f778d1e0-3a15-11f0-8c05-0b5a23cfdcfd",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "decareto Compliance Monitoring",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://decareto.com"
+}
