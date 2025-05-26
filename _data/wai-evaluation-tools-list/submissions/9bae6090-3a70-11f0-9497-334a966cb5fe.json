@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "bokapan567@leabro.com",
+  "features": "dsdsd",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pearson",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2000-12-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-26T20:32:57.113Z",
+  "submission_ref": "9bae6090-3a70-11f0-9497-334a966cb5fe",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "HCP",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "http://localhost:4200"
+}
