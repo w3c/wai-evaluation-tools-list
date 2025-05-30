@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "sas.heinemann@gmail.com",
+  "features": "help focus",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "LNU",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-05-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-30T08:07:31.041Z",
+  "submission_ref": "22846510-3d2d-11f0-a29f-d3af2b7f6bb4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "funktion",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://cscloud8-72.lnu.se/organ/"
+}
