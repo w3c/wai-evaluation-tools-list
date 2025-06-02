@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "apriore@tpgi.com",
+  "features": "ARC helps you identify, manage, remediate, and create inclusive and accessible user experiences. Achieve ADA compliance and conform with WCAG, Section 508, and EN 301 549 guidelines.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "TPGi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-02T17:24:42.491Z",
+  "submission_ref": "787414b0-3fd6-11f0-bca1-1b53378de832",
+  "title": "ARC Platform",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.tpgi.com/arc-platform/"
+}
