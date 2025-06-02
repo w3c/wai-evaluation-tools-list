@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://www.acquia.com/product-accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Acquia Optimize is the new branding for Monsido. Monsido can be removed from the evaluation tools list.\r\n\r\n\r\nI was not able to add the supported language using this form. The submit button seems to be broken. So here are languages supported:\r\n\r\nEnglish.\r\nDanish.\r\nDutch.\r\nSwedish.\r\nNorwegian.\r\nJapanese.\r\nFrench.",
+  "contact": "inka.taagehoj@acquia.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Acquia Optimize automatically scans your website for accessibility issues, highlights automatically detected issues to fix and potential issues to review, and offers clear guidance for fixing problems. Features include dashboards, issue prioritization, and ongoing monitoring to help every team create a more inclusive web experience.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Acquia",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2014-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-26T08:28:00.042Z",
+  "submission_ref": "556810a0-3a0b-11f0-9b37-9b2168d35df6",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Acquia Optimize",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://www.acquia.com/products/acquia-optimize/features/web-accessibility"
+}
