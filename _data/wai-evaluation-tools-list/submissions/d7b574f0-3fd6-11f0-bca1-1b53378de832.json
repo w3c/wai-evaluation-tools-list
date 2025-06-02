@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "apriore@tpgi.com",
+  "features": "Quickly uncover and resolve accessibility issues on any web page with TPGi’s single-page, on-demand, accessibility testing tool. Available for Chrome and Firefox!",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TPGi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-02T17:27:22.303Z",
+  "submission_ref": "d7b574f0-3fd6-11f0-bca1-1b53378de832",
+  "title": "ARC Toolkit",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.tpgi.com/arc-platform/arc-toolkit/"
+}
