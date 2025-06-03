@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "jay@pope.tech",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Web Accessibility testing and reporting powered by the WAVE accessibility engine. </p><p>Pope Tech simplifies web accessibility and makes compliance easier with automation, flexible team management, dynamic reporting, and a friendly interface made for beginners and experts. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pope Tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2018-03-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-06-13T19:59:06.544Z",
+  "submission_ref": "6406e300-29bf-11ef-bea9-d1640dea63d3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pope Tech",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2024-08-21",
+  "website": "https://pope.tech"
+}

@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.digitala11y.com/accessibility-statement-2/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "hello@digitala11y.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "A Chrome extension to check color combinations against WCAG contrast ratios, offering palette suggestions. Ideal for designers, developers and accessibility experts to review or audit site color contrast. Features include top-of-page access, one-click color picking, manual hex input, instant ratio display, and WCAG-compliant color recommendations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DigitalA11Y",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-01-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-08-28T14:02:00.472Z",
+  "submission_ref": "187cc180-6546-11ef-b54d-cf368a1373b9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "DigitalA11Y Color Contrast Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2024-08-28",
+  "website": "https://chromewebstore.google.com/detail/digitala11y-color-contras/hfcoldjibhgbnlambdiecfneiegagkhi?hl=en"
+}

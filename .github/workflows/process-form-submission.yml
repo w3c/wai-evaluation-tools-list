@@ -19,7 +19,6 @@ jobs:
         env:
           SUBMISSION_REF: ${{ github.event.client_payload.form.submission_ref }}
           REPOSITORY: ${{ github.event.client_payload.form.repository }}
-
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
@@ -31,12 +30,11 @@ jobs:
           branch: form-submission/${{ github.event.client_payload.form.submission_ref }}
           branch-suffix: random # handle concurrent submissions of same form id
           delete-branch: true
-          title: "New form submission '${{ github.event.client_payload.form.form_name }}' - ${{ github.event.client_payload.form.submission_ref }}"
+          title: "New tool: ${{ github.event.client_payload.form.title }} – ${{ github.event.client_payload.form.provider }}"
           body: |
             New form submission:
-
-            - form_name: ${{ github.event.client_payload.form.form_name }}
-            - form_version: ${{ github.event.client_payload.form.form_version }}
+            - Tool name: ${{ github.event.client_payload.form.title }}
+            - Vendor / organization: ${{ github.event.client_payload.form.provider }}
             - submission_ref: ${{ github.event.client_payload.form.submission_ref }}
             - submission_date: ${{ github.event.client_payload.form.submission_date }}
 
@@ -45,5 +43,4 @@ jobs:
             Merge this PR to add the submission to `_data/${{ github.event.client_payload.form.repository }}/submissions`.
           labels: |
             form submission
-            automated pr
           draft: false

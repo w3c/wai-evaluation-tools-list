@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.accessibilitycloud.com/view-report/?site=www.accessibilitycloud.com-22432077",
+  "a11yloc": "https://www.accessibilitycloud.com/accessibility-statement-for-app-accessibilitycloud-com/",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -16,7 +16,7 @@
   ],
   "comments": "",
   "contact": "umut@accessibilitycloud.com",
-  "features": "Test & monitor your websites and documents against WCAG, EN 301 549, BITV, Section 508 and ADA. Accessibility Cloud offers automatic and manual accessibility tests, monitoring, and compliance management within the same powerful platform. Sign up for free to scan your site and get started.",
+  "features": "Comprehensive digital accessibility testing, monitoring, and reporting service for websites, web apps, single page applications, mobile apps, software, and documents. It supports multiple engines (axe-core and QualWeb), multiple guidelines (WCAG, EN 301 549, BITV, RGAA, Section 508), and multiple test methods (automatic, manual, and guided).",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -25,9 +25,15 @@
     "WCAG 2.0"
   ],
   "language": [
+    "da",
+    "de",
     "en",
-    "sv",
-    "nb"
+    "es",
+    "fi",
+    "fr",
+    "nb",
+    "nl",
+    "sv"
   ],
   "license": [
     "Free",
@@ -61,6 +67,6 @@
   "type": [
     "Online tool"
   ],
-  "update": "2024-02-13",
+  "update": "2025-03-28",
   "website": "https://www.accessibilitycloud.com/"
 }

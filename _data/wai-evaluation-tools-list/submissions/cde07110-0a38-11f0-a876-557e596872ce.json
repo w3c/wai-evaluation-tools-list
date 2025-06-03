@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "peter@qualityisking.co.uk",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "taba11y is a free Chrome and Firefox extension which calculates and displays the tab order of elements on a webpage. It enables developers to evaluate whether interactive elements are included in the tab order, whether non-interactive elements are incorrectly included, and whether the tab order follows a logical sequence.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "taba11y",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2019-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-26T11:52:33.697Z",
+  "submission_ref": "cde07110-0a38-11f0-a876-557e596872ce",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "taba11y",
+  "type": [
+    "Browser plugin"
+  ],
+  "update": "2025-04-11",
+  "website": "https://chromewebstore.google.com/detail/taba11y-tab-order-accessi/aocppmckdocdjkphmofnklcjhdidgmga"
+}
