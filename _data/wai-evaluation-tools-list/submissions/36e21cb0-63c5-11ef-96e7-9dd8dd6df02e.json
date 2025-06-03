@@ -12,7 +12,7 @@
   ],
   "comments": "",
   "contact": "e.longhi@dunp.it",
-  "features": "AccessiWeb's free accessibility test checks if your site is accessible and compliant with WCAG 2.1. Using the Lighthouse accessibility APIs and automated checks of over 100 parameters, it identifies potential accessibility issues on your website.",
+  "features": "AccessiWeb's free accessibility test scans your site for WCAG 2.1 accessibility issues. Using the Lighthouse accessibility APIs and automated checks of over 100 parameters, it identifies potential accessibility issues on your website.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
