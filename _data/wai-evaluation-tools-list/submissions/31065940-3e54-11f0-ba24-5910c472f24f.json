@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://tabnav.com/accessibility-statement",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -24,13 +24,11 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Tabnav Monitor simulates real user interactions to detect accessibility issues. Get detailed WCAG reports, uncover what scanners miss, and link directly to learning resources—Tabnav WCAG Academy and official WCAG techniques. A free package is available to get started.",
+  "features": "Tabnav Monitor simulates real user interactions to detect accessibility issues. It scans across different screen sizes—both desktop and mobile—and provides detailed WCAG reports. A free package is available to get started.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.2"
   ],
   "language": [
     "en"
@@ -56,8 +54,7 @@
   "submission_ref": "31065940-3e54-11f0-ba24-5910c472f24f",
   "title": "TABNAV WCAG monitor  ",
   "type": [
-    "Desktop application",
     "Online tool"
   ],
-  "website": "https://tabnav.com"
+  "website": "https://tabnav.com/accessibility-monitor"
 }
