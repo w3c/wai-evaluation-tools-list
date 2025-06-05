@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://huesure.com/about",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Displaying information within web pages",
@@ -10,7 +10,7 @@
   ],
   "comments": "",
   "contact": "nathanielchang@gmail.com",
-  "features": "This calculator helps you check colour contrast ratios and experiment with overlays. It calculates the effective contrast by combining your overlay colour with the background based on opacity, then measuring how well it contrasts with your text colour.",
+  "features": "This calculator helps you check colour contrast ratios and experiment with the opacity of intermediary layers and text. It calculates the effective contrast by combining a secondary layer of colour with a variable opacity on top of a background base colour, then measuring how well it contrasts with your text colour.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
