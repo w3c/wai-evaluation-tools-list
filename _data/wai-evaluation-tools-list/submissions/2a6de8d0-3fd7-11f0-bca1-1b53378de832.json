@@ -11,8 +11,7 @@
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
@@ -37,7 +36,7 @@
   "submission_ref": "2a6de8d0-3fd7-11f0-bca1-1b53378de832",
   "title": "Colour Contrast Analyser (CCA)",
   "type": [
-    "Browser plugin"
+    "Desktop application"
   ],
   "website": "https://www.tpgi.com/color-contrast-checker/"
 }
