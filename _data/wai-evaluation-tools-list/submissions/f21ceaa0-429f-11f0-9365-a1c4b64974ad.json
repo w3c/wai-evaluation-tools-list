@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "cy2025421@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "This tool professional visuals. With smart detection, it removes black cross marks and messy backgrounds in seconds. No editing skills needed—just upload and get polished, transparent images",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": " personal",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-06T06:31:57.770Z",
+  "submission_ref": "f21ceaa0-429f-11f0-9365-a1c4b64974ad",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Erase BG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.xbgremove.com"
+}
