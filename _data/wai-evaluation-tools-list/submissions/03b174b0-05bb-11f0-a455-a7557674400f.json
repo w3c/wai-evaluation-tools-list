@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://www.macmout.com/en/accessibility/",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results"
@@ -9,13 +9,12 @@
   ],
   "comments": "",
   "contact": "accessibility@moutvalid.com",
-  "features": "MoutValid  is a Web accessibility software online tool used to deliver fast, detailed and accurate audit status report on multiple Web pages of a website and Web applications against Web Content Accessibility Guidelines (WCAG) compliance. It provides Muti-page Web accessibility compliance check capability to create accessible web experience.\r\n\r\n",
+  "features": "MoutValid is a muti-page Web accessibility checker online tool that evaluates Web accessibility conformance against Web Content Accessibility guidelines (WCAG) on multiple pages at a time, evaluate color contrast against WCAG contrast ratios, generates automated dashboards and reports on issues found and suggests remediations to address them.\r\n\r\n",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
