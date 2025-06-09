@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "android.guang@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Flux-Context.ai is an AI platform with user-friendly features like AI-assisted writing and smart customer support. It offers personalized content and resources such as industry news and tutorials. This tool helps users boost productivity, stay updated on AI trends, and learn new skills for an enhanced experience.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "seekwise limited",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-09T04:33:48.731Z",
+  "submission_ref": "eff4a8b0-44ea-11f0-84e4-db2fefd4b068",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "flux context",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://www.flux-context.ai/"
+}
