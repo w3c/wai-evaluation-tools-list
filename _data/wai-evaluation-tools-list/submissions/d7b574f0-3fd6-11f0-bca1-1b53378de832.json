@@ -13,13 +13,12 @@
   ],
   "comments": "",
   "contact": "apriore@tpgi.com",
-  "features": "Quickly uncover and resolve accessibility issues on any web page with TPGi’s single-page, on-demand, accessibility testing tool. Available for Chrome and Firefox!",
+  "features": "A free tool with on-demand page-level testing. Available for Chrome and Firefox.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
