@@ -1,18 +1,17 @@
 {
-  "a11yloc": "https://www.tpgi.com/arc-platform/jaws-inspect/",
+  "a11yloc": "",
   "actrules": "",
   "automated": [
     "Single page/screen"
   ],
   "comments": "",
   "contact": "apriore@tpgi.com",
-  "features": "A screen reader testing tool that vastly simplifies accessibility and JAWS® compatibility testing by providing a text output of JAWS speech.\r\nSchedule Demo",
+  "features": "A screen reader testing tool that vastly simplifies accessibility and JAWS® compatibility testing by providing a text output of JAWS speech.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
@@ -37,8 +36,7 @@
   "submission_ref": "e24af8f0-3fda-11f0-9843-ef289f481386",
   "title": " JAWS Inspect",
   "type": [
-    "Browser plugin",
-    "Desktop application"
+    "Browser plugin"
   ],
-  "website": "https://www.tpgi.com/arc-platform/jaws-inspect/"
+  "website": "https://chromewebstore.google.com/detail/jawsinspect/ildbfpaelempeokjfldpclbfggjkhdhl"
 }
