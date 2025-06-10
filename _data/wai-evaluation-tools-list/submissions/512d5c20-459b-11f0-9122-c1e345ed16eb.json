@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "Claudia.Stockmann@usm.edu",
+  "features": "e-portfolio",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WIX",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-10T01:36:23.266Z",
+  "submission_ref": "512d5c20-459b-11f0-9122-c1e345ed16eb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Claudia's portfolio",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://claudiastoeckmann.wixsite.com/lis-577-e-portfolio"
+}
