@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "thaliabsweet@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "eportfolio",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "USM",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-10T01:13:34.269Z",
+  "submission_ref": "2130fed0-4598-11f0-92d7-5ff8c83155a9",
+  "title": "TSweet",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://thaliabsweet.wixsite.com/portfolio"
+}
