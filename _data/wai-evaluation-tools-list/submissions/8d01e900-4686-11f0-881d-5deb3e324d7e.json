@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "allvoicelab@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "All Voice Lab is an innovative AI tool that reshapes audio workflows with a range of AI-powered solutions. The tool offers text to speech technology, voice cloning and voice altering capabilities that bring authenticity and lifelikeness to audio projects.\r\nText to Speech technology can be utilized for various applications, from audiobooks to video v",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "All Voice Lab",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-11T05:40:15.376Z",
+  "submission_ref": "8d01e900-4686-11f0-881d-5deb3e324d7e",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "All Voice Lab",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.allvoicelab.com/?utm_source=w3.org"
+}
