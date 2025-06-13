@@ -20,7 +20,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Detects failures, identifies issues to validate, and highlights code. Let A11yInspect assist your developers & accessibility professionals to evalaute for Web Content Accessibility Guideline (WCAG).\r\n\r\nOne-click highlights the issue along with the code. As simple as that!\r\nWide-range of Bookmarklets\r\nKey Code Attributes\r\nDownload Screenshots.",
+  "features": "Detects failures, identifies issues to validate, and highlights code. A11yInspect assists your developers & accessibility professionals to evaluate for Web Content Accessibility Guidelines (WCAG).\r\n\r\nOne-click highlights the issue along with the code.\r\nWide-range of Bookmarklets\r\nKey Code Attributes\r\nDownload Screenshots.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
