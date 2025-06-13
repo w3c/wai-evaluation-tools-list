@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://ninjascan.ai/AccessibilityStatement.html",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -15,13 +15,12 @@
   "desktop": [
     "Windows"
   ],
-  "features": "NinjaScan checks your website for EN 301 549 and WCAG 2.2, and you receive an audit report including suggestions for fixing errors. NinjaScan automatically creates an accessibility statement for your website. \r\nYou can also test your website for environmental friendliness in Eco-Mode according to WSG 1.0.",
+  "features": "NinjaScan checks your website for EN 301 549, WCAG 2.2, and you receive an audit report including suggestions for fixing errors. The NinjaScan automatically creates an accessibility statement for your website. NinjaScan only checks technically verifiable criteria.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
