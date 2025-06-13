@@ -10,7 +10,7 @@
   ],
   "comments": "",
   "contact": "dev@belenka.com",
-  "features": "Accessibility Checker is a Node.js-based CLI tool designed to scan and report common accessibility issues in HTML-based projects. It supports both local directory scanning and remote URL analysis, making it ideal for developers and QA engineers aiming to ensure their HTML templates and frontend code adhere to accessibility best practices.",
+  "features": "be-a11y is a Node.js-based CLI tool designed for automated evaluation and reporting of accessibility issues in HTML-based projects. It supports both local directory scanning and remote URL analysis to help developers identify common accessibility problems.",
   "form_name": "submission",
   "form_version": "1",
   "language": [
@@ -38,7 +38,7 @@
   "technology": [
     "HTML / XHTML"
   ],
-  "title": "Accessibility Checker is a Node.js-based CLI tool designed to scan and report common accessibility issues in HTML ",
+  "title": "be-a11y",
   "type": [
     "Command-line / CI"
   ],
