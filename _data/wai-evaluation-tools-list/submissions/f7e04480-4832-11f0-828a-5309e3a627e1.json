@@ -1,0 +1,37 @@
+{
+  "a11yloc": "https://skywork.ai",
+  "actrules": "https://skywork.ai",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Turn 8-hour research into 8-minute content creation with Skywork AI. Our workspace agents deliver 10x deeper research than any other AI tool, helping 5,000+ professionals save 60% of their time.\r\nFrom slides to spreadsheets, podcasts to webpages - create professional content instantly with verifiable data sources. Join the productivity revolution.",
+  "contact": "feedback@skywork.ai",
+  "features": "Skywork Super Agents: Workspace productivity suite with specialized AI for research-grade documents, slides & spreadsheets + multimedia tools. Reduce doc creation time by 7.5x through vertical expertise other platforms lack.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Skywork AI PTE.LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-13T08:46:59.273Z",
+  "submission_ref": "f7e04480-4832-11f0-828a-5309e3a627e1",
+  "title": "Skywork.ai",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://skywork.ai"
+}
