@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "apriore@tpgi.com",
+  "features": "The ARC Platform helps you identify, manage, and remediate accessibility issues and barriers on your website by analyzing on-page components.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TPGi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2019-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-16T16:50:02.318Z",
+  "submission_ref": "f25b5ee0-4ad1-11f0-99fd-815042895e8a",
+  "title": "ARC Platform",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.tpgi.com/arc-platform/"
+}
