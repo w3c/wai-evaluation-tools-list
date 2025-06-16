@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.seedance.ai/",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "gamehow84@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Seedance AI is a dynamic platform where creativity meets cutting-edge AI technology. Create high-quality images and videos with powerful tools like Stable Diffusion and DALL-E 3. Join a global community of artists and enthusiasts to share, collaborate, and participate in daily challenges. Start for free and unlock premium features to take your crea",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NeuronLink",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-04-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-16T06:58:45.119Z",
+  "submission_ref": "584c68f0-4a7f-11f0-b187-3f575ba578c9",
+  "technology": [
+    "HTML / XHTML",
+    "EPUB",
+    "PDF"
+  ],
+  "title": "seedance ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.seedance.ai/"
+}
