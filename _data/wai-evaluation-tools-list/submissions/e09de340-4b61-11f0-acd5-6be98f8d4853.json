@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "gordy@usefini.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "\"Fini is the AI platform redefining enterprise customer support. Our AI agent, Sophie, acts like your best support rep—resolving up to 80% of tickets end-to-end with no human intervention. Trained on your existing knowledge base and workflows, Sophie delivers fast, accurate, and on-brand responses across tools like Zendesk, Intercom, Slack, Discord",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Fini",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-17T10:00:20.084Z",
+  "submission_ref": "e09de340-4b61-11f0-acd5-6be98f8d4853",
+  "title": "Fini",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.usefini.com/"
+}
