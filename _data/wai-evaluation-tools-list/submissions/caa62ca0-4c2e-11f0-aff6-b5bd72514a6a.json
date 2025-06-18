@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@octoparse.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Octoparse ist ein codefreies AI-Web-Scraping-Tool mit über 500 kostenlosen integrierten Vorlagen-Scrapern.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Octoparse",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-18T10:27:10.058Z",
+  "submission_ref": "caa62ca0-4c2e-11f0-aff6-b5bd72514a6a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Octoparse",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.octoparse.de/"
+}
