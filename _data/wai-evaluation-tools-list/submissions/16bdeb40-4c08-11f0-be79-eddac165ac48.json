@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@bestofferspy.com",
+  "features": "An AI text humanizer transforms AI-generated content into natural, human-like text. It adds flow, uses conversational phrasing, and avoids robotic language. Our humanization tool helps create engaging and authentic-sounding material for various content needs.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Text Humanizer Team",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-18T05:50:07.349Z",
+  "submission_ref": "16bdeb40-4c08-11f0-be79-eddac165ac48",
+  "title": "AI Text Humanizer",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.aitexthumanizer.app/"
+}
