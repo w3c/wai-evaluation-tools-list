@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@wcagplus.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "WCAG Plus is the first ethical, free, and transparent platform designed to help businesses, agencies, public institutions, and developers comply with the European Accessibility Act (EAA) and WCAG standards, without economic or technical barriers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAG Plus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-06-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-06T15:32:26.565Z",
+  "submission_ref": "732e5750-42eb-11f0-8f39-2732548a5110",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WCAG Plus",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://wcagplus.com"
+}
