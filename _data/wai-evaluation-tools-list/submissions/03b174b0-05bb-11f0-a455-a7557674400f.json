@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "accessibility@moutvalid.com",
+  "features": "MoutValid is a muti-page Web accessibility checker online tool that evaluates Web accessibility conformance against Web Content Accessibility guidelines (WCAG) on multiple pages at a time, evaluate color contrast against WCAG contrast ratios, generates automated dashboards and reports on issues found and suggests remediations to address them.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Macmout Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2011-04-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-20T18:42:02.747Z",
+  "submission_ref": "03b174b0-05bb-11f0-a455-a7557674400f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "moutvalid",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.moutvalid.com"
+}
