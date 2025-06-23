@@ -24,7 +24,8 @@
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.1"
+    "WCAG 2.1",
+    "WCAG 2.0"
   ],
   "language": [
     "en"
@@ -55,6 +56,6 @@
   "type": [
     "Programming tool plugin / IDE"
   ],
-  "update": "2024-10-22",
+  "update": "2025-03-21",
   "website": "https://github.com/sclavijosuero/wick-a11y"
 }
