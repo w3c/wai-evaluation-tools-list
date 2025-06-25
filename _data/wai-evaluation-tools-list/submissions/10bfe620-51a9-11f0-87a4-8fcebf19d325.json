@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "hornetdynamics@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Ecommerce Application or Website Builder",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Hornet Dynamics",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "1996-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-25T09:45:02.082Z",
+  "submission_ref": "10bfe620-51a9-11f0-87a4-8fcebf19d325",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Hornet Dynamics",
+  "type": [
+    "Desktop application",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://hornetdynamics.com/"
+}
