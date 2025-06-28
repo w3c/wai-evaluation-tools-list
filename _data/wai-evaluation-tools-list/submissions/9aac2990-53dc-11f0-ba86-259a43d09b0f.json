@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "aimyflow2024@gmail.com",
+  "features": "Aimyflow is a role-centric AI discovery platform where users explore curated AI tools for different careers and vote on how much AI could reshape their profession. We combine tool insights, job-specific flows, and public sentiment to map the real-world influence of AI—profession by profession.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AimyFlow",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-28T04:59:00.137Z",
+  "submission_ref": "9aac2990-53dc-11f0-ba86-259a43d09b0f",
+  "title": "AimyFlow",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.aimyflow.com"
+}
