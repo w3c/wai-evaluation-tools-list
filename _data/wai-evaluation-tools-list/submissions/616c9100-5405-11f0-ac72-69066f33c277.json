@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "w@sheet0.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Sheet0 is an L4-level professional data agent that automates data tasks by transforming any webpage, file, or API into clean, structured spreadsheets",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lifecycle AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-28T09:50:53.456Z",
+  "submission_ref": "616c9100-5405-11f0-ac72-69066f33c277",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sheet0.com",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.sheet0.com"
+}
