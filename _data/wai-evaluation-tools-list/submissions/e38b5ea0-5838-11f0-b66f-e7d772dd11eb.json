@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.spherescout.io/",
+  "actrules": "https://www.spherescout.io/",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Opera",
+    "Other"
+  ],
+  "comments": "Spherescout - Business Lead Database\r\nSearch and filter through millions of business contacts sourced from Google Maps and enriched with website data.",
+  "contact": "spherescoutt@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Spherescout - Business Lead Database\r\nSearch and filter through millions of business contacts sourced from Google Maps and enriched with website data.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Spherescout - Business Lead Database Search and filter through millions of business contacts sourced from Google Maps and enriched with website data.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2000-05-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-03T18:09:40.746Z",
+  "submission_ref": "e38b5ea0-5838-11f0-b66f-e7d772dd11eb",
+  "technology": [
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Spherescout",
+  "type": [
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.spherescout.io/"
+}
