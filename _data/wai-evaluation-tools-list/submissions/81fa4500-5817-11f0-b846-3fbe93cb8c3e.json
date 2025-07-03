@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "gamehow84@gmail.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "**ArtAny: The All-in-One AI Creativity Platform**\r\n\r\nArtAny is a comprehensive AI-powered platform designed for creators across various fields. It integrates the latest and most advanced AI models, catering to a wide range of creative needs, from text-to-image, image-to-video, concept art, architectural design, logo creation, and more. Beyond its pow",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "afrghh",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-03T14:10:43.664Z",
+  "submission_ref": "81fa4500-5817-11f0-b846-3fbe93cb8c3e",
+  "technology": [
+    "PDF"
+  ],
+  "title": "artany",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.artany.ai/"
+}
