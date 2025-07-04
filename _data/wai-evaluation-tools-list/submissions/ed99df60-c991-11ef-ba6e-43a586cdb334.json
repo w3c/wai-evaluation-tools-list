@@ -1,0 +1,45 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rajesh@skynettechnologies.com",
+  "features": "Free Color Blindness Simulator lets you view websites, images, or other visual content as individuals with color vision deficiencies do. It simulates & visualizes various types of color blindness such as Protanopia, Protanomaly, Deuteranopia, Deuteranomaly, Achromatomaly, Achromatopsia, Tritanopia & Tritanomaly. Ideal for designers & developers",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-03T05:16:46.550Z",
+  "submission_ref": "ed99df60-c991-11ef-ba6e-43a586cdb334",
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2025-04-11",
+  "website": "https://www.skynettechnologies.com/color-blindness-simulator"
+}

@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://pdir.de/barrierefreiheit.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "develop@pdir.de",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "A free automated website check that checks for accessibility issues according to WCAG 2.1. Simply enter the URL and get instant results.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pdir GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-06-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-30T06:50:48.239Z",
+  "submission_ref": "89768bf0-ded6-11ef-881f-7b869bf2f2c1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "pdir Website Check",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2025-03-21",
+  "website": "https://pdir.de/website-check.html"
+}
