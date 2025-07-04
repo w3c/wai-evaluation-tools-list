@@ -12,7 +12,7 @@
   ],
   "comments": "",
   "contact": "info@getwcag.com",
-  "features": "GetWcag is an automated accessibility evaluation tool that uses axe-core to scan websites for compliance with WCAG standards. It identifies accessibility issues and provides detailed reports based on established guidelines.",
+  "features": "GetWcag is an automated accessibility evaluation tool that uses axe-core to scan websites for conformance with WCAG standards. It identifies accessibility issues and provides detailed reports based on established guidelines.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
