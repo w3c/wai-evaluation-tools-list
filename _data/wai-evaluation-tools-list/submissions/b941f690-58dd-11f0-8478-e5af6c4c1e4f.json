@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "daniel@scekorea.com",
+  "desktop": [
+    "Android",
+    "Other"
+  ],
+  "features": "forApp is an AI-powered mobile accessibility evaluation tool that helps developers and testers identify and fix accessibility issues in mobile apps. It supports WCAG compliance and provides actionable reports to improve user experience for persons with disabilities.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Mobile application",
+    "Other"
+  ],
+  "provider": "SCE Korea, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-04T13:49:36.761Z",
+  "submission_ref": "b941f690-58dd-11f0-8478-e5af6c4c1e4f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "forApp",
+  "type": [
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.forapp.org"
+}
