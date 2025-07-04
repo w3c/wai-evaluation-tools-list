@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://www.sellerpic.ai/",
+  "actrules": "https://www.sellerpic.ai/",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Seller Pic",
+  "contact": "marketing@sellerpic.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "SellerPic transforms ordinary product photos into stunning visuals using advanced AI—perfect for boosting engagement, trust, and eCommerce sales.\r\nVisit: [https://www.sellerpic.ai/](https://www.sellerpic.ai/)",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Seller Pic",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-04T06:43:44.228Z",
+  "submission_ref": "3ac2b330-58a2-11f0-9afd-0568b29afc09",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Seller Pic",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://www.sellerpic.ai/"
+}
