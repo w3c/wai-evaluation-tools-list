@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://catchideas.com",
+  "actrules": "https://catchideas.com",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "team@catchideas.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "CatchIdeas specializes in analyzing Google Trends keywords to identify real user needs and recommend executable website and app ideas. It provides data-driven project selection guidance for product managers and tech entrepreneurs.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "ba"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NexaVision Analytics",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-06T02:52:53.679Z",
+  "submission_ref": "50044bf0-5a14-11f0-82c0-232c951e3f2f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "CatchIdeas",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://catchideas.com"
+}
