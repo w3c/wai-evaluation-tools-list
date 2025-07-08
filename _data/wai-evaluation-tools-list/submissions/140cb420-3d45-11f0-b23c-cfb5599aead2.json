@@ -29,8 +29,7 @@
   "provider": "our design works",
   "publish-permission": "on",
   "purpose": [
-    "Manual testing",
-    "Simulated user experience"
+    "Manual testing"
   ],
   "readterms": "on",
   "release": "2025-05-27",
