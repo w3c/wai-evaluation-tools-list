@@ -9,7 +9,7 @@
   ],
   "comments": "",
   "contact": "accessibility@moutvalid.com",
-  "features": "MoutValid is a muti-page Web accessibility checker online tool that evaluates Web accessibility conformance against Web Content Accessibility guidelines (WCAG) on multiple pages at a time, evaluate color contrast against WCAG contrast ratios, generates automated dashboards and reports on issues found and suggests remediations to address them.\r\n\r\n",
+  "features": "MoutValid is a muti-page Web accessibility checker online tool that evaluates Web accessibility in conformance with Web Content Accessibility guidelines (WCAG) on multiple pages at a time, evaluate color contrast against WCAG contrast ratios, generates automated dashboards and reports on issues found and suggests remediations to address them.\r\n\r\n",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
