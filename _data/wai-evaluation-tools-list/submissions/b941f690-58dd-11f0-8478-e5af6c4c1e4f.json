@@ -20,13 +20,12 @@
     "Android",
     "Other"
   ],
-  "features": "forApp is an AI-powered mobile accessibility evaluation tool that helps developers and testers identify and fix accessibility issues in mobile apps. It supports WCAG compliance and provides actionable reports to improve user experience for persons with disabilities.",
+  "features": "forApp is an AI-powered mobile accessibility evaluation tool that helps developers and testers identify accessibility issues in mobile apps. It supports WCAG conformance and generates detailed reports based on automated testing results.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
@@ -55,7 +54,6 @@
   ],
   "title": "forApp",
   "type": [
-    "Mobile application",
     "Online tool"
   ],
   "website": "https://www.forapp.org"
