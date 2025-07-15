@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://hardusernames.com/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "info@hardusernames.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "AI-powered username generator that creates unique, memorable usernames for gaming, Instagram, TikTok and social media platforms instantly.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Hard Usernames Team",
+  "publish-permission": "on",
+  "purpose": [
+    "AI, Username, Generator, Gaming, Social Media, Instagram, TikTok, Creative, Tools"
+  ],
+  "readterms": "on",
+  "release": "2025-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-15T06:36:48.225Z",
+  "submission_ref": "15591510-6146-11f0-bd29-3d4aba2f188c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Hard Usernames",
+  "type": [
+    "Ai Tools"
+  ],
+  "website": "https://hardusernames.com/"
+}
