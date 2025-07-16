@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "faisal@inclusense.eu",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Our Accessibility Panel lets you customise your experience with options like dark mode, text resizing, color adjustments, reading guides, text-to-speech, and more. We follow WCAG 2.1 guidelines and strive to make our website inclusive for all users.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Inclusense",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-06-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-16T09:50:10.666Z",
+  "submission_ref": "435ad4a0-622a-11f0-97e7-75ccf8df8514",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Inclusense Accessibility Widget",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://inclusense.eu"
+}
