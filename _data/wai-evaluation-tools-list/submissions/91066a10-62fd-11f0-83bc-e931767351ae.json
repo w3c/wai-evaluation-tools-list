@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://srmcgpacalculator.click",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "lybdf651@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "SRM CGPA Calculator is a dedicated online tool for SRM University students to calculate their CGPA easily, accurately, and professionally. Follows the official SRM grading system.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TechInno Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-17T11:02:44.785Z",
+  "submission_ref": "91066a10-62fd-11f0-83bc-e931767351ae",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "SRM CGPA Calculator | SRM University students",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://srmcgpacalculator.click"
+}
