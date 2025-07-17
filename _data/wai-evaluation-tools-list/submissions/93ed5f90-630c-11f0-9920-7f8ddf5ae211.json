@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The WCAG Color Contrast Checker was developed to provide a straightforward and immediate solution for contrast verification, essential for ensuring the visual accessibility of web content for all users.",
+  "contact": "hello@wcagplus.com",
+  "features": "WCAG Color Contrast Checker: Quickly verify text and background color contrast against WCAG 2.x and 3 guidelines for accessibility. Essential for designers and developers to create readable, compliant content that meets international standards.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAG Plus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-17T12:50:12.105Z",
+  "submission_ref": "93ed5f90-630c-11f0-9920-7f8ddf5ae211",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WCAG Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcagplus.com/color-contrast-checker"
+}
