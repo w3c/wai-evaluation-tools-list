@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "fishquaman@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "This tool should be used to be accessible to all user who search Bean's Boutique. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Organization",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-20T00:03:22.573Z",
+  "submission_ref": "f3592fd0-64fc-11f0-9705-b1be5082db63",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Bean's Boutique ",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "file:///C:/Users/Aidan/Desktop/Front%20End%20Web%20Development/PAGES/BEAN'S%20BOUTIQUE%20.html"
+}
