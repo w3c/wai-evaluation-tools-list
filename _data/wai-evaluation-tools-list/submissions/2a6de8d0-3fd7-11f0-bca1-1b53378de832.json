@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "apriore@tpgi.com",
+  "features": "Use TPGi's free color contrast checker to optimize your content - including text and visual elements - for individuals with color-blindness or low vision impairments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TPGi",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-02T17:29:41.085Z",
+  "submission_ref": "2a6de8d0-3fd7-11f0-bca1-1b53378de832",
+  "title": "Colour Contrast Analyser (CCA)",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.tpgi.com/color-contrast-checker/"
+}
