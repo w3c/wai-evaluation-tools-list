@@ -17,8 +17,7 @@
     "en"
   ],
   "license": [
-    "Subscription",
-    ""
+    "Subscription"
   ],
   "product": [
     "Website"
@@ -34,7 +33,7 @@
   "repository": "wai-evaluation-tools-list",
   "submission_date": "2025-06-02T17:56:18.047Z",
   "submission_ref": "e24af8f0-3fda-11f0-9843-ef289f481386",
-  "title": " JAWS Inspect",
+  "title": "JAWS Inspect",
   "type": [
     "Desktop application"
   ],
