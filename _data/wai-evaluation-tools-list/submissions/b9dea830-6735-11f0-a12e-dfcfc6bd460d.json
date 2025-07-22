@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "test@test.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "sq"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-22T19:54:49.779Z",
+  "submission_ref": "b9dea830-6735-11f0-a12e-dfcfc6bd460d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Pp",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://test.com"
+}
