@@ -1,0 +1,69 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "worxmate.seo@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Worxmate is a leading Best OKR software designed to drive organizational success. With powerful tools for setting clear objectives, tracking key results, and optimizing team performance, Worxmate helps align goals, boost productivity, and deliver measurable outcomes. Elevate your team's performance and achieve new milestones with Worxmate.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Worxmate",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2019-01-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-22T18:56:02.441Z",
+  "submission_ref": "83697080-672d-11f0-8266-69b192e1f281",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Worxmate.ai",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://worxmate.ai/"
+}
