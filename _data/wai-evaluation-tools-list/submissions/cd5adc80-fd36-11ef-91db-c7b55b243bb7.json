@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@getwcag.com",
+  "features": "GetWcag is an automated accessibility evaluation tool that uses axe-core to scan websites for conformance with WCAG standards. It identifies accessibility issues and provides detailed reports based on established guidelines.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GetWcag",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-09T22:35:28.712Z",
+  "submission_ref": "cd5adc80-fd36-11ef-91db-c7b55b243bb7",
+  "title": "GetWcag",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://getwcag.com"
+}
