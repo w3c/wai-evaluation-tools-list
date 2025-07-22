@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://www.barrierbreak.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "dev@barrierbreak.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Detects failures, identifies issues to validate, and highlights code. A11yInspect assists your developers & accessibility professionals to evaluate for Web Content Accessibility Guidelines (WCAG).\r\n\r\nOne-click highlights the issue along with the code.\r\nWide-range of Bookmarklets\r\nKey Code Attributes\r\nDownload Screenshots.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "BarrierBreak",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-18T08:40:43.889Z",
+  "submission_ref": "ae311e10-03d4-11f0-b4ed-8357b43833d0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "A11yInspect",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://www.barrierbreak.com/a11yinspect-web-accessibility-tool/"
+}
