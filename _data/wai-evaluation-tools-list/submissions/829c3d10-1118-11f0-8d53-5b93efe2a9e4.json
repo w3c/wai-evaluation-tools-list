@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "divyanshu@venngage.com",
+  "features": "Venngage PDF Checker scans PDF files for common accessibility problems based on WCAG 2.2 and PDF/UA standards. The tool checks for things like: Missing document structure, No language settings, Missing metadata, Reading order issues. After scanning, it gives you a detailed report. This report shows which rules your PDF passes and which ones it fails.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Venngage",
+  "publish-permission": "on",
+  "purpose": [
+    "Automatic testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-04T05:49:01.665Z",
+  "submission_ref": "829c3d10-1118-11f0-8d53-5b93efe2a9e4",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://venngage.com/pdf-checker"
+}
