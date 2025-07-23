@@ -10,13 +10,10 @@
   ],
   "comments": "ChromaSim Color Blindness Simulator was developed to offer a precise and intuitive way for designers and content creators to evaluate image accessibility for users with various color vision deficiencies, directly supporting WCAG visual perception guidelines",
   "contact": "hello@wcagplus.com",
-  "features": "ChromaSim Color Blindness Simulator: Upload images to instantly apply various color vision deficiency filters. Essential for designers and content creators to ensure visual accessibility and perceivability of static graphics for all users, supporting WCAG compliance.",
+  "features": "ChromaSim Color Blindness Simulator: Upload images to instantly apply various color vision deficiency filters. Essential for designers and content creators to ensure visual accessibility and perceivability of static graphics for all users.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
   ],
   "language": [
     "en"
