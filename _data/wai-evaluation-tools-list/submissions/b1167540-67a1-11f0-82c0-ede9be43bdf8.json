@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "support@clacky.ai",
+  "features": "ClackyAI is your agentic CDE—prototype, refine, and build real products with parallel AI agents in the cloud. Built for builders, product thinkers, and engineering teams, ClackyAI lets you run multi-threaded tasks, track structured progress, and scale async—all within a collaborative cloud coding environment.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CLACKYAI PTE. LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-23T08:47:40.693Z",
+  "submission_ref": "b1167540-67a1-11f0-82c0-ede9be43bdf8",
+  "title": "ClackyAI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://clacky.ai/"
+}
