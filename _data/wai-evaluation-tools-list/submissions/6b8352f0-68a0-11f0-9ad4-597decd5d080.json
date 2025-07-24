@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "jenifermull62@gmail.com",
+  "features": "Generate high-quality ASMR videos using advanced AI technology. Create personalized autonomous sensory meridian response content with whispering, tapping, and relaxation triggers. Perfect for sleep, relaxation, and therapeutic ASMR experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-24T15:11:05.631Z",
+  "submission_ref": "6b8352f0-68a0-11f0-9ad4-597decd5d080",
+  "title": "asmr video generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://asmrvideo.org/"
+}
