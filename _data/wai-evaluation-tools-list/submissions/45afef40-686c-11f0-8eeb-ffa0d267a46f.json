@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "damon@riskmonitor.cloud",
+  "features": "Risk monitor Accessibility Checker audits websites against WCAG 2.0–2.2 (Level A to AAA), Section 508, EN 301 549, and ACT rules. It identifies accessibility issues, categorizes them by severity along with snapshots of the errors. As a result it helps organizations improve compliance and digital inclusion.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "risikomonitor.com GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-24T08:57:48.340Z",
+  "submission_ref": "45afef40-686c-11f0-8eeb-ffa0d267a46f",
+  "title": "Riskmonitor Accessibility checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://riskmonitor.cloud/accessibility-checker/"
+}
