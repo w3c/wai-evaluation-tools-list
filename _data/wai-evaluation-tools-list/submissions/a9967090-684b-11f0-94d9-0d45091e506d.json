@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@humanwhisper.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "AI that explains complex topics in simple, human-friendly language. Get clear explanations without jargon, using everyday analogies and examples.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "HumanWhisper Technologies",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-24T05:04:22.553Z",
+  "submission_ref": "a9967090-684b-11f0-94d9-0d45091e506d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "HumanWhisper",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://humanwhisper.com/"
+}
