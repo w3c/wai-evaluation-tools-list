@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "yurongshui@163.com",
+  "features": "The revolutionary power of Veo 3 AI video generation. ⚡ 0 to Professional Video in Seconds with Audio-Visual Sync",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-25T14:21:37.924Z",
+  "submission_ref": "ad08ec40-6962-11f0-84dc-c1601f1d2b0d",
+  "title": "veo3",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://veo-3.app/"
+}
