@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://volumeshader.org",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "lybdf651@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "VolumeShader.org is a browser-based platform offering real-time 3D volume rendering tools, including volume shader benchmarks (volume shader bm) to test GPU performance, with features like custom fractals, ray tracing, and cross-platform support—no installation required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TechInno Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-25T04:33:13.973Z",
+  "submission_ref": "7a3d8250-6910-11f0-a972-ef508754be25",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Volume Shader",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://volumeshader.org"
+}
