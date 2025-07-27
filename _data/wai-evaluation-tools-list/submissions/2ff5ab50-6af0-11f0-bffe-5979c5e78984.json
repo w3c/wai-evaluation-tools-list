@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "jenifermull62@gmail.com",
+  "features": "Google DeepMind's latest masterpiece - Imagen 4. Generate stunning 2K images in seconds, 10x faster than Imagen 3 with enhanced typography and photorealistic quality.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-27T13:47:07.781Z",
+  "submission_ref": "2ff5ab50-6af0-11f0-bffe-5979c5e78984",
+  "title": "imagen4",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.imagen4.org/"
+}
