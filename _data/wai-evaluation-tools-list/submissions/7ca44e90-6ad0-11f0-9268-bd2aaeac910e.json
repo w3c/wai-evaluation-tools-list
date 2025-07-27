@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "gamehow84@gmail.com",
+  "features": "ArtAny – run **Wan 2.2/Wan AI** in browser: 8 GB GPU, 5 s 480P clip in minutes, bilingual text, cinematic quality.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NeuronLink",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-27T10:00:12.537Z",
+  "submission_ref": "7ca44e90-6ad0-11f0-9268-bd2aaeac910e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "wan2.2",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.artany.ai/models/wan-ai"
+}
