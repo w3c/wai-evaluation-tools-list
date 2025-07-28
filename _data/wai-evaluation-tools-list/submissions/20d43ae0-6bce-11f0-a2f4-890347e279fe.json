@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "info@liw-zamek.pl",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Edukacja",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "pl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Zamek",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2018-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-28T16:15:50.670Z",
+  "submission_ref": "20d43ae0-6bce-11f0-a2f4-890347e279fe",
+  "title": "zamek",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://zamekliw.pl"
+}
