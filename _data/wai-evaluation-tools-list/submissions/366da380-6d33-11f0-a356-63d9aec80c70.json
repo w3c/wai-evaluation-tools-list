@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://abra.ai/legal/accessibility-statement",
+  "actrules": "https://docs.abra.ai/rules/abra",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "janjaap@abra.ai",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Abra Desktop enables you to test the accessibility of apps from your desktop. It detects connected Android and iOS devices/emulators. Next, you can scan for accessibility issues in any app — without source code access.\r\n\r\nAbra Desktop has over 100 testing procedures for semi-automated testing and 20+ automated checks.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Abra",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-30T10:51:57.240Z",
+  "submission_ref": "366da380-6d33-11f0-a356-63d9aec80c70",
+  "title": "Abra Desktop",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://abra.ai/products/desktop"
+}
