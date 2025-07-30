@@ -9,7 +9,7 @@
   ],
   "comments": "",
   "contact": "neeraja@tranistics.com",
-  "features": "The Tranistics Accessibility Checker Tool helps identify accessibility issues on your website by scanning for WCAG compliance, color contrast errors, and missing alt text. It’s user-friendly, offering actionable insights to improve digital inclusivity. Perfect for developers and site owners.",
+  "features": "The Tranistics Accessibility Checker Tool helps identify accessibility issues on your website by scanning for WCAG conformance, color contrast errors, and missing alt text. It’s user-friendly, offering actionable insights to improve digital inclusivity. Perfect for developers and site owners.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
