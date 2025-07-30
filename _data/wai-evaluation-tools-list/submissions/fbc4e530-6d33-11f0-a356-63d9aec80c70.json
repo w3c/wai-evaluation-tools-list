@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://abra.ai/legal/accessibility-statement",
+  "actrules": "https://docs.abra.ai/rules/abra",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "janjaap@abra.ai",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "With the Abra SDK you can add accessibility checks to existing Android/iOS UI tests. Run accessibility tests locally, or from your CI/CD. The results are shown in your IDE and in the Abra Dashboard.\r\n\r\nAbra SDK supports 20+ automated checks created by Abra, Apple and Google.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Abra",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-30T10:57:28.323Z",
+  "submission_ref": "fbc4e530-6d33-11f0-a356-63d9aec80c70",
+  "title": "Abra SDK",
+  "type": [
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://abra.ai/products/sdk"
+}
