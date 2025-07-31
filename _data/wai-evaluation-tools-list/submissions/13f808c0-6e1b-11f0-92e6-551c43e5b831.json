@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "yurongshui@163.com",
+  "features": "Seedance 1.0: AI Video Generator",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-31T14:31:42.668Z",
+  "submission_ref": "13f808c0-6e1b-11f0-92e6-551c43e5b831",
+  "title": "seedance",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://seedance.one/"
+}
