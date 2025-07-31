@@ -13,7 +13,7 @@
   ],
   "comments": "",
   "contact": "j.labudda@dock.codes",
-  "features": "The tool allows you to check whether a color scheme meets WCAG requirements and shows the level of compliance. The tool also allows you to generate a link for later sharing.",
+  "features": "The tool allows you to check whether a color combination meets WCAG requirements and shows the level of conformance. You can also generate a shareable link that contains two selected colors. When someone opens the link, it will display the chosen colors along with the contrast result.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
