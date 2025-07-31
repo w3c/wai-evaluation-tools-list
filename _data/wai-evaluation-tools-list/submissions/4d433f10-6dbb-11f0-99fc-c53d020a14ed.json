@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "fancylifeyrs@gmail.com",
+  "features": "FLUX Kontext, the revolutionary AI image editing suite from Black Forest Labs. ⚡ Professional results in 2.3 seconds",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-31T03:06:07.105Z",
+  "submission_ref": "4d433f10-6dbb-11f0-99fc-c53d020a14ed",
+  "title": "Flux Kontext",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://flux-kontext.io/"
+}
