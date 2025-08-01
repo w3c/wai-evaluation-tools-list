@@ -1,0 +1,87 @@
+{
+  "a11yloc": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "update ",
+  "contact": "michaelfekete330@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "update ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-01T05:12:29.414Z",
+  "submission_ref": "1f158860-6e96-11f0-a658-fd540039ea26",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "wai test",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/"
+}
