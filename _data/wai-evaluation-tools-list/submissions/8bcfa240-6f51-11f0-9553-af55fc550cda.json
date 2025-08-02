@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "i8612962@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "ArtAny hosts the open-source Wan2.2 video-generation suite: text/image-to-video, first/last-frame completion, editing, audio-sync, bilingual on-screen text, 480P/720P, runs on 8 GB consumer GPUs, delivers SOTA cinematic quality with physics-accurate motion—no tech skills required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "peal",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-02T03:34:07.716Z",
+  "submission_ref": "8bcfa240-6f51-11f0-9553-af55fc550cda",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "wan2.2",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.artany.ai/models/wan-ai"
+}
