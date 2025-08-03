@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://strategickreator.com/accessibility",
+  "actrules": "https://strategickreator.com/rules/axe/4.8/  https://act-rules.github.io/implementation-reports/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "gomil.directory@proton.me",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "An AI-powered accessibility evaluation tool that scans web content for WCAG compliance, identifies issues like missing alt text and color contrast problems, and provides actionable remediation guidance for developers and designers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Strategic Kreator",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-03T08:52:42.537Z",
+  "submission_ref": "378b9990-7047-11f0-9ee7-2b067d9c125f",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Strategic Kreator",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://strategickreator.com/"
+}
