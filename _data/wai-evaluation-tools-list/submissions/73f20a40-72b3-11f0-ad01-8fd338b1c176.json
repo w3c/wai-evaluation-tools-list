@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.bestnamegenerators.com/",
+  "actrules": "https://www.bestnamegenerators.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "coupongpts@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Meet the best name generator online! Create unique and meaningful names instantly with our free AI tool. Unlimited uses, no signup required. Generate perfect names for your project today!",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Metabyte",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-06T10:52:31.844Z",
+  "submission_ref": "73f20a40-72b3-11f0-ad01-8fd338b1c176",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Best Name Generators",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://www.bestnamegenerators.com/"
+}
