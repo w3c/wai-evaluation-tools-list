@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://sbgbali.com",
+  "actrules": "https://www.sbgbali.com",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Jasa Web Seo",
+  "contact": "sbgbali@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Jasa Web Seo Bali",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "id"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Jasa Web Seo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-09T09:18:40.009Z",
+  "submission_ref": "d6597790-7501-11f0-8084-c32b2d0678fa",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sbg Bali",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sbgbali.com"
+}
