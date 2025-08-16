@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "zxbd3764@leeds.ac.uk",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Regarding the reduction of food waste and checking the condition of ingredients in the refrigerator, including menu recommendations, as well as the food recycling system. The main target audience is international students.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "university of leeds",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-16T19:22:07.433Z",
+  "submission_ref": "4c8c2b90-7ad6-11f0-a679-2562d04122f4",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "figma",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://www.figma.com/proto/1O6p2XsoJ9rXlmyPnOPDFz/Food-Waste?node-id=610-10019&t=AM6T14jJPJHkRNUF-1"
+}
