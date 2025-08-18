@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Revolutionary AI image editor by Black Forest Labs. Context-aware editing, character consistency, professional results in 2.3 seconds. Free trial available.",
+  "contact": "yurongshui1@163.com",
+  "features": "Revolutionary AI image editor by Black Forest Labs. Context-aware editing, character consistency, professional results in 2.3 seconds. Free trial available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-18T14:08:56.461Z",
+  "submission_ref": "e114e3d0-7c3c-11f0-863c-f71b1bcc2166",
+  "title": "flux kontext",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://flux-kontext.io/"
+}
