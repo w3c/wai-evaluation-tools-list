@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "j.labudda@dock.codes",
+  "features": "The tool allows you to check whether a color combination meets WCAG requirements and shows the level of conformance. You can also generate a shareable link that contains two selected colors. When someone opens the link, it will display the chosen colors along with the contrast result.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dock",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-07-28T14:32:21.660Z",
+  "submission_ref": "abf87dc0-6bbf-11f0-82ca-45fa89fe82fa",
+  "title": "DockWCAG - color contrast checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcag.dock.codes/documentation/color-contrast-checker/"
+}
