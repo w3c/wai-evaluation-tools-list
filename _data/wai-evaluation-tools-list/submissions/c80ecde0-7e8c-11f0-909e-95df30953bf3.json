@@ -1,0 +1,73 @@
+{
+  "a11yloc": "https://www.quickads.ai/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Affiliate Program available here: https://quickads.ai/affiliate\r\n\r\nExplainer video: https://www.youtube.com/watch?v=4Z7D5IhY2xE\r\n\r\nIdeal for performance marketers, agencies, and eCommerce businesses looking to scale faster with AI.",
+  "contact": "support@quickads.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Quickads.ai is an AI-powered advertising tool that helps marketers, startups, and agencies create high-performing ad creatives and copy in seconds. It automates the process of designing, writing, and optimizing ads for platforms like Facebook, Instagram, Google, and LinkedIn. With Quickads, you can generate multiple variations for A/B testing etc",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Quickads.ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-21T12:45:56.542Z",
+  "submission_ref": "c80ecde0-7e8c-11f0-909e-95df30953bf3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Quickads.ai",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.quickads.ai/"
+}
