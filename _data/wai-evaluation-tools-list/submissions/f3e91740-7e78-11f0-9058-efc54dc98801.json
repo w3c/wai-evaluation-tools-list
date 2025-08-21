@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Create stunning AI art with Flux Krea. Advanced text-to-image model generates photorealistic images. Start free with 10 credits today!",
+  "contact": "jenifermull62@gmail.com",
+  "features": "Create stunning AI art with Flux Krea. Advanced text-to-image model generates photorealistic images. Start free with 10 credits today!",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-21T10:24:00.180Z",
+  "submission_ref": "f3e91740-7e78-11f0-9058-efc54dc98801",
+  "title": "flux krea",
+  "type": [
+    "",
+    "Online tool"
+  ],
+  "website": "https://flux1-krea.net/"
+}
