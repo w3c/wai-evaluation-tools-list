@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "jenifermull62@gmail.com",
+  "features": "Runway Aleph - Revolutionary AI video generation platform. Create, edit & transform videos with advanced in-context AI technology. Start free today!",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "zh-hans"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pixeldance",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-21T07:05:59.824Z",
+  "submission_ref": "4aaaa100-7e5d-11f0-8a19-67c16a844cec",
+  "title": "runway aleph",
+  "type": [
+    "",
+    "Online tool"
+  ],
+  "website": "https://runway-aleph.com"
+}
