@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Klarakollen was specifically created to democratize web accessibility by simplifying the manual assessment process. Our goal is to make WCAG compliance achievable for small Swedish businesses and non-profit organizations with limited budgets who cannot afford expensive accessibility consultants. The tool breaks down complex accessibility requirements into manageable steps, providing clear guidance that empowers website owners to conduct their own thorough evaluations. We believe accessibility should be accessible to everyone, regardless of organization size or technical expertise.",
+  "contact": "staffan.ragno@gmail.com",
+  "features": "Klarakollen guides Swedish businesses through manual WCAG 2.2 accessibility evaluations. Unlike automated scanners, it provides structured support for thorough manual audits across all levels (A, AA, AAA) with systematic checklists and expert guidance. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "sv"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Staffan Ragnö",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-26T13:17:10.448Z",
+  "submission_ref": "f90eeb00-827e-11f0-af7f-ed057d58871b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Klarakollen.se",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://klarakollen.se/"
+}
