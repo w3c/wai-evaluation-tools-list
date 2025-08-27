@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "ly199004142@gmail.com",
+  "features": "Stop the content grind. Dolphinscribe is the AI SEO engine for indie developers that automates the complete workflow. From deep SERP analysis to auto-publishing via Webhook, we generate E-E-A-T content that ranks so you can focus on your product.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dolphinscribe",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-27T03:39:35.268Z",
+  "submission_ref": "735fda40-82f7-11f0-a56e-0b29b4c21b2c",
+  "title": "Dolphinscribe",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://dolphinscribe.com/"
+}
