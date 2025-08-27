@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "boqingren@hotmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "TikTokEmojis.click is the all-in-one hub for TikTok’s 46 secret emojis, offering instant copy-paste tools, high-resolution PNG downloads, and developer-ready React & Vue NPM packages—everything creators, designers, and engineers need to integrate authentic TikTok emojis with lightning-fast performance and zero fees.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TikTokEmojis.click",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-03T09:53:09.370Z",
+  "submission_ref": "a94e65a0-704f-11f0-817b-838e69ec1810",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TikTokEmojis.click",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tiktokemojis.click"
+}
