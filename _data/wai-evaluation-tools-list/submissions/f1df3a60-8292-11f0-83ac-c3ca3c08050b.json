@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Free online tools platform helping developers, designers, and creators boost productivity with AI-powered solutions. Multiple tools available, no registration required.",
+  "contact": "support@prompt2tool.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Free online tools platform helping developers, designers, and creators boost productivity with AI-powered solutions. Multiple tools available, no registration required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Prompt2Tool Team",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-26T15:40:08.326Z",
+  "submission_ref": "f1df3a60-8292-11f0-83ac-c3ca3c08050b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Prompt2Tool",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://prompt2tool.com/"
+}
