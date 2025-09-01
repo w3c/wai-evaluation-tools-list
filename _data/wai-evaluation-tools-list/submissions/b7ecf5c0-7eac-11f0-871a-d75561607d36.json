@@ -1,0 +1,66 @@
+{
+  "a11yloc": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "optolationship@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "Family educational rights and privacy act /20 u.s.c sec 1232g; 34 c.f.r part 99",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "on",
+    "California civil code section 1789.3"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Forward looking statement ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-21T16:34:33.372Z",
+  "submission_ref": "b7ecf5c0-7eac-11f0-871a-d75561607d36",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "HR covered individuals ",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "http://www.target.com"
+}
