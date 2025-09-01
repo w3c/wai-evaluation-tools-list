@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://memu.pro",
+  "actrules": "https://memu.pro",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Advantages\r\n\r\nPerformance: 92% Accuracy\r\nCost: 90% Reduction\r\nEfficiency: ~50ms Retrieval Speed\r\n92.9% Accuracy - State-of-the-art score in Locomo benchmark\r\nUp to 90% Cost Reduction - Through optimized online platform\r\n～50ms Retrieval Speed – Optimized for instant memory access in AI companions",
+  "contact": "social@nevamind.ai",
+  "desktop": [
+    "Android"
+  ],
+  "features": "MemU is an open-source memory framework for AI companions—high accuracy, fast retrieval, low cost. It acts as an intelligent \"memory folder\" that adapts to different AI companion scenarios.\r\nWith memU, you can build AI companions that truly remember you. They learn who you are, what you care about, and grow alongside you through every interaction.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NEVAMIND AI PTE. LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-09T06:33:48.507Z",
+  "submission_ref": "ce8e0ab0-74ea-11f0-a98e-81926e2cca0a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "MemU",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://memu.pro"
+}
