@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.pdfsail.com/contact-us",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "wz@pdfsail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "features": "PDFsail is an all-in-one online PDF editor and converter that allows users to seamlessly edit, compress, merge, and sign PDF documents. It leverages AI technology to enhance user experience and simplify PDF management.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Other"
+  ],
+  "provider": "PDFsail",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-05-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-13T07:18:24.515Z",
+  "submission_ref": "b33b7530-7815-11f0-88a4-31706a2bedaf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PDFsail",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.pdfsail.com/"
+}
