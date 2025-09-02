@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://iframe-generator.net/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "https://iframe-generator.net/",
+  "contact": "lybdf651@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "iframe-generator.net is a free online tool that lets users create ready-to-use iframe HTML code with all attributes (e.g., src, width, security settings). It offers real-time previews, no need to memorize complex properties, and suits web developers and content creators.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code",
+    "Other"
+  ],
+  "provider": "TechInno Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-02T09:43:55.189Z",
+  "submission_ref": "57619650-87e1-11f0-84e9-434323359225",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "iframe-generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://iframe-generator.net/"
+}
