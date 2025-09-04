@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "williamjinq@gmail.com",
+  "features": "Experience advanced multi-image fusion, character consistency, and natural language image editing with Nano Banana AI powered by Google Gemini 2.5 Flash. Effortlessly create, edit, and enhance visuals for any use case.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Product Labs Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-04T07:27:35.839Z",
+  "submission_ref": "a0ef52f0-8960-11f0-a72d-1dff0e409450",
+  "title": "Nano Banana AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://nanobananaai.tech/"
+}
