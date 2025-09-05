@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://insihub.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "After 25 years of WordPress development, we built Insi because existing accessibility solutions either don't actually fix problems (overlays) or miss critical issues (basic code scanners). Insi uses virtual browser technology to scan websites the way assistive technologies actually experience them, identifying issues other tools miss while providing actionable remediation guidance within WordPress workflows.",
+  "contact": "info@insihub.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Insi is a cloud-based WordPress accessibility plugin designed for organizations seeking genuine WCAG compliance rather than superficial overlay solutions. Built by accessibility practitioners with 20 years of WordPress experience, Insi uses advanced virtual browser technology to scan websites exactly as assistive technologies and users with disabil",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Insi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-05T16:35:29.262Z",
+  "submission_ref": "556f58e0-8a76-11f0-84e3-0747c0347e31",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Insi",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://insihub.com/"
+}
