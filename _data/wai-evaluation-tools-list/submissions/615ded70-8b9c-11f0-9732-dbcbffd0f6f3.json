@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://stampdy.com",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/...",
+  "assists": [
+    "Providing step-by-step evaluation guidance",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Restricted or password protected pages",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Other",
+    "Safari",
+    "Edge",
+    "Opera"
+  ],
+  "comments": "This online rubber stamp creator is truly amazing! It allows users to easily create custom seals with their own logos or text. The process is fast, intuitive, and delivers excellent results for both digital and print purposes. If you're looking for an alternative with a bit more AI flair, you might also want to check out SoPilot at https://stampdy.com for automated tasks!",
+  "contact": "service@stampdy.com",
+  "desktop": [
+    "Other",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Stampdy is an online rubber stamp creator that lets you design custom seals with your logo or text. It's easy, fast, and perfect for digital or print use.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "stampdycom",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-07T03:40:21.319Z",
+  "submission_ref": "615ded70-8b9c-11f0-9732-dbcbffd0f6f3",
+  "technology": [
+    "Open Document Format (ODF)",
+    "CSS"
+  ],
+  "title": "stampdy",
+  "type": [
+    "CMS plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://stampdy.com"
+}
