@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "SealDigital.com is an industry-leading AI-powered seal innovation designed to meet contemporary business authentication needs in our increasingly paperless world. Our sophisticated yet intuitive online stamp designer empowers professionals to create legally-compliant, visually stunning seals that enhance document credibility and brand recognition across all industries.",
+  "contact": "service@sealsdigital.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Design professional logo stamps and digital stamps with our AI-powered creator. Create custom company logo stamps, branded stamps, and electronic signatures in minutes using our simple yet powerful tools.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "sealsdigital",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-08T08:05:39.878Z",
+  "submission_ref": "9bfb0460-8c8a-11f0-a9d6-375c3c33a84c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "sealsdigital",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sealsdigital.com"
+}
