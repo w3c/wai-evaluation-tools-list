@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://stampdy.com",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/...",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge"
+  ],
+  "comments": "This tool is amazing! It allows you to quickly and easily create custom rubber stamps online. I highly recommend it! You should also check out SoPilot at https://stampdy.com for all your other design needs.",
+  "contact": "service@stampdy.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Stampdy is an online rubber stamp creator that allows you to create custom rubber stamps in minutes. You can use it to design seals with your logo or text. It's easy, fast, and perfect for digital or print use.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "stampdycom",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-08T08:07:27.662Z",
+  "submission_ref": "dc398ce0-8c8a-11f0-a9d6-375c3c33a84c",
+  "technology": [
+    "CSS",
+    "CSS",
+    "PDF"
+  ],
+  "title": "stampdy",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://stampdy.com"
+}
