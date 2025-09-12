@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://siteboard.io/en/legal/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@siteboard.io",
+  "features": "siteboard is the accessibility & web performance tool for agencies, website operators, developers and compliance professionals. Our software provides a comprehensive view of websites and helps meet requirements such as the Accessibility Enhancement Act (BFSG). Our \"DeepScans\" feature reliably checks all subpages of a domain in one go.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "siteboard GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-12T11:36:04.030Z",
+  "submission_ref": "aa36bde0-8fcc-11f0-aaf0-55d80379e36c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "siteboard",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://siteboard.io/"
+}
