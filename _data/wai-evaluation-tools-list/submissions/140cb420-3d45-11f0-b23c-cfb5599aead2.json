@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "nathanielchang@gmail.com",
+  "features": "This calculator helps you check colour contrast ratios and experiment with the opacity of intermediary layers and text. It calculates the effective contrast by combining a secondary layer of colour with a variable opacity on top of a background base colour, then measuring how well it contrasts with your text colour.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "our design works",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-30T10:58:54.690Z",
+  "submission_ref": "140cb420-3d45-11f0-b23c-cfb5599aead2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Hue sure?",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://huesure.com/"
+}

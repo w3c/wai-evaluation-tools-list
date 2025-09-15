@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "WCAG Plus uses Axe and Pa11y to run automated accessibility evaluations based on WCAG 2.1. The tool currently supports single-page analysis via web interface. Functionality descriptions were revised as per reviewer feedback to focus only on evaluation.\r\n\r\n",
+  "contact": "hello@wcagplus.com",
+  "features": "WCAG Plus is an online tool that automatically evaluates web pages and frontend code for accessibility issues based on WCAG. It highlights errors and potential problems, provides actionable suggestions, and helps developers identify accessibility barriers early in the development process.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAG Plus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-11T08:37:21.402Z",
+  "submission_ref": "4a9ccda0-469f-11f0-afbf-899c04b28cc7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WCAG Plus",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcagplus.com"
+}

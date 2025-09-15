@@ -7,13 +7,13 @@
     "complete": 6,
     "partial": 1,
     "inconsistent": 1,
-    "untested": 26
+    "untested": 28
   },
   "proposedRules": {
-    "complete": 7,
+    "complete": 6,
     "partial": 4,
-    "inconsistent": 1,
-    "untested": 40
+    "inconsistent": 2,
+    "untested": 39
   },
   "actRuleMapping": [
     {
@@ -584,6 +584,36 @@
               "procedureName": "2.4.2-page-title-defined",
               "outcomes": [
                 "inapplicable"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "94ff40484422832c2910086d4387163aa2d9dd7d",
+          "testCaseName": "Passed Example 2",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2779a5/94ff40484422832c2910086d4387163aa2d9dd7d.html",
+          "testCaseApproved": false,
+          "expected": "passed",
+          "procedureResults": [
+            {
+              "procedureName": "2.4.2-page-title-defined",
+              "outcomes": [
+                "untested"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "9c5eeb535181f3709e13b548a04b9d0054532cdd",
+          "testCaseName": "Failed Example 6",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2779a5/9c5eeb535181f3709e13b548a04b9d0054532cdd.html",
+          "testCaseApproved": false,
+          "expected": "failed",
+          "procedureResults": [
+            {
+              "procedureName": "2.4.2-page-title-defined",
+              "outcomes": [
+                "untested"
               ]
             }
           ]
@@ -1658,6 +1688,24 @@
       "testCaseResults": []
     },
     {
+      "ruleId": "b33eff",
+      "ruleName": "Orientation of the page is not restricted using CSS transforms",
+      "ruleApproved": true,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
+    },
+    {
+      "ruleId": "4e8ab6",
+      "ruleName": "Element with role attribute has required states and properties",
+      "ruleApproved": true,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
+    },
+    {
       "ruleId": "ff89c9",
       "ruleName": "ARIA required context role",
       "ruleApproved": false,
@@ -2274,15 +2322,6 @@
       "testCaseResults": []
     },
     {
-      "ruleId": "b33eff",
-      "ruleName": "Orientation of the page is not restricted using CSS transforms",
-      "ruleApproved": false,
-      "procedureNames": [],
-      "consistency": null,
-      "coverage": null,
-      "testCaseResults": []
-    },
-    {
       "ruleId": "c249d5",
       "ruleName": "Device motion based changes to the content can be disabled",
       "ruleApproved": false,
@@ -2570,7 +2609,7 @@
       "procedureNames": [
         "2.1.2-no-keyboard-trap"
       ],
-      "consistency": "complete",
+      "consistency": null,
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -2581,7 +2620,7 @@
         ]
       },
       "coverage": {
-        "covered": 16,
+        "covered": 15,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 16
@@ -2678,6 +2717,21 @@
           ]
         },
         {
+          "testcaseId": "d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84",
+          "testCaseName": "Passed Example 7",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84.html",
+          "testCaseApproved": false,
+          "expected": "passed",
+          "procedureResults": [
+            {
+              "procedureName": "2.1.2-no-keyboard-trap",
+              "outcomes": [
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
           "testcaseId": "f5ea9fd3b681971b2af4953fae9bb2d319a203c6",
           "testCaseName": "Failed Example 1",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/f5ea9fd3b681971b2af4953fae9bb2d319a203c6.html",
@@ -2693,23 +2747,8 @@
           ]
         },
         {
-          "testcaseId": "d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84",
-          "testCaseName": "Failed Example 2",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/d2f5325f3fd5ddde38cd677a5ca36ba0d762fb84.html",
-          "testCaseApproved": false,
-          "expected": "failed",
-          "procedureResults": [
-            {
-              "procedureName": "2.1.2-no-keyboard-trap",
-              "outcomes": [
-                "failed"
-              ]
-            }
-          ]
-        },
-        {
           "testcaseId": "0ec0e93e7f8ffca39e1eb58a4a8503f1bd4cb145",
-          "testCaseName": "Failed Example 3",
+          "testCaseName": "Failed Example 2",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/0ec0e93e7f8ffca39e1eb58a4a8503f1bd4cb145.html",
           "testCaseApproved": false,
           "expected": "failed",
@@ -2724,7 +2763,7 @@
         },
         {
           "testcaseId": "7dcc4ae00712889d448ecbcba200e032dca59bf0",
-          "testCaseName": "Failed Example 4",
+          "testCaseName": "Failed Example 3",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/7dcc4ae00712889d448ecbcba200e032dca59bf0.html",
           "testCaseApproved": false,
           "expected": "failed",
@@ -2739,7 +2778,7 @@
         },
         {
           "testcaseId": "8fba3918b361f251dab4c19bec8eddc5624218ee",
-          "testCaseName": "Failed Example 5",
+          "testCaseName": "Failed Example 4",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/8fba3918b361f251dab4c19bec8eddc5624218ee.html",
           "testCaseApproved": false,
           "expected": "failed",
@@ -2754,7 +2793,7 @@
         },
         {
           "testcaseId": "62fd24e73ea55f55ad45de392128a816a6f03526",
-          "testCaseName": "Failed Example 6",
+          "testCaseName": "Failed Example 5",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/80af7b/62fd24e73ea55f55ad45de392128a816a6f03526.html",
           "testCaseApproved": false,
           "expected": "failed",
@@ -2974,10 +3013,10 @@
         ]
       },
       "coverage": {
-        "covered": 10,
-        "untested": 0,
+        "covered": 9,
+        "untested": 2,
         "cantTell": 0,
-        "testCaseTotal": 10
+        "testCaseTotal": 11
       },
       "testCaseResults": [
         {
@@ -2996,16 +3035,16 @@
           ]
         },
         {
-          "testcaseId": "fb76f71a94bf95f5cfef22f3db6655e7b0a57b0c",
+          "testcaseId": "d26e3cbd39acb781e77c93ea99cc37b4c886c0c5",
           "testCaseName": "Passed Example 2",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/a1b64e/fb76f71a94bf95f5cfef22f3db6655e7b0a57b0c.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/a1b64e/d26e3cbd39acb781e77c93ea99cc37b4c886c0c5.html",
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
             {
               "procedureName": "2.1.2-no-keyboard-trap",
               "outcomes": [
-                "passed"
+                "untested"
               ]
             }
           ]
@@ -3021,6 +3060,21 @@
               "procedureName": "2.1.2-no-keyboard-trap",
               "outcomes": [
                 "passed"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "6ee6cdfc0ae79ec72379b9ee4df9c1920b09ba15",
+          "testCaseName": "Passed Example 4",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/a1b64e/6ee6cdfc0ae79ec72379b9ee4df9c1920b09ba15.html",
+          "testCaseApproved": false,
+          "expected": "passed",
+          "procedureResults": [
+            {
+              "procedureName": "2.1.2-no-keyboard-trap",
+              "outcomes": [
+                "untested"
               ]
             }
           ]
@@ -4243,8 +4297,8 @@
       "testCaseResults": []
     },
     {
-      "ruleId": "4e8ab6",
-      "ruleName": "Element with role attribute has required states and properties",
+      "ruleId": "2t702h",
+      "ruleName": "Summary element has non-empty accessible name",
       "ruleApproved": false,
       "procedureNames": [],
       "consistency": null,

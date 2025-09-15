@@ -1,4 +1,4 @@
-# Evaluation Tools List
+# Web Accessibility Evaluation Tools List
 
 ## Continuous Deployment
 
@@ -20,6 +20,6 @@ The Function progress is logged and can be viewed in Netlify.
 
 ## Development
 
-See [interative lists repo](https://github.com/w3c/wai-interactive-lists) for more details on config and build.
+See [interactive lists repo](https://github.com/w3c/wai-interactive-lists) for more details on config and build.
 
 See **[old issues in the related repo](https://github.com/w3c/wai-eval-tools/issues)**
