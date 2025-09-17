@@ -1,0 +1,53 @@
+{
+  "a11yloc": " https://wephoto.top/?channel=submitpro",
+  "actrules": " https://wephoto.top/?channel=submitpro",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "keemoo2020@163.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Our company specializes in AI-powered visual technologies, encompassing a comprehensive suite of solutions for image and video processing. Our expertise includes but is not limited to: face swapping technology, advanced image editing tools, professional-grade video editing systems, and cutting-edge visual effects for motion pictures.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "KEEMO",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-17T09:58:09.316Z",
+  "submission_ref": "d0ad4640-93ac-11f0-b57e-8f94e0ab56ab",
+  "title": "WePhoto - Free Face Swap",
+  "type": [
+    "Online tool"
+  ],
+  "website": " https://wephoto.top/?channel=submitpro"
+}
