@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.ezetool.com/",
+  "actrules": "https://www.ezetool.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Ezetool can easily convert PDF to Word documents online for free. Ezetool also has many other tools to help you work online easily without downloading or registering.",
+  "contact": "xueliangz57@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Ezetool can easily convert PDF to Word documents online for free. Ezetool also has many other tools to help you work online easily without downloading or registering.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ezetool",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-19T09:00:29.964Z",
+  "submission_ref": "17918cc0-9537-11f0-805a-8357ee19ce8f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PDF to Word",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.ezetool.com/"
+}
