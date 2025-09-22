@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@iping.cc",
+  "features": "IPING is a free online IP address query tool. Users simply enter an IP address or domain name to obtain detailed information about the IP, including its location, carrier, IP type, ASN, risk control score, risk type, and whether a proxy is used. Also offers proxy detection and MTR tracking services for cross-border and web developers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "FIRENET",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-22T06:10:44.442Z",
+  "submission_ref": "dfc37ba0-977a-11f0-8e18-399c679f8b57",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "IPING – IP Lookup Tool",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.iping.cc/?utm-source=tool&utm-keyword=?3126"
+}
