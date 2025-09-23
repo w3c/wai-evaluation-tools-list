@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://wcag-accessibility-checker.visibitaly.com/en/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Engine: pa11y/HTML_CodeSniffer + optional axe-core rules. Supports single-URL tests and sitemap-based multi-page scans. Exports JSON/CSV/HTML. GDPR-ready; user data minimized (URLs, logs) and retained per our Privacy Policy. We continuously update rulesets to cover WCAG 2.2.\r\n",
+  "contact": "amministrazione@lombardiafood.it",
+  "features": "SaaS for automated WCAG checks. Test a single page or entire sites (via sitemap), get prioritized issues, downloadable reports (JSON/CSV/HTML) and a simple score. Optional consulting packages add manual verification and remediation guidance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Quadralto S.R.L. (Visibitaly)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-23T11:32:44.078Z",
+  "submission_ref": "059395d0-9871-11f0-ba0a-f768d5bf20d3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WCAG Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcag-accessibility-checker.visibitaly.com/"
+}
