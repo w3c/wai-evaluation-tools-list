@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "isha.sachdeva702@gmail.com",
+  "features": "Visble is an analytics tool to help brands dominate AI Search Engines",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Visble",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-12-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-23T12:15:26.306Z",
+  "submission_ref": "fcc8b420-9876-11f0-a879-dbe1de90e342",
+  "title": "Visble Ai",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://visble.ai/"
+}
