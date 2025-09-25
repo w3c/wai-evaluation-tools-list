@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "aimusicmaker66@gmail.com",
+  "features": "AI music tool, AI song generator, text-to-music, lyrics generator, vocal remover, AI stem splitter, beat maker, music composition tool, AI audio editing, creative music tools, music production AI, songwriting AI\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "ja"
+  ],
+  "license": [
+    "Free",
+    "freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "aimusicmaker",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-25T08:20:35.697Z",
+  "submission_ref": "82f3e610-99e8-11f0-ad14-91e550de444c",
+  "title": "aimusicmaker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aimusicmaker.ai/"
+}
