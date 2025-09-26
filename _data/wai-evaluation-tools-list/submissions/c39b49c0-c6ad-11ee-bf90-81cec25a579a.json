@@ -23,7 +23,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "RAMP helps teams discover, understand, and remediate web accessibility issues. Our suite of tools includes a website monitoring platform, free browser extension for automated scanning, color contrast & manual audits, and an online learning Academy. ",
+  "features": "Accessible Web RAMP assists teams and agencies in discovering, understanding, and fixing web accessibility issues. Our suite of tools includes an automated website WCAG checker, a free browser extension for color contrast evaluation, built-in step-by-step ADA/EAA/ACA compliance instructions, a manual audit checklist, and much more. ",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -66,6 +66,6 @@
     "Browser plugin",
     "Online tool"
   ],
-  "update": "2024-02-08",
+  "update": "2024-09-23",
   "website": "https://accessibleweb.com/ramp-tools/"
 }
