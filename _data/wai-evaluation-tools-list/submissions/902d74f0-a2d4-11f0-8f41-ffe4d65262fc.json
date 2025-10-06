@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "catiaasdias24@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "health insurance management application",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "pt"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "AdvanceCare",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-06T16:50:28.415Z",
+  "submission_ref": "902d74f0-a2d4-11f0-8f41-ffe4d65262fc",
+  "title": "myAdvanceCare",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://my.advancecare.pt/"
+}
