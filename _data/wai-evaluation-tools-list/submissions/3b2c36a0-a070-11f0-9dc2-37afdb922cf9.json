@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "this free tool provide Amortization Schedule and CSV report, and provide accurate information.",
+  "contact": "uchomarkes@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "A land contract (aka contract for deed) lets you make payments directly to the seller instead of taking a traditional mortgage. But terms vary: some deals are fully amortized, others are interest‑only with a balloon, and many include taxes/insurance escrow or servicing fees. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "solo",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-10-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-03T15:47:13.802Z",
+  "submission_ref": "3b2c36a0-a070-11f0-9dc2-37afdb922cf9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Land Contract Calculator with Balloon Payment ",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://devcalculator.com/land-contract-calculator/"
+}
