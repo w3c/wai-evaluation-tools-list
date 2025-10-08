@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "imsuwj+pogkit@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Pogkit is a high-performance, all-in-one digital toolkit designed for developers, designers, and creators. It consolidates dozens of\r\n  essential online utilities—from code formatters and JWT decoders to image compressors and QR code generators—into a single, streamlined\r\n  platform, eliminating the need to juggle multiple websites for your daily tas",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pogkit",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-08T05:38:44.453Z",
+  "submission_ref": "0df86950-a409-11f0-8787-7703b87b1995",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Pogkit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pogkit.com"
+}
