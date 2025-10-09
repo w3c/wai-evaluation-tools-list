@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "amazon123@gmail.com",
+  "features": "site de compras dos mais variados itens.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pt"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "amazon",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2002-03-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-24T23:28:16.216Z",
+  "submission_ref": "2589dd80-999e-11f0-835c-556e34f99236",
+  "title": "amazon",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.amazon.com.br/"
+}
