@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "jmshdhssn7@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Easily estimate your Kashmir trip cost with our Tour Package Calculator. Select destinations, travel dates, hotel type, and transport to get an instant price for your customized Kashmir tour package.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Travel My kashmir",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-03-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-10T10:57:15.114Z",
+  "submission_ref": "e1a35ca0-a5c7-11f0-8da8-17a299a03caf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Travel Itinerary generator",
+  "type": [
+    "Browser plugin",
+    "CMS plugin"
+  ],
+  "website": "https://travelmykashmir.com"
+}
