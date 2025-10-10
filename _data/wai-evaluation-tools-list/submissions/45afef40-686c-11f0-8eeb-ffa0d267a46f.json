@@ -15,7 +15,7 @@
   ],
   "comments": "",
   "contact": "damon@riskmonitor.cloud",
-  "features": "Risk monitor Accessibility Checker audits websites against WCAG 2.0–2.2 (Level A to AAA), Section 508, EN 301 549, and ACT rules. It identifies accessibility issues, categorizes them by severity along with snapshots of the errors. As a result it helps organizations improve compliance and digital inclusion.",
+  "features": "Risk monitor Accessibility Checker audits websites against WCAG 2.1 and 2.2 (Level A to AAA), Section 508, EN 301 549, and ACT rules. It identifies accessibility issues, categorizes them by severity along with snapshots of the errors. As a result it helps organizations improve compliance and digital inclusion.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
