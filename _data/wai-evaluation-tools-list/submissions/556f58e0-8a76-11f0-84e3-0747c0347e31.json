@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://insihub.com/accessibility-statement/",
+  "a11yloc": "",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -23,13 +23,12 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Insi is a cloud-based WordPress accessibility plugin designed for organizations seeking genuine WCAG compliance rather than superficial overlay solutions. Built by accessibility practitioners with 20 years of WordPress experience, Insi uses advanced virtual browser technology to scan websites exactly as assistive technologies and users with disabil",
+  "features": "Insi is a cloud-based WordPress accessibility plugin designed for organizations seeking genuine WCAG compliance rather than superficial overlay solutions. Built by accessibility practitioners with 20 years of WordPress experience, Insi uses advanced virtual browser technology to scan websites exactly as assistive technologies and users with disabilities experience them.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
     "WCAG 2.2",
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
