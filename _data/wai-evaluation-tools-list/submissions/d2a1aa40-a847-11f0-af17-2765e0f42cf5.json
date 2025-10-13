@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "cc@peakwiki.page",
+  "features": "Complete guide and tips for PEAK climbing game. Features gameplay trailers, survival guides, achievement walkthroughs, and community resources for cooperative mountain climbing adventure.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PEAK Game Wiki",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-13T15:18:07.844Z",
+  "submission_ref": "d2a1aa40-a847-11f0-af17-2765e0f42cf5",
+  "title": "PEAK Game Wiki",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://peakwiki.page"
+}
