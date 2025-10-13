@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://battlefield6sensitivityconverter.com",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "lybdf651@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "This is a free browser-based tool that calculates the equivalent sensitivity between Battlefield 6 and over 150 games (such as CS:GO), preserving muscle memory.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TechInno Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-13T00:47:58.513Z",
+  "submission_ref": "4371fa10-a7ce-11f0-8cb4-7de69191845b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "battlefield 6 sensitivity converter",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://battlefield6sensitivityconverter.com"
+}
