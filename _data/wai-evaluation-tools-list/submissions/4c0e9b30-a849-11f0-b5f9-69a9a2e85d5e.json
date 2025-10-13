@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "No additional comments",
+  "contact": "cc@lovemoneyonline.net",
+  "features": "Award-winning clicker game combining strategic progression and meaningful moral choices, with engaging upgrades, unique endings, and deep character development.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "LoveMoney",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-13T15:28:41.059Z",
+  "submission_ref": "4c0e9b30-a849-11f0-b5f9-69a9a2e85d5e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "LoveMoney",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://lovemoneyonline.net"
+}
