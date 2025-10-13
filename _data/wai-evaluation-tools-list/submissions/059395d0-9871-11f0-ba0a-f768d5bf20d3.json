@@ -12,12 +12,11 @@
   ],
   "comments": "Engine: pa11y/HTML_CodeSniffer + optional axe-core rules. Supports single-URL tests and sitemap-based multi-page scans. Exports JSON/CSV/HTML. GDPR-ready; user data minimized (URLs, logs) and retained per our Privacy Policy. We continuously update rulesets to cover WCAG 2.2.\r\n",
   "contact": "amministrazione@lombardiafood.it",
-  "features": "SaaS for automated WCAG checks. Test a single page or entire sites (via sitemap), get prioritized issues, downloadable reports (JSON/CSV/HTML) and a simple score. Optional consulting packages add manual verification and remediation guidance.",
+  "features": "SaaS for automated WCAG checks. Test a single page or entire sites (via sitemap), get prioritized issues, downloadable reports (JSON/CSV/HTML) and a simple score.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
-    "WCAG 2.1",
-    "WCAG 2.0"
+    "WCAG 2.1"
   ],
   "language": [
     "en"
