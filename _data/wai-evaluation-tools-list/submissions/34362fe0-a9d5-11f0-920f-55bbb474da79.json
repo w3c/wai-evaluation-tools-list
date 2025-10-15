@@ -1,0 +1,61 @@
+{
+  "a11yloc": "https://easyslide.app/accessibility",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "yrobo7@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Transform ideas into professional presentations using AI chat, smart slide generation, and image creation. Real-time  preview, PPT export. Core features free, premium options available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "robo7",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-03-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-15T14:42:41.758Z",
+  "submission_ref": "34362fe0-a9d5-11f0-920f-55bbb474da79",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Microsoft Office documents",
+    "Markdown"
+  ],
+  "title": "easyslide",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://easyslide.app/"
+}
