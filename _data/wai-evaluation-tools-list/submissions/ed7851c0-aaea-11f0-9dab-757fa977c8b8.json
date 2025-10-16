@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Tired of expensive custom pet portraits? We offer free generation options, making beautiful art no longer a luxury. From realistic sketches to royal portraits, our vast library of styles will perfectly match your pet's unique personality. Forget the long waits—generate a high-definition masterpiece in just one click and instantly share this unique ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT Tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-16T23:50:43.164Z",
+  "submission_ref": "ed7851c0-aaea-11f0-9dab-757fa977c8b8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Ai pet portrait generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aipetportraitgenerator.org"
+}
