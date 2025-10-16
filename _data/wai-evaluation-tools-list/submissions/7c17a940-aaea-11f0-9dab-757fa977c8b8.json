@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "features": "Beard Remover can generate a fresh professional photo with one click, instantly enhancing your professional image.\r\nBeard Remover allows you to easily foresee and explore another side of yourself without having to shave manually.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT Tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-16T23:47:32.948Z",
+  "submission_ref": "7c17a940-aaea-11f0-9dab-757fa977c8b8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Beard Remover",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://beardremover.com/"
+}
