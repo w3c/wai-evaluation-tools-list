@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "nicecurry123@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Find the best AI tools to save time and get more done—at work and in life. We update our picks every day, so you always have the latest and greatest",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "company",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-16T10:24:29.251Z",
+  "submission_ref": "4c5ef930-aa7a-11f0-ae23-1f257df87f3a",
+  "technology": [
+    "CSS"
+  ],
+  "title": "AIToolsHood",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aitoolshood.com/"
+}
