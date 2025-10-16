@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "If you're troubled by:\r\n1. Obtrusive watermarks or text on PDFs.\r\n2. Messy words on the posters you find.\r\n3. Strange characters in tables.\r\n4. Graffiti on wallpapers.\r\nWe can help you with:\r\n1. No need to write prompts.\r\n2. Limited free usage every day.\r\n3. Directly upload photos, use and retrieve them whenever you need.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT Tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-07-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-16T23:49:21.197Z",
+  "submission_ref": "bc9d25d0-aaea-11f0-9dab-757fa977c8b8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Remove text from image",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://removetextfromimage.org/"
+}
