@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "Support@pawooz.com",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "Pawooz® is a pet lifestyle brand offering premium pet beds, mats, and grooming essentials designed for dogs and cats. Our products focus on comfort, style, and durability — from calming mats to orthopedic dog beds, every piece blends seamlessly into your home. Discover cozy comfort and modern design at Pawooz.com.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pawooz",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-22T09:09:41.365Z",
+  "submission_ref": "d7dc6a50-af26-11f0-9184-15488c6924ce",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "E-Commerce",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://pawooz.com"
+}
