@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "aoo3214567@163.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free Polaroid AI Generator - Transform Photos into Vintage Polaroid Style",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Polaroid AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-23T16:12:29.689Z",
+  "submission_ref": "12f90f80-b02b-11f0-948e-1f711d7d75bf",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Polaroid AI",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.polaroid-ai.org/"
+}
