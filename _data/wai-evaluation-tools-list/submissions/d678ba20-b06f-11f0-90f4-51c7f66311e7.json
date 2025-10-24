@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "adam@chaboryk.xyz",
+  "features": "A simple colour contrast checker with Picture-in-Picture mode. Select colours anywhere on screen with the overlay and eyedropper. Get compliant colour suggestions, editable previews, permalinks, and saved swatches. Minimal UI, wide colour space support, and offline-ready.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Adam Chaboryk",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-24T00:24:43.458Z",
+  "submission_ref": "d678ba20-b06f-11f0-90f4-51c7f66311e7",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Contrast Report",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://contrast.report/"
+}
