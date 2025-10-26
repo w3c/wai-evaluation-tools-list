@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "d2@fanqiang.me",
+  "features": "SRQuiz.com offers a free, anonymous, and scientifically-grounded self-assessment tool designed to help users explore their tendencies towards sexual repression and inhibition. Built on validated psychometric scales like SIS/SES, this tool prioritizes user privacy with 100% local data processing – no data is ever sent to a server. Experience a moder",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "sun",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-26T07:07:09.318Z",
+  "submission_ref": "6359eb50-b23a-11f0-a75f-d782e3867b31",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sexual Repression Index Calculator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://srquiz.com"
+}
