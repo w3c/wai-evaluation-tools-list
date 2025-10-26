@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "d2@fanqiang.me",
+  "features": "Take our free, confidential relationship boundaries test. This science-based assessment helps you understand your relational patterns (Porous, Rigid, Healthy). No sign-up required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "sun",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-26T07:08:25.543Z",
+  "submission_ref": "90c91570-b23a-11f0-a75f-d782e3867b31",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Relationship Boundaries Test",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://relationshipboundariestest.com"
+}
