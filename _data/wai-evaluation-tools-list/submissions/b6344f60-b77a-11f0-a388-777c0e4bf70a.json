@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https:/observe.course/onlinelearner.com",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "ldavis248@alamo.edu",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "Accessible tool for online students.  That will present lessons in colorful presentation.  Assessment at the of each module.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "observe point for online learners",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-01T23:30:11.926Z",
+  "submission_ref": "b6344f60-b77a-11f0-a388-777c0e4bf70a",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Web evaluator",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.observepoint.com/blog-posts/how-to-check-website-accessibility/"
+}
