@@ -1,0 +1,42 @@
+{
+  "a11yloc": "https://aisubtitletranslator.org/",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "features": "Designed  for content creators, our AI tool instantly batch-translates entire  seasons or courses. Reach a global audience with one-click translation  into 100+ languages. Enjoy seamless workflow with native support for  major formats like SRT and VTT. We guarantee perfect timestamp  alignment, ensuring a professional and flawless viewing experienc",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-29T02:36:31.897Z",
+  "submission_ref": "14558090-b470-11f0-be58-f17fe40eee42",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AI Subtitle Translator: Batch Translate 100+ Languages",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aisubtitletranslator.org/"
+}
