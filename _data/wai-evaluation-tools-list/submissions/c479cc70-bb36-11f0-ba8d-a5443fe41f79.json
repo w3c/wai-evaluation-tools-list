@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "pauladam@pauljadam.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "a11yTools is a collection of HTML Web Accessibility Testing Tools in one location on your iPhone and iPad for quick and easy Accessibility testing. Run your favorite Accessibility testing tool and easily take a screenshot on your phone showing the a11y error to developers and designers. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PaulJAdam.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2018-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-06T17:33:54.743Z",
+  "submission_ref": "c479cc70-bb36-11f0-ba8d-a5443fe41f79",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "a11yTools iOS - Web Accessibility Testing Tool",
+  "type": [
+    "Browser plugin",
+    "Mobile application"
+  ],
+  "website": "https://apps.apple.com/us/app/a11ytools-web-accessibility/id1356241530"
+}
