@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "whs1765066961@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Take our free 16 personalities (MBTI-style) test and discover your true personality type. Learn your strengths, relationships, and career paths through psychology-backed insights.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "vercel",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-27T08:27:07.975Z",
+  "submission_ref": "b9fcc570-b30e-11f0-9fbd-bb4374f87ab0",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Personalities Test",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://personalitiestest.co/"
+}
