@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rajesh@skynettechnologies.com",
+  "features": "Create visually inclusive color palettes that meet WCAG 2.1 AA contrast-ratio requirements with ease. Enter a base hex code or generate a random palette; this free tool automatically finds combinations that support readability for low-vision and color-blind users while keeping the design on-brand!",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-11-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-10T12:14:06.365Z",
+  "submission_ref": "c0f6acd0-be2e-11f0-920e-89f3760aba0a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "WCAG Accessible Color Palette Generator",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.skynettechnologies.com/accessible-color-palette-generator"
+}
