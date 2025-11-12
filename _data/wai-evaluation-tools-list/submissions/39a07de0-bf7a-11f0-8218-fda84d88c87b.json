@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://aiimagetranslator.org/",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Say  goodbye to tedious photo editing and clunky machine translations. Our  AI-powered tool is designed to make cross-lingual visual communication  simple and efficient. Just upload your images—whether a single poster or  a large batch of product shots—and our system will process them in  moments.\r\nWe  support dozens of major languages, accurately i",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-12T03:46:52.222Z",
+  "submission_ref": "39a07de0-bf7a-11f0-8218-fda84d88c87b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Aimslate： AI Image Translator - Instant Pixel-Perfect",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aiimagetranslator.org/"
+}
