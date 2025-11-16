@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "baiwei.chu@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Free browser-based M3U8 player, downloader & MP4 converter. 100% client-side, no installation, supports encrypted streams. Built with Next.js 15 + ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "chubaiwei",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-16T13:58:14.709Z",
+  "submission_ref": "4bbece50-c2f4-11f0-98b7-17011a86ad01",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "m3u8 player online",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://m3u8-player.net"
+}
