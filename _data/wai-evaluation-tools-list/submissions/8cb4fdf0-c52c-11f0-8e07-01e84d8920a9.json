@@ -1,0 +1,98 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "nashevil6@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Chrome is a browser that helps u to get multiple information ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Web accessibility ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-11-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-19T09:45:57.839Z",
+  "submission_ref": "8cb4fdf0-c52c-11f0-8e07-01e84d8920a9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Chrome ",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://chrome.com"
+}
