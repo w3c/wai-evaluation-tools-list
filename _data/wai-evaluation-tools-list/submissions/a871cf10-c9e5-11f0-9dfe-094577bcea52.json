@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Macaron is your friendly and helpful AI companion designed to enrich your life. From planning a trip, tracking a habit, journaling your feelings, managing family tasks to whatever you need help with you life, just tell Macaron in plain language, and it cooks up a mini app tailored just for you. Every mini-app is simple to use, easy to share, and edit together with your friends.",
+  "contact": "box@mindverse.ltd",
+  "features": "Macaron is an AI with a human touch and warmth, the one that listens, learns, and actualizes your ideas and inspirations to life in the form of helpful mini-apps.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MINDVERSE LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-25T10:01:05.921Z",
+  "submission_ref": "a871cf10-c9e5-11f0-9dfe-094577bcea52",
+  "title": " Macaron AI",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://macaron.im/"
+}
