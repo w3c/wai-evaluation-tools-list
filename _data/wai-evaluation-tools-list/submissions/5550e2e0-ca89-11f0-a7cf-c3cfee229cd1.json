@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "j.labudda@dock.codes",
+  "features": "WCAG accessibility checker is a free tool that performs automated WCAG 2.1 A/AA audits for websites and web applications. It provides detailed reports, clear remediation guidance, manual verification features, and API integration for CI/CD pipelines.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dock",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-26T05:32:43.919Z",
+  "submission_ref": "5550e2e0-ca89-11f0-a7cf-c3cfee229cd1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WCAG Accessibility Checker",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://wcag.dock.codes/tools/accessibility-checker"
+}
