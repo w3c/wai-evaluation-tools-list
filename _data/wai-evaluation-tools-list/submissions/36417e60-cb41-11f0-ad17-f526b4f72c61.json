@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "kzhu.chang@gmail.com",
+  "features": "for user to create deposit account, do payment and transfer and ATM service",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DBS",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-27T03:28:59.206Z",
+  "submission_ref": "36417e60-cb41-11f0-ad17-f526b4f72c61",
+  "title": "DBS  personal deposits ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.dbs.com.sg/personal/deposits/default.page"
+}
