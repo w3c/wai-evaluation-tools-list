@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "wg9457524@gmail.com",
+  "features": "Wabi is the first personal software platform that builds small, tailored mini-apps based on your needs. Just describe what you want, and Wabi creates simple tools shaped around your habits, preferences, and routines—all connected through one personal profile that evolves with you.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Wabi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-01T08:24:24.744Z",
+  "submission_ref": "2526cb70-ce8f-11f0-ab6d-15d0e8dc3536",
+  "title": "Wabi",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://wabiai.ai/"
+}
