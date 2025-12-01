@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/axe-core/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "We frequently release product updates to enhance the feature set and user experience. Our product roadmap is open, so users can submit features and updates that would improve the app.",
+  "contact": "enquiries@insytful.com",
+  "features": "Scan your website, intranet, and microsite web pages and documents against WCAG. With Insytful, you can find missing alt text, insufficient colour contrast ratio, inaccessible PDFs and more. Benefit from automated tests, manual checks and best practices using Axe Core. Get started for free, simply insert your URL to be notified of your website's results.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Zengenti Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-26T11:56:51.503Z",
+  "submission_ref": "c3f983f0-f438-11ef-b3cc-630acf14d5f6",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Insytful",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://www.insytful.com/"
+}

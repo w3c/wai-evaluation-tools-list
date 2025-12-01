@@ -7,13 +7,13 @@
     "complete": 29,
     "partial": 1,
     "inconsistent": 6,
-    "untested": 0
+    "untested": 1
   },
   "proposedRules": {
     "complete": 4,
     "partial": 13,
     "inconsistent": 7,
-    "untested": 27
+    "untested": 26
   },
   "actRuleMapping": [
     {
@@ -10547,6 +10547,15 @@
       ]
     },
     {
+      "ruleId": "2t702h",
+      "ruleName": "Summary element has non-empty accessible name",
+      "ruleApproved": true,
+      "procedureNames": [],
+      "consistency": null,
+      "coverage": null,
+      "testCaseResults": []
+    },
+    {
       "ruleId": "ff89c9",
       "ruleName": "ARIA required context role",
       "ruleApproved": false,
@@ -15872,15 +15881,6 @@
     {
       "ruleId": "ffbc54",
       "ruleName": "No keyboard shortcut uses only printable characters",
-      "ruleApproved": false,
-      "procedureNames": [],
-      "consistency": null,
-      "coverage": null,
-      "testCaseResults": []
-    },
-    {
-      "ruleId": "2t702h",
-      "ruleName": "Summary element has non-empty accessible name",
       "ruleApproved": false,
       "procedureNames": [],
       "consistency": null,
