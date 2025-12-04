@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "dev@belenka.com",
+  "features": "be-a11y is a Node.js-based CLI tool designed for automated evaluation and reporting of accessibility issues in HTML-based projects. It supports both local directory scanning and remote URL analysis to help developers identify common accessibility problems.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "BeLenka",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-06-06T07:37:43.432Z",
+  "submission_ref": "21e92880-42a9-11f0-a345-99dee62fa228",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "be-a11y",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/be-lenka/be-a11y"
+}

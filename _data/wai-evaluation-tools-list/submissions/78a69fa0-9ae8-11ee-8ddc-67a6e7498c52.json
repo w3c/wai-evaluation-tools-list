@@ -13,11 +13,13 @@
     "Restricted or password protected pages"
   ],
   "browsers": [
-    "Chrome"
+    "Chrome",
+    "Firefox",
+    "Edge"
   ],
   "comments": "",
   "contact": "natalie.maclees@nsquared.io",
-  "features": "AAArdvark streamlines web accessibility testing and audits with features like automated issue scanning, visual view of accessibility issues, efficient logging of issues found in manual testing, remediation management, and comprehensive reporting and tracking. Everything digital professionals need for achieving accessibility compliance in one tool.",
+  "features": "AAArdvark is an accessibility testing tool that streamlines audits with automated issue scanning, a visual view of issues, manual testing support, remediation tracking, and comprehensive reporting. Everything digital professionals need for achieving accessibility compliance in one tool.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -30,9 +32,7 @@
   ],
   "license": [
     "Limited free functionality",
-    "Subscription",
-    "One-time purchase",
-    ""
+    "Subscription"
   ],
   "product": [
     "Website"
@@ -57,6 +57,6 @@
     "Online tool",
     "CMS plugin"
   ],
-  "update": "2023-12-15",
+  "update": "2025-06-02",
   "website": "https://aaardvarkaccessibility.com/"
 }
