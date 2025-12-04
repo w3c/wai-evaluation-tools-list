@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "AI Coloring Book is an innovative and creative tool that transforms images and photos into beautiful, printable coloring pages using advanced AI technology. The tool offers an excellent user experience with both free and premium features. Whether you're looking for a fun creative outlet or a meaningful way to engage with digital content, AI Coloring Book delivers remarkable functionality. The platform's ability to handle diverse image sources - from personal photos to entertainment media - makes it highly versatile. I strongly recommend AI Coloring Book (https://coloringbook.vip) to anyone seeking a unique and accessible creative tool that combines technology with artistic expression.",
+  "contact": "support@coloringbook.vip",
+  "features": "AI Coloring Book is an AI-powered tool that generates customized coloring pages from photos or text. Users can transform images into printable coloring pages with optional commercial licensing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Cyanora",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-12-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-04T08:43:08.346Z",
+  "submission_ref": "421c41a0-d0ed-11f0-8dcf-cd1a5a98a964",
+  "title": "AI Coloring Book",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://coloringbook.vip"
+}
