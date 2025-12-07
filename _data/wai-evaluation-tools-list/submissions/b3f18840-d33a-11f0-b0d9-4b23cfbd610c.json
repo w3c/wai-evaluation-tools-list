@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "email@babyvideo.ai",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "BabyVideo.ai is an AI-powered baby video generator that helps parents and creators transform photos into adorable baby videos. Instantly generate future baby predictions, baby grow-up time-lapse videos, cartoon baby animations, and more with high-quality AI models.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI baby video",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-07T07:02:32.900Z",
+  "submission_ref": "b3f18840-d33a-11f0-b0d9-4b23cfbd610c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AI Baby Video",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://babyvideo.ai/"
+}
