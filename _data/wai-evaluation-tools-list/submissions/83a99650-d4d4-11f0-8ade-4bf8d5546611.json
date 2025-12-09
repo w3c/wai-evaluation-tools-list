@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://pawooz.com",
+  "actrules": "https://pawooz.com",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "Support@pawooz.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Shop Pawooz® for cozy pet beds, cooling mats, and grooming tools designed for dogs and cats. Comfort meets style — perfect for every season. Visit Pawooz.com to find your pet’s favorite spot.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Pawooz",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-09T07:56:05.557Z",
+  "submission_ref": "83a99650-d4d4-11f0-8ade-4bf8d5546611",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Pet Supplies E-Commerce",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://pawooz.com"
+}
