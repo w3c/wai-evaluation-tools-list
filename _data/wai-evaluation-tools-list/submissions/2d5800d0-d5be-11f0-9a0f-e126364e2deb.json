@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "wang.xing.me@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Banana Prompts offers a clean, thoughtfully organized gallery made for anyone creating with Nano Banana. Every prompt comes with a standout image and a clear title, making exploration feel effortless. Browse flowing visual grids, filter by styles and moods, or quickly search for something specific.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Banana Prompts",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-10T11:48:42.973Z",
+  "submission_ref": "2d5800d0-d5be-11f0-9a0f-e126364e2deb",
+  "title": "Banana Prompts",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://bananaprompts.fun/"
+}
