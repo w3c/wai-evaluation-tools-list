@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "It can indicates English and Korean, in addition to Japanese. But I could not add these languages  because the \"Add language\" button did not work on this form.",
+  "contact": "ymrl@ymrl.net",
+  "desktop": [
+    "Android",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Accessibility Visualizer is a browser extension that shows many information about accessibility – statuses, attributes, cautions, etc. It can also show live region changes, it simulates how screen reader users perceive them.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ymrl",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-04-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-11T10:43:36.904Z",
+  "submission_ref": "3f8eec80-d67e-11f0-acf2-e9f24c0974b3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessibility Visualizer",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://ymrl.github.io/a11y-visualizer/"
+}
