@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://x.com/wangrui69490224",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "1028960576@qq.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "AI Story Generator is a FREE tool designed to help spark ideas and structure your narrative. Whether you're facing writer's block or simply looking for creative inspiration, it can assist you in building compelling stories with ease.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Personal ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-11T08:40:59.804Z",
+  "submission_ref": "1e628dc0-d66d-11f0-b96b-cd085047248e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AI story generation",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://storiesgenerator.org/"
+}
