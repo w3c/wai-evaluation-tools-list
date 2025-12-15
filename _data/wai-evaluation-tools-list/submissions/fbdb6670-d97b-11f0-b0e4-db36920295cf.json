@@ -1,0 +1,73 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "getoppty@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "getoppty is a fast, clean, and lightweight job discovery platform that helps job seekers explore opportunities from trusted companies across India. We collect job postings from official employer websites and summarize them so that users can quickly understand the role before applying.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "self",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-12-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-15T06:04:57.815Z",
+  "submission_ref": "fbdb6670-d97b-11f0-b0e4-db36920295cf",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "getoppty",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://getoppty.com"
+}
