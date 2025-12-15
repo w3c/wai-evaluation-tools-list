@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "manianthileepanjr@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "The webapp gets information of their preferred genre, style and format and provides with a perfect choice of movie or tv show they can watch from the stored database.  ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "personal ",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-15T07:21:34.273Z",
+  "submission_ref": "af8f3b10-d986-11f0-b616-bbd4ed817e12",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Pick a movie",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://localhost:5500"
+}
