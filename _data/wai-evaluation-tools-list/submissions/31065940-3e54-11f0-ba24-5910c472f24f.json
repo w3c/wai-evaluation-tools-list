@@ -24,7 +24,7 @@
     "Windows",
     "MacOS"
   ],
-  "features": "Tabnav Monitor simulates real user interactions to detect accessibility issues. It scans across different screen sizes—both desktop and mobile—and provides detailed WCAG reports. A free package is available to get started.",
+  "features": "Tabnav Monitor scans your site for code-level accessibility issues. It scans across different screen sizes — both desktop and mobile — and provides detailed WCAG reports. A free package is available to get started.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -45,7 +45,6 @@
   "publish-permission": "on",
   "purpose": [
     "Automated testing",
-    "Simulated user experience"
   ],
   "readterms": "on",
   "release": "2025-05-01",
