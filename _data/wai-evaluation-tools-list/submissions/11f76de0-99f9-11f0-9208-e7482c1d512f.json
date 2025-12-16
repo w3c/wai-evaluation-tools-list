@@ -17,7 +17,7 @@
     "Linux",
     "Other"
   ],
-  "features": "AxY Site Scanner performs automated WCAG 2.1 AA / EN 301 549 audits across 50+ criteria, detecting and classifying accessibility issues. It scans the entire site and generates detailed reports with remediation references, manual testing checklists, AGID self-assessment, and Accessibility Statements.",
+  "features": "AxY Site Scanner performs automated WCAG 2.1 AA / EN 301 549 audits, detecting and classifying accessibility issues. It scans the entire site and generates detailed reports with remediation references, AGID self-assessment, and Accessibility Statements.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
@@ -37,8 +37,7 @@
   "provider": "Iurie Majeru",
   "publish-permission": "on",
   "purpose": [
-    "Automated testing",
-    "Manual testing"
+    "Automated testing"
   ],
   "readterms": "on",
   "release": "2025-02-10",
