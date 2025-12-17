@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.einvoicegenerator.com/",
+  "actrules": "https://www.einvoicegenerator.com/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "Create professional invoices instantly — free, fast, and customizable. eInvoice makes billing effortless.",
+  "contact": "elnvoice42@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "eInvoice is a free online invoicing tool that helps freelancers, small businesses, and enterprises create professional invoices in seconds. Download or share your invoices instantly — no sign-up required. Simple, secure, and smart invoicing made for everyone.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "eInvoice",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-17T14:59:59.442Z",
+  "submission_ref": "0ebe7320-db59-11f0-aa5c-f9b789c41d22",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "eInvoice ",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.einvoicegenerator.com/"
+}
