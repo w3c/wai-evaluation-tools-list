@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Tabnav Monitor is part of a broader accessibility solution including an AI widget and a free WCAG learning platform. We're committed to aligning with W3C standards and actively updating based on community feedback. We welcome any suggestions to improve our submission.",
+  "contact": "info@tabnav.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Tabnav Monitor scans your site for code-level accessibility issues. It scans across different screen sizes — both desktop and mobile — and provides detailed WCAG reports. A free package is available to get started.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TABNAV",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-31T19:19:36.916Z",
+  "submission_ref": "31065940-3e54-11f0-ba24-5910c472f24f",
+  "title": "TABNAV WCAG monitor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tabnav.com/accessibility-monitor"
+}

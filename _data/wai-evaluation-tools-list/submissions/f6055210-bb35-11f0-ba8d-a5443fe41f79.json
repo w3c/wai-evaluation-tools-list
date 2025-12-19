@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "pauladam@pauljadam.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "a11yTools is a collection of HTML Web Accessibility Testing Tools in one location in a Safari Extension used for quick and easy Accessibility testing. Run your favorite Accessibility testing tool and then take a screenshot showing the a11y error to developers and designers. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PaulJAdam.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2018-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-06T17:28:08.369Z",
+  "submission_ref": "f6055210-bb35-11f0-ba8d-a5443fe41f79",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "a11yTools Extension for Safari macOS",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://apps.apple.com/us/app/a11ytools-web-accessibility/id1364813335?mt=12"
+}

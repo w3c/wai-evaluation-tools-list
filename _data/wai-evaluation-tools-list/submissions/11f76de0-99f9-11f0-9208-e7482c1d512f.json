@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "This tool was developed to support public and private entities in achieving compliance with Italian accessibility regulations (D.Lgs. 82/2022). Its verification methodologies are strictly aligned with WCAG 2.1/2.2 standards and, as they are based on the EN 301 549 requirements of the European Accessibility Act (EAA), the tool is relevant and usable for accessibility requirements in all European Union countries. Please note that the 'ACT Rules (URL)' field was not completed because we do not use a formally published ACT ruleset in the W3C format, but an custom verification protocol.",
+  "contact": "iuriemajeru@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AxY Site Scanner performs automated WCAG 2.1 AA / EN 301 549 audits, detecting and classifying accessibility issues. It scans the entire site and generates detailed reports with remediation references, AGID self-assessment, and Accessibility Statements.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Iurie Majeru",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-25T10:19:07.582Z",
+  "submission_ref": "11f76de0-99f9-11f0-9208-e7482c1d512f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AxY Site Scanner",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.axyscan.it/axyscan/"
+}

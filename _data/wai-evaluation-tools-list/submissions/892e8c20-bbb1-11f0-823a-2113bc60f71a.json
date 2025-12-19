@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "The tool does not require any sign-up or gather any forms of user data. It is designed for accessibility evaluation purposes only. The scan results are also not stored and will be lost once the page is closed or reloaded. ",
+  "contact": "info@webyes.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Accessibility Checker Chrome extension allows users to check and identify accessibility issues on a webpage directly from their Chrome browser. This tool allows users to identify the elements that do not conform to WCAG 2.0, 2.1, and 2.2 level A, AA, and AAA. \r\n\r\nThe tools also allow you to check the focus orders, alt text and heading hierarchy.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WebYes",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-07T08:12:43.362Z",
+  "submission_ref": "892e8c20-bbb1-11f0-823a-2113bc60f71a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Checker Chrome Extension",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/accessibility-checker-by/nidjdackonjofdcclfbdcapbkgghcdjf"
+}

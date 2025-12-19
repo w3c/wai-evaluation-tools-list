@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "The free Tabnav Accessibility Checker is part of a broader accessibility solution, including an AI accessibility widget and a free WCAG learning platform. The tool follows W3C standards and is continuously refined based on user and community feedback.",
+  "contact": "info@tabnav.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Free web-based accessibility checker that scans any URL using automated testing. It identifies accessibility issues, explains each finding in clear language, and provides suggested fixes to help teams detect and understand accessibility barriers on web pages using common desktop browsers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Tabnav",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-16T12:25:15.562Z",
+  "submission_ref": "46b508a0-da7a-11f0-bc1e-b9f193fb48d5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Tabnav Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tabnav.com/accessibility-checker"
+}

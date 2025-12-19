@@ -11,8 +11,7 @@ permalink: /test-evaluate/tools/submit-a-tool/
 ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
 acknowledgements: /teach-advocate/evaluation-tools-list/acknowledgements/
-description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/wai-evaluation-tools-list/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this reource)
+sidebar: false
 ---
 <!-- markdownlint-disable no-inline-html -->
 
