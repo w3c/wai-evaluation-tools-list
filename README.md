@@ -2,7 +2,7 @@
 
 ## Continuous Deployment
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef0441b4-e316-47ea-9961-e769a5c4407e/deploy-status)](https://app.netlify.com/sites/wai-evaluation-tools-list/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8ed35390-4938-4eba-8b6d-14d03eddc216/deploy-status)](https://app.netlify.com/projects/wai-evaluation-tools-list/deploys)
 
 [Preview](https://master--wai-evaluation-tools-list.netlify.app/test-evaluate/tools/list/)
 
