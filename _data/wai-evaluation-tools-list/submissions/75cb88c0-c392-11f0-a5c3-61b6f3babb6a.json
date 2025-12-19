@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "The tool defaults to Norwegian. To change the language, navigate to Innstillinger > Språk.",
+  "contact": "till.halbach@nr.no",
+  "features": "The Multi-Color Contrast Checker (M3C) helps with the selection of palettes (color combinations) with good contrasts among the colors, based on the Web Content Accessibility Guidelines, WCAG. It also supports the simulation of color blindness.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Norsk Regnesentral",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-07-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-17T08:50:25.740Z",
+  "submission_ref": "75cb88c0-c392-11f0-a5c3-61b6f3babb6a",
+  "title": "Multi-Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://norskregnesentral.github.io/m3c/"
+}
