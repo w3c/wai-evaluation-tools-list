@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "jack@absolute-websites.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "This contrast checker allows you to add your brand colours, in a background and text field. The results show a preview of what they look like and provides a contrast ratio which is checked against WCAG guidelines, giving you a score and letting you know if you pass or fail different WCAG measures.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Absolute Websites",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-27T07:52:06.292Z",
+  "submission_ref": "d5496540-b309-11f0-acbe-6fd13639f095",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AW Colour Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.absolute-websites.com/contrast-checker/"
+}
