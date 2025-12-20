@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://mobilis.dz/",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "MEILLIEURE EXPERIENCE",
+  "contact": "sisahlt3@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "utiliser pour tester accesibilit2 DU SITE",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "mmto",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-20T19:42:48.023Z",
+  "submission_ref": "100bae70-dddc-11f0-844d-7bd12fa58cb4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "gl",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://mobilis.dz/"
+}
