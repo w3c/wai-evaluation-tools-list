@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "businesshow123@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "features": "Free AI Video Generator with Sora 2 - Create Realistic Videos Instantly\r\nGenerate physics-accurate, cinema-quality videos with synchronized audio from text. Professional results in 2-5 minutes. Start with 10 free credits - no credit card needed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "business",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-22T06:40:26.232Z",
+  "submission_ref": "19624f80-df01-11f0-b274-69051d517bc1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB"
+  ],
+  "title": "aisora2.com",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://aisora2.com/"
+}
