@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "\"Barrieretest.at\" is still in early stages, and the LLM-based analysis is consistently being improved by adding better prompts and using better models, as they become available.\r\n\r\nIn the future, the tool will also add optional LLM-based improvements if the user requests help with implementing fixes to the problems the automated tests find.",
+  "contact": "barrieretest@solasit.at",
+  "features": "\"Barrieretest.at\" is a tool targeting the Austrian market for quick, automated accessibility testing. It calculates a score based on automated testing with pa11y, and provides additional results through an LLM-based site analysis, checking for things that automated tools usually miss.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Solasit e.U.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-30T17:59:55.208Z",
+  "submission_ref": "607fb570-ce16-11f0-9881-bdcc3c12eeb5",
+  "title": "Barrieretest.at",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://barrieretest.at"
+}
