@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://imagebyqwen.com/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "businesshow123@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Qwen Image is the most advanced AI photo generator that transforms your ideas into stunning, photorealistic images using cutting-edge Qwen models.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "imagebyqwen.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-08-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-23T19:11:17.366Z",
+  "submission_ref": "285d9160-e033-11f0-94e1-f3a9bf99c37a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Microsoft Office documents",
+    "SMIL"
+  ],
+  "title": "imagebyqwen.com",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://imagebyqwen.com/"
+}
