@@ -1,0 +1,66 @@
+{
+  "a11yloc": "https://wan2-6.org/",
+  "actrules": "https://wan2-6.org/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "xinhuokeji668@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "features": "Wan 2.6 AI Video Generator for Multi-Shot Stories\r\nWan 2.6 creates 9:16, 16:9, or 1:1 videos with steady faces, ref voices, and synced audio.\r\n\r\nWan 2.6 generate your video now\r\nPreview is muted. Your Wan 2.6 video with native audio will replace it once ready.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "wan2-6.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-24T17:10:23.436Z",
+  "submission_ref": "6f1970c0-e0eb-11f0-b949-4f85e8877c84",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB"
+  ],
+  "title": "wan2-6.org",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://wan2-6.org/"
+}
