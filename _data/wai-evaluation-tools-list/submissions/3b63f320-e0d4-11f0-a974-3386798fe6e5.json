@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://nano-bananaai.org/",
+  "actrules": "https://nano-bananaai.org/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "guowuzong7@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Nano Banana\r\nNano Banana's advanced AI model delivers consistent character editing and scene preservation that surpasses Flux Kontext.\r\n\r\nChoose Nano Banana to experience the future of AI image editing with simple text prompts.\r\n\r\nTry Nano Banana\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "nano-bananaai.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-24T14:24:18.258Z",
+  "submission_ref": "3b63f320-e0d4-11f0-a974-3386798fe6e5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "Microsoft Office documents",
+    "SMIL"
+  ],
+  "title": "nano-bananaai.org",
+  "type": [
+    "Desktop application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://nano-bananaai.org/"
+}
