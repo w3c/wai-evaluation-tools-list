@@ -1,0 +1,77 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "hello@weaccess.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Web accessibility reporting (Insight) uses AI-powered analysis based on WCAG 2.2 to scan your website, assign an accessibility score, and report issues (such as headings, alt text, contrast, etc.). It provides improvement recommendations and enables sustainable accessibility through regular analyses.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WeAccess.Ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2019-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-24T13:11:34.189Z",
+  "submission_ref": "1233ddd0-e0ca-11f0-a563-05270d131d80",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "WeAccess.Ai  Web Accessibility Checker",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "CMS plugin"
+  ],
+  "website": "https://www.weaccess.ai/accessibility-checker"
+}
