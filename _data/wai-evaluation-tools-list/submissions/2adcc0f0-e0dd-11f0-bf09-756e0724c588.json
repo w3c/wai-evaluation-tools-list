@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "maliktempmail4u@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "TempMail4u – Free Temporary Email Service\r\n\r\nTempMail4u lets you generate instant, disposable email addresses to protect your privacy online.\r\n Use it for sign-ups, free trials, or app testing without exposing your real inbox. Our service is\r\n fast, secure, and 100% free, helping you block spam and stay anonymous anytime.\r\n\r\n👉 Try it now: https://tempma",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Tempmail4u",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-24T15:28:15.999Z",
+  "submission_ref": "2adcc0f0-e0dd-11f0-bf09-756e0724c588",
+  "technology": [
+    "Open Document Format (ODF)"
+  ],
+  "title": "Tempmail4u",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tempmail4u.com/"
+}
