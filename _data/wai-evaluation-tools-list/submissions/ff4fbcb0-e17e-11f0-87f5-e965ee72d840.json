@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "sarperarikan@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AccessiMind is an AI‑powered accessibility assistant for VS Code that provides real‑time WCAG 2.2 analysis and ARIA validation. It automatically flags accessibility issues in source code, offers explanations and guidance, and generates reports to help developers build inclusive web and mobile projects.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Sarper Arıkan",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-25T10:46:41.403Z",
+  "submission_ref": "ff4fbcb0-e17e-11f0-87f5-e965ee72d840",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "AccessiMind",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://marketplace.visualstudio.com/items?itemName=sarperarikan.accessimind"
+}
