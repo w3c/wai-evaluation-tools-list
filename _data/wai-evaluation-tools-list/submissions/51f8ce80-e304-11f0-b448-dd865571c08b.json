@@ -1,0 +1,74 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "guowuzong7@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Other"
+  ],
+  "features": "Seedream 4.0\r\nAI Image Studio\r\nTransform your ideas into stunning images with cutting-edge AI technology.\r\nCreate professional visuals in seconds—no design skills needed.\r\n\r\nLightning Fast\r\nHigh Quality\r\nEasy to Use",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "seedream4.me",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-27T09:13:34.312Z",
+  "submission_ref": "51f8ce80-e304-11f0-b448-dd865571c08b",
+  "technology": [
+    "HTML / XHTML",
+    "EPUB"
+  ],
+  "title": "seedream4.me",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://seedream4.me/"
+}
