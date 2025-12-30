@@ -1,0 +1,42 @@
+{
+  "a11yloc": "https://buzzbronco.com/accessibility_statement/",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "ghazal@buzzbronco.com",
+  "features": "Color contrast checker that compares foreground and background colors, calculates WCAG AA/AAA compliance, and provides clear pass/fail results.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "BuzzBronco",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-05T21:32:04.617Z",
+  "submission_ref": "c44b0790-8a9f-11f0-b0a1-6f1fae41fe19",
+  "title": "Real-time color contrast checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://buzzbronco.com/contrast-checker/"
+}
