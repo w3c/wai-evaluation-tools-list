@@ -14,14 +14,8 @@ last_updated: 2025-12-19   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
-github:
-  repository: w3c/wai-evaluation-tools-list
-  path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /test-evaluate/tools/list/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /teach-advocate/list-of-evaluation-tools/   # Do not change this
-
-description:  # NEW: add a 150ish-character-description for social media   # translate the description
-# image: /content-images/list-of-evaluation-tools/social.png  # NEW: image for social media (leave commented out if we don't have a specific one for this resource)
 
 sidebar: false
 ---
