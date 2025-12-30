@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "deepknit.social@gmail.com",
+  "features": "DeepKnit AI offers reliable and scalable AI solutions that enable organizations to grow in an increasingly data-driven and automated world. And together, we are not just keeping up with the future, but striving in reshaping it for the better.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "DeepKnit AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-12-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-12-30T08:18:09.964Z",
+  "submission_ref": "13becec0-e558-11f0-8c8c-1b9a5ee58b16",
+  "title": "DeepKnit AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.deepknit.ai/"
+}
