@@ -8,9 +8,9 @@
 # Site settings
 title: "Web Accessibility Initiative (WAI)"
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
-baseurl: "/test-evaluate/tools/list" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://w3c.github.io" # the base hostname & protocol for your site
 author: w3c_wai
 exclude:
@@ -39,16 +39,10 @@ defaults:
       path: ""
     values:
       layout: default
+      github:
+        repository: w3c/wai-evaluation-tools-list
+        branch: main
       footer: >
          <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023. First published in March 2006.</p>
          <p><strong>Latest editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainer:</strong> José Ramón Hilera González. <a href="https://www.w3.org/WAI/ER/tools/acknowledgements">Acknowledgements</a> lists contributors and previous editors, including <a href="https://www.w3.org/groups/wg/eowg/participants/">EOWG participants</a>, Eric Eggert, and Shadi Abou-Zahra.</p>
          <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) Developed with support from the <a href="https://www.w3.org/WAI/TIES/">WAI-TIES Project</a> in 2006, updated with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a> in 2014, and revised in 2023 as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
-
-plugins:
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - wai-website-plugin

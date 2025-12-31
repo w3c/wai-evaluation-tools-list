@@ -2,11 +2,9 @@
 
 source 'https://rubygems.org'
 
-# Use a GitHub-hosted theme
-gem 'jekyll-remote-theme', '~>0.4.3'
-
-# The theme of the site
-gem 'wai-website-theme', '~>1.10'
-
-# Required by wai-website-plugin
-gem "nokogiri", '~>1.19.0'
+# Gems loaded irrespective of site configuration.
+group :jekyll_plugins do
+    gem 'jekyll-remote-theme', '~>0.4.3'     # Use a GitHub-hosted theme
+    gem 'wai-website-theme', git: 'https://github.com/w3c/wai-website-theme', branch: 'main' # The theme of the site
+    gem 'wai-website-plugin', git: 'https://github.com/w3c/wai-website-plugin', branch: 'v2026' # The Jekyll plugins needed by the theme
+end

@@ -1,22 +1,11 @@
 ---
-# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
-# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 title: "Web Accessibility Evaluation Tools List"
 title_html: "Web Accessibility Evaluation Tools List" 
 nav_title: "Web Accessibility Evaluation Tools List"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2025-12-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
-
-permalink: /test-evaluate/tools/list/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
-ref: /teach-advocate/list-of-evaluation-tools/   # Do not change this
-
+lang: en
+last_updated: 2025-12-19
+permalink: /test-evaluate/tools/list/
+ref: /teach-advocate/list-of-evaluation-tools/
 sidebar: false
 ---
 
