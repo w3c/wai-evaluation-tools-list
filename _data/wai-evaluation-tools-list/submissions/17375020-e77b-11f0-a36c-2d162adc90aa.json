@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "support@metasummon.com",
+  "features": "Generate high-quality images with Nano Banana Pro (Gemini 3 Pro Image) and create videos with Sora 2.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Meta Summon",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-10-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-02T01:33:50.498Z",
+  "submission_ref": "17375020-e77b-11f0-a36c-2d162adc90aa",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Meta Summon",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://metasummon.com"
+}
