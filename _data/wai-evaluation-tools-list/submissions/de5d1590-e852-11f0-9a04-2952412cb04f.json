@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "mlfengxy@gmail.com",
+  "features": "Generate stunning AI travel photos of yourself at world-famous destinations. Instagram-ready content with professional captions—no actual travel required. Try free!\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "mlfengxy@gmail.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-03T03:18:26.409Z",
+  "submission_ref": "de5d1590-e852-11f0-9a04-2952412cb04f",
+  "title": "Generate stunning AI travel photos of yourself at world-famous destinations. Instagram-ready content with professional captions—no actual travel required. Try free!",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://www.travelphotos.art/"
+}
