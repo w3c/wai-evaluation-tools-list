@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "lachlanjamesgrey@outlook.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Accessibility Scanner is a secure desktop tool using Puppeteer and axe-core to audit full sites, capture authenticated user journeys, handle dynamic content, and generate detailed interactive reports - all locally, with an accessible interface for inclusive testing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lachlan Thompson",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-04T15:51:05.707Z",
+  "submission_ref": "2dd0dbb0-e985-11f0-84be-0b241119b8f8",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "A11y Scanner ",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://lachie1999.itch.io/a11y-scanner"
+}
