@@ -8,12 +8,10 @@
 # Site settings
 title: "Web Accessibility Initiative (WAI)"
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
-baseurl: "/wai-evaluation-tools-list" # the subpath of your site, e.g. /blog
-url: "https://w3c.github.io" # the base hostname & protocol for your site
-twitter:
-  username: w3c_wai
+baseurl: "/wai-evaluation-tools-list" # the subpath of your site (for GitHub Pages)
+url: "https://w3c.github.io" # the base hostname & protocol for your site (for GitHub Pages)
 author: w3c_wai
 exclude:
   - "_external"
@@ -21,17 +19,19 @@ exclude:
   - "Gemfile.lock"
   - "README.md"
   - "w3c.json"
+  - "node_modules"
+repository: w3c/wai-evaluation-tools-list
+branch: master
 
 # Build settings
 markdown: kramdown
-kramwdown:
+kramdown:
   toc_levels: 2..3
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
-repository: w3c/wai-evaluation-tools-list
 
-remote_theme: w3c/wai-website-theme
+theme: wai-website-theme
 
 defaults:
   -
@@ -39,23 +39,10 @@ defaults:
       path: ""
     values:
       layout: default
-      standalone_resource_doc_name: List of Evaluation Tools
+      github:
+        repository: w3c/wai-evaluation-tools-list
+        branch: master
       footer: >
          <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023. First published in March 2006.</p>
          <p><strong>Latest editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainer:</strong> José Ramón Hilera González. <a href="https://www.w3.org/WAI/ER/tools/acknowledgements">Acknowledgements</a> lists contributors and previous editors, including <a href="https://www.w3.org/groups/wg/eowg/participants/">EOWG participants</a>, Eric Eggert, and Shadi Abou-Zahra.</p>
          <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) Developed with support from the <a href="https://www.w3.org/WAI/TIES/">WAI-TIES Project</a> in 2006, updated with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a> in 2014, and revised in 2023 as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
-         
-#  -
-#    scope:
-#      path: "_business-case"
-#    values:
-#      layout: "sidenav"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - wai-website-plugin

@@ -1,5 +1,5 @@
-# Github action triggered as webhook from a netlify function
-# NB!!!! this MUST be on the branch set as GitHub's default if it is to be triggered
+# GitHub action triggered as webhook from a Netlify function
+# NB: this MUST be on the branch set as GitHub's default if it is to be triggered
 
 name: Process Form Submission
 
@@ -12,16 +12,16 @@ jobs:
     name: Process Form
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
+      - name: Checkout the repository
+        uses: actions/checkout@v6
       - name: Add new file to workspace
         run: "jq '.client_payload.form' $GITHUB_EVENT_PATH > _data/$REPOSITORY/submissions/$SUBMISSION_REF.json"
         env:
           SUBMISSION_REF: ${{ github.event.client_payload.form.submission_ref }}
           REPOSITORY: ${{ github.event.client_payload.form.repository }}
-      - name: Create Pull Request
+      - name: Create the pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: Add form submission
           committer: GitHub <noreply@github.com>
