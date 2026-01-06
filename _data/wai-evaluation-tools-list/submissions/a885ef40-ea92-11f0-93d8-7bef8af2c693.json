@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "App works on both iOS and macOS ",
+  "contact": "padam2k@gmail.com",
+  "desktop": [
+    "iOS",
+    "MacOS"
+  ],
+  "features": "Check contrast instantly.\r\nTest foreground and background colors against WCAG 2.2 standards. See pass/fail for normal text and large text with clear grade labels (AA/AAA). \r\nPick accessible palettes. \r\nExplore color combinations that meet accessibility guidelines. \r\nStart from your brand color and find accessible pairings in seconds.\r\niOS and macOS.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "PaulJAdam.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-06T00:00:06.197Z",
+  "submission_ref": "a885ef40-ea92-11f0-93d8-7bef8af2c693",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Contrast Tester for WCAG A11y",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://apps.apple.com/us/app/contrast-tester-for-wcag-a11y/id6755570030"
+}
