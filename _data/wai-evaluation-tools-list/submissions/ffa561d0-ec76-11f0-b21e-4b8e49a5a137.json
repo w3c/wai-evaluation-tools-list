@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Advantages:\r\n     Safe:We're committed to protecting your data and ensuring compliance across all AI applications.\r\n     Simple:We aim to streamline the adoption, integration, and continued use of AI infrastructure.\r\n     Scalable:Our goal is to create infrastructure and applications that grow with their users.",
+  "contact": "backlink@atlascloud.ai",
+  "features": "AtlasCloud.ai is an AI cloud platform hosting 300+ AI models, including Veo 3, Sora 2, Wan 2.5, Nano Banana, and more. It provides unified API access, fast inference powered by GPUs, flexible pricing, and a reliable global infrastructure for building and scaling AI applications.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "on",
+    "Pay per Usage"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Altas Cloud AI LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-04-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-08T09:47:08.781Z",
+  "submission_ref": "ffa561d0-ec76-11f0-b21e-4b8e49a5a137",
+  "title": "Atlas Cloud",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.atlascloud.ai/"
+}
