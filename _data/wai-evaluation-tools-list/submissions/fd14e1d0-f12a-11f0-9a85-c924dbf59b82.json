@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "marketing@metagptx.com",
+  "features": "Atoms is your next‑gen vibe business team in the browser. Built by the team behind MetaGPT and OpenManus, it orchestrates multiple specialized agents, including a researcher, a product manager, an architect, an engineer, an SEO expert, and a data analyst, to turn your idea into a full‑stack, revenue‑ready application. From deep market research and ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "METAGPT LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-14T09:25:38.541Z",
+  "submission_ref": "fd14e1d0-f12a-11f0-9a85-c924dbf59b82",
+  "title": "Atoms",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://atoms.dev/"
+}
