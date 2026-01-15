@@ -3,10 +3,6 @@ title: "Submit a tool - Web Accessibility Evaluation Tools List"
 nav_title: "Submit a tool - Web Accessibility Evaluation Tools List"
 lang: en   
 last_updated: 2023-11-22
-sidebar: false
-github:
-  repository: w3c/wai-evaluation-tools-list
-  path: content/submit-a-tool.md
 permalink: /test-evaluate/tools/submit-a-tool/
 ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
