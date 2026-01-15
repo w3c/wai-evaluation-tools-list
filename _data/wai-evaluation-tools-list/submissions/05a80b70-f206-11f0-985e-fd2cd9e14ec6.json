@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "noreply@authsmith.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Authentication provider. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "authsmith",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-15T11:33:32.711Z",
+  "submission_ref": "05a80b70-f206-11f0-985e-fd2cd9e14ec6",
+  "title": "authsmith",
+  "type": [
+    "Server-side integration"
+  ],
+  "website": "https://authsmith.org"
+}
