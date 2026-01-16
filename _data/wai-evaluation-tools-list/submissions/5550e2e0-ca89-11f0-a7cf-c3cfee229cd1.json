@@ -12,7 +12,7 @@
   ],
   "comments": "",
   "contact": "j.labudda@dock.codes",
-  "features": "WCAG accessibility checker is a free tool that performs automated WCAG 2.1 A/AA audits for websites and web applications. It provides detailed reports, clear remediation guidance, manual verification features, and API integration for CI/CD pipelines.",
+  "features": "Dock accessibility checker performs automated WCAG 2.1 A/AA audits for websites and web applications. It provides detailed reports, clear remediation guidance, manual verification features, and API integration for CI/CD pipelines.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
