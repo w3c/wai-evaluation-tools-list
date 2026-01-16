@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "acme@example.org",
+  "features": "Tool",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "co"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Acme",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-16T00:17:29.252Z",
+  "submission_ref": "be5d2640-f270-11f0-be54-797a3201c184",
+  "technology": [
+    "CSS"
+  ],
+  "title": "Test tool",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.w3.org/WAI"
+}
