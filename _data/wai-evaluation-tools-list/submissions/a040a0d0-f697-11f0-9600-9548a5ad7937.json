@@ -1,0 +1,77 @@
+{
+  "a11yloc": "https://www.toolesy.com/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Text Replacement Tool - Find and Replace Text Online\r\n\r\nEasily find and replace text in your content with advanced options for case sensitivity, whole words, regular expressions, and more. Perfect for editing and formatting text.\r\n\r\nhttps://www.toolesy.com/text-replacement-tool-find-and-replace-text-online/",
+  "contact": "bleads2@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Text Replacement Tool - Find and Replace Text Online\r\n\r\nEasily find and replace text in your content with advanced options for case sensitivity, whole words, regular expressions, and more. Perfect for editing and formatting text.\r\n\r\nhttps://www.toolesy.com/text-replacement-tool-find-and-replace-text-online/",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Toolesy",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-01-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-21T07:05:53.757Z",
+  "submission_ref": "a040a0d0-f697-11f0-9600-9548a5ad7937",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Text Replacement Tool - Find and Replace Text Online",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.toolesy.com/text-replacement-tool-find-and-replace-text-online/"
+}
