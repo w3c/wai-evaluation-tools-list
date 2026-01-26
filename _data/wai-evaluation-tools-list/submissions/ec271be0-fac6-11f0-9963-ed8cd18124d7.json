@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "Thank you for the valuable work you do in promoting accessible digital experiences worldwide.\r\nWe appreciate the effort behind maintaining and curating these resources, which are extremely helpful for both practitioners and organizations working seriously on accessibility.",
+  "contact": "info@accessibilita.design",
+  "desktop": [
+    "Linux"
+  ],
+  "features": "Audit Access is an accessibility audit tool built for e-commerce. It analyzes the real purchase flow by simulating user navigation, adding products to the cart, and testing checkout and assistive technologies, identifying real accessibilit",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Iride",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-26T14:54:32.095Z",
+  "submission_ref": "ec271be0-fac6-11f0-9963-ed8cd18124d7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AuditAccess",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessibilitadigitale.com/"
+}
