@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "https://www.geniusfirms.com/privacy-policy/",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "sales@geniusfirms.com",
+  "features": "GeniusFirms lets users discover, compare, and choose AI tools and software with ease, offering verified user reviews, expert insights, feature breakdowns, pricing info, side-by-side comparisons, and alternative recommendations for smarter, unbiased decisions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GeniusFirms",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-01-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-30T07:33:09.768Z",
+  "submission_ref": "ed1bd880-fdad-11f0-8e3e-4393caaab670",
+  "title": "GeniusFirms",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.geniusfirms.com/"
+}
