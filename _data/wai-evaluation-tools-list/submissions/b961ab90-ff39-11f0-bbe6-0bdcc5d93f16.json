@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "labs@openmind.im",
+  "features": "Learn with AI Historical Figures: Question, Chat & History Timeline ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://watcha.cn/products/history-echo",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-01T06:46:23.689Z",
+  "submission_ref": "b961ab90-ff39-11f0-bbe6-0bdcc5d93f16",
+  "title": "HistoryEcho AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://historyecho.ai/"
+}
