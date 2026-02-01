@@ -1,0 +1,72 @@
+{
+  "a11yloc": "https://www.thegameroom.org/circle-of-death/",
+  "actrules": "https://www.thegameroom.org/circle-of-death/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "This is very interesting, You are a very skilled blogger.\r\n\r\nI have joined your rss feed and look forward to seeking more of \r\nyour magnificent post. Also, I've shared your website in my social \r\nnetworks!",
+  "contact": "dinanoll512@yahoo.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "AL",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "rw"
+  ],
+  "license": [
+    "Free",
+    "One-time purchase",
+    "on",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code"
+  ],
+  "provider": "SD",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "CA",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-01T17:27:28.711Z",
+  "submission_ref": "48523d70-ff93-11f0-ab7f-137d19c32df2",
+  "technology": [
+    "EPUB",
+    "Microsoft Office documents",
+    "Markdown"
+  ],
+  "title": "",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.thegameroom.org/circle-of-death/"
+}
