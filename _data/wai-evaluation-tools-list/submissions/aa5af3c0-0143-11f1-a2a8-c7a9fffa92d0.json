@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "contact@timexostudios.wuaze.com",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "ThumbNew is a web-based AI tool designed to help YouTube creators generate thumbnail concepts quickly. It focuses on readability, visual contrast, and layout, making it easier to create thumbnails that work well in small preview sizes without requiring design software.\r\nThe tool streamlines the thumbnail creation process by allowing creators to test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Other"
+  ],
+  "provider": "Timexo Studios",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-03T21:02:35.772Z",
+  "submission_ref": "aa5af3c0-0143-11f1-a2a8-c7a9fffa92d0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ThumbNew",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://thumbnew.netlify.app"
+}
