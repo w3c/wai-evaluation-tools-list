@@ -1,0 +1,70 @@
+{
+  "a11yloc": "https://www.thegameroom.org/online-casinos/paysafecard/",
+  "actrules": "https://www.thegameroom.org/online-casinos/paysafecard/",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Firefox",
+    "Other"
+  ],
+  "comments": "Top xxx sites offer secure and premium content for adults.\r\n\r\nDiscover trusted platforms for a quality experience.",
+  "contact": "murraychavarria654@gmail.com",
+  "desktop": [
+    "Windows",
+    "Linux",
+    "Other"
+  ],
+  "features": "DJ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "ay"
+  ],
+  "license": [
+    "Free",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "SC",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "GF",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-08T03:14:09.066Z",
+  "submission_ref": "3bd8a8a0-049c-11f1-ac95-a79317cb112c",
+  "technology": [
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Markdown"
+  ],
+  "title": "",
+  "type": [
+    "Bookmarklet",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.thegameroom.org/online-casinos/paysafecard/"
+}
