@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "zengdafa666@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "A curated, safety-first directory for OpenClaw agent skills—helping users discover, evaluate, and deploy reliable skills without the guesswork.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SomethinMKEFun.co",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-10T09:57:23.468Z",
+  "submission_ref": "e5a8ecc0-0666-11f1-8fa6-519e9c50ba67",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "OpenClaw Skills Directory",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://openclawskills.best/"
+}
