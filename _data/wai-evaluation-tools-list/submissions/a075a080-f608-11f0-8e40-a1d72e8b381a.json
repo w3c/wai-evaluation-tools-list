@@ -1,0 +1,81 @@
+{
+  "a11yloc": "https://reciteme.com/policies/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "lewis.mould@reciteme.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Recite Me Website Accessibility Checker scans your entire website against WCAG 2.2 standards, covering Levels A, AA, and AAA. Clear recommendations and AI-powered auto-fixes can be used to ensure your website aligns with global accessibility legislation, including the EAA, ADA, Section 508, ACA, AODA, DDA, and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Recite Me",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2023-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-20T14:02:16.072Z",
+  "submission_ref": "a075a080-f608-11f0-8e40-a1d72e8b381a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Recite Me Website Accessibility Checker",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://reciteme.com/product/website-accessibility-checker/"
+}
