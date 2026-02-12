@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "testing",
+  "contact": "arya.suman18@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "testing",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "e-hrms",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-12T10:39:57.304Z",
+  "submission_ref": "2cb0df80-07ff-11f1-ba11-657df8155d4f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ehrms_dopt",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://staging.e-hrms.gov.in/home"
+}
