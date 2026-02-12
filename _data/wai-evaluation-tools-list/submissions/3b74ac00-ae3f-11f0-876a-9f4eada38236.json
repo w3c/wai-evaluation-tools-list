@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://www.webyes.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@webyes.com",
+  "features": "Check if your text and background colors meet accessibility standards. Enter or pick your colors, and the tool instantly shows the contrast ratio with WCAG 2.1 AA and AAA pass/fail results. Adjust your colors to ensure your design is readable and accessible for all users.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "WebYes",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-10-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-10-21T05:31:45.216Z",
+  "submission_ref": "3b74ac00-ae3f-11f0-876a-9f4eada38236",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "WebYes Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.webyes.com/product/color-contrast-checker/"
+}
