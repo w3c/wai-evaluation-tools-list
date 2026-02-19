@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "cian@telecomeireann.ie",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Online game",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Roblox",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2006-07-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-19T09:32:10.969Z",
+  "submission_ref": "dddba490-0d75-11f1-9116-33abacf268e1",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Roblox",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://roblox.com"
+}
