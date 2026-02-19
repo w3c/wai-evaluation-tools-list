@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://fitpreview.com/accessibility-checker",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "itpreview focuses specifically on social media image accessibility — a gap no current tool addresses. It checks WCAG color contrast ratios, flags unreadable text, suggests accessible color alternatives, validates alt text, and generates PDF compliance reports.",
+  "contact": "info@fitpreview.com",
+  "features": "fitpreview is an accessibility compliance checker for social media images. It checks WCAG AA/AAA color contrast ratios, detects unreadable text on backgrounds, suggests accessible color combinations, validates alt text, and generates PDF accessibility reports for single or batch images.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "fitpreview",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-19T07:16:56.447Z",
+  "submission_ref": "f939d8f0-0d62-11f1-b4fe-792f39cb1dbe",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "fitpreview",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://fitpreview.com/"
+}
