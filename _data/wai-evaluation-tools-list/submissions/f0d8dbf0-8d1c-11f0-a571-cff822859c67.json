@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://video-audit.com/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "This tool is a unique, free, browser-based solution for testing videos and screen recordings against the WCAG “three flashes or below threshold” criterion. It runs fully online without installation, providing real-time analysis and clear visualizations to help creators ensure accessibility and viewer safety.",
+  "contact": "contact@video-audit.com",
+  "features": "Upload a video or screen recording to check for flashes that may trigger photosensitive epilepsy. The tool analyzes luminance and red ratio changes in real time, shows detailed charts, and flags WCAG violations where flashing exceeds safe thresholds.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Video audit",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-09T01:33:08.783Z",
+  "submission_ref": "f0d8dbf0-8d1c-11f0-a571-cff822859c67",
+  "title": "Video accessibility audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://video-audit.com"
+}
