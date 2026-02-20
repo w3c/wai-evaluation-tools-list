@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "e.longhi@dunp.it",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "The AccessiWeb readability test measures how easy a text is to read and understand according to the four most globally recognized indicators: Flesch–Kincaid, Gunning Fog, SMOG, and Coleman–Liau. This test measures the linguistic complexity of a piece of content by analyzing sentences, words, and the average number of syllables.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "dunp scpl",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-11-03T16:52:48.030Z",
+  "submission_ref": "86f603e0-b8d5-11f0-accb-757cb9b069fc",
+  "title": "Accessiweb readability test",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessiweb.it/test-di-leggibilita"
+}
