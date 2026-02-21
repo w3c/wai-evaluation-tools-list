@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://fantasai.inkedblade.net/style/design/w3c- restyle/2016/sample#indexing\\\"\\u003Eindex",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "gregorchel414@gmail.com",
+  "desktop": [
+    "Android",
+    "Linux"
+  ],
+  "features": "Validation",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "IETF",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-21T09:03:31.802Z",
+  "submission_ref": "31fb13a0-0f04-11f1-9a8e-f51f73b9e068",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Madtool",
+  "type": [
+    "Browser plugin",
+    "Server-side integration",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.w3.org/WAI/ER/existingtools.html'\\u003EAccessibility"
+}
