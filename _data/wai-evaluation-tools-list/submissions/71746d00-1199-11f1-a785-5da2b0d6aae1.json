@@ -1,0 +1,72 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Opera"
+  ],
+  "comments": "Freely available to all digital accessibility professionals. ",
+  "contact": "umut@accessibilitycloud.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Auditor account includes all auditing features (Easy EN 301 549, Live audits, Information sources, Import/Export, Multiple guidelines) and more:\r\nUnlimited testing with no caps on automatic or manual tests\r\n2 sites, so you can start a new project while finishing another\r\n500 pages and 500 documents, each with unlimited test runs\r\nWeekly monitoring",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Accessibility Cloud",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-24T15:56:55.632Z",
+  "submission_ref": "71746d00-1199-11f1-a785-5da2b0d6aae1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Auditor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilitycloud.com/auditor-supporting-accessibility-testers-worldwide/"
+}
