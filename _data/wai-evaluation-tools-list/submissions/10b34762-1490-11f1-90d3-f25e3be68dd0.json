@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://web-accessibility-checker.com/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Web Accessibility Checker is a free tool that scans websites against WCAG 2.1 guidelines and provides actionable fixes. Available in 10 EU languages with instant results and detailed reports.",
+  "contact": "contact@metis-digital.click",
+  "features": "Free WCAG 2.1 accessibility scanner that checks any website against Level A, AA, and AAA criteria. Provides instant results with actionable recommendations, severity ratings, and compliance scores. Supports 10 EU languages. Includes embeddable monitoring widget for continuous accessibility tracking.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "it",
+    "pt",
+    "nl",
+    "pl",
+    "sv",
+    "da"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "METIS Digital",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-28T10:30:00.000Z",
+  "title": "Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2026-02-28",
+  "website": "https://web-accessibility-checker.com"
+}
