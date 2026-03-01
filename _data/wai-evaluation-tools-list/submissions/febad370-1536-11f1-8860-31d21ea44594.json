@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://adhdreading.org/",
+  "actrules": "https://adhdreading.org/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "ADHD Reading is genuinely useful.",
+  "contact": "baiwei.chu@gmail.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "ADHD Reading - ADHD Reading Extension for Better Focus",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "hy"
+  ],
+  "license": [
+    "Subscription",
+    "free"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "tianwei",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-01T06:22:17.127Z",
+  "submission_ref": "febad370-1536-11f1-8860-31d21ea44594",
+  "technology": [
+    "CSS"
+  ],
+  "title": "ADHD Reading",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://adhdreading.org/"
+}
