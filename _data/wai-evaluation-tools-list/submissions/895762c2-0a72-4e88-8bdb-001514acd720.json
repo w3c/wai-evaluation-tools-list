@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://pageguard.org/tools/accessibility-checker",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance",
+    "Monitoring accessibility over time"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "PageGuard is a free website health scanner that checks accessibility (WCAG 2.1 Level A/AA), SEO, performance, and best practices in under 30 seconds. It provides an overall health score with a dedicated accessibility score, identifies specific issues with remediation guidance, and offers automated monitoring with email alerts for score changes.",
+  "contact": "support@pageguard.org",
+  "features": "PageGuard performs automated WCAG 2.1 accessibility checks on websites, returning a 0-100 accessibility score alongside issue details and remediation suggestions. Users can scan any public URL for free without registration. Paid plans (from $9/month) enable automated monitoring of multiple websites with scheduled re-scans and score-change email alerts—particularly valuable for organizations managing ADA Title II compliance before the April 2026 deadline.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PageGuard",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-01T11:30:17.000Z",
+  "submission_ref": "895762c2-0a72-4e88-8bdb-001514acd720",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "title": "PageGuard",
+  "type": [
+    "Online tool"
+  ]
+}
