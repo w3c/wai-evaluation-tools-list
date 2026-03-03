@@ -1,0 +1,79 @@
+{
+  "a11yloc": "https://act-rules.github.io/pages/about",
+  "actrules": "https://act-rules.github.io/pages/about",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "I am still editing final details launch on Friday Thankyou very much ",
+  "contact": "tbarber@lotties-alloance.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "This is a communication model of website and tools included to help those who cannot see, hear or speak and this includes mental health issues and disabilities such as dyslexia, autism, and learners who prefer too learn from image instead of text, we also include educational materials and resource’s while also fighting mental health voicelessness ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Lotties alliance ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-03T23:20:14.962Z",
+  "submission_ref": "88c85520-1757-11f1-8865-c715dd761014",
+  "technology": [
+    "HTML / XHTML",
+    "EPUB",
+    "PDF",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Inclusive tech for everyone ",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://aistudio.google.com/u/3/apps/b7a8e716-8da2-474a-8f9c-0ab53f4a3901?showPreview=true"
+}
