@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "chris@enter.pro",
+  "features": "\"Enter Pro — Your AI Dev Agent for the Vibe Coding Era.\r\nBuild professional apps and websites through natural language — powered by elite templates and built-in cloud integrations. No-code complexity. Professional-grade results. Total full-stack mastery.\"\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Enter Pro",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-10-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-09T12:33:41.799Z",
+  "submission_ref": "34bbeb70-1bb4-11f1-8126-c32e8c925848",
+  "title": "Enter Pro",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://enter.pro/"
+}
