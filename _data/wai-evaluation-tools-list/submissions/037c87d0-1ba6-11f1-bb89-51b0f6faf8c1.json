@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://www.foli.fi/en/s%C3%B6kerdudessa/accessibility-statement",
+  "actrules": "https://www.foli.fi/en/s%C3%B6kerdudessa/accessibility-statement",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "evaishnavy19@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "This is trasport website using for navigation for the routes ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "foli",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-09T10:52:06.222Z",
+  "submission_ref": "037c87d0-1ba6-11f1-bb89-51b0f6faf8c1",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "foli",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://www.foli.fi/en/s%C3%B6kerdudessa/accessibility-statement"
+}
