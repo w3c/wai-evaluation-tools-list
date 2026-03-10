@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "tracy.haywood@austintexas.gov",
+  "features": "provides description of the program name, grant budget, grant periods, and status to the public",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Austin",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-06-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-10T14:28:08.482Z",
+  "submission_ref": "5c025820-1c8d-11f1-8fd8-8f881ed9237f",
+  "title": "grants",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://austin.maps.arcgis.com/apps/dashboards/9c6efd937a8b4bbda942c38a7abdf5e6"
+}
