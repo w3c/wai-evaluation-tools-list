@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "crowd@needmylink.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "NeedMyLink LSI Generator is a free SEO tool that finds related keywords, synonyms, and semantic phrases for better content optimization. It helps create more natural, relevant, and well-structured content, improve topical coverage, avoid keyword stuffing, and support stronger search visibility across different niches and languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NeedMyLink",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-13T11:38:15.159Z",
+  "submission_ref": "1f8df070-1ed1-11f1-9abf-37cf1fd9fc7e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "LSI Generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://needmylink.com/lsi-generator/"
+}
