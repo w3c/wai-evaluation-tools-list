@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "a.colonico@nexum-ai.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "This website serves as the official digital gateway to the Museo Tattile di Catania (The Tactile Museum of Catania), a cultural institution dedicated to making art and heritage accessible through the sense of touch. A key feature of the website is the dedicated booking section.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Nexum-ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-17T10:44:14.756Z",
+  "submission_ref": "3dc6ae40-21ee-11f1-aec3-675d34cb43ca",
+  "title": "Polotattile",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.polotattile.it/"
+}
