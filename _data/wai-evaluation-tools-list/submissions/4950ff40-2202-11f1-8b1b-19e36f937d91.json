@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://youtube.com/@combosfun_ai?si=sqs0bBX7EL5YFpmN",
+  "actrules": "https://youtube.com/@combosfun_ai?si=sqs0bBX7EL5YFpmN",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Create playable games with AI — no coding required.",
+  "contact": "combos.fun1@gmail.com",
+  "features": "Combos Fun - AI Game Dev Agent: from idea to playable game — for anyone.\r\nCombos.fun is a zero-barrier AI game creation platform designed for everyone—no coding or design skills required. Simply describe your idea in natural language, and the platform instantly turns it into a playable game project. With built-in 2D/3D templates, automatic asset gen",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Converage AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-17T13:07:44.052Z",
+  "submission_ref": "4950ff40-2202-11f1-8b1b-19e36f937d91",
+  "title": "Combos",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://combos.fun/"
+}
