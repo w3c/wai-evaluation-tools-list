@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "gamehow84@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Spicy Chat AI (also known as SpicyChat) is Magi1.ai's uncensored AI chat platform for adults. Unlike restricted alternatives, we offer truly unfiltered conversations, immersive roleplay, and intimate AI companionship.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "magi1",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-02-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-18T01:41:00.027Z",
+  "submission_ref": "84377cb0-226b-11f1-bf12-77fddd372033",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "spicy chat ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.magi1.ai/spicy-chat-ai"
+}
