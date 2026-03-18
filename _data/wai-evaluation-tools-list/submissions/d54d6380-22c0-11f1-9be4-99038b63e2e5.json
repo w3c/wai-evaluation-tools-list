@@ -1,0 +1,45 @@
+{
+  "a11yloc": "https://extinde.com/",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "techgd247@gmail.com",
+  "features": "Build Browser Extensions in Minutes with AI",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://extinde.com/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-18T11:51:43.288Z",
+  "submission_ref": "d54d6380-22c0-11f1-9be4-99038b63e2e5",
+  "title": "Extinde",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://extinde.com/"
+}
