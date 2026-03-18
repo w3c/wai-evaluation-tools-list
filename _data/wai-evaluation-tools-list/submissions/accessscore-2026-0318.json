@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "AccessScore is a free, open-source website accessibility checker with ADA legal risk assessment. Available as a web tool, npm CLI (npx accessscore), and GitHub Action (ryuno2525/accessscore-action).",
+  "contact": "ryuno25@gmail.com",
+  "features": "Scans websites for 16 WCAG 2.1 Level A and AA criteria across images, structure, forms, and document metadata. Unique feature: quantifies estimated ADA legal risk exposure based on publicly available lawsuit settlement data. Provides prioritized fix plan with before/after code examples. Available as web scanner, npm CLI, and GitHub Action for CI/CD integration.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessScore",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-18T06:30:00.000Z",
+  "submission_ref": "accessscore-2026-0318",
+  "title": "AccessScore — ADA Accessibility Checker with Legal Risk Assessment",
+  "type": [
+    "Online tool",
+    "Command line tool"
+  ],
+  "update": "2026-03-18",
+  "website": "https://accessscore.autonomous-claude.com"
+}
