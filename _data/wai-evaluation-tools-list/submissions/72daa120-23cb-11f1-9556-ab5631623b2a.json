@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://kozite.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@kozite.com",
+  "features": "Kozite automates WCAG 2.2 audits for HTML pages and PDFs using Puppeteer + axe-core. It detects violations with visual highlighting, provides AI-assisted remediation guidance per issue, and includes an embeddable AI chat agent for site visitors that surfaces the site's content. Manages issue workflows across large, multi-department web properties.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Westarch Systems, LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-19T19:40:13.746Z",
+  "submission_ref": "72daa120-23cb-11f1-9556-ab5631623b2a",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Kozite",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.kozite.com"
+}
