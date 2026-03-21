@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "kavita@hpprivatewealth.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Perceivable, Operable, Understandable, and Robust",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Organisation",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-21T08:37:31.016Z",
+  "submission_ref": "333f0880-2501-11f1-acf1-5d67b3739efc",
+  "title": "Equalize Digital Accessibility Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://hpprivatewealth.com/"
+}
