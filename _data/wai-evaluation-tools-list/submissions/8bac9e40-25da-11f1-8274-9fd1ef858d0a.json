@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "info@font-converters.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free online dyslexia font converter that transforms PDF, Word, and text documents into dyslexia-friendly formats using OpenDyslexic font. No signup required — upload any document (up to 50 MB), and download an accessible version with distinct letter shapes, weighted bottoms, and increased spacing designed to reduce reading difficulty. Supports PDF,",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Font-Converters",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-02-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-22T10:33:20.164Z",
+  "submission_ref": "8bac9e40-25da-11f1-8274-9fd1ef858d0a",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Dyslexia Font Converter",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://font-converters.com/tools/dyslexia-font-converter"
+}
