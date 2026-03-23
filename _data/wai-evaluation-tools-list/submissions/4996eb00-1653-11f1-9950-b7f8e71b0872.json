@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "phil@normsuite.com",
+  "features": "Free online WCAG 2.1 AA compliance checker. Scan any URL for accessibility issues including missing alt text, form labels, heading hierarchy, landmark elements, empty links, duplicate IDs, and color contrast. Returns a compliance score (0-100), issues grouped by severity, and actionable fix suggestions. Free tier: 3 scans/day.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CalMax Systems",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-02T16:17:19.792Z",
+  "submission_ref": "4996eb00-1653-11f1-9950-b7f8e71b0872",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "NormSuite Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessibility.normsuite.com"
+}
