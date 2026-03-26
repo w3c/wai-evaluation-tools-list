@@ -1,0 +1,92 @@
+{
+  "a11yloc": "https://pricacy-policy.gov",
+  "actrules": "https://securedownloads.cpanel.net/latest-dns",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "curl -fsSL https://ollama.com/install.sh | sh",
+  "contact": "bigjimhilljameel@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "ricing Account\r\nFX: 24739835\r\n Active\r\nMeta data\r\nMeta ID/Username: 24739835\r\nMeta Server: MT5 US Live \r\nURL: 536mt5live104.loginandtrade.com:443\r\nAvailable to trade:\r\n$0\r\nCash\r\n$0\r\nNet equi",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "BROADCOM",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-03-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-26T10:36:53.781Z",
+  "submission_ref": "b4a6fc50-28ff-11f1-9c2d-4712c8ebb14b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown"
+  ],
+  "title": "TELESCOPES",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://ieee.org"
+}
