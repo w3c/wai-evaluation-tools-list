@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "contact@bizzao.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Bizzao is a 100% organic digital‑marketing agency that builds high‑performance websites and optimizes them for local SEO to increase visibility and drive measurable growth for businesses. The agency combines custom website development, local optimization, and targeted content strategies to help local brands rank higher and grow sustainably online.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Sales & Marketing",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-26T08:42:47.310Z",
+  "submission_ref": "c3d66ae0-28ef-11f1-98e4-1744ffec25d2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Bizzao",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://bizzao.com/"
+}
