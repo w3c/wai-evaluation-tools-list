@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "xirclebox@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Color Blind & Low Vision Simulator is an accessibility tool that allows users to test and observe how people with colorblindness or low vision may perceive web-based content.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Homer Gaines",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-12-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-28T05:38:34.723Z",
+  "submission_ref": "966f9420-fc0b-11f0-8b25-adc0481a65c8",
+  "title": "Color Blind & Low Vision Simulator",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/color-blind-low-vision-si/lgflijofdempkdlaknbfmacfidjjhjbb?authuser=0&hl=en"
+}
