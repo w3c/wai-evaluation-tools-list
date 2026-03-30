@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Web Accessibility Checker evaluates websites against WCAG 2.1 AA and the European Accessibility Act (EAA). It provides detailed issue reports with remediation guidance, compliance scoring, and continuous monitoring. Available in 10 languages.",
+  "contact": "contact@metis-digital.click",
+  "features": "Automated website accessibility auditing tool that checks compliance with WCAG 2.1 Level AA and European Accessibility Act requirements. Scans for ARIA roles, semantic HTML, color contrast, keyboard navigation, and screen reader compatibility. Provides actionable fix recommendations, compliance certificates, and continuous monitoring with API access.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "it",
+    "nl",
+    "es",
+    "pt",
+    "pl",
+    "sv",
+    "da"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "METIS Digital",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-30T15:10:00.000Z",
+  "submission_ref": "fe15f718-2c49-11f1-9747-865b8dbc22e3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2026-03-30",
+  "website": "https://web-accessibility-checker.com"
+}
