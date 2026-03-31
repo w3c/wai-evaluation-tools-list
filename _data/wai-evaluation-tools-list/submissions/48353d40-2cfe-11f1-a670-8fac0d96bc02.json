@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@aiyoutubetranscript.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "AI YouTube Transcript helps you open YouTube transcripts online for free in multiple languages. Paste a YouTube URL or video ID to read clean transcript and subtitles, search by keyword, jump to timestamps, copy text, translate segments, and download TXT, SRT, or VTT files. No signup required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI YouTube Transcript",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-31T12:36:46.996Z",
+  "submission_ref": "48353d40-2cfe-11f1-a670-8fac0d96bc02",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AI YouTube Transcript",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aiyoutubetranscript.com/"
+}
