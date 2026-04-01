@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "homeworkifycanada@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Canadian students use Homeworkify.CA for reliable homework help through English AI, Science AI, and AI Math Problem Solver tools that support subject assignments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Samra Nasim",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-01T08:53:18.327Z",
+  "submission_ref": "3a6e7870-2da8-11f1-9432-d78ad1699236",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Homeworkify",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://homeworkify.ca/"
+}
