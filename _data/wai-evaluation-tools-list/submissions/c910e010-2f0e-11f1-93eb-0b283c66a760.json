@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://loadvis.com",
+  "actrules": "https://loadvis.com",
+  "automated": [
+    "https://loadvis.com"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "support@loadvis.com",
+  "features": "Loadvis is a loading optimization platform built for real shipment operations rather than one-time volume estimation. It combines cargo data management, container and tray templates, rule-based configuration, asynchronous solving, visual result review, and export delivery in one workspace.\r\n\r\nThe platform is designed for export teams, warehouse execution teams, and logistics or supply chain teams that repeatedly create loading plans and need outputs that can be reused, explained, and delivered to customers or internal stakeholders. Users can manage product master data, define custom containers and trays, create loading plans, and run calculations with practical constraints such as weight balance, door clearance, centroid offset, stacking, grouping, spacing, and orientation.\r\n\r\nLoadvis also focuses on explainable outputs. Results can be reviewed through 3D loading animation, execution-oriented guide views, summary scheme tables, and exportable Excel files or packaged reports. In addition, AI-assisted text and Excel import help convert unstructured cargo and container information into structured records more efficiently.\r\n\r\nWith multilingual public pages, subscription and points-based usage, and reusable historical plans and results, Loadvis is positioned as a practical planning and result-delivery system for ongoing commercial loading work.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "https://loadvis.com"
+  ],
+  "provider": "Loadvis",
+  "publish-permission": "Loadvis is a loading optimization platform built for real shipment operations rather than one-time volume estimation. It combines cargo data management, container and tray templates, rule-based configuration, asynchronous solving, visual result review, and export delivery in one workspace.\r\n\r\nThe platform is designed for export teams, warehouse execution teams, and logistics or supply chain teams that repeatedly create loading plans and need outputs that can be reused, explained, and delivered to customers or internal stakeholders. Users can manage product master data, define custom containers and trays, create loading plans, and run calculations with practical constraints such as weight balance, door clearance, centroid offset, stacking, grouping, spacing, and orientation.\r\n\r\nLoadvis also focuses on explainable outputs. Results can be reviewed through 3D loading animation, execution-oriented guide views, summary scheme tables, and exportable Excel files or packaged reports. In addition, AI-assisted text and Excel import help convert unstructured cargo and container information into structured records more efficiently.\r\n\r\nWith multilingual public pages, subscription and points-based usage, and reusable historical plans and results, Loadvis is positioned as a practical planning and result-delivery system for ongoing commercial loading work.",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-03T03:39:57.457Z",
+  "submission_ref": "c910e010-2f0e-11f1-93eb-0b283c66a760",
+  "title": "Loadvis",
+  "type": [
+    "Logistics Optimization"
+  ],
+  "website": "https://loadvis.com"
+}
