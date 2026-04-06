@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://www.texthelp.com/en-gb/: ",
+  "actrules": "https://www.texthelp.com/en-gb/: ",
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "Jhonnrojas40@hotmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "excelente\r\nherramienta para analizar",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://www.texthelp.com/en-gb/: ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-06T22:36:55.190Z",
+  "submission_ref": "1d3e1b60-3209-11f1-95f0-9fda0562ffc4",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "https://www.texthelp.com/en-gb/: ",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.texthelp.com/en-gb/: "
+}
