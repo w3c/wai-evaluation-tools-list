@@ -1,0 +1,61 @@
+{
+  "a11yloc": "https://www.accessibilityref.eu/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "AccessibilityRef is built specifically around the European Accessibility Act (EAA — Directive (EU) 2019/882) and its harmonised standard EN 301 549. The\r\n  tool suite covers the full conformance lifecycle: scoping, self-assessment, statement generation, declaration of conformity, and ongoing audit. Built by\r\n  accessibilityref in the EU.",
+  "contact": "dxk.developer@gmail.com",
+  "features": " AccessibilityRef is a suite of 50+ EU-compliance tools for the European Accessibility Act (EAA). It generates WCAG 2.2 audit checklists, accessibility\r\n  statements, EAA conformance reports, declarations of conformity, contrast palettes, ARIA assistance, and fine-risk calculators. Built for auditors,\r\n  developers, and compliance teams.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Accessibilityref.eu",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-07T18:55:55.851Z",
+  "submission_ref": "687922a0-32b3-11f1-8351-fd0e2ece3e34",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "AccessibilityRef",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilityref.eu/"
+}
