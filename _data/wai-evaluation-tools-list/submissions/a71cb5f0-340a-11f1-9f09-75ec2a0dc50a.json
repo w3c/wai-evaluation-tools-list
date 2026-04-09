@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@custyle.ai",
+  "features": "CUSTYLE.AI is the world's first AI Merch Agent. Describe a vibe — a memory, a meme, an aesthetic — and our 9-agent AI crew handles creative direction, design, manufacturing process selection & delivery. No design skills. No minimums. Hundreds of product types. Not printed on. Built for you.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Custyle Ltd.",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-09T11:52:58.320Z",
+  "submission_ref": "a71cb5f0-340a-11f1-9f09-75ec2a0dc50a",
+  "title": "CUSTYLE.AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://custyle.ai"
+}
