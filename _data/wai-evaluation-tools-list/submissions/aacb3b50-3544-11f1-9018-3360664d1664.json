@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://www.mercadolibre.com.ec/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "lematronics@hotmail.com",
+  "features": "Analizar accebilidad",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Klever",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "1987-01-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-11T01:20:46.469Z",
+  "submission_ref": "aacb3b50-3544-11f1-9018-3360664d1664",
+  "title": "Klever",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Command-line / CI"
+  ],
+  "website": "https://www.mercadolibre.com.ec/"
+}
