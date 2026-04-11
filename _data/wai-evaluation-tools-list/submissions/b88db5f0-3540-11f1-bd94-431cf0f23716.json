@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "liceoaduanero0@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "quiero sabes si la paina web cumple con los niveles de accesibilidad",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "guberanmental",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-11T00:52:31.567Z",
+  "submission_ref": "b88db5f0-3540-11f1-bd94-431cf0f23716",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "encuentra empleo",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
+}
