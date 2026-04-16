@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://smartertariff.com/legal/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "SmarterTariff is specifically designed for evaluating the accessibility of e-commerce checkout flows, including cross-origin payment iframes that are invisible to traditional page-level evaluation tools. It uses Playwright-based automation to test keyboard navigation, screen reader compatibility, and error handling within payment forms. Patent pending. Built by Renew EcoMe LLC, Cape Elizabeth, Maine.",
+  "contact": "chris@smartertariff.com",
+  "features": "SmarterTariff evaluates checkout flow accessibility by scanning cross-origin payment iframes (Stripe, PayPal, Braintree, Adyen) that other tools cannot reach. It performs WCAG 2.2 AA checks including keyboard navigation, screen reader simulation, and error handling. Also simulates AI agent checkout to identify barriers. Results in 30 seconds with r",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Renew EcoMe LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-16T00:06:09.355Z",
+  "submission_ref": "124a99b0-3928-11f1-93ea-1595547cac1c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "SmarterTariff",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://smartertariff.com"
+}
