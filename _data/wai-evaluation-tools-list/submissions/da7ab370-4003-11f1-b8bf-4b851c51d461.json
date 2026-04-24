@@ -1,0 +1,26 @@
+{
+  "contact": "genesis.ai.services@gmail.com",
+  "features": "AI-powered WCAG 2.1 AA accessibility scanner that automatically detects accessibility issues on any webpage and generates fix code for developers. Free tier available with no signup required. Supports automated scanning, detailed issue reports, and actionable remediation code.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Genesis AI Services",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-24T17:34:31.975Z",
+  "submission_ref": "da7ab370-4003-11f1-b8bf-4b851c51d461",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessalyze",
+  "website": "https://accessalyze.com"
+}
