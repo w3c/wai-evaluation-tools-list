@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://homer.sii.cl/",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "a",
+  "contact": "mirandacastanedaclaudioandres@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "a",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "irganizacion",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2006-12-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-24T18:21:24.252Z",
+  "submission_ref": "66ba1dc0-400a-11f1-8cb8-87cca41aee0f",
+  "technology": [
+    "CSS"
+  ],
+  "title": "sii",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://homer.sii.cl/"
+}
