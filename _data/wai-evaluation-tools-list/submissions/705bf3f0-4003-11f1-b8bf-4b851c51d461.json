@@ -1,0 +1,41 @@
+{
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "contact": "genesis.ai.services@gmail.com",
+  "features": "AI-powered WCAG 2.1 AA accessibility scanner that automatically finds accessibility issues and generates fix code for developers. Supports automated scanning of any publicly accessible webpage with no signup required for a free scan.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": "free",
+  "product": [
+    "Website"
+  ],
+  "provider": "Genesis AI Services",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-24T17:31:33.935Z",
+  "submission_ref": "705bf3f0-4003-11f1-b8bf-4b851c51d461",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessalyze",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessalyze.com"
+}
