@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "example@example.org",
+  "features": "Test short production description",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "aa",
+    "fr",
+    "it",
+    "ja",
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test Vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-12-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-27T11:15:06.517Z",
+  "submission_ref": "5872bc50-422a-11f1-b78a-8dcdcb911185",
+  "title": "Test Tool",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://w3.org"
+}
