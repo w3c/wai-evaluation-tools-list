@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "kofijohnson@tvhc.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "We would like to confirm our company website meet WGA.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Tiburcio Vasquez Health Center",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-29T17:30:31.776Z",
+  "submission_ref": "1f5ffe00-43f1-11f1-8d6e-499010cab98e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "TVHC",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://www.tvhc.org"
+}
