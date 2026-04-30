@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "kontakt@dostepnyweb.pl",
+  "features": "Free web-based generator for Polish accessibility statements (Deklaracja Dostępności). Creates ready-to-publish HTML code compliant with the Polish Digital Accessibility Act (2019) and Ministry of Digitalization requirements. Fill in the form, copy the generated code, and publish it as a subpage. No registration required. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "pl"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Marek Nieckula",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-30T22:07:40.957Z",
+  "submission_ref": "018d64d0-44e1-11f1-b1ed-6fe1d37d2451",
+  "title": "Generator Deklaracji Dostępności",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dostepnyweb.pl/generator-deklaracji"
+}
