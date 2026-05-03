@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "weidushu5@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "GPT Image 2 free online",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "ab"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "gpt image 2",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "1988-06-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-03T11:58:06.479Z",
+  "submission_ref": "58b431f0-46e7-11f1-b55d-9f01400e8208",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB"
+  ],
+  "title": "GPT Image 2 ",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://gptimage2.dev"
+}
