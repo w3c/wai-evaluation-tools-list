@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://axlura.com/terms.php",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Axlura was built specifically to help EU small businesses comply with the European Accessibility Act (EAA), which has been enforced since June 2025. The tool combines automated axe-core scanning with AI-powered remediation guidance and legal documentation generation.",
+  "contact": "izajahmad@gmail.com",
+  "features": "Axlura scans websites for WCAG 2.1 AA violations using axe-core, provides AI-powered fix instructions with before/after code, generates EAA  Accessibility Statements, and monitors sites weekly. Designed for EU businesses to reduce EAA compliance risk.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Axlura",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-07T03:51:28.231Z",
+  "submission_ref": "06d81f70-49c8-11f1-a9d4-37cbe79b2e06",
+  "title": "Axlura",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://axlura.com"
+}
