@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "Turn text into soundtracks and generate copyright‑free AI music with one click.",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "BeatBun is an intuitive text to song AI music generator that instantly transforms your ideas and lyrics into royalty‑free, studio‑quality tracks for videos, podcasts, games, social posts, and creative experiments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MT Tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-08T00:56:05.907Z",
+  "submission_ref": "b176a630-4a78-11f1-b55a-ef7fb53f7d8b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AI text to song tool to create royalty-free music easily",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://beatbun.com/"
+}
