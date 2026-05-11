@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "emma.brooklyn972@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Fast Image AI Image Enhancer：AI image enhancer online free with one click. Upscale images, restore details, improve portraits, enhance product photos, and repair old pictures up to 16K resolution — no signup required.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Fast Image AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-11T11:18:20.657Z",
+  "submission_ref": "1df2a610-4d2b-11f1-a9f1-33c9b051e548",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Fast Image AI Image Enhancer",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://fastimage.ai/ai-image-enhancer"
+}
