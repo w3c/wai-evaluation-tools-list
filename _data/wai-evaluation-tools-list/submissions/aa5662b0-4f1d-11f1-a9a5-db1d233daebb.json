@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "xieboqing79@gmail.com",
+  "features": "GPT image 2 is ai image editor & generator",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "gpt image 2",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-13T22:47:05.563Z",
+  "submission_ref": "aa5662b0-4f1d-11f1-a9a5-db1d233daebb",
+  "title": "GPT Image 2 ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://gtpimage2.dev"
+}
