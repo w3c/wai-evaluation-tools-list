@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "xieboqing79@gmail.com",
+  "features": "meigen ai is ai image editor & generator",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "meigen ai ",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-13T22:48:59.688Z",
+  "submission_ref": "ee5c7a80-4f1d-11f1-a9a5-db1d233daebb",
+  "title": "Meigen ai",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://meigen.me"
+}
