@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://www.mercadolibre.com.ec/",
+  "actrules": "https://www.mercadolibre.com.ec/",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Other"
+  ],
+  "comments": "",
+  "contact": "lematronics@hotmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Accebilidad",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Klever",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "1987-01-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-11T01:32:24.429Z",
+  "submission_ref": "4acf79d0-3546-11f1-9344-f1ff16946b28",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accebilidad",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.mercadolibre.com.ec/"
+}
