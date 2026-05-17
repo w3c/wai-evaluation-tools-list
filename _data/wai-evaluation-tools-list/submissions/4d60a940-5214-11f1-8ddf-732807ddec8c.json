@@ -1,0 +1,74 @@
+{
+  "a11yloc": "https://pairup.chat/",
+  "actrules": "https://pairup.chat/",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "vsnvkr@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "PairUp Chat is a real-time social chatting platform where users can match based on interests, join digital lounges, share stories, vibe posts, and connect instantly through live conversations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "freemium"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://pairup.chat/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-17T17:17:37.620Z",
+  "submission_ref": "4d60a940-5214-11f1-8ddf-732807ddec8c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "pairup.chat",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://pairup.chat/"
+}
