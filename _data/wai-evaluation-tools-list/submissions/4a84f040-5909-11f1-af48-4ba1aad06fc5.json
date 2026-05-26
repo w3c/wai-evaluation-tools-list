@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "alvaro.delcampomasegosa@gmail.com",
+  "desktop": [
+    "Linux"
+  ],
+  "features": "Pagina web de una tienda de productos artesanales",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UGR",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-26T13:46:26.500Z",
+  "submission_ref": "4a84f040-5909-11f1-af48-4ba1aad06fc5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Manos de Barro",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://manosdebarro.10001mb.com/"
+}
