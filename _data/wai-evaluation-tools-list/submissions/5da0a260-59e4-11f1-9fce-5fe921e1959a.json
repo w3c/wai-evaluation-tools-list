@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "info@iep.edu.gr",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "Advanced electronic senarios operating platform",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "el"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "IEP",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2012-02-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-27T15:54:38.342Z",
+  "submission_ref": "5da0a260-59e4-11f1-9fce-5fe921e1959a",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Aisopos",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://aesop.iep.edu.gr/senaria"
+}
