@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test product description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "af",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test Vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-02T14:53:24.638Z",
+  "submission_ref": "ce6863e0-5e92-11f1-9f7b-5bdc351dc12c",
+  "title": "Test Tool Name",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://w3.org/"
+}
