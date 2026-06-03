@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "ab"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Test vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-03T15:55:55.829Z",
+  "submission_ref": "b4b47650-5f64-11f1-8a6b-d7c8e290411d",
+  "title": "Tool Test Name",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://example.org"
+}
