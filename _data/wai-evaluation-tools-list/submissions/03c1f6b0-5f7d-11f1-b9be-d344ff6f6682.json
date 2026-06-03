@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "javiera.alarcon291@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "App para no videntes ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Seeai ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-03T18:49:56.379Z",
+  "submission_ref": "03c1f6b0-5f7d-11f1-b9be-d344ff6f6682",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "1",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://seeai-eight.vercel.app/"
+}
