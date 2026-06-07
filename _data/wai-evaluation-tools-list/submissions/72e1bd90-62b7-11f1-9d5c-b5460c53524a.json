@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://www.wcagrepair.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@wcagrepair.com",
+  "features": "Web based scan tool that can be used to test an external website and generate a repair guide to bring to WCAG AA 2.1 compliance regardless of code / platform. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAGRepair",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-07T21:25:47.113Z",
+  "submission_ref": "72e1bd90-62b7-11f1-9d5c-b5460c53524a",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "WCAGRepair",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.wcagrepair.com"
+}
