@@ -1,0 +1,45 @@
+{
+  "a11yloc": "https://boids.so/",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "support@nevamind.ai",
+  "features": "Boids is an AI agent platform that enables creators to create, distribute, and monetize their own agents with a low barrier to entry. Users can directly use these agents to complete practical tasks locally, while creators earn rewards when their agents are used.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": " NEVAMIND AI PTE. LTD.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-10T07:59:46.071Z",
+  "submission_ref": "58b19a70-64a2-11f1-9773-8598ed8a4771",
+  "title": "Boids",
+  "type": [
+    "Desktop application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://boids.so/"
+}
