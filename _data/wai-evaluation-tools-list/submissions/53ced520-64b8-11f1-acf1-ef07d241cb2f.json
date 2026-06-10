@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Developed to support public and private entities in achieving compliance with Italian accessibility regulations (D.Lgs. 82/2022). The tool’s methodology is strictly aligned with WCAG 2.1/2.2 standards. Based on the EN 301 549 requirements of the European Accessibility Act (EAA), it is suitable for accessibility assessments across the European Union. Please note that the 'ACT Rules' field is left blank as the tool utilizes a custom verification protocol rather than a formally published W3C ACT ruleset.",
+  "contact": "iuriemajeru@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AxY Page is an automated accessibility testing tool for individual webpages, evaluating compliance with WCAG 2.x AA guidelines. It performs over 130 technical checks and provides actionable reports to improve accessibility. The tool supports authentication, enabling the analysis of restricted, post-login areas of websites.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "it"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Iurie Majeru",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-10T10:37:06.802Z",
+  "submission_ref": "53ced520-64b8-11f1-acf1-ef07d241cb2f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AxY Page",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://axyscan.it/axypage/"
+}
