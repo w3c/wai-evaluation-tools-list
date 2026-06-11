@@ -15,8 +15,10 @@ sidebar: false
   To DEBUG set any of the following to true.
   NB!! ensure to reset all to false before committing
 
-  DEBUG_FUNCTION - pass DEBUG to submission function, causes function to return JSON rather than submitting to GitHub
-  DEBUG_USE_LOCAL_FUNCTION - use local/domain function rather than live one exposed by the Netlify wai-website deploy
+  DEBUG_SUBMISSION_FUNCTION - pass DEBUG to submission function, causes function to return JSON rather than submitting to GitHub
+  DEBUG_USE_LOCAL_SUBMISSION_FUNCTION - use local/domain function rather than live one exposed by the Netlify wai-website deploy
+    - This is intended to be used together with running `node _functions/list-submission.js` in wai-website
+    - Note these two DEBUG_* parameters are independent; you may want to set both for testing
 {% endcomment %}
 {% assign DEBUG_SUBMISSION_FUNCTION = false %}
 {% assign DEBUG_USE_LOCAL_SUBMISSION_FUNCTION = false %}
@@ -197,7 +199,7 @@ main > header { grid-column: 4 / span 4; }
             <input type="checkbox" name="automated[]" id="tool-automated-{{ option.id }}" value="{{ option.name | strip_html }}" group="automated" required>
             <label for="tool-automated-{{ option.id }}">
             {% if option.info %}
-                option.info }}
+                {{ option.info }}
               {% else %}
                 {{ option.name }}
               {% endif %}
