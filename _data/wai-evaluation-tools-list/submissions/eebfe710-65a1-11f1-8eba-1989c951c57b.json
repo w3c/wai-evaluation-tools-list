@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test Vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-11T14:29:19.489Z",
+  "submission_ref": "eebfe710-65a1-11f1-8eba-1989c951c57b",
+  "title": "Test tool",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://example.org"
+}
