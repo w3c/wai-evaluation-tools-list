@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.equalweb.com/9491/9491/accessibility_statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "EqualWeb Web Accessibility Monitor is an automated accessibility evaluation and monitoring platform that scans websites for accessibility issues and WCAG compliance violations. The tool provides accessibility scores, scan reports, issue tracking, monitoring history, and configurable scan settings including page limits, device type, and scan frequency. The platform supports ongoing accessibility monitoring and reporting for websites.",
+  "contact": "anat@equalweb.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "EqualWeb Web Accessibility Monitor is a website accessibility monitoring and evaluation platform that scans websites for accessibility errors and compliance violations against WCAG guidelines. It provides accessibility scores, reports, issue tracking, scan history, and ongoing monitoring. Users can configure scan frequency, page limits, and device ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Equalweb LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-11T09:15:18.194Z",
+  "submission_ref": "10767120-6576-11f1-9200-436340accd8a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "EqualWeb Web Accessibility Monitor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.equalweb.com/10903/11528/web_accessibility_monitor"
+}
