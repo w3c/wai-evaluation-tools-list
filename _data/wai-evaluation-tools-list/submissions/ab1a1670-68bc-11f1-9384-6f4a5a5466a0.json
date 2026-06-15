@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "danielwenington@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "My quiz app for college assignment",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "College",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-15T13:18:15.895Z",
+  "submission_ref": "ab1a1670-68bc-11f1-9384-6f4a5a5466a0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "My App",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://rilo-dev.github.io/Survivor-Archetype-Laptop/"
+}
