@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "affiliate-program@homestyler.com",
+  "features": "Homestyler was jointly invested and established by Alibaba Group and Easyhome New Retail Group. As its global platform, Homestyler has the scope of providing efficient online 3D interior design tools to designers and providing solutions of digital transformation for furniture and real estate industry.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "zh-hans",
+    "zh-hant"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Homestyler",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-15T10:18:09.389Z",
+  "submission_ref": "81ec21d0-68a3-11f1-9613-f16d074526d6",
+  "title": "Homestyler",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.homestyler.com/"
+}
