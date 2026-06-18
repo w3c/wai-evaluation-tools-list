@@ -1,5 +1,5 @@
 {
-  "a11yloc": "https://reciteme.com/policies/accessibility-statement/",
+  "a11yloc": "https://scanner.reciteme.com/accessibility-statement",
   "actrules": "",
   "assists": [
     "Generating reports of evaluation results",
@@ -36,8 +36,7 @@
   "guideline": [
     "WCAG 2.2",
     "WCAG 2.1",
-    "WCAG 2.0",
-    "EPUB Accessibility 1.1"
+    "WCAG 2.0"
   ],
   "language": [
     "en"
@@ -55,8 +54,7 @@
   "publish-permission": "on",
   "purpose": [
     "Automated testing",
-    "Manual testing",
-    "Simulated user experience"
+    "Manual testing"
   ],
   "readterms": "on",
   "release": "2023-08-01",
@@ -73,8 +71,6 @@
   "title": "Recite Me Website Accessibility Checker",
   "type": [
     "Browser plugin",
-    "Desktop application",
-    "Mobile application",
     "Online tool"
   ],
   "website": "https://reciteme.com/product/website-accessibility-checker/"
