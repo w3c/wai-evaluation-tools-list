@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://buzzbronco.com/accessibility_statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "BuzzBronco Contrast Checker is a lightweight accessibility resource intended for designers and developers to verify color contrast compliance quickly. This tool has been tested with blind users on iphone and windows and has passed all criteria. ",
+  "contact": "ghazal@buzzbronco.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Checks color contrast ratios between text and background according to WCAG 2.1 and 2.2. Supports HEX, RGB, and HSL values and gives pass/fail results for AA and AAA compliance levels.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "BuzzBronco Digital Accessibility",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-28T17:12:08.245Z",
+  "submission_ref": "7a071f40-fc6c-11f0-90b3-ef60f338584a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Real-time contrast checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://buzzbronco.com/contrast-checker/"
+}
