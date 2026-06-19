@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://adawcag.org/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "ADAWCAG.org is an online web accessibility evaluation tool for websites. It supports single-page and full-site scans (via crawl/sitemap), generates reports, and can be used for ongoing monitoring through scheduled rescans and alerts.",
+  "contact": "contact@adawcag.org",
+  "features": "ADAWCAG.org helps teams evaluate and monitor web accessibility. It runs automated scans, captures evidence, and produces audit-ready reports to prioritize remediation. Ongoing monitoring with alerts supports governance and continuous improvement across releases.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Justin Zaragoza ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-01T00:18:39.094Z",
+  "submission_ref": "322b3160-1504-11f1-950b-dfda23a25681",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Adawcag.org",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adawcag.org/en"
+}
