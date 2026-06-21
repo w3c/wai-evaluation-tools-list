@@ -1,0 +1,59 @@
+{
+  "a11yloc": "https://www.getaccessradar.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@tryaccessradar.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AccessRadar is an automated scanner that tests websites against WCAG 2.1 AA (the EN 301 549 / EAA standard). It returns a 0–100 risk score and explains each issue in plain language with the exact fix, flags items that need human review rather than overclaiming, and monitors sites continuously with alerts when new issues appear.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Access Radar",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-21T19:10:46.293Z",
+  "submission_ref": "e8333450-6da4-11f1-b379-33bda120dff6",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessRadar",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.getaccessradar.com"
+}
