@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": " Converge AI merges people, AI agents, and business context into one platform, turning disconnected tools into a seamless engine for execution and growth.",
+  "contact": "seotraffic@converge.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Built for enterprises and creators, Converge AI combines General-purpose, Coding, and Design Agents in a single ecosystem to break tool silos and boost productivity 50x.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Converge AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T07:44:00.547Z",
+  "submission_ref": "22131730-6e0e-11f1-b991-fd1ee64c67a0",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Converge AI",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://converge.ai/"
+}
