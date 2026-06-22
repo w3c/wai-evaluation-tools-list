@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "- Framia Pro is an all-in-one AI creative platform for generating and editing images and videos. It combines smart guided workflows, full creative control, and DIY-to-pro editing tools to help users produce high-quality visual content faster. With support for multiple top AI models, adaptive music generation, and trending templates, it turns ideas into polished creative assets in seconds, all with no login required and built-in privacy protection.",
+  "contact": "framia202507@gmail.com",
+  "features": "Framia Pro helps teams create, edit, and scale high-performing image and video in one place. From AI generated images and videos to ad creatives, social media assets, and branded marketing materials, transform any idea into professional content in seconds.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "FRAMIA PRO",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T12:02:16.080Z",
+  "submission_ref": "3621c900-6e32-11f1-aa47-558fcb08d18b",
+  "title": "  Framia Pro - Create Stunning Images and Videos with AI for Free Online",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://framia.pro/"
+}
