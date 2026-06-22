@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "tharmmendra.t@sliit.lk",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "Pixelssuite is a utility platform, accessed through the web, which offers free online utilities for typical \r\ndigital file and text operations. Its public home page claims it to be a fast and privacy-respecting service \r\nsuite, available in browser or as a user-side application to enable \"everyday\" image, pdf, OCR, text \r\noperations. The positioning o",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code"
+  ],
+  "provider": "SLIIT-MScIT",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T06:01:58.922Z",
+  "submission_ref": "e14d3ea0-6dff-11f1-a0ab-135ec28480e6",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Online Utility platform",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pixelssuite.com/"
+}
