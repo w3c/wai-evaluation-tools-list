@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "Browser-based color vision deficiency simulator. All image processing happens client-side (no upload), helping designers and content creators identify color accessibility issues by previewing their work as CVD users would perceive it.",
+  "contact": "support@colorblindtests.net",
+  "features": "Upload any image to instantly see how it looks to people with color vision deficiency. Simulates 8 types of color blindness (Protanopia, Deuteranopia, Tritanopia and their anomalous forms, plus Achromatopsia) using the Brettel/Viénot/Mollon algorithm. Helps designers check whether colors, charts and UI remain distinguishable. Free, runs in-browser,",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "zh",
+    "eo"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ColorBlindTests.net",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-23T04:58:34.787Z",
+  "submission_ref": "3045e820-6ec0-11f1-ad4f-5d908b243d86",
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorblindtests.net/color-blindness-simulator"
+}
