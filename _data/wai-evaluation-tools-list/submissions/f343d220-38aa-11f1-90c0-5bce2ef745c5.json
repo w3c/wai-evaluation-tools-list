@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Tool is provided in italian, english, french and spanish (I can't add languages from this page)",
+  "contact": "info@macsweb.it",
+  "features": "MACS Audit is a web-based WCAG 2.2 accessibility auditing platform supporting multi-page evaluations, criterion-by-criterion assessment across A and AA levels, pre-screening questionnaires, team collaboration, and automated AgID accessibility statement generation with public declaration export in PDF a and Word formats.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Maxweb srls",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-15T09:10:30.210Z",
+  "submission_ref": "f343d220-38aa-11f1-90c0-5bce2ef745c5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MACS Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://audit.macsweb.it"
+}
