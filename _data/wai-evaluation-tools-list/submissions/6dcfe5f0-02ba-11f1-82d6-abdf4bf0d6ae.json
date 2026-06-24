@@ -1,0 +1,76 @@
+{
+  "a11yloc": "https://www.acquia.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "ACT Rules (URL) Coming Soon.",
+  "contact": "jake.athey@acquia.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Meet accessibility requirements with Acquia Web Governance. Automate more WCAG 2.1/2.2 testing within Drupal or any CMS to streamline in-context fixing. Includes AI-assisted remediation, custom policy detection, and privacy monitoring for maintaining accessible, compliant, and inclusive digital experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "on",
+    "Free Site Scan"
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Acquia",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-05T17:45:15.471Z",
+  "submission_ref": "6dcfe5f0-02ba-11f1-82d6-abdf4bf0d6ae",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Acquia Accessibility and Web Governance",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://www.acquia.com/products/acquia-web-governance"
+}
