@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "hello@tryinclusiv.com",
+  "features": "Free AI-powered accessibility scanner for WCAG 2.1 AA and EAA compliance. Scans websites in 30 seconds, provides accessibility scores, identifies critical violations, and generates platform-specific code fixes for WordPress, Shopify, React, and more. Built for businesses needing fast compliance checks.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Inclusiv",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-13T15:33:33.417Z",
+  "submission_ref": "3851e590-f095-11f0-8045-87ddb0e3d57d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Inclusiv",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tryinclusiv.com"
+}
