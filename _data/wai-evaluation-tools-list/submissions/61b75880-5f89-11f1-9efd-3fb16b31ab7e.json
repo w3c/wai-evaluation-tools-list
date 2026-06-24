@@ -1,0 +1,68 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "javiera.alarcon291@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "App para no videntes",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Seeai ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-03T20:18:27.976Z",
+  "submission_ref": "61b75880-5f89-11f1-9efd-3fb16b31ab7e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Seeaiai",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://seeai-eight.vercel.app/"
+}
