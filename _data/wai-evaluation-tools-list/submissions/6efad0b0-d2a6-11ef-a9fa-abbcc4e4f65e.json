@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://www.audioeye.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "maxwell.johnson@audioeye.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AudioEye's Website Accessibility Checker scans your site for 70+ accessibility issues, like poor color contrast and missing alt text, providing a detailed report on top issues and their impact on disabilities. Share insights with your team or get expert help to improve compliance with WCAG, ADA, and other standards.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AudioEye",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-01-14T18:36:14.011Z",
+  "submission_ref": "6efad0b0-d2a6-11ef-a9fa-abbcc4e4f65e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AudioEye Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.audioeye.com/website-accessibility-checker/"
+}
