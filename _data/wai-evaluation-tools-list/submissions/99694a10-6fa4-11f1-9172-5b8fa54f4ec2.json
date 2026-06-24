@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "- Enter - Coding Agent: A production-grade AI App Builder that handles the entire lifecycle from product planning and code generation to debugging and one-click deployment. It supports cross-surface collaboration, allowing users to build visually in the browser, run Enter Code locally via terminal, or connect via CLI. With a built-in infrastructure stack (backend, payments, analytics, and global i18n), it enables individuals or small teams to ship enterprise-ready apps like a pro.\r\n- Framia, the Design & Creative Agent, is a workflow-driven AI studio for modern marketers and creators. Powered by expert AI Director agents, it transforms a single idea into a fully produced, publish-ready marketing video, including script, storyboard, voiceover, and background music, without any manual prompts. Its Design Agents also allow you to upload logos and product images, automatically ensuring brand consistency across flyers, social media posts, and image libraries.\r\n- General-Purpose & Collaborative Agent (Converge Agent): The organizational backbone of the matrix. These multi-role agents eliminate the friction of switching between separate AI models and subscriptions. Operating within a shared business context, they translate high-level commercial intent and orchestrate the flow between the Coding (Enter) and Design (Framia) agents, ensuring all matrix activities focus directly on driving final business outcomes rather than isolated content pieces.",
+  "contact": "seotraffic@converge.ai",
+  "desktop": [
+    "Other"
+  ],
+  "features": "With Converge AI, modern enterprises harness the power of intelligent agents working together on shared business contexts to achieve faster, smarter outcomes.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Converge AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-24T08:13:36.433Z",
+  "submission_ref": "99694a10-6fa4-11f1-9172-5b8fa54f4ec2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Converge AI – AI for Building, Creating, and Growing Your Business",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://converge.ai/"
+}
