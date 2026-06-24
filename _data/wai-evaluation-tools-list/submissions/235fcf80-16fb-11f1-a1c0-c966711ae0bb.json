@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Entire website / software / product"
+  ],
+  "comments": "AccessiMind Vision Accessibility Agent is an AI-powered accessibility evaluation tool designed to support WCAG 2.2 AA conformance analysis across web and mobile applications. It analyzes screen recordings and interface flows to detect accessibility barriers, generate structured reports, and create developer-ready issue descriptions.\r\nThe tool complements traditional automated scanners by providing context-aware analysis, actionable remediation guidance, and accessibility-focused insights aligned with real user interaction patterns. It helps teams achieve measurable WCAG conformance while integrating accessibility into agile development and continuous improvement workflows.",
+  "contact": "sarperarikan@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "AccessiMind Vision Accessibility Agent 1.0 is an AI-powered desktop tool that analyzes screen recordings of web, Android & iOS apps for WCAG 2.2 AA accessibility issues.\r\n It delivers expert-level reports, smart Jira tickets, and interactive AI insights to streamline accessibility reviews.\r\nhttps://github.com/sarperarikan/accessimind-vision-accessib ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "tr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Other"
+  ],
+  "provider": "Sarper Arıkan",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-03T12:18:51.128Z",
+  "submission_ref": "235fcf80-16fb-11f1-a1c0-c966711ae0bb",
+  "title": "AccessiMind Screen Recording Analysis AAI Agent",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://github.com/sarperarikan/accessimind-vision-accessibility-analyst/releases/download/vision-accessibility-agent-1/accessimind_vision_analysis_agent.zip"
+}
