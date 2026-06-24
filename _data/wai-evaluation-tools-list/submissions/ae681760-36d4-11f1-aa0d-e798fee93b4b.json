@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "contact@a11ygov.io",
+  "features": "Automated WCAG 2.1 AA compliance scanner for government websites. Runs axe-core via headless Chromium, generates a scored report (0-100) with violations ranked by impact, and provides ongoing monthly monitoring. Built for state and local government compliance with ADA Title II.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A11yGov",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-13T01:04:11.222Z",
+  "submission_ref": "ae681760-36d4-11f1-aa0d-e798fee93b4b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "A11yGov",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.a11ygov.io"
+}
