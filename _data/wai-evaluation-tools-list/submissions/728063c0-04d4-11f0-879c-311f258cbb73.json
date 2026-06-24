@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "karthik@browserstack.com",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "Ensure your mobile apps are accessible with BrowserStack App Accessibility Testing. Run instant scans on real devices, test with built-in screen readers, and identify WCAG violations in your app’s workflows. Scan apps behind logins, track accessibility trends, and get actionable insights to create inclusive mobile experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "BrowserStack",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-09-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-19T15:11:34.908Z",
+  "submission_ref": "728063c0-04d4-11f0-879c-311f258cbb73",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "BrowserStack App Accessibility Testing",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.browserstack.com/app-accessibility-testing"
+}
