@@ -1,0 +1,73 @@
+{
+  "a11yloc": "https://blyxo.app/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Blyxo is actively maintained and regularly updated. We are working towards a formal ACT Rules implementation report and plan to submit it once it is complete. We welcome feedback from the W3C WAI team on how we can better align with accessibility evaluation standards.",
+  "contact": "francis.chelladurai@blyxo.app",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Blyxo tests against WCAG 2.1/2.2 at Level A, AA, and AAA. Detects violations in HTML, ARIA, forms, images, links, and multimedia. Includes screen reader simulation, coverage reports with manual steps, authenticated page testing, document scanning, and 50+ training modules. Available as a web app, Chrome extension, Figma plugin, and API. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Other"
+  ],
+  "provider": "Rocket Science Software LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-02T11:32:39.524Z",
+  "submission_ref": "c2f5da40-5e76-11f1-a11a-d765cb03a9aa",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Blyxo",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://blyxo.app"
+}
