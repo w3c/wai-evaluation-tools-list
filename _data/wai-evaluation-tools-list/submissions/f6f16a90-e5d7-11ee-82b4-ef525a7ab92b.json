@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://www.deque.com/accessibility-statement/",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "product-external@deque.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Axe for Designers is a Figma plugin, addressing accessibility issues during design. The tool provides comprehensive accessibility checks covering color contrast, touch target, and inappropriate heading hierarchy. The tool also offers designer-to-developer handover features such as annotations and focus order guidance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Deque Systems, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-02-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-03-19T10:03:41.881Z",
+  "submission_ref": "f6f16a90-e5d7-11ee-82b4-ef525a7ab92b",
+  "title": "Axe for Designers",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://www.deque.com/axe/design-beta/"
+}
