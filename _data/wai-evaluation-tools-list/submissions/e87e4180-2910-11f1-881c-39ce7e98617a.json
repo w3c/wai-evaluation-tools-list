@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://openscouter.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "OpenScouter focuses on cognitive accessibility testing with neurodivergent users rather than automated conformance checking. Our testers have ADHD, dyslexia, autism, dyscalculia, and dyspraxia. The platform captures real user interactions and correlates them with emotional and verbal signals to identify barriers that automated tools miss. Reports are mapped to specific WCAG success criteria with evidence trails.",
+  "contact": "nicola@openscouter.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Neurodivergent accessibility testing platform. Real testers with ADHD, dyslexia, and autism evaluate websites while AI captures browser events, facial expressions, and voice transcripts. Generates WCAG 2.2 compliance reports with evidence-based findings from genuine user experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Openscouter Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-26T12:40:02.200Z",
+  "submission_ref": "e87e4180-2910-11f1-881c-39ce7e98617a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "OpenScouter",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://openscouter.com"
+}
