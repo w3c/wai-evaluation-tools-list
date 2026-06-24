@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://usablenet.com/accessibility-statement",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "AQA goes beyond basic page scans. It tests critical customer journeys, separates what automation can reliably detect from what needs human judgment, and presents findings in clear language with severity and next steps. Your teams can align on risk, plan remediation sprints, and improve the experience for customers with disabilities without changing how they ship releases. AQA aligns findings to WCAG 2.2 so you can support ADA, ADA Title II, and European Accessibility Act requirements from a single testing approach.",
+  "contact": "giacomo.petri@usablenet.com",
+  "features": "UsableNet AQA is a web accessibility testing platform that combines automated tests with guided manual tests. It provides a centralized dashboard for issue tracking, monitoring and reporting, helping teams ensure compliance with WCAG, EN 301-549, and accelerate remediation thanks to precise issue descriptions and specific solutions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UsableNet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2018-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-13T10:07:53.671Z",
+  "submission_ref": "a2e6c570-3720-11f1-acf7-4db16ce31d09",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "UsableNet AQA",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://usablenet.com/technology/aqa"
+}
