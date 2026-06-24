@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@pixelfreestudio.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "NinjaScan checks your website for EN 301 549, WCAG 2.2, and you receive an audit report including suggestions for fixing errors. The NinjaScan automatically creates an accessibility statement for your website. NinjaScan only checks technically verifiable criteria.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PixelFree Studio",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-05-22T09:32:20.070Z",
+  "submission_ref": "a8829860-36ef-11f0-878b-e9ff6ac91300",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "NinjaSCAN.ai",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://ninjascan.ai/"
+}
