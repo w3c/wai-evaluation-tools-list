@@ -1,0 +1,72 @@
+{
+  "a11yloc": "https://www.CurbCutOS.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Our unique approach not only captures 60% more errors and addresses WCAG compliance it establishes an optimal user experience and enables companies to achieve progress across all departments.",
+  "contact": "accessibility@CurbCutOS.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Accessible UX is a centralized solution for automated, manual, and user flow testing of conformance to WCAG. It features multiple ruleset automated scans, manual testing, and inputs of user-flow testing data points. The integrated dashboard ensures a collective effort toward achieving WCAG compliance and delivering tangible results.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "CurbCutOS",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2024-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-11-04T23:14:50.902Z",
+  "submission_ref": "97b1b360-9b02-11ef-bc34-bb1c7a81e542",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Accessible UX Platform",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://app.curbcutos.com"
+}
