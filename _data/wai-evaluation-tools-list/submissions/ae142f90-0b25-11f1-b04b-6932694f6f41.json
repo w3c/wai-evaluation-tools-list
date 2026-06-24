@@ -1,0 +1,45 @@
+{
+  "a11yloc": "https://index.csgov.cz/prohlaseni-o-pristupnosti",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "The project is still under active development.",
+  "contact": "info@csgov.cz",
+  "features": "Index CSGOV monitors 225+ Czech government websites, evaluating accessibility (WCAG) and performance (Core Web Vitals) into a composite ICS score. Anyone can also test their own website. The goal: transparent, data-driven benchmarking that pushes Czech public websites toward better standards.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "cs"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CSGOV",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-16T10:53:08.745Z",
+  "submission_ref": "ae142f90-0b25-11f1-b04b-6932694f6f41",
+  "title": "Index CSGOV",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://index.csgov.cz"
+}
