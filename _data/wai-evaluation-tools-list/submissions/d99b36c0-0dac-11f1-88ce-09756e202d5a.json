@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://dashboard.accessibe.com/app/statement?license=699613d4d29d1b5e098765e1",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "Hansfu@accessibe.com",
+  "features": "accessWidget is an AI-powered accessibility solution that helps websites become easier to use for people with disabilities, without requiring a full rebuild.\r\n\r\nKey features and functionality:\r\n\r\nAssistive interface for visitors: Adds an on-site accessibility menu where users can adjust things like font size, contrast, spacing, animations, and other vi",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "accessiBe",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2018-01-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-19T16:05:46.156Z",
+  "submission_ref": "d99b36c0-0dac-11f1-88ce-09756e202d5a",
+  "title": "accessWidget",
+  "type": [
+    "CMS plugin"
+  ],
+  "website": "https://accessibe.com/"
+}
