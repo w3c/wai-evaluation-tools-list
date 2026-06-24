@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "arjun2232101@gmail.com",
+  "features": "ADAGuard is an automated WCAG 2.2 accessibility scanner for ADA, Section 508, and European Accessibility Act (EAA) compliance. It generates detailed PDF reports with element-level fix guidance, compliance scoring, and supports monthly monitoring with email alerts for ongoing compliance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ADAGuard",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-06T03:05:45.206Z",
+  "submission_ref": "7975f960-48f8-11f1-858a-f126ae247a72",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ADAGuard",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adaguard.io"
+}
