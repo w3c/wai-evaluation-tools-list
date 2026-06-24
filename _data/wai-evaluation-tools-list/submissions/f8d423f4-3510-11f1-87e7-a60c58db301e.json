@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "joshua@mullet.town",
+  "features": "Covered Bridge is an ADA web accessibility monitoring service for small businesses. It tests websites using accessibility tree inspection and keyboard navigation - the same methodology used by plaintiff law firms in ADA lawsuits. The free tier provides a one-time report with findings, screenshots, and fix instructions. The paid tier ($49/mo) provides weekly scans, alerts when issues appear, and GitHub ticket creation for development teams.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Covered Bridge",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-10T20:00:00.000Z",
+  "submission_ref": "f8d423f4-3510-11f1-87e7-a60c58db301e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Covered Bridge",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://coveredbridge.live"
+}
