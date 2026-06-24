@@ -1,0 +1,89 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "wcag@dock.codes",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "This tool helps developers, QA testers, auditors, and accessibility specialists identify and improve website compliance with WCAG in real time. Scan websites for WCAG issues, inspect page structure, analyze focus order, review images and alt texts, simulate contrast changes, and export audit reports directly from DevTools.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pl",
+    "en",
+    "cs",
+    "nl",
+    "de",
+    "ar",
+    "bs",
+    "bg",
+    "fr",
+    "hi",
+    "hu",
+    "el",
+    "es",
+    "no",
+    "rm",
+    "ru",
+    "sk",
+    "uk",
+    "kk",
+    "fi",
+    "lt",
+    "th",
+    "sr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dock",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-01T11:53:44.729Z",
+  "submission_ref": "8aab1090-5db0-11f1-8738-7b6a0a6beda2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Dock Accessibility Checker (Browser extension) ",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://wcag.dock.codes/documentation/first-steps/dock-accessibility-checker-a-browser-based-accessibility-audit-tool/"
+}
