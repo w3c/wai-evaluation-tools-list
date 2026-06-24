@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://complyweb.com.au/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@complyweb.com.au",
+  "features": "ComplyWeb generates point-in-time WCAG compliance evidence reports for Australian organisations. It crawls your website, runs automated accessibility checks against WCAG 2.2 AA using axe-core, and produces a detailed PDF report with severity analysis, remediation guidance, and chain of custody.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Vantage Tech Pty Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-02T11:04:49.034Z",
+  "submission_ref": "a1444ea0-1627-11f1-b087-85d2a17c9ffa",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ComplyWeb",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://complyweb.com.au"
+}
