@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "- Framia Pro is an all-in-one AI creative platform for generating and editing images and videos. It combines smart guided workflows, full creative control, and DIY-to-pro editing tools to help users produce high-quality visual content faster. With support for multiple top AI models, adaptive music generation, and trending templates, it turns ideas into polished creative assets in seconds, all with no login required and built-in privacy protection.",
+  "contact": "seotraffic@converge.ai",
+  "features": "Framia Pro helps teams create, edit, and scale high-performing image and video in one place. From AI generated images and videos to ad creatives, social media assets, and branded marketing materials, transform any idea into professional content in seconds.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Other"
+  ],
+  "provider": "Converge Ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-24T04:24:42.537Z",
+  "submission_ref": "9f5f1190-6f84-11f1-95ea-f14c6dfbd1e1",
+  "title": "Framia Pro - Create Stunning Images and Videos with AI for Free Online",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://framia.converge.ai/"
+}
