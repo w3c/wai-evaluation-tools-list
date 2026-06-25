@@ -1,0 +1,72 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "CopyChecker AI Grammar Checker helps users make written content clearer, more accurate, and easier to understand. It is useful for students, writers, bloggers, marketers, professionals, and teams who want to improve everyday writing quality. The tool checks grammar, spelling, punctuation, clarity, fluency, and readability issues in one place. While it is not a complete web accessibility auditing tool, it can support content accessibility by helping writers create cleaner, simpler, and more readable text for websites, documents, emails, and digital content.",
+  "contact": "marketing@copychecker.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "CopyChecker AI Grammar Checker is a free online writing assistant that helps users fix grammar, spelling, punctuation, clarity, and fluency issues so content becomes clearer, easier to read, and more professional.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "ms",
+    "ca",
+    "fr",
+    "de",
+    "zh",
+    "id",
+    "it",
+    "ja",
+    "pt-BR",
+    "pt",
+    "ru",
+    "th",
+    "tr"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "CopyChecker",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-25T10:15:35.379Z",
+  "submission_ref": "ce419230-707e-11f1-a19e-e7361dbd2007",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown"
+  ],
+  "title": "AI Grammar Checker",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://copychecker.com/grammar-checker"
+}
