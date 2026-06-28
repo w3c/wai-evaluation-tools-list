@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "eivind.martinsen@synli.ai",
+  "features": "Synli is an accessibility scanning platform built on axe-core. It scans websites for WCAG 2.1 and 2.2 AA and European Accessibility Act issues, including authenticated pages. It separates automated, tool-verified findings from AI-verified items needing human review. AI navigates pages and looks at pictures.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "nb",
+    "sv",
+    "es",
+    "fi"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Synli.ai ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-03-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-28T16:22:10.999Z",
+  "submission_ref": "83e81470-730d-11f1-916d-05230b9d41f3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Synli.ai",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://synli.ai"
+}
