@@ -1,0 +1,39 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Enter Pro is a leading AI Vibe Coding platform that allows users to quickly transform ideas into working software products simply by describing them in natural language, without having to write code from scratch. Leveraging advanced large-scale models such as GPT, Claude, and Gemini, Enter automatically understands requirements, plans the development process, generates complete code, executes tests, and completes deployment, ultimately delivering directly accessible online applications. By transforming \"writing code\" into \"expressing ideas,\" Enter Pro empowers independent developers, entrepreneurs, and product teams to build and release products faster, truly realizing AI-driven software development.",
+  "contact": "seotraffic@converge.ai",
+  "features": "Enter Pro is a leading AI Vibe Coding platform that enables users to build web apps, SaaS products, and automation tools without coding. Powered by advanced large language models, it automatically generates code, builds functionality, and deploys applications, making software development faster and simpler.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Converge AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-28T04:44:21.170Z",
+  "submission_ref": "078b3120-72ac-11f1-a24d-f715343bf8b8",
+  "title": "Free AI Vibe Coding Tool Online for App & Game | Enter Pro",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://enter.converge.ai/"
+}
