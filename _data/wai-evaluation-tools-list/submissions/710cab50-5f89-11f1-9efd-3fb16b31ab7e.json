@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "e.longhi@dunp.it",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AccessiWeb Accessibility Inspector: a Chrome extension for developers & designers to run quick accessibility checks on any webpage. Use a floating panel to inspect contrast WCAG ratios, image alt texts, focus order, semantic headings, landmarks, links, and visual rendering simulations. Identify issues fast and boost digital inclusivity.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "dunp scpl",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-03T20:18:53.701Z",
+  "submission_ref": "710cab50-5f89-11f1-9efd-3fb16b31ab7e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessiweb Accessibility inspector",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.accessiweb.it"
+}
