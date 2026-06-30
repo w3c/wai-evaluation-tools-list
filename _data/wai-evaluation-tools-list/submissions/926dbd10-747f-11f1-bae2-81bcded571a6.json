@@ -1,0 +1,85 @@
+{
+  "a11yloc": "https://www.allyup.ai/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "jake.abma@allyup.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "AllyUp leverages AI-assisted analysis to help product, engineering, and compliance teams foster an inclusive culture that builds high-quality, accessible experiences from the ground up, moving you beyond reactive, slow manual audits.\r\n\r\nAI chat and scanning trained on your own design system and brand guidelines, so answers are specific to your organi",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "nl",
+    "fr",
+    "es",
+    "cs",
+    "fi",
+    "pl",
+    "sk",
+    "it",
+    "nb",
+    "sv",
+    "da",
+    "pt",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "AllyUp",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-30T12:31:09.153Z",
+  "submission_ref": "926dbd10-747f-11f1-bae2-81bcded571a6",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "AllyUp",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.allyup.ai/"
+}
