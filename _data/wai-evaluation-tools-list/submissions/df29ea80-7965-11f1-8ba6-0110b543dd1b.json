@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://tvhc.org",
+  "actrules": "https://tvhc.org",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "kofijohnson@tvhc.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "to meet ADA requirements",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "es",
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Tiburcio Vasquez Health Center",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-06T18:09:46.792Z",
+  "submission_ref": "df29ea80-7965-11f1-8ba6-0110b543dd1b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "TVHC Website ADA",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://tvhc.org"
+}
