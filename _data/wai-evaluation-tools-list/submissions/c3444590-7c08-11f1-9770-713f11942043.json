@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "chenhaifei62@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "ProductCool is a curated discovery platform that surfaces the most innovative and cutting-edge software tools daily. Stay ahead of trends and find your next favorite productivity booster, developer tool, or AI solution in minutes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ProductCool Inc",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-10T02:40:50.281Z",
+  "submission_ref": "c3444590-7c08-11f1-9770-713f11942043",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ProductCool",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.productcool.com/"
+}
