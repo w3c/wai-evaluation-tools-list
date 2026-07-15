@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "cf-turnstile-response": "1.DlHw5kVBfIKzEutWeW6oLX3WmeK6K9ImqCiIqJyyZBdZhUyFXMYoURDm0tkmTkG8WiMRPrxMHcclvlDaX-HYTtRzAWEcrgv_T8ZC0h-oxTgn3QKkh3hlT4qCVRmrr2ueJjBQ62SmOasUHIlnpl4D_O-m-7MhPn42aNIG_ZDJEqopUJgvksMNaZgZz5yQ7TQ1qDk6mUXz0X8d2wJ4g0t2qw1hg3do1qRH3af42BVuIV0Ft8mT_WiAhvFSnnLbiEGvRojuwl1EKmTA2YQT43e6Npr-SehVfsIeUXmehwzhMAitW-r63XNcIyjPyoy6ODUaFladCwBlx-S2w1tb6fwMkzAchX24_bcLKYvDRN-8n442XYEOdpTXlJrGqEV3Dn9obb8CASCuPOYvbINCHmdmzh_EyDbQ_1CoTrmSNmgq1LTiYHkZGhO43rV_KUPLriIW-Kxup7mbqSu5cFH5on2TeKrpaWF1BLr0AqaBilv2SPN6o02rdJRiUcf9s7-2w_PcbtglNWhB3cFGdwN3tJdvLtqf-nxApfwhQSVNDNjkYirk7dp9PXWxjn_ZPqo3m2VSTKfBWbJcX8ChiPCulq0meD0EijAwjQquigL03ENRDsnT0HDw4IYbND4Ra_O3lkMc.-NHcW0SGekxMw-DJq8ZSsg.0f4350cc70a6d27342ad6f094fdf5f3d5799755c7ba1357e92c7925dd1d7ecc3",
+  "comments": "",
+  "contact": "kfranqueiro@w3.org",
+  "features": "Test",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ken",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-15T21:54:00.704Z",
+  "submission_ref": "b00990f0-8097-11f1-8a64-2d5f621e2843",
+  "title": "Ken test please ignore (again sorry)",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://w3.org"
+}
