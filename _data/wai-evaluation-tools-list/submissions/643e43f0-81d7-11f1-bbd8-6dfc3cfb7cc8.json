@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "iza.marfisi@univ-lemans.fr",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "A free, simple tool for teachers to improve existing lessons with Augmented Reality.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "fr",
+    "en",
+    "da",
+    "tr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "LIUM",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-17T12:02:32.495Z",
+  "submission_ref": "643e43f0-81d7-11f1-bbd8-6dfc3cfb7cc8",
+  "technology": [
+    "PDF"
+  ],
+  "title": "MIXAP",
+  "type": [
+    "Desktop application",
+    "Mobile application"
+  ],
+  "website": "https://mixap.univ-lemans.fr/"
+}
