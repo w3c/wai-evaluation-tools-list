@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "alexwang07072012@gmail.com",
+  "features": "Seedance 2.5 powered by ByteDance —  AI video generator with native 30s 4K output, text to video, image to video, synced audio & 50 multimodal references. No skills needed, commercial use included.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "one ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-21T14:30:42.273Z",
+  "submission_ref": "c09dbd10-8510-11f1-8fcd-ef01ab73b250",
+  "title": "Seedance 2.5 | Text & Image to Video - 30s with Sound",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://seedance2-5ai.net/"
+}
