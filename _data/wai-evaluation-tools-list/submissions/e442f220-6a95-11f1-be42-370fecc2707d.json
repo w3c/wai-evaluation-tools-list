@@ -1,0 +1,51 @@
+{
+  "a11yloc": "http://localhost:3000/#a11y",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The repository is at https://github.com/jrpool/kilotest.\r\nThe package is published at https://www.npmjs.com/package/@jrpool/kilotest.",
+  "contact": "info@kilotest.com",
+  "desktop": [
+    "Linux"
+  ],
+  "features": "Kilotest uses an ensemble of 10 rule engines to test web pages for accessibility, usability, and standard conformance. It reports test results at several levels of granularity. It has a web user interface for human users and an API for AI agents.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Kilotest",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-17T21:45:43.746Z",
+  "submission_ref": "e442f220-6a95-11f1-be42-370fecc2707d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Kilotest",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://kilotest.com/"
+}
