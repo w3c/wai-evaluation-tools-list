@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://www.adareporting.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "ADAReporting.com was built specifically for public sector organizations — school districts, municipalities, and government agencies — that face legal ADA compliance obligations under Title II and Section 508 but lack internal accessibility expertise. The tool crawls entire public-facing websites (up to 10,000 pages), runs axe-core-based WCAG 2.1 AA analysis, and delivers executive-ready PDF reports with plain-English fix guidance. A unique feature is the Issue Inspector: each violation links to a screenshot of the exact broken element captured at scan time, with the element highlighted, so non-technical staff can immediately understand what needs to be fixed. Reports include a manual review checklist for issues that require human judgment beyond automated detection.",
+  "contact": "dlockstein@locusta.ai",
+  "features": "ADAReporting.com is an automated WCAG 2.1 AA compliance scanning service for public school and government websites. It crawls up to 10,000 pages per site, identifies accessibility barriers using axe-core, and delivers executive-ready PDF reports with issue-by-issue breakdowns, plain-English fix guidance, and an interactive element inspector that sh",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Locusta AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-22T17:09:25.042Z",
+  "submission_ref": "03737920-3e6e-11f1-affc-b90b631441c3",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ADAReporting.com",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.adareporting.com/"
+}
