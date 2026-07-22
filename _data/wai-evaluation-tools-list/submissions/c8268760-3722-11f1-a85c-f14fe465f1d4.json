@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://usablenet.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "giacomo.petri@usablenet.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "UsableNet AQA Linter is a code-level accessibility testing tool that detects issues during development. It integrates into development workflows to provide immediate feedback, helping teams identify and fix problems early, ensure compliance with WCAG, EN 301-549, and accelerate remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UsableNet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-13T10:23:15.158Z",
+  "submission_ref": "c8268760-3722-11f1-a85c-f14fe465f1d4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "UsableNet AQA Linter",
+  "type": [
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://usablenet.com/"
+}
