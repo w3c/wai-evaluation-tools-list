@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://www.krylos.io/features/web-health/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "The goal of Krylos is to enhance your web experience by offering a range of utilities. Backed by world-class engineers with decades of enterprise experience, we aim to bring that knowledge and web wisdom to all web sites, no matter their size or scale.  ",
+  "contact": "jason.rose@krylos.io",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Krylos is a utility that uses cutting edge technology to provide valuable insights on your web experience. It can crawl your hosted web site or connect with your CMS to ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Krylos",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-02-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-08T05:55:19.564Z",
+  "submission_ref": "bfe98cc0-04b2-11f1-b9be-33ba542af73b",
+  "technology": [
+    "HTML / XHTML",
+    "Markdown"
+  ],
+  "title": "Krylos",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://www.krylos.io"
+}
