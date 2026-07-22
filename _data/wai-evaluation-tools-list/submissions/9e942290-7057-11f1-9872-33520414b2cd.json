@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "charlene@accessibilitychecker.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Color Contrast Checker is a free online tool that tests whether text and background color combinations meet WCAG 2.2 contrast requirements for readability. Enter two hex values and it instantly returns the contrast ratio with AA/AAA pass or fail results for both small and large text, helping designers ensure content is legible for low-vision users.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityChecker.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2024-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-25T05:35:05.018Z",
+  "submission_ref": "9e942290-7057-11f1-9872-33520414b2cd",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Color Contrast Checker by AccessibilityChecker.org",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilitychecker.org/color-contrast-checker/"
+}
