@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://accesstive.com/accessibility-statement/",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "juliakelleroutreach@gmail.com",
+  "features": "Accesstive Free Accessibility Checker helps you identify accessibility issues, understand potential legal risk, and know what to fix first. Start with a free Instant Scan, then choose a Live Audit or Human Expert Audit for deeper evaluation. Measure your website against WCAG 2.2, ADA Title III (US), EAA (EU), and BITV 2.0 (Germany) .",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accesstive",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-22T09:58:50.184Z",
+  "submission_ref": "f0443c80-85b3-11f1-b289-4763cef9d754",
+  "title": "Accesstive Free Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accesstive.com/free-accessibility-checker/"
+}
