@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://docs.scangov.org/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Thanks for considering publishing information about ScanGov!",
+  "contact": "aaron@scangov.com",
+  "features": "ScanGov is a government digital experience platform that helps public agencies monitor, improve, and maintain their websites. ScanGov runs audits based on government guidance covering accessibility, performance, security, content, and bot friendliness.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ScanGov",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-05-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-09-10T18:38:56.402Z",
+  "submission_ref": "687ff720-8e75-11f0-b0d8-b9507a9775a4",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ScanGov",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://scangov.com/"
+}
