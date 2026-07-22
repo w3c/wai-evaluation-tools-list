@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "charlene@accessibilitychecker.org",
+  "features": "ACE™ Extension is a browser extension for interactive accessibility testing of live web applications. It enables users to evaluate dynamic content and user interactions that occur after page load, including modals, dropdowns, accordions, menus, dialogs, form validation states, custom widgets and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityChecker.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-25T05:52:24.720Z",
+  "submission_ref": "0a4a3900-705a-11f1-a25a-6bb351043524",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ACE™ Extension by AccessibilityChecker.org",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.accessibilitychecker.org/ace/extension/"
+}
