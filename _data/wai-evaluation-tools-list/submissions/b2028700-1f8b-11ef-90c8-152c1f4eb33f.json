@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "Matthew@inclusiveweb.co",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Ensure your digital content is accessible to everyone with Inclusive Web. Online Accessibility Tool. Our cutting-edge solution scans your website to identify accessibility issues, providing detailed reports and actionable insights based on the latest Web Content Accessibility Guidelines (WCAG). ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Inclusive Web",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2019-06-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2024-05-31T20:23:51.920Z",
+  "submission_ref": "b2028700-1f8b-11ef-90c8-152c1f4eb33f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Inclusive Web Portal ",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.inclusiveweb.co/"
+}
