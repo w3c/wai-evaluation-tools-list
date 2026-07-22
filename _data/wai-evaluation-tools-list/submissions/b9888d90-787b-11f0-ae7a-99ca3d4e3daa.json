@@ -1,0 +1,75 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Adaptor is a SaaS accessibility platform that helps websites meet WCAG and European Accessibility Act standards. It automatically scans for issues, applies AI-powered fixes on the front end, and offers actionable guidance through a central dashboard - scaling across multiple sites and teams.",
+  "contact": "ivan@adaptor.app",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Adaptor is a SaaS web accessibility platform hat helps websites comply with WCAG and the European Accessibility Act. It automatically scans for accessibility issues, provides actionable remediation guidance via a centralized dashboard, and includes a lightweight plugin that applies front-end accessibility enhancements for end users. Adaptor support",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Adaptor App LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-13T19:28:43.753Z",
+  "submission_ref": "b9888d90-787b-11f0-ae7a-99ca3d4e3daa",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "adaptor.app",
+  "type": [
+    "Mobile application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.adaptor.app"
+}
