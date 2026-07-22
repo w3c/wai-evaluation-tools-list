@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://a11ypath.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "In-browser tool powered by axe-core; no data leaves the client. Bookmarklet included for live-page scanning.",
+  "contact": "support@a11ypath.com",
+  "features": "A free, in-browser accessibility checker. Paste HTML to scan it for WCAG 2.2 A/AA violations with axe-core, or use the bookmarklet to check any live page. Everything runs client-side — nothing is uploaded, no signup, no install. Results list each violation with the affected element.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "A11yPath",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-13T22:06:30.118Z",
+  "submission_ref": "19e5b860-7f07-11f1-930f-73d4692c98c3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "A11yPath Accessibility Checker",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://a11ypath.com/tools/accessibility-checker/"
+}
