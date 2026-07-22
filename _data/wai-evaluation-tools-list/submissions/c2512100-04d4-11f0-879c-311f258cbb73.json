@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "karthik@browserstack.com",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "Automate accessibility testing for mobile apps with just a single flag change. Run tests on real devices, catch violations early, and integrate seamlessly into your CI/CD pipeline. No maintenance needed—DOM updates are tracked automatically. Get detailed reports, monitor trends, and ensure your app stays accessible with every release.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "BrowserStack",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-19T15:13:48.816Z",
+  "submission_ref": "c2512100-04d4-11f0-879c-311f258cbb73",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown"
+  ],
+  "title": "BrowserStack App Accessibility Automate",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.browserstack.com/app-accessibility-testing/automated-tests"
+}
