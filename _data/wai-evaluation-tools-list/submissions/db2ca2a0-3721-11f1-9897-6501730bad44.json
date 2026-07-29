@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://usablenet.com/accessibility-statement",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "giacomo.petri@usablenet.com",
+  "features": "UsableNet AQA Chrome Extension is a browser-based web accessibility testing tool that combines automated checks with guided manual tests directly on web pages. It enables real-time issue detection and supports developers in identifying and fixing issues early, helping teams ensure compliance with WCAG, EN 301-549, and accelerate remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ja",
+    "it"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UsableNet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2017-10-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-13T10:16:37.578Z",
+  "submission_ref": "db2ca2a0-3721-11f1-9897-6501730bad44",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "UsableNet AQA Chrome Extension",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://usablenet.com/technology/aqa"
+}
