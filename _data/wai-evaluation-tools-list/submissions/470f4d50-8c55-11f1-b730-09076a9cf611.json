@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://adawebsitefix.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "The tool is free to use with no account, sign-up, or email address required. Its own accessibility statement is linked above.",
+  "contact": "hello@adawebsitefix.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Checks the contrast ratio between two colors against WCAG 2.2 thresholds for normal text, large text, and user interface components. Shows a live preview of the pairing, reports pass or fail at Level AA and AAA, and suggests the nearest passing color when a combination fails. Free, no account required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "ADA Website Fix",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-30T20:28:51.749Z",
+  "submission_ref": "470f4d50-8c55-11f1-b730-09076a9cf611",
+  "technology": [
+    "CSS"
+  ],
+  "title": "WCAG Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adawebsitefix.com/color-contrast-checker"
+}
