@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "cf-turnstile-response": "XXXX.DUMMY.TOKEN.XXXX",
+  "comments": "",
+  "contact": "kfranqueiro@w3.org",
+  "features": "Test from PR preview",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Test",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-31T13:13:54.958Z",
+  "submission_ref": "ae92c2e0-8ce1-11f1-b4a0-83f2d8478320",
+  "title": "Ken Test Please Ignore",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://www.w3.org"
+}
