@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "cf-turnstile-response": "1.vw-LqyoB5UNcrNfWXFfbAnaPOsqvrJQwxfaeTm_JztpLEsIov21iDFvIIqsKhA6ZMvV5JKArbSZM_S1wpwYRCFNVi39_0APvKKbQH_SO-azfUIrs2e51neCrIYlRSFyw2JyfY51jCKaxom9FYvph6GpzK4qT17YfTLK4xwhxDu4lpibZIiq8HPvt78Yqf6U3_acTWUwxA4_LXqi8FxQ63_BtIPEOYA36s4OfgpiJYUGQ-TNc6DvtfKTs1OejDeFVS29XLnnlw0Q6wmFvyzaMa5dt36fVmBgf8JP29Y165Wh1uow09VnQDalDQ7eZKXpJ6EzZ3BxNFRDtJ6T5gYyt1FfuJV09rc9unxuDmPTnMtcbO85Gxvlk1GOTUA3L3R_FUlV9SNVDL2u2y1eJffb9Y6-dSMAPbx59WwkaMKv77gRiJ0_Q85J2a4ZGuyMP1LyZ-I91YeGgq6HAjCB03Pi-b6M6_5FizFx0N90bOns6KNdufIk_434BD_KYnZ8snxx4cLF3mQjKhuH1vLwJ16sElKR1Yt_9zVjwTuqfQqpphCTT5niS1zk4iR-I9ReXpIw62mDfozEBK61VrOtQdWQb5RTS7-IxfK_Zfbn4KuUekYH7rzi13CB0_WH_OZ2KI7m4j5DIJringhKaCQuwVzVkKW6uujfZXajt56ztS5ImOBNbjsOVVcQ1f3gvSp7qNOcT4V91YnyU5cAXSn6Zh4E-Vw.7gdSRdhLgyTY6LhsqkJtPQ.b8a8e65226f664dbde1900657914d5a22aa51d777ddad4e67246fd7e2cac0744",
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "af"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Test Vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "1996-04-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-31T03:04:57.378Z",
+  "submission_ref": "9c7a8020-8c8c-11f1-9e42-2b2e1d1d08fa",
+  "title": "Test",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.w3.org/WAI"
+}
