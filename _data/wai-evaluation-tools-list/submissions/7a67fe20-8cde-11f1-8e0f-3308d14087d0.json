@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The tool is read-only and evaluates a single page; it does not modify any content or code, and it is not an overlay. It is free with no signup or API key. The same engine is also reachable as a hosted MCP server at https://nexaaly.com/mcp for use from AI coding agents. We state on the tool itself that automated testing finds only a portion of WCAG issues and cannot determine compliance.",
+  "contact": "access@nexaaly.com",
+  "features": "Opens one page in a real browser and reports accessibility problems, each with the code change that fixes it. Runs axe-core for WCAG 2.1 AA, plus additional checks a rules engine over the accessibility tree cannot perform: controls that look clickable but are not keyboard operable, error messages not linked to their field, and CAPTCHA barriers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Nexaaly",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-31T12:50:58.946Z",
+  "submission_ref": "7a67fe20-8cde-11f1-8e0f-3308d14087d0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Nexaaly Accessibility Check",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://nexaaly.com/check"
+}
