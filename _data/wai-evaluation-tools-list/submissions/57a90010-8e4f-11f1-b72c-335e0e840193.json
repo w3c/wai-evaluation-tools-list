@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "alexwang07072012@gmail.com",
+  "features": "Generate stunning AI videos for free with Image to Video AI — the multi-model image to video generator powered by Veo, Kling, Seedance & Sora. Upload any photo, add a motion prompt, and export a 4K watermark-free clip in seconds. No sign-up, commercial use included.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "one ",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-02T08:51:24.945Z",
+  "submission_ref": "57a90010-8e4f-11f1-b72c-335e0e840193",
+  "technology": [
+    "CSS"
+  ],
+  "title": "Free Flux 3 AI – Image & Video Generator in One Place",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://flux3-ai.com/"
+}
