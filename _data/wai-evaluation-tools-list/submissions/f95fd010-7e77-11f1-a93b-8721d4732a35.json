@@ -1,0 +1,72 @@
+{
+  "a11yloc": "https://www.fireflink.com/fireflink-platform/accessibility-testing/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "support@Fireflink.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "FireFlink provides low code no code NLP based accessibility and delivering Inclusive Experiences with Continuous WCAG Conformance Across Platforms. it provides Scriptless WCAG Auditing — Web, PDF & Mobile Accessibility Conformance. It ensures Smooth And Consistent Aria Validation Across Multiple Screen readers, Browsers And Platforms, Enabling Reli",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "FireFlink Software Solutions Pvt ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-05-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-13T05:01:57.522Z",
+  "submission_ref": "f95fd010-7e77-11f1-a93b-8721d4732a35",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "FireFlink",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.fireflink.com/"
+}
