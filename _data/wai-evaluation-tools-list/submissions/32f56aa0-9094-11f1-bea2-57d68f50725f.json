@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "cf-turnstile-response": "1.qRIpdv9_04cTKLYckewvvmzkL7XHC5POAczEkT4Zk-GtwsKjtuROaHT-kebfJsQBoua9GTjerxB2rP2zYbFfqrZKbIEfHXBAeR2xIDTEkjISdqxXffP7-I4kVQNS_2FOlzhCuj6NL-FJJ22B2S5oUxB1VfjH97tl4f7AE3kYi_SBplKdqZeca5t1wDyrkosPeLuvWHUZ-qnck37kNQeHXh8D8lE5fmndZmFFtqmGeFpjm7awM0uYL45ARGquYR9SUebaTdOSH5Of8C05Y03TBzjJ0PEuOnJQ8IB_W3paZGedFUZMviAa8uK3k-NKGrjYh_ieRPHPqAcCYVCjJHReadI8s1ON6QfWCcFgchbbwhvTHw0RTSBbne9e_MPAKZIjeqlo8alMGUoWKhc3pMrHeNDr_LQNNjM-kuofftNc1i0MINDtZr82gQVHBJKJ2aV8VFeQOADexpdhmTcOm-sXWNJBLqeFgQw0bspBtpUlrApBaJjtJJ8aXt0wFJxbVW2UTyVZuefwC5ndZ8o8YaH9b_h-xCxb_qLA__m8FG368ETfnsXBxKyPcX37ZoF_aCcRvEbTdEum04Oii27jrnTW2QXYUhNJiVCttyx7MNKwfb47ld4IJSMdnkTX_VfEkjB8xohgL4XGLCfxzpCyytKSDJmNHy-4XXfpIeZ15jr7XOXDOCmF-03pNDPmWYxrAX5j.Ts97oSHNE6lPTGOAJqZFmg.2b3fa172be8a32e79425f0d239dc3088bc3d1c2a03eeea06fb50d030b174de73",
+  "comments": "",
+  "contact": "zhao68733@gmail.com",
+  "features": " Ray 3.2 is a cloud AI video creator with four core workflows. Up to 16 keyframes accurately adjust lighting, camera moves and character motions while stably tracking eight people. No high-end local GPU is needed. It natively outputs 1080p 16-bit HDR and EXR sequences compatible with professional post software, with practical tools like scene repla",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Luma AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-05-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-05T06:09:20.970Z",
+  "submission_ref": "32f56aa0-9094-11f1-bea2-57d68f50725f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Ray 3.2 AI ",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ray32.net/"
+}
