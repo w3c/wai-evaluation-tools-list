@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://worksbuddy.ai/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox",
+    "Opera"
+  ],
+  "cf-turnstile-response": "1.05lhxayaqv0lJXkwAHzwiN5_nVySCg3DdUg3tCcWXcnG2GgBo_EDY7VS7I6NTbqd2mhSl2ETcb8TXYqrXJ5Mtiw__iWs8A3CwxgKqrG_uo2s6tlEy1WKyBA1w1OfZW8JEvkkiMf3nnbOIcHILmIeQcrsf0tUMfYoXLXKmaKVDdxZ3t1uPtQRb8bS1NbSw95x6fogwTbr1kR_BxXgL_Aclhbt84DFu6sVHdlz8wvMxZquLjJ4qwynx-YfhMVIFAyLfNxOCJjppjpU8M0Gj4Mxx2GYLtzXsQhmgBeLXLfRWvR_icIrIfMaBdDXxOSLdPwXZU4NX1Zc-xhrfxlytFVpmdDQQ8q7ImVHSbXpgrEE0EKbxLoazAmDewIhw71FR-uBBLzCvGKA0FF-wMwROOAAop_XYTJniS7VBvmJESXwHfNWNWkjcYH9U0XGF5sveUR6hdprf_hNDJu-xg9inFmE9PmPeHrtjfrvUkFyWYfDgIwrPGSjqZDVjXkhKAWGiqsqeQCr9HEJZbwkvdYDzp53Wag2ytjhH_yEt3ALybEeqouepYW1ZOV2wfcDCKfxJH6J60qNIccc4poV_kYegQVAhIZ-pNKtuk8GNCgjtABBsPKAU9LAy-UDUnm8XQ0QWAdsgRLjBajDO7QU8skpodXoRQ.2UsR26hG7qJFpWZwncC52g.fc57e7d41ca94abaee9de5ae74a294d84c4424690b8895be60d77601fe87cf79",
+  "comments": "Most businesses don’t fail because of bad ideas, they fail because execution breaks, leads go cold, follow-ups get missed, tasks pile up, and disconnected tools create chaos. WorksBuddy solves this by replacing scattered apps and manual workflows with one fully integrated system powered by coordinated AI agents.  \r\n\r\nFrom capturing and qualifying leads to managing tasks, running email communication, generating invoices, and automating workflows, everything happens seamlessly in the background without constant human effort.   \r\n\r\nInstead of chasing work, your business starts running on autopilot, faster execution, higher conversions, and zero operational bottlenecks. Built for founders, startups, and scaling teams, WorksBuddy helps you grow without hiring endlessly or burning out, turning your business into a system that simply runs itself. ",
+  "contact": "marketing@worksbuddy.ai",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "WorksBuddy is an AI Agent Suite, Built to Run Your Business. So You Don’t Have To . It's like having a full team of AI employees managing your operations 24/7.  ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Time-limited trial",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Worksbuddy ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-06T12:31:46.071Z",
+  "submission_ref": "c9b59790-9192-11f1-af24-391f4d85fae1",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WorksBuddy AI",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://worksbuddy.ai/"
+}
