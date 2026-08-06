@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://wexlo.eu/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "cf-turnstile-response": "1.Z6f5Kecu_ni76qIJALl_Oq4VAXHXfBe6OM1y8-1RcCUncEoHUCs--FOX73gX1uNjP4xn7rlAXoyKZOkdm0VaZeu3sUj7922LpZKFRNS1H4RXpDFNRRjjPLlopSe0RhFZWDuuqroRNCY3ymaJuVuXX-nhaMYdTM0F9Uh7PqdTKfAcIr6GeE8S4ujwFnTmyspJFU_trOiRqZxZ7xQJwqUdG2ZfHhgV9-Xv4nW73xD-kN8jVx8sHMpOnLohRQLdZVpTdu6OWKzyvxfNoE7OHX5qix4kzEqcratFz8xlh1bxfdxgWnXPf7cJrO6-6q_I9WjQ1DcfceXFRfUlxemDbyXfHQ4RANQrvfKwpo1RVrPkjc55x7BPh4Um8rBT5UY1aNIIrtRVo4rxgqeydhzNYLllwVGuekQqNPl0dS_14iwB6Z5VdIb2NLPTCBy0g-icJHhxxwzdIIzzGaTlTohAaPHmor8ddxSfyUYwqfOzH9PBfdxeSVHwVLosViV8lvYNGzol0zsDcZ-bxzaiG8inPnHLVwnqv0YaEtTxcvuXfVPN5rWtzRrz2ayFgD1q4KBSDqK7VY7y3urQngotr2WUvJjhhjyc3yNlVG3oLF7iJkhfzJt9KbDltn-__vf4__Ms5dREh5vtZ7Z7OnsZF9SBXSLC-UvMdwghxIre6nhr0KKMo_M.8ftjfeth285KeSXlNNUvbQ.06d6fdc58961a0b11f2411236709ba0eb490c8dfff00e04ad8b13cfafe330c23",
+  "comments": "Wexlo is a hosted service. There is no plugin and nothing to install, which\r\nis why the plugin and operating system fields are left blank. It runs in any\r\nmodern browser.\r\n\r\nScope in practice: the free scan covers one page and asks for an email\r\naddress. A paid scan covers all reachable pages up to one hundred, selected\r\nas a spread sample from the sitemap.\r\n\r\nTo be explicit about what the tool does not do: it evaluates and reports. It\r\ndoes not modify, inject into or overlay the site being evaluated. Criteria\r\nthat cannot be decided automatically are reported as needing human review\r\ninstead of being scored as passed.\r\n\r\nOur own accessibility statement is at https://wexlo.eu/accessibility. Happy\r\nto correct or update this entry at any time.",
+  "contact": "ops@wexlo.eu",
+  "features": "Wexlo covers the evaluation workflow end to end: scan a website against WCAG 2.1 AA, map each finding to its criterion, page and element, get a repair route per finding, generate a draft accessibility statement, and re-measure to track progress in one dossier. Criteria needing human judgement are marked, not scored.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "nl",
+    "en",
+    "fr",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Wexlo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-06T07:47:54.221Z",
+  "submission_ref": "21f1a9d0-916b-11f1-a0a2-1f0439f24b67",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Wexlo",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wexlo.eu"
+}
