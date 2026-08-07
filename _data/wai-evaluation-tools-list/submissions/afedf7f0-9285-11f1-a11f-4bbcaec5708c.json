@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://guardgrid.ai/trust-center/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "cf-turnstile-response": "1.iDEqjXjJ0gy_1Mn9KKO4PYvi3rc77zx6KON18pgGvhHxkwga8OHPelp-VV06DetbzoxtYiwMZ1-ZQbKk77T0sZM-Gw0tLPLrKtYnGYjJuLCtMdG1-zNAXJl1zqcn7QNES84EpCQpmNi58ISksWg91jlMf5FMC2Na55vRbpgBdzqrTarW6JcGfIhxrvjzCCtPspol0FKN2hE0WIejyWwTWpivTXpPaAMeL65lE-MJovlJPHyNZAZjRYz9V3vrqdjoaZ_VgZvmK4Q6YtCJzdataQWplE4V_-VmU42k07r8Y6um8m7IhLSXewGKH9W3rvTrw5wIsHOBQAuD_heiiV2F0Nx5Wu0EN7Yt6bxw3jkiYNqIovgG0gWF9mn-j3zYs5NFbOBEhmuj0XY_SRT2OajrNuOYmQtHRcp-EN9sK3vhyONcZXRte9y9nn5BD6jGxtwmRdJzCmjPjPVWGxcP0OO2SYuyMbThQd4EduKk1jQvl24aiPy8KC3angrKVvcLo-h_uxUxsVxhwfYgwuCcHiR2JjgMKeuNYUPEYSNES18d7geBzySu58KRLvrbgbzZawOePi_MPROY-YMKw7uSit8xNaMqUq2V8bQ92_E5gNoZx64UAzcgpxxUz3cR1s0HkFmhoi0jUyc4HSnVGzxSCueYJg.QU10cdwPIqEyhVpcMECLDw.f78811a8d53b391cc496ec7bb59e118df0f377978b2b415b9e6d49429ed333bf",
+  "comments": "",
+  "contact": "info@revion.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "GuardGrid crawls an entire website and its PDFs, testing every page against WCAG 2.2 (A, AA, AAA) and Section 508. It reports each failing element mapped to the exact success criterion, shows it on a screenshot of the page, grades each site, tracks fixes to re-scan, and exports VPAT and evidence reports. Automated full-site scanning, not an overlay",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Revion Solutions Incorporated",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-12-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-07T17:30:30.511Z",
+  "submission_ref": "afedf7f0-9285-11f1-a11f-4bbcaec5708c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "GuardGrid",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://guardgrid.ai"
+}
