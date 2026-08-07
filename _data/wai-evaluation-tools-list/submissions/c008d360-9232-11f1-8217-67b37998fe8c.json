@@ -1,0 +1,41 @@
+{
+  "a11yloc": "https://docs.antigma.ai",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "cf-turnstile-response": "1.hGx80nb_QmzAIjtKOzN6QQYStcf32KB1UqxScH9LmcD92c44D2v-Zflh99FFFJC1DkElR2sXN8SCmmLeZl051xMZxiv7T9ZwEEpOnTGZ8khU8fi21AePHjlrq8OAEDQ5c1AmLuSxIj8LfpYMwTQ4HIMxnIi_BTJ0MrkxDbWJxsTZvSRvHqRV3370GMZG2yRULjP4tOZKn7saF1Y3kLigucmdoPiCRS4jeTf7D0vJjEEYe56ahrUvA5VMJw3uIRB1NToI046VR4UJgMz1JoxsFwg0dVrqjAknUHo9__EaEigK_6BOgQFIYMM3NktNnGMKAhzMy_sGjtsESfVprsCjhf-llsObxAd77kJxRHonPu_24n2RTQY_F11EWQmNAlQYwotOHXDNF2jlWFBYFP3UoFbCd8es_qbLf_ZxFnhiOBjylfRcLkowzlat10OoSZAo9dvC4qogVkyLeYc7iObzY_r1MgcKhXF1Jktpf1GZhO_2qKwKRYW81CcZ4rG3RYnQwkKMfmLUTUdt_wcr28p6_09ZL8Vm0jKdRWrSd2c4mBYHUwdqo1PlfSVI986XsC5A3XgbsWljIlHoPcTZf-2IBOzkkVyMBiF0fsyDtC_LCKk.hfn0GbwlwrkK8zb6m4qZ7g.a2f261e597cdfad5a6567b70f1e47b08ff8603570bbeb5028c4ff6aa34379b0a",
+  "comments": "Free. The ante binary is free during the alpha preview, commercial use included (Binary Preview Terms). Docs, protocol, SDK, and eval pipeline are open source under Apache 2.0. Best-fit PH option: Free or Payment not required; on sites with an open-source flag, mark open source.",
+  "contact": "contact@antigma.ai",
+  "features": "Ante is a self-contained coding agent that lives in your terminal and self-organizes. One ~15MB Rust binary, zero runtime dependencies, works with 12+ providers or fully offline with local GGUF models. Continuously evaled in public: #1 same-model agent on Terminal-Bench 2.1, every result pinned to a build you can download and audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Antigma Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-07T07:36:49.319Z",
+  "submission_ref": "c008d360-9232-11f1-8217-67b37998fe8c",
+  "title": "Ante ",
+  "type": [
+    "Desktop application",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://antigma.ai"
+}
