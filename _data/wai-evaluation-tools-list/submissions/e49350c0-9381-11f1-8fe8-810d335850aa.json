@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "cf-turnstile-response": "1.4llMf6uthj_gKJLKzaq0wtySJOkje8D6OnlOy4z2d8cVS3sEzfMgJF0aQa8nGR1Lo-wuXaENdHncxEjaYXY_QHpyHzfInDOcLq0yVT94JhLOUt2-fuL2r9idHHNPmPML4txlgdU61Cmi0RCEJeoVeD_0Ay-0cHvv9VPzoNIJbwvzLcI_rf8mPd9_KI12SeW0OvGXpQoCIPEau5fZc71evtLSZbtQ4RkShBp5YOClgLLbyj3hZ1xJAtEAnysRK8Rb5MjLBJUwu3TBtrYY6aaIQ0Wjf4L7bYcPwqIxLNu8p-f4XQeoDyrJO_NNhEGhl7M1Cg_e-rFb7Vm8Wnhfdge84YfI5yVSHyTfi7-F76zhTxAeudTGt4fK1AUl76w2jnvMmti5FhOrtUU9KyTmG_dGCf2tDeG0ZJ9LCiuk5RO132iDXwemxs67TNIZ2GXBQrCxTBiIepS2H4NQscSL1W6a_VB9RtEFBrlKL4Z9hS5G2uPrn_k3AauHelB0FcTeg3p2OqTHXpWu3TyHmxmWo5CGdUCiJQOXOFkF-4xPyCzvb3Wm_c2zw2xu7DI5Mc-yNgN9b4iNELFa690s-1u2BjLVcvelGMnRtN90WwXRYl-Fqm_nGQuJINfB3MMP-nOYZ5NHpxYwV2HFwsj7XMq0F-fA4iYVHIVlHreEWeJrCqvY5VK1KfzLRCVh4_YfRLcgrI17_G8VD8erlq3r2nt5-2O1aFOZ6CBBVWXFLssysslRGHk.UMF08dmen5fsrkUn3ZcvIw.d6467296de2e5cf5a7d529416661cf54f8c3fd0bd59fc0cb3c11d55ff14301e8",
+  "comments": "Free public URL scanner (axe-core + Chromium). Single-page automated WCAG audit with country-law checklists. Not an overlay or auto-remediation tool. Related PDF checker is separate: https://www.infyways.com/tools/pdf-accessibility-checker/",
+  "contact": "info@infyways.com",
+  "features": "Free online checker that loads a live page in a real browser and tests WCAG 2.0, 2.1, and 2.2 at Level A, AA, or AAA. Returns a score, Critical/Review/Passed findings with selectors and fix guidance, plus market checklists for ADA, Section 508, EAA, AODA, ACA, BITV, RGAA, and DDA. Download an HTML audit report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Infyways Solutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-08T23:35:52.012Z",
+  "submission_ref": "e49350c0-9381-11f1-8fe8-810d335850aa",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Infyways Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.infyways.com/tools/accessibility-checker"
+}
