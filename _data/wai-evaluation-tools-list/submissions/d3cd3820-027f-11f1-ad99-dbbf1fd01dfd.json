@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://polypane.app/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Previously listed here: https://www.w3.org/WAI/ER/tools/index.html#polypane",
+  "contact": "kilian@polypane.app",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Polypane is a web browser for creating responsive and accessible websites with a multitude of accessibility testing tools, page structure overviews and disability simulators.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Polypane B.V.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2019-05-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-05T10:45:46.274Z",
+  "submission_ref": "d3cd3820-027f-11f1-ad99-dbbf1fd01dfd",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Polypane",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://polypane.app"
+}
