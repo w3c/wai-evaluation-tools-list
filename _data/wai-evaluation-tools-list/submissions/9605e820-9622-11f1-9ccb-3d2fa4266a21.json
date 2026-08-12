@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "test@example.org",
+  "features": "Test description",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Test Vendor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-12T07:51:11.523Z",
+  "submission_ref": "9605e820-9622-11f1-9ccb-3d2fa4266a21",
+  "title": "Test tool",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://w3.org"
+}
