@@ -2,7 +2,7 @@
 title: "Submit a tool - Web Accessibility Evaluation Tools List"
 nav_title: "Submit a tool - Web Accessibility Evaluation Tools List"
 lang: en   
-last_updated: 2023-11-22
+last_updated: 2026-08-12
 permalink: /test-evaluate/tools/submit-a-tool/
 ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
