@@ -2,7 +2,7 @@
 title: "Submit a tool - Web Accessibility Evaluation Tools List"
 nav_title: "Submit a tool - Web Accessibility Evaluation Tools List"
 lang: en   
-last_updated: 2023-11-22
+last_updated: 2026-08-12
 permalink: /test-evaluate/tools/submit-a-tool/
 ref: /test-evaluate/tools/submit-a-tool/
 changelog: /teach-advocate/evaluation-tools-list/changelog/
@@ -34,6 +34,13 @@ main > header { grid-column: 4 / span 4; }
   <p>
     This form allows you to provide information on your organization’s tool for web accessibility evaluation to be listed on the WAI website. Information submitted will also be publicly available in GitHub.
   </p>
+{% include box.html type="start" class="highlighted" %}
+<p><strong>W3C staff temporarily has limited availability to process submissions.</strong></p>
+
+<p>We expect to resume full support in November 2026. Thank you very much for your patience, if we are not able to process your submission until then.</p>
+
+{% include box.html type="end" %}
+
   <p>
     If you have questions, want to update information in the list or delete a tool please send an e-mail to: <a href="mailto:group-wai-list-eval-tools@w3.org">group-wai-list-eval-tools@w3.org</a> 
   </p>
@@ -355,7 +362,12 @@ main > header { grid-column: 4 / span 4; }
     <label for="publish-permission">I give permission for the information about this resource to be published in the Web Accessibility Evaluation Tools List and archived on GitHub (Required).</label>
   </div>
 
-  <p>We will aim to review and publish your submission within 2-4 weeks depending on the content. You will receive an email when we have reviewed your submission.</p>
+{% include box.html type="start" class="highlighted" %}
+<p><strong>W3C staff temporarily has limited availability to process submissions.</strong></p>
+
+<p>We expect to resume full support in November 2026. Thank you very much for your patience, if we are not able to process your submission until then.</p>
+
+{% include box.html type="end" %}
 
   <div class="field">
     <button type="submit" class="submit-tool">Submit tool</button>
