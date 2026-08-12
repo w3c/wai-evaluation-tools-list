@@ -3,7 +3,7 @@ title: "Web Accessibility Evaluation Tools List"
 title_html: "Web Accessibility Evaluation Tools List" 
 nav_title: "Web Accessibility Evaluation Tools List"
 lang: en
-last_updated: 2025-12-19
+last_updated: 2029-07-29
 permalink: /test-evaluate/tools/list/
 ref: /teach-advocate/list-of-evaluation-tools/
 sidebar: false
