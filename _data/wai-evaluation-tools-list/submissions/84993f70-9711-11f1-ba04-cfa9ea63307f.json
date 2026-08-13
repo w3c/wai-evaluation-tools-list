@@ -1,0 +1,59 @@
+{
+  "a11yloc": "https://kamero.ai/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "kameromarketing@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "Kamero AI is an automated photo management platform utilizing face recognition and real-time camera-to-cloud delivery. It features accessible web galleries, automated alt-tagging workflows, structured image indexing, and WCAG-aligned media interfaces designed to support screen reader users and keyboard-only navigation for live events.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "hi"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Kamero AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-08-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-13T12:21:32.007Z",
+  "submission_ref": "84993f70-9711-11f1-ba04-cfa9ea63307f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Kamero AI",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://kamero.ai/"
+}
