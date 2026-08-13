@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "padilhawillian298@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "500 characters",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "will",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-08-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-13T18:39:41.114Z",
+  "submission_ref": "585c39a0-9746-11f1-a758-ad163b71d706",
+  "technology": [
+    "PDF"
+  ],
+  "title": "amazon",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://www.amazon.com.br/"
+}
