@@ -13,7 +13,7 @@
   ],
   "comments": "",
   "contact": "jetzt@onlinebarrierefrei.de",
-  "features": "OBF ist ein SaaS-Plattform",
+  "features": "OBF ist ein SaaS-Plattform zur automatisierten Prüfung von Websites auf WCAG 2.1/2.2- und BFSG-Konformität. Mehrseiten-Scans identifizieren Barrieren, liefern verständliche Reports mit Konformitäts-Score und konkrete, priorisierte Korrekturvorschläge für Entwickler – von automatisierbaren Detailfixes bis zu manuell zu prüfenden Fällen.",
   "form_name": "submission",
   "form_version": "1",
   "guideline": [
