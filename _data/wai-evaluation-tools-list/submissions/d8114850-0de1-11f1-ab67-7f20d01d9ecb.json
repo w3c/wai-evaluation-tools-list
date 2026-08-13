@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://codefrog.app/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "You can test a single page or a sitemap of a whole site for accessibility problems and more. Localhost, staging and prod testable.",
+  "contact": "andy@greenrobot.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "CodeFrog tests accessibility for websites (using axe-core) as well as other types of tests. It's a downloadable desktop application where you can generate reports with accessibility problems listed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "GreenRobot LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-19T22:25:06.901Z",
+  "submission_ref": "d8114850-0de1-11f1-ab67-7f20d01d9ecb",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "CodeFrog",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://codefrog.app"
+}
