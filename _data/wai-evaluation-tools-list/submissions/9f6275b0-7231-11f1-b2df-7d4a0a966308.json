@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "AccessLumens currently supports automated WCAG-based website evaluation, multi-page crawling, evidence-backed reporting, and accessibility benchmarking. The platform focuses on helping teams prioritize remediation efforts by highlighting issues with the greatest potential user impact and compliance risk. ",
+  "contact": "support@accesslumens.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AccessLumens evaluates website accessibility through automated WCAG testing, multi-page website crawling, accessibility benchmarking, keyboard experience analysis, and evidence-based reporting. It helps teams identify, prioritize, and remediate accessibility issues with actionable insights and compliance-focused guidance.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Individual",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-27T14:08:07.819Z",
+  "submission_ref": "9f6275b0-7231-11f1-b2df-7d4a0a966308",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessLumens",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accesslumens.com"
+}
