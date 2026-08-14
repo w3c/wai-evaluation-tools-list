@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://compliascan.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Free public scan, no signup required. Paid plans add scheduled monitoring with alerts, a REST API, CI/workflow integration, and white-label reports agencies can rebrand and resell to clients. Automated testing addresses roughly 30-40% of WCAG success criteria; each result includes prioritized, source-level fix guidance.",
+  "contact": "team@compliascan.com",
+  "features": "CompliaScan is an automated WCAG 2.2 accessibility scanner. Paste any URL for a plain-English report in about 30 seconds, powered by axe-core plus custom checks. It flags issues, prioritizes fixes, gives an accessibility score, and exports PDF reports. Covers WCAG 2.2, ADA, Section 508 and EAA.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CompliaScan",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-14T03:41:38.136Z",
+  "submission_ref": "0e040580-9792-11f1-8d78-6fa78f5035bb",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "CompliaScan",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://compliascan.com"
+}
