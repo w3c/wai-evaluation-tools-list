@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "RatedWithAI is an online accessibility evaluation tool built by Bity LLC. It uses the open-source axe-core engine to perform automated WCAG compliance checks on websites. The tool provides a compliance grade (A through F), detailed violation reports grouped by severity, and actionable fix recommendations. It includes pre-scanned results for 126+ popular brand websites and allows users to scan any URL for free.",
+  "contact": "shibley@saasintegrate.com",
+  "features": "AI-powered website accessibility evaluation tool that scans pages against WCAG 2.1 Level AA success criteria. Provides automated detection of color contrast, ARIA, form label, alt text, heading structure, and keyboard navigation issues with compliance grades (A-F) and actionable remediation guidance. Powered by axe-core engine.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Bity LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-02-23T16:08:12.766Z",
+  "submission_ref": "daa51fe0-10d1-11f1-86c2-6de5b7e02844",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "RatedWithAI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ratedwithai.com"
+}
