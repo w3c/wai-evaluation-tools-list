@@ -1,0 +1,46 @@
+{
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "contact": "contact@metis-digital.click",
+  "features": "Free online web accessibility evaluation tool. Tests any URL against WCAG 2.1 and 2.2 guidelines (Level A, AA, AAA). Provides detailed reports with specific issues, affected elements, and remediation suggestions. Supports single page and multi-page analysis.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "METIS Digital",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-10T09:11:38.141Z",
+  "submission_ref": "47b084d0-34bd-11f1-959c-bf20601ac00d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://web-accessibility-checker.com"
+}
