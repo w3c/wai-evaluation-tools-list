@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "casandra@accessibilitychecker.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "ACE™ Scanner tests websites against WCAG 2.2 (A/AA/AAA), ADA, Section 508, and EAA. It checks 100+ rules, classifies issues by legal risk, user impact, or best practice, and groups recurring problems by shared component. Results include an ACE Score, fix guidance, and PDF/Excel exports are available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "AccessibilityChecker.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T10:54:46.915Z",
+  "submission_ref": "c8a43d30-6e28-11f1-bd4e-bdcd24bec448",
+  "title": "ACE™ by AccessibilityChecker.org",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilitychecker.org/ace/scanner/"
+}
