@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "CyfrowyLead performs automated checks of one publicly accessible URL in a 1280×720 Chromium viewport using axe-core 4.13.0. Results reflect the observed rendered state. Passed tests do not establish full WCAG conformance. Incomplete results and cross-origin iframe coverage require manual review. The Accessibility Score is an internal indicator, not a WCAG conformance percentage. The tool does not test authenticated content, entire websites, keyboard flows, media accessibility or cross-origin iframe content.",
+  "contact": "kontakt@cyfrowylead.pl",
+  "features": "CyfrowyLead is a free online checker for a single public web page. It renders the page in Chromium and uses axe-core to report automatically detected issues, passed and inapplicable rules, and items requiring review for WCAG 2.0, 2.1 and 2.2 Levels A and AA. It also provides repair guidance and an internal accessibility score.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pl"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ATRUOS sp. z o.o. (CyfrowyLead)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-17T10:42:15.700Z",
+  "submission_ref": "5003ed40-9a28-11f1-b45e-7dadf7410cfc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "CyfrowyLead – Audyt WCAG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://cyfrowylead.pl/narzedzia/audyt-wcag"
+}
