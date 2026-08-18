@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "Open-source tool built by an independent accessibility researcher. GitHub repository available. Also available as a Figma plugin for design workflow integration.",
+  "contact": "danishmk1286@gmail.com",
+  "features": "Ally - Smart Color Contrast Checker validates foreground and background colour combinations against WCAG 2.1 AA and AAA standards. It goes beyond pass/fail by guaranteeing five alternative colour suggestions that always meet the required contrast ratio. Free, open-source, no login required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Danish Khan",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-18T06:54:44.495Z",
+  "submission_ref": "73ac19f0-5286-11f1-84c8-59239c8d1ddc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Ally - Smart Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://thecolorcontrastchecker.com"
+}
