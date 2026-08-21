@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Opera"
+  ],
+  "cf-turnstile-response": "1._gPMpyBw6jQvLp4pDUl83zu7zZ5_BKFBcq8KxGVebgQe4m0BDkXJP2KjbswVKsf-uMYCQjoQtJ3VCwaLuOEPdNrDOOsA1UyajHOC7lM6hDgC9CFUf0lZ1vt6sYvNe4sMB73h7K5JnZ8V9_Z7SWnPWbdGJhuYShBrgvBcGgEkK-ukwe_Syi1nFI6aLFfn3VsXuKT5AbltLN97DK9nxyvYez8y4rnSQIpTShR0k94N5c9HCplTkQGq_n9-8W0INV9FUL2rtQPABqwvDg7PTzYywwN9P2dRs7Y_Ey5o40KXiCCDqAPVaPd-jCDrREUYlGJNh1xdRoPwaxNVC1EM55yqLl83Nyzr1mVB6nKprxFXy7xBg7T2qqqv6Jmj-a_5-1FEgMVkaBOcIAuA4ZMb1DpRVS4k52Qb7oi_pvCQ7N_g-gcMaZb6lTfwJ9h94q5-nD1eeIOpIB21nnWeVJectzMdZO4hzAfN42M31WRY9M5iZ2UqwVQHR31vApQcKBobGaHV9jsimAthbKgpE5ZUv9VP_QUZwNkYN_fdNZVI3OeKqA6r6QTeOgXo9850wWXpN0xxyP3zOutTGHfKG7CemzaJhYmj-GiW_dljsITDCdcSG0_9kZW3P7uhiVrZQxK--oxr.Er94LIIQOgbFJWKc9oDcJg.c560dee22121789e1a2ca3017a1a2d1e32f9222048cabed5b6729fd80f798107",
+  "comments": "Accessibility Scanner is a free, no-signup WCAG 2.2 checker built on axe-core. It runs in a real browser and deliberately avoids overlays, auto-fixes, and vanity compliance scores. Happy to answer any questions during review.",
+  "contact": "chris@fullcycle.io",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "A free web accessibility checker that runs axe-core in a real browser to test pages against WCAG 2.2. It shows exactly which rules fail, with no vanity compliance score or overlay. Available as an online scanner, a Chromium browser extension, a command-line/CI tool via npm, and an MCP integration for AI coding assistants.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Full Cycle Development",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-06T03:13:18.960Z",
+  "submission_ref": "c5ec2ff0-9144-11f1-b165-f1fffacecba8",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessibility Scanner",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://accessibilityscanner.app"
+}
