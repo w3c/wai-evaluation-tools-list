@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://a11yon.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "A11yOn is a free accessibility testing suite offering a live-URL audit tool and individual checkers for color contrast, ARIA validity, landmarks, keyboard navigation, and form labeling — each finding cited against specific WCAG 2.2 criteria, paired with original explainer articles.",
+  "contact": "contact@a11yon.com",
+  "features": "A11yOn is a free, browser-based accessibility testing suite that runs deterministic checks against WCAG 2.2 success criteria, including color contrast, ARIA validity, heading structure, landmarks, keyboard focus order, and form labeling. Users can audit a live URL and download a report mapping each finding to its specific WCAG criterion, or use ind",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A11yOn is an independent accessibility publisher and testing resource for teams who want practical, standards-based guidance and tools.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-27T11:41:41.888Z",
+  "submission_ref": "45c28800-a20c-11f1-a57f-b71313dec0d0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "a11yon.com",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://a11yon.com/"
+}
