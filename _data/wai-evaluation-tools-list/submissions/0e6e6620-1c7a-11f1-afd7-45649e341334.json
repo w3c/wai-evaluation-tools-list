@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "EAA Checker specialises in streaming service compliance. Beyond standard WCAG 2.1 AA testing, it analyses HLS/DASH manifests, captions, audio description tracks, and video player accessibility against EN 301 549 Clause 7.  ",
+  "contact": "anders@wassen.org",
+  "features": "Free automated EAA compliance checker for streaming services. Tests against EN 301 549 Clause 7 (video/captions/audio description) and Clause 9 (WCAG 2.1 AA). HLS/DASH manifest analysis, player accessibility, PDF/VPAT export.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Anders Wassén",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-10T12:09:57.890Z",
+  "submission_ref": "0e6e6620-1c7a-11f1-afd7-45649e341334",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "EAA Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.eaachecker.net"
+}
