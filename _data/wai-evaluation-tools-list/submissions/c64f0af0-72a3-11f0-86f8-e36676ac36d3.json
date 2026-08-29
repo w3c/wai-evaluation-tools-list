@@ -1,0 +1,75 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "hello@weaccess.ai",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "WeAccess.Ai simplifies digital accessibility with AI. Our core tool, Insight, analyzes websites for WCAG compliance, offering actionable fixes to boost inclusivity. Paired with tools like sign language translation, alt-text, and text-to-speech, WeAccess.Ai helps businesses stay compliant, cut costs, and reach everyone.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "WeAccess.Ai",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2019-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-08-06T09:00:18.079Z",
+  "submission_ref": "c64f0af0-72a3-11f0-86f8-e36676ac36d3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Insight",
+  "type": [
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.weaccess.ai/"
+}
