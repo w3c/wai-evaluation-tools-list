@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Multi-language WCAG 2.1 scanner with DOM analysis and PageSpeed Insights integration. Generates detailed reports with WCAG criterion references.",
+  "contact": "contact@metis-digital.click",
+  "features": "Free online WCAG 2.1 accessibility scanner. Runs 130+ automated checks on any URL. Instant results with prioritized recommendations. Supports 10 European languages. No registration required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "METIS Digital",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-02T12:51:45.226Z",
+  "submission_ref": "919d82a0-1636-11f1-b7fe-91f9c461d509",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://web-accessibility-checker.com"
+}
