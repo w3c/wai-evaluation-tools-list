@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@deficiencyview.com",
+  "features": "DeficiencyView is a free, browser-based tool for simulating colour vision deficiency and screening for colour blindness. Users can upload images or enter a website URL to preview designs under all four CVD types using the peer-reviewed Machado et al. (2009) transformation matrices, the same methodology used in Firefox's accessibility inspector.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DeficiencyView",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-23T10:44:26.955Z",
+  "submission_ref": "438699b0-26a5-11f1-a1e9-e995f222974b",
+  "title": "DeficiencyView",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://deficiencyview.com"
+}
