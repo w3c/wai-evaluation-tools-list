@@ -1,0 +1,79 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "This tool is targeted for enterprise, large businesses looking for turnkey accessibility compliance solution for individual country or global accessibility compliance standards for all types of digital assets (website, mobile, PDF, Doc, PPT, ePub, Intranet Application).",
+  "contact": "hello@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "AccessibilityAssist PRO Platform is a complete web accessibility compliance platform offering automated, manual, and assistive manual audit, PDF / Document, ongoing compliance monitoring, manual testing reports like VPAT and ACR as per ADA, WCAG, European EAA EN 301 549, and other global accessibility standards.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2023-03-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-04-16T05:53:39.619Z",
+  "submission_ref": "253d8020-1a87-11f0-8b09-990644dc4e0f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "AccessibilityAssist PRO",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://www.skynettechnologies.com/website-accessibility-audit"
+}
