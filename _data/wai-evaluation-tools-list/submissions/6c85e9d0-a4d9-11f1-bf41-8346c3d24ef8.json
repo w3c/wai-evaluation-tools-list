@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://mymindstudio.ai/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The scanner classifies every result as confirmed, potential, or requiring human review, and states on every report that automated testing can only cover part of WCAG. It does not issue compliance certificates or claim a site is ADA compliant. Our own accessibility statement is linked above.",
+  "contact": "hello@mymindstudio.ai",
+  "features": "A free online scanner that checks a public web page against WCAG success criteria and labels every finding as confirmed, potential, or needing human review. It reports which criteria it cannot test automatically instead of returning a single compliance score. No signup is required for the free scan.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MyMind Studio",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-31T01:15:16.077Z",
+  "submission_ref": "6c85e9d0-a4d9-11f1-bf41-8346c3d24ef8",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "MyMind Studio Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://mymindstudio.ai/accessibility-checker"
+}
