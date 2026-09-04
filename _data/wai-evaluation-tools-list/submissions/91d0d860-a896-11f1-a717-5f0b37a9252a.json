@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Statable WCAG Checker is a free, open-to-all browser extension (Chrome, Edge, Firefox). It runs entirely in the browser: no network requests of its own, no telemetry, nothing stored. Documentation: https://statable.com/docs/wcag-checker/ Privacy policy: https://statable.com/legal/wcag-checker-privacy",
+  "contact": "wcag@statable.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free browser extension for Chrome, Edge and Firefox that runs axe-core on the page you are viewing and lists WCAG 2.0/2.1/2.2 A and AA issues in a side panel, each with the rule behind it and a link to the fix. Highlights affected elements on the page. Works on password-protected pages, makes no network requests and stores nothing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Statable (Key Arg B.V.)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-04T19:26:47.014Z",
+  "submission_ref": "91d0d860-a896-11f1-a717-5f0b37a9252a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Statable WCAG Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://statable.com/wcag-checker"
+}
