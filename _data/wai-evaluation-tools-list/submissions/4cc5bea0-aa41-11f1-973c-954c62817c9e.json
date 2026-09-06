@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Independent indie project. Automated checks run via axe-core in a headless Chromium; violations are mapped to WCAG success criteria and weighted into a 0-100 score. Free tier: 5 scans/day, no signup.",
+  "contact": "vladsper6@gmail.com",
+  "features": "Free online accessibility checker. Scans any public web page in a real browser with axe-core, maps violations to WCAG 2.2 success criteria and returns a 0-100 health score with prioritized fixes. No signup required; up to 5 free scans per day.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A11yMonitor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-06T22:21:26.282Z",
+  "submission_ref": "4cc5bea0-aa41-11f1-973c-954c62817c9e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "A11yMonitor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://a11ymonitor.vercel.app"
+}
