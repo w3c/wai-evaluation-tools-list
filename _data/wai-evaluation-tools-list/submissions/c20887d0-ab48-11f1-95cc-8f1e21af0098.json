@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "AI Software, CRM, Marketing Automation, Sales Automation, Business Management Platform",
+  "contact": "daisy@meetdaisy.co.uk",
+  "desktop": [
+    "Android",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "MeetDaisy is an AI-powered all-in-one CRM and marketing automation platform that helps businesses capture leads, automate follow-ups, manage customer relationships, schedule appointments, and grow sales from a single dashboard. Designed for small and service-based businesses, it simplifies daily operations with powerful automation and customer enga",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Meet Daisy",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-08T05:47:20.669Z",
+  "submission_ref": "c20887d0-ab48-11f1-95cc-8f1e21af0098",
+  "title": "AI-powered CRM",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://meetdaisy.co.uk/"
+}
