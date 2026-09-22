@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rydal@tagpipes.com",
+  "features": "Free online accessibility checker that renders a web page in a real browser and uses axe-core to identify machine-testable WCAG 2.2 accessibility issues. Results include affected elements, rules, WCAG references, and a shareable report. No account required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TagPipes",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-22T17:58:28.553Z",
+  "submission_ref": "371f5b90-b6af-11f1-9198-2d22bc0bcc89",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TagPipes Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tagpipes.com/tools/accessibility-checker/"
+}
