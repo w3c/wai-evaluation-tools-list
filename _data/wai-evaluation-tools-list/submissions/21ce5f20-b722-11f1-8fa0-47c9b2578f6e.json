@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://navable.io/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "hello@navable.io",
+  "features": "navable audits a site the way visitors use it: after login, opening menus or dialogs, on desktop and mobile. Scheduled WCAG 2.1 & 2.2 audits use interaction steps manually defined or AI can discover. You get violations, a score, trends, manual review, ACR, and tasks. Agencies can manage many sites and an AI agents can read the findings (MCP).",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "web DnA GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-23T07:41:04.914Z",
+  "submission_ref": "21ce5f20-b722-11f1-8fa0-47c9b2578f6e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "navable",
+  "type": [
+    "Online tool",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://navable.io/"
+}
