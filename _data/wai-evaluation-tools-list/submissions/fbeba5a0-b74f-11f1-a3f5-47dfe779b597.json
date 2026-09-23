@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://geta11y.com/legal/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Reports distinguish machine-verified findings from AI-assisted advisory findings, and reference findings against EN 301 549 and national EAA transpositions (e.g. BFSG, RGAA criteria references) alongside WCAG.",
+  "contact": "info@geta11y.com",
+  "features": "Automated WCAG 2.1 AA audits for business websites: deterministic checks (axe-core, keyboard, contrast, PDF) plus AI-assisted review of semantic criteria. Reports separate machine-verified findings from advisory ones, include suggested fixes and an accessibility score, and reference EU requirements (EAA, EN 301 549).",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de",
+    "lv",
+    "fr",
+    "nl"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "SIA Amber Cloud",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-23T13:09:18.202Z",
+  "submission_ref": "fbeba5a0-b74f-11f1-a3f5-47dfe779b597",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "geta11y",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://geta11y.com/"
+}
