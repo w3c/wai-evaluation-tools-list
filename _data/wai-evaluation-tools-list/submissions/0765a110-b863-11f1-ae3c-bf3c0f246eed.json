@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://peculiar.systems/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "contact@peculiar.systems",
+  "features": "Free automated accessibility check for online shops under the European Accessibility Act. Scans the home, category, product and cart pages with axe-core against WCAG 2.1 AA / EN 301 549, tests reflow at 320 px and keyboard focus, and looks for an accessibility statement. Clear report in 7 languages with how to fix each issue. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de",
+    "fr",
+    "nl",
+    "pl",
+    "es",
+    "it",
+    "cs",
+    "sv",
+    "fi",
+    "da",
+    "ro",
+    "hu",
+    "pt",
+    "el"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Peculiar Systems",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-24T21:58:09.057Z",
+  "submission_ref": "0765a110-b863-11f1-ae3c-bf3c0f246eed",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ShopOffen",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://shopoffen.peculiar.systems/"
+}
