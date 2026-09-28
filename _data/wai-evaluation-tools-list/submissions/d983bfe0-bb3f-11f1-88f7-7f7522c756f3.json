@@ -1,0 +1,72 @@
+{
+  "a11yloc": "https://accessifyai.de/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Shopify App Store listing: https://apps.shopify.com/accessifyai . It checks the rendered storefront pages of a Shopify store; the number of scanned pages depends on the plan (10 on the free plan).",
+  "contact": "radek@accessifyai.de",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Shopify app that scans a storefront against WCAG 2.2 AA, sorts the issues by priority and explains each one in plain language with step-by-step fix guidance. Rescans on a schedule, drafts image alt text with AI and offers an optional storefront widget for user preferences. Available in English, German, French and Polish.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ENSOMEDIA",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-28T13:23:53.182Z",
+  "submission_ref": "d983bfe0-bb3f-11f1-88f7-7f7522c756f3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessifyAI",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://accessifyai.de/"
+}
