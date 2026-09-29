@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.realiwrite.com/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "benjlijelbacem@gmail.com",
+  "desktop": [
+    "iOS",
+    "Windows"
+  ],
+  "features": "RealiWrite is an AI text humanizer that transforms AI-generated text into authentic, human-like writing. Whether you need content that passes AI detectors, reads smoothly, or is ready for publication, RealiWrite ensures your words feel natural and credible—just like real human writing.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "RealiWrite",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T14:48:18.275Z",
+  "submission_ref": "cef55b30-bc14-11f1-8efb-a3174c96f6fe",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "RealiWrite",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.realiwrite.com/"
+}
