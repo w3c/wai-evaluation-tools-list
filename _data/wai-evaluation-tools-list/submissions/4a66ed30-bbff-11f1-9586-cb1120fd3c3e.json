@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://asociacionsumas.com/accesibilidad-web/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@asociacionsumas.com",
+  "features": "Es una web de promoción la Asociación SUMAS, y de los proyectos que desarrolla",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Asociación SUMAS",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2015-01-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T12:14:16.451Z",
+  "submission_ref": "4a66ed30-bbff-11f1-9586-cb1120fd3c3e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Informe de accesibilidad dela web de la Asociación SUMAS ",
+  "type": [
+    "Server-side integration"
+  ],
+  "website": "http://www.asociacionsumas.com"
+}
