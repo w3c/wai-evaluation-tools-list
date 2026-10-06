@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://www.continualengine.com/accessibility-statement/",
+  "actrules": "https://drive.google.com/file/d/13Gwf8dCUNxXdiiJk1vRlKfm_sElO_K0g/view?usp=drive_link",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "PREP Accessibility Checker is part of Continual Engine's PREP document accessibility platform and is also available through an API for automated, high-volume accessibility validation. It evaluates PDF documents against WCAG 2.2AA and PDF/UA requirements and generates structured accessibility results and reports. This submission relates specifically to PREP's accessibility evaluation functionality.",
+  "contact": "contact@continualengine.com",
+  "features": "PREP PDF Accessibility Checker evaluates PDFs against ISO 14289-1 (PDF/UA) using the Matterhorn Protocol and WCAG 2.2AA. It automatically identifies accessibility issues and provides structured results, accessibility scores, pass/fail outcomes, and detailed reports to support accessibility review and remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Continual Engine",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-11-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-06T12:56:15.355Z",
+  "submission_ref": "50ad6cb0-c185-11f1-982a-e190a6e30c9f",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PREP PDF Accessibility Checker",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.continualengine.com/prep-accessibility-checker-api "
+}
