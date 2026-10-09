@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "https://endtest.io/docs/web-tests/accessibility-testing",
+  "contact": "liviu@endtest.io",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Endtest is an AI-powered test automation platform for web and mobile applications. It enables teams to create automated tests using natural language, autonomous AI agents, or a visual recorder. Features include accessibility testing, AI assertions, self-healing tests, cross-browser testing, and cloud execution.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Endtest",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2016-09-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-09T22:14:09.249Z",
+  "submission_ref": "bfe98d10-c42e-11f1-8c74-3fbf917511b4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Endtest",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://endtest.io"
+}
