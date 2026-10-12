@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://getadacertify.com/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@adacertify.io",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "ADAcertify scans your website and PDFs for accessibility issues, then shows a 0-100 compliance score with problems ranked by severity. It pairs automated scanning with human and legal expert review, plus 24/7 monitoring, AI alt text, VPAT reports, AI-assisted PDF fixes, and an accessibility widget for visitors.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "teamsuite, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-27T12:41:16.606Z",
+  "submission_ref": "75a6f5e0-89b8-11f1-b42c-d3ad4f013874",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "Adacertify",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://getadacertify.com"
+}
