@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "cf-turnstile-response": "1.EKCGrM3mMvZL_mf4urwVNqUDN4A8BD8mmn5vmQ-XUYMGQ-Co-VO3sPK4OyW6ewjz4q_TyB9RZuZm5KNnVm5glO_pDbRCZPh2KmcEl5t3AiH11A9TQOi9Qinzop3e-sLR0o-O3yHsyPd-aKrq4469nxPJEanFozMKVDCbpKGdfiicC8RSJpKzO6clo8fkb72KVS8U7zzeqasfeqdL5jHb91Nm1QaolPVAGAuCTI3-Ly9HyDClJszjasfpQ0FfpXHuaSoxl_ZBnRZWYRaIhTgs-POF2LDowJ2r-lJS7l1ZAyNnrBLkSpV1izFjIdGFMRRILHRO1r6NBCVbWSdF4nN7MYsWbmTJkGw1ZVotu5wJ-1qkv2e_U7HOa_-nTPGDeo2Yi-pqbQY8v9BUgSo7wrc5BCSN5Is-F22_L39b1zYW2J6b3lmxQ-pHIpg1m4v3ygm4-Bpr90-fzYWY_NTd7iUHEYg4T4Dbuj0WzfW_Rd0CVCq80pfMZ4iC0o3CahNMLFzfJOnBntMI5mkIF9S8jh1CttbHaAEOKZBmZRgBLs6HBb5y_gCAOWROEJ2rZp-8_l_6VjrvNDuz7Y4yy7o9buv9QiZa1m4b3NLh5vNesaAqaYi6O02Mwmz1A3hZ7GO4h5_dfE8UM25_vh0Vu0vHV4RbCQ.UFyeAzyN_TqTBsi1EtMwuA.30e0410b32cc064dc6d025ecdfaa594bfcd4bce6be7dc555c33e5a6488e40be6",
+  "comments": "Evidence Studio organizes manual audit evidence; it does not scan sites, assert conformance, or replace specialist judgment. Projects remain in local browser storage. There are no install-time host permissions, analytics, or telemetry. VoiceOver smoke testing is complete; Windows NVDA sign-off is still pending.",
+  "contact": "kuba.opoczka@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Local-first Chrome workspace for manual web accessibility audit evidence. Capture page state and screenshots on demand, protect report copies, link repeated occurrences, record retests, and export accessible HTML, CSV, and Markdown. It does not automate compliance decisions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Kuba Opoczka",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-11T17:21:58.824Z",
+  "submission_ref": "2897ba80-95a9-11f1-bb1a-9507a795a951",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Evidence Studio",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://evidence-studio-site.pages.dev/"
+}
