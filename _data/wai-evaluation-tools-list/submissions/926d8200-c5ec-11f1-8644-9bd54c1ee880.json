@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "ClaudeWatermark helps users understand whether content may contain Claude-style watermark signals. Its detector reviews text for patterns linked to AI-generated wording, while its rewriting feature helps transform drafts into more fluent, human-sounding language. Useful for writers, students, marketers, and anyone refining AI-assisted content.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:25:28.480Z",
+  "submission_ref": "926d8200-c5ec-11f1-8644-9bd54c1ee880",
+  "title": "Claude Watermark",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://claudewatermark.io/"
+}
