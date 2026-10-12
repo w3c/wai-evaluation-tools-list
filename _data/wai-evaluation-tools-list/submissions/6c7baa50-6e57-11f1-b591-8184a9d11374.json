@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://app.accessspark.io/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Free tier (10 audits/month, no credit card) is available at accessspark.io for evaluation. Built on axe-core plus additional checks, running real Chrome via Playwright, with authenticated-page scanning, site crawling, and VPAT/ACR export.",
+  "contact": "mike@accessspark.io",
+  "features": "AccessSpark is an automated accessibility auditor that scans any web page for WCAG 2.2/2.1/2.0 issues alongside SEO, security, and performance. Use it as a hosted online tool, a Chrome extension, a bookmarklet, or in CI. It crawls whole sites and authenticated pages, scores results, explains each issue, and generates VPAT/ACR reports.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Inner Spark Media LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T16:28:38.645Z",
+  "submission_ref": "6c7baa50-6e57-11f1-b591-8184a9d11374",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessSpark",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://accessspark.io"
+}
