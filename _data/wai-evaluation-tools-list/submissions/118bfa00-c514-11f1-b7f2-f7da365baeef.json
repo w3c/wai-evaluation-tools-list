@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@toolspike.com",
+  "features": "Runs 28 checks based on PDF/UA-1 and WCAG 2.2: tags, title, language, alternate text, headings, tables, lists, fonts, links, form fields, tab order and scanned pages. The PDF is checked in your browser and never uploaded. Each result gives the cause, the pages affected and a fix, with an HTML or CSV report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Toolspike",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-11T01:35:40.960Z",
+  "submission_ref": "118bfa00-c514-11f1-b7f2-f7da365baeef",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Toolspike PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://toolspike.com/tools/pdf-accessibility-checker"
+}
