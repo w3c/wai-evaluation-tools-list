@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://adascanpro.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@adascanpro.com",
+  "features": "AdaScanPro checks a web page against WCAG 2.1 and 2.2 Level AA and returns a compliance score with a categorised violation list. A free scan covers a single page with no account; paid audits cover 100 or 500 pages and produce a PDF report with remediation guidance; subscriptions add recurring scans and score-drop alerts. AdaScanPro identifies WCAG 2.1 AA issues and provides remediation guidance. It does not provide legal advice and does not guarantee compliance with any law.",
+  "form_name": "submission",
+  "form_version": 1,
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    "Subscription"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Duarte Hugo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-17T03:47:55.606015Z",
+  "submission_ref": "6e3e9e20-99ee-11f1-9e89-654241388151",
+  "title": "AdaScanPro",
+  "type": [
+    "Online tool"
+  ],
+  "update": "2026-08-17",
+  "website": "https://adascanpro.com"
+}
