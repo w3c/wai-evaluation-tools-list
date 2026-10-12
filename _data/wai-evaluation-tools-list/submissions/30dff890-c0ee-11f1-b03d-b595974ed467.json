@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://www.accessgenhq.com/AccessibilityStatement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Everyone Deserves Access",
+  "contact": "hr@tsqsinc.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AccessGen is an AI-powered accessibility testing platform designed to scan, analyze, and remediate WCAG compliance issues and color contrast across websites, mobile apps, PDFs, and Word documents.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "tsQs Inc",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-05T18:54:27.993Z",
+  "submission_ref": "30dff890-c0ee-11f1-b03d-b595974ed467",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "AccessGen",
+  "type": [
+    "Browser plugin",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.accessgenhq.com"
+}
