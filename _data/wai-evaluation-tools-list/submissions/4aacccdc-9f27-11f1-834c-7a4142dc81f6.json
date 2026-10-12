@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://aelira.ai/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Open-core. The full engine is AGPL-3.0 at https://github.com/Aelira-AI/aelira-core and runs self-hosted via Docker Compose with no feature gating. A separate command-line client, @aelira/cli (MIT, npm), supports CLI and CI use against a running instance. Remediation is human-in-the-loop by design: fixes are proposed with evidence and require approval before anything is written back to the source system. Canvas is the verified LMS integration in the current release; Brightspace, Blackboard and Moodle connectors are earlier in maturity and labelled as such.",
+  "contact": "reg@aelira.ai",
+  "features": "Scans and remediates documents and web content against WCAG 2.1 AA. Unlike scan-only tools, Aelira generates and applies fixes: tagged PDF structure, alternative text, reading order, table headers and captions, with human review before write-back. Covers PDF, Microsoft Office documents, LaTeX, HTML and video, with LMS integration for course content.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription"
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Aelira AI Pty Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-23T19:17:33.000Z",
+  "submission_ref": "4aacccdc-9f27-11f1-834c-7a4142dc81f6",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "Aelira",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://aelira.ai"
+}
