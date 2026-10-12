@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://rhein-code.com/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The checker runs axe-core 4.14 (open source, MPL 2.0) in headless Chrome on our server in the EU. German results use the official axe-core German locale. Nothing is stored; results are kept in memory for at most 10 minutes.\r\n",
+  "contact": "info@rhein-code.com",
+  "features": "Free online checker that loads a public web page in a real browser (headless Chrome, with CSS and JavaScript) and tests it with axe-core against more than 60 WCAG 2.0/2.1 A and AA rules, including colour contrast. Results in German or English with code examples, WCAG success criteria and EN 301 549 clauses. No sign-up.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de",
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Rhein Code",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T15:16:42.156Z",
+  "submission_ref": "edebb6c0-c64f-11f1-8b4a-fd6553b92316",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Rhein Code WCAG Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://rhein-code.com/en/wcag-check"
+}
