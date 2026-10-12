@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://screenmy.site/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@screenmy.site",
+  "features": "Free online scanner that runs axe-core WCAG 2.2 AA checks against any public URL, no signup. Each issue is reported with the HTML element, the success criterion it maps to and fix guidance, on a shareable results page. Automated checks cover only part of WCAG; the results say so and name what needs manual testing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Cambourne Systems Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-01T02:58:04.726Z",
+  "submission_ref": "ec214d60-bd43-11f1-8c54-dd465d722949",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "ScreenMySite",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://screenmy.site"
+}
