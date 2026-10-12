@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://www.accessibilityscanner.org/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "info@accessibilityscanner.org",
+  "features": "Accessibility Scanner is a free, no-login automated tool that checks any web page for accessibility and WCAG 2.2 compliance issues. It flags common barriers—missing alt text, low color contrast, unlabeled form fields, ARIA and heading problems, and keyboard issues—grouped by severity and affected element, with guidance on fix priorities.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityScanner.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-09T22:17:04.563Z",
+  "submission_ref": "ea675830-7be3-11f1-9509-e7bd88163978",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Scanner",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilityscanner.org"
+}
