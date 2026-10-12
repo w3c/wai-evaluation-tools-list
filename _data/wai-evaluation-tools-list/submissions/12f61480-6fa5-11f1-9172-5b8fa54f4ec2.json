@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@a11yrisk.eu",
+  "features": " Automated accessibility testing tool that scans websites against WCAG 2.1 and 2.2 (A/AA/AAA) using the axe-core engine with full-page browser rendering.\r\n   Crawls up to 500 pages, scores each page, lists prioritized violations with remediation guidance, and exports PDF/JSON reports. Includes CI/CD integration.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "es",
+    "de",
+    "fr",
+    "nl",
+    "pl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "VP Consulting",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-24T08:17:00.360Z",
+  "submission_ref": "12f61480-6fa5-11f1-9172-5b8fa54f4ec2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "A11yRisk",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": " https://www.a11yrisk.eu"
+}
