@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "zouhairfilaliomari188@gmail.com",
+  "features": "A free automated web accessibility auditor evaluating sites against WCAG 2.2 AA and ADA Title III standards. Features single/bulk URL checks, color contrast analysis, and actionable native code remediation powered by axe-core and Pa11y.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Website Accessibility Checker",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-16T14:01:26.887Z",
+  "submission_ref": "f9109770-997a-11f1-9835-c5a6e3d48b2c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://websiteaccessibilitychecker.net"
+}
