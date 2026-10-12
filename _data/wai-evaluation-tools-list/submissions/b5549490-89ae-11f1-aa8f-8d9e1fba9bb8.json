@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "umut@accessibilitycloud.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free browser extension that makes manual WCAG audits much faster and easier. Detects 34 component types and builds a checklist of only the tests that apply. Uses automation where it can, captures screenshots of failed elements, and judges each component once across every page. Works on public pages, as well as local / development environments.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessibility Cloud",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-27T11:31:28.473Z",
+  "submission_ref": "b5549490-89ae-11f1-aa8f-8d9e1fba9bb8",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Companion",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.accessibilitycloud.com/companion/"
+}
