@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "aykacmusa@gmail.com",
+  "features": "Llumo is a free AI visibility tracking platform that monitors brand mentions and citations across ChatGPT, Gemini, Perplexity, Copilot, and Google AI Overviews. Users bring their own API keys and pay providers directly, eliminating platform markups.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Llumo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-29T00:44:59.558Z",
+  "submission_ref": "dcf79c60-a342-11f1-9539-7b4078deceb2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Llumo",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.llumohq.com/"
+}
