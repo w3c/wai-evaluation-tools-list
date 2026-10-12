@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "mariuscode19@gmail.com",
+  "features": "DeclareAccess scans a website with the axe-core engine, produces a WCAG 2.1 / EN 301 549 audit report (issues ranked by severity, with the failing element and a link to the rule), computes an accessibility score, and generates a legally-formatted accessibility statement ready to publish. Free automated audit; paid statement. Built for European SMBs",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DeclareAccess",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-04T13:47:07.624Z",
+  "submission_ref": "d9243680-77ae-11f1-967a-998121ed481b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "DeclareAccess",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://declareaccess.com/"
+}
