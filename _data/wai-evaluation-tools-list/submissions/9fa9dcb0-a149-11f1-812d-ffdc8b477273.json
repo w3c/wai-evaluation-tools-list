@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://sitepunchlist.com/self-scan",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Site Punchlist crawls a whole site rather than testing one page at a time, then groups findings by the shared component that causes them, so repeated instances of one defect are reported once with the list of pages affected.\r\n\r\nA free five-page scan is available with no account and no card; the paid crawl is a one-time payment with no subscription.\r\n\r\nThe site publishes, per criterion, which WCAG 2.2 Level A and AA success criteria the underlying engine can and cannot check - 23 of 55 have at least one automated rule and 32 have none - computed from the W3C WCAG 2.2 data file and axe-core's own metadata: https://sitepunchlist.com/coverage\r\n\r\nWe make no conformance, compliance or certification claim, and the delivered report states plainly that it is not an audit opinion or a statement of conformance.",
+  "contact": "support@sitepunchlist.com",
+  "features": "Crawls a whole website, tests every page it reaches with axe-core, and returns one prioritised list of accessibility defects, each with the code change that fixes it. Repeated defects are grouped by the shared component causing them, so thousands of findings become a short list of fixes. Delivered as a hosted report, PDF and CSV.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Site Punchlist",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-26T12:28:20.859Z",
+  "submission_ref": "9fa9dcb0-a149-11f1-812d-ffdc8b477273",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Site Punchlist",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sitepunchlist.com"
+}
