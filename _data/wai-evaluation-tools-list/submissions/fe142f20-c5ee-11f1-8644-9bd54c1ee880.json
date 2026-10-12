@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "YTMP3 makes it easier to convert permitted YouTube video links into downloadable MP3 audio without complicated software or a steep learning curve.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:42:48.082Z",
+  "submission_ref": "fe142f20-c5ee-11f1-8644-9bd54c1ee880",
+  "title": "YTMP3",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://youtubetomp3.ink/"
+}
