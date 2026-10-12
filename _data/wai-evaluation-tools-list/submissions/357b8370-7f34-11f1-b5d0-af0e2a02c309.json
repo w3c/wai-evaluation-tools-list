@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge"
+  ],
+  "comments": "Scanly is an AI-powered web audit platform. Our accessibility module scans full websites against WCAG 2.2 criteria including perceivability, operability, understandability, and robustness. Results include severity ratings and step-by-step remediation guidance.",
+  "contact": "hello@scanly.site",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "AI-powered website audit tool that evaluates WCAG 2.2 accessibility compliance alongside SEO, Core Web Vitals performance, and security headers. Provides automated scanning with actionable fix recommendations in under 60 seconds. Free tier available for individual site owners.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Scanly",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-14T03:29:23.751Z",
+  "submission_ref": "357b8370-7f34-11f1-b5d0-af0e2a02c309",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Scanly",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://scanly.site"
+}
