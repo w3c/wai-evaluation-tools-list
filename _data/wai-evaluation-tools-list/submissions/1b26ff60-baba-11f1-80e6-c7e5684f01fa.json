@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "support@complyy.io",
+  "features": "Complyy automatically tests live websites against WCAG Level AA, checking real pages the way a visitor would and capturing timestamped evidence of each accessibility barrier found. It scores accessibility and monitors it continuously, so regressions are caught as sites change, with clear remediation guidance for every issue.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "complyy.io",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-27T21:26:30.742Z",
+  "submission_ref": "1b26ff60-baba-11f1-80e6-c7e5684f01fa",
+  "title": "Complyy.io",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.complyy.io/"
+}
