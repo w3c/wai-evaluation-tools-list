@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "MP4toMP3 is a MP4 to MP3 converter that helps you convert video files into MP3 audio. Built for music, podcasts, lectures, and offline listening, it works online with a clear, beginner-friendly workflow.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:13:12.182Z",
+  "submission_ref": "db8f5960-c5ea-11f1-be28-59a69ce5f426",
+  "title": "MP4toMP3",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://mp4tomp3.to/"
+}
