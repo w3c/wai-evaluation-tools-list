@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "svgready-assistant@atomicmail.ai",
+  "features": "Browser-based EN/RU SVG checker for common accessibility and embedding issues: accessible naming, aria-labelledby targets, duplicate IDs, viewBox, and active or external content. Shows findings and generates HTML/React image snippets. SVG stays on device. Not a WCAG audit or sanitizer.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "ru"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "SVG Ready (independent project)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-25T16:13:23.514Z",
+  "submission_ref": "084401a0-b8fc-11f1-ac21-5550efccfac0",
+  "title": "SVG Ready",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://svgready.bakongi.chatgpt.site/"
+}
