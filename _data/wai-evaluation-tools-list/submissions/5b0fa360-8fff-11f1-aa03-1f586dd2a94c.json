@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://thelatexlab.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "cf-turnstile-response": "1.H2AjzkzdBHolxzlDuoQj1D5gEA_kMfpkNVjvzfV_bpyDK37THXF1qnuJ_cRQLmn5zoJ3VBhZSI1eL1NrH0n4hAJ3aWV7L0XkVaibqmhzphMKIQZj9FbO2OyS3P1V8ohuKaWtsWS92ipZhAHomhtugKhiQgheMTydSpf4ttWB-cwyRgCrmFVvYZ3lgxXwFrS5ujLVhJtq_-cdktoHNN5Z8aki1tcvpCB8-uqIt1GcLoQvpa_uEeH8vmtJ-sTYw5UWC_X50laSHF0NsRdwEGQXlG6yKcb_zBke4tMdBr058uiDhvlcrMndSev5NfTjrDvNuegIbIokyVXWNaepJwdCVNAwAuT6E6GhiPJAkARWF1OeB0Q19oaX7a6kITzGJDZJAhZYu954dvQK3SalgQcqX35yPYbj_xDSvtboTIwMakMtbgJ8NU8nRMgRGKJXbT9HqGrJG2Nk2QC62QYExW94eGLiCqbY7oOHWFZcya2hmN_RnFXAD-FzCS8GVecgv0DmERdM-0yjZkZ-ToGLtXWu4pdfpIs7O9goZPEC7NFP6Od64x15UNoBgFX0xiOPgC9GM5WQx74E2yPEFvddCrH1hw2Yvd94PiXpaiLUrB7gX1XrpkLQjClMQMfJj4Q2mZYlKrCsGzwkrgYIZdZkauwl94tLrM0Z_IoorFJI5F54bCg.GMegUD3BheZZHei6_sB4ow.52e20f09503e968abdcb20cfa78e45b041a4b853d023cbcae71ac2730fd87a8d",
+  "comments": "Two notes on fields that did not have an exact match. First, file type: this tool checks LaTeX source (.tex files and project .zip archives) as well as compiled PDFs, and LaTeX is not one of the file type options, so only PDF is ticked. Second, standards: alongside WCAG 2.1 AA the tool reports PDF/UA readiness for compiled PDFs, and PDF/UA is not one of the standards options.\r\n\r\nOn scope, the unit of evaluation is a whole document or a whole LaTeX project rather than a web page, so \"entire product\" was the closest fit. \r\n\r\nThe tool reports readiness, never conformance. It does not claim compliance or certification, it caps its score at 99 because automated analysis cannot prove accessibility, it reports checks it cannot decide as \"not determined\" rather than guessing, and every report carries a disclaimer that it is an assessment and not a certification.",
+  "contact": "help@thelatexlab.com",
+  "features": "Online checker for LaTeX source files and compiled PDFs. Upload a .tex file, a project .zip, or a PDF and get a WCAG 2.1 AA and PDF/UA readiness report covering tagging, document language, title, image alt text, math accessibility, headings, contrast, link text and metadata, with prioritized fixes. Assessment only, not certification.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document",
+    "Source code"
+  ],
+  "provider": "TheLaTeXLab",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-04T12:23:53.238Z",
+  "submission_ref": "5b0fa360-8fff-11f1-aa03-1f586dd2a94c",
+  "technology": [
+    "PDF"
+  ],
+  "title": "TheLaTeXLab Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://thelatexlab.com/latex-accessibility-checker/"
+}
