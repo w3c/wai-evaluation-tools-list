@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "AxeGuard is intentionally not a compliance certification tool. It reports automated axe-core findings only and states that automated checks cover a subset of WCAG. Results are informational and meant to support, not replace, manual accessibility review.",
+  "contact": "grantlyt58@gmail.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "Free online WCAG accessibility scanner. Paste a public URL, AxeGuard loads it in Playwright, runs axe-core, and reports machine-checkable issues grouped by WCAG rule with affected elements and fix guidance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AxeGuard",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-20T02:18:25.670Z",
+  "submission_ref": "518dea60-6c4e-11f1-8664-e315ce1773df",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AxeGuard",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://axeguard.dev/?utm_source=w3c_wai&utm_medium=directory&utm_campaign=axeguard_launch_2026_06"
+}
