@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "affanshykh@gmail.com",
+  "features": "Live countdowns & time calculators.\r\nKnow exactly when.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "None",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-20T12:05:18.606Z",
+  "submission_ref": "694c4ae0-9c8f-11f1-8dc1-271fc7436321",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Untl",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://untl.io/"
+}
