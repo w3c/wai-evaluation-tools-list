@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "developers@houseofangular.io",
+  "features": "Our automated scanner checks your website against WCAG 2.2 standards and flags critical issues in under 30 seconds, to give you a pre-audit report with severity ratings, WCAG references, and a concrete remediation hint.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "House of Angular",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-28T09:07:49.327Z",
+  "submission_ref": "b32245f0-5a74-11f1-89ac-0be446e1539a",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Free WCAG 2.2 Compliance Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcag.houseofangular.io/"
+}
