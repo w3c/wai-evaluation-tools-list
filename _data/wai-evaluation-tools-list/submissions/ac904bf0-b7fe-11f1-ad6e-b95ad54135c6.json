@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rene@webgaudi.at",
+  "features": "Free German-language accessibility checker for public web pages. Uses axe-core in a browser to identify WCAG 2.2 A/AA issues, with an accessibility score, highlighted findings and practical explanations. Tests one page at a time; automated results do not replace a manual accessibility audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "webgaudi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-24T09:59:46.991Z",
+  "submission_ref": "ac904bf0-b7fe-11f1-ad6e-b95ad54135c6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "webgaudi Barrierefreiheit-Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://webgaudi.at/barrierefreiheit-check/"
+}
