@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://callingallminds.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "AXS Audit is submitted as an online automated accessibility audit tool. It evaluates websites and digital journeys against WCAG 2.1 and WCAG 2.2-informed checks, and includes additional checks informed by W3C WAI cognitive accessibility guidance, including Making Content Usable for People with Cognitive and Learning Disabilities. It focuses on accessibility, usability and cognitive inclusion for disabled, neurodivergent and cognitively diverse users.",
+  "contact": "hello@callingallminds.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "AXS Audit is an automated accessibility audit tool that scans websites and digital journeys for accessibility, usability and cognitive inclusion barriers. It identifies issues affecting disabled, neurodivergent and cognitively diverse users and provides practical recommendations for improvement.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Other"
+  ],
+  "provider": "Calling All Minds",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-05-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-24T10:45:19.424Z",
+  "submission_ref": "a8693c00-575d-11f1-8297-bde330be1d2b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "AXS Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.callingallminds.com/axs-audit"
+}
