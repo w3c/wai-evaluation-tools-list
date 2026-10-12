@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "We developed this tool to access video accessibility.",
+  "contact": "rajesh@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Evaluate video for key accessibility compliance requirements and identify potential barriers including captions, transcripts, audio descriptions, and other essential accessibility elements against CVAA and WCAG guidelines to support more inclusive, usable, and accessible video experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-24T03:29:25.271Z",
+  "submission_ref": "01533270-9f6c-11f1-9e53-e75452047ca6",
+  "title": "Video Accessibility Free Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/video-accessibility-checker"
+}
