@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.webability.io/statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "akshay@webability.io",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Website Accessibility Checker by Webability is an automated tool that scans your site for WCAG 2.2 compliance and accessibility barriers, then delivers detailed reports with fix‑ready recommendations to help you meet ADA‑aligned standards and make your website inclusive for all users.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Webability",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-14T12:12:51.844Z",
+  "submission_ref": "4292ec40-37fb-11f1-90d1-4d0b43093231",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.webability.io/website-accessibility-checker"
+}
