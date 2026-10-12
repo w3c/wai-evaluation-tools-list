@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "steven@trustyourwebsite.com",
+  "features": "Free automated WCAG 2.1 A/AA checker (axe-core engine) for EU small businesses, with an added AI layer that flags semantically meaningless alt text and labels that automated rules miss. Returns prioritised violations with the WCAG criterion and a plain-language fix for each. Part of a broader EU website-compliance scan.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "nl",
+    "de",
+    "es",
+    "fr",
+    "it",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TrustYourWebsite (Head Intelligence)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-27T20:48:50.253Z",
+  "submission_ref": "99cabfd0-7269-11f1-90bd-b1d94db26124",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TrustYourWebsite Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://trustyourwebsite.com/eu/en/free-tools/accessibility-checker"
+}
