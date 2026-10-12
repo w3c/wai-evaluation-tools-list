@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://onlinebarrierefrei.de/barrierefreiheit",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "jetzt@onlinebarrierefrei.de",
+  "features": "OBF ist ein SaaS-Plattform zur automatisierten Prüfung von Websites auf WCAG 2.1/2.2- und BFSG-Konformität. Mehrseiten-Scans identifizieren Barrieren, liefern verständliche Reports mit Konformitäts-Score und konkrete, priorisierte Korrekturvorschläge für Entwickler – von automatisierbaren Detailfixes bis zu manuell zu prüfenden Fällen.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de",
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "OBF Solutions UG (haftungsbeschränkt)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-13T13:25:02.794Z",
+  "submission_ref": "64010b90-971a-11f1-aa9c-79f9f75d19f2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "onlinebarrierefrei.de",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://onlinebarrierefrei.de/"
+}
