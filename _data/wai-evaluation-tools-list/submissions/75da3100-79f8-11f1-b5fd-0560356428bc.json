@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://accessux.com.au/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "We are so proud of this tool. Automated web page scans are 100% free and reference Deque's axe-core. Filters to adjust for screen size, WCAG version and level. Three deep manual page reviews by accessibility experts are included for every submission. Issues found and remediation guidance provided for each manual review. Users are encouraged to resubmit pages for remediation reviews. Additional manual page URL reviews can be requested.",
+  "contact": "gerry@accessux.com.au",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Quickly scan any web page for accessibility against WCAG in seconds with remediation guidance to fix them fast. Easily add issues as tickets to your bug tracker backlog like JIRA for prioritisation if helpful. Optionally request deep manual review and simulated user experiences of the page to find and fix issues not detectable with automation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessUX",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-07T11:39:06.128Z",
+  "submission_ref": "75da3100-79f8-11f1-b5fd-0560356428bc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "SiteScan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessux.com.au/scan/"
+}
