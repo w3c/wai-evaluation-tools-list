@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "cf-turnstile-response": "1.PON9o4gNEcOYxhpdbp6OSYXqH3rZEdzNYPTm9ALMKeZ7NZGmR09SyfJzMVM2aaLNcfKQ4yzpk2jtLYG0jORfeTRfvR6r-et6zXNl8fU3PuhLaoyjM6vKXNhCFK1WMBUNqv1wDuML26AjIqptqjwvHJfQAqCHYuRCxcrl_m6KGpn_szTsSEZ9fn-V4oJ0Oc2Rf-_mSEKX9P_P_mNmvu6oFef-mcmwgtM8mCmDuYUfwrc2uVlZ86dHPivs6EIcdFs8lXtN00EMWQ9mQpCDctxjhE_ZY7HzfDxEpZugv_ozrBo9BV1KumWuUYuav0SGmhieANVdrECON03fKZ2ehwm-qpkT9PRhbWyoyBfLZlK9N9o5n7Kj8CTX48o9Jwkq3Rev-TlBI_ODjpCMrlLbyjTNWdJI1mObMNuk8Bhvn7a2D0Cij4W1K-_WzwPjbF5WIlwGKrwVVvhy35zLdoPA6DtUbDvqfHHk3uI4k2Yt9zMNmRl-W8ZX1XvpjYLgFEo0oHpdKm5D45WY96aZc8XzyIOLbpO4lPFdSXlafJGuOKtdxRY5FuNiRZE_R7Q09o6h60rw2scmWkRiUffq5U7TucIKeQWJUc4INhJXQ2IIUSjUvM_lGhZqVzmySEb7W6QMwjG0Yxlo_U8e6oZveqd5mLUyug.mQsHvcR3PXxJ_vBtAC2g-g.c276efeeff2bde77fa1a701ea1b48a22b83a4627177bd5614aeb56849d667da6",
+  "comments": "pour is a non-profit initiative with no paid tiers. The audit engine is open source under MIT (https://github.com/pourdev/pour-engine, npm: pour-engine) and was written from the W3C specifications with no dependencies. Criteria that automation cannot verify are returned as a manual review checklist rather than silently skipped, and findings the engine cannot judge conclusively are reported as incomplete rather than guessed at. A Firefox build is currently in review with AMO and can be added when approved.",
+  "contact": "info@pour.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "A free, non-profit accessibility suite for the browser. Runs 72 automated WCAG checks, catalogs all 86 WCAG 2.2 success criteria with plain-language guidance, and sends what automation cannot prove to a manual review lane. Adds 43 vision and sensory simulations. Runs entirely locally: no accounts, no data leaves the device.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pour",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-03T15:19:55.724Z",
+  "submission_ref": "c86158c0-8f4e-11f1-81f9-f541077dcce8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "pour devTools",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://pour.dev"
+}
