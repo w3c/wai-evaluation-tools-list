@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://ost.agency/legal/wcag-tool-vpat/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Built on the axe-core rules engine (Deque, MPL 2.0) run in a real Chromium browser via Playwright, so JavaScript-rendered SPA content is evaluated. The full-site crawl covers up to 50 pages and respects robots.txt; requests are rate-limited per IP and per target domain. We state on the tool that automated testing catches roughly 30–40% of WCAG issues and does not replace a manual expert audit. A self-assessed VPAT 2.5 conformance report for the tool is published at https://ost.agency/legal/wcag-tool-vpat/",
+  "contact": "sales@ost.agency",
+  "features": "Free, cloud-hosted scanner that audits a single page or an entire website (up to 50 pages) against WCAG 2.0, 2.1 and 2.2 at Levels A and AA. Built on the open-source axe-core engine in a real Chromium browser via Playwright, so JavaScript-rendered content is evaluated. Single-page scans are instant; full-site scans are emailed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Opensource Technologies",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-16T11:38:29.345Z",
+  "submission_ref": "dda54d10-810a-11f1-8307-a7c05599c6fc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "OST WCAG Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ost.agency/tools/wcag-accessibility-checker/"
+}
