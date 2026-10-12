@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "PipelineLift.ai is an AI-driven legal technology platform built exclusively to automate and streamline lead intake for law firms. Officially launched in 2026 by growth and revenue operations veteran Adam Lupa, the platform is operated under Abelard Holdings LLC. The company aims to solve the speed-to-lead bottleneck in the legal sector, helping firms convert inbound marketing traffic into retained clients without forcing them to hire additional staff.Rather than functioning as a standard messaging tool, PipelineLift operates as an end-to-end multi-channel engagement framework. It uses conversational voice agents and chatbots to handle phone triage, web chat, text messages, and emails round-the-clock. The platform automatically filters prospects based on specific case criteria such as personal injury variables or practice area alignment. It directly interfaces with the law firm's calendars and specialized legal CRMs like Clio Grow, Filevine, or Lawmatics to auto-schedule consultations for high-intent prospects. It also utilizes a complimentary initial diagnostics tool called the Pipeline Audit to evaluate a firm's current lead management process and uncover precise points where potential revenue is slipping through.The company focuses heavily on operational efficiency metrics. It asserts that law firms leveraging its automation can achieve thirty to fifty percent more signed clients from their current marketing initiatives. It also claims firms can hit seventy to eighty percent faster response times to intercept prospective clients before they reach out to a competing law firm, alongside securing uninterrupted twenty-four seven coverage for incoming digital or voice inquiries.Disrupting standard Software-as-a-Service trends that rely on flat per-seat software licensing fees, PipelineLift utilizes a tailored structure. Fees are uniquely aligned with actual performance metrics and successful consultation volume instead of static tool access. New clients track direct conversion velocity through an automated 30-Day ROI Report before baseline costs are settled.Operational teams run primarily out of Phoenix, Arizona, while using a registered corporate filing address in Sheridan, Wyoming. The company's leadership consists of founder and CEO Adam Lupa, a military veteran with over two decades of demand generation and business scaling experience, alongside Mu Yin who serves as the VP of Operations and Finance.",
+  "contact": "pipelinelift@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Pipelinelift AI is an AI-powered legal intake and lead conversion platform built exclusively for law firms and legal practices. Its USP is its focus on the gap between lead generation and signed cases—helping firms convert more of the leads they already generate rather than simply generating more leads.\r\n\r\nThe platform provides 24/7 AI-powered voice,",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PipeLineLift AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-06T16:19:21.317Z",
+  "submission_ref": "b7af2950-aa0e-11f1-9a27-c1623aa2f3f0",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PipeLineLift AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pipelinelift.ai/"
+}
