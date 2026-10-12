@@ -1,0 +1,75 @@
+{
+  "a11yloc": "https://scan.techtipsall.com/",
+  "actrules": "https://scan.techtipsall.com/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Built to help small businesses, agencies, and developers meet WCAG 2.1 and ADA requirements without expensive enterprise audits. Feedback welcome to improve coverage and accuracy.\r\n",
+  "contact": "techtipsall@techtipsall.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free web accessibility checker that scans single pages or full websites against WCAG 2.1 A/AA/AAA. Detects color contrast, ARIA, image, form, link, keyboard, and structural issues using axe-core plus custom checks. Supports authenticated scanning of protected pages. Exports results as JSON, CSV, and branded PDF reports.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "es"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Techtipsall Solutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-18T16:18:04.958Z",
+  "submission_ref": "265173e0-52d5-11f1-85ae-b342b8002b50",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Web accessibility Checker",
+  "type": [
+    "Desktop application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://scan.techtipsall.com/"
+}
