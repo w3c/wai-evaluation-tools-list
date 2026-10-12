@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://pdfchecks.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@pdfchecks.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "PDFChecks is an online PDF accessibility checker. A private browser-based quick check tests core document structure, while an optional server-side audit uses veraPDF to evaluate machine-testable PDF/UA requirements, produce plain-English findings and an accessibility score, and flag checks needing human review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PDFChecks",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-24T14:54:37.378Z",
+  "submission_ref": "dcd94d60-b827-11f1-a430-e35500be49ee",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDFChecks – PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pdfchecks.com/"
+}
