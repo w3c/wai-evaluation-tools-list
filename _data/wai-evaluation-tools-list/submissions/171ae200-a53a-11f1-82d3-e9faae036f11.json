@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://accesstive.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "juliakelleroutreach@gmail.com",
+  "features": "\r\nAccesstive Color Contrast Checker helps you test text and background color combinations against WCAG 2.2 AA and AAA standards. Enter HEX or RGB values, get an instant contrast ratio, and adjust colors live until they pass, so you can catch readability and compliance issues before they reach production. \r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accesstive",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-31T12:47:13.952Z",
+  "submission_ref": "171ae200-a53a-11f1-82d3-e9faae036f11",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accesstive Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accesstive.com/color-contrast-checker/"
+}
