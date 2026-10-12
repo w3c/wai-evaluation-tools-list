@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Safari",
+    "Firefox"
+  ],
+  "cf-turnstile-response": "1.pq82DPZgz7zM5QP8y7-XyF4jnl1XOWNTvfQyla3fYKHAT5CROFwIZLhCcbt_2_nwtUnMNClcMIUK3eA4KC45ZdL8tTuH-p1hZFFQI-yNtk40s8oqyJt6GoUCZ8NuaL24ZXddxtM9jHCfWe6dFK9BG0_umk-iUxCuobiMBxN19TRET7N_kodZ_ukhNuyntbSa_7updzmGwaq-UH96W9uk8-wA-p83jE_Mm40hoVCKXmTMn_bp4acLXsfPeu-tpIltRLb5b8Ww7uGubC5_dG5y3v5_Z1FJQobCM0GjU6hIVGg6mD8CHeghVPfjUwnOWTkCEFAkp5uRHXuxeOr1Ssgf3a-Ry2_WVdh66jh2d-SMpr5PPUioNJVMcQ0jzPZtVJwwRwBv-YJbPkriAWBuRVJix0Erjq9uMrgdyRrcdHvVTnDPdMGinQ_5aaPwq1dSfMy0pZLw8Xtn3efOTKLlzpkLW2XmX5dbprSyBQ50cKrxWAh0mFsdUvJ7SokUULpRuWxeO2LsvdbBp7hTbPJgeYVnp8uMKaXaPs4_avLtaGjB-H7ryIns401FimtVj1z3t75zUwBL5hop1dqGxvB0Zqi42knxBpuXCFVfDb-zkc56gRU-TTFOScaiJqGqbBMwktN6oY4hsrsVPsQG4LHIcUwLiAhtMi1Z7NpEnyJe1Q1iHk0.yfMJF40AwaQwwXyOxra8ZQ.4b432ba2b350e557d2edad56651585e01e19a318e81250912a99e2e2a46c9a68",
+  "comments": "WCAG Radar comes in two forms from the same source code:\r\n\r\n- Browser extension for Chrome:\r\n  https://chromewebstore.google.com/detail/wcag-radar/ppnojdoamdfckokjapadjkcggbdnfamc\r\n- Browser extension for Firefox:\r\n  https://addons.mozilla.org/firefox/addon/wcag-radar/\r\n- Bookmarklet, for anyone who cannot install an extension:\r\n  drag the button from https://testtoegankelijkheid.nl/wcag-radar\r\n  A Safari version is in preparation and not published yet.\r\n\r\nAll checks run in the browser. The page you are testing is never sent to us,\r\nso the tool also works on pages behind a login, on a staging server or on\r\nlocalhost. Nothing about the page is stored or logged on our side.\r\n\r\n28 of the 44 checks are free and stay free. The other 16 and the report export\r\nneed a licence. The report is a single HTML file, written to be accessible\r\nitself: one h1, headings in order, table captions and th with scope.\r\n\r\nThe tool is built by Proper Access, an accessibility audit agency in the\r\nNetherlands, based on findings from more than 900 audits. Interface and\r\ndocumentation are available in Dutch and English. Servers and data are in the EU.\r\n",
+  "contact": "info@properaccess.nl",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "WCAG Radar runs 44 checks on the page you are looking at, including pages behind a login or on localhost. It marks problems in the page itself, explains what a visitor with a disability runs into, and saves an accessible HTML report. Everything runs in the browser and no page data is sent to a server.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "nl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Proper Access",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-06T15:01:22.805Z",
+  "submission_ref": "b044a250-91a7-11f1-a24d-27dd55d5c2cc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WCAG Radar",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://wcagtoolkit.com/wcag-radar"
+}
