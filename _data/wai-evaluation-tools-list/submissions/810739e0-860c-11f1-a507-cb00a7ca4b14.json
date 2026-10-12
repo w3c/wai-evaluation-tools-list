@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "craig.morten@hotmail.co.uk",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Guidepup is a screen reader automation tool for testing. It enables testing of multiple screen readers including NVDA and VoiceOver with full automated control and capture of spoken output.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Craig Morten",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2021-12-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-22T20:32:48.766Z",
+  "submission_ref": "810739e0-860c-11f1-a507-cb00a7ca4b14",
+  "title": "Guidepup",
+  "type": [
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://www.guidepup.dev/"
+}
