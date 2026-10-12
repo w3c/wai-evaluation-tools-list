@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.accessibilitychecker.org/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "charlene@accessibilitychecker.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "ACE™  Scanner is a web automated accessibility tool that crawls live sites by URL with no install and checks pages against the WCAG guidelines. It scans whole domains, sitemaps, subdomains, single pages, URL samples and password-protected areas, producing PDF/Excel reports, an ACE™ Score and remediation guidance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityChecker.org",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-25T05:46:56.636Z",
+  "submission_ref": "46bc93c0-7059-11f1-a25a-6bb351043524",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ACE™ Scanner by AccessibilityChecker.org",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.accessibilitychecker.org/ace/scanner/"
+}
