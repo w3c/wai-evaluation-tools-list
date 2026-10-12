@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://testsigma.com/automated-accessibility-testing",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "prasanna.totakura@testsigma.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows"
+  ],
+  "features": "Testsigma integrates automated checks against WCAG 2.2 Level A, AA, and AAA standards, leveraging AI-powered analysis to identify and report issues in real-time.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://testsigma.com/",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-28T11:17:14.191Z",
+  "submission_ref": "c75a7df0-5a86-11f1-aabb-8b00ff2fe550",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Testsigma Accessibility testing",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://testsigma.com/accessibility-checker"
+}
