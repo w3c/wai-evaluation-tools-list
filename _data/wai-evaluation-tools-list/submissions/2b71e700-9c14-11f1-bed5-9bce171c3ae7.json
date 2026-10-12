@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Launched mid-2026. The accessibility battery is axe-core based and runs on a sample of pages within a broader automated site audit; the delivered report states explicitly which checks could not run. Methodology: https://go-voltic.com/methodology — crawler documentation: https://go-voltic.com/crawler",
+  "contact": "hello@go-voltic.com",
+  "features": "Automated website audit that walks up to 40 public pages of a live site in a real browser and runs an axe-core accessibility battery on sampled pages, alongside speed and structure checks. Findings are ranked with the page, the fix and the evidence; checks that could not run are stated rather than omitted.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Go Voltic",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-19T21:23:06.736Z",
+  "submission_ref": "2b71e700-9c14-11f1-bed5-9bce171c3ae7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Go Voltic Deep Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://go-voltic.com"
+}
