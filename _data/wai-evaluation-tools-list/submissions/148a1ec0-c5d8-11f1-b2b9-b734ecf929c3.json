@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "turkolyazilim@gmail.com",
+  "features": "Online WCAG 2.1 and 2.2 AA checker. Pages are rendered in headless Chromium (Playwright) and tested with axe-core; each issue is mapped to its WCAG success criterion and to EAA, ADA and Section 508, with a suggested code fix. Includes scheduled re-scans, an accessibility score, PDF/CSV reports and a free contrast checker.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Türkol Yazılım",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T00:58:47.340Z",
+  "submission_ref": "148a1ec0-c5d8-11f1-b2b9-b734ecf929c3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Certvo",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://certvo.com/"
+}
