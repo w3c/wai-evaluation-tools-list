@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://www.normfluss.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Normfluss evaluates PDF documents against PDF/UA-1 and WCAG, provides a free check with a detailed report, and offers optional remediation with a signed evidence record. EU-resident processing.",
+  "contact": "partners@normfluss.com",
+  "features": "Normfluss checks PDF documents against PDF/UA-1 and the PDF-applicable parts of WCAG 2.1/2.2, reporting exactly which machine-checkable criteria pass or fail. It identifies issues like missing structure, undescribed images and links, and metadata problems, and issues a signed evidence record of what was tested. Free check; optional remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "nl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Normfluss",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-23T16:33:38.959Z",
+  "submission_ref": "87e6b1f0-b76c-11f1-987d-e16f9023b33c",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Normfluss",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.normfluss.com"
+}
