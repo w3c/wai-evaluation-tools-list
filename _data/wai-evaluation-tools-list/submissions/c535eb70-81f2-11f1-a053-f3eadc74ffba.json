@@ -1,0 +1,66 @@
+{
+  "a11yloc": "https://accesserty.com/en/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Accesserty DevCheck is intended for preliminary accessibility review. It does not replace professional accessibility audits, assistive technology testing, or human judgement. Automated checks are based on axe-core; simulation, focus path review, PDF checks, and alt text suggestions are provided to help teams identify issues earlier during everyday review.\r\n\r\nChrome Web Store :\r\nhttps://chromewebstore.google.com/detail/accesserty-devcheck/ompbhahmipenipgiiiehbkiibkonoeec?pli=1\r\n\r\nFirefox add-ons :\r\nhttps://addons.mozilla.org/zh-TW/firefox/addon/accesserty-devcheck/",
+  "contact": "service@accesserty.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Accesserty DevCheck is a browser extension for preliminary web accessibility review. It helps teams run axe-core checks, simulate common access barriers, review focus paths, inspect selected local PDF accessibility signals, and get image alt text suggestions directly in the browser.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "zh-hant"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Accesserty",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-04-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-17T15:18:31.591Z",
+  "submission_ref": "c535eb70-81f2-11f1-a053-f3eadc74ffba",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Accesserty Devcheck",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://accesserty.com/en/devcheck/"
+}
