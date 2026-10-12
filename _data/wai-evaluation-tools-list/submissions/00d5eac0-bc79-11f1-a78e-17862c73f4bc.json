@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://getadagenie.com/accessibility.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "reports@getadagenie.com",
+  "features": "Daily accessibility monitoring for school district and local government websites. Checks every school day for new issues in images, color contrast, PDFs, keyboard access, forms and links. Explains each fix in plain English, confirms when it is fixed, and keeps a dated progress record. Free one-time audit available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "ADA Genie LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-30T02:45:31.628Z",
+  "submission_ref": "00d5eac0-bc79-11f1-a78e-17862c73f4bc",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ADA Genie",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://getadagenie.com/"
+}
