@@ -1,0 +1,48 @@
+{
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "The free scan tests a single page against WCAG 2.1/2.2 AA success criteria via axe-core. Paid tiers add multi-page crawls (up to 1,000 pages), scheduled re-scans, and remediation roadmaps. Data point: across 5,410 small-business sites scanned Feb-Jul 2026, 96% had at least one WCAG violation.",
+  "contact": "v4724408@gmail.com",
+  "features": "AdaScanPro scans web pages for WCAG 2.1/2.2 AA issues using the axe-core rules engine and returns an A-F accessibility score with the top violations and remediation guidance in under 60 seconds. Free single-page scan; paid plans scan up to 1,000 pages with scheduled monitoring, PDF reports, and score-drop alerts.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AdaScanPro",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-23T06:00:56.955Z",
+  "submission_ref": "df2beda0-865b-11f1-b28e-1bf00795bfaa",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AdaScanPro",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adascanpro.com/scan"
+}
