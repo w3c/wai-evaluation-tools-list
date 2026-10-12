@@ -1,0 +1,72 @@
+{
+  "a11yloc": "https://www.equalweb.com/9491/9491/accessibility_statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "EqualWeb PDF Accessibility Checker evaluates PDF documents for accessibility issues and provides a report with passed, failed, and manually reviewed items. The checker covers categories such as Document, Page Content, Forms, Alternate Text, Tables, Lists, and Headings. EqualWeb also offers AI PDF remediation and manual remediation services for PDF accessibility.",
+  "contact": "anat@equalweb.com",
+  "desktop": [
+    "Other"
+  ],
+  "features": "EqualWeb PDF Accessibility Checker checks PDF documents for accessibility issues and generates a report showing items that passed, failed, or require manual review. The report covers seven categories: Document reading order, Page Content, Forms, Alternate Text, Tables, Lists, and Headings. Guidelines / standards: WCAG 2.2 Level AA, PDF/UA, Section ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "he",
+    "ar",
+    "fr",
+    "es",
+    "it"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Equalweb LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-11T09:03:40.730Z",
+  "submission_ref": "70bde1a0-6574-11f1-ac2a-4d2cf07ba973",
+  "technology": [
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "EqualWeb PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.equalweb.com/11743/11528/PDF_Accesibility_Checker"
+}
