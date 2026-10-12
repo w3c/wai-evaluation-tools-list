@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://conformly.online/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "contact@conformly.online",
+  "features": "Continuous accessibility monitoring for websites. Renders pages in a real browser (incl. SPAs), runs axe-core plus expert checks mapped to the French RGAA 4.1.2 (based on WCAG 2.1), scores results, alerts on regressions after each release, keeps timestamped evidence and offers a CLI for CI/CD. Free scan, no sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "es"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Conformly",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-28T00:00:19.691Z",
+  "submission_ref": "9808dbb0-bacf-11f1-a4bb-e9554d5d2148",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Conformly",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://conformly.online/en"
+}
