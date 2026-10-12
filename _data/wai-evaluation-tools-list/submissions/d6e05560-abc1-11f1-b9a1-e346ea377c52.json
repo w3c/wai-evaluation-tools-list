@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": " Inclusense Accessibility Scanner is the automated evaluation component of the Inclusense platform, built on axe-core. It crawls a site, lets users select pages, and reports WCAG-tagged issues with severity and an overall score. (Note: our separate accessibility widget is a remediation tool and is intentionally not part of this submission.)",
+  "contact": "hello@inclusense.eu",
+  "features": "Inclusense is an automated web accessibility evaluation tool. Powered by axe-core, it crawls a website, lets you choose which pages to test, and audits them against WCAG 2.0, 2.1, and 2.2. It returns an accessibility score, severity-ranked issues tagged by WCAG success criterion, and shareable PDF reports to help teams prioritize fixes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": " Inclusense",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-08T20:14:04.726Z",
+  "submission_ref": "d6e05560-abc1-11f1-b9a1-e346ea377c52",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Inclusense Accessibility Scanner",
+  "type": [
+    "Online tool"
+  ],
+  "website": " https://www.inclusense.eu/wcag-accessibility-scanner"
+}
