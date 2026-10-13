@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "israr.webcubetechnologies@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "PayDrop Licenses generates and emails a unique software license key the moment a licensed product sells, with configurable activation limits, an optional expiry date, and a choice of UUID, alphanumeric, or segmented key formats. Merchants can also create licenses manually for products sold outside Shopify, and extend, renew, regenerate, or revoke a",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "The ShopNinjas",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-13T12:06:34.400Z",
+  "submission_ref": "88c80a00-c6fe-11f1-bc24-47ba3b1d9cd8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "PayDrop Licenses",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://theshopninjas.com/apps/paydrop/licenses/"
+}
