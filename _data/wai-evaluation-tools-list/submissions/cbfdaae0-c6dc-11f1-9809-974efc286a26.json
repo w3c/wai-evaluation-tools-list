@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "bartekkonopka91@gmail.com",
+  "features": "Free online WCAG checker in Polish. Enter a URL and the tool scans the page in a real browser using axe-core: WCAG 2.0, 2.1 and 2.2 A/AA rules. Generates a Polish report with WCAG criteria, code locations and fix instructions. Can also sample whole websites by page type from the sitemap.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "pl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Web Rocks Bartłomiej Konopka",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-13T08:05:04.271Z",
+  "submission_ref": "cbfdaae0-c6dc-11f1-9809-974efc286a26",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Sprawdź WCAG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sprawdzwcag.pl"
+}
