@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://olbo.com.ua/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Accessibility checks are one part of the tool. They do not replace a full manual WCAG audit, and the report says so clearly. Interface in Ukrainian and English.",
+  "contact": "hello@olbo.com.ua",
+  "features": "Online checker for site owners: 13 automated checks in about a minute, including basic accessibility (page language, title, image alt text, form labels, h1, zoom, Google Lighthouse accessibility score). Results in plain language. Free score; paid full report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "uk"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "OLBO web studio",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-13T18:01:43.269Z",
+  "submission_ref": "25db4240-c730-11f1-9897-5751dede0780",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "OLBO Website Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://olbo.com.ua/en/website-checker"
+}
