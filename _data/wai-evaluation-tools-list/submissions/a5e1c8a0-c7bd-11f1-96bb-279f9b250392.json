@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://itechvista.com/pages/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "support@itechvista.com",
+  "features": "Free online quick check for Shopify stores. Enter a store address to test its home page and a product page for 12 common WCAG 2.2 problems: alt text, link and button names, form labels, page language, zoom, headings, skip link, tab order and frame titles. Each finding names the element and criterion. No sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "iTechVista",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-14T10:54:37.098Z",
+  "submission_ref": "a5e1c8a0-c7bd-11f1-96bb-279f9b250392",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "iTechVista Free Shopify Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://itechvista.com/pages/shopify-accessibility-checker"
+}
