@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://iiclabs.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "Uses axe-core (MPL-2.0) by Deque Systems as its rules engine.",
+  "contact": "support@iiclabs.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Browser extension that checks the open page against WCAG 2.2, 2.1 or 2.0 (A and AA) with axe-core, lists issues by impact with the affected elements and how to fix them, and highlights them on the page. Runs locally; pages are never uploaded. Paid plans add PDF, CSV and JSON reports, sweeps of up to 100 pages, history and EN 301 549 references.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "IIC Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-14T14:50:56.047Z",
+  "submission_ref": "a931b3f0-c7de-11f1-89ab-01a3c91c6d13",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessibility Auditor",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://iiclabs.com/accessibility-auditor?ref=w3c"
+}
