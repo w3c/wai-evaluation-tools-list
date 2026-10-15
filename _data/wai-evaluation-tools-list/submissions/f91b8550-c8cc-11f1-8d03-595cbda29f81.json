@@ -1,0 +1,43 @@
+{
+  "a11yloc": "https://ableaisle.com/accessibility",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@ableaisle.com",
+  "features": "AbleAisle is a Shopify app that runs automated checks based on WCAG 2.1 AA (using axe-core) across a store's home, collection, product, cart and information pages, and explains each issue in plain English with fix steps. A free Quick check of any Shopify store's home page is available at ableaisle.com/check without signing up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AbleAisle (Dublin, Ireland)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-15T19:16:50.341Z",
+  "submission_ref": "f91b8550-c8cc-11f1-8d03-595cbda29f81",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AbleAisle free Shopify store check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ableaisle.com/check"
+}
