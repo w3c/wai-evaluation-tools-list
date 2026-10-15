@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Methodology and limitations: https://krsi.pl/metodologia/ . Public reports cover the tested URL at the recorded measurement date, rather than all pages of a website. The interface and reports are in Polish. Automated accessibility results are not a declaration of WCAG A, AA or AAA conformance.",
+  "contact": "info@krsi.pl",
+  "features": "KRSI is a Polish public registry of automated website measurements. It combines Lighthouse accessibility checks with additional local rules, reports potential issues and an accessibility score, and also records performance, SEO and SSL/TLS results. Automated results support manual evaluation and do not establish full WCAG conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "pl",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Krajowy Rejestr Stron Internetowych",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-15T09:09:10.024Z",
+  "submission_ref": "1510a880-c878-11f1-9a29-af3bd1140edf",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "KRSI — Krajowy Rejestr Stron Internetowych",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://krsi.pl/"
+}
