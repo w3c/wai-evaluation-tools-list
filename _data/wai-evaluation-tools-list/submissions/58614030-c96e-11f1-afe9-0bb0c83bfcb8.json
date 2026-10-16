@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Engine: axe-core (Deque Systems). Our part is the rule library with plain-language explanations in seven languages and the mapping to WCAG 2.2 and EN 301 549 (https://pandus.online/en/rules). No signup needed for one page; paid plans check whole sites weekly. We do not offer an overlay and do not change the checked site. This is the free one-page checker; the overall Pandus service was submitted separately (pull request #1375).",
+  "contact": "info@pandus.online",
+  "features": "Free online checker that tests one web page against WCAG 2.2 levels A and AA with axe-core in a real browser. Each issue is explained in plain language, linked to its success criterion and EN 301 549 clause, with fixes for Shopify, WooCommerce, PrestaShop and Shoptet. Results in 7 languages. Automated check, not a full audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "uk",
+    "de",
+    "pl",
+    "cs",
+    "ro"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pandus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-16T14:31:59.155Z",
+  "submission_ref": "58614030-c96e-11f1-afe9-0bb0c83bfcb8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pandus WCAG Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pandus.online/en/wcag-checker"
+}
