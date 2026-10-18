@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Free, no sign-up, up to 10 checks a day. It reads the page's code only, so it doesn't judge color contrast or content added by scripts after the page loads; the page says so.",
+  "contact": "plugins@pagekiwi.com",
+  "features": "Free online checker that reads one web page's HTML for 13 common accessibility problems (unlabeled form fields, links and buttons with no text, blocked zoom, no page language or title, skipped heading levels, tables without headers, autoplaying sound, a changed Tab order) and explains each in plain English: where it is and what to fix.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PageKiwi",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T14:06:59.877Z",
+  "submission_ref": "2f911550-cafd-11f1-929f-818de43d9f4a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PageKiwi Accessibility Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pagekiwi.com/access-check/"
+}
