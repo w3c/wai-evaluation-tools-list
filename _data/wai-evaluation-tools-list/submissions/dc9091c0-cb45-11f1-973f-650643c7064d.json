@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://a11y.es/en/declaracion-accesibilidad",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Also available as a CI/API service (regression budget, verdict endpoint, public badge). By design it does not inject anything into the pages it audits (no overlay). ACT rules implementation report planned.",
+  "contact": "hola@a11y.es",
+  "features": "a11y.es runs scheduled WCAG 2.2 audits of your website with a real browser, generates hash-verifiable evidence packs and an honest badge with the measured score, and connects human reviewers who sign the results. No in-page scripts; automated CI checks included. Spanish and English.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "es",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "a11y.es",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T22:47:13.884Z",
+  "submission_ref": "dc9091c0-cb45-11f1-973f-650643c7064d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "a11y.es",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://a11y.es"
+}
