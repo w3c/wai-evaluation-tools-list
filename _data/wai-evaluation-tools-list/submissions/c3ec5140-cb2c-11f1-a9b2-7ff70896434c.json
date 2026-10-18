@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://clearaisle.pages.dev/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "pawsledger+w3c@mail.grokbot.com",
+  "features": "Automated accessibility audit for online stores. A free bookmarklet runs axe-core WCAG 2.0/2.1/2.2 A and AA rules in the browser on any page. The paid report scans 5 key store pages in headless Chrome and gives a PDF of issues ranked by severity, with fix steps for Shopify and WooCommerce and a manual testing checklist.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ClearAisle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T19:47:35.141Z",
+  "submission_ref": "c3ec5140-cb2c-11f1-a9b2-7ff70896434c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ClearAisle",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://clearaisle.pages.dev"
+}
