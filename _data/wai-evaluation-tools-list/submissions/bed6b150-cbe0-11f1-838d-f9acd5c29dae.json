@@ -1,0 +1,70 @@
+{
+  "a11yloc": "https://pandus.online/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "info@pandus.online",
+  "features": "Automated WCAG 2.2 AA checks of whole websites with weekly monitoring and plain-language reports mapped to EN 301 549. Browser extension for Chrome and Firefox (axe-core) and an open-source SDK that reports barriers real visitors meet, including pages behind a login. White-label reports for agencies.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "uk",
+    "de",
+    "pl",
+    "cs",
+    "ro",
+    "ru"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pandus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-19T17:15:56.021Z",
+  "submission_ref": "bed6b150-cbe0-11f1-838d-f9acd5c29dae",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pandus",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://pandus.online/en"
+}
