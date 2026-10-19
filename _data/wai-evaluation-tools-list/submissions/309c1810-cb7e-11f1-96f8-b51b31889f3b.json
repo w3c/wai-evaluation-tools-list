@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://www.barrierefreiheit-check.eu/barrierefreiheit",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "User interface, reports and e-mails are in German. Hosted in the EU (Germany).",
+  "contact": "info@jochenk.com",
+  "features": "Continuous accessibility monitoring for websites. Scans pages on a schedule with axe-core against WCAG 2.2 AA (Chromium; higher plans add Firefox and WebKit), recognises each finding across scans to show what is new, fixed or regressed, and sends weekly reports and PDFs. Automation covers only part of WCAG; reports list what needs manual review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Jochen Kächelin",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-19T05:30:26.705Z",
+  "submission_ref": "309c1810-cb7e-11f1-96f8-b51b31889f3b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Barrierefreiheit-Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.barrierefreiheit-check.eu/"
+}
