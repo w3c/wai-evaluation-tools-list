@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "theo@ipedis.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "PUC (PDF Usability Checker) converts your tagged PDF into an interactive HTML view so you can visually inspect its accessibility. Each tag (headings, paragraphs, lists, tables...) is color-coded and the reading order is shown, so you can check whether the document is really usable with assistive technologies. Free, online, no install.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ipedis",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-21T09:10:12.956Z",
+  "submission_ref": "390dd1c0-cd2f-11f1-a861-8d7e154e7948",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF Usability Checker (PUC)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://checker.pdfaccessible.com/"
+}
