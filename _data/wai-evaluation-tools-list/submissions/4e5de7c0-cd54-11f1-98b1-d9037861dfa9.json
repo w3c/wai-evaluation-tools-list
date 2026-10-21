@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "rianpomeranz865520@outlook.com",
+  "features": "Free online tool that checks foreground/background color pairs against WCAG contrast ratios (AA/AAA thresholds for normal and large text), with pass/fail results and suggested adjustments. Runs entirely in the browser; no signup.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Team NestofTools",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-21T13:35:40.092Z",
+  "submission_ref": "4e5de7c0-cd54-11f1-98b1-d9037861dfa9",
+  "title": "Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://nestoftools.com/color-contrast-checker/"
+}
