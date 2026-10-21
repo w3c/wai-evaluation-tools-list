@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Checks native Android apps (Android Emulator or a phone over adb), not web content, and does not map results to WCAG. Free, MIT license. Source: https://github.com/ateymoori/oh-my-android",
+  "contact": "contact@royan.se",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Free open-source macOS app to check Android app accessibility on the emulator or a phone: audit TalkBack focus order, and toggle TalkBack, font scale, bold text, dark mode and RTL in one click to test how screens hold up. Layout Inspector shows sizes in dp.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Royan AB",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-21T17:41:58.865Z",
+  "submission_ref": "b733b410-cd76-11f1-8fa5-d14f9d0c47cf",
+  "title": "Oh My Android",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://royan.se/work/oh-my-android/"
+}
