@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://videodetector.org/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "features": "Whenever you investigate reposted videos, Ai Video Detector analyzes video frames and presents findings about possible AI generation. Guests can access a limited free trial without creating an account.\tTo help everyday viewers investigate reposted videos, Ai Video Detector offers visual findings to consider before sharing the material. Keep the rec",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "mt tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-21T06:24:49.359Z",
+  "submission_ref": "1e2115f0-cd18-11f1-91f9-b1c06f2c2597",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Check if a video is AI generated",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application"
+  ],
+  "website": "https://videodetector.org/"
+}
