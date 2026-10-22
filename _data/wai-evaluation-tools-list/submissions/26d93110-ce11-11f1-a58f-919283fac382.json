@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://araspeed.fr/accessibilite",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Free online tool in French. Based on RGAA 4.1, the French accessibility standard aligned with WCAG 2.1 AA (French law, including the European Accessibility Act transposition). Independent tool, not affiliated with DINUM. It prepares an accessibility audit; it does not replace one.",
+  "contact": "contact@araspeed.fr",
+  "features": "Araspeed checks a web page against RGAA 4.1, the French standard based on WCAG 2.1 AA. It opens the page in a real browser, tests it with the keyboard and at 320 px wide, then lists each failure with the element concerned and the code to fix it. 34 criteria are tested automatically; the others are flagged for manual review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Araspeed",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T12:07:28.673Z",
+  "submission_ref": "26d93110-ce11-11f1-a58f-919283fac382",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Araspeed",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://araspeed.fr"
+}
