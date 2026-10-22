@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://gotalt.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@gotalt.com",
+  "features": "Online accessibility checker and monitoring. It runs WCAG-mapped rule checks on your pages, and it also downloads each image and uses a vision model to judge whether the alt text is true of the picture, which a rule engine cannot check. Free scans cover up to 3 pages; paid plans check sites every week and email new issues.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GotAlt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T00:23:54.845Z",
+  "submission_ref": "dd7238d0-cdae-11f1-931c-8dba0d44581b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "GotAlt",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://gotalt.com/"
+}
