@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://gotalt.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "hello@gotalt.com",
+  "features": "Free bookmarklet that checks the live page you are on: alt text, heading order, link names, form labels and the real contrast of text as rendered. Results show in a panel on the page. Nothing is sent to a server, so it works on pages behind a login and on local builds.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GotAlt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T00:43:25.245Z",
+  "submission_ref": "970f16d0-cdb1-11f1-a9a5-ed009ecfebfb",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "GotAlt Accessibility Bookmarklet",
+  "type": [
+    "Bookmarklet"
+  ],
+  "website": "https://gotalt.com/tools/accessibility-bookmarklet/"
+}
