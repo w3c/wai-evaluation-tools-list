@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://gotalt.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "hello@gotalt.com",
+  "features": "Free alt text checker that opens your images. Enter a page address and it downloads up to six images, then a vision model judges whether each alt text is true of the picture and flags alt text that is inaccurate, too vague or wrongly marked decorative: problems a string-based rule passes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GotAlt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T00:33:56.927Z",
+  "submission_ref": "4450a4f0-cdb0-11f1-9b10-8b4d72d4f19d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "GotAlt Alt Text Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://gotalt.com/tools/alt-text-checker/"
+}
