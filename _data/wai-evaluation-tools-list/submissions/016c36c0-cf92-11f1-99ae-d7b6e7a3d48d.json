@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "I build AltCaption. The checker is free. Each flagged image has an optional button that drafts replacement alt text with AltCaption's AI generator. That part has 3 free drafts without an account, 2 more with a free account, then a $19/month plan. The checker does not run JavaScript, so images added in the browser after load are not scanned. There is no accessibility statement or ACT Rules report yet.",
+  "contact": "hboon@altcaption.com",
+  "features": "Paste a public page URL to list its images with a missing alt attribute, empty alt, generic text like \"image\" or \"photo\", long text, or alt text repeated on several images. Use the list to review WCAG 1.1.1 Non-text Content. Empty alt can be correct for decorative images. Free, no account. Scans the HTML the server returns, up to 250 images.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AltCaption (Hwee-Boon Yar)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-24T10:02:22.124Z",
+  "submission_ref": "016c36c0-cf92-11f1-99ae-d7b6e7a3d48d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AltCaption image alt text checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://altcaption.com/image-alt-text-checker"
+}
