@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "prantorighttrackit@gmail.com",
+  "desktop": [
+    "Android"
+  ],
+  "features": "FaceFinder: AI Face Search helps you search by face instead of by name. Choose one photo, and FaceFinder uses AI face recognition to find similar face matches across public web pages and public social profiles, then ranks every result by how closely it resembles your photo.\r\n\r\nWant to see where a picture of you appears online? ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Mobile application"
+  ],
+  "provider": "Right Tracks IT",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-26T11:24:01.174Z",
+  "submission_ref": "be4f6b60-d12f-11f1-8ea9-7941912030fc",
+  "title": "FaceFinder: AI Face Search",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://play.google.com/store/apps/details?id=com.righttracks.facefinder&hl=en"
+}
