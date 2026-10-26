@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Release date identifies the currently available version submitted on 26 October 2026; it is not a claim about the first historical launch date.",
+  "contact": "contact@claren.fr",
+  "features": "Free online check of ten common accessibility issues on a website home page, in French. No account required; results are kept 24 hours, then deleted. Checks only what can be detected in the code of one page: not a substitute for a full RGAA or WCAG audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Claren",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-26T16:34:15.863Z",
+  "submission_ref": "15878c70-d15b-11f1-973d-5326ee4b100a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Claren accessibility check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://claren.fr/outils/tester-accessibilite-site/"
+}
