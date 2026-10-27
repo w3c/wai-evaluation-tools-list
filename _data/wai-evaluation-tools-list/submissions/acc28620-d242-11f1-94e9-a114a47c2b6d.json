@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@describeimg.com",
+  "features": "Free online checker that scans one web page for images with no alt attribute, alt text that says nothing (file names, sizes, or words like “image”), and WordPress post photos left with empty alt. Empty alt elsewhere is listed for manual review. No account needed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DescribeImg",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-27T20:12:03.330Z",
+  "submission_ref": "acc28620-d242-11f1-94e9-a114a47c2b6d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "DescribeImg Alt Text Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://describeimg.com/alt-text-checker"
+}
