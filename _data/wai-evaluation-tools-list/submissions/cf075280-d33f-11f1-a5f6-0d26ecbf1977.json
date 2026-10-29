@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "liberogic_chrome_e@liberogic.jp",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Chrome extension that measures flashing content for WCAG 2.3.1 and 2.3.2 on the live page. Select an area or the whole viewport, capture 5–60 seconds, and the tool analyzes rendered frames to count general and red flashes, compare flashing area with the WCAG threshold, and map violations on a timeline. No screen recording or video upload needed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Liberogic Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T02:24:03.496Z",
+  "submission_ref": "cf075280-d33f-11f1-a5f6-0d26ecbf1977",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Area Flash Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/plpikclbekblfmmjeompaggpmghninnj"
+}
