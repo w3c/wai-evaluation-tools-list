@@ -1,0 +1,68 @@
+{
+  "a11yloc": "https://www.equalweb.com/9491/9491/accessibility_statement",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "EqualWeb Monitor is a comprehensive web accessibility evaluation platform designed to help organizations identify, prioritize, track, and remediate accessibility issues in accordance with WCAG 2.2, WCAG 2.1, and WCAG 2.0. It supports scanning of both public and authenticated (login-protected) websites, and can evaluate websites in more than 41 languages. Reports are currently available in English only. API access is available upon request.",
+  "contact": "info@equalweb.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "EqualWeb Monitor is a web accessibility evaluation platform that automatically scans websites for WCAG 2.2 compliance issues, generates detailed accessibility reports, tracks remediation progress, monitors websites continuously, and helps organizations improve digital accessibility through automated testing and expert review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "ar",
+    "he",
+    "nl",
+    "ca",
+    "en",
+    "es",
+    "ja",
+    "zh",
+    "fr",
+    "de"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code",
+    "Other"
+  ],
+  "provider": "EqualWeb Ltd.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2021-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-05T16:27:32.523Z",
+  "submission_ref": "6c70ffb0-788e-11f1-9e71-0b29214ffbc9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "EqualWeb Web Accessibility Monitor",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.equalweb.com/10903/11528/web_accessibility_monitor"
+}
