@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@steadyrobots.com",
+  "features": "EAA Watch checks web pages against WCAG 2.2 AA with axe-core and explains each issue in plain language, with fix steps and code examples, in 12 EU languages. Free single-page checks and free weekly monitoring of up to 25 pages. Made for online shops and agencies under the European Accessibility Act.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "cs",
+    "pl",
+    "sk",
+    "hr",
+    "sl",
+    "bg",
+    "de",
+    "it",
+    "es",
+    "nl"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Steady Robots",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-31T12:51:33.979Z",
+  "submission_ref": "cd4a9ab0-d529-11f1-987e-f924673c024a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "EAA Watch",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://eaa.steadyrobots.com"
+}
