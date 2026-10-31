@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://accessible.so/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Accessible is a diagnostic tool, not an overlay: it does not inject code or change pages. Monitor (real-user monitoring on one domain) is free with no card. Scanning, screen-reader journeys and reports are on paid plans: Starter $99 and Professional $299 per domain per month, with a 7-day trial on the first paid plan. A single public page can also be checked free at https://accessible.so/scan. The same page checks are available to AI assistants through a remote MCP server (https://accessible.so/docs/assistants). Accessible does not certify conformance with WCAG or any law.",
+  "contact": "support@accessible.so",
+  "features": "Online accessibility testing for websites. Scans every page with axe-core against WCAG 2.2 A/AA/AAA, sends a simulated screen-reader user through tasks such as sign-up and checkout and reports the step where it broke, and ranks the barriers real visitors hit using real-user monitoring. Free monitoring tier; paid plans per domain.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessible (L5 Ventures LLC)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-31T02:40:57.519Z",
+  "submission_ref": "804273f0-d4d4-11f1-b9c0-fb3325b58354",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Accessible",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessible.so"
+}
