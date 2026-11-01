@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "Detector de IA makes it easier to analyze Spanish text for signs of AI-generated writing without complicated software or a steep learning curve.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:27:26.705Z",
+  "submission_ref": "d8e53610-c5ec-11f1-8644-9bd54c1ee880",
+  "title": "Detector de IA",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://detectordeia.me/"
+}
