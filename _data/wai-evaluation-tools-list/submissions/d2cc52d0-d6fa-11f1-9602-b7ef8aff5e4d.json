@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "Scope note: the checker is a static scan of linked stylesheets and inline <style> only; runtime JavaScript/GSAP motion is not covered, and it reports candidates rather than a conformance verdict. The core engine is MIT-licensed (npm: motionspec); the same checks run in the web tool, the CLI and the MCP server. Contact: Kevin Fröba.",
+  "contact": "hello@motionspec.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "MotionSpec checks web animation for accessibility. Paste a URL: a static scan of linked CSS and <style> blocks flags motion outside a prefers-reduced-motion guard and infinite animation without a pause path (WCAG 2.2.2, 2.3.3), listing affected selectors and suggested fixes. Also available as MIT-licensed CLI (npx motionspec) and MCP server.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Fröba Sales Solutions UG",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-02T20:20:19.197Z",
+  "submission_ref": "d2cc52d0-d6fa-11f1-9602-b7ef8aff5e4d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MotionSpec",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://motionspec.dev/motion-check"
+}
