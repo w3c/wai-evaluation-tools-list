@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "cf-turnstile-response": "1.R6QHs74jdG7cURcIx7Grm-WdUc4Px0KNLceVHmjDoEevleInS44sEjXjWIBXCjJ9PDTZQFVdwkV2pHxThWWzgvB01bQWO_V35SBkscH_tb19CMoxSCXC5qVl6fdmvf9K1b1B0jLSYwDJxnw8TKbBG2-TLPwapceW1zT54fWJCI5Rekjg3602KjG4400YxJ8Igxy9dP9LBtOWZUTZkjanShavUeIlppb8OWdGaa45Wl45wDmFP9S8XADuV_TiT9x3aCOz7m5v075Vnu2XDpc0a0GWc3N-sNeJOiXgycWN6T8I0ld1Py2PNtl3pTTDE-fIEWRhQm8kof9apWZ8v10nPp8M0BtDGgCRgPtEr5SqmYMNtz-tKdE4NesgbXUXabB-DUJISZLRrM3C8JQVBuTLLwzX5XHNkO6-rrW5ThILJVKP2AQAFVjnUvbj_0-iOOuN0UXaYWDqsjyjV7acuCWTlxKW583p3JHCTa7T19MSWCQavXDXJI0RFVXp0QuBPJXSJAD-u4jQGfH73PCyRr42KEiXMYinKfhNlMlQIv1FM1LfQ80sI-Vy560i3O90sVWbBzHBWXGDs4qgQHBH00Wt4CGcblpSAJ-xTiisrnLamF09XwN15FSqTh1zwhVp8cKliso1f6tgBWby8Nou7PRjAIjrEqqSmFAtQpSA83rd7XI.QTMZxGaJo4HzDXGTg5EoOw.bfb7500814d4078f48416f84fe2422237fbd5d1fb9eadd5de3ef6ce715ef1cae",
+  "comments": "Submitted by BRAINIALL, the publisher. This browser-only tool analyzes SRT/WebVTT text locally. It does not claim WCAG conformance, synchronization, accessibility certification or W3C endorsement. No subtitle text or file bytes are uploaded; only coarse usage metadata may be recorded as described on the page.",
+  "contact": "support@brainiall.com",
+  "features": "Browser-only Portuguese subtitle QA lab for SRT and WebVTT. It flags cue structure, overlaps and gaps, CPS/WPM, long or repeated lines, duration and speaker-label consistency, then exports CSV. Results are review flags, not accessibility certification.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "BRAINIALL",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-11T07:45:07.302Z",
+  "submission_ref": "92849860-9558-11f1-be85-7717b8a3a4a3",
+  "title": "BRAINIALL PT-BR SRT/WebVTT QA Lab",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.brainiall.com/transcreve/laboratorio-qa-legendas?intent=c208%7Cdirectory%7Cw3c-wai%7Ccaption-qa%7Cglobal"
+}
