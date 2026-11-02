@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "https://uxray.pl/act/uxray-wcag-earl.json",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The ACT implementation report linked above was submitted to the ACT Rules Community Group on 23 October 2026 and is awaiting review, so the tool may not yet appear on the ACT implementations page.\r\n",
+  "contact": "marcin.beck@gmail.com",
+  "features": "Automated WCAG 2.2 A/AA audit. Measures the rendered page, interacts with controls and walks the task path with a keyboard; a language model judges content where measurement cannot decide. Combines its own checks with axe-core 4.13. Reports what it could not settle instead of guessing. Results in English or Polish.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "pl"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UXRay",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T07:26:08.070Z",
+  "submission_ref": "03a35660-ceb3-11f1-bc95-37e41d1fff8f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "UXRay WCAG Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://uxray.pl/wcag-audit"
+}
