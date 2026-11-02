@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://scanluma.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Scanluma is a hosted monitoring service: users add their website and it is scanned automatically on a schedule. Scans cover public pages only. Free plan: homepage, weekly. Pro plan: homepage plus up to 10 subpages, weekly or daily, with mobile viewport scans.",
+  "contact": "info@scanluma.com",
+  "features": "Scanluma monitors your website for accessibility issues against WCAG 2.1 and 2.2 (Levels A and AA). Your site is scanned automatically every week or day. Each issue gets a plain-language explanation, a severity and the exact HTML element where it occurs, and your score is tracked over time. Free plan: homepage, weekly. Paid plans add subpages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Venturi Works",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-02T18:30:28.406Z",
+  "submission_ref": "7a616d60-d6eb-11f1-97f2-7b5d7500ed51",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Scanluma",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://scanluma.com/"
+}
