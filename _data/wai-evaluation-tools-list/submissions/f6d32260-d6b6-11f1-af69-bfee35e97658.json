@@ -1,0 +1,61 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Please review document accessibility checker for MS Office documents like word, powerpoint, excel. It is available as a free. We would appreciate if you can add this contribution for supporting communities as soon as possible.",
+  "contact": "rajesh@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Scan Word, Excel, and PowerPoint files to identify accessibility issues including missing alt text, improper heading structures, tables, reading order, color & visual content. Get a detailed report with an accessibility score, recommendations to improve document usability according to WCAG 2.1, 2.2 AA, Section 508 & support assistive technologies.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document",
+    "Other"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-02T12:14:33.862Z",
+  "submission_ref": "f6d32260-d6b6-11f1-af69-bfee35e97658",
+  "technology": [
+    "Microsoft Office documents"
+  ],
+  "title": "Free Accessibility File Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/file-accessibility-checker"
+}
