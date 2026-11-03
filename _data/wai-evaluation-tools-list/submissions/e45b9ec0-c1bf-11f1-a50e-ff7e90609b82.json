@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "UCS A11yAllies is developed by Ultra Content Services LLP as an accessibility testing workspace that combines automated evaluation with guided human testing. It is intended to support, rather than replace, expert accessibility evaluation. The tool also supports local EPUB accessibility auditing. Product information and documentation are available from the submitted website URL.",
+  "contact": "support@ultracontentservices.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "UCS A11yAllies is a Chrome accessibility testing workspace combining automated WCAG audits with guided manual testing, evidence capture, remediation workflows, retesting, and audit-ready reporting. It supports website and EPUB accessibility evaluation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ultra Content Services LLP",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-06T19:55:33.932Z",
+  "submission_ref": "e45b9ec0-c1bf-11f1-a50e-ff7e90609b82",
+  "technology": [
+    "HTML / XHTML",
+    "EPUB"
+  ],
+  "title": "UCS A11yAllies",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.ultracontentservices.com/a11yallies/"
+}
