@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Vendor: UNITED GLOBAL VENTURES PRIVATE LIMITED, trading as Lazynext (Bengaluru, India; https://lazynext.com). Free tier: 3 rendered scans/day per IP, no account required. Pro is a $9/month subscription (unlimited scans, site crawls, monitors). The same scanner is also published as a REST API, MCP server, A2A agent card and GitHub Action: https://github.com/Lazynext-AI/accessibility-checker. No public accessibility statement URL yet; one is planned.",
+  "contact": "support@lazynext.com",
+  "features": "Scans a page or a whole site for WCAG 2.1/2.2 issues in a real browser. 75 automated checks cover ARIA, keyboard focus order, focus visibility, contrast and target size, with an accessibility score, shareable report and daily monitoring. Free: 3 scans a day, no signup. Pro adds unlimited scans, site crawls and API access.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UNITED GLOBAL VENTURES PRIVATE LIMITED (trading as Lazynext)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-04T22:35:48.982Z",
+  "submission_ref": "155a6a50-d8a0-11f1-80e4-63cea4288ee4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Lazynext Accessibility Checker",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://checker.lazynext.com/"
+}
