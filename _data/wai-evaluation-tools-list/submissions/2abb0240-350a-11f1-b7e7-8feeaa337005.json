@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "pool@jpdev.pro",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Testaro is an aggregator of other tools for automated web accessibility testing. It manages an ensemble of 11 tools. You can supply a URL, and Testaro will run the tests of those 11 tools on the web page at that URL and produce an integrated report. Testaro is a Node.js package and has no user interface.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Jonathan Robert Pool",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-10T18:22:00.804Z",
+  "submission_ref": "2abb0240-350a-11f1-b7e7-8feeaa337005",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Testaro",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://www.npmjs.com/package/testaro"
+}
