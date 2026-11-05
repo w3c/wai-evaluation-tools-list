@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://www.wcagrepair.com/accessibility",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Actively operated; the same axe-core engine powers our published methodology and dataset of 2.6M website scans: https://www.wcagrepair.com/research/web-accessibility-statistics",
+  "contact": "support@wcagrepair.com",
+  "features": "Free online accessibility checker: enter a URL to scan a site for machine-detectable WCAG 2.1/2.2 AA issues — color contrast, alt text, form labels, target size, ARIA and more — via the axe-core engine, with severity-rated findings in plain language. No signup; optional paid AI fix guide.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAG Repair",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-07T22:08:13.287Z",
+  "submission_ref": "60850f70-62bd-11f1-8d02-d5f0c9621f16",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WCAG Repair Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.wcagrepair.com/tools/accessibility-checker"
+}
