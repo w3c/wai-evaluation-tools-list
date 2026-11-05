@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Uses the real VoiceOver, not a simulation. macOS and Safari only. The warnings point at likely accessible-name problems (WCAG 1.1.1, 2.4.4, 4.1.2); the transcript itself is the main output. Also on npm: https://www.npmjs.com/package/vo-transcript",
+  "contact": "hello@vayle.art",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Drives the real macOS VoiceOver screen reader through AppleScript, reads a web page in Safari and saves a transcript of what VoiceOver says. Needs no Full Disk Access and does not change VoiceOver settings. Flags links, buttons and images announced without a name and images read by file name, as hints for manual review. Open source (MIT).",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Open source (MIT)"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Vayle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T11:33:56.767Z",
+  "submission_ref": "a21272f0-ced5-11f1-b19d-2f2d1dc2c0ab",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "vo-transcript",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/Pryzmastudio/vo-transcript"
+}
