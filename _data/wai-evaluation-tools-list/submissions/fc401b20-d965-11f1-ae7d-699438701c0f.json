@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The check reads the page HTML as delivered by the server, without rendering. It does not test colour contrast, keyboard operation or content added by JavaScript; the results page says so. Interface available in Czech, German and English.",
+  "contact": "info@rdlabs.eu",
+  "features": "Free online check of one web page, no registration. Reads the HTML as the server sends it and reports accessibility issues (images without alt text, form fields without labels, buttons and links without accessible names, headings, page language, blocked zoom) plus basic SEO, speed and security findings, each with an explanation and a fix guide.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "cs",
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "RDlabs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-05T22:12:27.218Z",
+  "submission_ref": "fc401b20-d965-11f1-ae7d-699438701c0f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "RDlabs Website Check (Kontrola webu)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://rdlabs.eu/en/kontrola-webu/"
+}
