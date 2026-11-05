@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://www.sintropiezos.com/accesibilidad",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "The free check needs no account. Paid options: full report, extended report with keyboard tests and AI review of image alt text, PDF upload checker and monthly monitoring.",
+  "contact": "soporte@sintropiezos.com",
+  "features": "Free online accessibility checker for websites and PDFs. It runs axe-core on a sample of pages against WCAG 2.2 AA and checks the PDFs a site links to (tags, language, title, alt text). Free: score and main issues. Paid report: how to fix each issue in plain language, who should fix it, the WCAG/EN 301 549 criterion, and an accessible PDF.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "es",
+    "ca",
+    "gl",
+    "eu",
+    "en",
+    "de",
+    "fr",
+    "it",
+    "pt"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "BLASAI Software S.L.U.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-31",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-05T18:27:03.242Z",
+  "submission_ref": "7f5522a0-d946-11f1-83d4-6d2a0afee3e3",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Sin Tropiezos",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.sintropiezos.com/"
+}
