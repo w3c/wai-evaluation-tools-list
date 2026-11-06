@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Opera",
+    "Other"
+  ],
+  "comments": "",
+  "contact": "chris@fullcycle.io",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Runs axe-core in a real browser and reports every failing element with its exact selector and the WCAG criterion it breaks. Resolves contrast over gradients, background images and translucent overlays, and checks contrast in the focused state. Flags what needs human review rather than claiming full compliance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessibility Scanner",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-22T15:40:16.381Z",
+  "submission_ref": "c5cc12d0-9e3f-11f1-a8b0-9168cf029c9c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Scanner",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://accessibilityscanner.app"
+}
