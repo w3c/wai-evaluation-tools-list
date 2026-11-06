@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "seotraffic@converge.ai",
+  "features": "Converge AI is an AI-native platform built around shared business context—the knowledge, goals, and brand assets that people and AI agents work from. Its four products—Covey, Enter, Framia, and Combos—help growing teams build software, create marketing content, launch interactive experiences, and move work forward on one subscription.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Converge AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-06T09:13:36.198Z",
+  "submission_ref": "58ce1660-d9c2-11f1-a5d2-89a5997afc2e",
+  "title": "Converge AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://convergeai.com/"
+}
