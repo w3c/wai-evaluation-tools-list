@@ -1,0 +1,39 @@
+{
+  "a11yloc": "https://colorvisionlabs.com/accessibility",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "cf-turnstile-response": "1.4Q2psbd8BnQ-IrBmx_-K-IvQl_z5S6UwHmOJW8-UrcFT45kcL3WEmTB7mfIwCvc1Yec8JvUlcfS2-RO6XFxN8XEdd5cjWG8DGFvyOHS0YZ4BiytEup-eD99LLpmc9AEZXd-Hz9yr34pqTeZBreeIaGp8mMCcYBhNg9oO-xllCA2HP_Xe892kXrLFr-Wlk4JhfwAfRck4GjITm5RlTFulrmnqqYZIXyIz8kRYTz9WZwhIccMcSZdMCDtDnRFt34c9LKfRmzlzDvi7Ow7nBAFOCZQ5WOCh7CAnpxXcVJzXwrTXplx3twmMONuYIIawAP0lbhYokR18PovJPvBtTqxTa05WUI5myFqG9PCo_ZrFh-MS-z7-PbpxAvXyU7pTcVe7mqBXtMR81ZM8yzmh3KDCRgZ7vUcrxr1Wt6IzjZw61TqkxAkdw0mzE20B_D5l0XntLUcNhxJf2tK8CEKwF_6nEsX_VYWLcuRK12BBMpIKgS_oFKlZZOmih0ogROQL4S_yT2yJTWMmmO4AOgRE0mCvfsLyxmGS8vfODJjX5AM5ZwPuGoOWrXKqhIAUYBsizJ9X4A-NoJw-33pfnQhaPdNxLd2LAv1Lr2udfvO4n-4YBJoZBXfG5Sm5-tEZsuEgq5czNjP2l2JtdsE0tyLlYKXDSS0GytOLQcDU92SNEInEkio._wGJhsfTm30szUMSj7xmcw.be4c27f8e57c932fe431c8d95aa6a87c39cf075d75e0f38b067407b116395f36",
+  "comments": "This submission is for the simulation capability (Simulate mode): it implements Machado, Oliveira & Fernandes (2009), IEEE TVCG, with continuous severity, so it can show partial deficiencies (anomalous trichromacy), not only complete dichromacy. All processing is client-side; nothing is uploaded.",
+  "contact": "hello@colorvisionlabs.com",
+  "features": "Free browser-based color blindness simulator: view any image, screenshot, or live camera feed as seen with protan, deutan, or tritan vision at adjustable severity, including partial forms (Machado 2009 model). Helps designers spot failing color pairs. Runs client-side, no signup. Also includes a daltonization assist mode.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Other"
+  ],
+  "provider": "Color Vision Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-09T18:12:54.414Z",
+  "submission_ref": "f10a42e0-941d-11f1-b5a4-619d6351542d",
+  "title": "Color Blindness Simulator & Filter",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorvisionlabs.com/color-blind-filter"
+}
