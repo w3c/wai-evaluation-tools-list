@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "Loupe is an evaluation tool only. It does not modify or remediate page content, and it is not an overlay. All analysis runs locally in the user's browser; no page content or URL is transmitted to any server.",
+  "contact": "hello@lucency.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Loupe runs an instant WCAG 2.1 and 2.2 audit on any page using the axe-core engine, highlighting each failing element in context with a plain-English explanation and the fix. Scanning is free and runs entirely in the browser, so nothing is uploaded. Pro adds multi-page crawls and white-label PDF reports for clients.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lucency",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-14T18:24:40.430Z",
+  "submission_ref": "69ec80e0-980d-11f1-9274-4da4a8fa37c5",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Loupe",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://getloupe.dev"
+}
