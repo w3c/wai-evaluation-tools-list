@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "hridoy@bdthemes.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "One Accessibility is a WordPress plugin that adds an accessibility widget to websites, helping them meet WCAG and ADA compliance standards. It offers features like text resizing, contrast adjustment, screen reader support, keyboard navigation, and more all customizable from an easy-to-use dashboard.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "BdThemes",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-17T07:16:10.188Z",
+  "submission_ref": "859888c0-9a0b-11f1-bc97-d5e274db5b36",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "One Accessibility",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://oneaccessibility.com/"
+}
