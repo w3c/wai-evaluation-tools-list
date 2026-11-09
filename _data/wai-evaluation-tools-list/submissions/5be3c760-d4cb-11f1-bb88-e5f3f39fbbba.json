@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://websiteblueprints.tech/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Free, no account required. Built by GelFuzion, a US web studio, with ADA Title II work for small cities and towns in mind. The tool states that automated testing is a screening, not a certification, and gives users a manual checklist (keyboard access, focus, captions, reading order and others) to complete the evaluation.",
+  "contact": "info@websiteblueprints.tech",
+  "features": "Free online WCAG 2.1 AA checker. Scans one page or up to 8 key pages of a site with axe-core (via Google Lighthouse), lists each failing element with its success criterion and a plain-English fix, checks whether linked PDFs are tagged, flags overlay widgets and missing accessibility statements, and prints a report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "GelFuzion",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-31T01:35:31.030Z",
+  "submission_ref": "5be3c760-d4cb-11f1-bb88-e5f3f39fbbba",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ADA Compliance Checker (Website Blueprints)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://websiteblueprints.tech/tools/ada-compliance-checker/"
+}
