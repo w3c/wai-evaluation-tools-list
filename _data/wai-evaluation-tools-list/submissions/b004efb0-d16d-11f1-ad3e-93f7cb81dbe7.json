@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "aaron@seoscoreapi.com",
+  "features": "API that audits a web page against WCAG 2.1 A/AA using axe-core rules and returns each issue with its success criterion, affected elements and fix, plus a 0-100 score. Results come as JSON or a dated PDF report, with a before/after comparison after remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SEO Score API",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-26T18:47:25.995Z",
+  "submission_ref": "b004efb0-d16d-11f1-ad3e-93f7cb81dbe7",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "SEO Score API: Accessibility Audit",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://seoscoreapi.com"
+}
