@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "keylens@progress.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Keylens tabs through web pages, records the focus order, and detects keyboard accessibility problems such as keyboard traps, unreachable elements, missing focus indicators, incorrect tab order, and missing skip links.\r\nIt gives a score and fix guidance, with reports in different output formats.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Progress Telerik",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-09T12:06:35.202Z",
+  "submission_ref": "0269aa20-dc36-11f1-a32e-6f83db4c7172",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Keylens",
+  "type": [
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://telerik.github.io/keylens/"
+}
