@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "support@inclusiveweb.net",
+  "features": "Online scanner for a whole site, a URL list or a password-protected staging site: 90+ automated rules against WCAG 2.1 AA, WCAG 2.2 AA, Section 508 or EN 301 549, template sampling for large sites, a 0-100 score with severity breakdown, scan history and scheduled monitoring.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de",
+    "pl",
+    "uk"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "InclusiveWeb",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-04-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T20:35:46.782Z",
+  "submission_ref": "520768d0-d3d8-11f1-8d44-7783c0191a12",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "InclusiveWeb Accessibility Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://inclusiveweb.net/en/audit"
+}
