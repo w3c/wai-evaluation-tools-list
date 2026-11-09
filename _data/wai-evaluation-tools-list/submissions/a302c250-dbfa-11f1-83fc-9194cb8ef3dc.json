@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Automated checks run on axe-core in a real browser (Playwright). Server-side integration means the REST API; Command-line / CI means the npm package accessibilitybrief and our GitHub Action. Password-protected pages can be scanned on the Pro and Agency plans. Please contact hello@accessibilitybrief.com with any questions.",
+  "contact": "hello@accessibilitybrief.com",
+  "features": "Automated WCAG 2.2 A and AA checker for websites. Check one page free with no signup, or scan up to 1,000 pages on paid plans. Reports give fix steps, code before and after, and AI prompts for each issue. Includes PDF reports, a REST API, CLI, GitHub Action and MCP server. Automated tests find only part of the issues; manual checks still matter.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessibilityBrief",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-09T05:01:34.837Z",
+  "submission_ref": "a302c250-dbfa-11f1-83fc-9194cb8ef3dc",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessibilityBrief",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://accessibilitybrief.com/"
+}
