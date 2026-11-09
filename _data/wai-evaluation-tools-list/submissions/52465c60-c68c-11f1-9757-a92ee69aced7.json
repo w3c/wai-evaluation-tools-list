@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "support@lucency.dev",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Free browser extension for Chrome and Edge that runs axe-core WCAG 2.1 and 2.2 checks on the current page, highlights each issue on the page, and explains in plain language what failed, why it matters, and how to fix it. Scans run locally in the browser with no account. Optional paid plans add site crawls and PDF reports.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Lucency",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T22:29:00.326Z",
+  "submission_ref": "52465c60-c68c-11f1-9757-a92ee69aced7",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Loupe",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://getloupe.dev"
+}
