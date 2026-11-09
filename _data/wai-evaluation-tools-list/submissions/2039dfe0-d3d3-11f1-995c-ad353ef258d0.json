@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "Submitted by the vendor (A2Z Tools). The tool runs entirely in the browser; colours are not uploaded. A companion tool, the A2Z PDF Accessibility Checker, is submitted separately.",
+  "contact": "app@a2z.tools",
+  "features": "Browser-based contrast matrix: enter a colour palette and see every foreground/background pair, including hover and disabled states and translucent colours, scored against WCAG 2.2 AA and AAA text and non-text contrast thresholds. Export the matrix as CSV. Free, no sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A2Z Tools (Reliable Software Technology)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T19:58:35.742Z",
+  "submission_ref": "2039dfe0-d3d3-11f1-995c-ad353ef258d0",
+  "technology": [
+    "CSS"
+  ],
+  "title": "A2Z Accessibility Contrast Matrix",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://a2z.tools/accessibility-contrast-matrix"
+}
