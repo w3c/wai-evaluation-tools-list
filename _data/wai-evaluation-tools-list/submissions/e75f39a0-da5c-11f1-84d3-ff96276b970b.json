@@ -1,0 +1,70 @@
+{
+  "a11yloc": "https://accessux.com.au/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "SiteScan Starter always free. All plans free to try for 30 days",
+  "contact": "info@accessux.com.au",
+  "features": "Australia's first accessibility management for organisations and agencies that want more than a scan. Find automated scannable WCAG and Best Practice issues. Record issues identified through manual assessment. Track all issues through resolution measure improvement over time. \r\n\r\nPlans for everyone from small sites to large websites and agencies.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "AccessUX",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-07T03:39:57.882Z",
+  "submission_ref": "e75f39a0-da5c-11f1-84d3-ff96276b970b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "SiteScan",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://accessux.com.au/sitescan/"
+}
