@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Submitted by the vendor (A2Z Tools). The PDF is checked in the browser and is not uploaded. A companion tool, the A2Z Accessibility Contrast Matrix, was submitted separately.",
+  "contact": "app@a2z.tools",
+  "features": "Browser-based PDF accessibility checker: open a PDF (up to 100 MB) and check the machine-verifiable basics - tagged structure, document language and title, image alternate text, table headers, bookmarks and extractable text - with evidence for each result and a list of the manual checks that remain. Free, no sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "A2Z Tools (Reliable Software Technology)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T19:59:13.180Z",
+  "submission_ref": "368a75c0-d3d3-11f1-995c-ad353ef258d0",
+  "technology": [
+    "PDF"
+  ],
+  "title": "A2Z PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://a2z.tools/pdf-accessibility-checker"
+}
