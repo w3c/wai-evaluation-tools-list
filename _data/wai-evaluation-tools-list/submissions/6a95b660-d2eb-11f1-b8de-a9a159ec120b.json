@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://webaccessiq.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "tbsmith1000@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "WebAccessIQ scans websites for WCAG 2.2 Level A and AA issues using axe-core and checks PDFs against PDF/UA. It explains each issue in plain English, with step-by-step fixes for content editors and code examples for developers. Guided manual tests cover what automated checks miss. Weekly monitoring and reports track progress. Free 10-page scan.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Buckley Digital, LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-28T16:19:57.255Z",
+  "submission_ref": "6a95b660-d2eb-11f1-b8de-a9a159ec120b",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "WebAccessIQ",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "http://webaccessIQ.com"
+}
