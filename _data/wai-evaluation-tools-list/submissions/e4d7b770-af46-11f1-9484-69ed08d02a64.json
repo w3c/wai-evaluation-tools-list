@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "anandpillai@alumni.iitm.ac.in",
+  "features": "A11|GN PDF accessibility checker allows evaluation of accessibility of a PDF document or URL. Users can upload a PDF document or paste a PDF URL into the form and get accessibility results by submitting the form. \r\n\r\nUsers can sign-up using their email address, login and see their accessibility results over time in a usage dashboard. \r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A11|GN",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-13T07:44:04.711Z",
+  "submission_ref": "e4d7b770-af46-11f1-9484-69ed08d02a64",
+  "technology": [
+    "PDF"
+  ],
+  "title": "A11|GN PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pdfcheck.a11ign.io/"
+}
