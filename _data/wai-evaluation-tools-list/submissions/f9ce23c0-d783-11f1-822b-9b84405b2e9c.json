@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://drevenai.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Dreven does not change a site's content or code. Results the software cannot settle are marked can't tell and routed to a human reviewer with the evidence. The conformance report is drafted for a person to review and sign.",
+  "contact": "hello@drevenai.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Dreven finds a site's pages, audits up to 25 together against WCAG 2.2 or 2.1, and keeps the evidence for each result, shown on the page where it was found. Results are passed, failed, not applicable or can't tell; can't tell is never a pass. A reviewer decides each result and Dreven drafts a VPAT 2.5Rev report for them to sign.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Dreven",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-03T12:42:05.692Z",
+  "submission_ref": "f9ce23c0-d783-11f1-822b-9b84405b2e9c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Dreven",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://drevenai.com"
+}
