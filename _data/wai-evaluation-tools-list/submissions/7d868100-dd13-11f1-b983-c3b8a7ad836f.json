@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://valleyfill.com/accessibility-statement.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "Reads page HTML without running scripts. Every check and its known false positives and negatives are listed at https://valleyfill.com/snapshot/about.html. Follows robots.txt (user agent token ValleyFillSnapshot).",
+  "contact": "hello@valleyfill.com",
+  "features": "Free online check for public bodies. Enter a site to see its likely ADA Title II web deadline and basic signals from up to 10 pages and 5 PDFs: page language, title, images with no alt, unlabeled form fields, empty links and buttons, zoom disabled, untitled frames, autoplay, and PDF tags. Not an audit; many WCAG checks need a person.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "ValleyFill",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-10T14:32:00.528Z",
+  "submission_ref": "7d868100-dd13-11f1-b983-c3b8a7ad836f",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "ValleyFill Title II Snapshot",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://valleyfill.com/snapshot/"
+}
