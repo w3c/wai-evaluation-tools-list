@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Accewa is an actively developed web accessibility testing SaaS platform for businesses, developers, and digital agencies. We welcome feedback from the accessibility community to improve our testing coverage and reporting capabilities.",
+  "contact": "accewaai@gmail.com",
+  "features": "Accewa is a web accessibility testing platform that scans websites for potential accessibility issues, identifies affected pages and elements, provides WCAG-related findings, generates accessibility reports, and offers AI-assisted remediation suggestions.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accewa AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-10T14:05:08.560Z",
+  "submission_ref": "bcb7b500-dd0f-11f1-9207-7fb3579abf8f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accewa",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accewa.cc.cd/"
+}
