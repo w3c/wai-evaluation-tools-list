@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://gatekeeperqa.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "The release date refers to CLI 0.3.1, published November 11, 2026 UTC. The CLI is free and open source; the hosted service has limited free functionality and a paid subscription. Manual-review notes record human checks; automated results are not a conformance certification.",
+  "contact": "support@gatekeeperqa.com",
+  "features": "GatekeeperQA combines automated web accessibility checks with saved manual-review notes and retest evidence. It provides a hosted public-page scanner, a local CLI and GitHub Action, with report exports and sharing. Automated results require human review and do not establish conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GatekeeperQA",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T15:39:42.895Z",
+  "submission_ref": "1d4c43f0-dde6-11f1-9aa8-ff3f6bf47088",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "GatekeeperQA",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://gatekeeperqa.com/"
+}
