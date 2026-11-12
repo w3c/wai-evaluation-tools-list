@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "WCAG 2.2 engine for coding agents: 37 tools as an MCP server and CLI (audit, fix, document, watch, gate). Verified against the official W3C ACT rules test cases; findings cite criterion, severity and step-by-step remediation in English and Spanish. Includes behavioral checks (keyboard traps, screen-reader transcript, reflow at 320px) beyond static rules, a write-time gate that refuses saves introducing new high/medium findings, and SHA-256-sealed evidence packs. MIT; zero telemetry. ACT rules consistency is tested on every commit.",
+  "contact": "hola@a11y.es",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Accessibility engine for coding agents and developers: audits HTML (static and rendered with a real browser), PDF and DOCX documents against WCAG 2.2 with a 0-100 score. Every finding carries the criterion, severity, plain-language issue and step-by-step remediation, in English or Spanish. Includes keyboard-trap detection, screen-reader transcript, pixel-level contrast sampling, 320px reflow checks, and blindfold usability journeys where an AI agent attempts real tasks non-visually. Ships as an MCP server (37 tools), a CLI, a GitHub Action and a write-time gate that refuses code saves introducing new high/medium findings.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "es"
+  ],
+  "license": [
+    "Free"
+  ],
+  "product": [
+    "Website",
+    "Source code",
+    "Document"
+  ],
+  "provider": "kinti",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T00:41:12.090254Z",
+  "submission_ref": "c25e13fa-de31-11f1-ba35-36f36f54e226",
+  "title": "a11y-toolkit",
+  "type": [
+    "Command-line / CI",
+    "Server-side integration",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://github.com/kinti/a11y-toolkit"
+}
