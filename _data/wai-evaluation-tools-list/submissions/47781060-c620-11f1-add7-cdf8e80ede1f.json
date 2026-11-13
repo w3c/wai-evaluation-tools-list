@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Auditzo's free Website Accessibility Scanner evaluates one publicly accessible webpage per run using automated WCAG 2.2 A/AA-oriented technical checks. Users can review findings online and download a PDF report. The scanner does not determine complete WCAG conformance. Human-reviewed audits and remediation support are separate offerings.",
+  "contact": "hello@auditzo.com",
+  "features": "Auditzo is a free online website accessibility scanner for public webpages. It runs automated WCAG 2.2 A/AA-oriented checks for detectable issues involving structure, labels, ARIA, focus, reflow and target size. Results are available online and as a PDF. It does not determine complete WCAG conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Zestminds Technologies Private Limited",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T09:35:36.550Z",
+  "submission_ref": "47781060-c620-11f1-add7-cdf8e80ede1f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Auditzo Website Accessibility Scanner",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.auditzo.com/website-accessibility-scan"
+}
