@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Hosted front end of the open-source MIT npm package motionspec (the same audit engine). Deliberately narrow scope: CSS/style-block motion against WCAG 2.2.2 and 2.3.3 only - not a full-page audit.",
+  "contact": "hello@motionspec.dev",
+  "features": "Free tool that statically scans a web page's linked CSS and style blocks for animation-accessibility issues: it flags motion that ignores prefers-reduced-motion and violations of WCAG 2.2.2 (Pause, Stop, Hide) and 2.3.3 (Animation from Interactions), returning a suggested fix for each finding. Motion scope only; nothing submitted is stored.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Fröba Sales Solutions UG (haftungsbeschränkt) - MotionSpec",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-14T20:03:39.907Z",
+  "submission_ref": "1b528530-7fbf-11f1-9feb-3d765b8f5fc7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MotionSpec - Motion Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://motionspec.dev/motion-check"
+}
