@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Simulates color vision deficiency on an uploaded image (screenshot, chart, design). It does not crawl live pages or report WCAG results.",
+  "contact": "contact@color-blind.org",
+  "features": "Free in-browser color blind simulator. Upload any image or design and see it with protanopia, deuteranopia, tritanopia or achromatopsia at adjustable severity, using the Machado, Oliveira and Fernandes (2009) model. Images are processed in your browser and never uploaded. No sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Color Blind Test (color-blind.org)",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-13T13:43:07.762Z",
+  "submission_ref": "28b32d20-df68-11f1-94f0-07a7b4b74819",
+  "title": "Color Blind Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://color-blind.org/color-blind-simulator/"
+}
