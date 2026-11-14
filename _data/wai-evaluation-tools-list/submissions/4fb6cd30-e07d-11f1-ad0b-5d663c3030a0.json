@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://aiquality.syswisdom.ai/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "SysWisdom AI LLC builds accessibility evaluation tools for public colleges and other public-sector organizations preparing for the ADA Title II rule. The tool reports findings only. It does not modify or overlay pages, and every report requires a named human reviewer to sign off. - aj@syswisdom.ai",
+  "contact": "aj@syswisdom.ai",
+  "desktop": [
+    "Linux"
+  ],
+  "features": "Free online scan of a web page or AI chatbot, built on axe-core. Runs automated WCAG 2.0 and 2.1 A and AA rules plus WCAG 2.2 AA rules, and opens the chat window to test it. Lists manual checks for your staff. Never claims conformance. Self-hosted agent available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Other"
+  ],
+  "provider": "SysWisdom AI LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-14T22:47:03.812Z",
+  "submission_ref": "4fb6cd30-e07d-11f1-ad0b-5d663c3030a0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "SysWisdom AI Quality Agent",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://aiquality.syswisdom.ai/accessibility"
+}
