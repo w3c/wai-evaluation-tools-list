@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://www.testwithlabrador.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "sam@testwithlabrador.com",
+  "features": "Labrador is a web app for guided manual WCAG testing. Auditors work page by page, component by component, and criterion by criterion, logging issues and marking criteria in a structured interface with summaries along the way. Labrador includes axe integration, AI-assisted remediation recommendations, auto-generated reports, and Jira integration.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Labrador Accessibility Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-27T11:31:07.260Z",
+  "submission_ref": "a8afbbc0-89ae-11f1-aa8f-8d9e1fba9bb8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Labrador",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://www.testwithlabrador.com/"
+}
