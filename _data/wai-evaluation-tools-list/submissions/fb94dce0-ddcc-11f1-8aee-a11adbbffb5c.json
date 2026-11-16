@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "The free single-page check needs no account. Example: https://wcag.myclawn.com/?url=example.com . The tool reports and hands over fix code; it does not install an overlay or change the tested site.",
+  "contact": "hello@myclawn.com",
+  "features": "Paste a web address and get a free check of that page against WCAG 2.2 A and AA in a real browser: rule engine, keyboard focus walk and measured contrast. Each failure is shown with its success criterion and the code that fixes it. The paid plan audits up to 10 pages every month with a report, an accessibility statement and a dated retest log.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "20Vision GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T12:39:48.910Z",
+  "submission_ref": "fb94dce0-ddcc-11f1-8aee-a11adbbffb5c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MyClawn WCAG Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcag.myclawn.com/?utm_source=w3c-wai"
+}
