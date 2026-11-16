@@ -1,0 +1,43 @@
+{
+  "a11yloc": "https://claren.fr/declaration-accessibilite",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "contact@claren.fr",
+  "features": "Free online check of one PDF at a time: real text, tag tree, language, document title, heading levels, image alternatives, table headers, PDF/UA declaration. It reports what software can check and states that reading order and the relevance of alternative text need a human review. One document a day, file analysed then forgotten.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Claren",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-06",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-16T16:00:51.739Z",
+  "submission_ref": "e5a73eb0-e1d6-11f1-a8ec-278304e49847",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Claren PDF accessibility test",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://claren.fr/outils/tester-accessibilite-pdf/"
+}
