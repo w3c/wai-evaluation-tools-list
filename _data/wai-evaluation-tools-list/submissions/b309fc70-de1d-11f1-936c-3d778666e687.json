@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "hello@curbcutaccessibility.com",
+  "features": "Scans a public URL for automatically detectable WCAG 2.1 Level A and AA issues. It reports a score, describes issues and affected page elements, and explains which accessibility checks require manual evaluation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Curbcut Accessibility",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T22:17:36.439Z",
+  "submission_ref": "b309fc70-de1d-11f1-936c-3d778666e687",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Curbcut Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.curbcutaccessibility.com/tools/accessibility-checker/"
+}
