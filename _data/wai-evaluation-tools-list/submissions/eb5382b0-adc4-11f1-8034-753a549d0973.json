@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://inclusifyapp.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "For completeness, since the inclusion criteria exclude tools that primarily change content to improve accessibility: Inclusify also ships an accessibility widget. This submission is for the audit and monitoring tool, which is what the list covers. Our own position on what automated testing and widgets can and cannot establish is published at https://inclusifyapp.com/limitations.\r\n\r\nOn restricted pages: we scan password-protected Shopify storefronts, which is how a merchant can test a store before launch. The merchant enters the storefront password once and we keep only the resulting unlock cookies, encrypted, never the password. We do not currently scan pages behind a general login or HTTP authentication.\r\n",
+  "contact": "support@inclusifyapp.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Inclusify audits websites against WCAG with axe-core in a real browser: one page, a chosen sample, or a full crawl. It scores each scan, re-checks daily, and reports every failing element with its markup and a suggested fix. It also produces a screen-reader reading order, a keyboard walk, and contrast, 400% reflow and reduced-motion simulations.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Magebit",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-11T09:41:09.851Z",
+  "submission_ref": "eb5382b0-adc4-11f1-8034-753a549d0973",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Inclusify",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://inclusifyapp.com"
+}
