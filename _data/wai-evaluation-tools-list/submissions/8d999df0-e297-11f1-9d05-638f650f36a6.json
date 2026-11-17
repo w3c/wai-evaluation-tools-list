@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://ouzom.fr/declaration-accessibilite/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The tool covers the RGAA 4.1.2 criteria that can be tested automatically. The list of covered criteria is published at https://ouzom.fr/audit/criteres-rgaa/ and the method at https://ouzom.fr/audit/methodologie/. The interface is in French.",
+  "contact": "contact@ouzom.fr",
+  "features": "Free online pre-audit of one web page against the French RGAA accessibility standard (based on WCAG 2.1) and the RGESN ecodesign standard. Runs automated checks (axe-core, W3C HTML validator, keyboard and focus tests), gives two scores out of 100 and emails a detailed report that lists what still needs manual review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "fr"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Ouzom",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T14:59:56.879Z",
+  "submission_ref": "8d999df0-e297-11f1-9d05-638f650f36a6",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Ouzom free page analyser (RGAA / RGESN)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ouzom.fr/audit/"
+}
