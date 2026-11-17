@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "contact@fixflatfile.com",
+  "features": "Free online checker that scans one web page for the accessibility issues confirmable from its markup and styles: image alt text, form labels, accessible names, heading structure, language, title and text contrast. Results are grouped by WCAG criterion and severity. Static checks only; not a conformance certification.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TSU Company",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T10:29:26.253Z",
+  "submission_ref": "c364a1d0-e271-11f1-9942-23820e26774f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TSU Company Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://fixflatfile.com/accessibility-check"
+}
