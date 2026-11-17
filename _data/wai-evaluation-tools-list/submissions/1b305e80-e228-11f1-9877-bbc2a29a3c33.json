@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "frankjgilroy+tagwright@gmail.com",
+  "features": "Free in-browser checker for PDFs: is the file tagged, does it have a title and language, are pages scanned images. Checks up to 60 files at once with a sortable table and CSV export. Files never leave your browser. It checks document structure, not full WCAG conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Tagwright",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T01:42:10.792Z",
+  "submission_ref": "1b305e80-e228-11f1-9877-bbc2a29a3c33",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Tagwright PDF accessibility checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://beingrealfrank.github.io/tagwright/"
+}
