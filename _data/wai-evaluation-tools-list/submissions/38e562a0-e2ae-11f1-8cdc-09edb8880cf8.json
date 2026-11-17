@@ -1,0 +1,49 @@
+{
+  "a11yloc": "https://github.com/ZKStamp/Proof100",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "ztextzksnarks@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "ZKStamp Proof-100 stamps a file's SHA-256 fingerprint on the BitcoinZ blockchain, shielded with zk-SNARKs. AI agents use it via MCP.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ZKStamp Proof-100",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T17:42:13.194Z",
+  "submission_ref": "38e562a0-e2ae-11f1-8cdc-09edb8880cf8",
+  "title": "ZKStamp Proof-100",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://github.com/ZKStamp/Proof100"
+}
