@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://adawatchdog.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "ADA Watchdog is an evaluation tool, not an overlay: it tests live pages with axe-core and reports what it finds, and never changes the site's content or code. Each report states which WCAG criteria automated testing cannot cover and still need manual review. Accessibility statement: https://adawatchdog.com/accessibility",
+  "contact": "hello@adawatchdog.com",
+  "features": "Automated WCAG 2.0, 2.1 and 2.2 A and AA testing (axe-core) of the pages small-business customers use to buy and book: home, product, cart and checkout start. Each issue is reported with the page, the WCAG success criterion and the code change, in plain English. Weekly re-scans with alerts and a dated evidence log. Pages served by third parties (ho",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Drivesanity LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T23:28:12.243Z",
+  "submission_ref": "8e40e230-e2de-11f1-bd46-d1dd973fb293",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ADA Watchdog",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adawatchdog.com"
+}
