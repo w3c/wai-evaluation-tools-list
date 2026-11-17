@@ -1,0 +1,61 @@
+{
+  "a11yloc": "https://allyproof.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@allyproof.com",
+  "features": "AllyProof checks websites for selected WCAG 2.2 AA failure patterns. It offers page scans, scheduled monitoring, AI fix suggestions and VPAT-based evidence drafts, with features depending on the plan. Automated results require human review and do not establish conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AllyProof",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T00:18:39.317Z",
+  "submission_ref": "4a449140-d32e-11f1-9cf5-816ed6c99323",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AllyProof",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://allyproof.com"
+}
