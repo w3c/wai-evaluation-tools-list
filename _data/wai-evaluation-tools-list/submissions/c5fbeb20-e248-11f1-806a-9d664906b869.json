@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://easeweb.dev/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@easeweb.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free Chrome extension that runs accessibility tests on any page you open, while you watch: axe-core plus its own rules, a Tab walk, dialogs and menus opened by keyboard, a 320 px window, larger text and forced colours. It predicts what a screen reader would say, links each problem to a guide, and lists what a person must still check.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "EaseWeb",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-17T05:36:01.234Z",
+  "submission_ref": "c5fbeb20-e248-11f1-806a-9d664906b869",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Readout by EaseWeb",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://easeweb.dev/readout"
+}
