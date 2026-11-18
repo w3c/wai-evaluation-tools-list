@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Also available in German (https://ux.center/de/tools/kontrastrechner/) and Turkish (https://ux.center/tr/araclar/kontrast-hesaplayici/).",
+  "contact": "hi@ux.center",
+  "features": "Free online color contrast checker for WCAG 2.2. Enter a text and background color (hex, rgb() or hsl()) to see the contrast ratio and pass/fail for AA and AAA, shown separately for normal text, large text and non-text UI components (3:1). It suggests the nearest passing shade and keeps both colors in a shareable URL. No account.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ux.center",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-18T17:56:11.657Z",
+  "submission_ref": "57126f90-e379-11f1-b5b0-030fc938c7f2",
+  "title": "ux.center Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ux.center/en/tools/contrast-checker/"
+}
