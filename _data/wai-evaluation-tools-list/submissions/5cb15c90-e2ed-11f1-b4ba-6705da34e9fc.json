@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Works in current Chrome, Edge, Firefox and Safari (uses pdf.js in the page). Single-document checker: it reads one PDF at a time. I maintain this tool.",
+  "contact": "aaron.signalfeed@gmail.com",
+  "features": "Free in-browser first-pass check for PDFs; files are never uploaded. Flags missing tags, document title and display setting, document language, image-only (scanned) pages, missing heading tags, figures without alt text and tables without header cells. A pass is not proof of conformance: follow up with manual testing and a PDF/UA validator.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "SignalFeed",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-18T01:14:11.545Z",
+  "submission_ref": "5cb15c90-e2ed-11f1-b4ba-6705da34e9fc",
+  "technology": [
+    "PDF"
+  ],
+  "title": "SignalFeed PDF Accessibility Quick Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://signalfeed.github.io/#checker"
+}
