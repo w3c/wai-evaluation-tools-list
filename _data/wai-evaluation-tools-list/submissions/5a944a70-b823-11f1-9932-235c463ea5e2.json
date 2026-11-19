@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://www.accessibilitypro.app/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "support@accessibilitypro.app",
+  "features": "Automated WCAG 2.2 Level AA scanner for websites. Runs five engines (axe-core, IBM Equal Access, ARC, pa11y, Lighthouse) on every page, reports one finding per defect, and offers code fixes re-tested in a sandbox before they are shown. Free one-page checker, a GitHub Action for pull requests, and reports that name what still needs a person.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessibility Pro",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-24T14:22:20.823Z",
+  "submission_ref": "5a944a70-b823-11f1-9932-235c463ea5e2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Pro",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://www.accessibilitypro.app"
+}
