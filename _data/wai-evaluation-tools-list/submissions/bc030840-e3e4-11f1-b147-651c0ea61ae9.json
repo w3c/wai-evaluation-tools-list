@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://jralo.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "Submission is for Jralo's evaluation tool (the free and paid website check), not for Website Mechanic as a standalone product. Website Mechanic is an optional paid add-on that opens GitHub pull requests for the merchant to review; it never merges or pushes to main, and it is not an overlay widget. Automated testing finds many issues, not all; Jralo does not certify ADA, EAA or WCAG compliance. Shopify App Store listing launched 23 October 2026 (https://apps.shopify.com/jralo). The public website checker was already live by 6 October 2026 (accessibility statement last reviewed that date). CI/import of axe-core, Playwright or Lighthouse results is available on paid plans (https://jralo.com/docs/ci/). Contact email is support@jralo.com; please use it only for questions about this listing.",
+  "contact": "support@jralo.com",
+  "features": "Jralo checks a website in a real browser against the WCAG 2.2 A and AA rules that automated testing can check (homepage plus up to five linked pages). The same visit reports broken links, page errors, broken images and slow pages. Three free checks a day, no sign-up. Paid plans add daily checks and a dated, independently timestamped evidence log.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Misimi Corp",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-19T06:44:57.156Z",
+  "submission_ref": "bc030840-e3e4-11f1-b147-651c0ea61ae9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Jralo",
+  "type": [
+    "Online tool",
+    "Command-line / CI",
+    "CMS plugin"
+  ],
+  "website": "https://jralo.com"
+}
