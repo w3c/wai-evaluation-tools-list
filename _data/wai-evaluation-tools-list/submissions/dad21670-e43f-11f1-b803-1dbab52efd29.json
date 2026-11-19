@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "aaron.signalfeed@gmail.com",
+  "features": "Checks one PDF in your browser for missing tags, document language, headings and table headers. Examines up to 300 pages and flags possible scans. Results identify items for manual review. The file stays on your device.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "SignalFeed.dev",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-19T17:37:13.047Z",
+  "submission_ref": "dad21670-e43f-11f1-b803-1dbab52efd29",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF accessibility quick check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://signalfeed.dev/#checker"
+}
