@@ -1,0 +1,84 @@
+{
+  "a11yloc": "https://docs.leovoid.com/legal-center/general-site-wide-policies/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "support@tenthloop.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "TenthLoop is a website quality platform that combines automated accessibility scanning, expert-led manual WCAG evaluations, and remediation tools. Its dedicated Audit Management Module streamlines expert audits with structured testing workflows, issue documentation, and reporting.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    "on",
+    "Credit Purchase"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Leovoid Technologies Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-20T12:33:55.276Z",
+  "submission_ref": "a68458c0-e4de-11f1-ba50-6f9e90a34e1c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents",
+    "Markdown"
+  ],
+  "title": "TenthLoop",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://tenthloop.com/"
+}
