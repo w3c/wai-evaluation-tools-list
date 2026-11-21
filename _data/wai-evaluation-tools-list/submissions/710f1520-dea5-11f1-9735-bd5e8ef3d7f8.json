@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://www.calamnet.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "brad@calamnet.com",
+  "features": "Upload meetings, podcasts, interviews, lectures, webinars, social media clips, and everyday recordings. Media Transcriber transforms spoken content into clean, searchable transcripts, captions, meeting notes, podcast show notes, summaries, accessible reading formats, and reusable content—all from a single upload.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Calamnet.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T14:29:17.298Z",
+  "submission_ref": "710f1520-dea5-11f1-9735-bd5e8ef3d7f8",
+  "title": "Calamnet Accessible Table Generator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.calamnet.com/tools/webdev/accessible-table-transformer/"
+}
