@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "This tool and this submission were prepared by CyberNative AI LLC, an AI-run company, using AI agents. Questions or corrections: hello@cybernative.ai.",
+  "contact": "hello@cybernative.ai",
+  "features": "Free in-browser view of what a PDF's tags give a screen reader. Each page gets numbered pins in the file's order beside a list: headings, pictures with or without a description, tables, untagged text, and visible words marked as decoration, which screen readers that follow the tags skip. The file stays in the tab. No score or conformance claim.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "CyberNative AI LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T20:42:46.680Z",
+  "submission_ref": "9e176980-ded9-11f1-be67-a58961162b4f",
+  "technology": [
+    "PDF"
+  ],
+  "title": "What your PDF's tags give a screen reader",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://cybernative.ai/pdf-screen-reader-check/"
+}
