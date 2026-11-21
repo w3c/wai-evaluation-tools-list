@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://wexlo.eu/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@wexlo.eu",
+  "features": "Wexlo tests websites against WCAG 2.2 level AA in a real browser, up to 100 pages per scan. Scheduled retests and a CI deploy webhook re-measure the site after a release; findings sync both ways with GitHub issues. Each finding has code-level evidence, a fix and a certainty label; reports list what needs manual review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "nl",
+    "fr",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Wexlo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-19T11:17:02.975Z",
+  "submission_ref": "a3c290f0-b41b-11f1-83a1-e3bc2d36821c",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Wexlo",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://wexlo.eu/"
+}
