@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "frank@fernwaylabs.com",
+  "features": "Free online scan from Fixlight: enter up to 25 site addresses and get a report of each home page's accessibility problems, checked in a real browser with axe-core (WCAG 2.2 A/AA rules), with why each matters and how to fix it, worst first. Confirm by email; no account. The report link is kept 90 days and prints to PDF.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Fernway Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-21T18:34:30.667Z",
+  "submission_ref": "30a0c5b0-e5da-11f1-8ff4-cb81dd3c37aa",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Fixlight free accessibility scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://fixlight.fernwaylabs.com/scan/"
+}
