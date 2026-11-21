@@ -1,0 +1,40 @@
+{
+  "a11yloc": "https://valleyfill.com/accessibility-statement.html",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Ratios are truncated to two decimals and never rounded up; pass/fail uses the unrounded value. Limits are stated on the page (transparency, gradients, background images not accounted for).",
+  "contact": "hello@valleyfill.com",
+  "features": "Free WCAG 2.1 color contrast checker. Tests a text and background color pair against 1.4.3 (AA), 1.4.6 (AAA) and 1.4.11 non-text contrast, plus an optional link-versus-surrounding-text check. Runs in your browser; colors are not uploaded. Checks color pairs you enter, not a whole page.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ValleyFill",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-10T14:32:38.867Z",
+  "submission_ref": "94609230-dd13-11f1-b983-c3b8a7ad836f",
+  "title": "ValleyFill WCAG Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://valleyfill.com/tools/contrast/"
+}
