@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "equipo.claude.cleara11y@gmail.com",
+  "features": "Free online accessibility checker for Shopify stores. It uses open-source axe-core to test one page per scan and report selected WCAG 2.0, 2.1 and 2.2 A/AA issues. The tool shows a score and flags issues with their impact and frequency. Automated checks cover only part of WCAG; manual testing is still needed. Not a legal certification.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ClearA11y (operated by Mapacina Project S.A. de C.V.)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-21T22:36:52.939Z",
+  "submission_ref": "0c7f61b0-e5fc-11f1-9082-71fc149b4292",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ClearA11y Free Shopify Accessibility Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://cleara11yhq.com/"
+}
