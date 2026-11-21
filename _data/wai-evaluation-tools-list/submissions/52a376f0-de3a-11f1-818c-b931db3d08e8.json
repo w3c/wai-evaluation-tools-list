@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Checks a single PDF against PDF/UA-1 (ISO 14289-1): tags, alt text, document language, title, table headers, headings and fonts. Language, title and tab order can be fixed directly in the tool. Free, no signup; the check runs locally in the browser, so the file is never uploaded.",
+  "contact": "iofilekin@gmail.com",
+  "features": "Free online PDF accessibility checker. Checks tags, alt text, document language, title, table headers, headings and fonts against PDF/UA, and fixes language, title and tab order in one click. Runs entirely in the browser: the PDF is never uploaded.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "fr",
+    "de",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Filekin",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T01:42:30.112Z",
+  "submission_ref": "52a376f0-de3a-11f1-818c-b931db3d08e8",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Filekin PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://filekin.io/pdf-accessibility-checker"
+}
