@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Maker submission: I am the maker of this tool (VibeFix, Y.D.A. Dabeian S.A.). A check finds some issues, not all. It uses axe-core 4.14 and covers the part of WCAG 2.0 and 2.1, Levels A and AA, that software can test, not WCAG 2.2. It does not test keyboard use, focus, the cart or checkout.",
+  "contact": "help@vibe-fixer.com",
+  "features": "Free, automated, read-only check of one page: a Shopify store's public homepage. Uses axe-core 4.14. Covers the part of WCAG 2.0 and 2.1 (Levels A and AA) that software can test, not WCAG 2.2. Does not test keyboard use, focus, the cart or checkout. Enter a store address; the report usually appears on the page in about a minute.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "VibeFix (Y.D.A. Dabeian S.A.)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T07:00:47.735Z",
+  "submission_ref": "c9b5a070-de66-11f1-8723-e5cb0d46f90d",
+  "title": "VibeFix Shopify Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://vibe-fixer.com/tools/shopify-accessibility-checker"
+}
