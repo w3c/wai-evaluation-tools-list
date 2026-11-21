@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@fizzlabs.ai",
+  "features": "Free WCAG 2.2 AA checker. Paste a page URL: our server fetches that one page and the open-source axe-core engine checks it in your browser. Results map to WCAG success criteria, each with a plain-English fix. Paste HTML or use a bookmarklet for pages without a public URL. A separate check reads up to 50 PDFs on a site for tags, language and text.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Fizz Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-12T16:16:09.617Z",
+  "submission_ref": "5f192900-deb4-11f1-93be-87a5c2aeeed6",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Fizz Labs Accessibility Check",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://eaa.fizzlabs.ai/"
+}
