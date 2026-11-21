@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "contact@web-accessibility-checker.com",
+  "features": "Online WCAG 2.1 and 2.2 checker. A free scan, without sign-up, gives a 0-100 score and the list of issues to fix; an EAA view maps results to EN 301 549. Paid plans scan up to 25, 100 or 300 pages per site with scheduled monitoring and email alerts, PDF/CSV reports from Pro. One-time written audit report; free colour contrast checker.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "it",
+    "nl",
+    "es",
+    "pt",
+    "pl",
+    "sv",
+    "da"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Web Accessibility Checker",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T18:19:15.088Z",
+  "submission_ref": "66c50100-ddfc-11f1-952a-b12e7569bea2",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Web Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://web-accessibility-checker.com/"
+}
