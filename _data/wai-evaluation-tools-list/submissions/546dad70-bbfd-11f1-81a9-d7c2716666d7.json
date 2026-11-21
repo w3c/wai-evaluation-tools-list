@@ -1,0 +1,60 @@
+{
+  "a11yloc": "https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner/blob/main/ACCESSIBILITY.md",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Version 5.0.2 is the current public release. The project is free and open source under the MIT License. Automated results are evidence, not a conformance determination. The reports identify manual-review boundaries, and the documentation states that complete evaluation requires manual review, assistive-technology testing, and judgment about the content and its purpose.",
+  "contact": "jeff@fusiontsi.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Free, open-source command-line application for scanning websites, local HTML and CSS, and PDF documents. It combines static checks with optional Playwright and axe-core browser testing, produces HTML, JSON, and CSV reports, and identifies results that still require manual or assistive-technology review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document",
+    "Source code"
+  ],
+  "provider": "Fusion Technology Strategies",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T12:00:14.279Z",
+  "submission_ref": "546dad70-bbfd-11f1-81a9-d7c2716666d7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "WCAG 2.2 Site and PDF Scanner",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/fusiontechstrategies/WCAG-2.2-Site-PDF-Scanner"
+}
