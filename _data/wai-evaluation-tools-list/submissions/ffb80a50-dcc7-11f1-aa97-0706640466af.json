@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://imagetranslation.net/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Image Translator helps you translate text in handwritten messages into a language you understand. Support for more than 100 languages makes it useful when visual information crosses language boundaries in everyday life.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "mt tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-10T05:31:37.205Z",
+  "submission_ref": "ffb80a50-dcc7-11f1-aa97-0706640466af",
+  "title": "Image Translator - Understand Words in Comic Panels",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet"
+  ],
+  "website": "https://imagetranslation.net/"
+}
