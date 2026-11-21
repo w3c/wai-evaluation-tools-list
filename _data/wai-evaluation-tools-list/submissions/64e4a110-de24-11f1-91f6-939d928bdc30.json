@@ -1,0 +1,67 @@
+{
+  "a11yloc": "https://binclusive.io/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Binclusive covers web and mobile accessibility testing. Source scans support JSX/TSX, Astro, Liquid, SwiftUI, UIKit, Interface Builder, Jetpack Compose, Android XML, React Native and Unity scenes.\r\n\r\nLive audits use real screen readers: NVDA with Chrome for web, TalkBack on Android, and VoiceOver on iOS simulators and physical devices. Physical iOS and Android devices can also be tested from Windows.\r\n\r\nCLI: npm i -g @binclusive/cli. Output formats include pretty, JSON, SARIF 2.1.0 and GitHub annotations.\r\n\r\nPDF accessibility: Content Studio evaluates PDF/UA-1 and WCAG requirements, provides automated fixes for document tags, reading order and alternative text, and supports human review where automated checks are insufficient.\r\n\r\nDocumentation: https://docs.binclusive.io/",
+  "contact": "info@binclusive.io",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Binclusive tests accessibility the way people use your product: real screen readers (NVDA, TalkBack, VoiceOver) walk your web and mobile journeys. Automated WCAG 2.2 A/AA checks cover live pages, source code (React, SwiftUI, Jetpack Compose) and PDFs, and block regressions in pull requests. One dashboard, CLI and MCP server track every fix.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Binclusive",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T23:05:31.809Z",
+  "submission_ref": "64e4a110-de24-11f1-91f6-939d928bdc30",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "Binclusive",
+  "type": [
+    "Online tool",
+    "Command-line / CI",
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://binclusive.io"
+}
