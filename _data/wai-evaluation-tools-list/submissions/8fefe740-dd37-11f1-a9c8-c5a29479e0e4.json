@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://youruxagent.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Submitted by the vendor.",
+  "contact": "support@youruxagent.com",
+  "features": "Audits live websites in a real Chromium browser at several screen sizes against WCAG 2.2 A or AA, with axe-core and our own rules, a Tab-through keyboard walk, contrast, reflow and target size. Each finding carries its evidence and WCAG criterion; checks that could not run are reported as not measured, never as passes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AHA Code",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-10T18:50:13.300Z",
+  "submission_ref": "8fefe740-dd37-11f1-a9c8-c5a29479e0e4",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Your UX Agent",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://youruxagent.com/accessibility-checker"
+}
