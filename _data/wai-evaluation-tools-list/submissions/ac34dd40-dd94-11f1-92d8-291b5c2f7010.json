@@ -1,0 +1,43 @@
+{
+  "a11yloc": "https://accessima.com/accessibility-statement/",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Accessima is a UK accessibility consultancy doing manual WCAG audits. We built this checker because clients kept asking why a colour passed on body text but failed elsewhere, so it shows the AA and AAA thresholds for normal and large text together rather than a single pass or fail. Free, no account needed. Happy to reword anything to fit the list's format.\r\nAdam Senior, hello@accessima.com",
+  "contact": "hello@accessima.com",
+  "features": "A free online colour contrast checker. Enter a foreground and background colour (hex or colour picker) to see the contrast ratio and a pass or fail against WCAG 2.2 AA and AAA for normal and large text, with a live preview. Includes swap, presets and a shareable link to each result. No sign-up needed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessima",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T05:56:43.924Z",
+  "submission_ref": "ac34dd40-dd94-11f1-92d8-291b5c2f7010",
+  "title": "Accessima Colour Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessima.com/color-contrast-checker/"
+}
