@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://ontrendai.com",
+  "actrules": "https://ontrendai.com",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "OnTrend AI is a fun, consumer-first viral AI video generator designed for anyone looking to create entertaining, feed-stopping clips for TikTok, Instagram Reels, and YouTube Shorts. Transform everyday selfies, couple photos, or pictures of friends into hilarious trending video memes without touching complex video editing software or writing confusing text prompts. Simply browse our constantly updated library of trending viral templates, drop in 1 or 2 character portraits, and our smart neural engine automatically animates your photos with natural facial expressions, synchronized dance moves, and dynamic camera choreography. Every template comes pre-loaded with licensed viral music and beat-synced sound effects ready for sharing on group chats and social media. Enjoy watermark-free 9:16 vertical video downloads, seamless cloud rendering, and transparent pay-as-you-go credit packs from $6.99 with instant automated refunds on failed generations.",
+  "contact": "mphyt101@gmail.com",
+  "features": "• Zero Prompts & Zero Editing Skills: No text prompting or video editing timelines required. Just pick a trending template and upload your photos.\r\n• Dual-Slot Photo Animation (Solo & Duo Fun): Upload 1 or 2 portraits. Smart neural motion models animate dynamic solo dances, friend face-offs, or couple duets.\r\n• Pre-Synced Viral Audio & Beat-Matched F",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "One-time purchase",
+    "Paid"
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "Robin",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-11T08:29:32.494Z",
+  "submission_ref": "05199ee0-ddaa-11f1-bea1-07b716d2a01a",
+  "title": "OnTrend AI",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ontrendai.com"
+}
