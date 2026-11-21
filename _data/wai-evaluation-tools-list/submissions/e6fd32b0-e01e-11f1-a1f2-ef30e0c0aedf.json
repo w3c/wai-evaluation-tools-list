@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@elk.solutions",
+  "features": "Free online PDF/UA check. Upload a PDF and get a verdict in seconds: conformant to PDF/UA-1 or not, how many failures and which kinds. Runs veraPDF on our own server; files are deleted after seven days. No account, no cookies. Automated checks do not replace human review of reading order and alternative text.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "nl",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Elk Solutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-14T11:31:15.419Z",
+  "submission_ref": "e6fd32b0-e01e-11f1-a1f2-ef30e0c0aedf",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF/UA Solutions free PDF/UA checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pdfua.solutions/scan/"
+}
