@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "info@hyperionsrl.cloud",
+  "features": "Free online accessibility check of a website's home page, with no sign-up. It opens the page in a real browser, runs axe-core automated tests for WCAG 2.1 Level A and AA, and lists each failed rule with its success criterion, the number of affected elements and code examples, plus a 0-100 score. Optional PDF report by email.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Hyperion S.r.l.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-22T22:55:06.687Z",
+  "submission_ref": "c2d5d4f0-e6c7-11f1-8fec-6d28109e4c5e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Tessera Accessibility Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tessera.hyperionsrl.cloud/en/accessibility-check.html"
+}
