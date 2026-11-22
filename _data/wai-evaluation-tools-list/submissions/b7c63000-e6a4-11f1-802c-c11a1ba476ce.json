@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Online tool, no sign-up. Accepts any CSS color format (hex, rgb, hsl, color names), suggests the nearest passing color with the same hue for text or background, and runs entirely in the browser: nothing is sent or stored.",
+  "contact": "info@etch.gr",
+  "features": "Free WCAG contrast checker. Shows the exact ratio (never rounded up) and pass/fail for AA and AAA text and non-text contrast (1.4.3, 1.4.6, 1.4.11), suggests the closest passing colors, previews color-vision deficiencies and creates a shareable link. Runs in the browser; nothing is sent or stored.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Etch",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-22T18:44:15.744Z",
+  "submission_ref": "b7c63000-e6a4-11f1-802c-c11a1ba476ce",
+  "title": "Etch Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://etch.gr/en/academy/color-contrast-checker/"
+}
