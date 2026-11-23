@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://guavagrade.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@guavagrade.com",
+  "features": "GuavaGrade checks websites against WCAG 2.2 A and AA rules in a real browser using axe-core, then grades the results. The free check covers 5 pages; paid plans check 500 to 5,000 pages per site on a schedule. Each issue lists who it affects, the pages, the failing element (CSS selector and HTML), and how to fix it. Reports download as PDF.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GuavaGrade",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-23T17:52:25.841Z",
+  "submission_ref": "a48a6610-e766-11f1-b0dd-2faf86a38639",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "GuavaGrade",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://guavagrade.com"
+}
