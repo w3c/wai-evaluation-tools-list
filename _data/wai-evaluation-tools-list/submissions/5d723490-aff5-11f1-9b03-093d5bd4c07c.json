@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://www.webyes.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "melwyn@mozilor.com",
+  "features": "WebYes PDF Accessibility Checker is a free online tool that checks PDFs against WCAG and PDF/UA standards. Upload a PDF or paste a live link to run all machine-verifiable accessibility checks, such as tags, title, language, and structure. Each detected issue is highlighted where it occurs on the page, with short guidance on how to fix it.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Mozilor ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-14T04:32:59.481Z",
+  "submission_ref": "5d723490-aff5-11f1-9b03-093d5bd4c07c",
+  "technology": [
+    "PDF"
+  ],
+  "title": "WebYes PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.webyes.com/product/free-pdf-accessibility-checker/"
+}
