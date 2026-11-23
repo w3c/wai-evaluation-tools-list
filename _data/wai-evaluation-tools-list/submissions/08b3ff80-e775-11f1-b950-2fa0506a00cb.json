@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "The accessibility audit is available free in the open-source (Apache-2.0) CLI: https://github.com/kadeep-ai/kadeep-cli (npx kadeep a11y <url>, no account needed). It uses axe-core rules in a real Chromium/Chrome browser via Playwright. KaDeep Studio Pro is the hosted app with paid plans and a free start.",
+  "contact": "someet@kadeep.ai",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "KaDeep runs automated WCAG 2.2 AA accessibility checks (axe-core) on live websites and web apps, including localhost and staging, in a real browser session. Available as an open-source CLI command (npx kadeep a11y <url>) and in the hosted KaDeep Studio Pro app, which adds the results to a release go / no-go report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "KaDeep AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-23T19:35:26.841Z",
+  "submission_ref": "08b3ff80-e775-11f1-b950-2fa0506a00cb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "KaDeep Studio Pro",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://kadeep.ai/?utm_source=w3c-wai&utm_medium=directory"
+}
