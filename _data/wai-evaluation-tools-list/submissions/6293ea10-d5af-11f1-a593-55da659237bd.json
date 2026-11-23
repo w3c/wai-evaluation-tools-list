@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://easyaccesspdf.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Primary submission is the free evaluation checker. Paid auto-tagging is separate; human screen-reader review still recommended after automation.",
+  "contact": "hello@easyaccesspdf.com",
+  "features": "Free PDF accessibility checker that validates documents against PDF/UA (ISO 14289) using veraPDF. Reports structure/tag issues for Section 508, ADA, and EAA/EN 301 549. Browser-based; files processed in the EU and auto-deleted.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "EasyAccessPDF",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-01T04:47:47.505Z",
+  "submission_ref": "6293ea10-d5af-11f1-a593-55da659237bd",
+  "technology": [
+    "PDF"
+  ],
+  "title": "EasyAccessPDF",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://easyaccesspdf.com/checker/"
+}
