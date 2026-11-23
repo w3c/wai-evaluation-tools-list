@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "ketnuki2112@gmail.com",
+  "features": "Plingzine is a free online accessibility checker. Enter any URL and get a 0–100 WCAG readiness score in ~30 seconds — issues grouped by impact, each with a plain-English fix. Built on the axe-core engine. Optional full-site PDF audit and weekly monitoring.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Plingzine",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-13T09:32:20.561Z",
+  "submission_ref": "c6aa9d00-670a-11f1-bbcc-53c757368cfb",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Plingzine",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://plingzine.com"
+}
