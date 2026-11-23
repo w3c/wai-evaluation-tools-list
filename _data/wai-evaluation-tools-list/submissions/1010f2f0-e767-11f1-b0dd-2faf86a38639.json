@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "chyenne628@gmail.com",
+  "features": "Tourism Website",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "-",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-23T17:55:26.239Z",
+  "submission_ref": "1010f2f0-e767-11f1-b0dd-2faf86a38639",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Website",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://c61228.github.io/CS4127_LCB6784/"
+}
