@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://www.equalweb.com/9491/9491/accessibility_statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "EqualWeb PDF Accessibility Checker analyzes native and scanned PDF documents, generating detailed accessibility reports before remediation. It supports WCAG compliance evaluation, provides API access upon request, and is trusted by businesses, enterprises, and government organizations worldwide. Available in page-based packages starting from 5 pages.",
+  "contact": "info@equalweb.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "EqualWeb PDF Accessibility Checker analyzes PDF documents and generates a detailed accessibility report before remediation. It identifies accessibility issues, supports WCAG compliance evaluation, and helps organizations prioritize remediation before making documents accessible.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "EqualWeb Ltd.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2023-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-05T16:45:23.059Z",
+  "submission_ref": "ea87d430-7890-11f1-b76e-d76c48fe2977",
+  "technology": [
+    "PDF",
+    "Microsoft Office documents",
+    "Open Document Format (ODF)"
+  ],
+  "title": "PDF Accessibility Checker",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://www.equalweb.com/11743/11528/pdf_accesibility_checker"
+}
