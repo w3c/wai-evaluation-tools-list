@@ -1,0 +1,80 @@
+{
+  "a11yloc": "https://www.skynettechnologies.com/accessibility-statement",
+  "actrules": "https://www.skynettechnologies.com/blog/pdf-ua-iso-14289-document-accessibility",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "As a W3C Member, we contribute to digital accessibility by offering the Free PDF Accessibility Checker to evaluate and improve PDF accessibility.",
+  "contact": "rajesh@skynettechnologies.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Analyze PDF documents to identify accessibility issues related to document structure, tags, images, forms, and reading order. It provides a detailed report with recommendations to improve accessibility and support compliance with PDF / UA, WCAG, Section 508, and EAA EN 301 549.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ca",
+    "nl",
+    "es",
+    "hi",
+    "it",
+    "la",
+    "pl",
+    "pt-BR",
+    "ru",
+    "zh",
+    "ja",
+    "tr",
+    "id",
+    "hu",
+    "ar",
+    "he",
+    "bg",
+    "lv",
+    "vi"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Skynet Technologies USA LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-22T15:58:49.935Z",
+  "submission_ref": "3ab8adf0-85e6-11f1-9a62-c71cdf7c7ff4",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Free PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/pdf-accessibility-checker"
+}
