@@ -1,0 +1,71 @@
+{
+  "a11yloc": "https://samvemco-onwheels.online/",
+  "actrules": "https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "johnalbertadvincula82@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Landmarks\r\nHeading\r\nCoor/Content\r\nImage\r\nLinks\r\nForms\r\nTables/Layouts\r\nARIA Widgets\r\nAudio/Video\r\nKeyboard Support\r\nTiming live Regions\r\nSite Navigation",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "stores",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-23T14:50:35.361Z",
+  "submission_ref": "3d634510-e74d-11f1-90f1-47d4cff56877",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "website",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://samvemco-onwheels.online/"
+}
