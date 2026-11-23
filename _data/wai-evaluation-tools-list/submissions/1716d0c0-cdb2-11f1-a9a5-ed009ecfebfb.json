@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://gotalt.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@gotalt.com",
+  "features": "Free PDF accessibility checker that runs in your browser. It checks whether a PDF is tagged and has a document language, a title, alternate text on figures, headings and table structure. The file is never uploaded.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "GotAlt",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T00:47:00.044Z",
+  "submission_ref": "1716d0c0-cdb2-11f1-a9a5-ed009ecfebfb",
+  "technology": [
+    "PDF"
+  ],
+  "title": "GotAlt PDF Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://gotalt.com/tools/pdf-accessibility-checker/"
+}
