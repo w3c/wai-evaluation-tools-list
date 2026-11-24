@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "pagescoredev@gmail.com",
+  "features": "Free online checker: enter a web address and it tests one page for common WCAG 2.1/2.2 issues that can be detected automatically - image alt text, form labels, link text, page language, zoom/viewport settings, heading structure, landmarks and skip links - with a score and a plain-English fix for each problem. No signup.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PageScore",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T08:34:49.278Z",
+  "submission_ref": "e949c5e0-e7e1-11f1-b9c8-8576ab9eb69a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "PageScore Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pagescore.dev/tools/website-accessibility-checker"
+}
