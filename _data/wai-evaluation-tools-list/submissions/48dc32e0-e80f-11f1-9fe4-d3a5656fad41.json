@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@whatlaunched.today",
+  "features": "Whatlaunchedtoday is a curated product discovery platform highlighting the newest SaaS applications, AI utilities, and developer tools shipping every day. Users can browse trending launches by category, explore founder-built alternatives, and discover practical software before it hits the mainstream.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Whatlaunchedtoday",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-07-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T13:59:36.974Z",
+  "submission_ref": "48dc32e0-e80f-11f1-9fe4-d3a5656fad41",
+  "title": "Whatlaunchedtoday",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://whatlaunched.today"
+}
