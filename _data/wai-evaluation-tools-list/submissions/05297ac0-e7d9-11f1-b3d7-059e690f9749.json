@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Free check of the homepage only; the form asks the user to confirm they own or manage the store. Not legal advice. Submitted by the vendor.",
+  "contact": "help@vibe-fixer.com",
+  "features": "Free online check of a Shopify store's public homepage. It opens the page like any visitor and is read-only. It reports the accessibility issues software can find against WCAG 2.0 and 2.1, Levels A and AA. The report appears on the page in about a minute. Email is optional.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "VibeFix",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T07:31:10.572Z",
+  "submission_ref": "05297ac0-e7d9-11f1-b3d7-059e690f9749",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "VibeFix Shopify Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://vibe-fixer.com/tools/shopify-accessibility-checker"
+}
