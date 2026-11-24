@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://auditable.co/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "support@auditable.co",
+  "features": "Automated WCAG 2.1 AA scanner for government websites. Uses axe-core plus keyboard and accessibility-tree checks to evaluate 29 of 50 success criteria, flags likely issues on others for review, and reports untested criteria as Not Evaluated. Delivers a letter-grade report card, severity breakdown, remediation guidance, and scheduled rescans.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AuditAble LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T15:33:49.450Z",
+  "submission_ref": "71ff96a0-e81c-11f1-a89e-9fc18463b5da",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AuditAble",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://auditable.co"
+}
