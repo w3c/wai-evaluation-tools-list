@@ -1,0 +1,45 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "hello@toolsdock.online",
+  "features": "Check a solid text and background color pair against WCAG 2.2 AA and AAA text contrast thresholds. Enter two hex colors to see the contrast ratio, a text preview and pass or fail for normal and large text. This free manual check runs in the browser without an account and is available in six languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "ar",
+    "fr",
+    "de",
+    "es",
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ToolsDock",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T06:58:19.812Z",
+  "submission_ref": "6e7f5e40-e7d4-11f1-8a5f-ff5d347aa11e",
+  "title": "ToolsDock WCAG Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://toolsdock.online/en/tools/color-contrast-checker"
+}
