@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "niv@getreticle.com",
+  "features": "An online check that finds and marks possible accessibility barriers on web pages, reading both the rendered screen and the page's structure. It is automated and needs no install. It measures text contrast on the first screen of each page checked and checks titles, language, image text and link, button and field names. It does not find everything.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GetReticle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T14:12:55.839Z",
+  "submission_ref": "250552f0-e811-11f1-afa1-bd4afa011b63",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "GetReticle Accessibility Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://getreticle.com/en/"
+}
