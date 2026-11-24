@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://normharbor.com/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "NormHarbor uses static HTML analysis. The methodology page lists every rule and what is out of scope (JavaScript-rendered content, keyboard traps, focus visibility, contrast from CSS classes): https://normharbor.com/en/methodology",
+  "contact": "hello@normharbor.com",
+  "features": "Online checker that fetches a web page and statically analyses its HTML against WCAG 2.1 A/AA rules (alt text, labels, names, headings, language, ARIA references and more). Shows a score, issues by severity and how to fix each one. Paid plans add scheduled monitoring and regression alerts. Does not evaluate JavaScript-rendered content.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NormHarbor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T08:45:04.790Z",
+  "submission_ref": "58297360-e7e3-11f1-b9c8-8576ab9eb69a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "NormHarbor",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://normharbor.com/en"
+}
