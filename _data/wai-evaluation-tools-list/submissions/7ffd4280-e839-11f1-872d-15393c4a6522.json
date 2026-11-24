@@ -1,0 +1,44 @@
+{
+  "a11yloc": "https://celsari.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "matt@celsari.com",
+  "features": "Free online check of one PDF for four basics a screen reader needs first: tags, real text, a title, and a language. The check runs in your browser, so the file stays on your computer. No sign-up; one file up to 200 pages and 40 MB. To get PDFs or Office files built to meet WCAG 2.2, visit https://celsari.com/document-accessibility",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Celsari",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-24T19:01:48.328Z",
+  "submission_ref": "7ffd4280-e839-11f1-872d-15393c4a6522",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Celsari Free Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://celsari.com/pdf-accessibility-checker/"
+}
