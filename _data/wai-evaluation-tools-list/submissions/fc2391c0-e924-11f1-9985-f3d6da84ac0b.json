@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "northray.software@gmail.com",
+  "features": "Checks a website in a real browser with axe-core and delivers a report of WCAG 2.2 issues on up to 100 pages: what is wrong, where it occurs and how to fix it, as a web page and PDF. A free single-page check is available, plus free contrast, indexing and email authentication checkers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Northray",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T23:07:28.348Z",
+  "submission_ref": "fc2391c0-e924-11f1-9985-f3d6da84ac0b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "SiteMedic",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://sitemedic.io"
+}
