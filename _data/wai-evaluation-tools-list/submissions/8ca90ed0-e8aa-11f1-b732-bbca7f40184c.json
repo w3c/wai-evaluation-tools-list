@@ -1,0 +1,58 @@
+{
+  "a11yloc": "https://inkluso.eu/accessibility-statement-en",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Inkluso is an automated website checker. It runs axe-core 4.12.1 in a real Chromium render and tests against WCAG 2.1 Level A and AA. WCAG 2.2 target size and best-practice rules are reported separately.\r\n\r\nAutomated testing covers roughly 30 to 40% of WCAG success criteria. Every report separates automated findings from what needs a human check, and a result is a dated record of an automated scan, not a certification.\r\n\r\nThe free scan checks one page and needs no account. A public sample report is at https://inkluso.eu/sample . Our accessibility statement: https://inkluso.eu/accessibility-statement-en\r\n\r\nInterface languages: Czech, German, Polish, Slovak, English (a Dutch interface is also live). Support contact: the address shown on https://inkluso.eu/legal",
+  "contact": "hello@inkluso.eu",
+  "features": "Inkluso runs axe-core 4.12.1 in a real Chromium render against WCAG 2.1 A and AA; WCAG 2.2 target size and best-practice checks reported apart. Free one-page scan; paid audit up to 100 pages. Each finding cites the WCAG criterion, the EN 301 549 clause and a provision of one chosen national act (DE, AT, CZ, PL or SK). Reports: de, cs, pl, en, sk.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de",
+    "cs",
+    "nl",
+    "sk",
+    "pl",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "HEXENKRAFT s.r.o.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T08:31:02.717Z",
+  "submission_ref": "8ca90ed0-e8aa-11f1-b732-bbca7f40184c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Inkluso",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://inkluso.eu/en/"
+}
