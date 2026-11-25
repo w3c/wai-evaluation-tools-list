@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Chrome Web Store: https://chromewebstore.google.com/detail/pandus-accessibility-and/oplhpiaacmpenolhmejmoikdielfakjn . The check runs locally in the browser with axe-core (Deque Systems); nothing is sent anywhere unless the user saves the result to a Pandus account. It does not change the checked site. The overall Pandus service was submitted separately (pull request #1375).",
+  "contact": "info@pandus.online",
+  "features": "Free extension for Chrome, Edge and Firefox that checks the open page against WCAG 2.2 A and AA with axe-core, also behind a login (cart, checkout, staging). Outlines each element on the page, explains it in plain language in 7 languages, and adds manual-review aids: tab order and heading outline. Automated check, not a full audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "uk",
+    "de",
+    "pl",
+    "cs",
+    "ro",
+    "ru"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pandus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-16T14:32:36.523Z",
+  "submission_ref": "6ea700a0-c96e-11f1-afe9-0bb0c83bfcb8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pandus browser extension",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://pandus.online/en/accessibility-checker-browser-extension"
+}
