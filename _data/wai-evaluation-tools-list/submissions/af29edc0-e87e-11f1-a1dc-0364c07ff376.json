@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "sawyerlincon@yahoo.com",
+  "features": "Convert colors across RGB, HEX, HSL, HSV, CMYK, and alpha channels with instant previews and WCAG contrast checks.\r\n\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    "zh-hans",
+    "fr",
+    "es",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GGfor Tools",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T03:17:02.748Z",
+  "submission_ref": "af29edc0-e87e-11f1-a1dc-0364c07ff376",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Color Converter",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.ggfor.com/color-converter/"
+}
