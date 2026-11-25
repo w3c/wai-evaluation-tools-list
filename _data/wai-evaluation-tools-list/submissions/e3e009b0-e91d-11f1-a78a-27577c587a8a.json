@@ -1,0 +1,46 @@
+{
+  "a11yloc": "https://webmax.co/pages/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "This listing is for the free scan only, at https://webmax.co/audit. It is a free, automated, partial check of one public page on any website. It will not catch everything a person would, and it is not a full audit. The Email address field on the scan is optional. It runs in any modern web browser.",
+  "contact": "support@webmax.co",
+  "features": "WebMax's own scanner, built on open-source testing rules. It runs a free, automated, partial check of one public page on any website and identifies issues an automated tool can find. You can choose WCAG level AA or AAA. It will not catch everything a person would, and it is not a full audit. Email is optional.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WebMax, Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2024-10-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T22:16:41.164Z",
+  "submission_ref": "e3e009b0-e91d-11f1-a78a-27577c587a8a",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WebMax Free Accessibility Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://webmax.co/audit"
+}
