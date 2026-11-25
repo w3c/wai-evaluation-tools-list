@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "Fixes are optional suggestions the owner reviews; the plugin's main purpose is evaluation. Checks run through a Pandus account (free plan for one site, paid plans for more). Plugin licence: GPLv2 or later. Engine: axe-core (Deque Systems). The overall Pandus service was submitted separately (pull request #1375).",
+  "contact": "info@pandus.online",
+  "features": "WordPress and WooCommerce plugin that shows WCAG 2.2 A and AA problems found by Pandus next to every page and product in the admin, explains each one in plain language in 7 languages and suggests fixes the site owner reviews and can undo. Automated check, not a full audit; it is not an overlay and adds no widget.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "uk",
+    "de",
+    "pl",
+    "cs",
+    "ro",
+    "ru"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pandus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-16T14:33:12.972Z",
+  "submission_ref": "8460d4c0-c96e-11f1-afe9-0bb0c83bfcb8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pandus Accessibility for WordPress",
+  "type": [
+    "CMS plugin"
+  ],
+  "website": "https://pandus.online/en/wordpress-accessibility-plugin"
+}
