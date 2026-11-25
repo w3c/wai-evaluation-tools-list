@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "northray.software@gmail.com",
+  "features": "Finds the PDFs on a website (sitemap and linked pages) and checks each one for common accessibility problems: tags, real text vs. scanned images, title, document language, alt text of tagged images, form field descriptions, bookmarks, tab order and headings. Free scan of 30 pages / 15 PDFs; Pro adds larger scans, CSV export and scan comparison.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Northray",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T23:05:36.245Z",
+  "submission_ref": "b9520250-e924-11f1-9985-f3d6da84ac0b",
+  "technology": [
+    "PDF"
+  ],
+  "title": "PDF Sweep",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pdfsweep.com"
+}
