@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Shopify app: https://apps.shopify.com/ableaisle-accessibility-scan",
+  "contact": "support@ableaisle.com",
+  "features": "AbleAisle checks Shopify stores for common WCAG accessibility issues (missing alt text, low contrast, unlabeled buttons) and explains each fix in plain English. Free scan tier, 30-day trial on paid plans, Starter $4.99/month, or a $149 done-for-you fix paid after delivery. No overlay. Not legal advice.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AbleAisle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-25T11:16:58.766Z",
+  "submission_ref": "baed92e0-e8c1-11f1-961d-a7c57f9a0699",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AbleAisle",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://ableaisle.com/?utm_source=w3c-wai&utm_medium=directory&utm_campaign=launch"
+}
