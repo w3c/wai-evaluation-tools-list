@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Whole-site checks run on a schedule (WCAG 2.2 A/AA via axe-core; EN 301 549 web part mapping). The free browser extension checks a single page locally in the browser. WordPress plugin (GPLv2+) connects a site to the service. Free plan for one site; paid Pro and Agency subscriptions; one-off express report. Results are an automated check, not a full audit and not legal advice.",
+  "contact": "info@pandus.online",
+  "features": "Automated accessibility checks of whole websites against WCAG 2.2 A/AA (axe-core in real Chromium) with weekly monitoring. Plain-language reports (HTML/PDF, 7 languages, white-label), fix steps for Shopify/WooCommerce, before/after comparison, API, WordPress plugin, free browser extension. Automated check, not a full audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de",
+    "pl",
+    "cs",
+    "ro",
+    "ru",
+    "uk"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Pandus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-15T14:09:09.683Z",
+  "submission_ref": "fdb2a830-c8a1-11f1-9cda-a180ca600875",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Pandus",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://pandus.online/en/"
+}
