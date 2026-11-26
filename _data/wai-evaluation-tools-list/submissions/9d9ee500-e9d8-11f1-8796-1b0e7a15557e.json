@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://usefixlist.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@usefixlist.com",
+  "features": "FixList scans websites for WCAG 2.1 and 2.2 AA issues with axe-core, plus checks that need the whole site: broken links, page titles and headings across pages. Free scan of 5 pages without signup; paid plans scan up to 400 pages daily, track issues between scans, and export PDF reports with a prioritized fix plan.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "FixList",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-26T20:33:19.185Z",
+  "submission_ref": "9d9ee500-e9d8-11f1-8796-1b0e7a15557e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "FixList",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://usefixlist.com/"
+}
