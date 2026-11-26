@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "stefan@barriereradar24.de",
+  "features": "Automated first check of a web page's delivered HTML (without JavaScript) against 38 rules mapped to WCAG 2.1 success criteria. Each finding shows its severity, the WCAG criterion and how to fix it. Also drafts an accessibility statement and tracks a 30-day rescan interval. Interface in German. Not a full conformance test.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "BarriereRadar",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-26T14:59:13.669Z",
+  "submission_ref": "f1900b50-e9a9-11f1-8b9d-1b25689a27f4",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "BarriereRadar",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://barriereradar24.de/"
+}
