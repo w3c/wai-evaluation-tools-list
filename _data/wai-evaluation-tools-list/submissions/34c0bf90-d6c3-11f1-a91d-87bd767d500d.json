@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Accessibility evaluation is part of Damdit’s broader website audit. Findings include affected pages, evidence and suggested fixes. Audit comparisons help users track resolved and recurring issues. Automated checks do not establish full WCAG conformance and should be complemented by manual accessibility evaluation.",
+  "contact": "support@damdit.com",
+  "desktop": [
+    "MacOS"
+  ],
+  "features": "Damdit is a desktop website auditing tool with automated accessibility checks for text contrast, image alternatives, accessible names, page structure and ARIA. It provides findings with affected pages, evidence and suggested fixes, exports reports, and compares audits over time to track resolved and recurring issues. Audit data stays on your comput",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Antonín Bureš",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-02T13:42:11.721Z",
+  "submission_ref": "34c0bf90-d6c3-11f1-a91d-87bd767d500d",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Damdit",
+  "type": [
+    "Desktop application",
+    "Command-line / CI"
+  ],
+  "website": "https://damdit.com"
+}
