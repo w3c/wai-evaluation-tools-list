@@ -1,0 +1,54 @@
+{
+  "a11yloc": "https://normharbor.com/en/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@normharbor.com",
+  "features": "Online accessibility scanner. Tests a page against a published set of automated WCAG 2.1 A/AA rules, shows each failing element with the success criterion and how to fix it, gives a score, and can monitor saved sites. Free scan without an account; API and CI access on the Agency plan. Not an overlay.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de",
+    "it"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NormHarbor",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-26T14:54:57.664Z",
+  "submission_ref": "58f8c800-e9a9-11f1-8b9d-1b25689a27f4",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "NormHarbor",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://normharbor.com/en"
+}
