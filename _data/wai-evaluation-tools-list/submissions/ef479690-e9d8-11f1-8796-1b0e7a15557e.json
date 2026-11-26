@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://usefixlist.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "hello@usefixlist.com",
+  "features": "Free Chrome extension that runs axe-core WCAG 2.1/2.2 AA checks on the page you are viewing, plus basic SEO checks. It highlights each failing element on the page, numbers them to match the issue list, and copies results as Markdown or as a fix prompt for an AI assistant. Runs locally: no account, no data sent to servers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "FixList",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-26T20:35:36.185Z",
+  "submission_ref": "ef479690-e9d8-11f1-8796-1b0e7a15557e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "FixList Accessibility Checker (Chrome extension)",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/fixlist-%E2%80%94-accessibility-s/hdolnigndcnelebbmclcmppjljibpjml"
+}
