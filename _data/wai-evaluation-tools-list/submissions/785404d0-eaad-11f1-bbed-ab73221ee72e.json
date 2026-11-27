@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "b@kellywm.com",
+  "features": "Check a foreground and background color against WCAG AA and AAA text contrast thresholds, or compare an entire palette in a matrix. The checker reports ratios for normal and large text and can suggest a nearby foreground color for a failing pair. It runs in the browser without an account.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Kelly Webmasters and Marketers (Kelly WM)",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-27T21:56:59.421Z",
+  "submission_ref": "785404d0-eaad-11f1-bbed-ab73221ee72e",
+  "title": "Color Contrast Checker & Fixer",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://kellywm.com/tools/color-contrast-checker"
+}
