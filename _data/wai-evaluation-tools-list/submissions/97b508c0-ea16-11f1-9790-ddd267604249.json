@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "ben@automatonrd.com",
+  "features": "Free online checker for PDF accessibility. Upload a PDF (up to 10 MB and 30 pages) and it is validated against PDF/UA-1 (ISO 14289-1) with veraPDF, the open-source PDF validator. Results show pass or fail, the number of failed rules and checks, and each failed rule explained in plain English, grouped by what it means for people who use screen readers: untagged content, images without alternative text, a missing document title or language, headings, tables, links and form fields. No sign-up is needed, and uploaded files are deleted within one hour. The page also explains which PDF/UA requirements need a person to review, such as the quality of alternative text and the reading order.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Automaton R&D LLC",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-27T03:56:58.060Z",
+  "submission_ref": "97b508c0-ea16-11f1-9790-ddd267604249",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Free PDF Accessibility Checker (PDF/UA-1)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://automatonrd.com/pdf-accessibility-checker/"
+}
