@@ -1,0 +1,63 @@
+{
+  "a11yloc": "https://purple-lens.com/accessibility-statement-2/",
+  "actrules": "https://knowhow.purple-lens.com/category/scanner-function/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "shlomi@purple-lens.com",
+  "features": "The AI-powered Purple Scanner\r\nidentifies accessibility issues —and shows you how to address them.\r\n\r\nFull WCAG and landmarks checks.\r\nA centralized location to add and update image alt text.\r\nEasily apply and customize ARIA, CSS, and JavaScript fixes from inside your content management system.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "he",
+    "ja"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Purple Lens",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2020-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2023-12-20T15:46:19.358Z",
+  "submission_ref": "eaf9f7e0-9f4e-11ee-a2de-ab85baf4778f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Purple Lens - Wcag Scanner",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "update": "2023-12-20",
+  "website": "https://purple-lens.com/"
+}
