@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://color-contrast-checker.com/accessibility-statement/",
+  "actrules": "",
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "sonstiges@netprofit.de",
+  "features": "An online tool that assesses color contrast for digital accessibility, ensuring text is easily readable against its background. It follows the contrast criteria set by the Web Content Accessibility Guidelines (WCAG) at both AA and AAA levels.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "NETPROFIT",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-02-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-02-25T11:21:13.686Z",
+  "submission_ref": "9f52a050-f36a-11ef-aada-97d40cf3815b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://color-contrast-checker.com/"
+}
