@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://www.powermapper.com/products/ondemand/vpat/",
+  "actrules": "https://www.w3.org/WAI/standards-guidelines/act/implementations/sortsite/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "mark.rogers@powermapper.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Cloud based product that tests entire websites for WCAG and Section 508 accessibility issues. Also checks for broken links, spelling errors, browser compatibility, HTML validation and CSS validation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Powermapper Software",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2011-08-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2025-03-26T15:42:36.156Z",
+  "submission_ref": "f0c864b0-0a58-11f0-b2c4-2d841e25aa89",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL"
+  ],
+  "title": "OnDemand Suite",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.powermapper.com/products/ondemand/"
+}
