@@ -1,0 +1,65 @@
+{
+  "a11yloc": "https://www.cardan.com/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "auditor@cardan.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Cardan Auditor is an accessibility reporting tool (WCAG or others) that helps organizations and researchers to implement and document digital accessibility. The tool is now based on the WCAG-EM method and combines user-friendliness with professional functionality. It provides step-by-step evaluation guidance, for WCAG, PDF-UA and other criteria. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document"
+  ],
+  "provider": "Cardan ",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-12T16:08:44.108Z",
+  "submission_ref": "f7fa08c0-efd0-11f0-9f0a-2d12b167f8c3",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Markdown"
+  ],
+  "title": "Cardan Accessibility Auditor",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://auditor.cardan.com/"
+}
