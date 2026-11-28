@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://panelfont.com",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "wendid240@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Panel translation is available online through Panel Font, an all-in-one manga tool for removing text, translating manga, coloring panels, and generating manga. Use it for free without creating an account or installing software.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "mt tech",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-20T05:39:00.174Z",
+  "submission_ref": "8d12fee0-cc48-11f1-b562-0bff36ef3ba4",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Panel Font - desktop manga image translator",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://panelfont.com"
+}
