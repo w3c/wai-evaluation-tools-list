@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "hello@accessibilityscanner.app",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Accessibility Scanner runs the real axe-core engine against any URL and reports every WCAG violation it finds, grouped by severity. For each issue it returns the exact element selector, the offending HTML, the specific failure, the WCAG success criterion, and a link to fix guidance — plus the items that still need manual human review. It resolves color-contrast over CSS gradients, which many automated tools skip. Available as a web app, a Chrome browser extension, a command-line tool for CI pipelines, and an MCP server for AI coding agents. Free single-page scan; paid plans add multi-page and multi-site auditing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Full Cycle Development Group",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-19T20:32:07.642Z",
+  "submission_ref": "e946f3a0-83b0-11f1-954f-175bf0f54787",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessibility Scanner",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://accessibilityscanner.app"
+}
