@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@scanaccessibility.com",
+  "features": "Scan Accessibility checks a web page against WCAG and lists the issues automated testing can detect, with a plain-language explanation of each problem and how to fix it. It works on any public website, whatever platform it’s built on, with nothing to install. Results can be downloaded as a PDF report.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Famous Digital",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-04T17:52:35.792Z",
+  "submission_ref": "849f8d00-d878-11f1-a81d-c7ffd2ae7dc3",
+  "title": "Scan Accessibility",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://scanaccessibility.com/"
+}
