@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "a281410455@gmail.com",
+  "features": "Browser-based color vision simulation for interface, chart, and map images. Compare original, simulated views for protan, deutan, tritan, or achromatopsia, and a grayscale difference map; image processing stays in the browser. This is a design preview, not a diagnosis or WCAG conformance test.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "zhen liu",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-06T09:47:51.404Z",
+  "submission_ref": "feff62c0-c16a-11f1-a85b-67cee4c53dea",
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorvisionsimulator.com/"
+}
