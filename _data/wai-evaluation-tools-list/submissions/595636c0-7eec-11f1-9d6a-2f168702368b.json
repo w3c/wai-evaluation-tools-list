@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://complyclearwp.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "matt@startecwebsolutions.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "ComplyClear audits WordPress content against WCAG 2.1/2.2 AA and Section 508: real-time checks in the block and Elementor editors, a site-wide report with per-page scores, and PDF/Word document scanning, each with plain-language fixes. Free plugin available, plus a free online URL scanner for any website. Pro adds one-click fixers for WordPress.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Startec Web Solutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-13T18:55:00.140Z",
+  "submission_ref": "595636c0-7eec-11f1-9d6a-2f168702368b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF",
+    "Microsoft Office documents"
+  ],
+  "title": "ComplyClear Accessibility",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://complyclearwp.com"
+}
