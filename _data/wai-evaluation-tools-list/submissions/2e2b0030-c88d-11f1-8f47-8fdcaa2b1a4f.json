@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "liberogic_chrome_e@liberogic.jp",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Chrome side panel showing the information assistive technologies rely on: headings, links, form controls, landmarks, images and tables, each with its computed accessible name. Tracks ARIA state changes live, flags issues as error/warning/info with WCAG references, and offers on-device AI guidance via Gemini Nano. No page data leaves the browser.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Liberogic Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-15T11:40:11.571Z",
+  "submission_ref": "2e2b0030-c88d-11f1-8f47-8fdcaa2b1a4f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "A11y Navigation Auditor",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/epckdhhgemccfcomonlgkgabihoaaonp"
+}
