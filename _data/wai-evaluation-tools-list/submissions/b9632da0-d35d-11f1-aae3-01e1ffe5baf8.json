@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "support@coloracci.ai",
+  "features": "Free online color contrast checker. Calculates the WCAG 2.x contrast ratio for any text/background pair, shows AA/AAA pass/fail for normal and large text, suggests accessible alternatives that keep the original hue, simulates color-vision deficiencies and checks a whole palette as a matrix.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Coloracci",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-08-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-29T05:58:12.090Z",
+  "submission_ref": "b9632da0-d35d-11f1-aae3-01e1ffe5baf8",
+  "title": "Coloracci Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://coloracci.ai/color-contrast-checker"
+}
