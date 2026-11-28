@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "sandi.spenko@cryptounity.org",
+  "features": "AccessScan checks any public web page against WCAG 2.2 and the European Accessibility Act, and returns issues ranked by impact with a plain-English fix for each, plus an overall score. It also includes separate colour-contrast, alt-text and heading-structure checkers, and an EAA accessibility statement generator. Free, no signup.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CU d.o.o.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-02T13:30:44.574Z",
+  "submission_ref": "7ffbafe0-a6d2-11f1-8fa9-032c9b36defc",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessScan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessscan.app"
+}
