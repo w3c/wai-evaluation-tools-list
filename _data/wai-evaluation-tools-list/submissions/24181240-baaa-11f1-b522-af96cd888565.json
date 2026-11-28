@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "comments": "IXL is a robust, curriculum-aligned learning and assessment platform that receives mixed to positive reviews from educators for its comprehensive skill tracking and diagnostic capabilities",
+  "contact": "rida.agha@ontariotechu.net",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "IXL is an online learning platform for Pre-K through 12th grade that offers skill practice, diagnostics, and analytics across math, language arts, science, social studies, and Spanish.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": " educational technology company ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-27T19:32:13.796Z",
+  "submission_ref": "24181240-baaa-11f1-b522-af96cd888565",
+  "title": "IXL",
+  "type": [
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://ca.ixl.com/?partner=google&campaign=71592328&adGroup=129630692767&gad_source=1&gad_campaignid=71592328&gbraid=0AAAAADrr3Ao3473OSgtk5H9lv3DdGBKwY&gclid=CjwKCAjw_eLVBhBEEiwAeaYZfL1AUPPDNj0_XViwCerZCWQDfEOI6hZmhUXmYGHgLalLKL9DFG4wDRoCvVwQAvD_BwE"
+}
