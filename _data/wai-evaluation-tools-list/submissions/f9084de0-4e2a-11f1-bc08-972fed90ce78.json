@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "pa.carballo@duocuc.cl",
+  "features": "is a complete mobile accessibility checking room that allí es usted to verify",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Accesible Resources Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-12T17:49:49.887Z",
+  "submission_ref": "f9084de0-4e2a-11f1-bc08-972fed90ce78",
+  "title": "Color Contrast",
+  "type": [
+    "Mobile application"
+  ],
+  "website": "https://apps.apple.com/us/app/color-contrast/id1095478187"
+}
