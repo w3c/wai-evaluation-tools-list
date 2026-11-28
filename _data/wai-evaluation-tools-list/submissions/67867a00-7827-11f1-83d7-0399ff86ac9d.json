@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@innodigital.io",
+  "features": "AdaClear runs automated WCAG 2.1/2.2 A and AA checks on live web pages, produces a 0-100 score with a prioritized, plain English fix list, and monitors sites continuously with alerts on regressions. It clearly separates automated findings from items that need human review, and states openly what automation cannot catch.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AdaClear",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-05T04:10:06.112Z",
+  "submission_ref": "67867a00-7827-11f1-83d7-0399ff86ac9d",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AdaClear",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://adaclear.com"
+}
