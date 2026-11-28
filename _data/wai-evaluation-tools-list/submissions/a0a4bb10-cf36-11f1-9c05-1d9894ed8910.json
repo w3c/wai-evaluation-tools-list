@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Free online tool, no account required. Built on axe-core.",
+  "contact": "hello@uptura.io",
+  "features": "Free online checker that scans a web page for WCAG 2.0, 2.1 and 2.2 (A and AA) issues using the axe-core engine. Lists each issue with its impact, the affected element and how to fix it, plus a 0-100 score. No signup needed. Optional monitoring re-checks your sites on a schedule and alerts you to new issues.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Uptura",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T23:08:15.553Z",
+  "submission_ref": "a0a4bb10-cf36-11f1-9c05-1d9894ed8910",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Uptura Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://uptura.io/tools/accessibility-checker"
+}
