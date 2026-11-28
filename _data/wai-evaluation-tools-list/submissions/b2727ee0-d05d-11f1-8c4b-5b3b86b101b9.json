@@ -1,0 +1,91 @@
+{
+  "a11yloc": "https://aiwebpageseo.com/accessibility-statement.html",
+  "actrules": "https://aiwebpageseo.com/accessibility-act-rules.html",
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Accessibility Audit is an online WCAG 2.2 accessibility evaluation tool developed by AI Web Page SEO. It evaluates rendered web pages using custom accessibility checks and selected ACT-associated axe-core rules. The tool reports coverage of all 55 WCAG 2.2 Level A and AA success criteria, distinguishing automated findings from criteria requiring human evaluation. Published ACT technical documentation and test evidence are available at https://aiwebpageseo.com/accessibility-act-rules.html. Recorded verification includes 38/38 official ACT text-spacing examples matched, 30/30 regression tests passed and 6/6 W3C readiness checks passed. Reports include accessibility findings, scores and guidance. Automated results are not presented as certification of full WCAG conformance.",
+  "contact": "advice@aiwebpageseo.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "Accessibility Audit evaluates websites against WCAG 2.2 A/AA using automated rendered-browser checks, including keyboard navigation, focus, contrast, reflow and text spacing. It assesses multiple pages, generates reports with findings and guidance, and identifies accessibility criteria requiring human verification.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Document",
+    "Source code",
+    "Other"
+  ],
+  "provider": "AI Web Page SEO",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-25T10:20:26.959Z",
+  "submission_ref": "b2727ee0-d05d-11f1-8c4b-5b3b86b101b9",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "EPUB",
+    "PDF",
+    "Microsoft Office documents",
+    "SMIL",
+    "Markdown",
+    "Open Document Format (ODF)"
+  ],
+  "title": "Accessibility Audit",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://aiwebpageseo.com/accessibility-audit.html"
+}
