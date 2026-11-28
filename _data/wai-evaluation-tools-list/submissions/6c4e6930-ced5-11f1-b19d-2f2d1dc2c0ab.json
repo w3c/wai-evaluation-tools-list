@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Each finding shows the WCAG criterion and the EN 301 549 clause where one exists. Reports are in English; axe rule messages are available in 20 languages with --locale. Also published on npm: https://www.npmjs.com/package/floorcheck",
+  "contact": "hello@vayle.art",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Command-line WCAG 2.2 checker built on axe-core. Adds checks axe does not have (reflow at 320px, focus visible, positive tabindex, looping motion), keeps failures, items for manual review and advice apart, and reports error, bot-check and maintenance pages as not scanned instead of clean. Sitemaps, CI exit codes, Node API. Open source (MIT).",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Open source (MIT)"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Vayle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T11:32:26.563Z",
+  "submission_ref": "6c4e6930-ced5-11f1-b19d-2f2d1dc2c0ab",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "floorcheck",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/Pryzmastudio/floorcheck"
+}
