@@ -1,0 +1,42 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "mert@vinena.studio",
+  "features": "knobs is a free panel for manual testing. View any page with reduced motion, higher contrast, larger text, text spacing, dark mode, right-to-left text and color blindness filters, so you can check by hand how the layout responds to user settings. It does not run automated rule checks. Chrome extension, or npm package for your own app.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Vinena Studio",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-07T19:28:31.735Z",
+  "submission_ref": "6aac0070-dae1-11f1-bc5b-373c16b68f95",
+  "title": "knobs",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://knobs.dev"
+}
