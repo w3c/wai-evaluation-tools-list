@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "dev@complementa.net",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "JH A11y tools is a technical extension for faster web accessibility reviews by QA, development, and audit teams. It brings together quick checks for key browser-based scenarios: text resizing, text spacing, reflow, mobile viewports, accessible names, interactive target size, and focus order.\r\n\r\nThe extension does not replace a manual audit",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "es",
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Complementa",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "0026-02-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-08T13:06:47.468Z",
+  "submission_ref": "c511f6c0-4ade-11f1-aced-a7dbff33ef17",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "JH A11y tools",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/jh-a11y-tools/kbnndeagoplhjehlepcpfjepmappndpl"
+}
