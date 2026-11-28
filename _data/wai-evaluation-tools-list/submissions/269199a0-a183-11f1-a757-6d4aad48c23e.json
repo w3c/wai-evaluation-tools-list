@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Edge"
+  ],
+  "comments": "",
+  "contact": "Kyelilsimmons11@gmail.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "This tool shows the effect of each colorblindness on a specific website or image of the user choosing.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SkyNet Technologies",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-26",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-26T19:20:08.506Z",
+  "submission_ref": "269199a0-a183-11f1-a757-6d4aad48c23e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.skynettechnologies.com/color-blindness-simulator"
+}
