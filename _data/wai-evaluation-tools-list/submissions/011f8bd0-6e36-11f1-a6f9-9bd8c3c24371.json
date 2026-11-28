@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://seviranta.com/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "Seviranta is an evaluation tool: it tests pages against WCAG 2.1/2.2 AA and the EAA and provides reports plus step-by-step guidance for the developer to fix issues in their own code. It does not automatically modify the user's content or code, and it is not an overlay.",
+  "contact": "info@seviranta.com",
+  "features": "Seviranta scans websites and webshops against WCAG 2.1/2.2 AA and the European Accessibility Act. Each issue is reported with its exact location in the code and step-by-step guidance to fix it, plus ongoing monitoring and a compliance record for regulators. Available in 11 languages. Not an overlay.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "nl",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "pl",
+    "sv",
+    "cs",
+    "pt",
+    "da"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "1star BV",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-22T12:29:25.133Z",
+  "submission_ref": "011f8bd0-6e36-11f1-a6f9-9bd8c3c24371",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Seviranta",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://seviranta.com"
+}
