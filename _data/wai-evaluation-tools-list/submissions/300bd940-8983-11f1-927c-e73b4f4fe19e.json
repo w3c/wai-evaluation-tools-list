@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "marketingworksbuddy@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "WorksBuddy is an AI Agent Suite, Built to Run Your Business. So You Don’t Have To . It's like having a full team of AI employees managing your operations 24/7.  ",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Time-limited trial",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Worksbuddy ",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-27T06:19:56.500Z",
+  "submission_ref": "300bd940-8983-11f1-927c-e73b4f4fe19e",
+  "title": "Worksbuddy AI",
+  "type": [
+    "Desktop application"
+  ],
+  "website": "https://worksbuddy.ai/"
+}
