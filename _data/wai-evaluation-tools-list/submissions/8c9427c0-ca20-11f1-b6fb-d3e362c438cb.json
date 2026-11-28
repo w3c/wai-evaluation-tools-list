@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "I maintain this tool. Users supply an opaque sRGB foreground/background pair; the tool does not crawl pages. Its AA/AAA text-contrast thresholds support manual checks relevant to WCAG 1.4.3 and 1.4.6 only, not full WCAG conformance. A passing pair is not a complete accessibility assessment. The release date is the WordPress publication date recorded for the tool page (30 September 2026); the tool has received later updates. No W3C endorsement is requested or implied.",
+  "contact": "kontakt@benjaminolsen.dev",
+  "features": "Free browser tool for manually checking solid, opaque text/background color pairs against WCAG AA/AAA text-contrast thresholds, with a live preview. It does not scan a website or establish full accessibility.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Benjamin Olsen",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-17T11:47:37.148Z",
+  "submission_ref": "8c9427c0-ca20-11f1-b6fb-d3e362c438cb",
+  "title": "Color Contrast Checker (Benjamin Olsen)",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://benjaminolsen.dev/contrast-checker/"
+}
