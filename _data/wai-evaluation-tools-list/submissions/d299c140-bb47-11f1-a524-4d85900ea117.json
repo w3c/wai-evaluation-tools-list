@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "AltFlow evaluates image alt attributes only. Its findings support review of WCAG Success Criterion 1.1.1, but are not a full WCAG audit or a conformance certificate. Anonymous scans cover one public page; signed-in plans scan a sample of pages.",
+  "contact": "hello@altflo.shop",
+  "features": "AltFlow scans public web pages for missing, filename-like and generic image alt text. It reports results relevant to WCAG 1.1.1, drafts suggested alternatives, and requires human review before CSV export. It does not audit all accessibility criteria or certify conformance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "zh-hans",
+    "es",
+    "fr",
+    "pt-BR",
+    "ja"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AltFlow",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-28T14:20:57.556Z",
+  "submission_ref": "d299c140-bb47-11f1-a524-4d85900ea117",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AltFlow",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://altflo.shop"
+}
