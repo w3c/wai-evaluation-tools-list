@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@klar-barrierefrei.de",
+  "features": "Online WCAG 2.1/2.2 AA checker for German businesses under the BFSG (European Accessibility Act). Free single-page scan with axe-core: score, issues by severity and an explicit count of checks that need manual review. Paid plans crawl the whole site, produce a dated PDF report and monitor changes monthly. Interface in German and English.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Paweł Dziura (Klar Barrierefrei)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-02T01:01:03.891Z",
+  "submission_ref": "e09ae630-d658-11f1-a6f5-4b5e1bd2c79e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Klar Barrierefrei",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://klar-barrierefrei.de/de/free-accessibility-check"
+}
