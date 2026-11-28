@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "markallen00777@gmail.com",
+  "features": "PlyrPulse.io is a next-generation Gaming CRM that helps game studios and publishers understand, engage, and retain players through powerful analytics, automated campaigns, and personalized player experiences.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PlyrPulse",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2020-01-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-10T08:15:15.751Z",
+  "submission_ref": "c0d48370-acef-11f1-9436-a774188897a3",
+  "title": "PlyrPulse",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://plyrpulse.io/"
+}
