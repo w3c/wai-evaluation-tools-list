@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://flowproof.nl/en/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Flowproof runs the axe-core WCAG 2.2 A/AA rules on the server-rendered HTML of a single page; content rendered only by JavaScript is not evaluated, and this is reported to the user. Colour contrast is not tested automatically and is flagged for manual review. The tool does not claim conformance; reports state that automated checks find only part of the issues.",
+  "contact": "jelle@peelmedia.nl",
+  "features": "Flowproof tests a web page against WCAG 2.2 level A and AA using axe-core and reports each issue with its success criterion, level and impact. It also checks for an accessibility statement link, skip link and autoplaying audio. Colour contrast is flagged for manual review. Part of a wider website audit, in English, Dutch, German and Spanish.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "nl",
+    "es",
+    "de"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Peelmedia",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-20T19:02:48.161Z",
+  "submission_ref": "d731cd10-ccb8-11f1-91b9-81e464258dae",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Flowproof",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://flowproof.nl/en/wcag-checker"
+}
