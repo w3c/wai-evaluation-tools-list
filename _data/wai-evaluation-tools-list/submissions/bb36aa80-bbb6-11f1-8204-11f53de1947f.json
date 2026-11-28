@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "impureapi@gmail.com",
+  "desktop": [
+    "iOS",
+    "Windows",
+    "Linux"
+  ],
+  "features": "Kling 4 AI is a powerful AI video generation tool for creating high-quality videos from text and images. The Kling 4 video generator supports text-to-video, image-to-video, cinematic motion, and consistent characters. Create professional Kling 4 AI video content for social media, ads, marketing, and creative projects.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SEEK AONVAST LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T03:34:52.456Z",
+  "submission_ref": "bb36aa80-bbb6-11f1-8204-11f53de1947f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "kling 4.0",
+  "type": [
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.seedance.ai/kling-4-0-ai"
+}
