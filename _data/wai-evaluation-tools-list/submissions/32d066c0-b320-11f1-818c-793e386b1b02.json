@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "yash@visionably.ai",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Open-source PDF accessibility checker for the terminal and browser. Tests PDF/UA-1 and maps every rule to WCAG 2.2, then checks what validators cannot: whether tags match the page and whether alternative text and headers say anything. Marks each finding on the page with a fix. Runs locally; nothing is uploaded.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Visionably Pvt Ltd",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-18T05:17:09.804Z",
+  "submission_ref": "32d066c0-b320-11f1-818c-793e386b1b02",
+  "technology": [
+    "PDF"
+  ],
+  "title": "outloud",
+  "type": [
+    "Desktop application",
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/visionably/outloud"
+}
