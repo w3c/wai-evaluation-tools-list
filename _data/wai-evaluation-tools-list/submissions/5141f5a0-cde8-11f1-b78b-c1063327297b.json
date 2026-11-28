@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@wcagpulse.com",
+  "features": "WCAG Pulse scans websites against WCAG 2.0, 2.1 and 2.2 (Level A and AA) using axe-core. It crawls multiple pages per scan, gives each scan an accessibility score, groups issues by success criterion and severity with fix guidance, rescans on a schedule to track progress, and exports PDF and CSV reports. Free plan for one site.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WCAG Pulse",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T07:15:10.458Z",
+  "submission_ref": "5141f5a0-cde8-11f1-b78b-c1063327297b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WCAG Pulse",
+  "type": [
+    "Bookmarklet",
+    "Online tool"
+  ],
+  "website": "https://wcagpulse.com"
+}
