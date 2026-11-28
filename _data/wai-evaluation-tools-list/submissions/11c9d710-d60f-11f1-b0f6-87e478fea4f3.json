@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@onlinenexus.org",
+  "features": "OnlineNexus scans your Shopify or WooCommerce store's key pages with axe-core and explains each accessibility problem in plain English, with step-by-step fixes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "OnlineNexus",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-01T16:12:43.649Z",
+  "submission_ref": "11c9d710-d60f-11f1-b0f6-87e478fea4f3",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "OnlineNexus Accessibility Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://onlinenexus.org/accessibility/"
+}
