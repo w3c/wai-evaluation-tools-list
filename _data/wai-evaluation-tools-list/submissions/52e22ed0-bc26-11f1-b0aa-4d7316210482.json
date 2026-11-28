@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "gemel@myuxacademy.com",
+  "features": "Free online WCAG 2.2 colour contrast checker. Test one foreground/background pair or analyse colour declarations from pasted CSS, HTML or a live URL. Shows AA/AAA results, a colour-pair matrix and nearby passing-colour suggestions. Checks declared colours, not the final rendered page.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "UX Academy",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T16:53:41.053Z",
+  "submission_ref": "52e22ed0-bc26-11f1-b0aa-4d7316210482",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "UX Academy Colour Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://myuxacademy.com/tools/contrast-checker/"
+}
