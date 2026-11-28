@@ -1,0 +1,59 @@
+{
+  "a11yloc": "https://noxee.app/en/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Polish company. The tool also includes a readability analysis of page texts (FOG index) and plain language rewriting.",
+  "contact": "hello@noxee.app",
+  "desktop": [
+    "Android",
+    "iOS"
+  ],
+  "features": "noxee is an online WCAG 2.1 A and AA accessibility checker. Enter a URL or paste HTML code and get a report of errors and warnings with their location in the code, \"How to fix\" hints and a PDF export. It can test pages behind a login, re-run audits and connect to your workflow through a REST API. Available in English, Polish and German.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "pl",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "vantoo",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-03T21:10:52.634Z",
+  "submission_ref": "0d47d3a0-d7cb-11f1-b2a1-2913bc7c53e0",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "noxee",
+  "type": [
+    "Mobile application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://noxee.app/en/wcag-audit/"
+}
