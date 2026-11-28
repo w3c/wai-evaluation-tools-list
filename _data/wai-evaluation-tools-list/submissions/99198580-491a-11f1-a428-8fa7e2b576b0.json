@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "contact@ilovetoolhub.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "A comprehensive tool to validate HTML code against WCAG (Web Content Accessibility Guidelines) to ensure accessibility for all users. It helps developers and designers identify accessibility issues and provides recommendations for fixing them.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "iLoveToolHub",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-06T07:10:01.176Z",
+  "submission_ref": "99198580-491a-11f1-a428-8fa7e2b576b0",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "HTML WCAG Validator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.ilovetoolhub.com/html-wcag-validator"
+}
