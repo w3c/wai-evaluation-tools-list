@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "kontakt@site-check.de",
+  "features": "site-check checks websites against WCAG 2.1 AA. It crawls all pages, explains each issue in plain language, lists what needs a manual check and creates PDF reports with an accessibility score. Online tool with plugins for WordPress, TYPO3 and Grav. German interface, hosted in the EU.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SITE-WORKS AG",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-14T13:59:46.221Z",
+  "submission_ref": "836f6dd0-c7d7-11f1-8a0c-fd42e9f56217",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "site-check",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://site-check.de"
+}
