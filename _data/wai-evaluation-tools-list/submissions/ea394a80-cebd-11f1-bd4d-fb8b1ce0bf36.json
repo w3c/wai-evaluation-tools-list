@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "Social media is a major source of cognitive load, yet there are almost no checkers for social media posts. This tool is free and open to everyone, in English and German, to help make posts more accessible.",
+  "contact": "hallo@socialability.de",
+  "features": "Free online checker for social media posts. Checks text in images for WCAG contrast and size, plus all caps, harsh colors, busyness, hashtags, emojis and fancy fonts. Gives a score and tips. Images are not uploaded.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Socialability",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T08:44:09.896Z",
+  "submission_ref": "ea394a80-cebd-11f1-bd4d-fb8b1ce0bf36",
+  "title": "Socialability Post Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://socialability.de/en/post-check/"
+}
