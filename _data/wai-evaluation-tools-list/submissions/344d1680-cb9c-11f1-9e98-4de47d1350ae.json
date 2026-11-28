@@ -1,0 +1,57 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "Uses axe-core 4.12.1 rules plus its own checks. A clean report means no automatically detectable failures in the states and passes that ran; it does not test with screen readers and is not a conformance claim. It also ships an agent skill; the CLI is the evaluation tool being submitted.",
+  "contact": "chanmeng.dev@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Node CLI that audits pages in Chromium with axe-core across five passes (default, dark mode, forced colors, reduced motion, 320px viewport) and built interaction states. Adds its own focus-trap, keyboard and focus-visible checks, diffs runs as fixed/new/remaining, and lists what still needs manual testing. Not a conformance claim.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "MIT open source"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Chan Meng (independent open-source project)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-19T09:05:17.800Z",
+  "submission_ref": "344d1680-cb9c-11f1-9e98-4de47d1350ae",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "a11y-loop",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/ChanMeng666/a11y-loop"
+}
