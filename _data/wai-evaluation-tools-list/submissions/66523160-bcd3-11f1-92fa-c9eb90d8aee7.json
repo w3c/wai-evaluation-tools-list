@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://rampcheck.eu/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@rampcheck.eu",
+  "features": "Online accessibility audit for the European Accessibility Act, BFSG and WCAG 2.2 AA. Free 3-page scan, no sign-up. Paid audit of up to 50 pages: every issue explained in plain language (who it affects, why, how to fix), prioritised, with effort estimate and a draft accessibility statement. English and German. Built on axe-core.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Holmbridge Labs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-30T13:32:36.598Z",
+  "submission_ref": "66523160-bcd3-11f1-92fa-c9eb90d8aee7",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "RampCheck",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://rampcheck.eu/"
+}
