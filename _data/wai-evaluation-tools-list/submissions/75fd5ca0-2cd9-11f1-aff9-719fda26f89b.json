@@ -1,0 +1,53 @@
+{
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "PlanningTel Accessibility Checker is a free online tool that checks websites against WCAG 2.1 guidelines. Users paste a URL and receive an instant score, grade, and list of specific accessibility issues found. A detailed PDF report with prioritised fix recommendations is available for download.",
+  "contact": "hello@planningtel.co.uk",
+  "features": "Free online WCAG 2.1 accessibility checker. Paste any URL for an instant accessibility score (0-100) with grade, issue count, and specific WCAG violations. Checks 17 criteria including colour contrast, alt text, ARIA, headings, forms, and more. Detailed PDF report with fix recommendations available.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "PlanningTel",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-31T08:13:12.426Z",
+  "submission_ref": "75fd5ca0-2cd9-11f1-aff9-719fda26f89b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "PlanningTel Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://planningtel.co.uk/shop/accessibility/"
+}
