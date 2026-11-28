@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "Experimental v0.1.0. The tool statically evaluates SVG source files only. It reports potential accessibility metadata and reference issues; it does not claim WCAG conformance, implement ACT Rules, render SVGs, or replace browser, screen-reader, keyboard, visual, or manual testing. SVG is not available among the form's File type choices, so that optional field is intentionally left blank.",
+  "contact": "hello@edilec.com",
+  "desktop": [
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Open-source Node.js command-line tool for automated static checks of SVG source files. It reports missing or empty titles and descriptions, broken ARIA references, invalid viewBox and dimensions, duplicate IDs, unsafe references, active content, and conservative text-overflow warnings.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Edilec Private Limited",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-04T10:35:17.573Z",
+  "submission_ref": "523a4f50-a84c-11f1-a79a-4f21dba7ed4d",
+  "title": "SVG Semantic Layout Auditor",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://github.com/edilec/svg-semantic-layout-auditor"
+}
