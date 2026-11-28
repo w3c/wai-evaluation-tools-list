@@ -1,0 +1,53 @@
+{
+  "a11yloc": "https://barrierewerk.de/barrierefreiheit.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "cf-turnstile-response": "1.NQt1oA9YPKPzYjS-IBVdQGEgYegVMAuwJIU1R0X8YdHiZfMT3DDcQLrUjDvnx7CVUVusDARL4DbL7NCG-T6CUhU1j-s6ikSob9qReYfYnyscMNSvEgF9VmFiL-1jceRxqWqpNKpIPmL3Vl9B_E-gtV_1Ydk1doP_5qZxL_Gn7175QEwFNb_1kKVG0T95oEJEiLCHII7AYtpaz1aOFtNtDg7NXtB1XRk2ncL6gTPn2coZtsYZOcCIl9izz0zLJCbVEIJnX0mBrKztV94cBKwtgy-j84VI27iXt_rQWD9kVb7nsS3xFJg22xtNmiyxsF7HFkHgPNZOwQovgkWPCceAv06Qgmii8IWGt_hAuFJYa7ShiBjPeiQY0u8Bnwsg-R10e9Tnppk3G-dDUfm2mucnjhVD1pU0lbMvGTekf3pp5VEXJWK2yTjePY-WJgz0b0Tm--goGYb7CJ26qNX1advGcWfgPx-4rWHT2_LjEb3bNd3SS41TcJtezk1qWiTZct4XHTCjTvHsDgdME96kVimGdTMZ5fFLU8uYJ6DXgKzrcSkE7oubn9S9KbjuF_vBJftsGCF0yH0AsjkE8hSGxxBH6Y68dRJhlI21tyZ0FvjlncE.uD5g3xPp3BnbYA11rHsOKg.968eb2dc5fcc5a4f201da13669aa18f92edfd3bdcef23ae581c93bec3049d8bb",
+  "comments": "Barrierewerk is a hosted online tool — nothing is installed locally, which is why the\r\noperating system fields are left empty. The free scan needs no account, so you can test\r\nit directly at https://barrierewerk.de.\r\n\r\nOf the 56 WCAG 2.1/2.2 success criteria covered, 11 are evaluated automatically in a\r\nheadless Chromium browser; for the other 45 the tool produces a guided manual checklist.\r\nInterface and reports are German only.",
+  "contact": "info@pepelabs.de",
+  "features": "Barrierewerk checks websites against WCAG 2.1 and 2.2 (EN 301 549, German BFSG). A real browser renders up to five pages: 11 success criteria are tested automatically, the remaining 45 are presented as a guided manual checklist with plain-language instructions for checking and fixing. Free score report; detailed findings and PDF audit are paid.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "de",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "pepelabs",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-10T06:43:06.902Z",
+  "submission_ref": "be92db60-9486-11f1-8e73-4921e6d5d015",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Barrierewerk",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://barrierewerk.de"
+}
