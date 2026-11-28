@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://wcagsafe.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "WCAGsafe runs axe-core, the same engine as Google Lighthouse, plus six additional content checks (alt-text quality, link-text quality, heading order) that axe does not cover. Results are translated from WCAG technique codes into plain-English explanations for non-technical site owners. The Chrome extension runs entirely client-side, so it can test staging and authenticated pages without sending page content anywhere. WCAGsafe is a testing tool only — it does not inject, overlay, or modify page content.",
+  "contact": "support@wcagsafe.com",
+  "features": "Scans websites against WCAG 2.0 and 2.1 Level A/AA using axe-core plus extra checks for alt-text and link-text quality. Returns a 0–100 score, severity breakdown, and plain-English explanations with fix guidance per violation. Crawls whole sites or single pages; a free Chrome extension tests password-protected pages locally.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "WCAGsafe",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-04-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-24T15:25:41.038Z",
+  "submission_ref": "10e0d4e0-9fd0-11f1-9503-67f64faec5a2",
+  "technology": [
+    "HTML / XHTML",
+    "PDF"
+  ],
+  "title": "WCAGsafe",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://wcagsafe.com"
+}
