@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "Triple 3D makes it easier to turn images, sketches, and text prompts into editable 3D models without complicated software or a steep learning curve.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:39:44.217Z",
+  "submission_ref": "907c9c90-c5ee-11f1-8644-9bd54c1ee880",
+  "title": "Triple 3D",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://triple3d.ai/"
+}
