@@ -1,0 +1,66 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "TrueConform is deliberately audit-first: it reports what automated testing can verify and explicitly does not claim to make sites compliant. It never injects overlays or widgets into evaluated sites.",
+  "contact": "support@pilotmain.com",
+  "features": "Honest, audit-first accessibility checker built on axe-core. Scans single pages or whole sites against WCAG 2.1/2.2 A/AA, grades them A–F, and explains every issue in plain language with fix guidance — in 8 languages. Includes monitoring, PDF compliance reports and an EAA/EN 301 549 accessibility statement generator. No overlay.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "it",
+    "nl",
+    "pl",
+    "pt"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TrueConform",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-05",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-05T05:19:21.679Z",
+  "submission_ref": "146fadf0-7831-11f1-8d16-d5053843be7e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TrueConform",
+  "type": [
+    "Browser plugin",
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://trueconform.com"
+}
