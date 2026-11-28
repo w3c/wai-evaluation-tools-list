@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://clearaccessibility.co.uk/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "UK-focused, plain-English reports for disability and inclusion leads.",
+  "contact": "hello@clearaccessibility.co.uk",
+  "features": "UK online checker that tests a website’s homepage and up to 5 linked pages against WCAG 2.2 AA using axe-core. Free preview with a score and issue counts, no sign-up. Optional paid plain-English report for non-technical staff, with priorities and fixes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Clear Accessibility",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-04T10:38:13.124Z",
+  "submission_ref": "d6100440-d83b-11f1-be98-9be1f63b24dd",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Clear Accessibility",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://clear.accessibility.co.uk"
+}
