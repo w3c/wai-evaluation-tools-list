@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@myclawn.com",
+  "features": "Free check: one page in a real browser against the machine-decidable WCAG 2.2 A and AA rules, showing what fails, where, and corrected code. Paid audit: up to 10 pages (25 on Pro) at desktop and phone width with keyboard walk, zoom and contrast checks, an issue sheet and a dated monthly retest. No overlay widget.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "20Vision GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T11:42:48.324Z",
+  "submission_ref": "d5c69c40-eb20-11f1-a6e7-fd729e622014",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "MyClawn WCAG Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcag.myclawn.com/"
+}
