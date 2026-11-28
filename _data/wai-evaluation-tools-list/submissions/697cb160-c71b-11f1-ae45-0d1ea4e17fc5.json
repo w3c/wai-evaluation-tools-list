@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Same engine as our Confluence Cloud app, which we are submitting as a separate entry.",
+  "contact": "partners@clearwren.com",
+  "features": "Free in-browser checker for one Confluence page. Paste a page (or its HTML) and get a score and findings against 15 WCAG 2.2 success criteria (32 checks), each with the criterion and the fix. Nothing is uploaded. Items that need human judgement are marked for review. Same checks as the Clearwren app for Confluence Cloud.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Clearwren",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-13T15:33:17.302Z",
+  "submission_ref": "697cb160-c71b-11f1-ae45-0d1ea4e17fc5",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Clearwren Free Confluence Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://clearwren.com/checker.html"
+}
