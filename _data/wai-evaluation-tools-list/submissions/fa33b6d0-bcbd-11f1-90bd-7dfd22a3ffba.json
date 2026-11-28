@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "aminumukhtarkurami@gmail.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "An accessibility evaluation tool that checks websites for common accessibility issues based on WCAG guidelines. It identifies problems affecting users with disabilities, such as missing alternative text, poor colour contrast, keyboard accessibility issues, and improper HTML structure, and provides guidance for improving accessibility.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Aminu Mukhtar Kurami",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2025-08-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-30T10:59:15.774Z",
+  "submission_ref": "fa33b6d0-bcbd-11f1-90bd-7dfd22a3ffba",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "General Muhammadu Buhari",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://generalmuhammadubuhari.com"
+}
