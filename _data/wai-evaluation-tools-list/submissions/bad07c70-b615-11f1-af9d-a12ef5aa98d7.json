@@ -1,0 +1,41 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "Accessibility Fixer is the accessibility-focused WooCommerce tooling from AmazingPlugins. It repairs real markup issues rather than using an overlay. Order Fixer is also available; Smart Bulk Editor is coming soon. Free, no bait-and-switch.",
+  "contact": "info@amazingplugins.com",
+  "features": "Accessibility Fixer repairs real WooCommerce markup issues to improve accessibility; it is not an overlay.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "AmazingPlugins",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-21T23:39:46.999Z",
+  "submission_ref": "bad07c70-b615-11f1-af9d-a12ef5aa98d7",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AmazingPlugins",
+  "type": [
+    "CMS plugin"
+  ],
+  "website": "https://amazingplugins.com"
+}
