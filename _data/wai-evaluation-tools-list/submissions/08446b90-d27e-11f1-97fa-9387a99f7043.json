@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://glimscope.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Glimscope is not affiliated with or endorsed by the W3C or Deque Systems. It uses the open-source axe-core engine. It is monitoring software, not an overlay: it does not change site content or code. Automated tests find only some accessibility issues; manual testing is still required. Questions: support@glimscope.com",
+  "contact": "support@glimscope.com",
+  "features": "Glimscope monitors websites using scheduled automated checks with the open-source axe-core engine (WCAG 2.0, 2.1 and 2.2 A/AA). Issues by severity, common-issue fix guidance, dated HTML/PDF reports. Automated tests find only some accessibility issues; manual testing is still required. Not legal advice.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Glimscope",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-28T03:16:57.161Z",
+  "submission_ref": "08446b90-d27e-11f1-97fa-9387a99f7043",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Glimscope",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://glimscope.com"
+}
