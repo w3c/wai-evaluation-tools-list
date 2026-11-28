@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "anup@codemaya.com",
+  "features": "\"AIPost.Social is an AI-powered social media content automation platform built for businesses, creators, agencies, and marketers who need consistent content across multiple channels. The platform generates social media copy, captions, custom images, videos, topic ideas, and scheduled posts for LinkedIn, Instagram, Facebook, TikTok, Pinterest, and m",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Codemaya",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-08-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-21T05:45:18.710Z",
+  "submission_ref": "7dea0160-9d23-11f1-aa4a-2b95f89c0f7e",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "aipost.social",
+  "type": [
+    "Online tool"
+  ],
+  "website": "http://www.aipost.social"
+}
