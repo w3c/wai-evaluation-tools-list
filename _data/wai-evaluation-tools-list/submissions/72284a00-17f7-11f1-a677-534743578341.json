@@ -1,0 +1,61 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "nate@mailmoxie.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Other"
+  ],
+  "features": "An auditing suite specifically for email deliverability and accessibility. It provides automated WCAG 2.1 AA compliance checks for email HTML, focusing on color contrast, semantic markup, and Dark Mode stability.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "MailMoxie",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2025-06-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-04T18:24:56.480Z",
+  "submission_ref": "72284a00-17f7-11f1-a677-534743578341",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "MailMoxie",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.mailmoxie.com/"
+}
