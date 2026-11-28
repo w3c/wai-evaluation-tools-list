@@ -1,0 +1,50 @@
+{
+  "a11yloc": "https://www.webability.io/statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "support@webability.io",
+  "features": "Free single-page URL scan; no account needed. axe-core, HTML_CodeSniffer, and about 14 WebAbility detectors check WCAG 2.2 Level AA. Results map to ADA, Section 508, and EN 301 549. A deduplicated list shows affected elements and criteria, and separates confirmed issues from items for human review. Includes a score and optional PDF by email.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WebAbility.io",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-16T17:33:15.543Z",
+  "submission_ref": "ab365a70-c987-11f1-b259-a1edd8f3aca1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "WebAbility Website Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.webability.io/website-accessibility-checker"
+}
