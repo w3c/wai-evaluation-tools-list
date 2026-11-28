@@ -1,0 +1,46 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "t.javed@cloud.mountainise.com",
+  "desktop": [
+    "Windows"
+  ],
+  "features": "I want to test my website for Compliance certificate",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "mountainise",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-25T13:18:49.887Z",
+  "submission_ref": "82b11af0-a087-11f1-9db5-f1a359d7da65",
+  "title": "WCAG",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://mountainise.com/"
+}
