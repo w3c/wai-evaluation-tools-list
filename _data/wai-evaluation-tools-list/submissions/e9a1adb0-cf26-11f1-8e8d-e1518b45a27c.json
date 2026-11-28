@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://prohoster.info",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "foundercentralhq@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows",
+    "Linux"
+  ],
+  "features": "ProHoster provides NVMe VPS, shared hosting, dedicated servers, and VPN for developers and businesses. Features include DDoS protection, root access, scalable hardware, instant deployment, and 24/7 support.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    "on",
+    "2.5/ month"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ProHoster",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T21:15:46.059Z",
+  "submission_ref": "e9a1adb0-cf26-11f1-8e8d-e1518b45a27c",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "ProHoster",
+  "type": [
+    "Browser plugin",
+    "Online tool"
+  ],
+  "website": "https://prohoster.info"
+}
