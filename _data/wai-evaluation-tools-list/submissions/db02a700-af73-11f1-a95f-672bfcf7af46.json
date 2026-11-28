@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://barrierepruefung.de/e/barrierepruefungde-pte17u",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "info@barrierepruefung.de",
+  "features": "Automatically tests websites for accessibility against WCAG 2.1 AA. It detects common barriers, documents findings with locations and screenshots, guides manual checks, and generates accessibility statements based on test results and your answers.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application",
+    "Source code"
+  ],
+  "provider": "Lukas Bock",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-07",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-13T13:05:55.569Z",
+  "submission_ref": "db02a700-af73-11f1-a95f-672bfcf7af46",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Barrierepruefung.de — Web Accessibility Checker",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://barrierepruefung.de"
+}
