@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://dueeffort.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "The scan runs axe-core in a headless Chrome browser against the live page. Automated checks find only some accessibility problems, and the results page says so. A paid Letter Response Kit (up to 25 pages) is a separate product and isn't what's being listed here.",
+  "contact": "support@dueeffort.com",
+  "features": "Free online scan of one web page in a real browser using the open-source axe-core engine. Checks the WCAG 2.0, 2.1 and 2.2 Level A and AA rules a computer can test, explains each issue in plain English with fix steps for Shopify, WordPress, Wix and Squarespace, flags overlay widgets, and gives a dated PDF and a share link. No signup.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Due Effort",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T23:15:47.970Z",
+  "submission_ref": "83e45620-ce6e-11f1-825b-25e99518ab2e",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Due Effort Free Website Accessibility Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dueeffort.com/"
+}
