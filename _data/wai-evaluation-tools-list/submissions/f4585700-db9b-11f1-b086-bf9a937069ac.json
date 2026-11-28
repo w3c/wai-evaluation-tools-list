@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "info@axlescan.com",
+  "features": "axle scans web pages for WCAG 2.0, 2.1 and 2.2 A/AA violations using axe-core in a real browser and reports each issue with its impact and the affected elements. Free web scanner, CLI/CI runner, VS Code extension and WordPress plugin; optional paid AI-suggested code fixes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "axle",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-08T17:43:49.104Z",
+  "submission_ref": "f4585700-db9b-11f1-b086-bf9a937069ac",
+  "title": "axle",
+  "type": [
+    "Online tool",
+    "Command-line / CI",
+    "Programming tool plugin / IDE",
+    "CMS plugin"
+  ],
+  "website": "https://axlescan.com"
+}
