@@ -1,0 +1,51 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "This tool is one component of Cluesia, a broader EU Accessibility Act (EAA) and Germany's BFSG compliance platform for e-commerce websites (https://cluesia.com). Cluesia also offers a paid, full-site WCAG 2.1 AA / EN 301 549 automated scan and monitoring subscription.",
+  "contact": "support@ignionapps.com",
+  "features": "Free colour contrast checker. Enter a text colour and background colour to get the WCAG 2.1 contrast ratio, checked against AA and AAA thresholds for normal text, large text, and UI components/graphics (criterion 1.4.3). No signup required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "",
+    "nl",
+    "fr",
+    "it",
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Cluesia (Ignion Apps)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-25",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-15T11:47:02.400Z",
+  "submission_ref": "2aa60800-b0fb-11f1-a7a4-8ffc38a53aa0",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Cluesia Colour Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://cluesia.com/en/tools/contrast-checker"
+}
