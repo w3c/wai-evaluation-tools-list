@@ -1,0 +1,45 @@
+{
+  "a11yloc": "https://includora.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "The free scan needs neither an account nor an email address. Automated findings are deliberately separated from human-review items; the tool does not issue a conformance certificate or legal verdict.",
+  "contact": "support@includora.com",
+  "features": "Free, no-account browser-based accessibility scan for EU-facing online shops. It checks up to four public buying-path pages with automated WCAG rules, separates confirmed findings from items needing human review, and maps results to relevant EAA and EN 301 549 references. It does not certify compliance.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GLOBYTE LTD",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-28T12:11:46.579Z",
+  "submission_ref": "810c0630-8a7d-11f1-9036-b5314e7c2022",
+  "title": "Includora",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://includora.com/scan"
+}
