@@ -1,0 +1,63 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@accessilens-ai.com",
+  "features": "AccessiLens AI is the only accessibility platform built for GCC Enterprise. It features a \"Zero-Conflict\" Shadow DOM widget, Native Arabic Engine, local data residency (PDPL), and a 2-Layer \"Zero PII Retention\" defense that securely redacts data before hitting our lightning-fast Hybrid AI.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ar"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Konspot FZCO",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-04T08:43:31.164Z",
+  "submission_ref": "b4e581c0-a83c-11f1-8564-65fd860a7249",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessilens AI",
+  "type": [
+    "Desktop application",
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://accessilens-ai.com"
+}
