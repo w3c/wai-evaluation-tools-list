@@ -1,0 +1,62 @@
+{
+  "a11yloc": "https://accessa-eaa.vercel.app/accessibilita.html#english",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge"
+  ],
+  "comments": "Free Chrome extension (also installable on Edge; Firefox coming). Uses axe-core for automated checks and adds plain-language explanations in English and Italian. Chrome Web Store: https://chromewebstore.google.com/detail/hmlaeliabdlcegndhalcafhcmpidljhk",
+  "contact": "accessa.eaa@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Browser extension that checks the open page against WCAG 2.2 A/AA and explains every issue in plain English or Italian: who is affected, how to fix it and where it is, with on-page highlighting. Built for the European Accessibility Act. Runs locally in the browser, no data sent. Based on axe-core.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "it"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Accessa",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T08:16:29.872Z",
+  "submission_ref": "e25bfb00-cdf0-11f1-b76f-c70a74ec6b89",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Accessa EAA",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://accessa-eaa.vercel.app/"
+}
