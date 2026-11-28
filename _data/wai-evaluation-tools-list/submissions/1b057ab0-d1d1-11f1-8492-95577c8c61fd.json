@@ -1,0 +1,65 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "A must-have simple tool for anyone who is working with colors, shades and different screen sizes.",
+  "contact": "support@dcalculator.org",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "The Online Design Tool to find attractive color schemes, gradients, and shades, your public IP address, determine screen sizes, convert number systems, perform bitwise operations, and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "The Online Calculator",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-09-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-27T06:39:05.691Z",
+  "submission_ref": "1b057ab0-d1d1-11f1-8492-95577c8c61fd",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Designer Tools",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dcalculator.org/digital.html"
+}
