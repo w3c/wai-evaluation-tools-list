@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "umesh@zeniscan.net",
+  "features": "What Zeniscan does:\r\n- Scans & monitors your website against WCAG 2.0, 2.1 and 2.2 (A and AA)\r\n- Explains each issue in plain English, around ADA (US), Equality Act (UK) etc.\r\n- Ranks fixes by impact and provides live inspector\r\n- Free AI agent readiness check to check AI agent discoverability and usage.  Try it free without any card or signup.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Creative Spark Solutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-24",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T08:28:54.673Z",
+  "submission_ref": "bf945810-eb05-11f1-8c0f-952922c06a56",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Zeniscan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.zeniscan.net"
+}
