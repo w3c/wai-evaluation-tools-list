@@ -1,0 +1,54 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Safari"
+  ],
+  "comments": "",
+  "contact": "13355531295@163.com",
+  "desktop": [
+    "iOS"
+  ],
+  "features": "An evaluation of the National Theatre Live Find-a-Venue portal checking WCAG compliance, semantic structure, and accessible filtering mechanisms.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "National Theatre",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-19T16:29:36.087Z",
+  "submission_ref": "45e0de70-cbda-11f1-ac80-b70853b55486",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "National Theatre Live Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.ntlive.com/find-a-venue/"
+}
