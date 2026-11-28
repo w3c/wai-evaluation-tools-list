@@ -1,0 +1,67 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "twuse88@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS"
+  ],
+  "features": "PDF status check",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "fsb",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-08-14",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-03T09:04:53.282Z",
+  "submission_ref": "86af7020-a776-11f1-922d-1d67ef51badb",
+  "technology": [
+    "PDF"
+  ],
+  "title": "pdf checker",
+  "type": [
+    "Browser plugin",
+    "Bookmarklet",
+    "Desktop application",
+    "Mobile application",
+    "Online tool"
+  ],
+  "website": "https://www.iat.gov.hk/files/Determination%20(IAT-25-2023).pdf"
+}
