@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "Runs inside Google Docs and Google Slides as a Google Workspace Marketplace add-on: https://workspace.google.com/marketplace/app/kayabyte_accessibility_checker/1087977694142 . Free plan with limited functionality; Pro is a subscription.",
+  "contact": "support@kayabyte.dev",
+  "features": "Add-on for Google Docs and Google Slides. Checks a document or deck against WCAG 2.1 AA (alt text, headings, colour contrast, lists, links, tables, slide titles and reading order, and more), explains each issue, fixes many with one click, and exports Google Docs as tagged PDFs prepared for PDF/UA.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Kayabyte",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T12:04:08.569Z",
+  "submission_ref": "d9fd7e90-ced9-11f1-a33d-afa5a26c9905",
+  "title": "Kayabyte Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://kayabyte.dev/workspace/accessibility-checker/"
+}
