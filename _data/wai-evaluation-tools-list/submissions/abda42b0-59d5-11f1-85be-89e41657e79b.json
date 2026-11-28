@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://dubbot.com/accessibility-policy.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "blaine.herman@dubbot.com",
+  "features": "DubBot helps you create inclusive digital experiences with automated testing for accessibility, PDFs, broken links, spelling, system uptime, image inventory, and governance rules. DubBot checks for compliance with WCAG 2.1 and 2.2 A, AA, and AAA standards, all backed by CPACC-certified human support.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "DubBot",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2018-03-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-05-27T14:09:27.131Z",
+  "submission_ref": "abda42b0-59d5-11f1-85be-89e41657e79b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "PDF"
+  ],
+  "title": "DubBot",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dubbot.com/"
+}
