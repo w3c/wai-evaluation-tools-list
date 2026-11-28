@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "janni.hares@decivo.de",
+  "features": "Free external check for websites and web apps, built with AI-generated apps in mind. It loads the page the way a browser does and checks accessibility alongside security, privacy and architecture. No signup, no code access. Results appear in a few minutes in the browser, as a plan with evidence, relevance, urgency and next step per finding.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "decivo UG (haftungsbeschränkt)",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-03T08:58:30.366Z",
+  "submission_ref": "bda5d7e0-d764-11f1-b1b9-f32b4a98d4cc",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "decivo Scan",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.decivo.de/en/scan"
+}
