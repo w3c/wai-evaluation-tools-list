@@ -1,0 +1,56 @@
+{
+  "a11yloc": "https://www.a11ysolutions.com/accessibility-statement/",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "a11ycontact@a11ysolutions.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Automated accessibility testing tool that analyzes web pages for WCAG issues, detects and groups related findings, highlights impacted elements, and generates actionable reports to support efficient remediation.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "A11ySolutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-04",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-04-07T16:14:41.505Z",
+  "submission_ref": "e21d3d10-329c-11f1-b3f6-9fce09521bf8",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "A11yDetector",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/a11ydetector/anabcaiamnpgmpaogpifcnmdhmfpdgdn"
+}
