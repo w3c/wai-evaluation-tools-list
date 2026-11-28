@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://aiwebpageseo.com/accessibility-statement.html",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "advice@aiwebpageseo.com",
+  "features": "Tests rendered web pages against all 55 WCAG 2.2 Level A and AA success criteria using axe-core and ACT-related rules. Checks the page plus two more from the same site for consistent navigation and help. Each criterion is marked failed, warning, passed, needs a person to check, or not checked, with a score out of 100.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Web Page SEO",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T13:31:21.382Z",
+  "submission_ref": "ffdc6460-eb2f-11f1-a432-63c3279dca84",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Website Accessibility Audit",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://aiwebpageseo.com/accessibility-audit.html"
+}
