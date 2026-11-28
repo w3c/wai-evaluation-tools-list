@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@tabtocart.com",
+  "features": "Automated accessibility monitoring for online stores. A real browser walks the purchase journey (home, product, add to cart, cart, checkout) with the keyboard only, runs axe-core WCAG 2.2 A/AA rules plus keyboard and focus checks, tracks regressions and sends alerts and reports. Stops before payment.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "TabToCart",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-27",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-28T21:07:17.384Z",
+  "submission_ref": "961c4880-bb80-11f1-bbfe-5b1a09657cac",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "TabToCart",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://tabtocart.com"
+}
