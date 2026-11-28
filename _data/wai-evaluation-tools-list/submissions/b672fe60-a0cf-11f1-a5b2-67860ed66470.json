@@ -1,0 +1,59 @@
+{
+  "a11yloc": "https://corpowid.ai/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "info@corpowid.com",
+  "features": "A Chrome browser extension that evaluates live web pages against WCAG 2.2 Level A, AA and AAA success criteria. Performs automated checks, supports guided manual testing, reports issues with their location in the page source, and generates exportable conformance reports.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Corpowid AI",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-06-20",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-25T21:55:40.486Z",
+  "submission_ref": "b672fe60-a0cf-11f1-a5b2-67860ed66470",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Corpowid Accessibility Toolkit for Chrome",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://corpowid.ai/accessibility-extension"
+}
