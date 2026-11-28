@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "This is a browser-based simulation and design-inspection tool, not a diagnostic or WCAG pass/fail test. Uploaded images are processed locally and are not sent to a server.",
+  "contact": "a281410455@gmail.com",
+  "features": "Browser-based image simulator for protan, deutan, tritan, and achromatopsia views. It offers Brettel, Viénot, and Machado methods, adjustable severity, grayscale difference maps, and downloadable PNGs. Images are processed locally.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Color Blindness Simulator",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-21",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-21T15:37:11.346Z",
+  "submission_ref": "4fe67920-b5d2-11f1-9396-457910b95054",
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorblindnesssimulator.com/"
+}
