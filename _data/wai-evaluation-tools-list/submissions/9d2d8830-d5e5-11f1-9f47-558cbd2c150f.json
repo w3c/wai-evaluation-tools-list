@@ -1,0 +1,55 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "support@corea11y.com",
+  "features": "CoreA11y for Squarespace audits Squarespace websites against WCAG 2.2 AA in the site owner's browser, at desktop and phone width. It combines axe-core with its own checks, explains each issue in plain language with Squarespace fix steps, highlights issues on the live page, scores the site and guides manual checks.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "CoreA11y",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-01T11:15:58.643Z",
+  "submission_ref": "9d2d8830-d5e5-11f1-9f47-558cbd2c150f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "CoreA11y for Squarespace",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://corea11y.com/squarespace/"
+}
