@@ -1,0 +1,60 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "Evaluates PDF documents locally (zero server uploads) against ISO 14289-1 (PDF/UA-1), ISO 14289-2 (PDF/UA-2), Matterhorn Protocol 1.1 checkpoints, and machine-verifiable WCAG 2.2 criteria using embedded veraPDF 1.30.4. Core single-PDF evaluation, canvas highlighting, and simulated screen reader preview are permanently free (plus an optional zero-upload browser pre-checker at https://lektpdf.com/).",
+  "contact": "support@lektpdf.com",
+  "desktop": [
+    "Windows",
+    "MacOS"
+  ],
+  "features": "Offline macOS and Windows evaluation tool for testing PDF documents against WCAG 2.2, ISO 14289-1 (PDF/UA-1), and ISO 14289-2 (PDF/UA-2) via embedded veraPDF. Provides clause-level diagnostics, canvas bounding-box inspection, tag tree and simulated screen reader order preview, batch folder audits, and CSV/JSON/HTML reports.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "Jianlan Zhiwei",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-11-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T12:57:27.826Z",
+  "submission_ref": "43c43810-eb2b-11f1-9771-3510992c132e",
+  "technology": [
+    "PDF"
+  ],
+  "title": "Lekt",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://lektpdf.com/"
+}
