@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "Automated checks only. The site states that automated testing finds only part of accessibility issues and that a manual audit is not included.",
+  "contact": "nidalyehia@accessmandate.com",
+  "features": "Free online check of a single web page, rendered in a real browser and tested with axe-core against automated WCAG 2.0, 2.1 and 2.2 A/AA rules. An assistant explains each issue in plain language. An optional paid report adds a printable PDF, a prioritised action plan and an accessibility statement draft. No account required.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "accessmandate.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T14:49:50.462Z",
+  "submission_ref": "05e7f9e0-bc15-11f1-8efb-a3174c96f6fe",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessMandate website analysis",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accessmandate.com/app/"
+}
