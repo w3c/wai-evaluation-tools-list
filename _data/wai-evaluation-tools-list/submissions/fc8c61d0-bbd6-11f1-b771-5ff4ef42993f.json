@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@softwares.deals",
+  "features": "Softwares.deals is a directory of verified coupon and promo codes for software and AI tools. We track discounts across 100+ SaaS and AI products, with per-tool coupon pages, test dates, category browsing, and deal guides, so shoppers can find a working code fast.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "Softwares Deals",
+  "publish-permission": "on",
+  "purpose": [
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-29T07:25:45.965Z",
+  "submission_ref": "fc8c61d0-bbd6-11f1-b771-5ff4ef42993f",
+  "title": "Softwares Deals",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://softwares.deals/"
+}
