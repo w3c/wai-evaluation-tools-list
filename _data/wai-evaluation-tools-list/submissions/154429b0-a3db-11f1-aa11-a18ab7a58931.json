@@ -1,0 +1,74 @@
+{
+  "a11yloc": "https://axively.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "Axively is an online accessibility audit service focused on EAA/EN 301 549 compliance for EU websites.",
+  "contact": "debrusk@email.cz",
+  "features": "Axively audits websites of up to 1,000 pages against WCAG 2.2 AA and EN 301 549, ranks violations by severity and explains their impact in plain language. It provides AI-powered fix suggestions with copy-paste code, a guided manual assessment, PDF reports, and generates accessibility statements for all 27 EU member states in 22 languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "EPUB Accessibility 1.1"
+  ],
+  "language": [
+    "en",
+    "bg",
+    "de",
+    "pl",
+    "el",
+    "lv",
+    "da",
+    "et",
+    "sk",
+    "hu",
+    "sl",
+    "es",
+    "sv",
+    "nl",
+    "fr",
+    "hr",
+    "it",
+    "lt",
+    "pt",
+    "ro",
+    "fi",
+    "cs"
+  ],
+  "license": [
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DEBRUSK s.r.o.",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-29T18:54:37.515Z",
+  "submission_ref": "154429b0-a3db-11f1-aa11-a18ab7a58931",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Axively",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://axively.com"
+}
