@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "Free and open source (MIT): https://github.com/maricastroc/access-check. Interface in English and Brazilian Portuguese. It reports problems and suggests code; it does not repair pages for visitors. To test a computed contrast fix it changes the page for a moment and undoes it right away.",
+  "contact": "marianacastrorc@gmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Chrome extension that audits the open tab and lists what to fix, where it is on the page and what to change, with code to copy. Check keyboard presses Tab through the page for real and draws the focus path. Uses axe-core for WCAG 2.0, 2.1 and 2.2 (A and AA), lists what needs a person apart, and runs in the browser with no account.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Mariana Castro",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T01:45:08.458Z",
+  "submission_ref": "8cb18ca0-ca95-11f1-9d85-057a4261754b",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessCheck",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/accesscheck/odhbdcnojfgjbkbfajidablhibhhckgf?utm_source=chatgpt.com"
+}
