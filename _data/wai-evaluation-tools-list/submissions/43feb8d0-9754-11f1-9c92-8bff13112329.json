@@ -1,0 +1,69 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera"
+  ],
+  "comments": "",
+  "contact": "merlijndegroot498@gmail.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Conforma scans websites against WCAG 2.2 Level AA using axe-core and reports every issue with a plain-language fix and a code example. It monitors sites on a schedule, alerts on regressions, tracks fixes over time, and generates an EN 301 549 accessibility statement. Built for EU agencies working to the European Accessibility Act.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Conforma",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-13T20:19:19.901Z",
+  "submission_ref": "43feb8d0-9754-11f1-9c92-8bff13112329",
+  "technology": [
+    "HTML / XHTML",
+    "PDF",
+    "Markdown"
+  ],
+  "title": "Conforma",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://conformahq.com"
+}
