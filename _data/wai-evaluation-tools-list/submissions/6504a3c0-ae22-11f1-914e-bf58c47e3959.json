@@ -1,0 +1,64 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Edge",
+    "Firefox"
+  ],
+  "comments": "",
+  "contact": "marco_antonio88_9@hotmail.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "FocusTrace is a local-first browser extension for accessibility auditing and runtime debugging. It analyzes pages and components, inspects keyboard focus, SPA navigation, dialogs and dynamic UI behavior, and reports evidence-based PASS, FAIL and REVIEW results aligned with WCAG 2.2.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "es"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Source code"
+  ],
+  "provider": "Indepent developer",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-11T20:50:17.212Z",
+  "submission_ref": "6504a3c0-ae22-11f1-914e-bf58c47e3959",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Focus Trace",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/focustrace/efmfklamjafbknbmadpfmlbhobnoffnn?authuser=0&hl=es"
+}
