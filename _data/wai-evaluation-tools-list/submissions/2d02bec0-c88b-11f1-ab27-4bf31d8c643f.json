@@ -1,0 +1,58 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Component",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome"
+  ],
+  "comments": "",
+  "contact": "liberogic_chrome_e@liberogic.jp",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Chrome extension that measures contrast from rendered pixels. Drag to select any area of the page and get the contrast ratio of what users actually see, including text on images, gradients, overlays and blend modes that code-based checkers and auto-scanners often miss. Faster than an eyedropper, and works regardless of how the CSS is written.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Liberogic Inc.",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-04-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-15T11:25:50.636Z",
+  "submission_ref": "2d02bec0-c88b-11f1-ab27-4bf31d8c643f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Area Contrast Checker",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://chromewebstore.google.com/detail/kjemflinmhiljcdnngbacdddbhappdkg"
+}
