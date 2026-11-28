@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "anguye88@charlotte.edu",
+  "features": "The tool for this website helps you reserve specific study rooms and places in the Atkins Library. You can change the seating capacity, floors, features, space type, and more filter features.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "University"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "UNCC",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2022-10-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-26T19:23:34.162Z",
+  "submission_ref": "a1263720-a183-11f1-a757-6d4aad48c23e",
+  "title": "Atkins Reservation",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://atkinsreservations.charlotte.edu/"
+}
