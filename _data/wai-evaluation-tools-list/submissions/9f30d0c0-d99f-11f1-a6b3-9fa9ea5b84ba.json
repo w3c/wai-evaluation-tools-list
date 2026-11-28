@@ -1,0 +1,57 @@
+{
+  "a11yloc": "https://dripdroplaundry.ae/",
+  "actrules": "https://dripdroplaundry.ae/",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox",
+    "Opera",
+    "Other"
+  ],
+  "comments": "Please register fast",
+  "contact": "adityachowdhuryblog@gmail.com",
+  "desktop": [
+    "Android",
+    "Windows"
+  ],
+  "features": "Laundry Booking tool it will help to find and book the nearest laundry near you and book with including the discounts",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DripDrop Laundry Service",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-08",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-06T05:05:01.900Z",
+  "submission_ref": "9f30d0c0-d99f-11f1-a6b3-9fa9ea5b84ba",
+  "technology": [
+    "HTML / XHTML",
+    "CSS",
+    "SMIL"
+  ],
+  "title": "Laundry Booking Tool",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://dripdroplaundry.ae/"
+}
