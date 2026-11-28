@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://barriertrace.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "spiro@barriertrace.com",
+  "features": "BarrierTrace supports evidence-based assessment against WCAG 2.2 Level AA, Australian Government web accessibility requirements, the July 2026 draft New Zealand Digital Accessibility Standard, and EN 301 549 V3.2.1 web requirements. Its versioned profiles help teams organise automated findings, manual testing and governance evidence. ",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "https://steadyember.co.nz",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-03",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-30T01:59:04.836Z",
+  "submission_ref": "60f8f440-a416-11f1-8812-a984a0df1915",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "BarrierTrace",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://barriertrace.com/"
+}
