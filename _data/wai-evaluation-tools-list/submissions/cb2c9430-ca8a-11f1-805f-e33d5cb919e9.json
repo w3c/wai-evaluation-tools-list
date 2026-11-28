@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hello@accessaudit.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Command-line accessibility checks for a page or a site's sitemap: finds problems provable from the HTML, quotes the exact markup responsible, and fails a build only on new findings via a baseline. GPL, PHP, no dependencies. It does not check contrast or screen-reader behaviour and gives no score.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Source code"
+  ],
+  "provider": "Stochastic Technologies",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-16",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T00:28:08.819Z",
+  "submission_ref": "cb2c9430-ca8a-11f1-805f-e33d5cb919e9",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Markproof",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://accessaudit.dev/cli.html"
+}
