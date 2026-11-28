@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "hello@getaltwise.com",
+  "features": "Free automated homepage accessibility snapshot (axe-core) showing the top WCAG 2.2 issues in plain English, with an optional paid report of copy-paste fixes for Wix, Squarespace, WordPress and Shopify. Automated testing finds only some issues; not legal advice.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Altwise",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-23T19:01:27.708Z",
+  "submission_ref": "267ae5c0-cf14-11f1-a296-5d73af0051be",
+  "title": "Altwise free homepage accessibility snapshot",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://getaltwise.com"
+}
