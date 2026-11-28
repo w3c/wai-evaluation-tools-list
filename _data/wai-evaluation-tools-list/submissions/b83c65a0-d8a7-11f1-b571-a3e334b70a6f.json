@@ -1,0 +1,44 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "alex@getsitebrite.com",
+  "features": "Free automated check of one web page for common accessibility problems: missing image descriptions, unlabeled form fields, links and buttons with no text, heading order, missing page language and low contrast. Also runs Google Lighthouse tests, with a plain fix for each problem. No sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SiteBrite",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-04T23:30:28.730Z",
+  "submission_ref": "b83c65a0-d8a7-11f1-b571-a3e334b70a6f",
+  "title": "SiteSpruce Accessibility Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://spruce.sitebrite.app/tools/accessibility-checker/"
+}
