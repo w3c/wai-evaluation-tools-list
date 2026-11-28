@@ -1,0 +1,37 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "calmaraz125@gmail.com",
+  "features": "Explore millions of high-quality primary sources and images from around the world, including artworks, maps, photographs, and more.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ITHAKA",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2004-05-09",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-26T19:01:45.088Z",
+  "submission_ref": "94e16000-a180-11f1-b773-fbeee0916f5a",
+  "title": "JSTOR",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.jstor.org/?"
+}
