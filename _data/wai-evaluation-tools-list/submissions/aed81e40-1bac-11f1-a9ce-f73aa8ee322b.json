@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "This tool was built to address a gap in existing accessibility tooling. Most contrast checkers only report pass or fail results. Smart Color Contrast Checker additionally provides ML-based color suggestions to help designers and developers find accessible alternatives without manual trial and error. A companion Figma plugin is also available at https://www.figma.com/community/plugin/1548100074928472068",
+  "contact": "danishmk1286@gmail.com",
+  "features": "Smart Color Contrast Checker is a free, no-login web tool that checks WCAG color contrast compliance and uses ML-based suggestions to automatically recommend accessible color alternatives when a combination fails. Also available as a Figma plugin for in-workflow use.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Danish Khan",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-11-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-03-09T11:39:50.692Z",
+  "submission_ref": "aed81e40-1bac-11f1-a9ce-f73aa8ee322b",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Smart Color Contrast Assistant",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.thecolorcontrastchecker.com"
+}
