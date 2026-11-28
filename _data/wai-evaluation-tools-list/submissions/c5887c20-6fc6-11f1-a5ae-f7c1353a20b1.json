@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "org@wcagc.com",
+  "features": "wcagc.com is an automated accessibility checker for WCAG 2.1 AA and EN 301 549 (EAA). It scans pages, flags issues with code-level guidance, provides a manual-review checklist, checks PDF accessibility (PDF/UA), and generates accessibility statements. Honest about what automation covers - no overlay.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "ru",
+    "fr",
+    "de"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Document"
+  ],
+  "provider": "Pavel Charkasau",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-24T12:18:13.346Z",
+  "submission_ref": "c5887c20-6fc6-11f1-a5ae-f7c1353a20b1",
+  "technology": [
+    "PDF"
+  ],
+  "title": "wcagc.com",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://wcagc.com"
+}
