@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "The free web checker needs no account. The CLI and MCP server are on npm as @a11yflowdev/cli and @a11yflowdev/mcp.\r\n",
+  "contact": "hello@a11yflow.dev",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "a11yFlow scans web pages for WCAG 2.2 AA issues with axe-core in a real Chromium browser. Use it through a REST API, a command-line tool for CI pipelines, an MCP server for AI coding agents, or a free checker on the website that needs no sign-up. Results include a score, impact levels and plain-language fixes.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "a11yFlow",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-02-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-24T20:59:08.287Z",
+  "submission_ref": "c15380f0-cfed-11f1-b987-b33c5be8bdd2",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "a11yFlow",
+  "type": [
+    "Online tool",
+    "Server-side integration",
+    "Command-line / CI"
+  ],
+  "website": "https://www.a11yflow.dev/accessibility-checker"
+}
