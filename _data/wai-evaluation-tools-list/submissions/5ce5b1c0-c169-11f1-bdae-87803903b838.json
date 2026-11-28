@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "contact@onlinetoolhubs.com",
+  "features": "Enter foreground and background colors with the pickers or hex fields. The calculator reports the WCAG 2.2 contrast ratio and AA/AAA results for normal and large text, with a live preview. It evaluates one color pair at a time; it does not scan a website or certify overall accessibility.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "OnlineToolHubs",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-09-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-06T09:36:09.949Z",
+  "submission_ref": "5ce5b1c0-c169-11f1-bdae-87803903b838",
+  "title": "WCAG 2.2 Color Contrast Ratio Calculator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://onlinetoolhubs.com/tools/color-contrast-checker"
+}
