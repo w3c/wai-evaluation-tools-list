@@ -1,0 +1,62 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "Color inputs and results are processed locally in the browser and are not stored. The tool supports manual review related to WCAG 2.x color-use considerations, but it does not crawl websites, implement ACT Rules, or claim full WCAG conformance. It is not a medical diagnostic or safety-certification tool.",
+  "contact": "founder@colorof.app",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "ColorOf’s free browser-based simulator shows how a three-color palette may appear with protanopia, deuteranopia, tritanopia, and monochromacy. Adjustable severity, ΔE00 comparisons, retained contrast percentages, and automatic conflict flags support manual review of color use in websites and mobile interfaces.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "es",
+    "pt-BR",
+    "fr",
+    "zh-hans",
+    "zh-hant",
+    "ja"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "ColorOf",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-07-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-23T13:00:39.984Z",
+  "submission_ref": "a43b9b00-9ef2-11f1-84ca-8f296f1c8c0a",
+  "title": "Color Blindness Simulator",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorof.app/color-blindness-simulator/"
+}
