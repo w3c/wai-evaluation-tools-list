@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "coolcolortool@gmail.com",
+  "features": "Free online WCAG 2 contrast checker. Enter text and background colors as HEX, RGB, HSL, OKLCH or CSS names to get the contrast ratio and AA/AAA results for normal and large text, with a live preview. Runs in the browser, no sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Other"
+  ],
+  "provider": "CoolColor Space",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-27T07:23:51.917Z",
+  "submission_ref": "5c2309d0-d1d7-11f1-8398-050c3bbab712",
+  "title": "CoolColor Space Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://coolcolor.space/contrast"
+}
