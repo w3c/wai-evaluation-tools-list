@@ -1,0 +1,56 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Rampa is free and open source under the MIT License: https://github.com/guilhermebsantiago/rampa-cli, installed from npm as rampa-cli (the command is rampa). It is an individual project, the author's undergraduate final project.\r\n\r\nWhat does the checking: axe-core 4.14 (Deque, MPL-2.0) makes most of the deterministic checks; Rampa adds its own rules, opt-in browser probes, and optional judgments by a language model the user provides (Ollama or LM Studio locally, or a hosted provider). With --no-llm only the deterministic checks run.\r\n\r\nLimits: Rampa's own rules, every probe, the site-wide criteria, target size (2.5.8) and the cognitive accessibility advisories are experimental. They report below the default threshold, and do not fail a build, until enough of their findings have been reviewed by a person. Model judgments make mistakes: on fresh real pages, 0.38 of the judged findings at the default threshold were correct, by labels that two AI agents wrote and a person has not yet reviewed. Each report says what was checked, what was judged and what a person must review; Rampa never reports that a page is accessible or conforms. Reading Android screens and iOS XCUITest exports exists but has not been tried on real devices, so mobile applications are not listed.\r\n\r\nAn ACT implementation report for Rampa (EARL, rampa-cli 0.1.1 with no model) was submitted as https://github.com/w3c/wcag-act-rules/issues/457; if W3C lists it, the ACT Rules URL will follow by e-mail.",
+  "contact": "guilhermebscontact@gmail.com",
+  "desktop": [
+    "Windows",
+    "Linux"
+  ],
+  "features": "Open-source command-line checker for web pages against WCAG 2.2 Level A and AA. It runs axe-core and its own rules, and can ask a language model, local or hosted, about what rules cannot decide, one criterion at a time; a model claim is kept only if the element and text it cites exist on the page. Many of its checks are experimental.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "pt-BR"
+  ],
+  "license": [
+    "Free",
+    "on",
+    "Open source (MIT License)"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Guilherme Santiago",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-15",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-16T02:11:29.473Z",
+  "submission_ref": "e639cb10-c906-11f1-b5f5-894be16efef4",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Rampa",
+  "type": [
+    "Command-line / CI"
+  ],
+  "website": "https://rampa.guilhermebs.com.br"
+}
