@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Confluence Cloud app on the Atlassian Marketplace. Free for sites of up to 10 users; 30-day trial for larger sites. Same engine as our free online checker, submitted separately.",
+  "contact": "partners@clearwren.com",
+  "features": "Confluence Cloud app that checks pages as they are written and whole spaces: 32 checks across 15 WCAG 2.2 success criteria (alt text, contrast, headings, tables, links, language). Page scores, the pages to fix first, and a dated conformance report published in Confluence. Items that need human judgement are marked for review.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Clearwren",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-11",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-13T15:37:23.489Z",
+  "submission_ref": "fc39d910-c71b-11f1-ae45-0d1ea4e17fc5",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "WCAG & ADA Accessibility Checker for Confluence",
+  "type": [
+    "Programming tool plugin / IDE"
+  ],
+  "website": "https://marketplace.atlassian.com/apps/2203523728/wcag-ada-accessibility-checker-for-confluence?utm_source=w3c&utm_medium=referral&utm_campaign=eval-tools-list"
+}
