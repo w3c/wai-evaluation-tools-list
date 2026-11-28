@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "The tool evaluates subtitle/caption files rather than a full webpage. It is useful for checking WCAG-related caption readability issues such as reading speed, duration and overlaps. It runs in the browser without signup and is free during open beta.",
+  "contact": "support@allsubconverter.com",
+  "features": "Checks subtitle files for timing, overlap, duration, reading-speed, line-length and consistency issues. Supports SRT, VTT, ASS, SSA, LRC and related formats. The browser tool generates a QA report to help creators and translators prepare readable captions before publishing or localization.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "AllSubConverter",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-17T04:09:18.197Z",
+  "submission_ref": "85ed3a50-c9e0-11f1-a604-0fb453c9e92a",
+  "title": "AllSubConverter Subtitle Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.allsubconverter.com/subtitle-checker/"
+}
