@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "social@scanpoof.com",
+  "features": "Scanpoof is an online service that checks web pages against WCAG 2.1 and 2.2 Level AA, reports each issue by page and success criterion with suggested code fixes, and keeps dated, VPAT-style reports to track progress. Automated checks cover part of WCAG; manual testing is still needed.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    ""
+  ],
+  "license": [
+    "Time-limited trial",
+    "on",
+    "Commercial"
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Scanpoof",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-01-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-24T05:05:27.987Z",
+  "submission_ref": "875ea030-cf68-11f1-9edb-030000913f31",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Scanpoof",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://scanpoof.com"
+}
