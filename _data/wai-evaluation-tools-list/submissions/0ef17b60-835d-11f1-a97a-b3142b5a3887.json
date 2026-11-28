@@ -1,0 +1,50 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hello@curbcut.app",
+  "features": "Curbcut is a free online website accessibility checker. It scans your site against WCAG 2.1/2.2 AA and turns violations into a prioritised, plain-English fix list: the exact element, the rule it breaks, and how to fix it. No overlay, no sign-up.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Curbcut",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-07-19T10:31:53.110Z",
+  "submission_ref": "0ef17b60-835d-11f1-a97a-b3142b5a3887",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Curbcut",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://curbcut.app"
+}
