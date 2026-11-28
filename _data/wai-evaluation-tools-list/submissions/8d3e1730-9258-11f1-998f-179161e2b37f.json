@@ -1,0 +1,75 @@
+{
+  "a11yloc": "https://inclaria.com/en/legal/accessibilite",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "browsers": [
+    "Chrome",
+    "Safari",
+    "Edge",
+    "Firefox"
+  ],
+  "cf-turnstile-response": "1.M3y44lzra2GlkNyewlir7_ZHLROMB54xMVuBhZS_qFNH4O7ZmZEMKsq8LVABcqsA2wW8Qa3thWQ00Fmb7xSvWZCZlmwayad-1fWe9HRcVtyE3gLfXdTAIAsViJtLIi8u3ihZtguPZ-G2oQLxU1X2oOr9hZEpJCOlQOJ4eFPWhRyB8hvS0nfFfaayagIASCbFeQMyhhlxhFmv1qEbDeLnuZE79lLnJv71VBsFUHjmj2hIbzH8V3PcOBtFIk1yhAluWlgLrfKpzOWZc4YD34wPGVkfiKGxLT5dZrLvZW_nAfMQlI1pE9oFmGEmTPKW18rqs4QSZ32N9uwg9A5Rv_zdsGjvgylXRGNLVbLw6XzvYIoZdlRyG8_kxyrNV3zeP4Gj32FWYzlh0EgR2-nHagqOI7fcE0366L7-48Lu_JwE0qFtCgWhCj2E8RtG_gkZ6VHd118Nvmw8TGYZeKhFwI_2lk-8ByKePyby1pvKpcZJIVh_TueNKpSCFVGTzpyIurk6NdHuhCgN1ViLYhy0IjycY9ziqKzXSEz-wQN1FHFY75sOJY6aBsdNwcVOjFZm-RNbDVmTTh4On77gYS7TEZ1dUAzLThHE8JRfcaHEG6hLZjELd5zuse6_QamTDDNY0jYW6Fjwg0g67kECagGEH8uPf7VfVQXezBN7fnC7bn4f5lQ.7ZBJOeKIu_NMMedeAKDhHg.e36a406cbc6da9424b053e8f46ae466f4e05f5d56e7d9301be7cdddb9441ef20",
+  "comments": "",
+  "contact": "contact@inclaria.com",
+  "desktop": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Inclaria scans a website against WCAG 2.2 level AA with the axe-core engine, following the EN 301 549 method. It crawls many pages at once, reports every issue with its location and how to fix it, re-scans on a schedule to catch regressions, and generates a ready to publish accessibility statement. Available in 8 languages.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "it",
+    "nl",
+    "pl",
+    "pt"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Inclaria",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-13",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-07T12:07:24.963Z",
+  "submission_ref": "8d3e1730-9258-11f1-998f-179161e2b37f",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Inclaria",
+  "type": [
+    "Online tool",
+    "Server-side integration"
+  ],
+  "website": "https://inclaria.com"
+}
