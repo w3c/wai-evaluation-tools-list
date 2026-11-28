@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://gotalt.com/accessibility/",
+  "actrules": "",
+  "assists": [
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "hello@gotalt.com",
+  "features": "Free WCAG color contrast checker. Enter two colors, including colors with transparency, or pick them with an eyedropper, and see the ratio against the WCAG 2.2 AA and AAA thresholds, with the nearest passing color suggested. Runs entirely in your browser.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "GotAlt",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-10",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T00:50:03.084Z",
+  "submission_ref": "843080c0-cdb2-11f1-a9a5-ed009ecfebfb",
+  "technology": [
+    "CSS"
+  ],
+  "title": "GotAlt Color Contrast Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://gotalt.com/tools/contrast-checker/"
+}
