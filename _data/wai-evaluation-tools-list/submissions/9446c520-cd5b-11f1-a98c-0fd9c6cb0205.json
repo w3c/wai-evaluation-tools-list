@@ -1,0 +1,43 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Displaying information within web pages",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Component",
+    "Single page/screen"
+  ],
+  "comments": "The submitted URL is the site’s types-of-color-blindness guide and worksheet, which links to the browser simulator at https://colorvisionsimulator.com/. The simulator supports manual design review of images and interface screenshots. It does not diagnose color vision deficiency or certify WCAG conformance.",
+  "contact": "contact@colorblindnesssimulator.com",
+  "features": "an open browser-based color blindness simulator covering protan deutan and tritan views, used for checking charts, signs and interface readability",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ColorVisionSimulator.com ｜ an open browser-based color blindness simulator covering protan deutan and tritan views, used for checking charts, signs and interface readability",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-09-22",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-21T14:27:43.858Z",
+  "submission_ref": "9446c520-cd5b-11f1-a98c-0fd9c6cb0205",
+  "title": "ColorVisionSimulator.com",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://colorvisionsimulator.com/guides/types-of-color-blindness"
+}
