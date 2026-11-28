@@ -1,0 +1,52 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "hi@sitejar.app",
+  "features": "Prove your site is compliant. Not just accessible.\r\n\r\nOne scan, six dimensions (accessibility, security, privacy, deceptive design, technical quality and SEO) mapped clause by clause to the instruments your auditors actually cite. Accessibility-only checkers stop at one.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Sitejar",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-01",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-13T20:40:07.078Z",
+  "submission_ref": "2b5ed460-9757-11f1-b004-218cbf47a2db",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "Sitejar",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://sitejar.app"
+}
