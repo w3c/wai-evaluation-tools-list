@@ -1,0 +1,38 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "automated": [
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "abc125841442@gmail.com",
+  "features": "Instagram Downloader makes it easier to save public Instagram Reels, videos, photos, carousels, and Stories without complicated software or a steep learning curve.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AI Aure",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-12",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-12T03:49:14.189Z",
+  "submission_ref": "e4376fd0-c5ef-11f1-8644-9bd54c1ee880",
+  "title": "Instagram Downloader",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://instagramdownloader.co/"
+}
