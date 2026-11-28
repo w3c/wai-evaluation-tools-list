@@ -1,0 +1,40 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "",
+  "contact": "cueparcel-jfo@clawmail.me",
+  "features": "Check an SRT or WebVTT caption file in your browser before publishing a video. CueParcel flags overlapping cues, timing errors and fast reading speeds, and identifies the affected lines for review. Caption text stays on your device. A reviewer still needs to compare the captions with the audio.",
+  "form_name": "submission",
+  "form_version": "1",
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Document"
+  ],
+  "provider": "CueParcel",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T07:04:01.770Z",
+  "submission_ref": "e3f904a0-eaf9-11f1-bfdb-19fae050ea2b",
+  "title": "CueParcel Caption Checker",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://cueparcel.deed.page/"
+}
