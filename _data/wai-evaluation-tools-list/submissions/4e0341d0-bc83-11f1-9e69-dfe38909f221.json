@@ -1,0 +1,55 @@
+{
+  "a11yloc": "https://accessifyai.de/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Restricted or password protected pages"
+  ],
+  "comments": "Shopify app. It tests part of WCAG 2.2 A and AA (15 of the 55 success criteria, several only in part) with its own rule set, and the app lists the tested criteria next to the score. The free scanner on accessifyai.de checks one page; the app scans a sample of storefront pages, including password-protected storefronts. An optional toolbar for shoppers is a separate add-on and does not change theme code.",
+  "contact": "support@accessifyai.de",
+  "features": "AccessifyAI is a Shopify app that scans a store against 15 of the 55 WCAG 2.2 Level A and AA success criteria with its own rule set. It lists each issue with page, criterion and theme file, ranks what to fix first, rescans on a schedule and drafts alt text for review. Automated checks cover only part of WCAG.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en",
+    "de",
+    "pl",
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Time-limited trial",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "ENSOMEDIA",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-03-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-30T03:59:16.077Z",
+  "submission_ref": "4e0341d0-bc83-11f1-9e69-dfe38909f221",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessifyAI",
+  "type": [
+    "Online tool",
+    "CMS plugin"
+  ],
+  "website": "https://accessifyai.de"
+}
