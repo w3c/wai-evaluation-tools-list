@@ -1,0 +1,64 @@
+{
+  "a11yloc": "https://complaudax.com/accessibility-statement",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Restricted or password protected pages"
+  ],
+  "browsers": [
+    "Chrome",
+    "Firefox"
+  ],
+  "comments": "Complaudax runs the audit inside the user's authenticated browser session, which lets it evaluate pages a server-side crawler cannot reach, such as logged-in areas, checkout flows, and staging environments. Detection uses axe-core, bundled unmodified. Automated testing covers part of WCAG; the product pairs it with a manual checklist for the rest.",
+  "contact": "contact@demtiliworks.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "Complaudax is a Chrome extension and SaaS platform that audits web pages for WCAG 2.1 and 2.2 Level AA using axe-core. It runs inside your browser session, so it can check pages behind a login, checkout flows, and staging sites. It tracks issues per client over time and generates conformance reports and accessibility statements. (338 caractères)",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "DemtiliWorks.com",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-21T21:59:15.845Z",
+  "submission_ref": "8d292b50-9dab-11f1-8c7a-ebed54f72d51",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Complaudax",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://complaudax.com"
+}
