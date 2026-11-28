@@ -1,0 +1,48 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Component"
+  ],
+  "comments": "Submitted by the maker. Free, no sign-up, and it runs entirely in the browser: nothing is uploaded. Results export as CSV, Markdown or JSON.",
+  "contact": "hello@maniruzzamanjubayer.com",
+  "features": "Paste a palette (hex, CSS variables or a Tailwind config) and every text and background pair is scored against WCAG 2.2 contrast thresholds for normal text, large text and UI components. Shows each pair in sample UI, suggests the nearest passing colour in the same hue, and simulates protanopia, deuteranopia, tritanopia and achromatopsia.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website",
+    "Mobile application"
+  ],
+  "provider": "Maniruzzaman Jubayer",
+  "publish-permission": "on",
+  "purpose": [
+    "Manual testing",
+    "Simulated user experience"
+  ],
+  "readterms": "on",
+  "release": "2026-10-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T16:16:43.104Z",
+  "submission_ref": "4ebb4600-cb0f-11f1-b8f8-09c344b573d0",
+  "technology": [
+    "CSS"
+  ],
+  "title": "Colour contrast grid",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://maniruzzamanjubayer.com/tools/color-contrast-grid"
+}
