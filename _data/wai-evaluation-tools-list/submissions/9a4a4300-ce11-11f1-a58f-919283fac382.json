@@ -1,0 +1,51 @@
+{
+  "a11yloc": "https://accesslytix.de/barrierefreiheit",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "kontakt@accesslytix.de",
+  "features": "Online service testing websites against WCAG 2.1 Level AA, the technical basis of the German BFSG. Besides automated rule checks it operates pages like a user (keyboard walk-through, menus, select boxes) and compares several pages. Every finding is explained in plain German with a fix. Reports with screenshots, per-criterion coverage, PDF export.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "de"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessLytix (Wolfgang Lämmle), Germany",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-10-18",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-22T12:10:42.352Z",
+  "submission_ref": "9a4a4300-ce11-11f1-a58f-919283fac382",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "AccessLytix",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://accesslytix.de/?ref=verzeichnis-w3c"
+}
