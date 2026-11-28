@@ -1,0 +1,48 @@
+{
+  "a11yloc": "https://scandiary.com/accessibility",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Sample of pages/screens"
+  ],
+  "comments": "Independent one-person project. The tool scans pages and reports; it does not modify content and issues no conformance verdict. A real, unedited output of the scanner is published at https://scandiary.com/sample-report. The accessibility statement lists what our own scan measures on our site and what has not been tested, including twelve results the checker could not decide. No ACT implementation report yet, so that field is left empty rather than filled with a guess.",
+  "contact": "hello@scandiary.com",
+  "features": "Weekly WCAG 2.1 AA scan of the same pages with axe-core. The dated report shows what is new, increased, decreased, and no longer detected since the last scan. Automated checks find roughly a third of accessibility problems; it gives no compliance verdict. Five pages free.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Scandiary",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-07-23",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-12T17:15:29.678Z",
+  "submission_ref": "6b0e82e0-9671-11f1-b9fc-b52ea53f69b1",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Scandiary",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://scandiary.com"
+}
