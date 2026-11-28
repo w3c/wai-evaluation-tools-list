@@ -1,0 +1,59 @@
+{
+  "a11yloc": "",
+  "actrules": "https://kogiqa.com/accessibilityCheck/ACTRules/",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Entire website / software / product",
+    "Restricted or password protected pages"
+  ],
+  "comments": "",
+  "contact": "support@atagon.com",
+  "desktop": [
+    "Windows",
+    "MacOS",
+    "Linux"
+  ],
+  "features": "kogiQA is a UI automation tool designed to replace Playwright. It works without selectors, using a semantic algorithm instead, so you can simply write page.type(\"Name\", \"Maria\") or page.click(\"Login\"). \r\n\r\nIt reduces maintenance and includes a built-in accessibility checker that validates pages, providing detailed fix instructions for any failures.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    "Subscription",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "atagon GmbH",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2025-10-02",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-01-10T15:33:30.366Z",
+  "submission_ref": "b74319e0-ee39-11f0-aba7-41e805ef826f",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "kogiQA",
+  "type": [
+    "Desktop application",
+    "Online tool"
+  ],
+  "website": "https://kogiQA.com"
+}
