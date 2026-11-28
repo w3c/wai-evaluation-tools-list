@@ -1,0 +1,53 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens",
+    "Entire website / software / product"
+  ],
+  "comments": "",
+  "contact": "contact@odeet.fr",
+  "features": "Automated WCAG and RGAA pre-audit for web agencies. Scans each page on desktop and mobile, ranks issues by priority, explains fixes in plain language and exports a branded PDF and Excel report. Free single-page test without an account.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en",
+    "fr"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "Odeet",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-06-29",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-10-18T15:10:25.554Z",
+  "submission_ref": "0bed4f20-cb06-11f1-85ae-e37899394049",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Odeet",
+  "type": [
+    "Online tool",
+    "Command-line / CI"
+  ],
+  "website": "https://odeet.fr/en"
+}
