@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Displaying information within web pages",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "anjalyrose@mozilor.com",
+  "features": "Free Chrome extension that instantly checks any webpage for accessibility issues, no sign-in needed. Test WCAG 2.0/2.1/2.2 compliance across all conformance levels, check color contrast, alt text, landmarks, heading structure, and focus order, run disability simulations, and export a full PDF report. Zero data collection.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2",
+    "WCAG 2.1",
+    "WCAG 2.0"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "WebYes",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-30",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-06-17T07:15:05.565Z",
+  "submission_ref": "43e118d0-6a1c-11f1-9de6-19bd8174957d",
+  "title": "Accessibility Checker by WebYes",
+  "type": [
+    "Browser plugin"
+  ],
+  "website": "https://www.webyes.com/"
+}
