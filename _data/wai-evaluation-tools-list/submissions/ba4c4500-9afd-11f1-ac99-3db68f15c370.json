@@ -1,0 +1,49 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "post@ki-agenten.dev",
+  "features": "Free online tool that scans websites against WCAG 2.2 AA guidelines. Checks desktop (1280x1024) and mobile (375x812) viewports. Generates a detailed accessibility report sent by email. Covers contrast ratios, missing Alt-Texts, ARIA roles, semantic HTML structure, form labels, and heading hierarchy.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "de",
+    ""
+  ],
+  "license": [
+    "Free",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "SCM Creative Management",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-08-18T12:09:56.816Z",
+  "submission_ref": "ba4c4500-9afd-11f1-ac99-3db68f15c370",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Barrierefreiheits-Check",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://ki-agenten.dev/barrierefreiheit-check.html"
+}
