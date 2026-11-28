@@ -1,0 +1,52 @@
+{
+  "a11yloc": "https://pasaluz.es/accesibilidad",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score",
+    "Providing step-by-step evaluation guidance"
+  ],
+  "automated": [
+    "Single page/screen",
+    "Sample of pages/screens"
+  ],
+  "comments": "",
+  "contact": "hola@pasaluz.es",
+  "features": "Pasaluz checks websites against WCAG 2.1 level AA (the reference of EN 301 549) and turns the results into a prioritised fix plan in plain Spanish, on screen and as a PDF report, with month-to-month tracking. It combines axe-core with its own checks (keyboard, zoom, text alternatives) and adds a guided manual review checklist.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "es"
+  ],
+  "license": [
+    "Subscription",
+    "One-time purchase",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "K1NSolutions",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing",
+    "Manual testing"
+  ],
+  "readterms": "on",
+  "release": "2026-11-28",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-11-28T11:45:48.399Z",
+  "submission_ref": "411bdff0-eb21-11f1-a6e7-fd729e622014",
+  "technology": [
+    "HTML / XHTML",
+    "CSS"
+  ],
+  "title": "Pasaluz",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://pasaluz.es"
+}
