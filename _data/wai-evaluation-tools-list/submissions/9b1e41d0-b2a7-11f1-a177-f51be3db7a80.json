@@ -1,0 +1,47 @@
+{
+  "a11yloc": "",
+  "actrules": "",
+  "assists": [
+    "Generating reports of evaluation results",
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "",
+  "contact": "hello@eaaradar.com",
+  "features": "AccessRadar checks a web page against WCAG 2.1 A and AA and returns a score, every failure with the offending markup, and a before/after fix for each one. Pages can be re-checked automatically every day, with an email alert when a new failure appears. No overlay or widget is installed on the tested site.\r\n",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.1"
+  ],
+  "language": [
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "AccessRadar",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-08-17",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-17T14:53:55.694Z",
+  "submission_ref": "9b1e41d0-b2a7-11f1-a177-f51be3db7a80",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "AccessRadar",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://www.eaaradar.com"
+}
