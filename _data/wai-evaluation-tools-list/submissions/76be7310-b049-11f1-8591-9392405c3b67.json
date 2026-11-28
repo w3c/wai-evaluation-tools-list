@@ -1,0 +1,47 @@
+{
+  "a11yloc": "https://avstudio.ai/accessibility",
+  "actrules": "",
+  "assists": [
+    "Creating an accessibility score"
+  ],
+  "automated": [
+    "Single page/screen"
+  ],
+  "comments": "This is a pre-screen, not a full conformance evaluation. It runs 7 automated checks on a single page and is explicit with users that automated testing cannot establish WCAG conformance on its own.",
+  "contact": "info@avstudio.ai",
+  "features": "Free online pre-screen that checks a web page against 7 automated WCAG 2.2 AA criteria: image alt text, html lang attribute, single H1, heading order, visible focus indicator, button labels and form input labels. Returns a score and the list of issues found. Italian interface. Part of a wider website audit.",
+  "form_name": "submission",
+  "form_version": "1",
+  "guideline": [
+    "WCAG 2.2"
+  ],
+  "language": [
+    "it",
+    "en"
+  ],
+  "license": [
+    "Limited free functionality",
+    ""
+  ],
+  "product": [
+    "Website"
+  ],
+  "provider": "avstudio",
+  "publish-permission": "on",
+  "purpose": [
+    "Automated testing"
+  ],
+  "readterms": "on",
+  "release": "2026-05-19",
+  "repository": "wai-evaluation-tools-list",
+  "submission_date": "2026-09-14T14:34:59.649Z",
+  "submission_ref": "76be7310-b049-11f1-8591-9392405c3b67",
+  "technology": [
+    "HTML / XHTML"
+  ],
+  "title": "avstudio accessibility pre-screen",
+  "type": [
+    "Online tool"
+  ],
+  "website": "https://avstudio.ai/audit-sito-web/"
+}
